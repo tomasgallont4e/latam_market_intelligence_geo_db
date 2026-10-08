@@ -26,7 +26,7 @@
   var GROUPS = {
     dept: { label: 'Departamentos', api: 'api/map/departments', personaAware: true, placeLabel: 'departamentos' },
     city: { label: 'Ciudades', api: 'api/map/municipalities', personaAware: true, placeLabel: 'ciudades' },
-    bog: { label: 'Bogotá por localidad', api: 'api/map/localidades', personaAware: false, placeLabel: 'localidades' }
+    bog: { label: 'Ciudades por zona', api: 'api/map/localidades', personaAware: true, placeLabel: 'zonas' }
   };
   var GROUP_ORDER = ['dept', 'city', 'bog'];
 
@@ -194,9 +194,9 @@
   function renderPersonaNote() {
     var note = $('#persona-note');
     if (!note) return;
-    if (S.group === 'bog') {
-      note.className = 'persona-note warn';
-      note.innerHTML = '<b>filtro por persona no disponible en esta capa</b> — se muestra el total de EM 2021 (no está desglosada por persona).';
+    if (S.group === 'bog' && S.persona) {
+      note.className = 'persona-note';
+      note.innerHTML = 'Las zonas muestran solo <b>' + esc(S.persona) + '</b> (Bogotá, Encuesta Multipropósito 2021).';
     } else if (S.persona) {
       note.className = 'persona-note';
       note.innerHTML = 'Las capas de personas de Departamentos y Ciudades muestran solo <b>' + esc(S.persona) + '</b>.';
@@ -212,10 +212,11 @@
     renderPersonaNote();
     var seq = ++S.seq;
     setLoading(true);
-    Promise.all([api(dataUrl('dept')), api(dataUrl('city'))]).then(function (res) {
+    Promise.all([api(dataUrl('dept')), api(dataUrl('city')), api(dataUrl('bog'))]).then(function (res) {
       if (!S || seq !== S.seq) return;
       S.data.dept = res[0];
       S.data.city = res[1];
+      S.data.bog = res[2];
       renderLayerOptions();
       draw(false);
     }).catch(function (err) {
@@ -466,7 +467,7 @@
     var el = $('#map-geo-note');
     if (!el) return;
     var txt = '';
-    if (S.group === 'bog') txt = 'Medellín (21 comunas) no tiene geometría y no se dibuja. BOG-00 (Sin localidad) queda fuera del mapa.';
+    if (S.group === 'bog') txt = 'Zonas con límites oficiales: localidades de Bogotá (Sumapaz, rural, no se dibuja). Las comunas de Medellín aparecen cuando se carguen sus límites. Personas por zona: solo Bogotá. BOG-00 (Sin localidad) queda fuera del mapa.';
     else if (S.group === 'city') txt = 'El municipio 27493 (sin punto) y "Rest of the country" no se dibujan.';
     if (txt) { el.textContent = txt; el.hidden = false; } else { el.hidden = true; el.textContent = ''; }
   }
@@ -526,8 +527,8 @@
         html += '<p class="legend-note" style="margin-top:4px">Sin eventos registrados.</p>';
       }
     }
-    if (S.group === 'bog') {
-      html += '<p class="legend-note">filtro por persona no disponible en esta capa</p>';
+    if (S.group === 'bog' && r.municipality_code && r.municipality_code !== '11001') {
+      html += '<p class="legend-note">Personas por zona: por ahora solo Bogotá (Encuesta Multipropósito 2021).</p>';
     }
 
     html += '<div class="place-actions">' +

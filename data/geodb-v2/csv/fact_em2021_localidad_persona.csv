@@ -1,0 +1,259 @@
+zone_id,localidad,persona,employed
+BOG-11,Suba,Accountants and auditors,13723
+BOG-11,Suba,Business and management analysts,8441
+BOG-11,Suba,Business and operations managers,23583
+BOG-11,Suba,"Data, statistics and research specialists",1969
+BOG-11,Suba,"Database, systems and network professionals",2315
+BOG-11,Suba,"Designers (graphic, multimedia, product)",6644
+BOG-11,Suba,Engineers (non-ICT),17358
+BOG-11,Suba,Finance and investment analysts,3479
+BOG-11,Suba,Higher-education and IT educators,4237
+BOG-11,Suba,ICT managers,904
+BOG-11,Suba,ICT technicians and user support,3989
+BOG-11,Suba,Marketing and advertising professionals,5152
+BOG-11,Suba,Software developers and analysts,13067
+BOG-01,Usaquén,Accountants and auditors,8030
+BOG-01,Usaquén,Business and management analysts,5256
+BOG-01,Usaquén,Business and operations managers,15761
+BOG-01,Usaquén,"Data, statistics and research specialists",1348
+BOG-01,Usaquén,"Database, systems and network professionals",909
+BOG-01,Usaquén,"Designers (graphic, multimedia, product)",4102
+BOG-01,Usaquén,Engineers (non-ICT),11026
+BOG-01,Usaquén,Finance and investment analysts,2316
+BOG-01,Usaquén,Higher-education and IT educators,4282
+BOG-01,Usaquén,ICT managers,304
+BOG-01,Usaquén,ICT technicians and user support,941
+BOG-01,Usaquén,Marketing and advertising professionals,4794
+BOG-01,Usaquén,Software developers and analysts,8320
+BOG-10,Engativá,Accountants and auditors,9082
+BOG-10,Engativá,Business and management analysts,5042
+BOG-10,Engativá,Business and operations managers,13869
+BOG-10,Engativá,"Data, statistics and research specialists",702
+BOG-10,Engativá,"Database, systems and network professionals",849
+BOG-10,Engativá,"Designers (graphic, multimedia, product)",4662
+BOG-10,Engativá,Engineers (non-ICT),6586
+BOG-10,Engativá,Finance and investment analysts,2052
+BOG-10,Engativá,Higher-education and IT educators,2620
+BOG-10,Engativá,ICT managers,567
+BOG-10,Engativá,ICT technicians and user support,2780
+BOG-10,Engativá,Marketing and advertising professionals,3148
+BOG-10,Engativá,Software developers and analysts,8067
+BOG-08,Kennedy,Accountants and auditors,10171
+BOG-08,Kennedy,Business and management analysts,3845
+BOG-08,Kennedy,Business and operations managers,13088
+BOG-08,Kennedy,"Data, statistics and research specialists",601
+BOG-08,Kennedy,"Database, systems and network professionals",708
+BOG-08,Kennedy,"Designers (graphic, multimedia, product)",3389
+BOG-08,Kennedy,Engineers (non-ICT),8321
+BOG-08,Kennedy,Finance and investment analysts,2657
+BOG-08,Kennedy,Higher-education and IT educators,2214
+BOG-08,Kennedy,ICT managers,496
+BOG-08,Kennedy,ICT technicians and user support,3250
+BOG-08,Kennedy,Marketing and advertising professionals,3295
+BOG-08,Kennedy,Software developers and analysts,7506
+BOG-09,Fontibón,Accountants and auditors,5922
+BOG-09,Fontibón,Business and management analysts,2466
+BOG-09,Fontibón,Business and operations managers,7588
+BOG-09,Fontibón,"Data, statistics and research specialists",545
+BOG-09,Fontibón,"Database, systems and network professionals",468
+BOG-09,Fontibón,"Designers (graphic, multimedia, product)",1536
+BOG-09,Fontibón,Engineers (non-ICT),5013
+BOG-09,Fontibón,Finance and investment analysts,1444
+BOG-09,Fontibón,Higher-education and IT educators,1615
+BOG-09,Fontibón,ICT managers,97
+BOG-09,Fontibón,ICT technicians and user support,1094
+BOG-09,Fontibón,Marketing and advertising professionals,1776
+BOG-09,Fontibón,Software developers and analysts,4235
+BOG-02,Chapinero,Accountants and auditors,1932
+BOG-02,Chapinero,Business and management analysts,1671
+BOG-02,Chapinero,Business and operations managers,7845
+BOG-02,Chapinero,"Data, statistics and research specialists",763
+BOG-02,Chapinero,"Database, systems and network professionals",259
+BOG-02,Chapinero,"Designers (graphic, multimedia, product)",1962
+BOG-02,Chapinero,Engineers (non-ICT),3743
+BOG-02,Chapinero,Finance and investment analysts,985
+BOG-02,Chapinero,Higher-education and IT educators,2460
+BOG-02,Chapinero,ICT managers,293
+BOG-02,Chapinero,ICT technicians and user support,708
+BOG-02,Chapinero,Marketing and advertising professionals,1724
+BOG-02,Chapinero,Software developers and analysts,3096
+BOG-13,Teusaquillo,Accountants and auditors,2568
+BOG-13,Teusaquillo,Business and management analysts,2058
+BOG-13,Teusaquillo,Business and operations managers,5270
+BOG-13,Teusaquillo,"Data, statistics and research specialists",853
+BOG-13,Teusaquillo,"Database, systems and network professionals",348
+BOG-13,Teusaquillo,"Designers (graphic, multimedia, product)",1590
+BOG-13,Teusaquillo,Engineers (non-ICT),3245
+BOG-13,Teusaquillo,Finance and investment analysts,835
+BOG-13,Teusaquillo,Higher-education and IT educators,3612
+BOG-13,Teusaquillo,ICT managers,253
+BOG-13,Teusaquillo,ICT technicians and user support,446
+BOG-13,Teusaquillo,Marketing and advertising professionals,1366
+BOG-13,Teusaquillo,Software developers and analysts,2718
+BOG-07,Bosa,Accountants and auditors,3157
+BOG-07,Bosa,Business and management analysts,2229
+BOG-07,Bosa,Business and operations managers,5198
+BOG-07,Bosa,"Data, statistics and research specialists",200
+BOG-07,Bosa,"Database, systems and network professionals",423
+BOG-07,Bosa,"Designers (graphic, multimedia, product)",1666
+BOG-07,Bosa,Engineers (non-ICT),3283
+BOG-07,Bosa,Finance and investment analysts,758
+BOG-07,Bosa,Higher-education and IT educators,949
+BOG-07,Bosa,ICT managers,228
+BOG-07,Bosa,ICT technicians and user support,1676
+BOG-07,Bosa,Marketing and advertising professionals,1566
+BOG-07,Bosa,Software developers and analysts,3606
+BOG-19,Ciudad Bolívar,Accountants and auditors,3111
+BOG-19,Ciudad Bolívar,Business and management analysts,1894
+BOG-19,Ciudad Bolívar,Business and operations managers,4534
+BOG-19,Ciudad Bolívar,"Data, statistics and research specialists",182
+BOG-19,Ciudad Bolívar,"Database, systems and network professionals",518
+BOG-19,Ciudad Bolívar,"Designers (graphic, multimedia, product)",1504
+BOG-19,Ciudad Bolívar,Engineers (non-ICT),2723
+BOG-19,Ciudad Bolívar,Finance and investment analysts,496
+BOG-19,Ciudad Bolívar,Higher-education and IT educators,864
+BOG-19,Ciudad Bolívar,ICT managers,56
+BOG-19,Ciudad Bolívar,ICT technicians and user support,1316
+BOG-19,Ciudad Bolívar,Marketing and advertising professionals,1237
+BOG-19,Ciudad Bolívar,Software developers and analysts,2320
+BOG-16,Puente Aranda,Accountants and auditors,2401
+BOG-16,Puente Aranda,Business and management analysts,1238
+BOG-16,Puente Aranda,Business and operations managers,3578
+BOG-16,Puente Aranda,"Data, statistics and research specialists",391
+BOG-16,Puente Aranda,"Database, systems and network professionals",254
+BOG-16,Puente Aranda,"Designers (graphic, multimedia, product)",1416
+BOG-16,Puente Aranda,Engineers (non-ICT),2306
+BOG-16,Puente Aranda,Finance and investment analysts,690
+BOG-16,Puente Aranda,Higher-education and IT educators,841
+BOG-16,Puente Aranda,ICT managers,89
+BOG-16,Puente Aranda,ICT technicians and user support,1022
+BOG-16,Puente Aranda,Marketing and advertising professionals,775
+BOG-16,Puente Aranda,Software developers and analysts,2087
+BOG-18,Rafael Uribe Uribe,Accountants and auditors,2220
+BOG-18,Rafael Uribe Uribe,Business and management analysts,1067
+BOG-18,Rafael Uribe Uribe,Business and operations managers,3428
+BOG-18,Rafael Uribe Uribe,"Data, statistics and research specialists",209
+BOG-18,Rafael Uribe Uribe,"Database, systems and network professionals",369
+BOG-18,Rafael Uribe Uribe,"Designers (graphic, multimedia, product)",1702
+BOG-18,Rafael Uribe Uribe,Engineers (non-ICT),2070
+BOG-18,Rafael Uribe Uribe,Finance and investment analysts,548
+BOG-18,Rafael Uribe Uribe,Higher-education and IT educators,598
+BOG-18,Rafael Uribe Uribe,ICT managers,82
+BOG-18,Rafael Uribe Uribe,ICT technicians and user support,1099
+BOG-18,Rafael Uribe Uribe,Marketing and advertising professionals,868
+BOG-18,Rafael Uribe Uribe,Software developers and analysts,2014
+BOG-04,San Cristóbal,Accountants and auditors,2158
+BOG-04,San Cristóbal,Business and management analysts,1200
+BOG-04,San Cristóbal,Business and operations managers,3219
+BOG-04,San Cristóbal,"Data, statistics and research specialists",149
+BOG-04,San Cristóbal,"Database, systems and network professionals",312
+BOG-04,San Cristóbal,"Designers (graphic, multimedia, product)",1182
+BOG-04,San Cristóbal,Engineers (non-ICT),1837
+BOG-04,San Cristóbal,Finance and investment analysts,481
+BOG-04,San Cristóbal,Higher-education and IT educators,674
+BOG-04,San Cristóbal,ICT managers,56
+BOG-04,San Cristóbal,ICT technicians and user support,805
+BOG-04,San Cristóbal,Marketing and advertising professionals,857
+BOG-04,San Cristóbal,Software developers and analysts,1700
+BOG-12,Barrios Unidos,Accountants and auditors,2225
+BOG-12,Barrios Unidos,Business and management analysts,1198
+BOG-12,Barrios Unidos,Business and operations managers,1870
+BOG-12,Barrios Unidos,"Data, statistics and research specialists",249
+BOG-12,Barrios Unidos,"Database, systems and network professionals",361
+BOG-12,Barrios Unidos,"Designers (graphic, multimedia, product)",1194
+BOG-12,Barrios Unidos,Engineers (non-ICT),1824
+BOG-12,Barrios Unidos,Finance and investment analysts,485
+BOG-12,Barrios Unidos,Higher-education and IT educators,1133
+BOG-12,Barrios Unidos,ICT managers,18
+BOG-12,Barrios Unidos,ICT technicians and user support,598
+BOG-12,Barrios Unidos,Marketing and advertising professionals,985
+BOG-12,Barrios Unidos,Software developers and analysts,2476
+BOG-05,Usme,Accountants and auditors,1117
+BOG-05,Usme,Business and management analysts,451
+BOG-05,Usme,Business and operations managers,2659
+BOG-05,Usme,"Data, statistics and research specialists",120
+BOG-05,Usme,"Database, systems and network professionals",140
+BOG-05,Usme,"Designers (graphic, multimedia, product)",890
+BOG-05,Usme,Engineers (non-ICT),1307
+BOG-05,Usme,Finance and investment analysts,463
+BOG-05,Usme,Higher-education and IT educators,351
+BOG-05,Usme,ICT managers,66
+BOG-05,Usme,ICT technicians and user support,842
+BOG-05,Usme,Marketing and advertising professionals,487
+BOG-05,Usme,Software developers and analysts,1576
+BOG-06,Tunjuelito,Accountants and auditors,1066
+BOG-06,Tunjuelito,Business and management analysts,896
+BOG-06,Tunjuelito,Business and operations managers,1842
+BOG-06,Tunjuelito,"Data, statistics and research specialists",261
+BOG-06,Tunjuelito,"Database, systems and network professionals",239
+BOG-06,Tunjuelito,"Designers (graphic, multimedia, product)",997
+BOG-06,Tunjuelito,Engineers (non-ICT),659
+BOG-06,Tunjuelito,Finance and investment analysts,239
+BOG-06,Tunjuelito,Higher-education and IT educators,112
+BOG-06,Tunjuelito,ICT managers,13
+BOG-06,Tunjuelito,ICT technicians and user support,638
+BOG-06,Tunjuelito,Marketing and advertising professionals,811
+BOG-06,Tunjuelito,Software developers and analysts,940
+BOG-03,Santa Fe,Accountants and auditors,786
+BOG-03,Santa Fe,Business and management analysts,649
+BOG-03,Santa Fe,Business and operations managers,1341
+BOG-03,Santa Fe,"Data, statistics and research specialists",230
+BOG-03,Santa Fe,"Database, systems and network professionals",112
+BOG-03,Santa Fe,"Designers (graphic, multimedia, product)",541
+BOG-03,Santa Fe,Engineers (non-ICT),855
+BOG-03,Santa Fe,Finance and investment analysts,192
+BOG-03,Santa Fe,Higher-education and IT educators,863
+BOG-03,Santa Fe,ICT managers,47
+BOG-03,Santa Fe,ICT technicians and user support,256
+BOG-03,Santa Fe,Marketing and advertising professionals,355
+BOG-03,Santa Fe,Software developers and analysts,929
+BOG-15,Antonio Nariño,Accountants and auditors,537
+BOG-15,Antonio Nariño,Business and management analysts,183
+BOG-15,Antonio Nariño,Business and operations managers,1501
+BOG-15,Antonio Nariño,"Data, statistics and research specialists",93
+BOG-15,Antonio Nariño,"Database, systems and network professionals",40
+BOG-15,Antonio Nariño,"Designers (graphic, multimedia, product)",650
+BOG-15,Antonio Nariño,Engineers (non-ICT),550
+BOG-15,Antonio Nariño,Finance and investment analysts,110
+BOG-15,Antonio Nariño,Higher-education and IT educators,263
+BOG-15,Antonio Nariño,ICT managers,10
+BOG-15,Antonio Nariño,ICT technicians and user support,219
+BOG-15,Antonio Nariño,Marketing and advertising professionals,359
+BOG-15,Antonio Nariño,Software developers and analysts,859
+BOG-14,Los Mártires,Accountants and auditors,575
+BOG-14,Los Mártires,Business and management analysts,380
+BOG-14,Los Mártires,Business and operations managers,828
+BOG-14,Los Mártires,"Data, statistics and research specialists",25
+BOG-14,Los Mártires,"Database, systems and network professionals",48
+BOG-14,Los Mártires,"Designers (graphic, multimedia, product)",415
+BOG-14,Los Mártires,Engineers (non-ICT),668
+BOG-14,Los Mártires,Finance and investment analysts,172
+BOG-14,Los Mártires,Higher-education and IT educators,305
+BOG-14,Los Mártires,ICT managers,20
+BOG-14,Los Mártires,ICT technicians and user support,303
+BOG-14,Los Mártires,Marketing and advertising professionals,515
+BOG-14,Los Mártires,Software developers and analysts,321
+BOG-17,La Candelaria,Accountants and auditors,148
+BOG-17,La Candelaria,Business and management analysts,184
+BOG-17,La Candelaria,Business and operations managers,182
+BOG-17,La Candelaria,"Data, statistics and research specialists",56
+BOG-17,La Candelaria,"Database, systems and network professionals",13
+BOG-17,La Candelaria,"Designers (graphic, multimedia, product)",128
+BOG-17,La Candelaria,Engineers (non-ICT),105
+BOG-17,La Candelaria,Finance and investment analysts,25
+BOG-17,La Candelaria,Higher-education and IT educators,174
+BOG-17,La Candelaria,ICT managers,9
+BOG-17,La Candelaria,ICT technicians and user support,77
+BOG-17,La Candelaria,Marketing and advertising professionals,41
+BOG-17,La Candelaria,Software developers and analysts,122
+BOG-20,Sumapaz,Accountants and auditors,5
+BOG-20,Sumapaz,Business and management analysts,2
+BOG-20,Sumapaz,Business and operations managers,34
+BOG-20,Sumapaz,"Data, statistics and research specialists",9
+BOG-20,Sumapaz,"Database, systems and network professionals",2
+BOG-20,Sumapaz,Engineers (non-ICT),5
+BOG-20,Sumapaz,Finance and investment analysts,5
+BOG-20,Sumapaz,Higher-education and IT educators,2
+BOG-20,Sumapaz,ICT technicians and user support,5
+BOG-20,Sumapaz,Marketing and advertising professionals,7
+BOG-20,Sumapaz,Software developers and analysts,4

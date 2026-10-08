@@ -16,7 +16,7 @@ const wrap = (fn) => async (req, res) => {
 
 router.get('/api/map/departments', wrap((req) => data.getDepartments({ persona: req.query.persona })));
 router.get('/api/map/municipalities', wrap((req) => data.getMunicipalities({ persona: req.query.persona })));
-router.get('/api/map/localidades', wrap(() => data.getLocalidades()));
+router.get('/api/map/localidades', wrap((req) => data.getLocalidades({ persona: req.query.persona })));
 router.get('/api/personas', wrap(() => data.getPersonas()));
 router.get('/api/compare/places', wrap((req) => cmp.listPlaces(req.query.level)));
 router.get('/api/compare', wrap((req) => cmp.compare({ level: req.query.level, ids: req.query.ids, persona: req.query.persona })));
