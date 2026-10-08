@@ -1,0 +1,213 @@
+keyword,department_code,offers
+desarrollador,05,241
+desarrollador,08,26
+desarrollador,11,655
+desarrollador,13,16
+desarrollador,17,2
+desarrollador,18,5
+desarrollador,19,2
+desarrollador,20,8
+desarrollador,23,9
+desarrollador,25,17
+desarrollador,41,5
+desarrollador,44,1
+desarrollador,47,13
+desarrollador,50,4
+desarrollador,52,2
+desarrollador,54,9
+desarrollador,63,4
+desarrollador,66,17
+desarrollador,68,27
+desarrollador,70,2
+desarrollador,73,9
+desarrollador,76,59
+desarrollador,81,1
+desarrollador,85,2
+desarrollador,86,2
+desarrollador,94,1
+programador,05,62
+programador,08,9
+programador,11,122
+programador,13,12
+programador,15,1
+programador,17,4
+programador,23,1
+programador,25,43
+programador,44,2
+programador,50,2
+programador,52,1
+programador,63,1
+programador,66,3
+programador,68,17
+programador,73,2
+programador,76,26
+programador,85,1
+ingeniero de sistemas,05,39
+ingeniero de sistemas,08,10
+ingeniero de sistemas,11,200
+ingeniero de sistemas,13,3
+ingeniero de sistemas,15,1
+ingeniero de sistemas,17,3
+ingeniero de sistemas,18,2
+ingeniero de sistemas,23,4
+ingeniero de sistemas,25,14
+ingeniero de sistemas,41,3
+ingeniero de sistemas,50,3
+ingeniero de sistemas,54,2
+ingeniero de sistemas,66,5
+ingeniero de sistemas,68,13
+ingeniero de sistemas,76,11
+ingeniero de sistemas,88,1
+analista de datos,05,72
+analista de datos,08,7
+analista de datos,11,205
+analista de datos,13,2
+analista de datos,25,16
+analista de datos,41,3
+analista de datos,54,2
+analista de datos,66,3
+analista de datos,68,6
+analista de datos,76,24
+cientifico de datos,05,9
+cientifico de datos,11,34
+cientifico de datos,76,1
+inteligencia artificial,05,284
+inteligencia artificial,08,24
+inteligencia artificial,11,536
+inteligencia artificial,13,5
+inteligencia artificial,15,4
+inteligencia artificial,17,12
+inteligencia artificial,23,1
+inteligencia artificial,25,23
+inteligencia artificial,41,1
+inteligencia artificial,47,1
+inteligencia artificial,52,2
+inteligencia artificial,54,1
+inteligencia artificial,63,5
+inteligencia artificial,66,6
+inteligencia artificial,68,29
+inteligencia artificial,73,1
+inteligencia artificial,76,71
+inteligencia artificial,81,1
+inteligencia artificial,91,4
+soporte tecnico,05,531
+soporte tecnico,08,71
+soporte tecnico,11,1266
+soporte tecnico,13,24
+soporte tecnico,15,8
+soporte tecnico,17,25
+soporte tecnico,19,4
+soporte tecnico,20,3
+soporte tecnico,23,10
+soporte tecnico,25,93
+soporte tecnico,41,14
+soporte tecnico,44,6
+soporte tecnico,47,6
+soporte tecnico,50,7
+soporte tecnico,52,8
+soporte tecnico,54,17
+soporte tecnico,63,7
+soporte tecnico,66,41
+soporte tecnico,68,44
+soporte tecnico,70,1
+soporte tecnico,73,9
+soporte tecnico,76,144
+soporte tecnico,81,1
+soporte tecnico,85,3
+soporte tecnico,86,3
+soporte tecnico,88,2
+soporte tecnico,91,2
+soporte tecnico,94,7
+soporte tecnico,95,1
+soporte tecnico,99,3
+disenador grafico,05,41
+disenador grafico,08,7
+disenador grafico,11,115
+disenador grafico,13,2
+disenador grafico,17,1
+disenador grafico,23,1
+disenador grafico,25,10
+disenador grafico,41,2
+disenador grafico,52,1
+disenador grafico,63,1
+disenador grafico,66,3
+disenador grafico,68,4
+disenador grafico,76,18
+marketing digital,05,345
+marketing digital,08,42
+marketing digital,11,384
+marketing digital,13,3
+marketing digital,15,4
+marketing digital,17,9
+marketing digital,19,3
+marketing digital,23,2
+marketing digital,25,24
+marketing digital,41,3
+marketing digital,47,1
+marketing digital,50,2
+marketing digital,52,3
+marketing digital,54,6
+marketing digital,63,1
+marketing digital,66,13
+marketing digital,68,22
+marketing digital,73,6
+marketing digital,76,75
+marketing digital,85,1
+contador,05,451
+contador,08,91
+contador,11,743
+contador,13,44
+contador,15,8
+contador,17,20
+contador,18,8
+contador,19,15
+contador,20,6
+contador,23,9
+contador,25,99
+contador,41,19
+contador,44,1
+contador,47,6
+contador,50,14
+contador,52,3
+contador,54,12
+contador,63,11
+contador,66,29
+contador,68,84
+contador,73,12
+contador,76,170
+contador,85,6
+contador,91,1
+contador,94,1
+analista de negocio,05,10
+analista de negocio,08,1
+analista de negocio,11,26
+analista de negocio,54,1
+analista de negocio,66,2
+analista de negocio,76,4
+auxiliar contable,05,985
+auxiliar contable,08,97
+auxiliar contable,11,1067
+auxiliar contable,13,30
+auxiliar contable,15,9
+auxiliar contable,17,33
+auxiliar contable,18,5
+auxiliar contable,19,12
+auxiliar contable,20,1
+auxiliar contable,23,2
+auxiliar contable,25,163
+auxiliar contable,41,25
+auxiliar contable,44,5
+auxiliar contable,47,10
+auxiliar contable,50,23
+auxiliar contable,52,6
+auxiliar contable,54,24
+auxiliar contable,63,21
+auxiliar contable,66,123
+auxiliar contable,68,167
+auxiliar contable,70,4
+auxiliar contable,73,24
+auxiliar contable,76,258
+auxiliar contable,85,10
+auxiliar contable,86,2
+auxiliar contable,88,4
+auxiliar contable,91,1

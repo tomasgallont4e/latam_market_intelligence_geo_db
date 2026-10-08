@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LATAM Market Intelligence — Geo DB Colombia · think4ever</title>
+  <meta name="description" content="Mapa de indicadores agregados de Colombia — Geo DB Colombia">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" id="page-css" href="data:text/css,">
+</head>
+<body>
+  <a class="skip-link" href="#page-main">Saltar al contenido</a>
+  <div class="app-shell">
+    <aside class="sidebar main-sidebar" id="main-sidebar" aria-label="Navegación principal">
+      <div class="ms-brand">
+        <span class="t4e-word">think<b>4</b>ever</span>
+        <small>LATAM Market Intelligence · Geo DB Colombia</small>
+      </div>
+      <hr>
+      <nav class="ms-nav">
+        <span class="nav-section-label">Análisis</span>
+        <a class="nav-item" data-page="map_view" href="javascript:void(0)" onclick="load_page('map_view')">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3 3 5.5v15L9 18l6 3 6-2.5v-15L15 6z"/><path d="M9 3v15M15 6v15"/></svg>
+          <span>Mapa</span>
+        </a>
+        <a class="nav-item" data-page="compare_view" href="javascript:void(0)" onclick="load_page('compare_view')">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="7" height="16" rx="1"/><rect x="14" y="4" width="7" height="16" rx="1"/><path d="M6.5 9h0M17.5 9h0M5 13h3M16 13h3"/></svg>
+          <span>Comparar</span>
+        </a>
+        <span class="nav-section-label">Calidad de datos</span>
+        <a class="nav-item" data-page="acceptance_panel" href="javascript:void(0)" onclick="load_page('acceptance_panel')">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.1V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+          <span>Panel de aceptación</span>
+        </a>
+        <a class="nav-item" data-page="table_explorer" href="javascript:void(0)" onclick="load_page('table_explorer')">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M3 14h18M9 9v11"/></svg>
+          <span>Explorador de tablas</span>
+        </a>
+      </nav>
+      <div class="ms-foot">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema claro/oscuro">
+          <i class="fa-solid fa-circle-half-stroke" aria-hidden="true"></i><span>Tema</span>
+        </button>
+        <p>Todas las cifras son agregados; no hay datos personales.</p>
+      </div>
+    </aside>
+    <main class="page-main" id="page-main" tabindex="-1"></main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+municipality_code,city,platform,name,members,topic
+05001,Medellín,Meetup,Python Medellín,8525,dev
+05001,Medellín,Meetup,MedellínJS,7943,dev
+11001,Bogotá,Meetup,Bogotá Startup Traction and Funding Network,6305,startup
+11001,Bogotá,Meetup,AWS Women Colombia - User Group,6090,cloud
+11001,Bogotá,Meetup,Machine Learning & Data Science | Bogotá,5272,AI/data
+11001,Bogotá,Meetup,GDG Bogotá,4876,dev
+05001,Medellín,Meetup,Go to Ceiba,4632,dev (company community)
+05001,Medellín,Meetup,Medellin AI Meetup,4584,AI/data
+11001,Bogotá,Meetup,Virtual DEV Show (Microsoft),4580,dev
+05001,Medellín,Meetup,AWS User Group Medellín,2925,cloud
+11001,Bogotá,Meetup,Python Bogotá,2720,dev
+05001,Medellín,Meetup,InterAction Colombia,2688,UX
+11001,Bogotá,Meetup,AWS SBG Universidad Distrital,2646,cloud (students)
+11001,Bogotá,Meetup,Grupo de usuarios AWS Colombia - Bogotá,2434,cloud
+05001,Medellín,Meetup,HackLab Medellín,2202,security
+11001,Bogotá,Meetup,Apache Spark Bogotá,2033,AI/data
+05001,Medellín,Meetup,Flutter-Medellín,1979,dev
+08001,Barranquilla,Meetup,Python Barranquilla,1697,dev
+05001,Medellín,Meetup,Security Grid Medellín,1684,security
+76001,Cali,Meetup,Python Cali,1592,dev
+05001,Medellín,Meetup,DareToShift Medellín Founders & Investors,1559,startup
+05001,Medellín,Meetup,Source Meridian (cloud computing Colombia),1488,cloud
+05001,Medellín,Meetup,PyLadies Medellín,1285,dev
+11001,Bogotá,Meetup,PyLadies Bogotá,1076,dev
+11001,Bogotá,Meetup,AWS User Group Serverless Colombia,1059,cloud
+11001,Bogotá,Meetup,AWS SBG EAN University,1036,cloud (students)
+76001,Cali,Meetup,AWS User Group Valle del Cauca,931,cloud
+11001,Bogotá,Meetup,AWS SBG Universidad Nacional Bogotá,800,cloud (students)
+11001,Bogotá,Meetup,AWS User Group Security Colombia,694,security
+05001,Medellín,Meetup,AWS SBG Universidad de Antioquia,630,cloud (students)
+05001,Medellín,Meetup,Platform Engineers Medellín,586,dev
+11001,Bogotá,Meetup,Security Grid Bogotá,557,security
+08001,Barranquilla,Meetup,PionerasDev Barranquilla,543,dev
+11001,Bogotá,Meetup,ACM Universidad Distrital,532,dev (students)
+05001,Medellín,Meetup,Medellín dbt Meetup,507,AI/data
+05001,Medellín,Meetup,Kong Medellín,493,dev
+11001,Bogotá,Meetup,"Bogotá AI, ML and Computer Vision Meetup",451,AI/data
+08001,Barranquilla,Meetup,Hack The Box Meetup Barranquilla,404,security
+76001,Cali,Meetup,AngularJS Cali,384,dev
+11001,Bogotá,Meetup,Colombia OpenInfra User Group,368,cloud
+11001,Bogotá,Meetup,Liferay LATAM User Group,354,dev
+25473,Mosquera,Meetup,AWS User Group Mosquera Cundinamarca,323,cloud
+11001,Bogotá,Meetup,Grafana & Friends Colombia,308,cloud
+76001,Cali,Meetup,Cali Software Testing Meetup,300,dev

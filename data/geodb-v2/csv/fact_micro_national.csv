@@ -1,0 +1,80 @@
+dimension,category,micro_businesses,pct
+activity,Commerce and vehicle repair,1263754,23.9
+activity,Agriculture,1138758,21.5
+activity,Transport,628817,11.9
+activity,Manufacturing,531988,10.0
+activity,"Arts, recreation and other services",515506,9.7
+activity,Food and lodging,440223,8.3
+activity,Construction,300629,5.7
+activity,"Real estate, professional and administrative services",276953,5.2
+activity,Health and social work,68494,1.3
+activity,Mining,56341,1.1
+activity,Education,45868,0.9
+activity,Information and communications,29840,0.6
+activity,Unknown,82,0.0
+site,At home,1618747,30.6
+site,Door to door,919980,17.4
+site,Farm,712833,13.5
+site,"Shop, workshop, office",664714,12.5
+site,Vehicle,598724,11.3
+site,"Street, open-air",507266,9.6
+site,Other,162285,3.1
+site,Construction site,112701,2.1
+owner_sex,Men,3421325,64.6
+owner_sex,Women,1875927,35.4
+position,Own-account worker,4792056,90.5
+position,Employer,505195,9.5
+rut,No RUT,4111274,77.6
+rut,Has RUT,1185978,22.4
+chamber,Not registered,4749671,89.7
+chamber,Registered in a chamber of commerce,547581,10.3
+accounts,No records,3611517,68.2
+accounts,"Notebook, Excel or till",1436749,27.1
+accounts,Daily ledger,140774,2.7
+accounts,Balance sheet or P&L,86978,1.6
+accounts,Financial or tax reports,21233,0.4
+computer,No computer,4730684,89.3
+computer,Uses a computer,566567,10.7
+internet,No internet,2669739,50.4
+internet,Uses internet,2627513,49.6
+website,No website,5174259,97.7
+website,Has website,122993,2.3
+social,Not on social media,4621955,87.3
+social,On social media,675296,12.7
+internet_uses,Instant messaging,2570419,48.5
+internet_uses,Uses applications,1553454,29.3
+internet_uses,Customer service,1123261,21.2
+internet_uses,Email,453208,8.6
+internet_uses,Staff training,171443,3.2
+internet_uses,Sells online,124836,2.4
+digital_ready,Computer and internet,554856,10.5
+owner_age,30-44,1764386,33.3
+owner_age,45-59,1722174,32.5
+owner_age,60+,1074206,20.3
+owner_age,Under 30,736486,13.9
+city,Rest of the country,2978494,56.2
+city,Bogotá,587870,11.1
+city,Medellín,405657,7.7
+city,Barranquilla,244047,4.6
+city,Cali,222998,4.2
+city,Bucaramanga,133867,2.5
+city,Cartagena,124467,2.3
+city,Cúcuta,79488,1.5
+city,Montería,57523,1.1
+city,Villavicencio,53900,1.0
+city,Valledupar,49943,0.9
+city,Santa Marta,48068,0.9
+city,Sincelejo,45126,0.9
+city,Pasto,43269,0.8
+city,Pereira,42931,0.8
+city,Manizales,33339,0.6
+city,Ibagué,27862,0.5
+city,Armenia,26955,0.5
+city,Popayán,23477,0.4
+city,Neiva,17980,0.3
+city,Riohacha,15873,0.3
+city,Florencia,15752,0.3
+city,Tunja,12041,0.2
+city,Quibdó,6324,0.1
+zone,Urban (municipal heads),3672873,69.3
+zone,Rural and small towns,1624378,30.7

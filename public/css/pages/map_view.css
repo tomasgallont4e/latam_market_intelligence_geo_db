@@ -1,0 +1,101 @@
+/* ===== Mapa (map_view) — page-specific layout ===== */
+.map-page{position:relative}
+.map-page .map-layout{min-height:100vh}
+.map-page .map-panel{height:100vh;position:sticky;top:0;overflow-y:auto;overscroll-behavior:contain}
+.map-page .map-canvas{position:relative;min-height:100vh;background:var(--color-surface-2)}
+.map-page #map{position:absolute;inset:0;background:var(--color-surface-2)}
+
+/* Brand block */
+.map-page .panel-brand{padding-bottom:6px}
+.map-page .panel-brand .pb-sub{display:block;font:600 11px var(--font-body);text-transform:uppercase;letter-spacing:.14em;color:var(--color-text-secondary);margin-top:4px}
+
+/* Section labels */
+.map-page .panel-label{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px}
+.map-page .panel-label .overline{margin:0}
+.map-page .panel-label .count{font:500 11px var(--font-body);color:var(--color-text-muted);font-variant-numeric:tabular-nums}
+
+/* Layer options — active gets the orange left rule */
+.map-page .layer-option{cursor:pointer;transition:background-color .15s ease,border-color .15s ease;border-left:3px solid transparent;margin:0}
+.map-page .layer-option.active{border-left:3px solid var(--brand-orange)}
+.map-page .layer-option input[type=radio]{width:14px;height:14px;margin:3px 0 0;flex:0 0 auto;accent-color:var(--brand-navy)}
+.map-page .layer-option input[type=radio]:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}
+.map-page .lo-text{display:flex;flex-direction:column;gap:1px;min-width:0}
+.map-page .lo-name{font:500 13px/1.35 var(--font-body);color:var(--color-text)}
+.map-page .layer-option.active .lo-name{font-weight:600}
+.map-page .lo-raw{font-size:10.5px;line-height:1.4;color:var(--color-text-muted);overflow-wrap:anywhere}
+
+/* Persona filter */
+.map-page .persona-note{font-size:12px;line-height:1.5;color:var(--color-text-secondary);margin:9px 0 0;padding-left:10px;border-left:2px solid var(--color-border-strong)}
+.map-page .persona-note.warn{border-left-color:var(--color-warning);color:var(--color-text)}
+.map-page .persona-note b{font-weight:600}
+
+/* Legend */
+.map-page .legend-head{font:600 13px/1.35 var(--font-body);color:var(--color-text)}
+.map-page .legend-unit{font-size:11.5px;color:var(--color-text-muted);margin:2px 0 10px;overflow-wrap:anywhere}
+.map-page .legend-item .tnum{font-size:12.5px;font-variant-numeric:tabular-nums}
+.map-page .legend-note{font-size:11.5px;line-height:1.55;color:var(--color-text-muted);margin:10px 0 0}
+.map-page .legend-sizes{display:flex;align-items:flex-end;gap:16px;margin:4px 0 12px;flex-wrap:wrap}
+.map-page .legend-sizes figure{display:flex;flex-direction:column;align-items:center;gap:4px;margin:0}
+.map-page .legend-sizes figcaption{font:500 11px var(--font-body);color:var(--color-text-secondary);font-variant-numeric:tabular-nums}
+.map-page .swatch{display:inline-block;width:18px;height:12px;border-radius:2px;border:1px solid rgba(0,0,0,.12);flex:0 0 auto}
+.map-page .swatch.r1{background:#E9EEF7}
+.map-page .swatch.r2{background:#B9C7E3}
+.map-page .swatch.r3{background:#7F98C9}
+.map-page .swatch.r4{background:#3F5E9E}
+.map-page .swatch.r5{background:#11255A}
+.map-page .swatch.nd{background:#DDDDDD}
+.map-page .swatch.city{width:14px;height:14px;border-radius:50%;background:rgba(63,94,158,.55);border:1px solid #11255A}
+.map-page .swatch.city-event{width:14px;height:14px;border-radius:50%;background:rgba(63,94,158,.55);border:2.5px solid #E8772E}
+
+/* Place jump + card */
+.map-page .jump-row{margin-bottom:10px}
+.map-page .jump-row select{height:36px;font-size:13px}
+.map-page .place-card .mo-title{font:600 16px/1.25 var(--font-head);color:var(--color-text)}
+.map-page .place-meta{font-size:11.5px;line-height:1.5;color:var(--color-text-muted);font-variant-numeric:tabular-nums;margin-top:2px}
+.map-page .place-meta b{color:var(--color-text);font-weight:600}
+.map-page .place-table{width:100%;margin-top:10px;border-collapse:collapse}
+.map-page .place-table th,.map-page .place-table td{padding:6px 4px;font-size:12.5px;vertical-align:top}
+.map-page .place-table th{font-size:10.5px}
+.map-page .place-table td.num,.map-page .place-table th.num{white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.map-page .place-table tr.is-active td{font-weight:600}
+.map-page .place-table tr.is-active td:first-child{border-left:2px solid var(--brand-navy);padding-left:8px}
+.map-page .ind-raw{display:block;font-size:10.5px;font-weight:400;color:var(--color-text-muted);overflow-wrap:anywhere}
+.map-page .place-sub{display:block;font:600 11px var(--font-body);text-transform:uppercase;letter-spacing:.14em;color:var(--color-text-secondary);margin:14px 0 4px}
+.map-page .place-sub .raw-name{text-transform:none;letter-spacing:0}
+.map-page .event-list{list-style:none;margin:0;padding:0}
+.map-page .event-list li{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:6px 0;border-top:1px solid var(--brand-line);font-size:12.5px}
+.map-page .event-list .ev-date{font-variant-numeric:tabular-nums;color:var(--color-text-secondary);white-space:nowrap}
+.map-page .place-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.map-page .btn-sm{height:32px;padding:0 12px;font-size:11px}
+.map-page .place-empty{font-size:13px;color:var(--color-text-secondary)}
+.map-page .place-empty i{margin-right:6px;color:var(--color-text-muted)}
+.map-page .place-empty small{display:block;margin-top:4px;color:var(--color-text-muted);font-size:11.5px}
+
+/* Footer of panel */
+.map-page .map-foot .mf-raw{color:var(--color-text-muted)}
+
+/* Map overlays */
+.map-page .map-overlay{position:absolute;top:14px;left:58px;z-index:500;background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:10px 14px 11px;max-width:min(380px,calc(100% - 92px));pointer-events:none}
+.map-page .map-overlay:empty{display:none}
+.map-page .map-overlay .overline{display:block;margin-bottom:3px}
+.map-page .mo-title{font:600 16px/1.25 var(--font-head);color:var(--color-text);letter-spacing:-.005em}
+.map-page .mo-meta{font-size:12px;color:var(--color-text-secondary);margin-top:3px;font-variant-numeric:tabular-nums}
+.map-page .map-geo-note{position:absolute;left:14px;bottom:30px;z-index:500;max-width:min(420px,calc(100% - 28px));background:var(--color-surface);border:1px solid var(--color-border);border-left:3px solid var(--color-warning);border-radius:var(--radius-sm);padding:7px 10px;font-size:11.5px;line-height:1.45;color:var(--color-text-secondary)}
+.map-page .map-geo-note[hidden]{display:none}
+.map-page .map-loading{position:absolute;inset:0;z-index:600;display:grid;place-items:center;background:var(--color-background);font-size:13px;color:var(--color-text-secondary);text-align:center;padding:20px}
+.map-page .map-loading[hidden]{display:none}
+.map-page .map-loading i{margin-right:8px}
+
+/* Leaflet skin */
+.map-page .leaflet-container{font-family:var(--font-body);background:var(--color-surface-2)}
+.map-page .leaflet-control-attribution{font-size:10.5px}
+.map-page .leaflet-bar{border:1px solid var(--color-border-strong);border-radius:var(--radius-sm)}
+.map-page .leaflet-tooltip.t4e-tip .tnum{font-variant-numeric:tabular-nums}
+
+/* Responsive: panel above the map, map 62vh */
+@media (max-width:768px){
+  .map-page .map-layout{flex-direction:column;min-height:0}
+  .map-page .map-panel{width:100%;height:auto;position:static;overflow:visible}
+  .map-page .map-canvas{min-height:62vh !important;height:62vh}
+  .map-page .map-overlay{left:54px;max-width:calc(100% - 70px)}
+}

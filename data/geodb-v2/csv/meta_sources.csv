@@ -1,0 +1,16 @@
+table_name,description,source
+geo_department,"Departments of Colombia (DIVIPOLA, 2 digits).",DANE DIVIPOLA
+geo_municipality,"Municipalities with a reference point (DIVIPOLA, 5 digits). Municipalities created after the coordinate source (Nuevo Belén de Bajirá, 2022) have no point yet.","MinSalud DIVIPOLA municipalities with coordinates, datos.gov.co pqwj-3fi4"
+geo_zone,Zones inside the two largest cities: Bogotá localidades (with boundaries) and Medellín comunas and corregimientos (code and name only).,"Catastro Bogotá, datos abiertos de Bogotá (""Localidad. Bogotá D.C.""); Medellín codes from the city's official division"
+fact_persona_profile,"One row per persona: national profile, 2025 annual average.",DANE GEIH 2025 microdata (geih-personas-colombia.py)
+fact_persona_metro,"People per persona by metropolitan area of the capitals (municipality_code = capital); ""Rest of the country"" has no code.",DANE GEIH 2025
+fact_persona_department,People per persona by department.,DANE GEIH 2025
+fact_persona_segment,Persona × city × who buys (direct cross-tabulation).,DANE GEIH 2025
+fact_ict_by_sector,IT staff (4 core personas) by industry of the employer.,DANE GEIH 2025
+fact_schools_municipality,"Schools with grades 9 to 11 and their students, by municipality, 2025. reach_cap100 = students reachable with up to 100 per school.","MEN enrolment 2025, datos.gov.co ngw5-c5nw (colegios-colombia.py)"
+fact_higher_ed_municipality,Higher-education students (2024-2) by municipality where the programme is offered. Online programmes sit at the institution's headquarters: use on_campus for local presence.,MEN SNIES Bases consolidadas 2024 (educacion-superior-colombia.py)
+fact_micro_department,"Micro-businesses (up to 9 people, formal and informal) by department, 2024 (24 departments and Bogotá).",DANE EMICRON 2024 microdata (micronegocios-colombia.py)
+fact_micro_national,"National distributions of micro-businesses (activity, formality, technology, place, owner).",DANE EMICRON 2024
+fact_companies_chamber,"Formal businesses by chamber of commerce: renewed in 2025 or 2026 (excluding non-profits and cooperatives), shops (ISIC 4711), and IT companies (ISIC 6201-6312, active). The chamber is located at its seat municipality (own mapping).","RUES, datos.gov.co c82u-588k (rues-renovadas.py; build-colombia-city-layer.py)"
+fact_companies_zone,"Registered companies by zone: Bogotá (March 2026, active and renewed, size by assets) and Medellín (2022, no size). BOG-00 = no localidad recorded.","SDDE and Cámara de Comercio de Bogotá, Dinámica empresarial; Cámara de Comercio de Medellín, datos.gov.co pb3w-3vmc"
+fact_developers_country,"GitHub developers and organisations by Latin American country, Q1 2026.",GitHub Innovation Graph (build-country-breakdown.py)

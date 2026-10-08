@@ -1,0 +1,71 @@
+<div class="compare-page">
+  <div class="map-layout">
+    <aside class="map-panel" aria-label="Opciones de comparación">
+      <div class="panel-brand"><span class="t4e-word">think<b>4</b>ever</span><small>Comparador de lugares</small></div>
+
+      <section class="panel-section">
+        <span class="overline">Nivel</span>
+        <div class="layer-group" id="cmp_level" role="radiogroup" aria-label="Nivel geográfico" aria-required="true">
+          <label class="layer-option"><input type="radio" name="cmp_level" value="department" checked><span>Departamentos</span><span class="opt-meta" data-level="department"></span></label>
+          <label class="layer-option"><input type="radio" name="cmp_level" value="municipality"><span>Ciudades</span><span class="opt-meta" data-level="municipality"></span></label>
+          <label class="layer-option"><input type="radio" name="cmp_level" value="localidad"><span>Localidades de Bogotá</span><span class="opt-meta" data-level="localidad"></span></label>
+        </div>
+        <p class="panel-help">Cambiar de nivel limpia la selección: solo se comparan lugares del mismo nivel.</p>
+      </section>
+
+      <section class="panel-section">
+        <div class="row-between"><span class="overline" id="cmpPlacesLabel">Lugares</span><span class="count-hint" id="cmpCount" aria-live="polite">0 de 4 seleccionados</span></div>
+        <div class="cmp-search"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i><input type="search" id="cmpSearch" placeholder="Buscar lugar…" aria-label="Buscar lugar" aria-controls="cmp_places" autocomplete="off"></div>
+        <ul class="place-options" id="cmp_places" role="listbox" aria-multiselectable="true" aria-label="Lugares (2 a 4)" aria-required="true"></ul>
+        <div class="place-chips" id="cmpChips" aria-label="Lugares seleccionados"></div>
+        <p class="panel-help">Elija de 2 a 4 lugares. <button type="button" class="btn btn-ghost" id="cmpClear" style="height:auto;padding:0;font-size:11px">Limpiar selección</button></p>
+      </section>
+
+      <section class="panel-section">
+        <label for="cmp_persona_filter" class="overline">Filtro por persona</label>
+        <select id="cmp_persona_filter" aria-describedby="cmpPersonaHelp"><option value="">Todas</option></select>
+        <p class="panel-help" id="cmpPersonaHelp">Aplica a los indicadores de <span class="raw-name">fact_persona_profile</span>, igual que en el mapa.</p>
+      </section>
+
+      <div class="map-foot">
+        <div id="cmpFootSrc"></div>
+        <div>Todas las cifras son agregados; no hay datos personales.</div>
+      </div>
+    </aside>
+
+    <section class="compare-main" aria-labelledby="cmpTitle">
+      <div class="cmp-inner">
+        <div class="topbar">
+          <div class="titles">
+            <span class="overline">Geo DB Colombia · Análisis</span>
+            <h1 class="page-title" id="cmpTitle">Comparar lugares</h1>
+            <div class="page-sub" id="cmpSub">Departamentos · 0 lugares · Persona: Todas</div>
+          </div>
+          <div class="cmp-actions">
+            <button type="button" class="btn btn-secondary" onclick="load_page('map_view')"><i class="fa-regular fa-map" aria-hidden="true"></i>Ver en el mapa</button>
+            <button type="button" class="btn btn-primary" id="cmpExport"><i class="fa-solid fa-download" aria-hidden="true"></i>Exportar CSV</button>
+          </div>
+        </div>
+
+        <div class="alert alert-warning cmp-alert" id="cmpAlert" role="status" hidden>
+          <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+          <div><b>Selección incompleta.</b><p class="mb-0" id="cmpAlertMsg">Seleccione al menos 2 lugares del mismo nivel.</p></div>
+        </div>
+
+        <div class="cmp-summary" id="cmpSummary" aria-label="Resumen"></div>
+
+        <div class="card cmp-card">
+          <div class="card-head">
+            <div class="grow"><span class="overline">Indicadores lado a lado</span><h2 class="card-title">Mismos indicadores del mapa para este nivel</h2></div>
+            <span class="cmp-legend"><b>Negrita</b> = valor más alto de la fila · <span class="na">n.a.</span> = sin datos</span>
+          </div>
+          <div class="table-scroll" aria-live="polite">
+            <table class="table-navy compare-table" id="cmp_table" aria-label="Comparación de indicadores por lugar"></table>
+          </div>
+          <div class="agg-note" id="cmp_footer">Todas las cifras son agregados; no hay datos personales.</div>
+          <div class="footnotes"><b>1</b> Indicadores de persona calculados sobre <span class="raw-name">fact_persona_profile</span> con el filtro seleccionado. &nbsp; <b>n.a.</b> La fuente no publica el dato para ese lugar o año.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

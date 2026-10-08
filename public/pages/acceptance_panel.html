@@ -1,0 +1,65 @@
+<div class="page-pad" id="acc-page">
+
+  <div class="topbar acc-section">
+    <div class="titles">
+      <span class="overline">Geo DB Colombia · Calidad de datos</span>
+      <h1 class="page-title">Panel de aceptación</h1>
+      <div class="page-sub" id="acc-sub">Cargando último lote…</div>
+    </div>
+    <div class="acc-actions">
+      <button type="button" class="btn btn-secondary" onclick="load_page('table_explorer')"><i class="fa-solid fa-table" aria-hidden="true"></i> Explorador de tablas</button>
+      <button type="button" class="btn btn-primary" id="acc-btn-revalidate" data-flow="flow_validation" data-step="step_join_check" aria-describedby="acc-live"><i class="fa-solid fa-rotate-right acc-spin" aria-hidden="true"></i> <span class="lbl">Revalidar</span></button>
+    </div>
+  </div>
+  <p id="acc-live" class="acc-sr" aria-live="polite"></p>
+
+  <div class="alert alert-danger acc-section" id="acc-error" role="alert" hidden></div>
+
+  <div class="verdict acc-section" id="acc-verdict" role="status">
+    <span class="check-dot" aria-hidden="true"></span>
+    <div class="acc-verdict-body"><b>Calculando aceptación…</b><p>Se están ejecutando las comprobaciones sobre la base de datos.</p></div>
+    <div class="acc-verdict-meta"></div>
+  </div>
+
+  <div class="grid-4 acc-section" id="acc-stats">
+    <div class="card"><span class="stat-label">Comprobaciones</span><div class="stat-value">—</div></div>
+    <div class="card"><span class="stat-label">Superadas</span><div class="stat-value">—</div></div>
+    <div class="card"><span class="stat-label">Fallidas</span><div class="stat-value">—</div></div>
+    <div class="card"><span class="stat-label">Incidencias abiertas</span><div class="stat-value">—</div></div>
+  </div>
+
+  <section class="card acc-section" aria-labelledby="acc-totals-title">
+    <div class="acc-card-head">
+      <div><span class="overline">Totales de aceptación · rule_acceptance_totals</span><h2 class="card-title" id="acc-totals-title">Totales esperados vs reales</h2></div>
+      <div class="acc-legend"><span><span class="check-dot ok" aria-hidden="true"></span>Dentro de tolerancia</span><span><span class="check-dot fail" aria-hidden="true"></span>Fuera de tolerancia</span></div>
+    </div>
+    <div class="table-scroll" aria-live="polite">
+      <table class="table-navy acc-totals" id="acc_totals_table">
+        <thead><tr><th scope="col">Tabla</th><th scope="col">Comprobación</th><th scope="col" class="num">Esperado</th><th scope="col" class="num">Real</th><th scope="col">Tolerancia</th><th scope="col" class="num">Diferencia</th><th scope="col">Estado</th></tr></thead>
+        <tbody><tr><td colspan="7" class="acc-empty">Cargando…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="acc-duo">
+    <section class="card" aria-labelledby="acc-axis-title" id="acc_axis_test">
+      <div class="acc-card-head"><div><span class="overline">rule_axis_order · SRID 4326</span><h2 class="card-title" id="acc-axis-title">Prueba del eje de Bogotá</h2></div></div>
+      <div id="acc-axis-body" class="acc-empty">Cargando…</div>
+    </section>
+
+    <section class="card" aria-labelledby="acc-batch-title" id="acc_batch_status">
+      <div class="acc-card-head"><div><span class="overline">load_batch</span><h2 class="card-title" id="acc-batch-title">Estado del último lote</h2></div><div id="acc-batch-pill"></div></div>
+      <div id="acc-batch-body" class="acc-empty">Cargando…</div>
+    </section>
+  </div>
+
+  <section class="card acc-section acc-issues" aria-labelledby="acc-issues-title" id="acc_issues_list">
+    <div class="acc-card-head"><div><span class="overline">validation_issue · rule_approved_exceptions</span><h2 class="card-title" id="acc-issues-title">Incidencias</h2></div><span class="acc-head-note" id="acc-issues-note"></span></div>
+    <div class="acc-issue-sec-title"><h4>Errores</h4><span id="acc-err-count"></span></div>
+    <ul class="issue-list" id="acc-issues-errors"><li class="acc-empty">Cargando…</li></ul>
+    <div class="acc-issue-sec-title"><h4>Excepciones aprobadas · sin geografía</h4><span id="acc-info-count"></span></div>
+    <ul class="issue-list" id="acc-issues-infos"><li class="acc-empty">Cargando…</li></ul>
+  </section>
+
+  <div class="acc-foot"><span>Todas las cifras son agregados; no hay datos personales.</span><span id="acc-foot-time"></span></div>
+</div>

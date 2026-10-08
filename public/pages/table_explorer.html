@@ -1,0 +1,77 @@
+<div class="page-pad" id="exp-page">
+  <header class="topbar">
+    <div class="titles">
+      <span class="overline">Geo DB Colombia · Calidad de datos</span>
+      <h1 class="page-title">Explorador de tablas</h1>
+      <div class="page-sub" id="exp-sub">Cargando catálogo… · catálogo según <span class="raw-name">meta_sources</span></div>
+    </div>
+    <div class="exp-topbar-actions">
+      <button type="button" class="btn btn-secondary" onclick="load_page('acceptance_panel')"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Panel de aceptación</button>
+      <button type="button" class="btn btn-primary" onclick="load_page('map_view')"><i class="fa-solid fa-map" aria-hidden="true"></i> Abrir mapa</button>
+    </div>
+  </header>
+
+  <div class="alert alert-danger" id="exp-error" role="alert" hidden></div>
+
+  <section class="grid-4 exp-stats" aria-label="Resumen del catálogo">
+    <div class="card"><span class="stat-label">Tablas registradas</span><div class="stat-value tnum" id="st-tables">—</div><div class="stat-meta" id="st-tables-meta"></div></div>
+    <div class="card"><span class="stat-label">Filas totales</span><div class="stat-value tnum" id="st-rows">—</div><div class="stat-meta" id="st-rows-meta">Suma de todas las tablas</div></div>
+    <div class="card"><span class="stat-label">Fuentes distintas</span><div class="stat-value tnum" id="st-sources">—</div><div class="stat-meta">Columna <span class="raw-name">meta_sources.source_name</span></div></div>
+    <div class="card"><span class="stat-label">Sin geografía</span><div class="stat-value tnum" id="st-nogeo">—</div><div class="stat-meta" id="st-nogeo-meta"></div></div>
+  </section>
+
+  <section class="card exp-card" aria-labelledby="exp-list-title" id="exp_tables_list">
+    <div class="exp-head">
+      <div><span class="overline">Catálogo · <span class="raw-name">meta_sources.table_name</span></span><h2 class="card-title" id="exp-list-title">Tablas</h2></div>
+      <div class="exp-head-side"><span class="exp-count" id="exp-list-count" aria-live="polite"></span></div>
+    </div>
+    <div class="exp-toolbar">
+      <div class="search-bar">
+        <label for="exp-table-search">Buscar tabla</label>
+        <div class="exp-search-wrap"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i><input id="exp-table-search" class="form-control" type="search" placeholder="Nombre de tabla, fuente o año…" autocomplete="off" aria-controls="exp-tables-body"><kbd aria-hidden="true">/</kbd></div>
+      </div>
+      <div class="tab-rail" role="tablist" aria-label="Filtrar por geografía">
+        <button type="button" class="tab active" role="tab" aria-selected="true" data-filter="all">Todas<span class="tc"></span></button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-filter="geo">Con geografía<span class="tc"></span></button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-filter="nogeo">Sin geografía<span class="tc"></span></button>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table class="table-navy exp-list">
+        <caption class="exp-sr">Tablas de la base con filas, fuente, año y geografía. Pulse Enter sobre una fila para ver sus datos.</caption>
+        <thead><tr><th scope="col">Tabla</th><th scope="col" class="num">Filas</th><th scope="col">Fuente</th><th scope="col" class="num">Año</th><th scope="col">Geografía</th><th scope="col" class="num"><span class="exp-sr">Abrir</span></th></tr></thead>
+        <tbody id="exp-tables-body"><tr class="exp-empty"><td colspan="6">Cargando…</td></tr></tbody>
+      </table>
+    </div>
+    <div class="pager exp-pager-wrap" id="exp-tables-pager"></div>
+  </section>
+
+  <section class="card exp-card" id="exp-preview" aria-labelledby="exp-prev-title" hidden>
+    <div class="exp-head">
+      <div>
+        <span class="overline">Vista previa · Filas (paginadas)</span>
+        <h2 class="card-title exp-preview-title" id="exp-prev-title"><span class="raw-name" id="exp-prev-name"></span></h2>
+        <div class="exp-meta" id="exp-prev-meta"></div>
+      </div>
+      <div class="exp-head-side">
+        <button type="button" class="btn btn-ghost" id="exp-btn-map" onclick="load_page('map_view')"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Ver en el mapa</button>
+        <button type="button" class="btn btn-secondary" id="exp-btn-csv"><i class="fa-solid fa-download" aria-hidden="true"></i> Descargar CSV</button>
+      </div>
+    </div>
+    <div class="alert alert-warning exp-note" id="exp-prev-note" hidden></div>
+    <div class="exp-toolbar">
+      <div class="search-bar">
+        <label for="exp-row-search">Buscar en filas</label>
+        <div class="exp-search-wrap"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i><input id="exp-row-search" class="form-control" type="search" placeholder="Código, nombre o valor…" autocomplete="off" aria-controls="exp-rows-body"></div>
+      </div>
+    </div>
+    <div class="table-scroll" aria-live="polite">
+      <table class="table-navy exp-rows" id="exp_rows_table"><thead id="exp-rows-head"></thead><tbody id="exp-rows-body"></tbody></table>
+    </div>
+    <p class="exp-sample" id="exp-sample" hidden></p>
+    <div class="pager exp-pager-wrap" id="exp-rows-pager"></div>
+    <div class="footnotes"><b>1</b> <span class="raw-name">rule_source_year_required</span>: toda tabla registra fuente (<span class="raw-name">meta_sources.source_name</span>) y año (<span class="raw-name">meta_sources.year</span>); las que no los tienen no se publican. &nbsp; <b>2</b> <span class="raw-name">rule_approved_exceptions</span>: tablas o filas sin clave geográfica aprobadas como excepción; se marcan «sin geografía» y quedan fuera del Mapa y de Comparar.</div>
+  </section>
+
+  <div class="exp-foot"><span>Todas las cifras son agregados; no hay datos personales.</span><span>Nombres de tablas, columnas y valores se muestran sin traducir.</span></div>
+</div>

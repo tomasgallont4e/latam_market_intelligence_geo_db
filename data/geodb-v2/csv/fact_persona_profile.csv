@@ -1,0 +1,14 @@
+persona,ring,isco_codes,employed,interviews,pct_private_employee,pct_government_employee,pct_self_employed_or_employer,pct_firm_201_plus,pct_works_alone,pct_outside_tech_sector,pct_women,pct_university,median_age,median_income_cop,pct_stratum_4_6,pct_works_from_home
+Software developers and analysts,core,2511 2512 2513 2514 2519,216840,2411,75.2,3.7,21.0,58.0,8.7,45.9,21.0,92.1,34.0,4000000.0,35.4,49.5
+"Database, systems and network professionals",core,2521 2522 2523 2529,16008,157,87.5,3.4,9.0,69.6,1.3,70.3,23.8,90.3,32.0,4270500.0,31.9,55.5
+ICT technicians and user support,core,3511 3512 3513 3514 3521 3522,96116,1269,69.4,1.4,28.9,42.4,18.1,64.5,18.4,25.5,32.0,1800000.0,12.8,25.8
+ICT managers,core,1330,7585,98,88.0,0.8,11.3,59.3,4.3,46.7,34.2,84.9,38.0,6000000.0,63.7,32.4
+"Designers (graphic, multimedia, product)",adjacent,2163 2166,95831,1178,49.5,0.7,49.4,21.6,36.9,90.6,45.4,70.9,33.0,2200000.0,29.2,50.8
+Business and management analysts,adjacent,2421 2422,49692,751,38.0,23.0,39.0,65.3,9.2,98.5,53.2,96.4,39.0,4270000.0,34.8,25.9
+Accountants and auditors,extended,2411,261604,3891,60.5,6.9,32.1,36.4,21.0,96.9,64.1,96.5,39.0,3021000.0,28.5,30.1
+Finance and investment analysts,adjacent,2412 2413,82912,915,79.7,2.4,17.9,62.8,9.7,97.7,57.1,89.4,37.0,3500000.0,37.6,31.3
+"Data, statistics and research specialists",adjacent,2120 2631 2632 3314,18378,186,44.6,15.4,39.9,70.4,12.0,99.8,42.2,94.6,36.0,3600000.0,36.3,33.6
+Marketing and advertising professionals,adjacent,2431 2432,76196,860,51.2,0.6,47.9,29.1,34.7,86.7,51.0,74.7,33.0,3000000.0,42.6,55.9
+Engineers (non-ICT),extended,2141 2142 2143 2144 2145 2146 2149 2151 2152 2153,228824,3168,71.0,4.1,24.9,51.8,9.5,94.9,27.4,96.4,37.0,3800000.0,35.5,15.9
+Business and operations managers,extended,1211 1212 1213 1219 1221 1222 1223 1321 1322 1323 1324 1341 1342 1343 1344 1345 1346 1349,479026,6207,72.3,8.5,19.1,50.0,3.0,96.7,50.1,84.2,40.0,4000000.0,41.8,13.5
+Higher-education and IT educators,extended,2310 2356,87663,1811,41.9,29.9,28.1,84.3,2.0,100.0,41.5,97.0,45.0,4500000.0,49.9,7.7

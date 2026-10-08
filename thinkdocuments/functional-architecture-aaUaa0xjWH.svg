@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470">
+  <defs>
+    <linearGradient id="accGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#047857"/>
+    </linearGradient>
+    <linearGradient id="expGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-opacity="0.10"/>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e5e7eb" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+    <linearGradient id="waveIconGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#db2777"/>
+    </linearGradient>
+    <linearGradient id="spectrumGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="30%" style="stop-color:#0d9488"/>
+      <stop offset="55%" style="stop-color:#0891b2"/>
+      <stop offset="80%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#4f46e5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="470" fill="#f8fafc"/>
+  <rect width="900" height="470" fill="url(#grid)"/>
+
+  <g fill="url(#waveIconGrad)">
+    <rect x="30" y="30" width="5" height="20" rx="2"/>
+    <rect x="40" y="20" width="5" height="40" rx="2"/>
+    <rect x="50" y="34" width="5" height="12" rx="2"/>
+    <rect x="60" y="14" width="5" height="52" rx="2"/>
+    <rect x="70" y="26" width="5" height="28" rx="2"/>
+    <rect x="80" y="36" width="5" height="8" rx="2"/>
+    <rect x="815" y="36" width="5" height="8" rx="2"/>
+    <rect x="825" y="26" width="5" height="28" rx="2"/>
+    <rect x="835" y="14" width="5" height="52" rx="2"/>
+    <rect x="845" y="34" width="5" height="12" rx="2"/>
+    <rect x="855" y="20" width="5" height="40" rx="2"/>
+    <rect x="865" y="30" width="5" height="20" rx="2"/>
+  </g>
+  <text x="450" y="40" font-family="Georgia, serif" font-size="28" fill="#1a1a2e" text-anchor="middle" font-weight="bold">LATAM Market Intelligence — Geo DB Colombia</text>
+  <text x="450" y="60" font-family="Georgia, serif" font-size="13" fill="#64748b" text-anchor="middle" letter-spacing="0.5">Arquitectura funcional · Aceptación de datos y exploración de tablas</text>
+  <rect x="250" y="72" width="400" height="3" rx="1.5" fill="url(#spectrumGrad)"/>
+
+  <!-- Section: Aceptación -->
+  <text x="55" y="118" font-family="Georgia, serif" font-size="16" fill="#1e293b" font-weight="bold">Aceptación</text>
+  <rect x="50" y="126" width="230" height="3" rx="1" fill="url(#accGrad)"/>
+
+  <g transform="translate(50, 140)" filter="url(#shadow)">
+    <rect width="230" height="123" rx="10" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
+    <path d="M0,10 A10,10 0 0 1 10,0 H220 A10,10 0 0 1 230,10 V34 H0 Z" fill="#059669"/>
+    <g transform="translate(12, 10)" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="7" width="2.6" height="5.5" rx="0.8" fill="none"/><rect x="6" y="4" width="2.6" height="8.5" rx="0.8" fill="none"/><rect x="9.5" y="1.8" width="2.6" height="10.7" rx="0.8" fill="none"/></g>
+    <text x="33" y="22" font-family="Georgia, serif" font-size="11.5" fill="#ffffff" font-weight="bold">Panel de aceptación</text>
+    <circle cx="15" cy="45" r="2" fill="#059669"/>
+    <text x="23" y="48" font-family="monospace" font-size="8.3" fill="#334155">Explorador de tablas [Left Menu Button]</text>
+    <circle cx="15" cy="58" r="2" fill="#059669"/>
+    <text x="23" y="61" font-family="monospace" font-size="8.3" fill="#334155">Totales de aceptación [Table]</text>
+    <circle cx="15" cy="71" r="2" fill="#059669"/>
+    <text x="23" y="74" font-family="monospace" font-size="8.3" fill="#334155">Prueba de eje — Bogotá [Card]</text>
+    <circle cx="15" cy="84" r="2" fill="#059669"/>
+    <text x="23" y="87" font-family="monospace" font-size="8.3" fill="#334155">Último load_batch [StatsPanel]</text>
+    <circle cx="15" cy="97" r="2" fill="#059669"/>
+    <text x="23" y="100" font-family="monospace" font-size="8.3" fill="#334155">Incidencias de validación [List]</text>
+    <circle cx="15" cy="110" r="2" fill="#059669"/>
+    <text x="23" y="113" font-family="monospace" font-size="8.3" fill="#334155">Revalidar [Button]</text>
+  </g>
+
+  <!-- Section: Exploración -->
+  <text x="325" y="118" font-family="Georgia, serif" font-size="16" fill="#1e293b" font-weight="bold">Exploración</text>
+  <rect x="320" y="126" width="230" height="3" rx="1" fill="url(#expGrad)"/>
+
+  <g transform="translate(320, 140)" filter="url(#shadow)">
+    <rect width="230" height="97" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+    <path d="M0,10 A10,10 0 0 1 10,0 H220 A10,10 0 0 1 230,10 V34 H0 Z" fill="#2563eb"/>
+    <g transform="translate(12, 10)" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3,4 H11 M3,7 H11 M3,10 H11" fill="none"/></g>
+    <text x="33" y="22" font-family="Georgia, serif" font-size="11.5" fill="#ffffff" font-weight="bold">Explorador de tablas</text>
+    <circle cx="15" cy="45" r="2" fill="#2563eb"/>
+    <text x="23" y="48" font-family="monospace" font-size="8.3" fill="#334155">Panel de aceptación [Left Menu Button]</text>
+    <circle cx="15" cy="58" r="2" fill="#2563eb"/>
+    <text x="23" y="61" font-family="monospace" font-size="8.3" fill="#334155">Tablas [Table]</text>
+    <circle cx="15" cy="71" r="2" fill="#2563eb"/>
+    <text x="23" y="74" font-family="monospace" font-size="8.3" fill="#334155">Buscar [TextField]</text>
+    <circle cx="15" cy="84" r="2" fill="#2563eb"/>
+    <text x="23" y="87" font-family="monospace" font-size="8.3" fill="#334155">Filas (paginadas) [Table]</text>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 280 180 Q 300 166 320 180" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4,3" marker-end="url(#arrowhead)"/>
+  <path d="M 320 215 Q 300 229 280 215" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4,3" marker-end="url(#arrowhead)"/>
+
+  <!-- Legend -->
+  <g transform="translate(590, 140)" filter="url(#shadow)">
+    <rect width="260" height="162" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="130" y="24" font-family="Georgia, serif" font-size="13" fill="#1e293b" text-anchor="middle" font-weight="bold">Leyenda de módulos</text>
+    <line x1="15" y1="36" x2="245" y2="36" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="15" y="48" width="6" height="14" rx="3" fill="url(#accGrad)"/>
+    <text x="42" y="58" font-family="Georgia, serif" font-size="10" fill="#475569">Aceptación · totales e incidencias</text>
+    <rect x="15" y="68" width="6" height="14" rx="3" fill="url(#expGrad)"/>
+    <text x="42" y="78" font-family="Georgia, serif" font-size="10" fill="#475569">Exploración · tablas y filas</text>
+    <rect x="15" y="88" width="6" height="14" rx="3" fill="url(#flowGrad)"/>
+    <text x="42" y="98" font-family="Georgia, serif" font-size="10" fill="#475569">Flujo de validación</text>
+    <line x1="15" y1="112" x2="245" y2="112" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="130" y="132" font-family="Georgia, serif" font-size="9" fill="#64748b" text-anchor="middle">2 pantallas · 10 componentes</text>
+    <text x="130" y="148" font-family="Georgia, serif" font-size="9" fill="#64748b" text-anchor="middle">Indicador verde/rojo · marca 'sin geografía'</text>
+  </g>
+
+  <!-- Flow -->
+  <text x="55" y="340" font-family="Georgia, serif" font-size="16" fill="#1e293b" font-weight="bold">Flujo de validación</text>
+  <rect x="50" y="348" width="612" height="3" rx="1" fill="url(#flowGrad)"/>
+
+  <g transform="translate(50, 367)">
+    <rect width="100" height="70" rx="4" fill="#ccfbf1" stroke="#0d9488" stroke-width="2" filter="url(#shadow)"/>
+    <circle cx="15" cy="15" r="10" fill="#0d9488"/>
+    <text x="15" y="19" font-family="Georgia, serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+    <g transform="translate(72,6) scale(0.95)" stroke="#0d9488" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3,4 H11 M3,7 H11 M3,10 H11" fill="none"/></g>
+    <text x="50" y="40" font-family="Georgia, serif" font-size="9" fill="#115e59" text-anchor="middle" font-weight="bold">Explorar tablas</text>
+    <text x="50" y="58" font-family="monospace" font-size="7" fill="#0d9488" text-anchor="middle">Filas · fuente · año</text>
+  </g>
+  <path d="M 155 402 L 173 402" stroke="#0d9488" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(178, 367)">
+    <rect width="100" height="70" rx="4" fill="#ccfbf1" stroke="#0d9488" stroke-width="2" filter="url(#shadow)"/>
+    <circle cx="15" cy="15" r="10" fill="#0d9488"/>
+    <text x="15" y="19" font-family="Georgia, serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+    <g transform="translate(72,6) scale(0.95)" stroke="#0d9488" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="4" fill="none"/><path d="M9,9 L12.4,12.4" fill="none"/></g>
+    <text x="50" y="40" font-family="Georgia, serif" font-size="9" fill="#115e59" text-anchor="middle" font-weight="bold">Buscar</text>
+    <text x="50" y="58" font-family="monospace" font-size="7" fill="#0d9488" text-anchor="middle">Búsqueda simple</text>
+  </g>
+  <path d="M 283 402 L 301 402" stroke="#0d9488" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(306, 367)">
+    <rect width="100" height="70" rx="4" fill="#ccfbf1" stroke="#0d9488" stroke-width="2" filter="url(#shadow)"/>
+    <circle cx="15" cy="15" r="10" fill="#0d9488"/>
+    <text x="15" y="19" font-family="Georgia, serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+    <g transform="translate(72,6) scale(0.95)" stroke="#0d9488" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="7" width="2.6" height="5.5" rx="0.8" fill="none"/><rect x="6" y="4" width="2.6" height="8.5" rx="0.8" fill="none"/><rect x="9.5" y="1.8" width="2.6" height="10.7" rx="0.8" fill="none"/></g>
+    <text x="50" y="40" font-family="Georgia, serif" font-size="9" fill="#115e59" text-anchor="middle" font-weight="bold">Totales</text>
+    <text x="50" y="58" font-family="monospace" font-size="7" fill="#0d9488" text-anchor="middle">Esperado vs real</text>
+  </g>
+  <path d="M 411 402 L 429 402" stroke="#0d9488" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(434, 367)">
+    <rect width="100" height="70" rx="4" fill="#ccfbf1" stroke="#0d9488" stroke-width="2" filter="url(#shadow)"/>
+    <circle cx="15" cy="15" r="10" fill="#0d9488"/>
+    <text x="15" y="19" font-family="Georgia, serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+    <g transform="translate(72,6) scale(0.95)" stroke="#0d9488" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5.3" fill="none"/><path d="M9,5 L7.4,7.4 L5,9 L6.6,6.6 Z" fill="#0d9488" stroke="none"/></g>
+    <text x="50" y="40" font-family="Georgia, serif" font-size="9" fill="#115e59" text-anchor="middle" font-weight="bold">Prueba Bogotá</text>
+    <text x="50" y="58" font-family="monospace" font-size="7" fill="#0d9488" text-anchor="middle">Eje geográfico</text>
+  </g>
+  <path d="M 539 402 L 557 402" stroke="#0d9488" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(562, 367)">
+    <rect width="100" height="70" rx="4" fill="#0f766e" stroke="#134e4a" stroke-width="2" filter="url(#shadow)"/>
+    <circle cx="15" cy="15" r="10" fill="#fff"/>
+    <text x="15" y="19" font-family="Georgia, serif" font-size="10" fill="#0f766e" text-anchor="middle" font-weight="bold">5</text>
+    <g transform="translate(72,6) scale(0.95)" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5,4 H8 M2.5,7 H8 M2.5,10 H8" fill="none"/><path d="M10,4.3 L13,6.5 L10,8.7 Z" fill="#ffffff" stroke="none"/></g>
+    <text x="50" y="40" font-family="Georgia, serif" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">Revalidar</text>
+    <text x="50" y="58" font-family="monospace" font-size="7" fill="#ccfbf1" text-anchor="middle">Nuevo load_batch</text>
+  </g>
+</svg>

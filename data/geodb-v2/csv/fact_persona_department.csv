@@ -1,0 +1,412 @@
+persona,department_code,department,employed
+Software developers and analysts,11,Bogotá D.C.,98962
+Software developers and analysts,05,Antioquia,38561
+Software developers and analysts,76,Valle del Cauca,17762
+Software developers and analysts,25,Cundinamarca,16386
+Software developers and analysts,08,Atlántico,6720
+Software developers and analysts,68,Santander,6323
+Software developers and analysts,66,Risaralda,3210
+Software developers and analysts,54,Norte de Santander,3095
+Software developers and analysts,17,Caldas,3066
+Software developers and analysts,13,Bolívar,2468
+Software developers and analysts,15,Boyacá,2340
+Software developers and analysts,63,Quindío,2282
+Software developers and analysts,41,Huila,2078
+Software developers and analysts,52,Nariño,2034
+Software developers and analysts,50,Meta,1888
+Software developers and analysts,19,Cauca,1853
+Software developers and analysts,73,Tolima,1755
+Software developers and analysts,20,Cesar,1587
+Software developers and analysts,23,Córdoba,1356
+Software developers and analysts,47,Magdalena,924
+Software developers and analysts,70,Sucre,641
+Software developers and analysts,18,Caquetá,446
+Software developers and analysts,85,Casanare,234
+Software developers and analysts,86,Putumayo,211
+Software developers and analysts,44,La Guajira,186
+Software developers and analysts,27,Chocó,162
+Software developers and analysts,88,San Andrés,76
+Software developers and analysts,95,Guaviare,70
+Software developers and analysts,81,Arauca,68
+Software developers and analysts,99,Vichada,43
+Software developers and analysts,97,Vaupés,31
+Software developers and analysts,91,Amazonas,23
+"Database, systems and network professionals",11,Bogotá D.C.,8497
+"Database, systems and network professionals",05,Antioquia,3773
+"Database, systems and network professionals",76,Valle del Cauca,751
+"Database, systems and network professionals",25,Cundinamarca,468
+"Database, systems and network professionals",08,Atlántico,460
+"Database, systems and network professionals",68,Santander,302
+"Database, systems and network professionals",15,Boyacá,279
+"Database, systems and network professionals",17,Caldas,237
+"Database, systems and network professionals",66,Risaralda,222
+"Database, systems and network professionals",52,Nariño,173
+"Database, systems and network professionals",13,Bolívar,159
+"Database, systems and network professionals",63,Quindío,133
+"Database, systems and network professionals",50,Meta,88
+"Database, systems and network professionals",20,Cesar,70
+"Database, systems and network professionals",47,Magdalena,66
+"Database, systems and network professionals",44,La Guajira,58
+"Database, systems and network professionals",73,Tolima,55
+"Database, systems and network professionals",70,Sucre,45
+"Database, systems and network professionals",19,Cauca,41
+"Database, systems and network professionals",85,Casanare,36
+"Database, systems and network professionals",54,Norte de Santander,35
+"Database, systems and network professionals",27,Chocó,17
+"Database, systems and network professionals",23,Córdoba,17
+"Database, systems and network professionals",41,Huila,12
+"Database, systems and network professionals",95,Guaviare,8
+"Database, systems and network professionals",88,San Andrés,4
+ICT technicians and user support,11,Bogotá D.C.,29738
+ICT technicians and user support,05,Antioquia,19510
+ICT technicians and user support,25,Cundinamarca,9675
+ICT technicians and user support,76,Valle del Cauca,8498
+ICT technicians and user support,08,Atlántico,3744
+ICT technicians and user support,13,Bolívar,3592
+ICT technicians and user support,68,Santander,2847
+ICT technicians and user support,17,Caldas,1862
+ICT technicians and user support,66,Risaralda,1802
+ICT technicians and user support,15,Boyacá,1761
+ICT technicians and user support,54,Norte de Santander,1482
+ICT technicians and user support,20,Cesar,1414
+ICT technicians and user support,47,Magdalena,1187
+ICT technicians and user support,52,Nariño,1185
+ICT technicians and user support,19,Cauca,1166
+ICT technicians and user support,41,Huila,1059
+ICT technicians and user support,23,Córdoba,848
+ICT technicians and user support,63,Quindío,757
+ICT technicians and user support,73,Tolima,755
+ICT technicians and user support,70,Sucre,711
+ICT technicians and user support,50,Meta,640
+ICT technicians and user support,44,La Guajira,603
+ICT technicians and user support,18,Caquetá,303
+ICT technicians and user support,85,Casanare,235
+ICT technicians and user support,27,Chocó,200
+ICT technicians and user support,88,San Andrés,126
+ICT technicians and user support,81,Arauca,108
+ICT technicians and user support,86,Putumayo,97
+ICT technicians and user support,91,Amazonas,55
+ICT technicians and user support,95,Guaviare,55
+ICT technicians and user support,99,Vichada,51
+ICT technicians and user support,94,Guainía,33
+ICT technicians and user support,97,Vaupés,16
+ICT managers,11,Bogotá D.C.,3517
+ICT managers,05,Antioquia,1699
+ICT managers,25,Cundinamarca,491
+ICT managers,76,Valle del Cauca,389
+ICT managers,68,Santander,231
+ICT managers,08,Atlántico,160
+ICT managers,19,Cauca,158
+ICT managers,66,Risaralda,145
+ICT managers,13,Bolívar,143
+ICT managers,52,Nariño,126
+ICT managers,63,Quindío,98
+ICT managers,73,Tolima,63
+ICT managers,15,Boyacá,50
+ICT managers,85,Casanare,46
+ICT managers,50,Meta,46
+ICT managers,41,Huila,41
+ICT managers,20,Cesar,34
+ICT managers,17,Caldas,34
+ICT managers,47,Magdalena,23
+ICT managers,70,Sucre,20
+ICT managers,54,Norte de Santander,20
+ICT managers,18,Caquetá,13
+ICT managers,44,La Guajira,12
+ICT managers,88,San Andrés,12
+ICT managers,23,Córdoba,11
+ICT managers,27,Chocó,2
+"Designers (graphic, multimedia, product)",11,Bogotá D.C.,39414
+"Designers (graphic, multimedia, product)",05,Antioquia,16640
+"Designers (graphic, multimedia, product)",76,Valle del Cauca,9402
+"Designers (graphic, multimedia, product)",25,Cundinamarca,5946
+"Designers (graphic, multimedia, product)",08,Atlántico,5326
+"Designers (graphic, multimedia, product)",68,Santander,3319
+"Designers (graphic, multimedia, product)",54,Norte de Santander,2140
+"Designers (graphic, multimedia, product)",52,Nariño,1683
+"Designers (graphic, multimedia, product)",66,Risaralda,1518
+"Designers (graphic, multimedia, product)",13,Bolívar,1491
+"Designers (graphic, multimedia, product)",17,Caldas,1407
+"Designers (graphic, multimedia, product)",73,Tolima,1119
+"Designers (graphic, multimedia, product)",15,Boyacá,1114
+"Designers (graphic, multimedia, product)",63,Quindío,883
+"Designers (graphic, multimedia, product)",50,Meta,869
+"Designers (graphic, multimedia, product)",47,Magdalena,764
+"Designers (graphic, multimedia, product)",19,Cauca,644
+"Designers (graphic, multimedia, product)",23,Córdoba,475
+"Designers (graphic, multimedia, product)",20,Cesar,465
+"Designers (graphic, multimedia, product)",41,Huila,311
+"Designers (graphic, multimedia, product)",44,La Guajira,238
+"Designers (graphic, multimedia, product)",70,Sucre,236
+"Designers (graphic, multimedia, product)",18,Caquetá,155
+"Designers (graphic, multimedia, product)",85,Casanare,93
+"Designers (graphic, multimedia, product)",95,Guaviare,87
+"Designers (graphic, multimedia, product)",27,Chocó,50
+"Designers (graphic, multimedia, product)",81,Arauca,22
+"Designers (graphic, multimedia, product)",88,San Andrés,5
+"Designers (graphic, multimedia, product)",94,Guainía,5
+"Designers (graphic, multimedia, product)",99,Vichada,4
+"Designers (graphic, multimedia, product)",91,Amazonas,3
+"Designers (graphic, multimedia, product)",97,Vaupés,2
+Business and management analysts,11,Bogotá D.C.,22246
+Business and management analysts,76,Valle del Cauca,4795
+Business and management analysts,05,Antioquia,4511
+Business and management analysts,25,Cundinamarca,3684
+Business and management analysts,73,Tolima,1458
+Business and management analysts,68,Santander,1442
+Business and management analysts,08,Atlántico,1091
+Business and management analysts,54,Norte de Santander,1066
+Business and management analysts,52,Nariño,1040
+Business and management analysts,13,Bolívar,971
+Business and management analysts,66,Risaralda,799
+Business and management analysts,15,Boyacá,775
+Business and management analysts,63,Quindío,618
+Business and management analysts,20,Cesar,594
+Business and management analysts,47,Magdalena,562
+Business and management analysts,50,Meta,529
+Business and management analysts,41,Huila,509
+Business and management analysts,17,Caldas,500
+Business and management analysts,19,Cauca,335
+Business and management analysts,86,Putumayo,274
+Business and management analysts,70,Sucre,250
+Business and management analysts,81,Arauca,243
+Business and management analysts,27,Chocó,235
+Business and management analysts,44,La Guajira,233
+Business and management analysts,85,Casanare,212
+Business and management analysts,91,Amazonas,143
+Business and management analysts,18,Caquetá,128
+Business and management analysts,23,Córdoba,113
+Business and management analysts,88,San Andrés,111
+Business and management analysts,97,Vaupés,75
+Business and management analysts,95,Guaviare,74
+Business and management analysts,99,Vichada,62
+Business and management analysts,94,Guainía,16
+Accountants and auditors,11,Bogotá D.C.,94154
+Accountants and auditors,05,Antioquia,38350
+Accountants and auditors,76,Valle del Cauca,30681
+Accountants and auditors,25,Cundinamarca,16299
+Accountants and auditors,08,Atlántico,14645
+Accountants and auditors,68,Santander,9294
+Accountants and auditors,23,Córdoba,4931
+Accountants and auditors,50,Meta,4850
+Accountants and auditors,52,Nariño,4502
+Accountants and auditors,13,Bolívar,4223
+Accountants and auditors,66,Risaralda,4022
+Accountants and auditors,15,Boyacá,3736
+Accountants and auditors,17,Caldas,3585
+Accountants and auditors,73,Tolima,3544
+Accountants and auditors,63,Quindío,3259
+Accountants and auditors,47,Magdalena,3246
+Accountants and auditors,54,Norte de Santander,3055
+Accountants and auditors,41,Huila,2870
+Accountants and auditors,20,Cesar,2604
+Accountants and auditors,70,Sucre,2070
+Accountants and auditors,19,Cauca,1929
+Accountants and auditors,85,Casanare,1575
+Accountants and auditors,44,La Guajira,1121
+Accountants and auditors,18,Caquetá,1001
+Accountants and auditors,27,Chocó,636
+Accountants and auditors,81,Arauca,351
+Accountants and auditors,86,Putumayo,312
+Accountants and auditors,88,San Andrés,231
+Accountants and auditors,91,Amazonas,178
+Accountants and auditors,95,Guaviare,141
+Accountants and auditors,99,Vichada,100
+Accountants and auditors,94,Guainía,56
+Accountants and auditors,97,Vaupés,51
+Finance and investment analysts,11,Bogotá D.C.,36861
+Finance and investment analysts,05,Antioquia,13081
+Finance and investment analysts,76,Valle del Cauca,8347
+Finance and investment analysts,25,Cundinamarca,7237
+Finance and investment analysts,08,Atlántico,3106
+Finance and investment analysts,68,Santander,2545
+Finance and investment analysts,73,Tolima,1347
+Finance and investment analysts,17,Caldas,1047
+Finance and investment analysts,66,Risaralda,1038
+Finance and investment analysts,20,Cesar,1033
+Finance and investment analysts,15,Boyacá,924
+Finance and investment analysts,52,Nariño,827
+Finance and investment analysts,13,Bolívar,807
+Finance and investment analysts,41,Huila,714
+Finance and investment analysts,47,Magdalena,647
+Finance and investment analysts,63,Quindío,552
+Finance and investment analysts,19,Cauca,546
+Finance and investment analysts,50,Meta,409
+Finance and investment analysts,54,Norte de Santander,390
+Finance and investment analysts,23,Córdoba,363
+Finance and investment analysts,70,Sucre,342
+Finance and investment analysts,18,Caquetá,181
+Finance and investment analysts,44,La Guajira,135
+Finance and investment analysts,85,Casanare,134
+Finance and investment analysts,27,Chocó,81
+Finance and investment analysts,88,San Andrés,61
+Finance and investment analysts,86,Putumayo,47
+Finance and investment analysts,81,Arauca,33
+Finance and investment analysts,95,Guaviare,31
+Finance and investment analysts,97,Vaupés,15
+Finance and investment analysts,99,Vichada,14
+Finance and investment analysts,91,Amazonas,11
+Finance and investment analysts,94,Guainía,7
+"Data, statistics and research specialists",11,Bogotá D.C.,9859
+"Data, statistics and research specialists",25,Cundinamarca,2450
+"Data, statistics and research specialists",76,Valle del Cauca,1499
+"Data, statistics and research specialists",05,Antioquia,1227
+"Data, statistics and research specialists",08,Atlántico,759
+"Data, statistics and research specialists",13,Bolívar,446
+"Data, statistics and research specialists",41,Huila,272
+"Data, statistics and research specialists",68,Santander,229
+"Data, statistics and research specialists",23,Córdoba,168
+"Data, statistics and research specialists",50,Meta,153
+"Data, statistics and research specialists",54,Norte de Santander,145
+"Data, statistics and research specialists",17,Caldas,136
+"Data, statistics and research specialists",52,Nariño,127
+"Data, statistics and research specialists",20,Cesar,124
+"Data, statistics and research specialists",47,Magdalena,118
+"Data, statistics and research specialists",19,Cauca,104
+"Data, statistics and research specialists",66,Risaralda,102
+"Data, statistics and research specialists",15,Boyacá,95
+"Data, statistics and research specialists",70,Sucre,76
+"Data, statistics and research specialists",63,Quindío,52
+"Data, statistics and research specialists",86,Putumayo,39
+"Data, statistics and research specialists",18,Caquetá,38
+"Data, statistics and research specialists",73,Tolima,34
+"Data, statistics and research specialists",27,Chocó,31
+"Data, statistics and research specialists",91,Amazonas,29
+"Data, statistics and research specialists",81,Arauca,19
+"Data, statistics and research specialists",88,San Andrés,16
+"Data, statistics and research specialists",85,Casanare,13
+"Data, statistics and research specialists",44,La Guajira,11
+"Data, statistics and research specialists",97,Vaupés,4
+"Data, statistics and research specialists",94,Guainía,2
+Marketing and advertising professionals,11,Bogotá D.C.,36126
+Marketing and advertising professionals,05,Antioquia,13640
+Marketing and advertising professionals,76,Valle del Cauca,6990
+Marketing and advertising professionals,25,Cundinamarca,4118
+Marketing and advertising professionals,08,Atlántico,2335
+Marketing and advertising professionals,68,Santander,1582
+Marketing and advertising professionals,50,Meta,1252
+Marketing and advertising professionals,19,Cauca,1156
+Marketing and advertising professionals,17,Caldas,1028
+Marketing and advertising professionals,54,Norte de Santander,1020
+Marketing and advertising professionals,63,Quindío,1003
+Marketing and advertising professionals,66,Risaralda,947
+Marketing and advertising professionals,15,Boyacá,819
+Marketing and advertising professionals,73,Tolima,640
+Marketing and advertising professionals,47,Magdalena,583
+Marketing and advertising professionals,20,Cesar,541
+Marketing and advertising professionals,52,Nariño,529
+Marketing and advertising professionals,13,Bolívar,488
+Marketing and advertising professionals,23,Córdoba,329
+Marketing and advertising professionals,41,Huila,318
+Marketing and advertising professionals,18,Caquetá,167
+Marketing and advertising professionals,44,La Guajira,136
+Marketing and advertising professionals,70,Sucre,114
+Marketing and advertising professionals,85,Casanare,83
+Marketing and advertising professionals,81,Arauca,75
+Marketing and advertising professionals,27,Chocó,50
+Marketing and advertising professionals,88,San Andrés,38
+Marketing and advertising professionals,86,Putumayo,26
+Marketing and advertising professionals,95,Guaviare,23
+Marketing and advertising professionals,94,Guainía,18
+Marketing and advertising professionals,91,Amazonas,11
+Marketing and advertising professionals,99,Vichada,7
+Marketing and advertising professionals,97,Vaupés,2
+Engineers (non-ICT),11,Bogotá D.C.,83093
+Engineers (non-ICT),05,Antioquia,35727
+Engineers (non-ICT),25,Cundinamarca,20257
+Engineers (non-ICT),76,Valle del Cauca,12285
+Engineers (non-ICT),68,Santander,11859
+Engineers (non-ICT),08,Atlántico,10921
+Engineers (non-ICT),15,Boyacá,5416
+Engineers (non-ICT),13,Bolívar,5092
+Engineers (non-ICT),54,Norte de Santander,4855
+Engineers (non-ICT),50,Meta,4681
+Engineers (non-ICT),73,Tolima,3522
+Engineers (non-ICT),17,Caldas,3252
+Engineers (non-ICT),66,Risaralda,3154
+Engineers (non-ICT),41,Huila,3114
+Engineers (non-ICT),23,Córdoba,3026
+Engineers (non-ICT),20,Cesar,2920
+Engineers (non-ICT),19,Cauca,2762
+Engineers (non-ICT),52,Nariño,2663
+Engineers (non-ICT),47,Magdalena,2284
+Engineers (non-ICT),63,Quindío,1601
+Engineers (non-ICT),85,Casanare,1278
+Engineers (non-ICT),44,La Guajira,1231
+Engineers (non-ICT),70,Sucre,1117
+Engineers (non-ICT),18,Caquetá,692
+Engineers (non-ICT),86,Putumayo,592
+Engineers (non-ICT),27,Chocó,507
+Engineers (non-ICT),81,Arauca,384
+Engineers (non-ICT),88,San Andrés,178
+Engineers (non-ICT),95,Guaviare,117
+Engineers (non-ICT),99,Vichada,90
+Engineers (non-ICT),91,Amazonas,59
+Engineers (non-ICT),97,Vaupés,49
+Engineers (non-ICT),94,Guainía,44
+Business and operations managers,11,Bogotá D.C.,188771
+Business and operations managers,05,Antioquia,76161
+Business and operations managers,25,Cundinamarca,37899
+Business and operations managers,76,Valle del Cauca,33432
+Business and operations managers,08,Atlántico,22949
+Business and operations managers,68,Santander,22233
+Business and operations managers,54,Norte de Santander,10256
+Business and operations managers,13,Bolívar,9014
+Business and operations managers,66,Risaralda,7707
+Business and operations managers,73,Tolima,6991
+Business and operations managers,17,Caldas,6648
+Business and operations managers,52,Nariño,6501
+Business and operations managers,15,Boyacá,5671
+Business and operations managers,50,Meta,5541
+Business and operations managers,41,Huila,5095
+Business and operations managers,20,Cesar,5039
+Business and operations managers,23,Córdoba,4976
+Business and operations managers,47,Magdalena,4691
+Business and operations managers,19,Cauca,4311
+Business and operations managers,63,Quindío,3166
+Business and operations managers,70,Sucre,2808
+Business and operations managers,44,La Guajira,2378
+Business and operations managers,18,Caquetá,1743
+Business and operations managers,85,Casanare,1377
+Business and operations managers,27,Chocó,958
+Business and operations managers,81,Arauca,684
+Business and operations managers,95,Guaviare,566
+Business and operations managers,88,San Andrés,494
+Business and operations managers,86,Putumayo,347
+Business and operations managers,99,Vichada,191
+Business and operations managers,97,Vaupés,185
+Business and operations managers,91,Amazonas,136
+Business and operations managers,94,Guainía,110
+Higher-education and IT educators,11,Bogotá D.C.,26373
+Higher-education and IT educators,05,Antioquia,12994
+Higher-education and IT educators,76,Valle del Cauca,7201
+Higher-education and IT educators,68,Santander,5184
+Higher-education and IT educators,54,Norte de Santander,4101
+Higher-education and IT educators,08,Atlántico,3842
+Higher-education and IT educators,25,Cundinamarca,2818
+Higher-education and IT educators,17,Caldas,2393
+Higher-education and IT educators,13,Bolívar,2349
+Higher-education and IT educators,15,Boyacá,2291
+Higher-education and IT educators,19,Cauca,2204
+Higher-education and IT educators,73,Tolima,2125
+Higher-education and IT educators,66,Risaralda,1764
+Higher-education and IT educators,20,Cesar,1582
+Higher-education and IT educators,41,Huila,1469
+Higher-education and IT educators,52,Nariño,1376
+Higher-education and IT educators,47,Magdalena,1133
+Higher-education and IT educators,63,Quindío,1064
+Higher-education and IT educators,23,Córdoba,1016
+Higher-education and IT educators,50,Meta,1015
+Higher-education and IT educators,70,Sucre,954
+Higher-education and IT educators,18,Caquetá,785
+Higher-education and IT educators,44,La Guajira,651
+Higher-education and IT educators,27,Chocó,358
+Higher-education and IT educators,85,Casanare,263
+Higher-education and IT educators,91,Amazonas,125
+Higher-education and IT educators,86,Putumayo,95
+Higher-education and IT educators,81,Arauca,44
+Higher-education and IT educators,95,Guaviare,35
+Higher-education and IT educators,99,Vichada,21
+Higher-education and IT educators,88,San Andrés,15
+Higher-education and IT educators,97,Vaupés,15
+Higher-education and IT educators,94,Guainía,8

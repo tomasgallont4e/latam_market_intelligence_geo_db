@@ -1,0 +1,380 @@
+persona,municipality_code,metro_area,employed
+Software developers and analysts,11001,Bogotá,98962
+Software developers and analysts,,Rest of the country,36418
+Software developers and analysts,05001,Medellín,34063
+Software developers and analysts,76001,Cali,11466
+Software developers and analysts,08001,Barranquilla,6119
+Software developers and analysts,68001,Bucaramanga,5446
+Software developers and analysts,17001,Manizales,2813
+Software developers and analysts,66001,Pereira,2620
+Software developers and analysts,54001,Cúcuta,2249
+Software developers and analysts,63001,Armenia,1851
+Software developers and analysts,13001,Cartagena,1752
+Software developers and analysts,50001,Villavicencio,1513
+Software developers and analysts,19001,Popayán,1489
+Software developers and analysts,41001,Neiva,1456
+Software developers and analysts,52001,Pasto,1443
+Software developers and analysts,73001,Ibagué,1387
+Software developers and analysts,23001,Montería,1059
+Software developers and analysts,20001,Valledupar,1040
+Software developers and analysts,15001,Tunja,991
+Software developers and analysts,47001,Santa Marta,889
+Software developers and analysts,18001,Florencia,446
+Software developers and analysts,70001,Sincelejo,408
+Software developers and analysts,85001,Yopal,234
+Software developers and analysts,86001,Mocoa,211
+Software developers and analysts,44001,Riohacha,186
+Software developers and analysts,27001,Quibdó,162
+Software developers and analysts,88001,San Andrés,76
+Software developers and analysts,81001,Arauca,68
+Software developers and analysts,91001,Leticia,23
+"Database, systems and network professionals",11001,Bogotá,8497
+"Database, systems and network professionals",05001,Medellín,3280
+"Database, systems and network professionals",,Rest of the country,1685
+"Database, systems and network professionals",76001,Cali,717
+"Database, systems and network professionals",08001,Barranquilla,460
+"Database, systems and network professionals",68001,Bucaramanga,264
+"Database, systems and network professionals",17001,Manizales,198
+"Database, systems and network professionals",13001,Cartagena,159
+"Database, systems and network professionals",66001,Pereira,105
+"Database, systems and network professionals",63001,Armenia,87
+"Database, systems and network professionals",20001,Valledupar,70
+"Database, systems and network professionals",50001,Villavicencio,67
+"Database, systems and network professionals",47001,Santa Marta,66
+"Database, systems and network professionals",52001,Pasto,65
+"Database, systems and network professionals",73001,Ibagué,55
+"Database, systems and network professionals",19001,Popayán,41
+"Database, systems and network professionals",85001,Yopal,36
+"Database, systems and network professionals",54001,Cúcuta,35
+"Database, systems and network professionals",15001,Tunja,32
+"Database, systems and network professionals",44001,Riohacha,24
+"Database, systems and network professionals",27001,Quibdó,17
+"Database, systems and network professionals",23001,Montería,17
+"Database, systems and network professionals",70001,Sincelejo,15
+"Database, systems and network professionals",41001,Neiva,12
+"Database, systems and network professionals",88001,San Andrés,4
+ICT technicians and user support,11001,Bogotá,29738
+ICT technicians and user support,,Rest of the country,25327
+ICT technicians and user support,05001,Medellín,16262
+ICT technicians and user support,76001,Cali,5576
+ICT technicians and user support,08001,Barranquilla,3294
+ICT technicians and user support,68001,Bucaramanga,2283
+ICT technicians and user support,13001,Cartagena,2104
+ICT technicians and user support,66001,Pereira,1580
+ICT technicians and user support,17001,Manizales,1521
+ICT technicians and user support,54001,Cúcuta,1311
+ICT technicians and user support,47001,Santa Marta,826
+ICT technicians and user support,20001,Valledupar,645
+ICT technicians and user support,52001,Pasto,633
+ICT technicians and user support,19001,Popayán,627
+ICT technicians and user support,50001,Villavicencio,589
+ICT technicians and user support,73001,Ibagué,588
+ICT technicians and user support,63001,Armenia,477
+ICT technicians and user support,41001,Neiva,470
+ICT technicians and user support,70001,Sincelejo,394
+ICT technicians and user support,15001,Tunja,356
+ICT technicians and user support,23001,Montería,346
+ICT technicians and user support,85001,Yopal,235
+ICT technicians and user support,18001,Florencia,226
+ICT technicians and user support,44001,Riohacha,193
+ICT technicians and user support,88001,San Andrés,126
+ICT technicians and user support,81001,Arauca,108
+ICT technicians and user support,27001,Quibdó,97
+ICT technicians and user support,86001,Mocoa,97
+ICT technicians and user support,91001,Leticia,55
+ICT technicians and user support,94001,Inírida,33
+ICT managers,11001,Bogotá,3517
+ICT managers,05001,Medellín,1656
+ICT managers,,Rest of the country,946
+ICT managers,76001,Cali,226
+ICT managers,08001,Barranquilla,160
+ICT managers,68001,Bucaramanga,146
+ICT managers,13001,Cartagena,143
+ICT managers,52001,Pasto,126
+ICT managers,19001,Popayán,103
+ICT managers,66001,Pereira,90
+ICT managers,73001,Ibagué,63
+ICT managers,15001,Tunja,50
+ICT managers,85001,Yopal,46
+ICT managers,50001,Villavicencio,46
+ICT managers,63001,Armenia,43
+ICT managers,41001,Neiva,41
+ICT managers,20001,Valledupar,34
+ICT managers,17001,Manizales,34
+ICT managers,47001,Santa Marta,23
+ICT managers,70001,Sincelejo,20
+ICT managers,54001,Cúcuta,20
+ICT managers,18001,Florencia,13
+ICT managers,44001,Riohacha,12
+ICT managers,88001,San Andrés,12
+ICT managers,23001,Montería,11
+ICT managers,27001,Quibdó,2
+"Designers (graphic, multimedia, product)",11001,Bogotá,39414
+"Designers (graphic, multimedia, product)",05001,Medellín,15729
+"Designers (graphic, multimedia, product)",,Rest of the country,13222
+"Designers (graphic, multimedia, product)",76001,Cali,8019
+"Designers (graphic, multimedia, product)",08001,Barranquilla,4332
+"Designers (graphic, multimedia, product)",68001,Bucaramanga,2766
+"Designers (graphic, multimedia, product)",54001,Cúcuta,1513
+"Designers (graphic, multimedia, product)",13001,Cartagena,1491
+"Designers (graphic, multimedia, product)",66001,Pereira,1381
+"Designers (graphic, multimedia, product)",17001,Manizales,1206
+"Designers (graphic, multimedia, product)",73001,Ibagué,999
+"Designers (graphic, multimedia, product)",52001,Pasto,973
+"Designers (graphic, multimedia, product)",63001,Armenia,790
+"Designers (graphic, multimedia, product)",47001,Santa Marta,659
+"Designers (graphic, multimedia, product)",19001,Popayán,644
+"Designers (graphic, multimedia, product)",50001,Villavicencio,570
+"Designers (graphic, multimedia, product)",20001,Valledupar,465
+"Designers (graphic, multimedia, product)",23001,Montería,408
+"Designers (graphic, multimedia, product)",15001,Tunja,327
+"Designers (graphic, multimedia, product)",41001,Neiva,311
+"Designers (graphic, multimedia, product)",70001,Sincelejo,195
+"Designers (graphic, multimedia, product)",18001,Florencia,155
+"Designers (graphic, multimedia, product)",85001,Yopal,93
+"Designers (graphic, multimedia, product)",44001,Riohacha,83
+"Designers (graphic, multimedia, product)",27001,Quibdó,50
+"Designers (graphic, multimedia, product)",81001,Arauca,22
+"Designers (graphic, multimedia, product)",88001,San Andrés,5
+"Designers (graphic, multimedia, product)",94001,Inírida,5
+"Designers (graphic, multimedia, product)",91001,Leticia,3
+Business and management analysts,11001,Bogotá,22246
+Business and management analysts,,Rest of the country,10218
+Business and management analysts,05001,Medellín,3972
+Business and management analysts,76001,Cali,3469
+Business and management analysts,68001,Bucaramanga,1096
+Business and management analysts,73001,Ibagué,1085
+Business and management analysts,08001,Barranquilla,986
+Business and management analysts,13001,Cartagena,687
+Business and management analysts,54001,Cúcuta,633
+Business and management analysts,66001,Pereira,555
+Business and management analysts,20001,Valledupar,452
+Business and management analysts,17001,Manizales,395
+Business and management analysts,52001,Pasto,385
+Business and management analysts,47001,Santa Marta,337
+Business and management analysts,19001,Popayán,335
+Business and management analysts,50001,Villavicencio,310
+Business and management analysts,63001,Armenia,307
+Business and management analysts,41001,Neiva,275
+Business and management analysts,86001,Mocoa,274
+Business and management analysts,81001,Arauca,243
+Business and management analysts,15001,Tunja,228
+Business and management analysts,85001,Yopal,212
+Business and management analysts,44001,Riohacha,185
+Business and management analysts,70001,Sincelejo,174
+Business and management analysts,91001,Leticia,143
+Business and management analysts,18001,Florencia,128
+Business and management analysts,27001,Quibdó,122
+Business and management analysts,23001,Montería,113
+Business and management analysts,88001,San Andrés,111
+Business and management analysts,94001,Inírida,16
+Accountants and auditors,11001,Bogotá,94025
+Accountants and auditors,,Rest of the country,49650
+Accountants and auditors,05001,Medellín,34634
+Accountants and auditors,76001,Cali,19809
+Accountants and auditors,08001,Barranquilla,13407
+Accountants and auditors,68001,Bucaramanga,7303
+Accountants and auditors,13001,Cartagena,4188
+Accountants and auditors,66001,Pereira,3622
+Accountants and auditors,50001,Villavicencio,3171
+Accountants and auditors,23001,Montería,3082
+Accountants and auditors,17001,Manizales,3040
+Accountants and auditors,54001,Cúcuta,2906
+Accountants and auditors,52001,Pasto,2795
+Accountants and auditors,73001,Ibagué,2763
+Accountants and auditors,47001,Santa Marta,2665
+Accountants and auditors,63001,Armenia,2441
+Accountants and auditors,20001,Valledupar,1910
+Accountants and auditors,85001,Yopal,1575
+Accountants and auditors,41001,Neiva,1513
+Accountants and auditors,19001,Popayán,1381
+Accountants and auditors,70001,Sincelejo,1347
+Accountants and auditors,15001,Tunja,1208
+Accountants and auditors,18001,Florencia,1001
+Accountants and auditors,44001,Riohacha,626
+Accountants and auditors,27001,Quibdó,411
+Accountants and auditors,81001,Arauca,351
+Accountants and auditors,86001,Mocoa,312
+Accountants and auditors,88001,San Andrés,231
+Accountants and auditors,91001,Leticia,178
+Accountants and auditors,94001,Inírida,56
+Finance and investment analysts,11001,Bogotá,36861
+Finance and investment analysts,,Rest of the country,15884
+Finance and investment analysts,05001,Medellín,11173
+Finance and investment analysts,76001,Cali,5910
+Finance and investment analysts,08001,Barranquilla,3106
+Finance and investment analysts,68001,Bucaramanga,1234
+Finance and investment analysts,66001,Pereira,949
+Finance and investment analysts,17001,Manizales,947
+Finance and investment analysts,73001,Ibagué,804
+Finance and investment analysts,52001,Pasto,639
+Finance and investment analysts,20001,Valledupar,612
+Finance and investment analysts,13001,Cartagena,592
+Finance and investment analysts,41001,Neiva,567
+Finance and investment analysts,63001,Armenia,475
+Finance and investment analysts,47001,Santa Marta,420
+Finance and investment analysts,54001,Cúcuta,390
+Finance and investment analysts,50001,Villavicencio,383
+Finance and investment analysts,23001,Montería,363
+Finance and investment analysts,70001,Sincelejo,342
+Finance and investment analysts,15001,Tunja,318
+Finance and investment analysts,19001,Popayán,252
+Finance and investment analysts,18001,Florencia,181
+Finance and investment analysts,44001,Riohacha,135
+Finance and investment analysts,85001,Yopal,134
+Finance and investment analysts,27001,Quibdó,81
+Finance and investment analysts,88001,San Andrés,61
+Finance and investment analysts,86001,Mocoa,47
+Finance and investment analysts,81001,Arauca,33
+Finance and investment analysts,91001,Leticia,11
+Finance and investment analysts,94001,Inírida,7
+"Data, statistics and research specialists",11001,Bogotá,9859
+"Data, statistics and research specialists",,Rest of the country,4057
+"Data, statistics and research specialists",05001,Medellín,905
+"Data, statistics and research specialists",08001,Barranquilla,759
+"Data, statistics and research specialists",76001,Cali,754
+"Data, statistics and research specialists",68001,Bucaramanga,229
+"Data, statistics and research specialists",13001,Cartagena,198
+"Data, statistics and research specialists",23001,Montería,168
+"Data, statistics and research specialists",50001,Villavicencio,153
+"Data, statistics and research specialists",54001,Cúcuta,145
+"Data, statistics and research specialists",17001,Manizales,136
+"Data, statistics and research specialists",20001,Valledupar,124
+"Data, statistics and research specialists",47001,Santa Marta,118
+"Data, statistics and research specialists",52001,Pasto,105
+"Data, statistics and research specialists",19001,Popayán,104
+"Data, statistics and research specialists",66001,Pereira,102
+"Data, statistics and research specialists",15001,Tunja,95
+"Data, statistics and research specialists",41001,Neiva,68
+"Data, statistics and research specialists",86001,Mocoa,39
+"Data, statistics and research specialists",18001,Florencia,38
+"Data, statistics and research specialists",63001,Armenia,36
+"Data, statistics and research specialists",73001,Ibagué,34
+"Data, statistics and research specialists",27001,Quibdó,31
+"Data, statistics and research specialists",70001,Sincelejo,30
+"Data, statistics and research specialists",91001,Leticia,29
+"Data, statistics and research specialists",81001,Arauca,19
+"Data, statistics and research specialists",88001,San Andrés,16
+"Data, statistics and research specialists",85001,Yopal,13
+"Data, statistics and research specialists",44001,Riohacha,11
+"Data, statistics and research specialists",94001,Inírida,2
+Marketing and advertising professionals,11001,Bogotá,36043
+Marketing and advertising professionals,05001,Medellín,12677
+Marketing and advertising professionals,,Rest of the country,9831
+Marketing and advertising professionals,76001,Cali,5835
+Marketing and advertising professionals,08001,Barranquilla,2084
+Marketing and advertising professionals,68001,Bucaramanga,1345
+Marketing and advertising professionals,17001,Manizales,950
+Marketing and advertising professionals,54001,Cúcuta,921
+Marketing and advertising professionals,66001,Pereira,869
+Marketing and advertising professionals,50001,Villavicencio,843
+Marketing and advertising professionals,63001,Armenia,700
+Marketing and advertising professionals,52001,Pasto,529
+Marketing and advertising professionals,73001,Ibagué,523
+Marketing and advertising professionals,47001,Santa Marta,518
+Marketing and advertising professionals,13001,Cartagena,488
+Marketing and advertising professionals,20001,Valledupar,383
+Marketing and advertising professionals,23001,Montería,329
+Marketing and advertising professionals,41001,Neiva,318
+Marketing and advertising professionals,19001,Popayán,265
+Marketing and advertising professionals,15001,Tunja,170
+Marketing and advertising professionals,18001,Florencia,137
+Marketing and advertising professionals,85001,Yopal,83
+Marketing and advertising professionals,81001,Arauca,75
+Marketing and advertising professionals,70001,Sincelejo,73
+Marketing and advertising professionals,44001,Riohacha,65
+Marketing and advertising professionals,27001,Quibdó,50
+Marketing and advertising professionals,88001,San Andrés,38
+Marketing and advertising professionals,86001,Mocoa,26
+Marketing and advertising professionals,94001,Inírida,18
+Marketing and advertising professionals,91001,Leticia,11
+Engineers (non-ICT),11001,Bogotá,83093
+Engineers (non-ICT),,Rest of the country,53275
+Engineers (non-ICT),05001,Medellín,29495
+Engineers (non-ICT),08001,Barranquilla,9701
+Engineers (non-ICT),76001,Cali,8409
+Engineers (non-ICT),68001,Bucaramanga,8138
+Engineers (non-ICT),13001,Cartagena,4149
+Engineers (non-ICT),54001,Cúcuta,3705
+Engineers (non-ICT),50001,Villavicencio,3129
+Engineers (non-ICT),17001,Manizales,2647
+Engineers (non-ICT),66001,Pereira,2575
+Engineers (non-ICT),41001,Neiva,2277
+Engineers (non-ICT),73001,Ibagué,2232
+Engineers (non-ICT),47001,Santa Marta,1978
+Engineers (non-ICT),52001,Pasto,1930
+Engineers (non-ICT),23001,Montería,1861
+Engineers (non-ICT),15001,Tunja,1563
+Engineers (non-ICT),20001,Valledupar,1350
+Engineers (non-ICT),85001,Yopal,1278
+Engineers (non-ICT),19001,Popayán,1209
+Engineers (non-ICT),63001,Armenia,1117
+Engineers (non-ICT),70001,Sincelejo,884
+Engineers (non-ICT),44001,Riohacha,654
+Engineers (non-ICT),18001,Florencia,647
+Engineers (non-ICT),86001,Mocoa,592
+Engineers (non-ICT),81001,Arauca,384
+Engineers (non-ICT),27001,Quibdó,273
+Engineers (non-ICT),88001,San Andrés,178
+Engineers (non-ICT),91001,Leticia,59
+Engineers (non-ICT),94001,Inírida,44
+Business and operations managers,11001,Bogotá,188751
+Business and operations managers,,Rest of the country,95793
+Business and operations managers,05001,Medellín,66110
+Business and operations managers,76001,Cali,25212
+Business and operations managers,08001,Barranquilla,20290
+Business and operations managers,68001,Bucaramanga,17135
+Business and operations managers,54001,Cúcuta,8545
+Business and operations managers,13001,Cartagena,7511
+Business and operations managers,66001,Pereira,6633
+Business and operations managers,17001,Manizales,4880
+Business and operations managers,73001,Ibagué,4629
+Business and operations managers,47001,Santa Marta,3712
+Business and operations managers,52001,Pasto,3649
+Business and operations managers,50001,Villavicencio,3606
+Business and operations managers,23001,Montería,3124
+Business and operations managers,41001,Neiva,3054
+Business and operations managers,20001,Valledupar,3005
+Business and operations managers,63001,Armenia,2220
+Business and operations managers,19001,Popayán,1964
+Business and operations managers,15001,Tunja,1693
+Business and operations managers,70001,Sincelejo,1486
+Business and operations managers,85001,Yopal,1377
+Business and operations managers,18001,Florencia,1258
+Business and operations managers,44001,Riohacha,1131
+Business and operations managers,81001,Arauca,684
+Business and operations managers,88001,San Andrés,494
+Business and operations managers,27001,Quibdó,486
+Business and operations managers,86001,Mocoa,347
+Business and operations managers,91001,Leticia,136
+Business and operations managers,94001,Inírida,110
+Higher-education and IT educators,11001,Bogotá,26373
+Higher-education and IT educators,,Rest of the country,13266
+Higher-education and IT educators,05001,Medellín,11948
+Higher-education and IT educators,76001,Cali,6033
+Higher-education and IT educators,68001,Bucaramanga,3748
+Higher-education and IT educators,08001,Barranquilla,3674
+Higher-education and IT educators,17001,Manizales,2156
+Higher-education and IT educators,73001,Ibagué,1999
+Higher-education and IT educators,13001,Cartagena,1904
+Higher-education and IT educators,54001,Cúcuta,1850
+Higher-education and IT educators,19001,Popayán,1712
+Higher-education and IT educators,15001,Tunja,1487
+Higher-education and IT educators,66001,Pereira,1350
+Higher-education and IT educators,20001,Valledupar,1350
+Higher-education and IT educators,52001,Pasto,1338
+Higher-education and IT educators,23001,Montería,1016
+Higher-education and IT educators,47001,Santa Marta,985
+Higher-education and IT educators,41001,Neiva,849
+Higher-education and IT educators,50001,Villavicencio,820
+Higher-education and IT educators,63001,Armenia,819
+Higher-education and IT educators,18001,Florencia,785
+Higher-education and IT educators,70001,Sincelejo,759
+Higher-education and IT educators,44001,Riohacha,533
+Higher-education and IT educators,27001,Quibdó,358
+Higher-education and IT educators,85001,Yopal,263
+Higher-education and IT educators,91001,Leticia,125
+Higher-education and IT educators,86001,Mocoa,95
+Higher-education and IT educators,81001,Arauca,44
+Higher-education and IT educators,88001,San Andrés,15
+Higher-education and IT educators,94001,Inírida,8

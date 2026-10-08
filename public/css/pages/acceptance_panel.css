@@ -1,0 +1,82 @@
+/* Panel de aceptación (UI design #1549) + local definitions of shared
+   components not present in global.css (.verdict, .grid-4, .stat-*, .issue-list). */
+#acc-page .topbar{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+#acc-page .card{padding:20px 22px;border:1px solid var(--color-border,var(--brand-line));border-radius:var(--radius-md,10px);background:var(--color-surface)}
+#acc-page .card-title{font:600 17px/1.25 var(--font-head);margin:0}
+.acc-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.grid-4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+@media (max-width:1100px){.grid-4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.grid-4{grid-template-columns:1fr}}
+.stat-label{display:block;font:600 11px var(--font-body);text-transform:uppercase;letter-spacing:.12em;color:var(--color-text-secondary)}
+.stat-value{font:700 30px/1.1 var(--font-head);letter-spacing:-.01em;font-variant-numeric:tabular-nums;margin:6px 0 4px;color:var(--color-text)}
+.stat-meta{font:400 12px var(--font-body);color:var(--color-text-muted);margin-top:4px}
+.delta{font:600 12px var(--font-body)}
+
+.verdict{display:flex;align-items:center;gap:16px;padding:16px 20px;border-radius:var(--radius-md,10px);border:1px solid color-mix(in srgb,var(--color-success) 35%,transparent);background:var(--color-success-bg)}
+.verdict.fail{border-color:color-mix(in srgb,var(--color-danger) 35%,transparent);background:var(--color-danger-bg)}
+.verdict>.check-dot{width:14px;height:14px}
+
+.issue-list{list-style:none;margin:0;padding:0}
+.pill-info{background:color-mix(in srgb,var(--color-text-secondary) 12%,transparent);color:var(--color-text-secondary);border-color:color-mix(in srgb,var(--color-text-secondary) 25%,transparent)}
+.acc-detail{font:400 11.5px var(--font-body);color:var(--color-text-muted);margin-top:2px}
+.acc-notes{font-size:12px!important;text-align:left!important}
+.acc-totals tr.row-sub td{font-size:12.5px;color:var(--color-text-secondary);padding-top:5px;padding-bottom:5px}
+.acc-totals tr.row-sub td:first-child{padding-left:22px;color:var(--color-text-muted)}
+.acc-totals tr.row-total td{font-weight:700;border-top:2px solid var(--color-text);background:var(--color-surface)}
+
+/* ---- design #1549 ---- */
+.acc-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.acc-actions .btn i{font-size:12px}
+.acc-verdict-body{flex:1;min-width:0}
+.acc-verdict-body b{display:block;font:600 18px var(--font-head);letter-spacing:-.01em;color:var(--color-text)}
+.acc-verdict-body p{font-size:13.5px;color:var(--color-text-secondary);margin:2px 0 0}
+.acc-verdict-meta{font:500 11.5px var(--font-body);color:var(--color-text-muted);font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.acc-verdict-meta b{display:block;font:600 13px var(--font-body);color:var(--color-text)}
+.acc-section{margin-bottom:22px}
+.acc-card-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:16px;flex-wrap:wrap}
+.acc-card-head .overline{display:block;margin-bottom:4px}
+.acc-card-head .acc-head-note{font:400 12px var(--font-body);color:var(--color-text-muted);max-width:420px}
+.acc-legend{display:flex;gap:16px;align-items:center;font:500 11.5px var(--font-body);color:var(--color-text-secondary);flex-wrap:wrap}
+.acc-legend span{display:inline-flex;align-items:center;gap:6px}
+.acc-totals td.acc-check{color:var(--color-text-secondary);font-size:13px}
+.acc-totals td.acc-tol{color:var(--color-text-secondary);font-size:12.5px;white-space:nowrap}
+.acc-totals td.acc-state{white-space:nowrap}
+.acc-totals td.acc-state .check-dot{margin-right:8px;vertical-align:middle}
+.acc-totals tr.acc-group td{font:600 11px var(--font-body);text-transform:uppercase;letter-spacing:.14em;color:var(--color-text-secondary);background:var(--color-surface);padding-top:18px;border-bottom:1px solid var(--color-border-strong,var(--brand-line))}
+.acc-totals tr.acc-group td small{font-weight:500;letter-spacing:.04em;text-transform:none;color:var(--color-text-muted);margin-left:8px}
+.acc-totals tr.acc-failrow td{background:color-mix(in srgb,var(--color-danger) 6%,transparent)}
+.acc-totals .raw-name{white-space:nowrap}
+.acc-duo{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px;margin-bottom:22px}
+.acc-code{font:500 12.5px/1.65 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--color-surface-2);border:1px solid var(--color-border,var(--brand-line));border-radius:var(--radius-sm,6px);padding:12px 14px;white-space:pre-wrap;overflow-x:auto;color:var(--color-text);margin:0 0 16px}
+.acc-axis-result{margin-top:14px}
+.acc-axis-result .check-dot{margin-right:6px}
+.acc-dl{display:grid;grid-template-columns:max-content minmax(0,1fr);border-top:1px solid var(--color-border-strong,var(--brand-line));margin:0}
+.acc-dl dt,.acc-dl dd{padding:10px 2px;border-bottom:1px solid var(--color-border,var(--brand-line));margin:0;font-size:13.5px}
+.acc-dl dt{font:600 11px var(--font-body);text-transform:uppercase;letter-spacing:.12em;color:var(--color-text-secondary);padding-right:22px;display:flex;align-items:center}
+.acc-dl dd{text-align:right;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.acc-dl dd .raw-name{font-size:12.5px}
+.acc-batch-figs{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-bottom:18px;border-top:2px solid var(--color-text)}
+.acc-batch-figs>div{padding:14px 14px 4px 0;border-right:1px solid var(--color-border,var(--brand-line))}
+.acc-batch-figs>div+div{padding-left:14px}
+.acc-batch-figs>div:last-child{border-right:none}
+.acc-batch-figs .fig{font:700 24px/1.1 var(--font-head);letter-spacing:-.01em;font-variant-numeric:tabular-nums;margin-top:6px}
+.acc-batch-figs .fig small{font:500 12px var(--font-body);color:var(--color-text-muted)}
+.acc-issue-sec-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:18px 0 4px}
+.acc-issue-sec-title h4{font:600 15px var(--font-head);margin:0}
+.acc-issue-sec-title span{font:500 11.5px var(--font-body);color:var(--color-text-muted)}
+.acc-issue{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:16px;align-items:start;padding:14px 2px;border-bottom:1px solid var(--color-border,var(--brand-line));list-style:none;transition:background .15s ease}
+.acc-issue:hover{background:var(--color-surface-2)}
+.acc-issue .pill{justify-self:start;margin-top:2px}
+.acc-issue-msg{font-size:13.5px;color:var(--color-text)}
+.acc-issue-meta{font:400 11.5px var(--font-body);color:var(--color-text-muted);margin-top:3px;font-variant-numeric:tabular-nums}
+.acc-issue-meta .raw-name{font-size:11.5px}
+.acc-empty{padding:18px 2px;font-size:13px;color:var(--color-text-muted);list-style:none}
+.acc-foot{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-top:24px;padding-top:12px;border-top:1px solid var(--color-border-strong,var(--brand-line));font:400 11.5px var(--font-body);color:var(--color-text-muted)}
+.is-running .acc-totals tbody{opacity:.55;transition:opacity .15s ease}
+.acc-spin{display:inline-block}
+.is-running .acc-spin{animation:accspin 1s linear infinite}
+@keyframes accspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.is-running .acc-spin{animation:none}}
+@media (max-width:1100px){.acc-duo{grid-template-columns:1fr}}
+@media (max-width:768px){.acc-issue{grid-template-columns:1fr;gap:6px}.acc-batch-figs{grid-template-columns:1fr}.acc-batch-figs>div{border-right:none;border-bottom:1px solid var(--color-border,var(--brand-line));padding-left:0!important}.acc-verdict-meta{text-align:left}.verdict{flex-wrap:wrap}}
