@@ -30,6 +30,22 @@
   };
   var GROUP_ORDER = ['dept', 'city', 'bog'];
 
+  // Indicators whose value depends on the persona filter, per layer group.
+  var PERSONA_KEYS = {
+    dept: { personas: true },
+    city: { personas_metro: true },
+    bog: { personas13: true, personas13_per_1000_employed: true }
+  };
+  var PERSONA_DEFAULT_KEY = { dept: 'personas', city: 'personas_metro', bog: 'personas13' };
+  var PERSONA_COVERAGE = {
+    dept: 'los 33 departamentos',
+    city: 'las áreas metropolitanas con dato en <span class="raw-name">fact_persona_metro</span>',
+    bog: 'solo las localidades de Bogotá (Encuesta Multipropósito 2021)'
+  };
+  var BOGOTA_MUNI = '11001';
+  var PERSONA_ICON = '<i class="fa-solid fa-user lo-persona" style="margin-left:6px;color:#E8772E;font-size:11px" title="Depende del filtro por persona" aria-label="Depende del filtro por persona"></i>';
+  function isPersonaKey(group, key) { return !!(PERSONA_KEYS[group] && PERSONA_KEYS[group][key]); }
+
   var nf = [
     new Intl.NumberFormat('es-CO', { maximumFractionDigits: 0 }),
     new Intl.NumberFormat('es-CO', { minimumFractionDigits: 0, maximumFractionDigits: 1 }),
@@ -154,7 +170,7 @@
         var id = 'lo-' + g + '-' + ind.key;
         html += '<label class="layer-option' + (on ? ' active' : '') + '" for="' + id + '">' +
           '<input type="radio" name="map-layer" id="' + id + '" value="' + g + ':' + esc(ind.key) + '"' + (on ? ' checked' : '') + '>' +
-          '<span class="lo-text"><span class="lo-name">' + esc(ind.label) + '</span>' +
+          '<span class="lo-text"><span class="lo-name">' + esc(ind.label) + (isPersonaKey(g, ind.key) ? PERSONA_ICON : '') + '</span>' +
           '<span class="lo-raw raw-name">' + esc(ind.table) + ' · ' + esc(ind.column) + '</span></span></label>';
       });
       if (!list.length) html += '<p class="legend-note">Sin indicadores disponibles.</p>';
@@ -194,21 +210,30 @@
   function renderPersonaNote() {
     var note = $('#persona-note');
     if (!note) return;
-    if (S.group === 'bog' && S.persona) {
-      note.className = 'persona-note';
-      note.innerHTML = 'Las zonas muestran solo <b>' + esc(S.persona) + '</b> (Bogotá, Encuesta Multipropósito 2021).';
-    } else if (S.persona) {
-      note.className = 'persona-note';
-      note.innerHTML = 'Las capas de personas de Departamentos y Ciudades muestran solo <b>' + esc(S.persona) + '</b>.';
-    } else {
-      note.className = 'persona-note';
-      note.innerHTML = 'Mostrando <b>Todas</b> las 13 personas.';
+    note.className = 'persona-note';
+    var icon = '<i class="fa-solid fa-user" style="color:#E8772E" aria-hidden="true"></i>';
+    if (!S.persona) {
+      note.innerHTML = 'Mostrando <b>Todas</b> las 13 personas. Los indicadores marcados con ' + icon + ' dependen de este filtro.';
+      return;
     }
+    var html;
+    if (isPersonaKey(S.group, S.key)) {
+      html = 'El indicador actual muestra solo <b>' + esc(S.persona) + '</b>. Cobertura: ' + PERSONA_COVERAGE[S.group] + '.';
+    } else {
+      html = 'El indicador actual <b>no depende</b> de la persona. Elija uno marcado con ' + icon + ' para ver <b>' + esc(S.persona) + '</b> (' + PERSONA_COVERAGE[S.group] + ').';
+    }
+    if (S.group === 'bog') {
+      html += ' Medellín, Cali, Barranquilla y Bucaramanga no tienen dato por zona (se ven en gris).';
+    }
+    note.innerHTML = html;
   }
 
   function onPersonaChange() {
     var val = $('#map_persona_filter').value;
     S.persona = val;
+    // Make the effect visible: jump to the persona indicator of the current layer.
+    if (val && !isPersonaKey(S.group, S.key)) S.key = PERSONA_DEFAULT_KEY[S.group];
+    var refit = S.group === 'bog';
     renderPersonaNote();
     var seq = ++S.seq;
     setLoading(true);
@@ -218,7 +243,7 @@
       S.data.city = res[1];
       S.data.bog = res[2];
       renderLayerOptions();
-      draw(false);
+      draw(false, refit);
     }).catch(function (err) {
       if (!S || seq !== S.seq) return;
       showError(err);
@@ -290,7 +315,19 @@
     entry.layer.setStyle(entry.styleFn());
   }
 
-  function draw(groupChanged) {
+  function bogotaBounds() {
+    var b = null;
+    Object.keys(S.byId).forEach(function (id) {
+      var e = S.byId[id];
+      if (!e || !e.place || String(e.place.raw.municipality_code) !== BOGOTA_MUNI || !e.layer.getBounds) return;
+      var lb = e.layer.getBounds();
+      if (!lb.isValid()) return;
+      if (b) b.extend(lb); else b = L.latLngBounds(lb.getSouthWest(), lb.getNorthEast());
+    });
+    return b;
+  }
+
+  function draw(groupChanged, refit) {
     if (!S || !S.map) return;
     var ind = activeIndicator();
     if (ind) S.key = ind.key;
@@ -352,8 +389,11 @@
 
     setAttribution(S.group);
 
-    if (groupChanged || S.firstDraw) {
-      if (S.group === 'bog' && S.layer.getBounds && S.layer.getBounds().isValid()) {
+    if (groupChanged || S.firstDraw || refit) {
+      var bb = S.group === 'bog' && S.persona ? bogotaBounds() : null;
+      if (bb && bb.isValid()) {
+        S.map.fitBounds(bb, { padding: [24, 24] });
+      } else if (S.group === 'bog' && S.layer.getBounds && S.layer.getBounds().isValid()) {
         S.map.fitBounds(S.layer.getBounds(), { padding: [24, 24] });
       } else if (groupChanged && S.lastGroup === 'bog') {
         S.map.setView(INITIAL_VIEW, INITIAL_ZOOM);
@@ -467,7 +507,7 @@
     var el = $('#map-geo-note');
     if (!el) return;
     var txt = '';
-    if (S.group === 'bog') txt = 'Zonas con límites oficiales: localidades de Bogotá (Sumapaz, rural, no se dibuja). Las comunas de Medellín aparecen cuando se carguen sus límites. Personas por zona: solo Bogotá. BOG-00 (Sin localidad) queda fuera del mapa.';
+    if (S.group === 'bog') txt = 'Zonas con límites: localidades de Bogotá (Sumapaz, rural, no se dibuja), comunas y corregimientos de Medellín, comunas de Cali, localidades de Barranquilla y comunas y corregimientos de Bucaramanga (BUC-C1..C3 con códigos provisionales). Polígonos de Medellín, Cali, Barranquilla y Bucaramanga: solo uso interno. Personas por zona: solo Bogotá. Población, ocupados y empresas tienen fuente y año distintos por ciudad (ver ficha); el tamaño de empresa de Cali se mide por ingresos y no es comparable con Bogotá. El contexto GEIH 2025 de Medellín A.M. y Cali–Yumbo aparece en la ficha y nunca colorea las comunas. BOG-00 (Sin localidad) queda fuera del mapa.';
     else if (S.group === 'city') txt = 'El municipio 27493 (sin punto) y "Rest of the country" no se dibujan.';
     if (txt) { el.textContent = txt; el.hidden = false; } else { el.hidden = true; el.textContent = ''; }
   }
@@ -483,6 +523,80 @@
     sel.value = S.selected && S.byId[S.selected] ? S.selected : '';
     var c = $('#jump-count');
     if (c) c.textContent = nf[0].format(list.length) + ' en el mapa';
+  }
+
+  // ---------- Medellín / Cali context (paquete think4ever personas) ----------
+  var CTX_SOURCE = {
+    MEDELLIN_ECV_2025: 'Alcaldía de Medellín, Encuesta de Calidad de Vida',
+    CALI_ASIS_2021_DANE_DAP: 'ASIS Cali, Tabla 2 (DANE / DAP)'
+  };
+  var COMPANIES_SOURCE = {
+    '05001': 'Medellín 2022 · datos.gov.co pb3w-3vmc (por actividad)',
+    '76001': 'Cali 2025 · Cámara de Comercio de Cali (tamaño por ingresos, no comparable con Bogotá, que se mide por activos)'
+  };
+  function fmtInt(v) { return isNum(v) ? nf[0].format(Number(v)) : 'n.a.'; }
+  function fmtDec(v) { return isNum(v) ? nf[1].format(Number(v)) : 'n.a.'; }
+
+  function metroHtml(m) {
+    var rows = [
+      ['Ocupados del área metropolitana', m.employed],
+      [m.persona ? m.persona : 'Personas de las 13 personas', m.persona ? m.persona_employed : m.personas13],
+      ['TI núcleo', m.core_it]
+    ];
+    var html = '<span class="place-sub">Contexto metropolitano GEIH ' + esc(m.survey_year || 2025) + ' · ' + esc(m.metro_area) +
+      ' · <span class="raw-name">fact_geih2025_metro_summary</span></span><table class="place-table"><tbody>';
+    rows.forEach(function (r) {
+      html += '<tr><td>' + esc(r[0]) + '</td><td class="num">' + esc(fmtInt(r[1])) + '</td></tr>';
+    });
+    html += '</tbody></table><p class="legend-note">Total del área metropolitana (DANE GEIH 2025). No se reparte por comuna y no colorea el mapa.</p>';
+    return html;
+  }
+
+  function zoneContextHtml(r) {
+    var muni = String(r.municipality_code || '');
+    var html = '<span class="place-sub">Fuente y año por dato</span>';
+    if (r.context) {
+      var what = isNum((r.values || {}).employed_residents) ? 'Población, ocupados y conectividad' : 'Población';
+      html += '<p class="legend-note">' + what + ': <b>' + esc(CTX_SOURCE[r.context.source_id] || r.context.source_id) + '</b>, ' +
+        esc(r.context.reference_year) + ' <span class="raw-name">fact_zone_context</span></p>';
+    }
+    if (COMPANIES_SOURCE[muni]) {
+      html += '<p class="legend-note">Empresas: <b>' + esc(COMPANIES_SOURCE[muni]) + '</b> <span class="raw-name">fact_companies_zone</span></p>';
+    }
+    html += '<p class="legend-note">Personas por zona: sin datos. Solo Bogotá tiene conteos por localidad (Encuesta Multipropósito 2021).</p>';
+    if (r.metro_context) html += metroHtml(r.metro_context);
+    return html;
+  }
+
+  function profileHtml(g) {
+    var prof = g.profile || [];
+    var html = '<span class="place-sub">Perfil GEIH ' + esc(g.survey_year || 2025) + ' · ' + esc(g.metro_area) +
+      ' · <span class="raw-name">fact_persona_profile_metro_2025</span></span>';
+    var s = g.summary;
+    if (s) {
+      html += '<p class="legend-note">' + esc(fmtInt(s.employed)) + ' ocupados; ' + esc(fmtInt(s.personas13)) + ' en las 13 personas (' +
+        esc(fmtDec(s.personas13_per_1000_employed)) + ' por 1.000 ocupados).</p>';
+    }
+    if (!prof.length) return html + '<p class="legend-note">Sin perfil para esta selección.</p>';
+    var small = false;
+    html += '<table class="place-table" style="font-size:11px"><thead><tr><th scope="col">Persona</th><th scope="col" class="num">Ocupados</th>' +
+      '<th scope="col" class="num">Edad</th><th scope="col" class="num">Ingreso (mill.)</th><th scope="col" class="num">% muj.</th>' +
+      '<th scope="col" class="num">% univ.</th></tr></thead><tbody>';
+    prof.forEach(function (x) {
+      var warn = x.sample_flag && /below_30/.test(x.sample_flag);
+      if (warn) small = true;
+      html += '<tr><td>' + esc(x.persona) +
+        (warn ? ' <i class="fa-solid fa-triangle-exclamation" style="color:#E8772E" title="Muestra menor a 30 registros: usar con precaución" aria-label="Muestra pequeña"></i>' : '') +
+        '<span class="ind-raw raw-name">n = ' + esc(fmtInt(x.sample_records)) + '</span></td>' +
+        '<td class="num">' + esc(fmtInt(x.employed)) + '</td><td class="num">' + esc(fmtDec(x.median_age)) + '</td>' +
+        '<td class="num">' + esc(isNum(x.median_income_cop) ? fmtDec(Number(x.median_income_cop) / 1e6) : 'n.a.') + '</td>' +
+        '<td class="num">' + esc(fmtDec(x.pct_women)) + '</td><td class="num">' + esc(fmtDec(x.pct_university)) + '</td></tr>';
+    });
+    html += '</tbody></table>';
+    html += '<p class="legend-note">Ingreso: mediana de ingresos positivos, millones de COP. ' +
+      (small ? '<i class="fa-solid fa-triangle-exclamation" style="color:#E8772E" aria-hidden="true"></i> Muestra menor a 30 registros: usar con precaución. ' : '') +
+      'Fuente: DANE GEIH 2025, área metropolitana.</p>';
+    return html;
   }
 
   // ---------- place card ----------
@@ -528,7 +642,10 @@
       }
     }
     if (S.group === 'bog' && r.municipality_code && r.municipality_code !== '11001') {
-      html += '<p class="legend-note">Personas por zona: por ahora solo Bogotá (Encuesta Multipropósito 2021).</p>';
+      html += zoneContextHtml(r);
+    }
+    if (S.group === 'city' && r.geih2025) {
+      html += profileHtml(r.geih2025);
     }
 
     html += '<div class="place-actions">' +

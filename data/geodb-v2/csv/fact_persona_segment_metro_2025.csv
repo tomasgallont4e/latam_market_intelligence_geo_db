@@ -1,0 +1,61 @@
+persona,municipality_code,city,buyer_type,employed,interviews,survey_year,geographic_scope,source_id
+Accountants and auditors,76001,Cali–Yumbo,"Employee, firm 11-200",5981,64,2025,metropolitan_area,DANE_GEIH_2025
+Accountants and auditors,76001,Cali–Yumbo,"Employee, firm 201+",4743,60,2025,metropolitan_area,DANE_GEIH_2025
+Accountants and auditors,76001,Cali–Yumbo,"Employee, firm up to 10",2484,24,2025,metropolitan_area,DANE_GEIH_2025
+Accountants and auditors,76001,Cali–Yumbo,Government employee,806,11,2025,metropolitan_area,DANE_GEIH_2025
+Accountants and auditors,76001,Cali–Yumbo,Other or unknown,111,1,2025,metropolitan_area,DANE_GEIH_2025
+Accountants and auditors,76001,Cali–Yumbo,Self-employed or employer,5684,63,2025,metropolitan_area,DANE_GEIH_2025
+Business and management analysts,76001,Cali–Yumbo,"Employee, firm 11-200",264,4,2025,metropolitan_area,DANE_GEIH_2025
+Business and management analysts,76001,Cali–Yumbo,"Employee, firm 201+",631,8,2025,metropolitan_area,DANE_GEIH_2025
+Business and management analysts,76001,Cali–Yumbo,"Employee, firm up to 10",173,2,2025,metropolitan_area,DANE_GEIH_2025
+Business and management analysts,76001,Cali–Yumbo,Government employee,590,6,2025,metropolitan_area,DANE_GEIH_2025
+Business and management analysts,76001,Cali–Yumbo,Self-employed or employer,1811,27,2025,metropolitan_area,DANE_GEIH_2025
+Business and operations managers,76001,Cali–Yumbo,"Employee, firm 11-200",7378,91,2025,metropolitan_area,DANE_GEIH_2025
+Business and operations managers,76001,Cali–Yumbo,"Employee, firm 201+",10422,124,2025,metropolitan_area,DANE_GEIH_2025
+Business and operations managers,76001,Cali–Yumbo,"Employee, firm up to 10",1615,14,2025,metropolitan_area,DANE_GEIH_2025
+Business and operations managers,76001,Cali–Yumbo,Government employee,1280,18,2025,metropolitan_area,DANE_GEIH_2025
+Business and operations managers,76001,Cali–Yumbo,Self-employed or employer,4516,56,2025,metropolitan_area,DANE_GEIH_2025
+"Data, statistics and research specialists",76001,Cali–Yumbo,"Employee, firm 11-200",61,1,2025,metropolitan_area,DANE_GEIH_2025
+"Data, statistics and research specialists",76001,Cali–Yumbo,"Employee, firm 201+",377,4,2025,metropolitan_area,DANE_GEIH_2025
+"Data, statistics and research specialists",76001,Cali–Yumbo,Self-employed or employer,316,4,2025,metropolitan_area,DANE_GEIH_2025
+"Database, systems and network professionals",76001,Cali–Yumbo,"Employee, firm 11-200",204,4,2025,metropolitan_area,DANE_GEIH_2025
+"Database, systems and network professionals",76001,Cali–Yumbo,"Employee, firm 201+",397,6,2025,metropolitan_area,DANE_GEIH_2025
+"Database, systems and network professionals",76001,Cali–Yumbo,"Employee, firm up to 10",115,1,2025,metropolitan_area,DANE_GEIH_2025
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,"Employee, firm 11-200",1509,15,2025,metropolitan_area,DANE_GEIH_2025
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,"Employee, firm 201+",591,11,2025,metropolitan_area,DANE_GEIH_2025
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,"Employee, firm up to 10",1125,14,2025,metropolitan_area,DANE_GEIH_2025
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,Government employee,206,2,2025,metropolitan_area,DANE_GEIH_2025
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,Other or unknown,182,1,2025,metropolitan_area,DANE_GEIH_2025
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,Self-employed or employer,4405,47,2025,metropolitan_area,DANE_GEIH_2025
+Engineers (non-ICT),76001,Cali–Yumbo,"Employee, firm 11-200",2185,28,2025,metropolitan_area,DANE_GEIH_2025
+Engineers (non-ICT),76001,Cali–Yumbo,"Employee, firm 201+",2756,39,2025,metropolitan_area,DANE_GEIH_2025
+Engineers (non-ICT),76001,Cali–Yumbo,"Employee, firm up to 10",257,3,2025,metropolitan_area,DANE_GEIH_2025
+Engineers (non-ICT),76001,Cali–Yumbo,Government employee,328,3,2025,metropolitan_area,DANE_GEIH_2025
+Engineers (non-ICT),76001,Cali–Yumbo,Self-employed or employer,2883,33,2025,metropolitan_area,DANE_GEIH_2025
+Finance and investment analysts,76001,Cali–Yumbo,"Employee, firm 11-200",456,6,2025,metropolitan_area,DANE_GEIH_2025
+Finance and investment analysts,76001,Cali–Yumbo,"Employee, firm 201+",3265,37,2025,metropolitan_area,DANE_GEIH_2025
+Finance and investment analysts,76001,Cali–Yumbo,"Employee, firm up to 10",296,3,2025,metropolitan_area,DANE_GEIH_2025
+Finance and investment analysts,76001,Cali–Yumbo,Government employee,44,2,2025,metropolitan_area,DANE_GEIH_2025
+Finance and investment analysts,76001,Cali–Yumbo,Self-employed or employer,1849,24,2025,metropolitan_area,DANE_GEIH_2025
+Higher-education and IT educators,76001,Cali–Yumbo,"Employee, firm 11-200",419,5,2025,metropolitan_area,DANE_GEIH_2025
+Higher-education and IT educators,76001,Cali–Yumbo,"Employee, firm 201+",1835,19,2025,metropolitan_area,DANE_GEIH_2025
+Higher-education and IT educators,76001,Cali–Yumbo,Government employee,2531,26,2025,metropolitan_area,DANE_GEIH_2025
+Higher-education and IT educators,76001,Cali–Yumbo,Self-employed or employer,1249,15,2025,metropolitan_area,DANE_GEIH_2025
+ICT managers,76001,Cali–Yumbo,"Employee, firm 11-200",73,1,2025,metropolitan_area,DANE_GEIH_2025
+ICT managers,76001,Cali–Yumbo,"Employee, firm 201+",85,2,2025,metropolitan_area,DANE_GEIH_2025
+ICT managers,76001,Cali–Yumbo,"Employee, firm up to 10",68,1,2025,metropolitan_area,DANE_GEIH_2025
+ICT technicians and user support,76001,Cali–Yumbo,"Employee, firm 11-200",1547,18,2025,metropolitan_area,DANE_GEIH_2025
+ICT technicians and user support,76001,Cali–Yumbo,"Employee, firm 201+",1033,13,2025,metropolitan_area,DANE_GEIH_2025
+ICT technicians and user support,76001,Cali–Yumbo,"Employee, firm up to 10",887,9,2025,metropolitan_area,DANE_GEIH_2025
+ICT technicians and user support,76001,Cali–Yumbo,Government employee,152,2,2025,metropolitan_area,DANE_GEIH_2025
+ICT technicians and user support,76001,Cali–Yumbo,Other or unknown,88,1,2025,metropolitan_area,DANE_GEIH_2025
+ICT technicians and user support,76001,Cali–Yumbo,Self-employed or employer,1868,24,2025,metropolitan_area,DANE_GEIH_2025
+Marketing and advertising professionals,76001,Cali–Yumbo,"Employee, firm 11-200",1190,15,2025,metropolitan_area,DANE_GEIH_2025
+Marketing and advertising professionals,76001,Cali–Yumbo,"Employee, firm 201+",1302,17,2025,metropolitan_area,DANE_GEIH_2025
+Marketing and advertising professionals,76001,Cali–Yumbo,"Employee, firm up to 10",598,8,2025,metropolitan_area,DANE_GEIH_2025
+Marketing and advertising professionals,76001,Cali–Yumbo,Self-employed or employer,2745,32,2025,metropolitan_area,DANE_GEIH_2025
+Software developers and analysts,76001,Cali–Yumbo,"Employee, firm 11-200",4173,46,2025,metropolitan_area,DANE_GEIH_2025
+Software developers and analysts,76001,Cali–Yumbo,"Employee, firm 201+",4378,51,2025,metropolitan_area,DANE_GEIH_2025
+Software developers and analysts,76001,Cali–Yumbo,"Employee, firm up to 10",574,7,2025,metropolitan_area,DANE_GEIH_2025
+Software developers and analysts,76001,Cali–Yumbo,Government employee,171,1,2025,metropolitan_area,DANE_GEIH_2025
+Software developers and analysts,76001,Cali–Yumbo,Self-employed or employer,2169,21,2025,metropolitan_area,DANE_GEIH_2025

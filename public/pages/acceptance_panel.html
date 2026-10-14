@@ -8,12 +8,15 @@
     </div>
     <div class="acc-actions">
       <button type="button" class="btn btn-secondary" onclick="load_page('table_explorer')"><i class="fa-solid fa-table" aria-hidden="true"></i> Explorador de tablas</button>
+      <button type="button" class="btn btn-secondary" id="acc-btn-reload" data-flow="flow_load" aria-describedby="acc-live" title="Vuelve a cargar los 27 CSV en MySQL y valida el nuevo lote"><i class="fa-solid fa-file-import acc-spin" aria-hidden="true"></i> <span class="lbl">Recargar CSV</span></button>
       <button type="button" class="btn btn-primary" id="acc-btn-revalidate" data-flow="flow_validation" data-step="step_join_check" aria-describedby="acc-live"><i class="fa-solid fa-rotate-right acc-spin" aria-hidden="true"></i> <span class="lbl">Revalidar</span></button>
     </div>
   </div>
   <p id="acc-live" class="acc-sr" aria-live="polite"></p>
 
   <div class="alert alert-danger acc-section" id="acc-error" role="alert" hidden></div>
+
+  <section class="card acc-section acc-reload" id="acc-reload" aria-labelledby="acc-reload-title" hidden></section>
 
   <div class="verdict acc-section" id="acc-verdict" role="status">
     <span class="check-dot" aria-hidden="true"></span>

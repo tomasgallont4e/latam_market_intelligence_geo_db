@@ -1,0 +1,9 @@
+check,file,result,detail
+engine_rerun_byte_identical,layer_a_pe_indicators.csv,PASS,layer_a_country.py re-run from the Innovation Graph clone vs existing output
+engine_rerun_byte_identical,layer_a_pe_languages.csv,PASS,layer_a_country.py re-run from the Innovation Graph clone vs existing output
+engine_rerun_byte_identical,layer_a_pe_meta.json,PASS,layer_a_country.py re-run from the Innovation Graph clone vs existing output
+engine_rerun_byte_identical,layer_a_pe_quarterly.csv,PASS,layer_a_country.py re-run from the Innovation Graph clone vs existing output
+engine_rerun_byte_identical,layer_a_source_hashes.json,PASS,layer_a_country.py re-run from the Innovation Graph clone vs existing output
+package_values_identical_to_existing_output,a_github_indicators_pe.csv,PASS,"25 rows x 13 cols compared, 0 differing cells; metadata columns added: ['previous_t4e_value', 'reconciliation', 'source_id']"
+package_values_identical_to_existing_output,a_github_languages_pe.csv,PASS,"107 rows x 9 cols compared, 0 differing cells; metadata columns added: ['source_id']"
+package_values_identical_to_existing_output,a_github_country_quarterly_pe.csv,PASS,"100 rows x 7 cols compared, 0 differing cells; metadata columns added: ['period_end_date', 'dataset_version', 'source_id']"

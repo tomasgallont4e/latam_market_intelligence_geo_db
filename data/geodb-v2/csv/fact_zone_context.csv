@@ -1,0 +1,69 @@
+﻿zone_id,municipality_code,zone_type,zone_name,reference_year,population,employed,personas13,core_it,hh_computer_pct,hh_internet_pct,hh_computer_or_tablet_pct,dwelling_internet_pct,adults_university_pct,population_18_34_pct,telework_pct_of_employed,source_id,personas_status,boundary_comparability
+MED-01,05001,comuna,Popular,2025,146474,55784,,,,,20.8,55.8,3.0,31.4,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-02,05001,comuna,Santa Cruz,2025,121265,45958,,,,,22.1,59.5,3.8,30.8,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-03,05001,comuna,Manrique,2025,177789,66557,,,,,23.3,61.3,3.5,29.8,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-04,05001,comuna,Aranjuez,2025,153519,64227,,,,,36.0,70.5,9.9,29.2,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-05,05001,comuna,Castilla,2025,135664,56043,,,,,34.9,76.1,12.5,28.1,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-06,05001,comuna,Doce de Octubre,2025,192483,73340,,,,,27.4,72.4,5.2,29.1,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-07,05001,comuna,Robledo,2025,203600,89156,,,,,44.7,78.0,16.5,30.8,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-08,05001,comuna,Villa Hermosa,2025,163978,64906,,,,,30.3,64.5,7.8,30.5,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-09,05001,comuna,Buenos Aires,2025,168191,70343,,,,,45.2,77.3,16.0,29.2,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-10,05001,comuna,La Candelaria,2025,83444,36843,,,,,45.2,77.2,21.0,28.0,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-11,05001,comuna,Laureles Estadio,2025,112842,52178,,,,,73.9,93.6,42.9,22.1,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-12,05001,comuna,La América,2025,95157,42075,,,,,67.1,89.0,35.1,24.5,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-13,05001,comuna,San Javier,2025,169837,69466,,,,,36.4,68.4,9.0,29.7,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-14,05001,comuna,El Poblado,2025,119626,59837,,,,,86.3,97.6,54.9,22.4,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-15,05001,comuna,Guayabal,2025,71333,35643,,,,,45.3,82.9,17.9,26.6,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-16,05001,comuna,Belén,2025,221797,97604,,,,,56.9,85.7,27.5,26.4,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-50,05001,corregimiento,San Sebastián de Palmitas,2025,5924,3065,,,,,33.3,36.8,24.1,24.1,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-60,05001,corregimiento,San Cristóbal,2025,123753,52475,,,,,33.5,69.8,8.8,31.8,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-70,05001,corregimiento,Altavista,2025,41440,18074,,,,,44.5,70.3,22.0,30.7,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-80,05001,corregimiento,San Antonio de Prado,2025,101563,43961,,,,,36.0,74.7,10.5,30.1,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+MED-90,05001,corregimiento,Santa Elena,2025,24891,10280,,,,,25.0,62.0,5.1,29.9,,MEDELLIN_ECV_2025,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+CAL-01,76001,comuna,Comuna 01,2021,60799,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-02,76001,comuna,Comuna 02,2021,118956,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-03,76001,comuna,Comuna 03,2021,33652,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-04,76001,comuna,Comuna 04,2021,56189,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-05,76001,comuna,Comuna 05,2021,114776,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-06,76001,comuna,Comuna 06,2021,154154,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-07,76001,comuna,Comuna 07,2021,71049,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-08,76001,comuna,Comuna 08,2021,100226,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-09,76001,comuna,Comuna 09,2021,37165,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-10,76001,comuna,Comuna 10,2021,104729,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-11,76001,comuna,Comuna 11,2021,111204,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-12,76001,comuna,Comuna 12,2021,69956,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-13,76001,comuna,Comuna 13,2021,145047,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-14,76001,comuna,Comuna 14,2021,157639,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-15,76001,comuna,Comuna 15,2021,126766,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-16,76001,comuna,Comuna 16,2021,99041,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-17,76001,comuna,Comuna 17,2021,168998,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-18,76001,comuna,Comuna 18,2021,115529,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-19,76001,comuna,Comuna 19,2021,111310,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-20,76001,comuna,Comuna 20,2021,58827,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-21,76001,comuna,Comuna 21,2021,132544,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-22,76001,comuna,Comuna 22,2021,26104,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+BAQ-01,08001,localidad,Riomar,,,,,,,,,,,,,,not_available_at_zone_level,
+BAQ-02,08001,localidad,Norte-Centro Histórico,,,,,,,,,,,,,,not_available_at_zone_level,
+BAQ-03,08001,localidad,Suroccidente,,,,,,,,,,,,,,not_available_at_zone_level,
+BAQ-04,08001,localidad,Suroriente,,,,,,,,,,,,,,not_available_at_zone_level,
+BAQ-05,08001,localidad,Metropolitana,,,,,,,,,,,,,,not_available_at_zone_level,
+BUC-01,68001,comuna,Norte,2021,75074,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-02,68001,comuna,Nororiental,2021,37460,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-03,68001,comuna,San Francisco,2021,51781,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-04,68001,comuna,Occidental,2021,31000,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-05,68001,comuna,García Rovira,2021,39610,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-06,68001,comuna,La Concordia,2021,29962,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-07,68001,comuna,La Ciudadela,2021,30544,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-08,68001,comuna,Sur Occidente,2021,16208,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-09,68001,comuna,La Pedregosa,2021,16513,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-10,68001,comuna,Provenza,2021,55366,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-11,68001,comuna,Sur,2021,36608,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-12,68001,comuna,Cabecera del Llano,2021,41375,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-13,68001,comuna,Oriental,2021,75117,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-14,68001,comuna,Morrorico,2021,20639,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-15,68001,comuna,Centro,2021,8068,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-16,68001,comuna,Lagos del Cacique,2021,24364,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-17,68001,comuna,Mutis,2021,32231,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-C1,68001,corregimiento,Corregimiento 1,2021,1697,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-C2,68001,corregimiento,Corregimiento 2,2021,5116,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization
+BUC-C3,68001,corregimiento,Corregimiento 3,2021,3213,,,,,,,,,,,BUCARAMANGA_ALCALDIA_2021,not_available_no_CIUO4,historical_zone_code_join_not_spatial_harmonization

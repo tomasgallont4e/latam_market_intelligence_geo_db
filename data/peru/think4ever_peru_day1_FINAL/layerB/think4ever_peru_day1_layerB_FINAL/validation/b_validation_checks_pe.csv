@@ -1,0 +1,13 @@
+check,file,result,detail
+engine_rerun_byte_identical,b_comparison_groups_pe.csv,PASS,layer_b_engine.py re-run on results.csv vs existing output
+engine_rerun_byte_identical,b_survey_distributions_pe.csv,PASS,layer_b_engine.py re-run on results.csv vs existing output
+engine_rerun_byte_identical,b_survey_indicators_pe.csv,PASS,layer_b_engine.py re-run on results.csv vs existing output
+package_values_identical_to_existing_output,b_survey_indicators_pe.csv,PASS,"1422 rows x 25 cols compared, 0 differing cells; metadata columns added: [] (column vs_latam_ex_pe renamed to vs_regional_ex_focus)"
+package_values_identical_to_existing_output,b_survey_distributions_pe.csv,PASS,"315 rows x 15 cols compared, 0 differing cells; metadata columns added: []"
+package_values_identical_to_existing_output,b_comparison_groups_pe.csv,PASS,"9 rows x 10 cols compared, 0 differing cells; metadata columns added: []"
+column_rename_values_unchanged,b_survey_indicators_pe.csv,PASS,vs_regional_ex_focus == former vs_latam_ex_pe in all 1422 rows
+base_flag_rule,b_survey_indicators_pe.csv,PASS,"ok>=50, indicative 30-49, suppressed<30 on 1413 rows"
+suppressed_values_blank,b_survey_indicators_pe.csv,PASS,89 suppressed rows (PE 86); numerator/proportion/CI blank
+suppressed_values_blank_distributions,b_survey_distributions_pe.csv,PASS,0 suppressed rows
+respondent_counts,b_comparison_groups_pe.csv,PASS,"PE {'all_respondents': 64, 'professional_developers': 46}; LATAM_EX_PE 1965; GLOBAL 49191; PE + LATAM_EX_PE = 2029 (= AR 222 + LATAM_EX_AR 1,807 = 2,029)"
+b_reproduction_check,b_reproduction_check_pe.csv,PASS,official_aggregate_ai_json:GLOBAL:MATCH; official_aggregate_ai_json:GLOBAL:MATCH; official_aggregate_ai_json:GLOBAL:MATCH; cross_check_ar_final_package:GLOBAL:MATCH; cross_check_ar_final_package:BR:MATCH; cross_check_ar_final_package:MX:MATCH; cross_check_ar_final_package:CO:MATCH; cross_check_ar_final_package:CL:MATCH; cross_check_ar_final_package:AR:MATCH; previous_t4e_values:PE:NOT_AVAILABLE

@@ -64,12 +64,12 @@
   }
 
   function renderSub() {
-    var persona = S.level === 'localidad' ? 'no aplica' : (S.persona || 'Todas');
+    var persona = S.persona || 'Todas';
     $('#cmpSub').textContent = LEVEL_LABEL[S.level] + ' · ' + S.selected.length + ' lugares · Persona: ' + persona;
     var pf = $('#cmp_persona_filter');
-    pf.disabled = S.level === 'localidad';
+    pf.disabled = false;
     $('#cmpPersonaHelp').innerHTML = S.level === 'localidad'
-      ? 'El filtro por persona no aplica a las localidades de Bogotá.'
+      ? 'Aplica a «Personas» y «por 1.000 ocupados» de las localidades de Bogotá (Encuesta Multipropósito 2021, <span class="raw-name">fact_em2021_localidad_persona</span>). Sumapaz sin dato.'
       : 'Aplica a los indicadores de <span class="raw-name">fact_persona_profile</span>, igual que en el mapa.';
   }
 
@@ -144,7 +144,7 @@
     showAlert(null);
     var url = 'api/compare?level=' + encodeURIComponent(S.level) +
       '&ids=' + encodeURIComponent(S.selected.join(',')) +
-      (S.persona && S.level !== 'localidad' ? '&persona=' + encodeURIComponent(S.persona) : '');
+      (S.persona ? '&persona=' + encodeURIComponent(S.persona) : '');
     $('#cmp_table').innerHTML = '<tbody><tr><td><div class="cmp-empty-table"><i class="fa-solid fa-circle-notch fa-spin" aria-hidden="true"></i>Cargando…</div></td></tr></tbody>';
     return fetch(url, { headers: { Accept: 'application/json' } })
       .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })

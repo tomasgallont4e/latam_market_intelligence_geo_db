@@ -1,0 +1,13 @@
+{
+ "epen_sha256":"4e72f9e5f831cceea171a8b86ec2392e4cbdf752da633c0dee25f9a924047a44",
+ "corr_sha256":"dd8c64b53f23088e2f1c632359da288f26c96a07d3bc036f7ce8f38bb821960d",
+ "records_file":471438,
+ "employed_records":193008,
+ "employed_records_without_weight":14399,
+ "psus":13037,
+ "strata":142,
+ "singleton_strata":0,
+ "singleton_collapse":"25_6->25_5",
+ "income_median_all":1300.0,
+ "employed_unique_persons":131035
+}

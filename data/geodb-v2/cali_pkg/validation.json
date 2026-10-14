@@ -1,0 +1,21 @@
+{
+  "municipality_code": "76001",
+  "csv_rows": {
+    "fact_persona_metro": 13,
+    "geo_zone": 22,
+    "meta_geo_zone": 1,
+    "fact_persona_profile_metro_2025": 13,
+    "fact_persona_segment_metro_2025": 60,
+    "meta_companies_zone": 22,
+    "fact_companies_zone": 22,
+    "fact_persona_segment": 60,
+    "fact_geih2025_metro_summary": 1,
+    "fact_zone_indicator": 22,
+    "fact_zone_context": 22
+  },
+  "companies_total": 94415,
+  "local_persona_counts_available": false,
+  "sqlite_integrity": "ok",
+  "production_loaded": false,
+  "medellin_rows_in_package": 0
+}

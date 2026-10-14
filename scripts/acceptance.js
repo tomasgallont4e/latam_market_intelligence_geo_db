@@ -1,6 +1,25 @@
 'use strict';
 // CLI: node scripts/acceptance.js [batchId] — runs flow_validation on the latest
 // (or given) load_batch and prints the acceptance totals table + axis test.
+require('dotenv').config();
+{
+  const hasUrl = !!process.env.DATABASE_URL;
+  const missing = [];
+  if (!hasUrl) {
+    if (!(process.env.DB_HOST || process.env.MYSQL_HOST)) missing.push('DB_HOST');
+    if (!(process.env.DB_USER || process.env.MYSQL_USER)) missing.push('DB_USER');
+    if (!(process.env.DB_NAME || process.env.DB_DATABASE || process.env.MYSQL_DATABASE)) missing.push('DB_NAME');
+  }
+  if (missing.length) {
+    console.error('ACCEPTANCE NOT RUN: no database settings in this shell (missing: ' + missing.join(', ') + ').');
+    console.error('Terminal commands do not receive the DB credentials; only the app service does.');
+    console.error('Run the check through the app instead:');
+    console.error('  - GET v1/acceptance on the running app, or');
+    console.error('  - the Acceptance panel in the UI (#acceptance_panel), or');
+    console.error('  - set DATABASE_URL (mysql://user:pass@host:port/db) and rerun this script.');
+    process.exit(2);
+  }
+}
 const pool = require('../db/pool');
 const { validateBatch } = require('../lib/validation');
 

@@ -10,6 +10,13 @@ SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS validation_issue;
 DROP TABLE IF EXISTS load_batch;
 DROP TABLE IF EXISTS meta_sources;
+DROP TABLE IF EXISTS meta_geo_zone;
+DROP TABLE IF EXISTS meta_companies_zone;
+DROP TABLE IF EXISTS fact_zone_indicator;
+DROP TABLE IF EXISTS fact_persona_segment_metro_2025;
+DROP TABLE IF EXISTS fact_geih2025_metro_summary;
+DROP TABLE IF EXISTS fact_persona_profile_metro_2025;
+DROP TABLE IF EXISTS fact_zone_context;
 DROP TABLE IF EXISTS fact_tech_events;
 DROP TABLE IF EXISTS fact_dev_communities;
 DROP TABLE IF EXISTS fact_em2021_upz;
@@ -338,6 +345,132 @@ CREATE TABLE IF NOT EXISTS fact_em2021_upz (
   PRIMARY KEY (id),
   KEY idx_feu_upz (upz_code),
   KEY idx_feu_localidad (localidad_code)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- ===================== MEDELLIN / CALI (paquete think4ever personas) =====================
+-- No persona counts by zone outside Bogotá: fact_zone_context.personas13 stays NULL.
+
+CREATE TABLE IF NOT EXISTS fact_zone_context (
+  id INT NOT NULL AUTO_INCREMENT,
+  zone_id VARCHAR(10) NOT NULL,
+  municipality_code VARCHAR(5) NOT NULL,
+  zone_type VARCHAR(40) NULL,
+  zone_name VARCHAR(150) NULL,
+  reference_year INT NULL,
+  population BIGINT NULL,
+  employed BIGINT NULL,
+  personas13 BIGINT NULL COMMENT 'Always NULL: no persona counts by zone outside Bogota',
+  core_it BIGINT NULL,
+  hh_computer_pct DOUBLE NULL,
+  hh_internet_pct DOUBLE NULL,
+  hh_computer_or_tablet_pct DOUBLE NULL,
+  dwelling_internet_pct DOUBLE NULL,
+  adults_university_pct DOUBLE NULL,
+  population_18_34_pct DOUBLE NULL,
+  telework_pct_of_employed DOUBLE NULL,
+  source_id VARCHAR(64) NULL,
+  personas_status VARCHAR(64) NULL,
+  boundary_comparability VARCHAR(100) NULL,
+  PRIMARY KEY (id),
+  KEY idx_fzc_zone (zone_id),
+  KEY idx_fzc_municipality (municipality_code)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS fact_persona_profile_metro_2025 (
+  id INT NOT NULL AUTO_INCREMENT,
+  persona VARCHAR(150) NOT NULL,
+  municipality_code VARCHAR(5) NOT NULL,
+  metro_area VARCHAR(150) NULL,
+  survey_year INT NULL,
+  geographic_scope VARCHAR(40) NULL,
+  employed BIGINT NULL,
+  employed_unrounded DOUBLE NULL,
+  sample_records INT NULL,
+  sample_flag VARCHAR(64) NULL,
+  months INT NULL,
+  per_1000_employed DOUBLE NULL,
+  median_age DOUBLE NULL,
+  median_income_cop DOUBLE NULL,
+  income_positive_records INT NULL,
+  pct_women DOUBLE NULL,
+  pct_university DOUBLE NULL,
+  pct_private_employee DOUBLE NULL,
+  pct_government_employee DOUBLE NULL,
+  pct_self_employed_or_employer DOUBLE NULL,
+  pct_firm_201_plus DOUBLE NULL,
+  pct_workplace_at_home DOUBLE NULL,
+  source_id VARCHAR(64) NULL,
+  method VARCHAR(100) NULL,
+  PRIMARY KEY (id),
+  KEY idx_fppm_persona (persona),
+  KEY idx_fppm_municipality (municipality_code)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS fact_geih2025_metro_summary (
+  id INT NOT NULL AUTO_INCREMENT,
+  municipality_code VARCHAR(5) NOT NULL,
+  metro_area VARCHAR(150) NULL,
+  geographic_scope VARCHAR(40) NULL,
+  survey_year INT NULL,
+  employed BIGINT NULL,
+  personas13 BIGINT NULL,
+  core_it BIGINT NULL,
+  personas13_per_1000_employed DOUBLE NULL,
+  sample_employed_records INT NULL,
+  sample_personas13_records INT NULL,
+  source_id VARCHAR(64) NULL,
+  PRIMARY KEY (id),
+  KEY idx_fgms_municipality (municipality_code)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- ===================== CALI (paquete think4ever_cali_solo) =====================
+-- GEIH figures are Cali–Yumbo domain totals: never split by comuna.
+
+CREATE TABLE IF NOT EXISTS fact_persona_segment_metro_2025 (
+  persona VARCHAR(150) NOT NULL,
+  municipality_code VARCHAR(5) NOT NULL,
+  city VARCHAR(150) NULL,
+  buyer_type VARCHAR(150) NOT NULL,
+  employed BIGINT NULL,
+  interviews BIGINT NULL,
+  survey_year INT NOT NULL,
+  geographic_scope VARCHAR(40) NULL,
+  source_id VARCHAR(64) NULL,
+  PRIMARY KEY (persona, municipality_code, buyer_type, survey_year),
+  KEY idx_fpsm_municipality (municipality_code)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS fact_zone_indicator (
+  zone_id VARCHAR(10) NOT NULL,
+  indicator VARCHAR(64) NOT NULL,
+  value DOUBLE NULL,
+  unit VARCHAR(40) NULL,
+  reference_year INT NOT NULL,
+  source_id VARCHAR(64) NULL,
+  method VARCHAR(150) NULL,
+  geographic_scope VARCHAR(40) NULL,
+  PRIMARY KEY (zone_id, indicator, reference_year)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS meta_companies_zone (
+  zone_id VARCHAR(10) NOT NULL,
+  source_id VARCHAR(64) NULL,
+  reference_year INT NULL,
+  source_url VARCHAR(255) NULL,
+  unit VARCHAR(64) NULL,
+  size_basis VARCHAR(100) NULL,
+  scope VARCHAR(64) NULL,
+  status VARCHAR(100) NULL,
+  PRIMARY KEY (zone_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS meta_geo_zone (
+  municipality_code VARCHAR(5) NOT NULL,
+  source VARCHAR(255) NULL,
+  geometry_year INT NULL,
+  license_status VARCHAR(150) NULL,
+  attribution TEXT NULL,
+  PRIMARY KEY (municipality_code)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ===================== META / LOAD / VALIDATION =====================

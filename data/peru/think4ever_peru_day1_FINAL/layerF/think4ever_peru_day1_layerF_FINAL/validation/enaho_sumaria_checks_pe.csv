@@ -1,0 +1,10 @@
+check_id,estimate,official,abs_diff,tolerance,status,note
+poverty_total_2025,0.2567,0.257,-0.0003,0.0005,PASS,INEI pobreza monetaria 2025 (El Peruano 05-05-2026); weight FACTOR07*MIEPERHO
+poverty_urban_2025,0.2341,0.234,0.0001,0.0005,PASS,INEI pobreza monetaria 2025 (El Peruano 05-05-2026); weight FACTOR07*MIEPERHO
+poverty_rural_2025,0.3545,0.355,-0.0005,0.0005,PASS,INEI pobreza monetaria 2025 (El Peruano 05-05-2026); weight FACTOR07*MIEPERHO
+extreme_poverty_2025,0.0465,0.047,-0.0005,0.0005,PASS,INEI pobreza monetaria 2025 (El Peruano 05-05-2026); weight FACTOR07*MIEPERHO
+mean_real_pc_expenditure_month_2025,920.4,920.0,0.4,1.0,PASS,gpgru0 (INEI do-file); INEI 2025: S/ 920 (Infobae/Energiminas 05-05-2026)
+vulnerable_non_poor_2025,0.3275,0.328,-0.0005,0.0005,PASS,"POBREZAV = 3; INEI 2025: 32,8%"
+extreme_poor_persons_2025,1621313.0,1614000.0,7313.0,,PASS,INEI 2025: 1 614 mil (rel. tolerance 0.5%)
+population_2025_persons,34856741.0,,,,INFO,Sum of FACTOR07*MIEPERHO (household members)
+mean_real_pc_income_month_2025,1252.3,,,,INFO,"Weighted mean of ipcr_0 (soles/month, Lima prices); INEI official 2025 value not yet sourced"

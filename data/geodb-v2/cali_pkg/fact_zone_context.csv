@@ -1,0 +1,23 @@
+zone_id,municipality_code,zone_type,zone_name,reference_year,population,employed,personas13,core_it,hh_computer_pct,hh_internet_pct,hh_computer_or_tablet_pct,dwelling_internet_pct,adults_university_pct,population_18_34_pct,telework_pct_of_employed,source_id,personas_status,boundary_comparability
+CAL-01,76001,comuna,Comuna 01,2021,60799,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-02,76001,comuna,Comuna 02,2021,118956,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-03,76001,comuna,Comuna 03,2021,33652,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-04,76001,comuna,Comuna 04,2021,56189,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-05,76001,comuna,Comuna 05,2021,114776,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-06,76001,comuna,Comuna 06,2021,154154,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-07,76001,comuna,Comuna 07,2021,71049,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-08,76001,comuna,Comuna 08,2021,100226,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-09,76001,comuna,Comuna 09,2021,37165,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-10,76001,comuna,Comuna 10,2021,104729,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-11,76001,comuna,Comuna 11,2021,111204,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-12,76001,comuna,Comuna 12,2021,69956,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-13,76001,comuna,Comuna 13,2021,145047,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-14,76001,comuna,Comuna 14,2021,157639,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-15,76001,comuna,Comuna 15,2021,126766,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-16,76001,comuna,Comuna 16,2021,99041,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-17,76001,comuna,Comuna 17,2021,168998,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-18,76001,comuna,Comuna 18,2021,115529,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-19,76001,comuna,Comuna 19,2021,111310,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-20,76001,comuna,Comuna 20,2021,58827,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-21,76001,comuna,Comuna 21,2021,132544,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization
+CAL-22,76001,comuna,Comuna 22,2021,26104,,,,,,,,,,,CALI_ASIS_2021_DANE_DAP,not_available_at_zone_level,historical_zone_code_join_not_spatial_harmonization

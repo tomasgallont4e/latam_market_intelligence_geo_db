@@ -246,13 +246,45 @@
     });
   }
 
-  function revalidate() {
-    var btn = $('#acc-btn-revalidate');
+  /* ---------- busy state shared by Revalidar / Recargar CSV ---------- */
+  var BTN_LABELS = { '#acc-btn-revalidate': 'Revalidar', '#acc-btn-reload': 'Recargar CSV' };
+  function isBusy() {
+    var a = $('#acc-btn-revalidate'); var b = $('#acc-btn-reload');
+    return (a && a.disabled) || (b && b.disabled);
+  }
+  function setBusy(activeSel, label) {
     var page = $('#acc-page') || root;
-    if (!btn || btn.disabled) return;
-    btn.disabled = true;
-    page.classList.add('is-running');
-    btn.querySelector('.lbl').textContent = 'Validando…';
+    Object.keys(BTN_LABELS).forEach(function (sel) {
+      var b = $(sel);
+      if (!b) return;
+      b.disabled = true;
+      if (sel === activeSel) {
+        b.classList.add('is-busy');
+        b.setAttribute('aria-busy', 'true');
+        var l = b.querySelector('.lbl');
+        if (l) l.textContent = label;
+      }
+    });
+    if (page) page.classList.add('is-running');
+  }
+  function clearBusy() {
+    if (!alive) return;
+    var page = $('#acc-page') || root;
+    Object.keys(BTN_LABELS).forEach(function (sel) {
+      var b = $(sel);
+      if (!b) return;
+      b.disabled = false;
+      b.classList.remove('is-busy');
+      b.removeAttribute('aria-busy');
+      var l = b.querySelector('.lbl');
+      if (l) l.textContent = BTN_LABELS[sel];
+    });
+    if (page) page.classList.remove('is-running');
+  }
+
+  function revalidate() {
+    if (!$('#acc-btn-revalidate') || isBusy()) return;
+    setBusy('#acc-btn-revalidate', 'Validando…');
     live('Revalidando el último lote…');
     showError(null);
     T4E.api('v1/validate', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: '{}' })
@@ -261,12 +293,68 @@
         return refresh();
       })
       .catch(function (e) { showError(e.message); })
-      .then(function () {
+      .then(clearBusy);
+  }
+
+  /* ---------- Recargar CSV (POST v1/load) ---------- */
+  function hideReload() {
+    var el = $('#acc-reload');
+    if (el) { el.hidden = true; el.innerHTML = ''; }
+  }
+  function renderReload(r, secs) {
+    var el = $('#acc-reload');
+    if (!el) return;
+    var tables = r.tables || [];
+    var empty = tables.filter(function (t) { return Number(t.inserted) === 0; });
+    var noted = tables.filter(function (t) { return t.note; });
+    var v = r.validation;
+    var tRow = function (t) {
+      return '<li>' + raw(t.table) + ' <span class="acc-detail" style="display:inline">CSV ' + fmt(t.csv_rows) +
+        ' · insertadas ' + fmt(t.inserted) + (t.note ? ' · ' + esc(t.note) : '') + '</span></li>';
+    };
+    el.innerHTML =
+      '<div class="acc-card-head"><div><span class="overline">POST v1/load · flow_load</span>' +
+        '<h2 class="card-title" id="acc-reload-title"><i class="fa-solid fa-circle-check acc-reload-ok" aria-hidden="true"></i> Recarga completada · lote ' + raw('#' + r.batch_id) + '</h2></div>' +
+        '<button type="button" class="btn btn-secondary btn-sm acc-reload-close" aria-label="Cerrar resumen"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button></div>' +
+      '<div class="acc-batch-figs">' +
+        '<div><span class="stat-label">Tablas</span><div class="fig">' + fmt(tables.length) + '</div></div>' +
+        '<div><span class="stat-label">Filas cargadas</span><div class="fig">' + fmt(r.rows_loaded) + '</div></div>' +
+        '<div><span class="stat-label">Duración</span><div class="fig">' + fmt(secs) + ' <small>s</small></div></div>' +
+      '</div>' +
+      '<dl class="acc-dl">' +
+        '<dt>Validación</dt><dd>' + (v
+          ? batchPill(v.status) + ' · ' + fmt(v.passed) + ' de ' + fmt(v.total) + ' comprobaciones · ' + fmt(v.errors) + ' errores · ' + fmt(v.infos) + ' excepciones'
+          : '<span class="pill pill-warning pill-warn">Sin validación</span>') + '</dd>' +
+        '<dt>Tablas con 0 filas</dt><dd>' + (empty.length ? fmt(empty.length) : 'ninguna') + '</dd>' +
+        '<dt>Tablas con notas</dt><dd>' + (noted.length ? fmt(noted.length) : 'ninguna') + '</dd>' +
+      '</dl>' +
+      (empty.length ? '<div class="acc-reload-list"><h4>Tablas con 0 filas</h4><ul>' + empty.map(tRow).join('') + '</ul></div>' : '') +
+      (noted.length ? '<div class="acc-reload-list"><h4>Tablas con notas</h4><ul>' + noted.map(tRow).join('') + '</ul></div>' : '');
+    el.hidden = false;
+    var close = el.querySelector('.acc-reload-close');
+    if (close) close.addEventListener('click', hideReload);
+  }
+
+  function reload() {
+    if (!$('#acc-btn-reload') || isBusy()) return;
+    var ok = window.confirm('¿Recargar los 27 CSV en MySQL?\n\nSe reemplazan los datos de las tablas con el contenido de data/geodb-v2/csv, se crea un nuevo load_batch y se valida. Puede tardar un par de minutos.');
+    if (!ok) return;
+    setBusy('#acc-btn-reload', 'Recargando…');
+    live('Recargando los CSV en MySQL…');
+    showError(null);
+    hideReload();
+    var t0 = Date.now();
+    T4E.api('v1/load', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: '{}' })
+      .then(function (r) {
         if (!alive) return;
-        btn.disabled = false;
-        page.classList.remove('is-running');
-        btn.querySelector('.lbl').textContent = 'Revalidar';
-      });
+        var secs = Math.round((Date.now() - t0) / 1000);
+        renderReload(r, secs);
+        live('Lote #' + r.batch_id + ' cargado: ' + r.rows_loaded + ' filas' +
+          (r.validation ? ', validación ' + r.validation.status + ' (' + r.validation.errors + ' errores)' : ''));
+        return refresh();
+      })
+      .catch(function (e) { showError(e.message); })
+      .then(clearBusy);
   }
 
   window.T4EAcceptancePanel = {
@@ -275,6 +363,8 @@
       alive = true;
       var btn = $('#acc-btn-revalidate');
       if (btn) btn.addEventListener('click', revalidate);
+      var rbtn = $('#acc-btn-reload');
+      if (rbtn) rbtn.addEventListener('click', reload);
       return refresh();
     },
     destroy: function () { alive = false; root = null; seq++; },

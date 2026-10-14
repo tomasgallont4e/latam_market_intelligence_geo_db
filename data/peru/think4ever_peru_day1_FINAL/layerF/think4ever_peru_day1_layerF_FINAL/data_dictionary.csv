@@ -1,0 +1,140 @@
+table,column,description,non_empty,rows
+f_persona_estimates_pe.csv,group_id,Group key (P01-P13 personas; RING_*; ALL13; COMB_*; INFO_* informational; S* sensitivities; REF_ALL_EMPLOYED),34,34
+f_persona_estimates_pe.csv,group_type,persona | ring_total | combined_total | combined_group | informational_outside_rings | sensitivity | reference,34,34
+f_persona_estimates_pe.csv,template_persona_number,Persona number 1-13 (ordering only; key is the canonical name),23,34
+f_persona_estimates_pe.csv,label,Group label,34,34
+f_persona_estimates_pe.csv,ring,Core | Adjacent | Extended,27,34
+f_persona_estimates_pe.csv,cno2015_codes,CNO 2015 4-digit codes of the group (;-separated),34,34
+f_persona_estimates_pe.csv,records,Unweighted records (visits) in the sample,34,34
+f_persona_estimates_pe.csv,unique_persons,Unique persons (panel repeats counted once),34,34
+f_persona_estimates_pe.csv,psus,Primary sampling units with records,34,34
+f_persona_estimates_pe.csv,employed,"Weighted employed persons, annual average 2025",25,34
+f_persona_estimates_pe.csv,se,Standard error (Taylor linearisation),25,34
+f_persona_estimates_pe.csv,cv,Coefficient of variation (se / estimate),25,34
+f_persona_estimates_pe.csv,ci95_low,95% CI lower bound,25,34
+f_persona_estimates_pe.csv,ci95_high,95% CI upper bound,25,34
+f_persona_estimates_pe.csv,share_of_employed,Share of all employed persons (0-1),25,34
+f_persona_estimates_pe.csv,share_se,SE of the share,25,34
+f_persona_estimates_pe.csv,template_confidence,"Template F2 confidence: high >=1000, medium 300-999, low <300 unique persons",34,34
+f_persona_estimates_pe.csv,cv_flag,cv_le_15 | cv_15_30 | cv_gt_30,34,34
+f_persona_estimates_pe.csv,additive_to_ring,True only for the 13 personas (sum to rings),34,34
+f_persona_estimates_pe.csv,publication_status,publish | publish_low_precision (15%<CV<=30%) | suppressed_unreliable (CV>30% or <30 unique persons) (D-PE-03),34,34
+f_persona_estimates_pe.csv,scope_note,"Scope/interpretation note (e.g. persona 8 broad category, D-PE-05)",7,34
+f_persona_estimates_pe.csv,measure,"Measure definition: occupational population, not users/TAM/SAM/SOM",34,34
+f_persona_profiles_pe.csv,group_id,Group key (P01-P13 personas; RING_*; ALL13; COMB_*; INFO_* informational; S* sensitivities; REF_ALL_EMPLOYED),1210,1210
+f_persona_profiles_pe.csv,indicator,Indicator id (F3..F9),1210,1210
+f_persona_profiles_pe.csv,category,Indicator category,1210,1210
+f_persona_profiles_pe.csv,value,"Indicator value (proportion 0-1, years or PEN/month per unit; blank if suppressed/small)",1019,1210
+f_persona_profiles_pe.csv,unit,proportion | years | PEN_month | ratio,1210,1210
+f_persona_profiles_pe.csv,weighted_numerator,Weighted numerator,951,1210
+f_persona_profiles_pe.csv,weighted_denominator,Weighted denominator,1210,1210
+f_persona_profiles_pe.csv,records_denominator,Unweighted records in the group,1210,1210
+f_persona_profiles_pe.csv,records_numerator,Unweighted records in the cell,1114,1210
+f_persona_profiles_pe.csv,small_cell,Denominator <30 records (value blank),1210,1210
+f_persona_profiles_pe.csv,low_numerator,Numerator <30 records (interpret with care),1210,1210
+f_persona_profiles_pe.csv,group_publication_status,Publication status of the group (from estimates table),1210,1210
+f_persona_correspondence_pe.csv,template_persona_number,Persona number 1-13 (ordering only; key is the canonical name),13,13
+f_persona_correspondence_pe.csv,persona_canonical,Canonical persona name (think4ever-13-personas-definicion.xlsx),13,13
+f_persona_correspondence_pe.csv,template_alias,Name used in the country template (alias),6,13
+f_persona_correspondence_pe.csv,ring,Core | Adjacent | Extended,13,13
+f_persona_correspondence_pe.csv,isco08_template_codes,ISCO-08/CIUO-08 codes defining the persona (template Annex 2),13,13
+f_persona_correspondence_pe.csv,cno2015_codes_primary,CNO 2015 codes used in the primary estimate,13,13
+f_persona_correspondence_pe.csv,cno2015_codes_excluded,CNO 2015 codes excluded (D-PE-04),3,13
+f_persona_correspondence_pe.csv,mapping_class,Persona-level mapping class,13,13
+f_persona_correspondence_pe.csv,records,Unweighted records (visits) in the sample,13,13
+f_persona_correspondence_pe.csv,unique_persons,Unique persons (panel repeats counted once),13,13
+f_persona_correspondence_pe.csv,employed_2025,Weighted employed persons 2025 (blank if suppressed),9,13
+f_persona_correspondence_pe.csv,cv,Coefficient of variation (se / estimate),9,13
+f_persona_correspondence_pe.csv,share_of_employed,Share of all employed persons (0-1),9,13
+f_persona_correspondence_pe.csv,template_confidence,"Template F2 confidence: high >=1000, medium 300-999, low <300 unique persons",13,13
+f_persona_correspondence_pe.csv,publication_status,publish | publish_low_precision (15%<CV<=30%) | suppressed_unreliable (CV>30% or <30 unique persons) (D-PE-03),13,13
+f_persona_correspondence_pe.csv,justification,Mapping justification,13,13
+f_persona_correspondence_pe.csv,warnings,Interpretation warnings,13,13
+f_occupation_mapping_pe.csv,template_persona_number,Persona number 1-13 (ordering only; key is the canonical name),65,65
+f_occupation_mapping_pe.csv,persona,Canonical persona name,65,65
+f_occupation_mapping_pe.csv,ring,Core | Adjacent | Extended,65,65
+f_occupation_mapping_pe.csv,cno2015_code,CNO 2015 4-digit code (text),64,65
+f_occupation_mapping_pe.csv,cno2015_title,CNO 2015 title,64,65
+f_occupation_mapping_pe.csv,ciuo08_codes_linked,CIUO-08 codes linked by INEI to the CNO code,65,65
+f_occupation_mapping_pe.csv,ciuo08_codes_in_persona,Linked CIUO-08 codes that belong to the persona,65,65
+f_occupation_mapping_pe.csv,enlace_cno_ciuo,"INEI link flags (0 absolute, 1 relative) per linked CIUO code",64,65
+f_occupation_mapping_pe.csv,annex_source,"CNO 2015 annex where the link appears (A3, A4)",64,65
+f_occupation_mapping_pe.csv,mapping_status,exact_within_persona | relative_link_outside_persona | excluded_ambiguous | ciuo_without_reliable_cno_code,65,65
+f_occupation_mapping_pe.csv,in_primary,Code used in the primary estimate (true/false),65,65
+f_occupation_mapping_pe.csv,note,Note,5,65
+f_occupation_mapping_pe.csv,sample_records,Unweighted records in the sample,65,65
+f_occupation_mapping_pe.csv,weighted_employed,Weighted employed persons (blank if <30 records),27,65
+f_occupation_mapping_pe.csv,code_cell_status,suppressed_lt30_records | publish_code_level_no_cv,65,65
+f_cno_code_counts_pe.csv,cno2015_code,CNO 2015 4-digit code (text),438,438
+f_cno_code_counts_pe.csv,records,Unweighted records (visits) in the sample,438,438
+f_cno_code_counts_pe.csv,employed,"Weighted employed persons, annual average 2025",264,438
+f_cno_code_counts_pe.csv,code_cell_status,suppressed_lt30_records | publish_code_level_no_cv,438,438
+cno2015_ciuo08_correspondence.csv,cno,CNO 2015 code,542,542
+cno2015_ciuo08_correspondence.csv,cno_title,CNO 2015 title,542,542
+cno2015_ciuo08_correspondence.csv,cno_enlace,Link flag on CNO side,542,542
+cno2015_ciuo08_correspondence.csv,ciuo,CIUO-08 code,542,542
+cno2015_ciuo08_correspondence.csv,ciuo_title,CIUO-08 title,542,542
+cno2015_ciuo08_correspondence.csv,ciuo_enlace,Link flag on CIUO side,542,542
+cno2015_ciuo08_correspondence.csv,in_annex3,Pair present in Annex 3,542,542
+cno2015_ciuo08_correspondence.csv,in_annex4,Pair present in Annex 4,542,542
+cno2015_ciuo08_correspondence.csv,enlace_agree,Link flags agree between annexes,542,542
+f9_persona_socioeconomic_enaho_pe.csv,source,Survey source of the row (EPEN 2025 or ENAHO 2025; never combined),300,300
+f9_persona_socioeconomic_enaho_pe.csv,group_id,Group key (P01-P13 personas; RING_*; ALL13; COMB_*; INFO_* informational; S* sensitivities; REF_ALL_EMPLOYED),300,300
+f9_persona_socioeconomic_enaho_pe.csv,indicator,Indicator id (F3..F9),300,300
+f9_persona_socioeconomic_enaho_pe.csv,category,Indicator category,300,300
+f9_persona_socioeconomic_enaho_pe.csv,share,Share within the group (0-1; blank if suppressed),128,300
+f9_persona_socioeconomic_enaho_pe.csv,se,Standard error (Taylor linearisation),128,300
+f9_persona_socioeconomic_enaho_pe.csv,cv,Coefficient of variation (se / estimate),128,300
+f9_persona_socioeconomic_enaho_pe.csv,ci95_low,95% CI lower bound,128,300
+f9_persona_socioeconomic_enaho_pe.csv,ci95_high,95% CI upper bound,128,300
+f9_persona_socioeconomic_enaho_pe.csv,se_ratio_stratified_vs_main,AUDIT ONLY: SE under the superseded stratified spec / published SE (D-PE-12). Not a result,128,300
+f9_persona_socioeconomic_enaho_pe.csv,records_cell,Unweighted records in the cell,300,300
+f9_persona_socioeconomic_enaho_pe.csv,records_group,Unweighted records in the group,300,300
+f9_persona_socioeconomic_enaho_pe.csv,unique_persons_group,Unique persons in the group,300,300
+f9_persona_socioeconomic_enaho_pe.csv,status,Publication status (publish | publish_low_precision | suppressed_cell | suppressed_group | diagnostic... ),300,300
+f1_enaho_diagnostic_pe.csv,source,Survey source of the row (EPEN 2025 or ENAHO 2025; never combined),25,25
+f1_enaho_diagnostic_pe.csv,group_id,Group key (P01-P13 personas; RING_*; ALL13; COMB_*; INFO_* informational; S* sensitivities; REF_ALL_EMPLOYED),25,25
+f1_enaho_diagnostic_pe.csv,template_persona_number,Persona number 1-13 (ordering only; key is the canonical name),14,25
+f1_enaho_diagnostic_pe.csv,label,Group label,25,25
+f1_enaho_diagnostic_pe.csv,records,Unweighted records (visits) in the sample,25,25
+f1_enaho_diagnostic_pe.csv,unique_persons,Unique persons (panel repeats counted once),25,25
+f1_enaho_diagnostic_pe.csv,enaho_employed,ENAHO weighted employed (diagnostic; blank if suppressed),17,25
+f1_enaho_diagnostic_pe.csv,enaho_cv,"ENAHO CV (PSU-only spec, D-PE-12)",17,25
+f1_enaho_diagnostic_pe.csv,enaho_ci95_low,ENAHO 95% CI lower,17,25
+f1_enaho_diagnostic_pe.csv,enaho_ci95_high,ENAHO 95% CI upper,17,25
+f1_enaho_diagnostic_pe.csv,se_ratio_stratified_vs_main,AUDIT ONLY: SE under the superseded stratified spec / published SE (D-PE-12). Not a result,24,25
+f1_enaho_diagnostic_pe.csv,epen_employed_2025,EPEN published estimate for reference (blank if suppressed),18,25
+f1_enaho_diagnostic_pe.csv,enaho_vs_epen_ratio,ENAHO / EPEN ratio (diagnostic; not an adjustment factor),15,25
+f1_enaho_diagnostic_pe.csv,status,Publication status (publish | publish_low_precision | suppressed_cell | suppressed_group | diagnostic... ),25,25
+f1_enaho_diagnostic_pe.csv,use,Permitted use,25,25
+f_designers_informational_pe.csv,group_id,Group key (P01-P13 personas; RING_*; ALL13; COMB_*; INFO_* informational; S* sensitivities; REF_ALL_EMPLOYED),10,10
+f_designers_informational_pe.csv,source,Survey source of the row (EPEN 2025 or ENAHO 2025; never combined),10,10
+f_designers_informational_pe.csv,cno2015_codes,CNO 2015 4-digit codes of the group (;-separated),10,10
+f_designers_informational_pe.csv,records,Unweighted records (visits) in the sample,10,10
+f_designers_informational_pe.csv,unique_persons,Unique persons (panel repeats counted once),10,10
+f_designers_informational_pe.csv,employed,"Weighted employed persons, annual average 2025",5,10
+f_designers_informational_pe.csv,cv,Coefficient of variation (se / estimate),5,10
+f_designers_informational_pe.csv,ci95_low,95% CI lower bound,5,10
+f_designers_informational_pe.csv,ci95_high,95% CI upper bound,5,10
+f_designers_informational_pe.csv,status,Publication status (publish | publish_low_precision | suppressed_cell | suppressed_group | diagnostic... ),10,10
+f_designers_informational_pe.csv,in_rings,Whether the group belongs to a ring,10,10
+enaho_quintile_cutpoints_pe.csv,quantile,Quantile boundary,4,4
+enaho_quintile_cutpoints_pe.csv,cutpoint_soles_month_lima_prices,"Cut-point, soles per month at Lima prices (2025)",4,4
+source_registry_layer_f_pe.csv,source_id,Source key,19,19
+source_registry_layer_f_pe.csv,source_name,Source name,19,19
+source_registry_layer_f_pe.csv,publisher,Publisher,19,19
+source_registry_layer_f_pe.csv,dataset_version,Version,15,19
+source_registry_layer_f_pe.csv,reference_period,Reference period,18,19
+source_registry_layer_f_pe.csv,url,URL,19,19
+source_registry_layer_f_pe.csv,access,How the file was obtained,19,19
+source_registry_layer_f_pe.csv,sha256,SHA-256 of the file(s),8,19
+source_registry_layer_f_pe.csv,zip_sha256,SHA-256 of the archive,6,19
+source_registry_layer_f_pe.csv,role,Role in the research,19,19
+source_registry_layer_f_pe.csv,license_status,Licence / redistribution status,17,19
+decisions_log_pe.csv,decision_id,Decision or validation id,15,15
+decisions_log_pe.csv,date,Date,15,15
+decisions_log_pe.csv,decision,Decision,15,15
+decisions_log_pe.csv,status,Publication status (publish | publish_low_precision | suppressed_cell | suppressed_group | diagnostic... ),15,15
+decisions_log_pe.csv,note,Note,14,15
+decisions_log_pe.csv,current,Decision currently in force,15,15
+decisions_log_pe.csv,superseded_by,Decision that supersedes it,4,15

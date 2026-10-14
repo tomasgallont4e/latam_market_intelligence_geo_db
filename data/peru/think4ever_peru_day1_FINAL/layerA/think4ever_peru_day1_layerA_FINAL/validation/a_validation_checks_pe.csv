@@ -1,0 +1,7 @@
+"check","reference_rows","compared","matches","result","detail"
+"method_reproduces_AR_FINAL_indicators",25,25,25,"PASS",""
+"method_reproduces_CL_FINAL_indicators",19,19,19,"PASS",""
+"latest_quarter_present","","","","PASS","2026Q1"
+"growth_same_quarter_previous_year","","","","PASS","2026Q1 vs 2025Q1"
+"A1_equals_quarterly_series","","","","PASS","907052.0 vs 907052"
+"country_total_vs_innovation_graph_website","","","","NOT_VERIFIABLE","Website not reachable from this environment; the repository data/ files are the published source of the website figures"

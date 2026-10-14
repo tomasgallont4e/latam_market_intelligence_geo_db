@@ -1,0 +1,61 @@
+persona,municipality_code,city,buyer_type,employed,interviews
+Accountants and auditors,76001,Cali–Yumbo,"Employee, firm 11-200",5981,64
+Accountants and auditors,76001,Cali–Yumbo,"Employee, firm 201+",4743,60
+Accountants and auditors,76001,Cali–Yumbo,"Employee, firm up to 10",2484,24
+Accountants and auditors,76001,Cali–Yumbo,Government employee,806,11
+Accountants and auditors,76001,Cali–Yumbo,Other or unknown,111,1
+Accountants and auditors,76001,Cali–Yumbo,Self-employed or employer,5684,63
+Business and management analysts,76001,Cali–Yumbo,"Employee, firm 11-200",264,4
+Business and management analysts,76001,Cali–Yumbo,"Employee, firm 201+",631,8
+Business and management analysts,76001,Cali–Yumbo,"Employee, firm up to 10",173,2
+Business and management analysts,76001,Cali–Yumbo,Government employee,590,6
+Business and management analysts,76001,Cali–Yumbo,Self-employed or employer,1811,27
+Business and operations managers,76001,Cali–Yumbo,"Employee, firm 11-200",7378,91
+Business and operations managers,76001,Cali–Yumbo,"Employee, firm 201+",10422,124
+Business and operations managers,76001,Cali–Yumbo,"Employee, firm up to 10",1615,14
+Business and operations managers,76001,Cali–Yumbo,Government employee,1280,18
+Business and operations managers,76001,Cali–Yumbo,Self-employed or employer,4516,56
+"Data, statistics and research specialists",76001,Cali–Yumbo,"Employee, firm 11-200",61,1
+"Data, statistics and research specialists",76001,Cali–Yumbo,"Employee, firm 201+",377,4
+"Data, statistics and research specialists",76001,Cali–Yumbo,Self-employed or employer,316,4
+"Database, systems and network professionals",76001,Cali–Yumbo,"Employee, firm 11-200",204,4
+"Database, systems and network professionals",76001,Cali–Yumbo,"Employee, firm 201+",397,6
+"Database, systems and network professionals",76001,Cali–Yumbo,"Employee, firm up to 10",115,1
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,"Employee, firm 11-200",1509,15
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,"Employee, firm 201+",591,11
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,"Employee, firm up to 10",1125,14
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,Government employee,206,2
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,Other or unknown,182,1
+"Designers (graphic, multimedia, product)",76001,Cali–Yumbo,Self-employed or employer,4405,47
+Engineers (non-ICT),76001,Cali–Yumbo,"Employee, firm 11-200",2185,28
+Engineers (non-ICT),76001,Cali–Yumbo,"Employee, firm 201+",2756,39
+Engineers (non-ICT),76001,Cali–Yumbo,"Employee, firm up to 10",257,3
+Engineers (non-ICT),76001,Cali–Yumbo,Government employee,328,3
+Engineers (non-ICT),76001,Cali–Yumbo,Self-employed or employer,2883,33
+Finance and investment analysts,76001,Cali–Yumbo,"Employee, firm 11-200",456,6
+Finance and investment analysts,76001,Cali–Yumbo,"Employee, firm 201+",3265,37
+Finance and investment analysts,76001,Cali–Yumbo,"Employee, firm up to 10",296,3
+Finance and investment analysts,76001,Cali–Yumbo,Government employee,44,2
+Finance and investment analysts,76001,Cali–Yumbo,Self-employed or employer,1849,24
+Higher-education and IT educators,76001,Cali–Yumbo,"Employee, firm 11-200",419,5
+Higher-education and IT educators,76001,Cali–Yumbo,"Employee, firm 201+",1835,19
+Higher-education and IT educators,76001,Cali–Yumbo,Government employee,2531,26
+Higher-education and IT educators,76001,Cali–Yumbo,Self-employed or employer,1249,15
+ICT managers,76001,Cali–Yumbo,"Employee, firm 11-200",73,1
+ICT managers,76001,Cali–Yumbo,"Employee, firm 201+",85,2
+ICT managers,76001,Cali–Yumbo,"Employee, firm up to 10",68,1
+ICT technicians and user support,76001,Cali–Yumbo,"Employee, firm 11-200",1547,18
+ICT technicians and user support,76001,Cali–Yumbo,"Employee, firm 201+",1033,13
+ICT technicians and user support,76001,Cali–Yumbo,"Employee, firm up to 10",887,9
+ICT technicians and user support,76001,Cali–Yumbo,Government employee,152,2
+ICT technicians and user support,76001,Cali–Yumbo,Other or unknown,88,1
+ICT technicians and user support,76001,Cali–Yumbo,Self-employed or employer,1868,24
+Marketing and advertising professionals,76001,Cali–Yumbo,"Employee, firm 11-200",1190,15
+Marketing and advertising professionals,76001,Cali–Yumbo,"Employee, firm 201+",1302,17
+Marketing and advertising professionals,76001,Cali–Yumbo,"Employee, firm up to 10",598,8
+Marketing and advertising professionals,76001,Cali–Yumbo,Self-employed or employer,2745,32
+Software developers and analysts,76001,Cali–Yumbo,"Employee, firm 11-200",4173,46
+Software developers and analysts,76001,Cali–Yumbo,"Employee, firm 201+",4378,51
+Software developers and analysts,76001,Cali–Yumbo,"Employee, firm up to 10",574,7
+Software developers and analysts,76001,Cali–Yumbo,Government employee,171,1
+Software developers and analysts,76001,Cali–Yumbo,Self-employed or employer,2169,21
