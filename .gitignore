@@ -1,5 +1,25 @@
 node_modules/
 .env
+.env.*
+!.env.example
 *.log
 npm-debug.log*
+
+# Raw packages and local databases (kept on disk, not versioned)
+*.zip
+*.rar
+*.sqlite
+*.sqlite3
+
+# Uploaded media duplicates and internal-only audit material
+thinkdocuments/media/
+**/internal_not_publishable/
+
+# Stray root copies
+/geo_zone.csv
 /geo_zone_bogota_medellin_cali.csv
+
+# Zone polygons for Medellín/Cali: INTERNAL USE ONLY (license not confirmed)
+data/geodb-v2/csv/geo_zone.csv
+data/geodb-v2/csv/geo_zone.v1-backup.csv
+data/geodb-v2/cali_pkg/geo_zone.csv
