@@ -169,6 +169,14 @@
       "available_departments": 25,
       "missing_departments": 0,
       "status": "complete_geographic_coverage"
+    },
+    {
+      "indicator_key": "minedu_snu_enrollment",
+      "label": "Matrícula superior no universitaria (MINEDU)",
+      "department_features": 25,
+      "available_departments": 25,
+      "missing_departments": 0,
+      "status": "complete_geographic_coverage"
     }
   ],
   "business_reconciliation_status": "pending_approval",

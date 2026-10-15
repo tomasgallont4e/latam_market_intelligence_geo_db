@@ -1,0 +1,17 @@
+{
+  "country": "PE",
+  "source": "MINEDU Número de matriculados de Educación Superior No Universitaria (SNU) 2025",
+  "source_resource_updated": "2026-07-31",
+  "reference_year": 2025,
+  "source_rows": 998,
+  "accepted_rows": 998,
+  "departments": 25,
+  "levels": [
+    "K0",
+    "M0",
+    "P0",
+    "S0",
+    "T0"
+  ],
+  "caveat": "Counts enrolment in non-university higher education services only. It excludes universities, programme field, modality, entrants, graduates and capacity."
+}

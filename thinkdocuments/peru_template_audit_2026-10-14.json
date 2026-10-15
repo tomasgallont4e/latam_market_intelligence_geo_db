@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T13:40:04.268Z",
+  "generated_at": "2026-10-15T13:43:37.748Z",
   "checks": [
     {
       "id": "day1_package",
@@ -49,6 +49,12 @@
       "file": "data/peru/day3_sunedu_programmes/university_programmes_by_department_20240828.json",
       "pass": true,
       "note": "SUNEDU programme offer aggregate"
+    },
+    {
+      "id": "day3_minedu_snu_enrollment",
+      "file": "data/peru/day3_minedu_snu_enrollment/snu_enrollment_by_department_2025.json",
+      "pass": true,
+      "note": "MINEDU non-university enrollment aggregate"
     },
     {
       "id": "day4_script",
@@ -101,10 +107,11 @@
     "day4_local_departments": 25,
     "day4_connectivity_departments": 25
   },
-  "passed": 15,
+  "passed": 16,
   "failed": 0,
   "not_completed": [
-    "C/L university enrollment, entrants, graduates, capacity and teaching-modality data",
+    "C university enrollment, entrants, graduates, capacity and teaching-modality data",
+    "L programme field and modality for non-university enrollment",
     "N legal business-size and microenterprise universe",
     "P programme/sponsorship evidence",
     "R approved business reconciliation (technical geographic reconciliation is published)"
