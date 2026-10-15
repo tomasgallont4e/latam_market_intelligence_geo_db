@@ -23,14 +23,14 @@
       "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
     },
     "C": {
-      "records_in_map_metric": 4,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 25,
+      "non_null_map_values": 25,
+      "data_status": "partially_populated",
+      "data_reference": "SUNEDU TUNI reported enrollment 2025-2; licensed universities and programme offer; source tables as listed in README"
     },
     "D": {
-      "records_in_map_metric": 3,
-      "non_null_map_values": 2,
+      "records_in_map_metric": 1211,
+      "non_null_map_values": 1211,
       "data_status": "partially_populated",
       "data_reference": "SUNAT Padron RUC 202604, derived district aggregate; source tables as listed in README"
     },
@@ -47,16 +47,16 @@
       "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
     },
     "G": {
-      "records_in_map_metric": 4,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 25,
+      "non_null_map_values": 25,
+      "data_status": "partially_populated",
+      "data_reference": "EPEN 2025 observed departmental estimates; source tables as listed in README"
     },
     "H": {
-      "records_in_map_metric": 2,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 25,
+      "non_null_map_values": 25,
+      "data_status": "partially_populated",
+      "data_reference": "EPEN 2025 departmental employment and employer-registration proxy; source tables as listed in README"
     },
     "I": {
       "records_in_map_metric": 3,
@@ -65,10 +65,10 @@
       "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
     },
     "J": {
-      "records_in_map_metric": 4,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 1211,
+      "non_null_map_values": 1211,
+      "data_status": "partially_populated",
+      "data_reference": "SUNAT active TIC RUC geographic aggregate by fiscal district; source tables as listed in README"
     },
     "K": {
       "records_in_map_metric": 7,
@@ -77,22 +77,22 @@
       "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
     },
     "L": {
-      "records_in_map_metric": 7,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 25,
+      "non_null_map_values": 25,
+      "data_status": "partially_populated",
+      "data_reference": "MINEDU SNU 2025 enrollment and higher non-university offer; source tables as listed in README"
     },
     "M": {
-      "records_in_map_metric": 6,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 25,
+      "non_null_map_values": 25,
+      "data_status": "partially_populated",
+      "data_reference": "ENAHO 2025 employment and establishment-size aggregates; source tables as listed in README"
     },
     "N": {
-      "records_in_map_metric": 4,
-      "non_null_map_values": 0,
-      "data_status": "defined_no_published_values",
-      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+      "records_in_map_metric": 1891,
+      "non_null_map_values": 1891,
+      "data_status": "partially_populated",
+      "data_reference": "SUNAT local annex geographic counts; no legal size or microenterprise classification; source tables as listed in README"
     },
     "O": {
       "records_in_map_metric": 25,
