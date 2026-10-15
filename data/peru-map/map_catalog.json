@@ -26,7 +26,7 @@
       "records_in_map_metric": 25,
       "non_null_map_values": 25,
       "data_status": "partially_populated",
-      "data_reference": "SUNEDU TUNI reported enrollment 2025-2; licensed universities and programme offer; source tables as listed in README"
+      "data_reference": "SUNEDU TUNI reported enrollment 2025-2 and graduates 2024; licensed universities and programme offer; source tables as listed in README"
     },
     "D": {
       "records_in_map_metric": 1211,
