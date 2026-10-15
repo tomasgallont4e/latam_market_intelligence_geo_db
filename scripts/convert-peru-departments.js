@@ -1,11 +1,11 @@
 'use strict';
 // Minimal SHP/DBF converter for the official WGS84 department boundaries.
-// Usage: node scripts/convert-peru-departments.js <source-dir> <output-file>
+// Usage: node scripts/convert-peru-departments.js <source-dir> <output-file> [DEPARTAMENTOS|DISTRITOS]
 const fs = require('fs');
 const path = require('path');
 
-const [sourceDir, outputFile] = process.argv.slice(2);
-if (!sourceDir || !outputFile) throw new Error('Usage: node scripts/convert-peru-departments.js <source-dir> <output-file>');
+const [sourceDir, outputFile, shapeBase = 'DEPARTAMENTOS'] = process.argv.slice(2);
+if (!sourceDir || !outputFile) throw new Error('Usage: node scripts/convert-peru-departments.js <source-dir> <output-file> [DEPARTAMENTOS|DISTRITOS]');
 
 const decode = new TextDecoder('windows-1252');
 const trim = (value) => value.replace(/\0/g, '').trim();
@@ -124,23 +124,25 @@ function readShp(file) {
   return geometries;
 }
 
-const rows = readDbf(path.join(sourceDir, 'DEPARTAMENTOS.dbf'));
-const geometries = readShp(path.join(sourceDir, 'DEPARTAMENTOS.shp'));
+const rows = readDbf(path.join(sourceDir, `${shapeBase}.dbf`));
+const geometries = readShp(path.join(sourceDir, `${shapeBase}.shp`));
 if (rows.length !== geometries.length) throw new Error(`DBF/SHP mismatch: ${rows.length}/${geometries.length}`);
 
 const output = {
   type: 'FeatureCollection',
   source: {
     publisher: 'Instituto Geográfico Nacional del Perú (IGN)',
-    dataset: 'Límites Departamentales referenciales 1:100 000',
+    dataset: shapeBase === 'DISTRITOS' ? 'Límites Distritales referenciales 1:100 000' : 'Límites Departamentales referenciales 1:100 000',
     downloaded_at: '2026-10-14',
     coordinate_reference_system: 'WGS 84'
   },
   features: rows.map((row, index) => ({
     type: 'Feature',
-    id: row.CODDEP,
+    id: row.UBIGEO || row.CODDEP,
     geometry: geometries[index],
-    properties: { department_code: row.CODDEP, name: row.DEPARTAMEN, capital: row.CAPITAL }
+    properties: row.UBIGEO
+      ? { ubigeo: row.UBIGEO, department_code: row.CODDEP, department: row.DEPARTAMEN, province_code: row.CODPROV, province: row.PROVINCIA, district_code: row.CODDIST, name: row.DISTRITO, capital: row.CAPITAL }
+      : { department_code: row.CODDEP, name: row.DEPARTAMEN, capital: row.CAPITAL }
   }))
 };
 fs.writeFileSync(outputFile, JSON.stringify(output));

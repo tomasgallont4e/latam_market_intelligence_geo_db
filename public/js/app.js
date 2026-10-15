@@ -18,7 +18,7 @@
   var scriptLoads = {};     // id -> Promise
   // The map module has country-specific behaviour. Keep it out of a stale
   // browser cache after deploying a new mapping build.
-  var pageAssetVersion = 'peru-map-20261014-7';
+  var pageAssetVersion = 'peru-map-20261014-8';
   var current = null;
   var loadSeq = 0;
 

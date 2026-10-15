@@ -21,6 +21,7 @@ router.get('/api/map/localidades', wrap((req) => data.getLocalidades({ persona: 
 router.get('/api/personas', wrap(() => data.getPersonas()));
 router.get('/api/peru/map', wrap(() => peru.getMap()));
 router.get('/api/peru/departments', wrap(() => peru.getDepartmentMap()));
+router.get('/api/peru/districts', wrap((req) => peru.getDistrictMap(req.query)));
 router.get('/api/peru/schools', wrap((req) => peru.getSchools(req.query)));
 router.get('/api/peru/layers', wrap(() => peru.layerSummary()));
 router.get('/api/compare/places', wrap((req) => cmp.listPlaces(req.query.level)));
