@@ -16,6 +16,9 @@
   var DEFAULT_PAGE = 'map_view';
   var registry = {};        // id -> {init, destroy}
   var scriptLoads = {};     // id -> Promise
+  // The map module has country-specific behaviour. Keep it out of a stale
+  // browser cache after deploying a new mapping build.
+  var pageAssetVersion = 'peru-map-20261014-3';
   var current = null;
   var loadSeq = 0;
 
@@ -61,7 +64,7 @@
     if (scriptLoads[id]) return scriptLoads[id];
     scriptLoads[id] = new Promise(function (resolve) {
       var s = document.createElement('script');
-      s.src = 'js/pages/' + id + '.js';
+      s.src = 'js/pages/' + id + '.js' + (id === 'map_view' ? '?v=' + pageAssetVersion : '');
       s.async = true;
       s.onload = function () { resolve(); };
       s.onerror = function () { delete scriptLoads[id]; resolve(); }; // page may be static-only

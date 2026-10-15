@@ -8,7 +8,13 @@ const app = express();
 app.use(express.json());
 
 // Static frontend served at "/" (proxy strips /run/<projectId> prefix).
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'), {
+  setHeaders: (res, filePath) => {
+    if (/\.(?:html|js)$/i.test(filePath)) {
+      res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    }
+  }
+}));
 
 const mapData = require('./lib/mapData');
 const mapRoutes = require('./routes/map');
