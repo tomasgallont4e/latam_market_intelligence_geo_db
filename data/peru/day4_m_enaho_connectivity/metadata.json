@@ -1,0 +1,17 @@
+{
+  "country": "PE",
+  "source": "INEI ENAHO 2025, módulo 01: Condiciones de la vivienda y del hogar",
+  "reference_year": 2025,
+  "unit": "households",
+  "method": "Annual expansion factor FACTOR07; geographic aggregation by first two digits of UBIGEO.",
+  "variables": {
+    "P1144": "Household has fixed or mobile internet connection",
+    "P1144B1": "Household fixed connection",
+    "P1144B2": "Household mobile post-paid/controlled connection",
+    "P1144B3": "Household mobile prepaid connection"
+  },
+  "caveat": "Survey estimates, not administrative counts. Connection modes can overlap; do not add mode totals.",
+  "source_rows": 44599,
+  "accepted_rows": 44599,
+  "departments": 25
+}

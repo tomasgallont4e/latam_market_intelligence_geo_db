@@ -11,6 +11,7 @@ const checks=[
  ['day4_script','scripts/build-peru-day4-dj-ruc.js',exists('scripts/build-peru-day4-dj-ruc.js'),'D/J RUC builder'],
  ['day4_data','data/peru/day4_dj_ruc/j_tic_ruc_by_district_202604.json',exists('data/peru/day4_dj_ruc/j_tic_ruc_by_district_202604.json'),'SUNAT RUC territorial aggregate'],
  ['day4_enaho','data/peru/day4_m_enaho/m_enaho_employment_by_department_2025.json',exists('data/peru/day4_m_enaho/m_enaho_employment_by_department_2025.json'),'ENAHO employed-resident aggregate'],
+ ['day4_enaho_connectivity','data/peru/day4_m_enaho_connectivity/household_connectivity_by_department_2025.json',exists('data/peru/day4_m_enaho_connectivity/household_connectivity_by_department_2025.json'),'ENAHO household connectivity aggregate'],
  ['day4_local_anexo','data/peru/day4_n_padron_local/registered_local_addresses_by_department.json',exists('data/peru/day4_n_padron_local/registered_local_addresses_by_department.json'),'SUNAT local-address geographic aggregate'],
  ['day5_script','scripts/audit-peru-day5-oq.js',exists('scripts/audit-peru-day5-oq.js'),'O/Q builder'],
  ['day5_data','data/peru/day5_oq/audit.json',exists('data/peru/day5_oq/audit.json'),'ERESTEL/IGN audit']

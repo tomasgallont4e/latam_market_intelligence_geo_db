@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T13:19:32.138Z",
+  "generated_at": "2026-10-15T13:22:55.927Z",
   "checks": [
     {
       "id": "day1_package",
@@ -57,6 +57,12 @@
       "note": "ENAHO employed-resident aggregate"
     },
     {
+      "id": "day4_enaho_connectivity",
+      "file": "data/peru/day4_m_enaho_connectivity/household_connectivity_by_department_2025.json",
+      "pass": true,
+      "note": "ENAHO household connectivity aggregate"
+    },
+    {
       "id": "day4_local_anexo",
       "file": "data/peru/day4_n_padron_local/registered_local_addresses_by_department.json",
       "pass": true,
@@ -81,7 +87,7 @@
     "day4_districts": 1211,
     "day4_local_departments": 25
   },
-  "passed": 12,
+  "passed": 13,
   "failed": 0,
   "not_completed": [
     "C/L university and programme-level data",
