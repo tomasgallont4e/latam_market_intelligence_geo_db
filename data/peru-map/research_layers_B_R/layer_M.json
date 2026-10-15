@@ -1,0 +1,134 @@
+{
+  "layer": "M",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "M1",
+      "layer": "M",
+      "indicator": "Micronegocios",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "M2",
+      "layer": "M",
+      "indicator": "Actividad, autoempleo y sexo propietario",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "M3",
+      "layer": "M",
+      "indicator": "Formalidad",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "M4",
+      "layer": "M",
+      "indicator": "Uso digital empresarial",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "M5",
+      "layer": "M",
+      "indicator": "Local de funcionamiento y región",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "M6",
+      "layer": "M",
+      "indicator": "Ventas medianas",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    }
+  ],
+  "source_ids": [
+    "ENAHO",
+    "RUC"
+  ],
+  "method": "ENAHO solo proxy si unidad negocio y preguntas permiten; ocupados independientes no son negocios únicos. Dejar ventas/WhatsApp sin dato si no existen.",
+  "data": []
+}

@@ -3,8 +3,17 @@
     <aside class="map-panel" aria-label="Controles del mapa">
       <div class="panel-brand">
         <span class="t4e-word">think<b>4</b>ever</span>
-        <span class="pb-sub">Mapa de indicadores</span>
+        <span class="pb-sub">Mapa de indicadores LATAM</span>
       </div>
+
+      <section class="panel-section" aria-labelledby="sec-country">
+        <div class="panel-label"><label class="overline" id="sec-country" for="map_country_select">País</label></div>
+        <select id="map_country_select" aria-describedby="country-note">
+          <option value="CO">Colombia</option>
+          <option value="PE">Perú</option>
+        </select>
+        <p class="persona-note" id="country-note">Cambie de país sin salir del mapa.</p>
+      </section>
 
       <section class="panel-section" aria-labelledby="sec-capa">
         <div class="panel-label">
@@ -54,7 +63,7 @@
     </aside>
 
     <section class="map-canvas" id="map_leaflet" aria-label="Mapa Leaflet">
-      <div id="map" role="region" aria-label="Mapa de Colombia con la capa Departamentos — Personas de las 13 personas"></div>
+      <div id="map" role="region" aria-label="Mapa interactivo de indicadores LATAM"></div>
       <div class="map-overlay" id="map-overlay" aria-hidden="true"></div>
       <div class="map-geo-note" id="map-geo-note" hidden></div>
       <div class="map-loading" id="map-loading"><span><i class="fa-solid fa-circle-notch fa-spin" aria-hidden="true"></i>Cargando mapa…</span></div>

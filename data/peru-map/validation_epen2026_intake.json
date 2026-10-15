@@ -1,0 +1,38 @@
+[
+  {
+    "quarter": 1,
+    "year": 2026,
+    "rows": 90058,
+    "city_codes": 27,
+    "months": {
+      "01": 29033,
+      "02": 30260,
+      "03": 30765
+    },
+    "duplicate_sample_keys": 0,
+    "sha256": "775068aad500fe184a1dc219b2ddef6cd274d05324c4c4379a3e2fbe7db10f60",
+    "note": "Not an annual national file; city scope; weights and persona mapping require validation.",
+    "under14": 20897,
+    "missing_weight_under14": 20897,
+    "missing_weight_age14plus": 12274,
+    "missing_weight_occupied": 3842
+  },
+  {
+    "quarter": 2,
+    "year": 2026,
+    "rows": 85239,
+    "city_codes": 28,
+    "months": {
+      "04": 28389,
+      "05": 28394,
+      "06": 28456
+    },
+    "duplicate_sample_keys": 0,
+    "sha256": "b4ce5d67931c198360eb1e074acb17f25072c54c3f43418ff6d76e1c3343ea29",
+    "note": "Not an annual national file; city scope; weights and persona mapping require validation.",
+    "under14": 18957,
+    "missing_weight_under14": 18957,
+    "missing_weight_age14plus": 6202,
+    "missing_weight_occupied": 0
+  }
+]

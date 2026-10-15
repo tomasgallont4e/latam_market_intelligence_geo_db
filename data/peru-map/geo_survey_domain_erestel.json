@@ -1,0 +1,23 @@
+[
+  {
+    "domain_id": "PE-ERESTEL-LIMA_CALLAO",
+    "country_code": "PE",
+    "survey": "ERESTEL",
+    "reference_period": "2025",
+    "definition": "Lima Metropolitana incluido Callao según encuesta"
+  },
+  {
+    "domain_id": "PE-ERESTEL-RESTO_URBANO",
+    "country_code": "PE",
+    "survey": "ERESTEL",
+    "reference_period": "2025",
+    "definition": "Resto urbano según encuesta; no una ciudad"
+  },
+  {
+    "domain_id": "PE-ERESTEL-RURAL",
+    "country_code": "PE",
+    "survey": "ERESTEL",
+    "reference_period": "2025",
+    "definition": "Ámbito rural según encuesta; no una región administrativa"
+  }
+]

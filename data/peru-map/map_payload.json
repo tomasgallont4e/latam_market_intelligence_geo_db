@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "PE",
+  "national_metrics_file": "fact_map_indicator.json",
+  "personas_file": "fact_persona_estimates_epen2025.json",
+  "profiles_file": "fact_persona_profiles_2025.json",
+  "geography_file": "geo_units.json",
+  "school_points_file": "geo_secondary_services_2025.geojson",
+  "sqlite_file": "think4ever_peru_mapa.sqlite",
+  "persona_spatial_allocation": null,
+  "layers_included": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R"
+  ],
+  "note": "National persona/market aggregates are not allocated to districts. See README and map_catalog."
+}

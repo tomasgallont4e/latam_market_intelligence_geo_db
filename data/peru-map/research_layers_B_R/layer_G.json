@@ -1,0 +1,96 @@
+{
+  "layer": "G",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "G1",
+      "layer": "G",
+      "indicator": "Personal TI por industria",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Cruces directos del microdato F; núcleo cuatro personas, sector J58–63; deduplicación por persona/registro.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "G2",
+      "layer": "G",
+      "indicator": "TI fuera del sector por tamaño",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Cruces directos del microdato F; núcleo cuatro personas, sector J58–63; deduplicación por persona/registro.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "G3",
+      "layer": "G",
+      "indicator": "TI gobierno por sector",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Cruces directos del microdato F; núcleo cuatro personas, sector J58–63; deduplicación por persona/registro.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "G4",
+      "layer": "G",
+      "indicator": "Gobierno en otras personas",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Cruces directos del microdato F; núcleo cuatro personas, sector J58–63; deduplicación por persona/registro.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    }
+  ],
+  "source_ids": [
+    "EPEN",
+    "CNO"
+  ],
+  "method": "Cruces directos del microdato F; núcleo cuatro personas, sector J58–63; deduplicación por persona/registro.",
+  "data": [],
+  "partial_occupation_mapping": "cno2015_isco08_verified_partial.json",
+  "processing_status": "City quarterly2026 data supplied; final mapping and weights issue unresolved; no persona estimates."
+}

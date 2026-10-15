@@ -1,0 +1,131 @@
+{
+  "layer": "P",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "P1",
+      "layer": "P",
+      "indicator": "Alcance escolar y conversión",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "school_unit_incomplete",
+      "source_ids": [
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "Derivar de K y N. 10% conversión y USD250 son supuestos de plantilla; año contractual por confirmar; beneficios tributarios no asumidos para licencias.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Matrícula objetivo calculada. 2084 servicios sin CODINST impiden total de colegios/tope100 nacional. Escenario por servicio separado, no conversión observada."
+    },
+    {
+      "id": "P2",
+      "layer": "P",
+      "indicator": "Patrocinios por año",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "scenario_contract_period_pending",
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "method": "Derivar de K y N. 10% conversión y USD250 son supuestos de plantilla; año contractual por confirmar; beneficios tributarios no asumidos para licencias.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Base escolar calculada; USD250 y periodicidad contractual siguen sin confirmar. No registrar ingreso anual observado."
+    },
+    {
+      "id": "P3",
+      "layer": "P",
+      "indicator": "Empresas por escuela",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "method": "Derivar de K y N. 10% conversión y USD250 son supuestos de plantilla; año contractual por confirmar; beneficios tributarios no asumidos para licencias.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "P4",
+      "layer": "P",
+      "indicator": "Incentivo fiscal donaciones",
+      "value": null,
+      "unit": null,
+      "period": "review_2026-10-13",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_documented",
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "method": "Derivar de K y N. 10% conversión y USD250 son supuestos de plantilla; año contractual por confirmar; beneficios tributarios no asumidos para licencias.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Deducción de donaciones sujeta a condiciones, tope10% renta neta tercera categoría; no crédito25% ni beneficio automático por licencia."
+    },
+    {
+      "id": "P5",
+      "layer": "P",
+      "indicator": "Datos de menores",
+      "value": null,
+      "unit": null,
+      "period": "review_2026-10-13",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_documented",
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "method": "Derivar de K y N. 10% conversión y USD250 son supuestos de plantilla; año contractual por confirmar; beneficios tributarios no asumidos para licencias.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "DS016-2024-JUS arts22–25: reglas de consentimiento según edad y servicio digital; no copiar Colombia."
+    }
+  ],
+  "source_ids": [
+    "ESCALE",
+    "RUC",
+    "DON",
+    "LPDP"
+  ],
+  "method": "Derivar de K y N. 10% conversión y USD250 son supuestos de plantilla; año contractual por confirmar; beneficios tributarios no asumidos para licencias.",
+  "data": [],
+  "assumptions": {
+    "conversion": 0.1,
+    "cap_students_per_school": 100,
+    "team_usd": 250,
+    "individual_usd": 25,
+    "price_approval": "not_confirmed",
+    "contract_period": "confirm_before_annualization"
+  }
+}

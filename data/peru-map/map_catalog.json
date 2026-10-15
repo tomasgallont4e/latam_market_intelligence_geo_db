@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "PE",
+  "package_scope": "Peru layers A-R, map-ingestion data as available on 2026-10-13",
+  "map_behavior": {
+    "country_metrics": "country-level cards/filters only",
+    "persona_allocation_to_subnational_zones": false,
+    "school_features": "point overlay for secondary EBR services",
+    "district_choropleth": "requires matching district polygons by 6-digit educational reporting code",
+    "null_semantics": "null means suppressed, unavailable, or pending according to status; never coerce to zero"
+  },
+  "layers": {
+    "A": {
+      "records_in_map_metric": 25,
+      "non_null_map_values": 25,
+      "data_status": "populated",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "B": {
+      "records_in_map_metric": 1422,
+      "non_null_map_values": 1324,
+      "data_status": "partially_populated",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "C": {
+      "records_in_map_metric": 4,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "D": {
+      "records_in_map_metric": 3,
+      "non_null_map_values": 2,
+      "data_status": "partially_populated",
+      "data_reference": "SUNAT Padron RUC 202604, derived district aggregate; source tables as listed in README"
+    },
+    "E": {
+      "records_in_map_metric": 2,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "F": {
+      "records_in_map_metric": 29,
+      "non_null_map_values": 14,
+      "data_status": "partially_populated",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "G": {
+      "records_in_map_metric": 4,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "H": {
+      "records_in_map_metric": 2,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "I": {
+      "records_in_map_metric": 3,
+      "non_null_map_values": 2,
+      "data_status": "partially_populated",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "J": {
+      "records_in_map_metric": 4,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "K": {
+      "records_in_map_metric": 7,
+      "non_null_map_values": 3,
+      "data_status": "partially_populated",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "L": {
+      "records_in_map_metric": 7,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "M": {
+      "records_in_map_metric": 6,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "N": {
+      "records_in_map_metric": 4,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "O": {
+      "records_in_map_metric": 25,
+      "non_null_map_values": 21,
+      "data_status": "partially_populated",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "P": {
+      "records_in_map_metric": 5,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "Q": {
+      "records_in_map_metric": 2,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    },
+    "R": {
+      "records_in_map_metric": 2,
+      "non_null_map_values": 0,
+      "data_status": "defined_no_published_values",
+      "data_reference": "day1_final A/B/F; research_layers_B_R; source tables as listed in README"
+    }
+  },
+  "geography": {
+    "country_units": 1,
+    "education_reporting_districts": 1892,
+    "secondary_service_points": 15700,
+    "district_polygons_in_package": false
+  },
+  "quality": {
+    "day1_final_authorization": "documented in supplied FINAL closure report; scope excludes TAM/SAM/SOM or commercial recommendations",
+    "day1_hashes_verified": true,
+    "all_13_personas_rows_present": true,
+    "persona_rows_suppressed": 4,
+    "local_persona_counts": 0,
+    "local_persona_counts_status": "not_available_no_subnational_persona_estimates"
+  }
+}

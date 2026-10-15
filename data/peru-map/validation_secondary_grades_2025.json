@@ -1,0 +1,16 @@
+{
+  "matricula_secondary_turn_rows": 16476,
+  "duplicate_turn_keys": 0,
+  "services_matched": 15700,
+  "missing_services": 0,
+  "all5_total_reconciled_with_padron": 2998063,
+  "service_total_discrepancies": 0,
+  "service_sex_discrepancies": 0,
+  "institutions_in_multiple_districts": 0,
+  "external_published_total_reconciliation": "not_run",
+  "target_grades_computed": true,
+  "age_under18": null,
+  "technical_track": null,
+  "city_urban_boundary_mapping": "pending",
+  "national_legal_district_boundary_validation": "not_run"
+}

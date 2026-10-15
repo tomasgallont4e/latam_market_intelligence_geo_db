@@ -101,7 +101,7 @@
     }
     current = id;
     setActive(id);
-    document.title = (PAGES[id] || id) + ' · Geo DB Colombia · think4ever';
+    document.title = (PAGES[id] || id) + ' · LATAM Market Intelligence · think4ever';
     if (location.hash !== '#' + id) {
       try { history.replaceState(null, '', '#' + id); } catch (e) { /* ignore */ }
     }

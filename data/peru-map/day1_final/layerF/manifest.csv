@@ -1,0 +1,40 @@
+path,role,source,description,primary_key,rows,columns,bytes,sha256
+Peru_Day1_Auditoria_Final_Cierre.md,documentation,,,,,,10937,41bd24643e12e545d659eae198f7fd4c51b56f597ad98097965a7abd05558818
+Peru_Day1_LayerF_ENAHO2025_Auditoria_F9.md,documentation,,,,,,22215,3c9010abe158f5c64e3b8388e1c38085cc9c51b60f4bb8cba3a69c3b5cc6cf11
+Peru_Day1_LayerF_ENAHO2025_Evaluacion.md,documentation,,,,,,9341,b48575c4bcf8fd7ff7e6b18be6113e06f9abd43d4ff6cf66c93fbbf2ad78d668
+Peru_Day1_LayerF_EPEN2025_Auditoria_y_Resultados.md,documentation,,,,,,31219,472f1dc1e70f2d3c03082543dc774cbb64d5a4bca65f6feb51e3ab4ee4087e25
+README.md,documentation,,,,,,4399,88a224828dcaa879f51c8ca2ec1fd341cb0e669cd3ae2b8110f89ca068bcb658
+data/cno2015_ciuo08_correspondence.csv,data_publishable,INEI CNO 2015 Anexos 3-4,Official CNO 2015 <-> CIUO-08 correspondence extracted from the PDF,cno;ciuo,542,9,63994,dd8c64b53f23088e2f1c632359da288f26c96a07d3bc036f7ce8f38bb821960d
+data/decisions_log_pe.csv,data_publishable,all,Methodological decisions and validation statuses (current / superseded_by),decision_id,15,7,3881,8ce90201a6b13e260ecce3b4c2f94b0ee9f03874c6f228cbdf697d0d243a8b89
+data/enaho_quintile_cutpoints_pe.csv,data_publishable,ENAHO 2025,"National population quintile cut-points of real per-capita monthly income (S/, Lima prices)",quantile,4,2,96,82bbbb79045909957aa7b30bc337cf99261b8b910444557237661b05b4a1da0b
+data/f1_enaho_diagnostic_pe.csv,data_publishable,ENAHO 2025,"ENAHO employed per group - diagnostic only, never replaces EPEN F1",group_id,25,15,5766,e4454df71459a4eecf08ad00f4ebe6ac58ebfceb65ad724ef3ffb1a2b2669b7f
+data/f9_persona_socioeconomic_enaho_pe.csv,data_publishable,ENAHO 2025,F9: share of each group by national income quintile (ipcr_0) and ESTRSOCIAL; separate from EPEN,group_id;indicator;category,300,14,37827,11f434f6f966eddef473dd1427c8613145dc817ce8a12ed77c7f492fb66d8690
+data/f_cno_code_counts_pe.csv,data_publishable,EPEN 2025,Employed per CNO 2015 code (weighted value blank if <30 records),cno2015_code,438,4,17131,8c11293f610871c2cf0a583948e160129327feb9dcaa4567963144dfb5603fbd
+data/f_designers_informational_pe.csv,data_publishable,EPEN 2025 and ENAHO 2025 (rows by source),"D-PE-09 designers informational group (CNO 2163+2166+3432), outside personas and rings",group_id;source,10,11,1010,0f6f1032c65166f305428a1b418f61da535f80b73bb11025721571e145fe9ecf
+data/f_occupation_mapping_pe.csv,data_publishable,CNO 2015 / EPEN 2025,CNO 2015 code-level mapping to personas with INEI link flags (weighted value blank if <30 records),template_persona_number;cno2015_code,65,15,12222,c621e6f73a4b2950842cff91fe32945b9ef87b00918038ab2a0f4561a7137a7e
+data/f_persona_correspondence_pe.csv,data_publishable,CNO 2015 / EPEN 2025,"Deliverable B: 13 personas, CIUO-08 template codes, CNO 2015 codes, justification and warnings",template_persona_number,13,17,6637,6fd027f13d12e7d0e65dc61ed160f4151af40fa37b607d61f684b27cda32b033
+data/f_persona_estimates_pe.csv,data_publishable,EPEN 2025,"F1/F2/F11: occupational population per persona, ring, combined/informational group and sensitivity (suppressed values blank)",group_id,34,22,15609,70ea8637f8a6b9a35c0bce627fd596d7dcc1b6352252b8b99c746bf4310c3eea
+data/f_persona_profiles_pe.csv,data_publishable,EPEN 2025,F3-F8 and F6: profile shares/medians per group (small cells and suppressed groups blank),group_id;indicator;category,1210,12,123717,2e05dffb169bd25844068ddbb9ce3ef40d1805d2abfd79d77c84c9d7f3a45b23
+data/source_registry_layer_f_pe.csv,data_publishable,all,"Source registry: provenance, versions, hashes, roles, open requests",source_id,19,11,10971,6587dab0681e575c53857063a08dcbb8363d85c953240b269f3c6caafe4f6f94
+data_dictionary.csv,documentation,,,,139,5,12758,a75e46abec77b0491f9b47bc13628e485386ca9f6c0b81130b2085fba49a57b1
+scripts/audit_closure_layer_f_pe.py,script,,,,,,15018,69cbb360897f76acede8b0c3e11165c370a74297bf31f89e1c774ebb3784baf8
+scripts/build_closure_manifest_pe.py,script,,,,,,9448,9bb184a91418c3af8ee917078d578185a76930d73a0936249e0ae7f2fc5da949
+scripts/build_layer_f_deliverables_pe.py,script,,,,,,31137,31042a9ac81c63a0af0fb21e99de5a84eda32e5abbd79926fe9832b3820b0e52
+scripts/enaho_sumaria_quintiles_pe.py,script,,,,,,9795,845b20b2ab47c3322b2bc041a717df3e4d105c777ffed0ba26c843713c3084fb
+scripts/layer_f_enaho_f9_pe.py,script,,,,,,7716,0a49638eb2abcbbc3bbdd7bf940fe9fe730d0fe236d42964b0ca7181361293bd
+scripts/layer_f_epen_peru.py,script,,,,,,24349,6d7166a46da8b49124dbbbe67a52833b9744e7415c1b09b8b2db688c9a453744
+scripts/parse_cno2015_annex.py,script,,,,,,4454,ff711f7c07329c220f8b4d81f800cdad4b2163ce16f4dce8f29b5431587a0a91
+scripts/validate_enaho_vs_inei_official_pe.py,script,,,,,,5635,f6d3a6bffa85b5daa6b0430016bbf2e34aca86639c2d3f8f8a475239a381a814
+validation/audit_layer_f_checks_pe.csv,validation,,,,60,7,6507,ed93b679ba2f462383f3a9b3bcffa5fcd523c71e620bb94672d9a0b5055cfd07
+validation/enaho_f9_meta_pe.json,validation,,,,,,316,c5b62179e0d14f7aa01b6a3de1f4978c567bb03eb20feabf8ba24df6aaf2d09c
+validation/enaho_sumaria_checks_pe.csv,validation,,,,9,7,1136,83b7760c7974e7f25693c41ecd5a891997b5af9b5b982aebf5d23c7b9a286d77
+validation/enaho_sumaria_meta_pe.json,validation,,,,,,709,5bce46d1b3cb850a8a653186824e16e1a0ae20ceefe203963ab17c6ae59718a8
+validation/enaho_vs_inei_official_validation_pe.csv,validation,,,,22,14,4043,20208de43e6dceddb34f852da2222c925c5d3fe4239ab8f7c540cd14d442759b
+validation/epen_variance_sensitivity_pe.csv,validation,,,,34,5,1602,b0ef7ce66ceeac2079b6e8ddd3e2ee571fea54abe623957a530acf53663e0595
+validation/f_employed_totals_check_pe.csv,validation,,,,24,7,4826,bb8173c81ee0cbff4053ba080bf93ce1b9c1eaa12d293544b8b173af470d3499
+validation/f_run_meta_pe.json,validation,,,,,,415,8c426fb4c426d682d8f91f0045015c3c8ccaa4a3d4468f6579e4031ee96ac140
+validation/internal_not_publishable/f1_enaho_pre_DPE12_audit_only.csv,internal_audit_not_publishable,,,,25,15,5756,6fd7e629c4848ff8a0e68889bda55c50a30a7ab04f9299ee9afabd6c3675d9c3
+validation/internal_not_publishable/f9_pre_DPE12_audit_only.csv,internal_audit_not_publishable,,,,300,14,37810,e1fc6fd0c77102ba365d9bcb2df29c0f0ef37cdfcc6d2ce3046d5157ce5d1d90
+validation/internal_not_publishable/f_cno_code_counts_internal_pe.csv,internal_audit_not_publishable,,,,438,3,7278,3e4392de12d5fff580306f25fe7bf6d18a276cee13e6fa9ac3979b4dc6069ad8
+validation/internal_not_publishable/f_occupation_mapping_internal_pe.csv,internal_audit_not_publishable,,,,65,14,10807,66c88c1ce161447c35f40b5dd1e098a0cc755967ba4518941fa6354033f0e39b
+validation/internal_not_publishable/f_persona_estimates_internal_pe.csv,internal_audit_not_publishable,,,,34,20,11286,c8d820e4068f32748dced5c6607d4e4365770ae9aad872c6d23aac721b7ca85b

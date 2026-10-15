@@ -1,0 +1,134 @@
+{
+  "reference_year": 2025,
+  "source_id": "MINEDU_CE2025_MATRICULA",
+  "secondary_services": 15700,
+  "services_target_positive": 15393,
+  "known_institutions_target_positive": 13343,
+  "services_missing_codinst": 2084,
+  "services_target_positive_missing_codinst": 2050,
+  "students_target_missing_codinst": 220561,
+  "locals_target_positive": 15383,
+  "target_students": 1711139,
+  "grade_totals": {
+    "1": 648157,
+    "2": 638767,
+    "3": 594602,
+    "4": 579086,
+    "5": 537451
+  },
+  "target_men": 861573,
+  "target_women": 849566,
+  "known_institution_size_bins": {
+    "100–199": 2025,
+    "1–49": 6054,
+    "200–499": 1698,
+    "50–99": 3172,
+    "500+": 394
+  },
+  "known_institution_target_median": 56,
+  "known_institution_cap100": 797313,
+  "known_institution_cap100_grade4_5": 632390,
+  "service_cap100": 921663,
+  "management": [
+    {
+      "group_code": "Privada",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 5232,
+      "services_target_positive": 5067,
+      "target_students": 436365,
+      "target_men": 224160,
+      "target_women": 212205,
+      "grade4_5_students": 284744,
+      "all5_students": 755711
+    },
+    {
+      "group_code": "Pública de gestión directa",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 10093,
+      "services_target_positive": 9954,
+      "target_students": 1200925,
+      "target_men": 605547,
+      "target_women": 595378,
+      "grade4_5_students": 783953,
+      "all5_students": 2113180
+    },
+    {
+      "group_code": "Pública de gestión privada",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 375,
+      "services_target_positive": 372,
+      "target_students": 73849,
+      "target_men": 31866,
+      "target_women": 41983,
+      "grade4_5_students": 47840,
+      "all5_students": 129172
+    }
+  ],
+  "area": [
+    {
+      "group_code": "1",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 8270,
+      "services_target_positive": 8067,
+      "target_students": 1345040,
+      "target_men": 672359,
+      "target_women": 672681,
+      "grade4_5_students": 880286,
+      "all5_students": 2359246
+    },
+    {
+      "group_code": "2",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 7430,
+      "services_target_positive": 7326,
+      "target_students": 366099,
+      "target_men": 189214,
+      "target_women": 176885,
+      "grade4_5_students": 236251,
+      "all5_students": 638817
+    }
+  ],
+  "imputation": [
+    {
+      "group_code": "1_INFORMANTE",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 15201,
+      "services_target_positive": 14923,
+      "target_students": 1683236,
+      "target_men": 847325,
+      "target_women": 835911,
+      "grade4_5_students": 1098768,
+      "all5_students": 2948904
+    },
+    {
+      "group_code": "2_IMPUTADO_PARCIAL",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 10,
+      "services_target_positive": 10,
+      "target_students": 1694,
+      "target_men": 869,
+      "target_women": 825,
+      "grade4_5_students": 1110,
+      "all5_students": 2765
+    },
+    {
+      "group_code": "3_IMPUTADO_TOTAL",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_MATRICULA",
+      "services": 489,
+      "services_target_positive": 460,
+      "target_students": 26209,
+      "target_men": 13379,
+      "target_women": 12830,
+      "grade4_5_students": 16659,
+      "all5_students": 46394
+    }
+  ]
+}

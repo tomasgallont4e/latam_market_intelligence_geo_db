@@ -1,0 +1,94 @@
+{
+  "layer": "J",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "J1",
+      "layer": "J",
+      "indicator": "Empresas por zona y tamaño",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "method": "Distritos dentro de dominios urbanos definidos. Dos ciudades mayores según fuente de población urbana comparable; Lima y Arequipa solo candidatas hasta confirmar ranking.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "J2",
+      "layer": "J",
+      "indicator": "Software/TI por zona",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "method": "Distritos dentro de dominios urbanos definidos. Dos ciudades mayores según fuente de población urbana comparable; Lima y Arequipa solo candidatas hasta confirmar ranking.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "J3",
+      "layer": "J",
+      "indicator": "Actividades vinculadas a personas por zona",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "method": "Distritos dentro de dominios urbanos definidos. Dos ciudades mayores según fuente de población urbana comparable; Lima y Arequipa solo candidatas hasta confirmar ranking.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "J4",
+      "layer": "J",
+      "indicator": "Tiendas por zona",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "method": "Distritos dentro de dominios urbanos definidos. Dos ciudades mayores según fuente de población urbana comparable; Lima y Arequipa solo candidatas hasta confirmar ranking.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    }
+  ],
+  "source_ids": [
+    "RUC",
+    "UBIGEO"
+  ],
+  "method": "Distritos dentro de dominios urbanos definidos. Dos ciudades mayores según fuente de población urbana comparable; Lima y Arequipa solo candidatas hasta confirmar ranking.",
+  "data": []
+}

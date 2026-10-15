@@ -1,0 +1,428 @@
+{
+  "layer": "K",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "K1",
+      "layer": "K",
+      "indicator": "Servicios/locales con grados objetivo",
+      "value": 15393,
+      "unit": "servicios con matrícula 3–5",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "id": "K2",
+      "layer": "K",
+      "indicator": "Matrícula por grado",
+      "value": 1711139,
+      "unit": "matrículas 3–5 secundaria EBR",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "id": "K3",
+      "layer": "K",
+      "indicator": "Público y privado",
+      "value": null,
+      "unit": "desglose gestión en JSON",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "id": "K4",
+      "layer": "K",
+      "indicator": "Edad, sexo, ruralidad y trayectoria",
+      "value": null,
+      "unit": "sexo y ruralidad en JSON",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "id": "K5",
+      "layer": "K",
+      "indicator": "Tamaño escolar y mediana",
+      "value": 56,
+      "unit": "mediana matrículas 3–5 por servicio",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "id": "K6",
+      "layer": "K",
+      "indicator": "Alcance con tope 100",
+      "value": null,
+      "unit": "tope100 por colegio pendiente CODINST completo",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "id": "K7",
+      "layer": "K",
+      "indicator": "Escuelas y matrícula por región/ciudad",
+      "value": null,
+      "unit": "desglose distrito/departamento en JSON",
+      "period": "2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial_processed_secondary_grades",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "method": "C201/3AS: sumar turnos, D05–D10 para grados3–5; Servicios COD_MOD+ANEXO. CODINST falta en2084 servicios; tope100 institucional solo para subconjunto identificado.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    }
+  ],
+  "source_ids": [
+    "ESCALE"
+  ],
+  "method": "3°,4°,5° secundaria EBR. Distinguir servicio/código modular y local; sumar matrícula por grado y deduplicar unidad escolar definida.",
+  "data": {
+    "reference_year": 2025,
+    "source_id": "MINEDU_CE2025_MATRICULA",
+    "secondary_services": 15700,
+    "services_target_positive": 15393,
+    "known_institutions_target_positive": 13343,
+    "services_missing_codinst": 2084,
+    "services_target_positive_missing_codinst": 2050,
+    "students_target_missing_codinst": 220561,
+    "locals_target_positive": 15383,
+    "target_students": 1711139,
+    "grade_totals": {
+      "1": 648157,
+      "2": 638767,
+      "3": 594602,
+      "4": 579086,
+      "5": 537451
+    },
+    "target_men": 861573,
+    "target_women": 849566,
+    "known_institution_size_bins": {
+      "100–199": 2025,
+      "1–49": 6054,
+      "200–499": 1698,
+      "50–99": 3172,
+      "500+": 394
+    },
+    "known_institution_target_median": 56,
+    "known_institution_cap100": 797313,
+    "known_institution_cap100_grade4_5": 632390,
+    "service_cap100": 921663,
+    "management": [
+      {
+        "group_code": "Privada",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 5232,
+        "services_target_positive": 5067,
+        "target_students": 436365,
+        "target_men": 224160,
+        "target_women": 212205,
+        "grade4_5_students": 284744,
+        "all5_students": 755711
+      },
+      {
+        "group_code": "Pública de gestión directa",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 10093,
+        "services_target_positive": 9954,
+        "target_students": 1200925,
+        "target_men": 605547,
+        "target_women": 595378,
+        "grade4_5_students": 783953,
+        "all5_students": 2113180
+      },
+      {
+        "group_code": "Pública de gestión privada",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 375,
+        "services_target_positive": 372,
+        "target_students": 73849,
+        "target_men": 31866,
+        "target_women": 41983,
+        "grade4_5_students": 47840,
+        "all5_students": 129172
+      }
+    ],
+    "area": [
+      {
+        "group_code": "1",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 8270,
+        "services_target_positive": 8067,
+        "target_students": 1345040,
+        "target_men": 672359,
+        "target_women": 672681,
+        "grade4_5_students": 880286,
+        "all5_students": 2359246
+      },
+      {
+        "group_code": "2",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 7430,
+        "services_target_positive": 7326,
+        "target_students": 366099,
+        "target_men": 189214,
+        "target_women": 176885,
+        "grade4_5_students": 236251,
+        "all5_students": 638817
+      }
+    ],
+    "imputation": [
+      {
+        "group_code": "1_INFORMANTE",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 15201,
+        "services_target_positive": 14923,
+        "target_students": 1683236,
+        "target_men": 847325,
+        "target_women": 835911,
+        "grade4_5_students": 1098768,
+        "all5_students": 2948904
+      },
+      {
+        "group_code": "2_IMPUTADO_PARCIAL",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 10,
+        "services_target_positive": 10,
+        "target_students": 1694,
+        "target_men": 869,
+        "target_women": 825,
+        "grade4_5_students": 1110,
+        "all5_students": 2765
+      },
+      {
+        "group_code": "3_IMPUTADO_TOTAL",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 489,
+        "services_target_positive": 460,
+        "target_students": 26209,
+        "target_men": 13379,
+        "target_women": 12830,
+        "grade4_5_students": 16659,
+        "all5_students": 46394
+      }
+    ]
+  },
+  "context_data": {
+    "reference_year": 2025,
+    "source_id": "MINEDU_CE2025_MATRICULA",
+    "secondary_services": 15700,
+    "services_target_positive": 15393,
+    "known_institutions_target_positive": 13343,
+    "services_missing_codinst": 2084,
+    "services_target_positive_missing_codinst": 2050,
+    "students_target_missing_codinst": 220561,
+    "locals_target_positive": 15383,
+    "target_students": 1711139,
+    "grade_totals": {
+      "1": 648157,
+      "2": 638767,
+      "3": 594602,
+      "4": 579086,
+      "5": 537451
+    },
+    "target_men": 861573,
+    "target_women": 849566,
+    "known_institution_size_bins": {
+      "100–199": 2025,
+      "1–49": 6054,
+      "200–499": 1698,
+      "50–99": 3172,
+      "500+": 394
+    },
+    "known_institution_target_median": 56,
+    "known_institution_cap100": 797313,
+    "known_institution_cap100_grade4_5": 632390,
+    "service_cap100": 921663,
+    "management": [
+      {
+        "group_code": "Privada",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 5232,
+        "services_target_positive": 5067,
+        "target_students": 436365,
+        "target_men": 224160,
+        "target_women": 212205,
+        "grade4_5_students": 284744,
+        "all5_students": 755711
+      },
+      {
+        "group_code": "Pública de gestión directa",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 10093,
+        "services_target_positive": 9954,
+        "target_students": 1200925,
+        "target_men": 605547,
+        "target_women": 595378,
+        "grade4_5_students": 783953,
+        "all5_students": 2113180
+      },
+      {
+        "group_code": "Pública de gestión privada",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 375,
+        "services_target_positive": 372,
+        "target_students": 73849,
+        "target_men": 31866,
+        "target_women": 41983,
+        "grade4_5_students": 47840,
+        "all5_students": 129172
+      }
+    ],
+    "area": [
+      {
+        "group_code": "1",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 8270,
+        "services_target_positive": 8067,
+        "target_students": 1345040,
+        "target_men": 672359,
+        "target_women": 672681,
+        "grade4_5_students": 880286,
+        "all5_students": 2359246
+      },
+      {
+        "group_code": "2",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 7430,
+        "services_target_positive": 7326,
+        "target_students": 366099,
+        "target_men": 189214,
+        "target_women": 176885,
+        "grade4_5_students": 236251,
+        "all5_students": 638817
+      }
+    ],
+    "imputation": [
+      {
+        "group_code": "1_INFORMANTE",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 15201,
+        "services_target_positive": 14923,
+        "target_students": 1683236,
+        "target_men": 847325,
+        "target_women": 835911,
+        "grade4_5_students": 1098768,
+        "all5_students": 2948904
+      },
+      {
+        "group_code": "2_IMPUTADO_PARCIAL",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 10,
+        "services_target_positive": 10,
+        "target_students": 1694,
+        "target_men": 869,
+        "target_women": 825,
+        "grade4_5_students": 1110,
+        "all5_students": 2765
+      },
+      {
+        "group_code": "3_IMPUTADO_TOTAL",
+        "reference_year": 2025,
+        "source_id": "MINEDU_CE2025_MATRICULA",
+        "services": 489,
+        "services_target_positive": 460,
+        "target_students": 26209,
+        "target_men": 13379,
+        "target_women": 12830,
+        "grade4_5_students": 16659,
+        "all5_students": 46394
+      }
+    ]
+  },
+  "data_files": [
+    "fact_secondary_service_grade_2025.json",
+    "fact_secondary_institution_2025.json",
+    "fact_secondary_district_2025.json",
+    "fact_secondary_region_2025.json",
+    "secondary_services_2025.geojson"
+  ],
+  "processing_status": "Grades3–5 computed; school identity incomplete. Institution cap partial; ages, technical track and urban cities pending."
+}

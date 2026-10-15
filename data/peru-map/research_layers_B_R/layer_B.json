@@ -1,0 +1,580 @@
+{
+  "layer": "B",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "B1",
+      "layer": "B",
+      "indicator": "Uso de IA",
+      "value": 91.66666666666667,
+      "unit": "percent",
+      "period": "2026",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_low_sample",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "method": "Filtrar Country=Peru. Porcentaje = seleccionados / respuestas válidas de la pregunta; multiselección por token; comparar cuestionarios antes de años.",
+      "sample_n": 12,
+      "confidence": "low_sample_voluntary",
+      "limitation": "Alguna categoría de uso IA 2026; universo/cuestionario distintos a 2025."
+    },
+    {
+      "id": "B2",
+      "layer": "B",
+      "indicator": "Uso diario de IA",
+      "value": 81.81818181818181,
+      "unit": "percent",
+      "period": "2026",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_low_sample",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "method": "Filtrar Country=Peru. Porcentaje = seleccionados / respuestas válidas de la pregunta; multiselección por token; comparar cuestionarios antes de años.",
+      "sample_n": 11,
+      "confidence": "low_sample_voluntary",
+      "limitation": "Alguna familia IA usada diariamente, entre quienes contestaron al menos una frecuencia; distinta base que 2025."
+    },
+    {
+      "id": "B3",
+      "layer": "B",
+      "indicator": "Uso de agentes",
+      "value": 25.0,
+      "unit": "percent",
+      "period": "2026",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_low_sample",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "method": "Filtrar Country=Peru. Porcentaje = seleccionados / respuestas válidas de la pregunta; multiselección por token; comparar cuestionarios antes de años.",
+      "sample_n": 12,
+      "confidence": "low_sample_voluntary",
+      "limitation": "Categoría agentes/workflows; asistentes/coding agents separados, no equivalente exacto B3 2025."
+    },
+    {
+      "id": "B4",
+      "layer": "B",
+      "indicator": "Editores y herramientas IA",
+      "value": null,
+      "unit": null,
+      "period": "2026",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_low_sample",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "method": "Filtrar Country=Peru. Porcentaje = seleccionados / respuestas válidas de la pregunta; multiselección por token; comparar cuestionarios antes de años.",
+      "sample_n": 7,
+      "confidence": "low_sample_voluntary",
+      "limitation": "Detalle multirrespuesta en layer_B.json; IDE n=7; cada familia tiene su denominador."
+    },
+    {
+      "id": "B5",
+      "layer": "B",
+      "indicator": "Respuestas y confianza",
+      "value": 16,
+      "unit": "responses",
+      "period": "2026",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "processed_low_sample",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "method": "Filtrar Country=Peru. Porcentaje = seleccionados / respuestas válidas de la pregunta; multiselección por token; comparar cuestionarios antes de años.",
+      "sample_n": 16,
+      "confidence": "low_sample_voluntary",
+      "limitation": "Muestra voluntaria de 16 respuestas. No representativa."
+    }
+  ],
+  "source_ids": [
+    "SO26",
+    "SO25"
+  ],
+  "method": "Filtrar Country=Peru. Porcentaje = seleccionados / respuestas válidas de la pregunta; multiselección por token; comparar cuestionarios antes de años.",
+  "data": [
+    {
+      "id": "B1",
+      "year": 2025,
+      "value": 88.13559322033899,
+      "unit": "percent",
+      "sample_country_n": 64,
+      "sample_valid_n": 59,
+      "numerator": 52,
+      "field": "AISelect",
+      "definition": "Usa IA; excluye quienes solo planean usarla.",
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO25"
+    },
+    {
+      "id": "B2",
+      "year": 2025,
+      "value": 62.71186440677966,
+      "unit": "percent",
+      "sample_country_n": 64,
+      "sample_valid_n": 59,
+      "numerator": 37,
+      "field": "AISelect",
+      "definition": "Uso diario entre respuestas válidas AISelect.",
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO25"
+    },
+    {
+      "id": "B3",
+      "year": 2025,
+      "value": 43.85964912280702,
+      "unit": "percent",
+      "sample_country_n": 64,
+      "sample_valid_n": 57,
+      "numerator": 25,
+      "field": "AIAgents",
+      "definition": "Uso de agentes en trabajo; excluye autocomplete y planes futuros.",
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO25"
+    },
+    {
+      "id": "B4",
+      "year": 2025,
+      "field": "DevEnvsHaveWorkedWith",
+      "tools": [
+        {
+          "name": "Visual Studio Code",
+          "count": 36,
+          "pct_valid": 80.0
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "count": 17,
+          "pct_valid": 37.77777777777778
+        },
+        {
+          "name": "Visual Studio",
+          "count": 12,
+          "pct_valid": 26.666666666666668
+        },
+        {
+          "name": "Cursor",
+          "count": 10,
+          "pct_valid": 22.22222222222222
+        },
+        {
+          "name": "Android Studio",
+          "count": 10,
+          "pct_valid": 22.22222222222222
+        },
+        {
+          "name": "Notepad++",
+          "count": 9,
+          "pct_valid": 20.0
+        },
+        {
+          "name": "Windsurf",
+          "count": 9,
+          "pct_valid": 20.0
+        },
+        {
+          "name": "Neovim",
+          "count": 9,
+          "pct_valid": 20.0
+        },
+        {
+          "name": "Zed",
+          "count": 8,
+          "pct_valid": 17.77777777777778
+        },
+        {
+          "name": "Jupyter Notebook/JupyterLab",
+          "count": 6,
+          "pct_valid": 13.333333333333334
+        },
+        {
+          "name": "PyCharm",
+          "count": 6,
+          "pct_valid": 13.333333333333334
+        },
+        {
+          "name": "Sublime Text",
+          "count": 6,
+          "pct_valid": 13.333333333333334
+        },
+        {
+          "name": "Nano",
+          "count": 6,
+          "pct_valid": 13.333333333333334
+        },
+        {
+          "name": "Vim",
+          "count": 6,
+          "pct_valid": 13.333333333333334
+        },
+        {
+          "name": "Claude Code",
+          "count": 6,
+          "pct_valid": 13.333333333333334
+        },
+        {
+          "name": "Lovable.dev",
+          "count": 4,
+          "pct_valid": 8.88888888888889
+        },
+        {
+          "name": "Trae",
+          "count": 3,
+          "pct_valid": 6.666666666666667
+        },
+        {
+          "name": "Xcode",
+          "count": 3,
+          "pct_valid": 6.666666666666667
+        },
+        {
+          "name": "Bolt",
+          "count": 3,
+          "pct_valid": 6.666666666666667
+        },
+        {
+          "name": "WebStorm",
+          "count": 3,
+          "pct_valid": 6.666666666666667
+        },
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pct_valid": 6.666666666666667
+        },
+        {
+          "name": "Aider",
+          "count": 2,
+          "pct_valid": 4.444444444444445
+        },
+        {
+          "name": "Rider",
+          "count": 1,
+          "pct_valid": 2.2222222222222223
+        },
+        {
+          "name": "Cline and/or Roo",
+          "count": 1,
+          "pct_valid": 2.2222222222222223
+        },
+        {
+          "name": "RustRover",
+          "count": 1,
+          "pct_valid": 2.2222222222222223
+        }
+      ],
+      "sample_country_n": 64,
+      "sample_valid_n": 45,
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO25",
+      "definition": "Multirrespuesta: participaciones no suman 100%.",
+      "confidence": "low_sample_voluntary"
+    },
+    {
+      "id": "B4",
+      "year": 2025,
+      "field": "AIModelsHaveWorkedWith",
+      "tools": [
+        {
+          "name": "openAI GPT (chatbot models)",
+          "count": 25,
+          "pct_valid": 75.75757575757575
+        },
+        {
+          "name": "DeepSeek (R- Reasoning models)",
+          "count": 14,
+          "pct_valid": 42.42424242424242
+        },
+        {
+          "name": "Gemini (Flash general purpose models)",
+          "count": 13,
+          "pct_valid": 39.39393939393939
+        },
+        {
+          "name": "Anthropic: Claude Sonnet",
+          "count": 12,
+          "pct_valid": 36.36363636363637
+        },
+        {
+          "name": "openAI Reasoning models",
+          "count": 10,
+          "pct_valid": 30.303030303030305
+        },
+        {
+          "name": "DeepSeek (V- General purpose models)",
+          "count": 8,
+          "pct_valid": 24.242424242424242
+        },
+        {
+          "name": "Gemini (Pro Reasoning models)",
+          "count": 7,
+          "pct_valid": 21.21212121212121
+        },
+        {
+          "name": "openAI Image generating models",
+          "count": 7,
+          "pct_valid": 21.21212121212121
+        },
+        {
+          "name": "Meta Llama (all models)",
+          "count": 6,
+          "pct_valid": 18.181818181818183
+        },
+        {
+          "name": "X Grok models",
+          "count": 6,
+          "pct_valid": 18.181818181818183
+        },
+        {
+          "name": "Mistral AI models",
+          "count": 4,
+          "pct_valid": 12.121212121212121
+        },
+        {
+          "name": "Alibaba Cloud Qwen models",
+          "count": 3,
+          "pct_valid": 9.090909090909092
+        },
+        {
+          "name": "Amazon Titan models",
+          "count": 1,
+          "pct_valid": 3.0303030303030303
+        },
+        {
+          "name": "Cohere: Command A",
+          "count": 1,
+          "pct_valid": 3.0303030303030303
+        },
+        {
+          "name": "Microsoft Phi-4 models",
+          "count": 1,
+          "pct_valid": 3.0303030303030303
+        },
+        {
+          "name": "Perplexity Sonar models",
+          "count": 1,
+          "pct_valid": 3.0303030303030303
+        }
+      ],
+      "sample_country_n": 64,
+      "sample_valid_n": 33,
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO25",
+      "definition": "Multirrespuesta: participaciones no suman 100%.",
+      "confidence": "low_sample_voluntary"
+    },
+    {
+      "id": "B5",
+      "year": 2025,
+      "value": 64,
+      "unit": "responses",
+      "sample_country_n": 64,
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO25"
+    },
+    {
+      "id": "B1",
+      "year": 2026,
+      "value": 91.66666666666667,
+      "unit": "percent",
+      "sample_country_n": 16,
+      "sample_valid_n": 12,
+      "numerator": 11,
+      "field": "AISelect",
+      "definition": "Alguna categoría de uso IA 2026; universo/cuestionario distintos a 2025.",
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO26"
+    },
+    {
+      "id": "B2",
+      "year": 2026,
+      "value": 81.81818181818181,
+      "unit": "percent",
+      "sample_country_n": 16,
+      "sample_valid_n": 11,
+      "numerator": 9,
+      "field": "AIFreq_1..4",
+      "definition": "Alguna familia IA usada diariamente, entre quienes contestaron al menos una frecuencia; distinta base que 2025.",
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO26"
+    },
+    {
+      "id": "B3",
+      "year": 2026,
+      "value": 25.0,
+      "unit": "percent",
+      "sample_country_n": 16,
+      "sample_valid_n": 12,
+      "numerator": 3,
+      "field": "AISelect",
+      "definition": "Categoría agentes/workflows; asistentes/coding agents separados, no equivalente exacto B3 2025.",
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO26"
+    },
+    {
+      "id": "B4",
+      "year": 2026,
+      "field": "DevIDEHaveWorkedWith",
+      "tools": [
+        {
+          "name": "Visual Studio Code",
+          "count": 5,
+          "pct_valid": 71.42857142857143
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "count": 2,
+          "pct_valid": 28.571428571428573
+        },
+        {
+          "name": "Notepad++",
+          "count": 2,
+          "pct_valid": 28.571428571428573
+        },
+        {
+          "name": "Neovim",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        },
+        {
+          "name": "RubyMine",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        },
+        {
+          "name": "Vim",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        },
+        {
+          "name": "GitHub Codespaces",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        },
+        {
+          "name": "Jupyter Notebook/JupyterLab",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        },
+        {
+          "name": "Visual Studio",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        },
+        {
+          "name": "Nano",
+          "count": 1,
+          "pct_valid": 14.285714285714286
+        }
+      ],
+      "sample_country_n": 16,
+      "sample_valid_n": 7,
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO26",
+      "definition": "Multirrespuesta: participaciones no suman 100%.",
+      "confidence": "low_sample_voluntary"
+    },
+    {
+      "id": "B4",
+      "year": 2026,
+      "field": "LLMHaveWorkedWith",
+      "tools": [
+        {
+          "name": "OpenAI",
+          "count": 5,
+          "pct_valid": 83.33333333333333
+        },
+        {
+          "name": "Anthropic",
+          "count": 5,
+          "pct_valid": 83.33333333333333
+        },
+        {
+          "name": "Microsoft",
+          "count": 3,
+          "pct_valid": 50.0
+        },
+        {
+          "name": "Google AI",
+          "count": 3,
+          "pct_valid": 50.0
+        },
+        {
+          "name": "Moonshot AI",
+          "count": 1,
+          "pct_valid": 16.666666666666668
+        },
+        {
+          "name": "DeepSeek",
+          "count": 1,
+          "pct_valid": 16.666666666666668
+        }
+      ],
+      "sample_country_n": 16,
+      "sample_valid_n": 6,
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO26",
+      "definition": "Multirrespuesta: participaciones no suman 100%.",
+      "confidence": "low_sample_voluntary"
+    },
+    {
+      "id": "B5",
+      "year": 2026,
+      "value": 16,
+      "unit": "responses",
+      "sample_country_n": 16,
+      "confidence": "low_sample_voluntary",
+      "country_code": "PE",
+      "geographic_id": "PE",
+      "geographic_level": "country",
+      "source_id": "SO26"
+    }
+  ]
+}

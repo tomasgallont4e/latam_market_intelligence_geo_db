@@ -1,0 +1,13 @@
+{
+ "m500_sha256": "88c11d066244eac1f5b263188a4d6d160a6b534f6b6c12344f6c2946524e683d",
+ "employed_records": 56914,
+ "unmatched_to_sumaria": 0,
+ "employed_weighted": 18153270.044277646,
+ "occ_valid_cno2015_share": 1.0,
+ "distinct_codes": 395,
+ "psus": 5356,
+ "strata": 143,
+ "singleton_collapse": [
+  "14_6->14_5"
+ ]
+}

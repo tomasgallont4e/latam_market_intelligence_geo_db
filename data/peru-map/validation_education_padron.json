@@ -1,0 +1,23 @@
+{
+  "padron_records": 112724,
+  "padlocal_records": 69642,
+  "duplicated_service_keys": 0,
+  "active_services": 112724,
+  "unmatched_local_keys": 17668,
+  "invalid_or_missing_ubigeo": 0,
+  "sex_total_discrepancies": 0,
+  "secondary_services": 15700,
+  "secondary_unique_locals": 15689,
+  "secondary_students_all5grades": 2998063.0,
+  "secondary_points_available": 15700,
+  "target_grade_totals_computed": true,
+  "missing_dictionary": null,
+  "external_official_total_reconciled": false,
+  "unmatched_local_keys_by_level": {
+    "A5_initial_non_school": 17668
+  },
+  "secondary_unmatched_local_keys": 0,
+  "secondary_institutions_codinst": 13616,
+  "secondary_districts": 1848,
+  "secondary_services_missing_codinst": 2084
+}

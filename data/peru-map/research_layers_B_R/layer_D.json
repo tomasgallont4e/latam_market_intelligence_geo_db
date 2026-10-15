@@ -1,0 +1,70 @@
+{
+  "layer": "D",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "D1",
+      "layer": "D",
+      "indicator": "Empresas TI y software",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Registro con actividad CIIU 6201/6202/6209/6311/6312; contribuyente activo y universo empresarial explícito; domicilio fiscal no empleo local.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "D2",
+      "layer": "D",
+      "indicator": "Empresas TI por ciudad/región",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Registro con actividad CIIU 6201/6202/6209/6311/6312; contribuyente activo y universo empresarial explícito; domicilio fiscal no empleo local.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "D3",
+      "layer": "D",
+      "indicator": "Comparación con estudio sectorial",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Registro con actividad CIIU 6201/6202/6209/6311/6312; contribuyente activo y universo empresarial explícito; domicilio fiscal no empleo local.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    }
+  ],
+  "source_ids": [
+    "RUC"
+  ],
+  "method": "Registro con actividad CIIU 6201/6202/6209/6311/6312; contribuyente activo y universo empresarial explícito; domicilio fiscal no empleo local.",
+  "data": []
+}

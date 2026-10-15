@@ -1,0 +1,230 @@
+{
+  "layer": "L",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "L1",
+      "layer": "L",
+      "indicator": "Matrícula e instituciones",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "id": "L2",
+      "layer": "L",
+      "indicator": "Nivel, sector y modalidad",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "id": "L3",
+      "layer": "L",
+      "indicator": "Campo TIC",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "id": "L4",
+      "layer": "L",
+      "indicator": "Ingresantes",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "id": "L5",
+      "layer": "L",
+      "indicator": "Formación profesional",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "id": "L6",
+      "layer": "L",
+      "indicator": "Matrícula presencial por ciudad/institución",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "id": "L7",
+      "layer": "L",
+      "indicator": "Solapamientos",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "partial_nonuniversity_padron",
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    }
+  ],
+  "source_ids": [
+    "SUNEDU",
+    "ESCALE",
+    "VOC"
+  ],
+  "method": "Universidades, institutos y formación profesional por universos; no sumar cursos cortos con matriculados. Documentar semestre, modalidad y sede.",
+  "data": [
+    {
+      "level_code": "K0",
+      "level_name": "Instituto Superior Pedagógico",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_PADRON",
+      "services": 133,
+      "students": 49562.0,
+      "men": 14288.0,
+      "women": 35274.0,
+      "missing_students": 0
+    },
+    {
+      "level_code": "L0",
+      "level_name": "Técnico Productiva",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_PADRON",
+      "services": 1633,
+      "students": 223279.0,
+      "men": 88835.0,
+      "women": 134444.0,
+      "missing_students": 0
+    },
+    {
+      "level_code": "M0",
+      "level_name": "Escuela Formación Artística",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_PADRON",
+      "services": 32,
+      "students": 8078.0,
+      "men": 5096.0,
+      "women": 2982.0,
+      "missing_students": 0
+    },
+    {
+      "level_code": "P0",
+      "level_name": "Escuela Superior Pedagógica",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_PADRON",
+      "services": 50,
+      "students": 22487.0,
+      "men": 6714.0,
+      "women": 15773.0,
+      "missing_students": 0
+    },
+    {
+      "level_code": "S0",
+      "level_name": "Escuela Superior Tecnológica",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_PADRON",
+      "services": 14,
+      "students": 46070.0,
+      "men": 20776.0,
+      "women": 25294.0,
+      "missing_students": 0
+    },
+    {
+      "level_code": "T0",
+      "level_name": "Instituto Superior Tecnológico",
+      "reference_year": 2025,
+      "source_id": "MINEDU_CE2025_PADRON",
+      "services": 769,
+      "students": 477767.0,
+      "men": 202864.0,
+      "women": 274903.0,
+      "missing_students": 0
+    }
+  ],
+  "processing_status": "Nonuniversity levels separate; do not sum as all higher education or all vocational learners."
+}

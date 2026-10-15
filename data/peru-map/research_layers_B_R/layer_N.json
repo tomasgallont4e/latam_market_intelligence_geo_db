@@ -1,0 +1,89 @@
+{
+  "layer": "N",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "N1",
+      "layer": "N",
+      "indicator": "Empresas formales activas",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Distinguir RUC, empresas con actividad y establecimientos. Estado activo no prueba actividad en el año; CIIU4711 cuando campo esté disponible.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "N2",
+      "layer": "N",
+      "indicator": "Personas jurídicas/naturales",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Distinguir RUC, empresas con actividad y establecimientos. Estado activo no prueba actividad en el año; CIIU4711 cuando campo esté disponible.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "N3",
+      "layer": "N",
+      "indicator": "Tiendas CIIU 4711",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Distinguir RUC, empresas con actividad y establecimientos. Estado activo no prueba actividad en el año; CIIU4711 cuando campo esté disponible.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "N4",
+      "layer": "N",
+      "indicator": "Región y empresas por escuela",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "RUC"
+      ],
+      "method": "Distinguir RUC, empresas con actividad y establecimientos. Estado activo no prueba actividad en el año; CIIU4711 cuando campo esté disponible.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    }
+  ],
+  "source_ids": [
+    "RUC"
+  ],
+  "method": "Distinguir RUC, empresas con actividad y establecimientos. Estado activo no prueba actividad en el año; CIIU4711 cuando campo esté disponible.",
+  "data": []
+}

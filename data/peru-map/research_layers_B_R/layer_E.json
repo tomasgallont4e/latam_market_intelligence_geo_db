@@ -1,0 +1,60 @@
+{
+  "layer": "E",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "E1",
+      "layer": "E",
+      "indicator": "Participación empresas / participación estudiantes",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "CPV",
+        "RUC",
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "method": "Cruzar C y D con exactamente el mismo ámbito urbano y población/periodo compatible; excluir ciudades <3000 estudiantes del ratio según plantilla.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "E2",
+      "layer": "E",
+      "indicator": "Estudiantes por 100.000 habitantes",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "CPV",
+        "RUC",
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "method": "Cruzar C y D con exactamente el mismo ámbito urbano y población/periodo compatible; excluir ciudades <3000 estudiantes del ratio según plantilla.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    }
+  ],
+  "source_ids": [
+    "CPV",
+    "RUC",
+    "SUNEDU",
+    "ESCALE"
+  ],
+  "method": "Cruzar C y D con exactamente el mismo ámbito urbano y población/periodo compatible; excluir ciudades <3000 estudiantes del ratio según plantilla.",
+  "data": []
+}

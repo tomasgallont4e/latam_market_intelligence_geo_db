@@ -1,0 +1,95 @@
+{
+  "layer": "I",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "I1",
+      "layer": "I",
+      "indicator": "Planes en moneda local",
+      "value": 84.47159090909099,
+      "unit": "PEN_for_USD25",
+      "period": "2026-09",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "scenario_calculated",
+      "source_ids": [
+        "FX",
+        "RMV",
+        "EPEN"
+      ],
+      "method": "Escenarios plantilla USD25 y USD250 por tipo cambio promedio mensual. No precios aprobados para publicar. Ratio mensual con ingreso mensual comparable.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Escenario USD25=84,47 PEN; USD250=844,72 PEN. No confirma precio, periodicidad ni IGV incluidos."
+    },
+    {
+      "id": "I2",
+      "layer": "I",
+      "indicator": "Plan / ingreso mediano",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "pending_data",
+      "source_ids": [
+        "FX",
+        "RMV",
+        "EPEN"
+      ],
+      "method": "Escenarios plantilla USD25 y USD250 por tipo cambio promedio mensual. No precios aprobados para publicar. Ratio mensual con ingreso mensual comparable.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "id": "I3",
+      "layer": "I",
+      "indicator": "Plan / salario mínimo y salario desarrollador",
+      "value": 7.475362027353185,
+      "unit": "percent_RMV",
+      "period": "FX2026-09_RMV2025",
+      "country_code": "PE",
+      "geographic_level": "country",
+      "geographic_id": "PE",
+      "status": "partial",
+      "source_ids": [
+        "FX",
+        "RMV",
+        "EPEN"
+      ],
+      "method": "Escenarios plantilla USD25 y USD250 por tipo cambio promedio mensual. No precios aprobados para publicar. Ratio mensual con ingreso mensual comparable.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "Solo componente RMV: S/1130 decreto vigente desde enero2025; salario desarrollador pendiente; no presentar como mismo periodo que F2025."
+    }
+  ],
+  "source_ids": [
+    "FX",
+    "RMV",
+    "EPEN"
+  ],
+  "method": "Escenarios plantilla USD25 y USD250 por tipo cambio promedio mensual. No precios aprobados para publicar. Ratio mensual con ingreso mensual comparable.",
+  "data": [
+    {
+      "usd": 25,
+      "pen": 84.47159090909099,
+      "exchange_rate": 3.37886363636364,
+      "period": "2026-09",
+      "source_id": "FX",
+      "status": "scenario_template_not_approved_price"
+    },
+    {
+      "usd": 250,
+      "pen": 844.71590909091,
+      "exchange_rate": 3.37886363636364,
+      "period": "2026-09",
+      "source_id": "FX",
+      "status": "scenario_template_not_approved_price"
+    }
+  ]
+}

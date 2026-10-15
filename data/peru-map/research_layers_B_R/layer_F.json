@@ -1,0 +1,236 @@
+{
+  "layer": "F",
+  "country": "PE",
+  "scope": "research_in_progress",
+  "layer_A": "user_reports_complete_not_reprocessed",
+  "indicators": [
+    {
+      "id": "F1",
+      "layer": "F",
+      "indicator": "Ocupados por persona",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F2",
+      "layer": "F",
+      "indicator": "Muestra y confianza",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F3",
+      "layer": "F",
+      "indicator": "Posición laboral",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F4",
+      "layer": "F",
+      "indicator": "Tamaño de empleador",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F5",
+      "layer": "F",
+      "indicator": "Industria y fuera de TI",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F6",
+      "layer": "F",
+      "indicator": "Ciudad y región",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F7",
+      "layer": "F",
+      "indicator": "Sexo, educación y edad",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F8",
+      "layer": "F",
+      "indicator": "Ingreso laboral mediano",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F9",
+      "layer": "F",
+      "indicator": "Nivel socioeconómico",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F10",
+      "layer": "F",
+      "indicator": "Trabajo desde casa",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "id": "F11",
+      "layer": "F",
+      "indicator": "Mercado en tres anillos",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "country_code": "PE",
+      "geographic_level": "por_definir_segun_fuente",
+      "geographic_id": null,
+      "status": "quarterly2026_received_mapping_pending",
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+      "sample_n": null,
+      "confidence": null,
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    }
+  ],
+  "source_ids": [
+    "EPEN",
+    "CNO"
+  ],
+  "method": "Validar CNO2015→ISCO08, ocupados, peso anual y dominios; mediana ponderada; intervalos de tamaño exactos; datos ausentes NULL.",
+  "data": [],
+  "partial_occupation_mapping": "cno2015_isco08_verified_partial.json",
+  "processing_status": "City quarterly2026 data supplied; final mapping and weights issue unresolved; no persona estimates."
+}

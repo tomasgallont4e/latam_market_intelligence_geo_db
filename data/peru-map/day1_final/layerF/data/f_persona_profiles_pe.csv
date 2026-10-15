@@ -1,0 +1,1211 @@
+group_id,indicator,category,value,unit,weighted_numerator,weighted_denominator,records_denominator,records_numerator,small_cell,low_numerator,group_publication_status
+P01,F3_position,private_employee,0.7353330653739115,proportion,49827.0,67761.1,505,286,False,False,publish
+P01,F3_position,government_employee,0.15192822526688468,proportion,10294.8,67761.1,505,142,False,False,publish
+P01,F3_position,self_employed,0.09311582829224341,proportion,6309.6,67761.1,505,68,False,False,publish
+P01,F3_position,employer,0.01962288106696047,proportion,1329.7,67761.1,505,9,False,True,publish
+P01,F3_position,other_family_domestic_unpaid,0.0,proportion,0.0,67761.1,505,0,False,True,publish
+P01,F4_company_size,1_alone,0.09229987653056283,proportion,6254.3,67761.1,505,67,False,False,publish
+P01,F4_company_size,2_10,0.047200783915993846,proportion,3198.4,67761.1,505,31,False,False,publish
+P01,F4_company_size,11_50,0.14024413198142632,proportion,9503.1,67761.1,505,62,False,False,publish
+P01,F4_company_size,51_200,0.21776834931720526,proportion,14756.2,67761.1,505,72,False,False,publish
+P01,F4_company_size,201_plus,0.5024868582548119,proportion,34049.1,67761.1,505,273,False,False,publish
+P01,F5_section_J_info_comm,J,0.4397959048001105,proportion,29801.1,67761.1,505,210,False,False,publish
+P01,F5_outside_tech,not_J,0.5602040951998896,proportion,37960.0,67761.1,505,295,False,False,publish
+P01,F5_section,A,0.003445043994467033,proportion,233.4,67761.1,505,3,False,True,publish
+P01,F5_section,B,0.013303923604091494,proportion,901.5,67761.1,505,12,False,True,publish
+P01,F5_section,C,0.07115781013800719,proportion,4821.7,67761.1,505,20,False,True,publish
+P01,F5_section,D,0.0026636712466329786,proportion,180.5,67761.1,505,5,False,True,publish
+P01,F5_section,E,0.002260223119045351,proportion,153.2,67761.1,505,2,False,True,publish
+P01,F5_section,F,0.015352421813570131,proportion,1040.3,67761.1,505,9,False,True,publish
+P01,F5_section,G,0.07628106778482661,proportion,5168.9,67761.1,505,24,False,True,publish
+P01,F5_section,H,0.0008272375602770313,proportion,56.1,67761.1,505,1,False,True,publish
+P01,F5_section,I,0.012617487781453496,proportion,855.0,67761.1,505,2,False,True,publish
+P01,F5_section,J,0.4397959048001105,proportion,29801.1,67761.1,505,210,False,False,publish
+P01,F5_section,K,0.1252755488998617,proportion,8488.8,67761.1,505,37,False,False,publish
+P01,F5_section,L,0.0021603567152928735,proportion,146.4,67761.1,505,1,False,True,publish
+P01,F5_section,M,0.02287363132162481,proportion,1549.9,67761.1,505,10,False,True,publish
+P01,F5_section,N,0.023413730268855897,proportion,1586.5,67761.1,505,9,False,True,publish
+P01,F5_section,O,0.09947899492968999,proportion,6740.8,67761.1,505,86,False,False,publish
+P01,F5_section,P,0.03481396263465247,proportion,2359.0,67761.1,505,36,False,False,publish
+P01,F5_section,Q,0.02480967720452783,proportion,1681.1,67761.1,505,24,False,True,publish
+P01,F5_section,R,0.00020972324339974316,proportion,14.2,67761.1,505,1,False,True,publish
+P01,F5_section,S,0.029259582939613067,proportion,1982.7,67761.1,505,13,False,True,publish
+P01,F6_geography,Amazonas,0.0012784075282882253,proportion,86.6,67761.1,505,17,False,True,publish
+P01,F6_geography,Ancash,0.012896502280664572,proportion,873.9,67761.1,505,22,False,True,publish
+P01,F6_geography,Apurimac,0.0017278739994939477,proportion,117.1,67761.1,505,11,False,True,publish
+P01,F6_geography,Arequipa,0.01874349190332891,proportion,1270.1,67761.1,505,13,False,True,publish
+P01,F6_geography,Ayacucho,0.006015628593776179,proportion,407.6,67761.1,505,11,False,True,publish
+P01,F6_geography,Cajamarca,0.018833200937534298,proportion,1276.2,67761.1,505,18,False,True,publish
+P01,F6_geography,Cusco,0.028244052396969872,proportion,1913.8,67761.1,505,16,False,True,publish
+P01,F6_geography,Huancavelica,0.0009910534040690705,proportion,67.2,67761.1,505,7,False,True,publish
+P01,F6_geography,Huanuco,0.005916520093057024,proportion,400.9,67761.1,505,11,False,True,publish
+P01,F6_geography,Ica,0.018860198234940687,proportion,1278.0,67761.1,505,19,False,True,publish
+P01,F6_geography,Junin,0.015970323837360707,proportion,1082.2,67761.1,505,13,False,True,publish
+P01,F6_geography,La Libertad,0.045283518757120354,proportion,3068.5,67761.1,505,30,False,False,publish
+P01,F6_geography,Lambayeque,0.03135014698399404,proportion,2124.3,67761.1,505,24,False,True,publish
+P01,F6_geography,Lima (incl. Callao),0.025146019443814817,proportion,1703.9,67761.1,505,5,False,True,publish
+P01,F6_geography,Lima Metropolitana y Callao,0.7094577781560757,proportion,48073.6,67761.1,505,169,False,False,publish
+P01,F6_geography,Loreto,0.005439327407562503,proportion,368.6,67761.1,505,8,False,True,publish
+P01,F6_geography,Madre de Dios,0.0026021556684281237,proportion,176.3,67761.1,505,10,False,True,publish
+P01,F6_geography,Moquegua,0.003062868010960705,proportion,207.5,67761.1,505,17,False,True,publish
+P01,F6_geography,Pasco,0.0023487877672344515,proportion,159.2,67761.1,505,10,False,True,publish
+P01,F6_geography,Piura,0.025907762689048427,proportion,1755.5,67761.1,505,24,False,True,publish
+P01,F6_geography,Puno,0.0031508049912312205,proportion,213.5,67761.1,505,5,False,True,publish
+P01,F6_geography,San Martin,0.006323357085464274,proportion,428.5,67761.1,505,27,False,True,publish
+P01,F6_geography,Tacna,0.004844509368253017,proportion,328.3,67761.1,505,8,False,True,publish
+P01,F6_geography,Tumbes,0.0030081456618702303,proportion,203.8,67761.1,505,5,False,True,publish
+P01,F6_geography,Ucayali,0.002597564799458752,proportion,176.0,67761.1,505,5,False,True,publish
+P01,F7_women,women,0.16936894643207798,proportion,11476.6,67761.1,505,76,False,False,publish
+P01,F7_university_degree,"C366 in 11,12",1.0,proportion,67761.1,67761.1,505,505,False,False,publish
+P01,F7_median_age,years,38.0,years,,67761.1,505,,False,False,publish
+P01,F8_median_labour_income,PEN_per_month,4000.0,PEN_month,,67761.1,505,,False,False,publish
+P01,F8_income_vs_all_employed,ratio,3.076923076923077,ratio,,67761.1,505,,False,False,publish
+P01,F8b_median_total_labour_income_ingtrabw,PEN_per_month,4999.0,PEN_month,,67761.1,505,,False,False,publish
+P01,F6_rural_share,rural,0.020786343616056784,proportion,1408.5,67761.1,505,6,False,True,publish
+P02,F3_position,private_employee,,proportion,,562.3,5,3,True,False,suppressed_unreliable
+P02,F3_position,government_employee,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F3_position,self_employed,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F3_position,employer,,proportion,,562.3,5,0,True,False,suppressed_unreliable
+P02,F3_position,other_family_domestic_unpaid,,proportion,,562.3,5,0,True,False,suppressed_unreliable
+P02,F4_company_size,1_alone,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F4_company_size,2_10,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F4_company_size,11_50,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F4_company_size,51_200,,proportion,,562.3,5,0,True,False,suppressed_unreliable
+P02,F4_company_size,201_plus,,proportion,,562.3,5,2,True,False,suppressed_unreliable
+P02,F5_section_J_info_comm,J,,proportion,,562.3,5,2,True,False,suppressed_unreliable
+P02,F5_outside_tech,not_J,,proportion,,562.3,5,3,True,False,suppressed_unreliable
+P02,F5_section,C,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F5_section,F,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F5_section,J,,proportion,,562.3,5,2,True,False,suppressed_unreliable
+P02,F5_section,Q,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F6_geography,Apurimac,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F6_geography,Ayacucho,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F6_geography,Lima Metropolitana y Callao,,proportion,,562.3,5,2,True,False,suppressed_unreliable
+P02,F6_geography,Puno,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F7_women,women,,proportion,,562.3,5,1,True,False,suppressed_unreliable
+P02,F7_university_degree,"C366 in 11,12",,proportion,,562.3,5,5,True,False,suppressed_unreliable
+P02,F7_median_age,years,,years,,562.3,5,,True,False,suppressed_unreliable
+P02,F8_median_labour_income,PEN_per_month,,PEN_month,,562.3,5,,True,False,suppressed_unreliable
+P02,F8_income_vs_all_employed,ratio,,ratio,,562.3,5,,True,False,suppressed_unreliable
+P02,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,562.3,5,,True,False,suppressed_unreliable
+P02,F6_rural_share,rural,,proportion,,562.3,5,0,True,False,suppressed_unreliable
+P03,F3_position,private_employee,0.5708451178355005,proportion,42983.3,75297.7,742,330,False,False,publish
+P03,F3_position,government_employee,0.11904772350891239,proportion,8964.0,75297.7,742,151,False,False,publish
+P03,F3_position,self_employed,0.2744500763805882,proportion,20665.5,75297.7,742,226,False,False,publish
+P03,F3_position,employer,0.02051329482612022,proportion,1544.6,75297.7,742,17,False,True,publish
+P03,F3_position,other_family_domestic_unpaid,0.015143787448878739,proportion,1140.3,75297.7,742,18,False,True,publish
+P03,F4_company_size,1_alone,0.2655774393973016,proportion,19997.4,75297.7,742,214,False,False,publish
+P03,F4_company_size,2_10,0.18255185332304874,proportion,13745.7,75297.7,742,158,False,False,publish
+P03,F4_company_size,11_50,0.15453568292288386,proportion,11636.2,75297.7,742,96,False,False,publish
+P03,F4_company_size,51_200,0.11559718634741284,proportion,8704.2,75297.7,742,49,False,False,publish
+P03,F4_company_size,201_plus,0.2817378380093531,proportion,21214.2,75297.7,742,225,False,False,publish
+P03,F5_section_J_info_comm,J,0.3084769784425803,proportion,23227.6,75297.7,742,183,False,False,publish
+P03,F5_outside_tech,not_J,0.6915230215574196,proportion,52070.1,75297.7,742,559,False,False,publish
+P03,F5_section,A,0.008828231416328151,proportion,664.7,75297.7,742,6,False,True,publish
+P03,F5_section,B,0.0017262034869895352,proportion,130.0,75297.7,742,3,False,True,publish
+P03,F5_section,C,0.021103341145976694,proportion,1589.0,75297.7,742,5,False,True,publish
+P03,F5_section,E,0.0022527073796315858,proportion,169.6,75297.7,742,4,False,True,publish
+P03,F5_section,F,0.02253775404718657,proportion,1697.0,75297.7,742,25,False,True,publish
+P03,F5_section,G,0.07123881380490142,proportion,5364.1,75297.7,742,38,False,False,publish
+P03,F5_section,H,0.0033738242366631245,proportion,254.0,75297.7,742,1,False,True,publish
+P03,F5_section,I,0.01366257280206795,proportion,1028.8,75297.7,742,10,False,True,publish
+P03,F5_section,J,0.3084769784425803,proportion,23227.6,75297.7,742,183,False,False,publish
+P03,F5_section,K,0.027969387713608424,proportion,2106.0,75297.7,742,17,False,True,publish
+P03,F5_section,M,0.08452317491811007,proportion,6364.4,75297.7,742,52,False,False,publish
+P03,F5_section,N,0.05062579202239218,proportion,3812.0,75297.7,742,24,False,True,publish
+P03,F5_section,O,0.07285541015993388,proportion,5485.8,75297.7,742,85,False,False,publish
+P03,F5_section,P,0.03747862671438352,proportion,2822.1,75297.7,742,44,False,False,publish
+P03,F5_section,Q,0.026583310551895,proportion,2001.7,75297.7,742,41,False,False,publish
+P03,F5_section,R,0.09713310824551569,proportion,7313.9,75297.7,742,88,False,False,publish
+P03,F5_section,S,0.149630762911836,proportion,11266.9,75297.7,742,116,False,False,publish
+P03,F6_geography,Amazonas,0.010847519565666094,proportion,816.8,75297.7,742,44,False,False,publish
+P03,F6_geography,Ancash,0.015233645335525386,proportion,1147.1,75297.7,742,39,False,False,publish
+P03,F6_geography,Apurimac,0.005838177924129269,proportion,439.6,75297.7,742,26,False,True,publish
+P03,F6_geography,Arequipa,0.02701176830890445,proportion,2033.9,75297.7,742,20,False,True,publish
+P03,F6_geography,Ayacucho,0.008466158598652261,proportion,637.5,75297.7,742,14,False,True,publish
+P03,F6_geography,Cajamarca,0.004320755941277328,proportion,325.3,75297.7,742,11,False,True,publish
+P03,F6_geography,Cusco,0.020342595655695215,proportion,1531.8,75297.7,742,18,False,True,publish
+P03,F6_geography,Huancavelica,0.004574271645211535,proportion,344.4,75297.7,742,26,False,True,publish
+P03,F6_geography,Huanuco,0.00236074849858923,proportion,177.8,75297.7,742,6,False,True,publish
+P03,F6_geography,Ica,0.03357663423045312,proportion,2528.2,75297.7,742,30,False,False,publish
+P03,F6_geography,Junin,0.017458794932233738,proportion,1314.6,75297.7,742,20,False,True,publish
+P03,F6_geography,La Libertad,0.028965534099814755,proportion,2181.0,75297.7,742,24,False,True,publish
+P03,F6_geography,Lambayeque,0.027154397391552187,proportion,2044.7,75297.7,742,35,False,False,publish
+P03,F6_geography,Lima (incl. Callao),0.0036732032349413787,proportion,276.6,75297.7,742,1,False,True,publish
+P03,F6_geography,Lima Metropolitana y Callao,0.6687317892338972,proportion,50354.0,75297.7,742,187,False,False,publish
+P03,F6_geography,Loreto,0.019644069364765013,proportion,1479.2,75297.7,742,23,False,True,publish
+P03,F6_geography,Madre de Dios,0.002550816566304737,proportion,192.1,75297.7,742,16,False,True,publish
+P03,F6_geography,Moquegua,0.0027569835197929758,proportion,207.6,75297.7,742,18,False,True,publish
+P03,F6_geography,Pasco,0.005787178188427722,proportion,435.8,75297.7,742,15,False,True,publish
+P03,F6_geography,Piura,0.04905616146451566,proportion,3693.8,75297.7,742,36,False,False,publish
+P03,F6_geography,Puno,0.010891561719355708,proportion,820.1,75297.7,742,28,False,True,publish
+P03,F6_geography,San Martin,0.010028537629536894,proportion,755.1,75297.7,742,59,False,False,publish
+P03,F6_geography,Tacna,0.009271707041638756,proportion,698.1,75297.7,742,16,False,True,publish
+P03,F6_geography,Tumbes,0.0011679261946019735,proportion,87.9,75297.7,742,10,False,True,publish
+P03,F6_geography,Ucayali,0.010289063714517637,proportion,774.7,75297.7,742,20,False,True,publish
+P03,F7_women,women,0.1440604284492011,proportion,10847.4,75297.7,742,102,False,False,publish
+P03,F7_university_degree,"C366 in 11,12",0.24029673291435438,proportion,18093.8,75297.7,742,201,False,False,publish
+P03,F7_median_age,years,32.0,years,,75297.7,742,,False,False,publish
+P03,F8_median_labour_income,PEN_per_month,2000.0,PEN_month,,74157.4,724,,False,False,publish
+P03,F8_income_vs_all_employed,ratio,1.5384615384615385,ratio,,74157.4,724,,False,False,publish
+P03,F8b_median_total_labour_income_ingtrabw,PEN_per_month,2196.0,PEN_month,,74157.4,724,,False,False,publish
+P03,F6_rural_share,rural,0.0038755503625270533,proportion,291.8,75297.7,742,2,False,True,publish
+P04,F3_position,private_employee,,proportion,,1340.3,13,9,True,False,suppressed_unreliable
+P04,F3_position,government_employee,,proportion,,1340.3,13,0,True,False,suppressed_unreliable
+P04,F3_position,self_employed,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F3_position,employer,,proportion,,1340.3,13,3,True,False,suppressed_unreliable
+P04,F3_position,other_family_domestic_unpaid,,proportion,,1340.3,13,0,True,False,suppressed_unreliable
+P04,F4_company_size,1_alone,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F4_company_size,2_10,,proportion,,1340.3,13,6,True,False,suppressed_unreliable
+P04,F4_company_size,11_50,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F4_company_size,51_200,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F4_company_size,201_plus,,proportion,,1340.3,13,4,True,False,suppressed_unreliable
+P04,F5_section_J_info_comm,J,,proportion,,1340.3,13,7,True,False,suppressed_unreliable
+P04,F5_outside_tech,not_J,,proportion,,1340.3,13,6,True,False,suppressed_unreliable
+P04,F5_section,A,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F5_section,F,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F5_section,J,,proportion,,1340.3,13,7,True,False,suppressed_unreliable
+P04,F5_section,M,,proportion,,1340.3,13,2,True,False,suppressed_unreliable
+P04,F5_section,R,,proportion,,1340.3,13,2,True,False,suppressed_unreliable
+P04,F6_geography,Amazonas,,proportion,,1340.3,13,2,True,False,suppressed_unreliable
+P04,F6_geography,Arequipa,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F6_geography,Junin,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F6_geography,La Libertad,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F6_geography,Lima Metropolitana y Callao,,proportion,,1340.3,13,3,True,False,suppressed_unreliable
+P04,F6_geography,Madre de Dios,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F6_geography,Piura,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F6_geography,San Martin,,proportion,,1340.3,13,2,True,False,suppressed_unreliable
+P04,F6_geography,Ucayali,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F7_women,women,,proportion,,1340.3,13,1,True,False,suppressed_unreliable
+P04,F7_university_degree,"C366 in 11,12",,proportion,,1340.3,13,9,True,False,suppressed_unreliable
+P04,F7_median_age,years,,years,,1340.3,13,,True,False,suppressed_unreliable
+P04,F8_median_labour_income,PEN_per_month,,PEN_month,,1340.3,13,,True,False,suppressed_unreliable
+P04,F8_income_vs_all_employed,ratio,,ratio,,1340.3,13,,True,False,suppressed_unreliable
+P04,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,1340.3,13,,True,False,suppressed_unreliable
+P04,F6_rural_share,rural,,proportion,,1340.3,13,0,True,False,suppressed_unreliable
+P05,F3_position,private_employee,,proportion,,2516.7,9,6,True,False,suppressed_unreliable
+P05,F3_position,government_employee,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F3_position,self_employed,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F3_position,employer,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F3_position,other_family_domestic_unpaid,,proportion,,2516.7,9,0,True,False,suppressed_unreliable
+P05,F4_company_size,1_alone,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F4_company_size,2_10,,proportion,,2516.7,9,5,True,False,suppressed_unreliable
+P05,F4_company_size,11_50,,proportion,,2516.7,9,2,True,False,suppressed_unreliable
+P05,F4_company_size,51_200,,proportion,,2516.7,9,0,True,False,suppressed_unreliable
+P05,F4_company_size,201_plus,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F5_section_J_info_comm,J,,proportion,,2516.7,9,0,True,False,suppressed_unreliable
+P05,F5_outside_tech,not_J,,proportion,,2516.7,9,9,True,False,suppressed_unreliable
+P05,F5_section,C,,proportion,,2516.7,9,2,True,False,suppressed_unreliable
+P05,F5_section,G,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F5_section,M,,proportion,,2516.7,9,5,True,False,suppressed_unreliable
+P05,F5_section,O,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F6_geography,Amazonas,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F6_geography,La Libertad,,proportion,,2516.7,9,1,True,False,suppressed_unreliable
+P05,F6_geography,Lima Metropolitana y Callao,,proportion,,2516.7,9,7,True,False,suppressed_unreliable
+P05,F7_women,women,,proportion,,2516.7,9,6,True,False,suppressed_unreliable
+P05,F7_university_degree,"C366 in 11,12",,proportion,,2516.7,9,9,True,False,suppressed_unreliable
+P05,F7_median_age,years,,years,,2516.7,9,,True,False,suppressed_unreliable
+P05,F8_median_labour_income,PEN_per_month,,PEN_month,,2516.7,9,,True,False,suppressed_unreliable
+P05,F8_income_vs_all_employed,ratio,,ratio,,2516.7,9,,True,False,suppressed_unreliable
+P05,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,2516.7,9,,True,False,suppressed_unreliable
+P05,F6_rural_share,rural,,proportion,,2516.7,9,0,True,False,suppressed_unreliable
+P06,F3_position,private_employee,0.6180222749455148,proportion,53084.1,85893.4,1014,515,False,False,publish
+P06,F3_position,government_employee,0.15085058070032836,proportion,12957.1,85893.4,1014,281,False,False,publish
+P06,F3_position,self_employed,0.102794876970343,proportion,8829.4,85893.4,1014,72,False,False,publish
+P06,F3_position,employer,0.12153015902906045,proportion,10438.6,85893.4,1014,143,False,False,publish
+P06,F3_position,other_family_domestic_unpaid,0.00680210835475353,proportion,584.3,85893.4,1014,3,False,True,publish
+P06,F4_company_size,1_alone,0.0886993093245821,proportion,7618.7,85893.4,1014,59,False,False,publish
+P06,F4_company_size,2_10,0.2816007162621829,proportion,24187.7,85893.4,1014,319,False,False,publish
+P06,F4_company_size,11_50,0.19715722405527203,proportion,16934.5,85893.4,1014,160,False,False,publish
+P06,F4_company_size,51_200,0.11725200385669814,proportion,10071.2,85893.4,1014,72,False,False,publish
+P06,F4_company_size,201_plus,0.3152907465012649,proportion,27081.4,85893.4,1014,404,False,False,publish
+P06,F5_section_J_info_comm,J,0.013205036352475576,proportion,1134.2,85893.4,1014,15,False,True,publish
+P06,F5_outside_tech,not_J,0.9867949636475244,proportion,84759.2,85893.4,1014,999,False,False,publish
+P06,F5_section,A,0.015075487764230972,proportion,1294.9,85893.4,1014,12,False,True,publish
+P06,F5_section,B,0.015482434998111683,proportion,1329.8,85893.4,1014,16,False,True,publish
+P06,F5_section,C,0.11764621828073805,proportion,10105.0,85893.4,1014,85,False,False,publish
+P06,F5_section,D,0.011687771975297832,proportion,1003.9,85893.4,1014,7,False,True,publish
+P06,F5_section,E,0.00676416056507466,proportion,581.0,85893.4,1014,6,False,True,publish
+P06,F5_section,F,0.03903798902643568,proportion,3353.1,85893.4,1014,50,False,False,publish
+P06,F5_section,G,0.1711079077355513,proportion,14697.0,85893.4,1014,166,False,False,publish
+P06,F5_section,H,0.03527720260621282,proportion,3030.1,85893.4,1014,37,False,False,publish
+P06,F5_section,I,0.05568978707196438,proportion,4783.4,85893.4,1014,69,False,False,publish
+P06,F5_section,J,0.013205036352475576,proportion,1134.2,85893.4,1014,15,False,True,publish
+P06,F5_section,K,0.10163596063184757,proportion,8729.9,85893.4,1014,76,False,False,publish
+P06,F5_section,L,0.017246864370370634,proportion,1481.4,85893.4,1014,16,False,True,publish
+P06,F5_section,M,0.14652564038865604,proportion,12585.6,85893.4,1014,95,False,False,publish
+P06,F5_section,N,0.05029013673681105,proportion,4319.6,85893.4,1014,37,False,False,publish
+P06,F5_section,O,0.0945410502725284,proportion,8120.5,85893.4,1014,194,False,False,publish
+P06,F5_section,P,0.05736979648750164,proportion,4927.7,85893.4,1014,59,False,False,publish
+P06,F5_section,Q,0.0325628789210281,proportion,2796.9,85893.4,1014,49,False,False,publish
+P06,F5_section,R,0.0073913374780899535,proportion,634.9,85893.4,1014,8,False,True,publish
+P06,F5_section,S,0.011462338337073748,proportion,984.5,85893.4,1014,17,False,True,publish
+P06,F6_geography,Amazonas,0.003722927510929855,proportion,319.8,85893.4,1014,79,False,False,publish
+P06,F6_geography,Ancash,0.02152400799368452,proportion,1848.8,85893.4,1014,63,False,False,publish
+P06,F6_geography,Apurimac,0.00465824453265386,proportion,400.1,85893.4,1014,22,False,True,publish
+P06,F6_geography,Arequipa,0.055796858451736826,proportion,4792.6,85893.4,1014,49,False,False,publish
+P06,F6_geography,Ayacucho,0.005160765066548851,proportion,443.3,85893.4,1014,17,False,True,publish
+P06,F6_geography,Cajamarca,0.019581758842697958,proportion,1681.9,85893.4,1014,34,False,False,publish
+P06,F6_geography,Cusco,0.019172016620529704,proportion,1646.8,85893.4,1014,29,False,True,publish
+P06,F6_geography,Huancavelica,0.0021267280557200285,proportion,182.7,85893.4,1014,19,False,True,publish
+P06,F6_geography,Huanuco,0.00831483069764921,proportion,714.2,85893.4,1014,23,False,True,publish
+P06,F6_geography,Ica,0.026232621846763386,proportion,2253.2,85893.4,1014,35,False,False,publish
+P06,F6_geography,Junin,0.045114916541018846,proportion,3875.1,85893.4,1014,53,False,False,publish
+P06,F6_geography,La Libertad,0.06492956240281024,proportion,5577.0,85893.4,1014,60,False,False,publish
+P06,F6_geography,Lambayeque,0.01508485013020583,proportion,1295.7,85893.4,1014,24,False,True,publish
+P06,F6_geography,Lima (incl. Callao),0.007661388786333932,proportion,658.1,85893.4,1014,2,False,True,publish
+P06,F6_geography,Lima Metropolitana y Callao,0.5892101813843488,proportion,50609.3,85893.4,1014,201,False,False,publish
+P06,F6_geography,Loreto,0.010408091298984332,proportion,894.0,85893.4,1014,22,False,True,publish
+P06,F6_geography,Madre de Dios,0.00651250919443109,proportion,559.4,85893.4,1014,35,False,False,publish
+P06,F6_geography,Moquegua,0.004698899515364332,proportion,403.6,85893.4,1014,19,False,True,publish
+P06,F6_geography,Pasco,0.004100059510918384,proportion,352.2,85893.4,1014,27,False,True,publish
+P06,F6_geography,Piura,0.027336657154052996,proportion,2348.0,85893.4,1014,46,False,False,publish
+P06,F6_geography,Puno,0.011183955091393607,proportion,960.6,85893.4,1014,27,False,True,publish
+P06,F6_geography,San Martin,0.019686949033089093,proportion,1691.0,85893.4,1014,59,False,False,publish
+P06,F6_geography,Tacna,0.014720897330606986,proportion,1264.4,85893.4,1014,29,False,True,publish
+P06,F6_geography,Tumbes,0.0037004217943865485,proportion,317.8,85893.4,1014,16,False,True,publish
+P06,F6_geography,Ucayali,0.009359901213140962,proportion,804.0,85893.4,1014,24,False,True,publish
+P06,F7_women,women,0.4675903013802398,proportion,40162.9,85893.4,1014,450,False,False,publish
+P06,F7_university_degree,"C366 in 11,12",0.9990610286150214,proportion,85812.8,85893.4,1014,1013,False,False,publish
+P06,F7_median_age,years,38.0,years,,85893.4,1014,,False,False,publish
+P06,F8_median_labour_income,PEN_per_month,3000.0,PEN_month,,85309.2,1011,,False,False,publish
+P06,F8_income_vs_all_employed,ratio,2.3076923076923075,ratio,,85309.2,1011,,False,False,publish
+P06,F8b_median_total_labour_income_ingtrabw,PEN_per_month,3500.0,PEN_month,,85309.2,1011,,False,False,publish
+P06,F6_rural_share,rural,0.006897676913399154,proportion,592.5,85893.4,1014,7,False,True,publish
+P07,F3_position,private_employee,,proportion,,2854.1,19,8,True,False,suppressed_unreliable
+P07,F3_position,government_employee,,proportion,,2854.1,19,9,True,False,suppressed_unreliable
+P07,F3_position,self_employed,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F3_position,employer,,proportion,,2854.1,19,0,True,False,suppressed_unreliable
+P07,F3_position,other_family_domestic_unpaid,,proportion,,2854.1,19,0,True,False,suppressed_unreliable
+P07,F4_company_size,1_alone,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F4_company_size,2_10,,proportion,,2854.1,19,0,True,False,suppressed_unreliable
+P07,F4_company_size,11_50,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F4_company_size,51_200,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F4_company_size,201_plus,,proportion,,2854.1,19,13,True,False,suppressed_unreliable
+P07,F5_section_J_info_comm,J,,proportion,,2854.1,19,0,True,False,suppressed_unreliable
+P07,F5_outside_tech,not_J,,proportion,,2854.1,19,19,True,False,suppressed_unreliable
+P07,F5_section,C,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F5_section,K,,proportion,,2854.1,19,5,True,False,suppressed_unreliable
+P07,F5_section,M,,proportion,,2854.1,19,3,True,False,suppressed_unreliable
+P07,F5_section,O,,proportion,,2854.1,19,9,True,False,suppressed_unreliable
+P07,F6_geography,Apurimac,,proportion,,2854.1,19,1,True,False,suppressed_unreliable
+P07,F6_geography,Huancavelica,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F6_geography,Huanuco,,proportion,,2854.1,19,2,True,False,suppressed_unreliable
+P07,F6_geography,Junin,,proportion,,2854.1,19,1,True,False,suppressed_unreliable
+P07,F6_geography,Lima Metropolitana y Callao,,proportion,,2854.1,19,9,True,False,suppressed_unreliable
+P07,F6_geography,Madre de Dios,,proportion,,2854.1,19,1,True,False,suppressed_unreliable
+P07,F6_geography,Pasco,,proportion,,2854.1,19,1,True,False,suppressed_unreliable
+P07,F6_geography,Puno,,proportion,,2854.1,19,1,True,False,suppressed_unreliable
+P07,F6_geography,San Martin,,proportion,,2854.1,19,1,True,False,suppressed_unreliable
+P07,F7_women,women,,proportion,,2854.1,19,8,True,False,suppressed_unreliable
+P07,F7_university_degree,"C366 in 11,12",,proportion,,2854.1,19,19,True,False,suppressed_unreliable
+P07,F7_median_age,years,,years,,2854.1,19,,True,False,suppressed_unreliable
+P07,F8_median_labour_income,PEN_per_month,,PEN_month,,2854.1,19,,True,False,suppressed_unreliable
+P07,F8_income_vs_all_employed,ratio,,ratio,,2854.1,19,,True,False,suppressed_unreliable
+P07,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,2854.1,19,,True,False,suppressed_unreliable
+P07,F6_rural_share,rural,,proportion,,2854.1,19,0,True,False,suppressed_unreliable
+P08,F3_position,private_employee,0.532156744730403,proportion,26732.6,50234.5,491,188,False,False,publish
+P08,F3_position,government_employee,0.28258601740962347,proportion,14195.6,50234.5,491,213,False,False,publish
+P08,F3_position,self_employed,0.170830775288904,proportion,8581.6,50234.5,491,81,False,False,publish
+P08,F3_position,employer,0.0065243846544276824,proportion,327.7,50234.5,491,4,False,True,publish
+P08,F3_position,other_family_domestic_unpaid,0.007902077916641943,proportion,397.0,50234.5,491,5,False,True,publish
+P08,F4_company_size,1_alone,0.1535304434807602,proportion,7712.5,50234.5,491,74,False,False,publish
+P08,F4_company_size,2_10,0.10850236487481374,proportion,5450.6,50234.5,491,58,False,False,publish
+P08,F4_company_size,11_50,0.14407202221149654,proportion,7237.4,50234.5,491,57,False,False,publish
+P08,F4_company_size,51_200,0.09893122345150787,proportion,4969.8,50234.5,491,24,False,True,publish
+P08,F4_company_size,201_plus,0.4949639459814217,proportion,24864.3,50234.5,491,278,False,False,publish
+P08,F5_section_J_info_comm,J,0.009510134048508947,proportion,477.7,50234.5,491,6,False,True,publish
+P08,F5_outside_tech,not_J,0.990489865951491,proportion,49756.8,50234.5,491,485,False,False,publish
+P08,F5_section,A,0.01121860269788742,proportion,563.6,50234.5,491,5,False,True,publish
+P08,F5_section,B,0.0163675863891381,proportion,822.2,50234.5,491,5,False,True,publish
+P08,F5_section,C,0.06498801435942206,proportion,3264.6,50234.5,491,13,False,True,publish
+P08,F5_section,D,0.0015394501413251778,proportion,77.3,50234.5,491,2,False,True,publish
+P08,F5_section,E,0.0037809184181259547,proportion,189.9,50234.5,491,5,False,True,publish
+P08,F5_section,F,0.03113039212546032,proportion,1563.8,50234.5,491,11,False,True,publish
+P08,F5_section,G,0.07286550036864209,proportion,3660.4,50234.5,491,20,False,True,publish
+P08,F5_section,H,0.016747754887006513,proportion,841.3,50234.5,491,3,False,True,publish
+P08,F5_section,I,0.0007703320343728301,proportion,38.7,50234.5,491,1,False,True,publish
+P08,F5_section,J,0.009510134048508947,proportion,477.7,50234.5,491,6,False,True,publish
+P08,F5_section,K,0.06337136314420196,proportion,3183.4,50234.5,491,20,False,True,publish
+P08,F5_section,L,0.010680871572978702,proportion,536.5,50234.5,491,9,False,True,publish
+P08,F5_section,M,0.28287929605327544,proportion,14210.3,50234.5,491,131,False,False,publish
+P08,F5_section,N,0.037645587897809245,proportion,1891.1,50234.5,491,12,False,True,publish
+P08,F5_section,O,0.2370337156036412,proportion,11907.3,50234.5,491,181,False,False,publish
+P08,F5_section,P,0.09680755984262517,proportion,4863.1,50234.5,491,36,False,False,publish
+P08,F5_section,Q,0.015302590610323815,proportion,768.7,50234.5,491,15,False,True,publish
+P08,F5_section,R,0.008677240840277626,proportion,435.9,50234.5,491,4,False,True,publish
+P08,F5_section,S,0.018683088964977498,proportion,938.5,50234.5,491,12,False,True,publish
+P08,F6_geography,Amazonas,0.0012482387259076773,proportion,62.7,50234.5,491,16,False,True,publish
+P08,F6_geography,Ancash,0.006749219239305202,proportion,339.0,50234.5,491,20,False,True,publish
+P08,F6_geography,Apurimac,0.005449662142008449,proportion,273.8,50234.5,491,14,False,True,publish
+P08,F6_geography,Arequipa,0.018543078771912854,proportion,931.5,50234.5,491,10,False,True,publish
+P08,F6_geography,Ayacucho,0.01079719645126541,proportion,542.4,50234.5,491,17,False,True,publish
+P08,F6_geography,Cajamarca,0.008892273792007669,proportion,446.7,50234.5,491,15,False,True,publish
+P08,F6_geography,Cusco,0.06013776076008762,proportion,3021.0,50234.5,491,32,False,False,publish
+P08,F6_geography,Huancavelica,0.0011804458778505269,proportion,59.3,50234.5,491,13,False,True,publish
+P08,F6_geography,Huanuco,0.01964568645275045,proportion,986.9,50234.5,491,25,False,True,publish
+P08,F6_geography,Ica,0.015408194275958877,proportion,774.0,50234.5,491,14,False,True,publish
+P08,F6_geography,Junin,0.03181276320653708,proportion,1598.1,50234.5,491,21,False,True,publish
+P08,F6_geography,La Libertad,0.04071866083437241,proportion,2045.5,50234.5,491,18,False,True,publish
+P08,F6_geography,Lambayeque,0.021017545129333865,proportion,1055.8,50234.5,491,17,False,True,publish
+P08,F6_geography,Lima (incl. Callao),0.009759964168082993,proportion,490.3,50234.5,491,2,False,True,publish
+P08,F6_geography,Lima Metropolitana y Callao,0.6609234694158643,proportion,33201.2,50234.5,491,125,False,False,publish
+P08,F6_geography,Loreto,0.003803060094414613,proportion,191.0,50234.5,491,7,False,True,publish
+P08,F6_geography,Madre de Dios,0.0024593007637494905,proportion,123.5,50234.5,491,10,False,True,publish
+P08,F6_geography,Moquegua,0.00168001625358869,proportion,84.4,50234.5,491,10,False,True,publish
+P08,F6_geography,Pasco,0.003869866396457873,proportion,194.4,50234.5,491,10,False,True,publish
+P08,F6_geography,Piura,0.028893349989391533,proportion,1451.4,50234.5,491,17,False,True,publish
+P08,F6_geography,Puno,0.028544699659594816,proportion,1433.9,50234.5,491,37,False,False,publish
+P08,F6_geography,San Martin,0.006723647754629876,proportion,337.8,50234.5,491,22,False,True,publish
+P08,F6_geography,Tacna,0.0021273061559119494,proportion,106.9,50234.5,491,4,False,True,publish
+P08,F6_geography,Tumbes,0.0007670011529895428,proportion,38.5,50234.5,491,4,False,True,publish
+P08,F6_geography,Ucayali,0.008847592536026332,proportion,444.5,50234.5,491,11,False,True,publish
+P08,F7_women,women,0.43331172455441286,proportion,21767.2,50234.5,491,223,False,False,publish
+P08,F7_university_degree,"C366 in 11,12",0.8021023861768559,proportion,40293.2,50234.5,491,408,False,False,publish
+P08,F7_median_age,years,37.0,years,,50234.5,491,,False,False,publish
+P08,F8_median_labour_income,PEN_per_month,3000.0,PEN_month,,49837.6,486,,False,False,publish
+P08,F8_income_vs_all_employed,ratio,2.3076923076923075,ratio,,49837.6,486,,False,False,publish
+P08,F8b_median_total_labour_income_ingtrabw,PEN_per_month,3500.0,PEN_month,,49837.6,486,,False,False,publish
+P08,F6_rural_share,rural,0.0012687680820029953,proportion,63.7,50234.5,491,3,False,True,publish
+P09,F3_position,private_employee,0.5436088983061158,proportion,2672.6,4916.4,31,17,False,True,publish_low_precision
+P09,F3_position,government_employee,0.18908188417951124,proportion,929.6,4916.4,31,3,False,True,publish_low_precision
+P09,F3_position,self_employed,0.2673092175143728,proportion,1314.2,4916.4,31,11,False,True,publish_low_precision
+P09,F3_position,employer,0.0,proportion,0.0,4916.4,31,0,False,True,publish_low_precision
+P09,F3_position,other_family_domestic_unpaid,0.0,proportion,0.0,4916.4,31,0,False,True,publish_low_precision
+P09,F4_company_size,1_alone,0.25222479915949697,proportion,1240.0,4916.4,31,10,False,True,publish_low_precision
+P09,F4_company_size,2_10,0.07305845468512799,proportion,359.2,4916.4,31,3,False,True,publish_low_precision
+P09,F4_company_size,11_50,0.25419102158619206,proportion,1249.7,4916.4,31,7,False,True,publish_low_precision
+P09,F4_company_size,51_200,0.10576695940466194,proportion,520.0,4916.4,31,3,False,True,publish_low_precision
+P09,F4_company_size,201_plus,0.31475876516452095,proportion,1547.5,4916.4,31,8,False,True,publish_low_precision
+P09,F5_section_J_info_comm,J,0.09824152654728975,proportion,483.0,4916.4,31,1,False,True,publish_low_precision
+P09,F5_outside_tech,not_J,0.9017584734527102,proportion,4433.4,4916.4,31,30,False,False,publish_low_precision
+P09,F5_section,B,0.030731328733469544,proportion,151.1,4916.4,31,3,False,True,publish_low_precision
+P09,F5_section,G,0.2013764196665922,proportion,990.0,4916.4,31,4,False,True,publish_low_precision
+P09,F5_section,J,0.09824152654728975,proportion,483.0,4916.4,31,1,False,True,publish_low_precision
+P09,F5_section,K,0.038947511811030996,proportion,191.5,4916.4,31,1,False,True,publish_low_precision
+P09,F5_section,L,0.007947849380678032,proportion,39.1,4916.4,31,1,False,True,publish_low_precision
+P09,F5_section,M,0.38378787523440516,proportion,1886.8,4916.4,31,17,False,True,publish_low_precision
+P09,F5_section,O,0.056496893742206185,proportion,277.8,4916.4,31,2,False,True,publish_low_precision
+P09,F5_section,P,0.18247059488432793,proportion,897.1,4916.4,31,2,False,True,publish_low_precision
+P09,F6_geography,Amazonas,0.000787152652162389,proportion,3.9,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,Arequipa,0.046234984537897955,proportion,227.3,4916.4,31,3,False,True,publish_low_precision
+P09,F6_geography,Cajamarca,0.11037579408598538,proportion,542.6,4916.4,31,3,False,True,publish_low_precision
+P09,F6_geography,Cusco,0.014156435292968964,proportion,69.6,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,Huanuco,0.00842069662435345,proportion,41.4,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,Ica,0.003412640702988591,proportion,16.8,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,Junin,0.013177652732017398,proportion,64.8,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,La Libertad,0.029886963944062286,proportion,146.9,4916.4,31,2,False,True,publish_low_precision
+P09,F6_geography,Lambayeque,0.015084418354875838,proportion,74.2,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,Lima Metropolitana y Callao,0.7319897695135341,proportion,3598.7,4916.4,31,14,False,True,publish_low_precision
+P09,F6_geography,Moquegua,0.0006292334838169506,proportion,3.1,4916.4,31,1,False,True,publish_low_precision
+P09,F6_geography,Piura,0.025844258075336586,proportion,127.1,4916.4,31,2,False,True,publish_low_precision
+P09,F7_women,women,0.43430641341123205,proportion,2135.2,4916.4,31,13,False,True,publish_low_precision
+P09,F7_university_degree,"C366 in 11,12",1.0,proportion,4916.4,4916.4,31,31,False,False,publish_low_precision
+P09,F7_median_age,years,31.0,years,,4916.4,31,,False,False,publish_low_precision
+P09,F8_median_labour_income,PEN_per_month,2600.0,PEN_month,,4916.4,31,,False,False,publish_low_precision
+P09,F8_income_vs_all_employed,ratio,2.0,ratio,,4916.4,31,,False,False,publish_low_precision
+P09,F8b_median_total_labour_income_ingtrabw,PEN_per_month,3200.0,PEN_month,,4916.4,31,,False,False,publish_low_precision
+P09,F6_rural_share,rural,0.0,proportion,0.0,4916.4,31,0,False,True,publish_low_precision
+P10,F3_position,private_employee,0.5253431710160518,proportion,49692.4,94590.4,1314,478,False,False,publish
+P10,F3_position,government_employee,0.1682413173227909,proportion,15914.0,94590.4,1314,418,False,False,publish
+P10,F3_position,self_employed,0.25955538329555644,proportion,24551.4,94590.4,1314,374,False,False,publish
+P10,F3_position,employer,0.04620471348980991,proportion,4370.5,94590.4,1314,42,False,False,publish
+P10,F3_position,other_family_domestic_unpaid,0.0006554148757911105,proportion,62.0,94590.4,1314,2,False,True,publish
+P10,F4_company_size,1_alone,0.24648457995798195,proportion,23315.1,94590.4,1314,346,False,False,publish
+P10,F4_company_size,2_10,0.16550057064136534,proportion,15654.8,94590.4,1314,211,False,False,publish
+P10,F4_company_size,11_50,0.1687019299597984,proportion,15957.6,94590.4,1314,140,False,False,publish
+P10,F4_company_size,51_200,0.12100372907729541,proportion,11445.8,94590.4,1314,81,False,False,publish
+P10,F4_company_size,201_plus,0.29830919036355896,proportion,28217.2,94590.4,1314,536,False,False,publish
+P10,F5_section_J_info_comm,J,0.005703464381139159,proportion,539.5,94590.4,1314,4,False,True,publish
+P10,F5_outside_tech,not_J,0.9942965356188609,proportion,94050.9,94590.4,1314,1310,False,False,publish
+P10,F5_section,A,0.009771867296395592,proportion,924.3,94590.4,1314,17,False,True,publish
+P10,F5_section,B,0.023849443708763324,proportion,2255.9,94590.4,1314,18,False,True,publish
+P10,F5_section,C,0.04569797646613645,proportion,4322.6,94590.4,1314,28,False,True,publish
+P10,F5_section,D,0.008541243160024027,proportion,807.9,94590.4,1314,6,False,True,publish
+P10,F5_section,E,0.0024031413096734563,proportion,227.3,94590.4,1314,10,False,True,publish
+P10,F5_section,F,0.03800374840621396,proportion,3594.8,94590.4,1314,42,False,False,publish
+P10,F5_section,G,0.11503462807599053,proportion,10881.2,94590.4,1314,94,False,False,publish
+P10,F5_section,H,0.028683709797000738,proportion,2713.2,94590.4,1314,23,False,True,publish
+P10,F5_section,I,0.007931304003331767,proportion,750.2,94590.4,1314,11,False,True,publish
+P10,F5_section,J,0.005703464381139159,proportion,539.5,94590.4,1314,4,False,True,publish
+P10,F5_section,K,0.056960023779442585,proportion,5387.9,94590.4,1314,97,False,False,publish
+P10,F5_section,L,0.007754378913206257,proportion,733.5,94590.4,1314,8,False,True,publish
+P10,F5_section,M,0.4305171589407438,proportion,40722.8,94590.4,1314,523,False,False,publish
+P10,F5_section,N,0.011168332543238185,proportion,1056.4,94590.4,1314,11,False,True,publish
+P10,F5_section,O,0.12964764435949483,proportion,12263.4,94590.4,1314,303,False,False,publish
+P10,F5_section,P,0.027470725406434353,proportion,2598.5,94590.4,1314,44,False,False,publish
+P10,F5_section,Q,0.026087299201959697,proportion,2467.6,94590.4,1314,49,False,False,publish
+P10,F5_section,R,0.0030609967084663896,proportion,289.5,94590.4,1314,3,False,True,publish
+P10,F5_section,S,0.02171291354234498,proportion,2053.8,94590.4,1314,23,False,True,publish
+P10,F6_geography,Amazonas,0.005706829169084132,proportion,539.8,94590.4,1314,65,False,False,publish
+P10,F6_geography,Ancash,0.02353233544338372,proportion,2225.9,94590.4,1314,86,False,False,publish
+P10,F6_geography,Apurimac,0.008585099653568162,proportion,812.1,94590.4,1314,65,False,False,publish
+P10,F6_geography,Arequipa,0.05959384963057281,proportion,5637.0,94590.4,1314,63,False,False,publish
+P10,F6_geography,Ayacucho,0.01670404299460091,proportion,1580.0,94590.4,1314,48,False,False,publish
+P10,F6_geography,Cajamarca,0.026116117272302758,proportion,2470.3,94590.4,1314,56,False,False,publish
+P10,F6_geography,Cusco,0.03863753843634634,proportion,3654.7,94590.4,1314,71,False,False,publish
+P10,F6_geography,Huancavelica,0.004094991741860482,proportion,387.3,94590.4,1314,44,False,False,publish
+P10,F6_geography,Huanuco,0.008770921149622898,proportion,829.6,94590.4,1314,29,False,True,publish
+P10,F6_geography,Ica,0.031078050427848693,proportion,2939.7,94590.4,1314,45,False,False,publish
+P10,F6_geography,Junin,0.03564654731984336,proportion,3371.8,94590.4,1314,34,False,False,publish
+P10,F6_geography,La Libertad,0.04748889998241551,proportion,4492.0,94590.4,1314,55,False,False,publish
+P10,F6_geography,Lambayeque,0.02395566209434268,proportion,2266.0,94590.4,1314,41,False,False,publish
+P10,F6_geography,Lima (incl. Callao),0.008283084632325912,proportion,783.5,94590.4,1314,2,False,True,publish
+P10,F6_geography,Lima Metropolitana y Callao,0.5472429080618979,proportion,51763.9,94590.4,1314,212,False,False,publish
+P10,F6_geography,Loreto,0.015918650941906504,proportion,1505.8,94590.4,1314,36,False,False,publish
+P10,F6_geography,Madre de Dios,0.00505524779977505,proportion,478.2,94590.4,1314,34,False,False,publish
+P10,F6_geography,Moquegua,0.002849276227839657,proportion,269.5,94590.4,1314,24,False,True,publish
+P10,F6_geography,Pasco,0.00225965685398461,proportion,213.7,94590.4,1314,17,False,True,publish
+P10,F6_geography,Piura,0.03198726169228481,proportion,3025.7,94590.4,1314,47,False,False,publish
+P10,F6_geography,Puno,0.01848099827886216,proportion,1748.1,94590.4,1314,56,False,False,publish
+P10,F6_geography,San Martin,0.012185432099189115,proportion,1152.6,94590.4,1314,84,False,False,publish
+P10,F6_geography,Tacna,0.012410882886367094,proportion,1173.9,94590.4,1314,30,False,False,publish
+P10,F6_geography,Tumbes,0.005061312844820716,proportion,478.8,94590.4,1314,45,False,False,publish
+P10,F6_geography,Ucayali,0.008354402364954152,proportion,790.2,94590.4,1314,25,False,True,publish
+P10,F7_women,women,0.48962706261878675,proportion,46314.0,94590.4,1314,684,False,False,publish
+P10,F7_university_degree,"C366 in 11,12",1.0,proportion,94590.4,94590.4,1314,1314,False,False,publish
+P10,F7_median_age,years,42.0,years,,94590.4,1314,,False,False,publish
+P10,F8_median_labour_income,PEN_per_month,3000.0,PEN_month,,94528.4,1312,,False,False,publish
+P10,F8_income_vs_all_employed,ratio,2.3076923076923075,ratio,,94528.4,1312,,False,False,publish
+P10,F8b_median_total_labour_income_ingtrabw,PEN_per_month,3613.0,PEN_month,,94528.4,1312,,False,False,publish
+P10,F6_rural_share,rural,0.003597211338591672,proportion,340.3,94590.4,1314,5,False,True,publish
+P11,F3_position,private_employee,0.6595761221193204,proportion,111840.0,169563.5,2064,1023,False,False,publish
+P11,F3_position,government_employee,0.15977154455712847,proportion,27091.4,169563.5,2064,577,False,False,publish
+P11,F3_position,self_employed,0.14228793708917906,proportion,24126.8,169563.5,2064,379,False,False,publish
+P11,F3_position,employer,0.03834348069771492,proportion,6501.7,169563.5,2064,84,False,False,publish
+P11,F3_position,other_family_domestic_unpaid,2.0915536657078756e-05,proportion,3.5,169563.5,2064,1,False,True,publish
+P11,F4_company_size,1_alone,0.1365878303642966,proportion,23160.3,169563.5,2064,351,False,False,publish
+P11,F4_company_size,2_10,0.09464948928719208,proportion,16049.1,169563.5,2064,255,False,False,publish
+P11,F4_company_size,11_50,0.16157063087212747,proportion,27396.5,169563.5,2064,269,False,False,publish
+P11,F4_company_size,51_200,0.16536912368074394,proportion,28040.6,169563.5,2064,213,False,False,publish
+P11,F4_company_size,201_plus,0.44182292579563975,proportion,74917.0,169563.5,2064,976,False,False,publish
+P11,F5_section_J_info_comm,J,0.013888320526310617,proportion,2355.0,169563.5,2064,13,False,True,publish
+P11,F5_outside_tech,not_J,0.9861116794736894,proportion,167208.5,169563.5,2064,2051,False,False,publish
+P11,F5_section,A,0.021605105278005726,proportion,3663.4,169563.5,2064,38,False,False,publish
+P11,F5_section,B,0.10055158223193848,proportion,17049.9,169563.5,2064,187,False,False,publish
+P11,F5_section,C,0.12264148515019281,proportion,20795.5,169563.5,2064,127,False,False,publish
+P11,F5_section,D,0.015432733824436645,proportion,2616.8,169563.5,2064,29,False,True,publish
+P11,F5_section,E,0.013833995342612853,proportion,2345.7,169563.5,2064,31,False,False,publish
+P11,F5_section,F,0.2026837374428697,proportion,34367.8,169563.5,2064,428,False,False,publish
+P11,F5_section,G,0.052019386378677195,proportion,8820.6,169563.5,2064,57,False,False,publish
+P11,F5_section,H,0.013245643833684888,proportion,2246.0,169563.5,2064,17,False,True,publish
+P11,F5_section,I,0.0032265999323424412,proportion,547.1,169563.5,2064,2,False,True,publish
+P11,F5_section,J,0.013888320526310617,proportion,2355.0,169563.5,2064,13,False,True,publish
+P11,F5_section,K,0.006697365434248188,proportion,1135.6,169563.5,2064,6,False,True,publish
+P11,F5_section,L,0.0024085741591829564,proportion,408.4,169563.5,2064,3,False,True,publish
+P11,F5_section,M,0.2520631901432061,proportion,42740.7,169563.5,2064,537,False,False,publish
+P11,F5_section,N,0.011987273419894053,proportion,2032.6,169563.5,2064,21,False,True,publish
+P11,F5_section,O,0.13607068092596422,proportion,23072.6,169563.5,2064,497,False,False,publish
+P11,F5_section,P,0.015487856756554022,proportion,2626.2,169563.5,2064,31,False,False,publish
+P11,F5_section,Q,0.010321936868774365,proportion,1750.2,169563.5,2064,25,False,True,publish
+P11,F5_section,S,0.005834532351104687,proportion,989.3,169563.5,2064,15,False,True,publish
+P11,F6_geography,Amazonas,0.005950362101370563,proportion,1009.0,169563.5,2064,124,False,False,publish
+P11,F6_geography,Ancash,0.02429043325043693,proportion,4118.8,169563.5,2064,155,False,False,publish
+P11,F6_geography,Apurimac,0.006431340286654611,proportion,1090.5,169563.5,2064,84,False,False,publish
+P11,F6_geography,Arequipa,0.07377107711829364,proportion,12508.9,169563.5,2064,118,False,False,publish
+P11,F6_geography,Ayacucho,0.011805047744214583,proportion,2001.7,169563.5,2064,70,False,False,publish
+P11,F6_geography,Cajamarca,0.027530640898005974,proportion,4668.2,169563.5,2064,82,False,False,publish
+P11,F6_geography,Cusco,0.03362439873136203,proportion,5701.5,169563.5,2064,92,False,False,publish
+P11,F6_geography,Huancavelica,0.008649648198680424,proportion,1466.7,169563.5,2064,82,False,False,publish
+P11,F6_geography,Huanuco,0.010814761669258216,proportion,1833.8,169563.5,2064,40,False,False,publish
+P11,F6_geography,Ica,0.03198445020909877,proportion,5423.4,169563.5,2064,70,False,False,publish
+P11,F6_geography,Junin,0.05033694644702415,proportion,8535.3,169563.5,2064,98,False,False,publish
+P11,F6_geography,La Libertad,0.051916494317540335,proportion,8803.1,169563.5,2064,94,False,False,publish
+P11,F6_geography,Lambayeque,0.014449439072345914,proportion,2450.1,169563.5,2064,33,False,False,publish
+P11,F6_geography,Lima (incl. Callao),0.023322821840349107,proportion,3954.7,169563.5,2064,9,False,True,publish
+P11,F6_geography,Lima Metropolitana y Callao,0.5104970234829674,proportion,86561.6,169563.5,2064,324,False,False,publish
+P11,F6_geography,Loreto,0.007279359312384894,proportion,1234.3,169563.5,2064,31,False,False,publish
+P11,F6_geography,Madre de Dios,0.003704353212098163,proportion,628.1,169563.5,2064,41,False,False,publish
+P11,F6_geography,Moquegua,0.01409088454515576,proportion,2389.3,169563.5,2064,98,False,False,publish
+P11,F6_geography,Pasco,0.004089235486511706,proportion,693.4,169563.5,2064,37,False,False,publish
+P11,F6_geography,Piura,0.0374657081708531,proportion,6352.8,169563.5,2064,74,False,False,publish
+P11,F6_geography,Puno,0.016869732532232798,proportion,2860.5,169563.5,2064,74,False,False,publish
+P11,F6_geography,San Martin,0.010169673796894886,proportion,1724.4,169563.5,2064,130,False,False,publish
+P11,F6_geography,Tacna,0.01298833422362101,proportion,2202.3,169563.5,2064,51,False,False,publish
+P11,F6_geography,Tumbes,0.0012091335398710182,proportion,205.0,169563.5,2064,23,False,True,publish
+P11,F6_geography,Ucayali,0.006758699812773944,proportion,1146.0,169563.5,2064,30,False,False,publish
+P11,F7_women,women,0.18893628018978187,proportion,32036.7,169563.5,2064,419,False,False,publish
+P11,F7_university_degree,"C366 in 11,12",0.996633182031324,proportion,168992.6,169563.5,2064,2059,False,False,publish
+P11,F7_median_age,years,36.0,years,,169563.5,2064,,False,False,publish
+P11,F8_median_labour_income,PEN_per_month,4000.0,PEN_month,,169559.9,2063,,False,False,publish
+P11,F8_income_vs_all_employed,ratio,3.076923076923077,ratio,,169559.9,2063,,False,False,publish
+P11,F8b_median_total_labour_income_ingtrabw,PEN_per_month,4741.0,PEN_month,,169559.9,2063,,False,False,publish
+P11,F6_rural_share,rural,0.008062400346283747,proportion,1367.1,169563.5,2064,14,False,True,publish
+P12,F3_position,private_employee,0.5333328668431215,proportion,27599.3,51748.8,726,220,False,False,publish
+P12,F3_position,government_employee,0.3697140882868279,proportion,19132.2,51748.8,726,444,False,False,publish
+P12,F3_position,self_employed,0.0,proportion,0.0,51748.8,726,0,False,True,publish
+P12,F3_position,employer,0.09695304487005056,proportion,5017.2,51748.8,726,62,False,False,publish
+P12,F3_position,other_family_domestic_unpaid,0.0,proportion,0.0,51748.8,726,0,False,True,publish
+P12,F4_company_size,1_alone,0.0,proportion,0.0,51748.8,726,0,False,True,publish
+P12,F4_company_size,2_10,0.14854366146188652,proportion,7687.0,51748.8,726,91,False,False,publish
+P12,F4_company_size,11_50,0.23435000059954242,proportion,12127.3,51748.8,726,102,False,False,publish
+P12,F4_company_size,51_200,0.10657644656240045,proportion,5515.2,51748.8,726,29,False,True,publish
+P12,F4_company_size,201_plus,0.5105298913761706,proportion,26419.3,51748.8,726,504,False,False,publish
+P12,F5_section_J_info_comm,J,0.019094239901991612,proportion,988.1,51748.8,726,4,False,True,publish
+P12,F5_outside_tech,not_J,0.9809057600980083,proportion,50760.7,51748.8,726,722,False,False,publish
+P12,F5_section,B,0.007892012894045052,proportion,408.4,51748.8,726,4,False,True,publish
+P12,F5_section,C,0.10890816780225679,proportion,5635.9,51748.8,726,42,False,False,publish
+P12,F5_section,D,0.004721436678697033,proportion,244.3,51748.8,726,1,False,True,publish
+P12,F5_section,F,0.16804266295949213,proportion,8696.0,51748.8,726,80,False,False,publish
+P12,F5_section,G,0.09863264042014595,proportion,5104.1,51748.8,726,23,False,True,publish
+P12,F5_section,H,0.04843128984453438,proportion,2506.3,51748.8,726,24,False,True,publish
+P12,F5_section,J,0.019094239901991612,proportion,988.1,51748.8,726,4,False,True,publish
+P12,F5_section,K,0.06505787959150072,proportion,3366.7,51748.8,726,46,False,False,publish
+P12,F5_section,L,0.006560910463721199,proportion,339.5,51748.8,726,1,False,True,publish
+P12,F5_section,M,0.027947159634157174,proportion,1446.2,51748.8,726,9,False,True,publish
+P12,F5_section,N,0.017186146557564157,proportion,889.4,51748.8,726,4,False,True,publish
+P12,F5_section,O,0.018787164270830558,proportion,972.2,51748.8,726,10,False,True,publish
+P12,F5_section,P,0.390360771181693,proportion,20200.7,51748.8,726,463,False,False,publish
+P12,F5_section,Q,0.009240157397409817,proportion,478.2,51748.8,726,12,False,True,publish
+P12,F5_section,R,0.008419150916247618,proportion,435.7,51748.8,726,1,False,True,publish
+P12,F5_section,S,0.0007182094857128069,proportion,37.2,51748.8,726,2,False,True,publish
+P12,F6_geography,Amazonas,0.013437978254309781,proportion,695.4,51748.8,726,80,False,False,publish
+P12,F6_geography,Ancash,0.03082639128309153,proportion,1595.2,51748.8,726,40,False,False,publish
+P12,F6_geography,Apurimac,0.00698360500830747,proportion,361.4,51748.8,726,31,False,False,publish
+P12,F6_geography,Arequipa,0.025068670129677905,proportion,1297.3,51748.8,726,15,False,True,publish
+P12,F6_geography,Ayacucho,0.03577520055688433,proportion,1851.3,51748.8,726,33,False,False,publish
+P12,F6_geography,Cajamarca,0.03122465082316712,proportion,1615.8,51748.8,726,25,False,True,publish
+P12,F6_geography,Cusco,0.009139027356915694,proportion,472.9,51748.8,726,11,False,True,publish
+P12,F6_geography,Huancavelica,0.009980776229170707,proportion,516.5,51748.8,726,58,False,False,publish
+P12,F6_geography,Huanuco,0.015125305564248409,proportion,782.7,51748.8,726,23,False,True,publish
+P12,F6_geography,Ica,0.020759644197480755,proportion,1074.3,51748.8,726,19,False,True,publish
+P12,F6_geography,Junin,0.0372772115280001,proportion,1929.0,51748.8,726,25,False,True,publish
+P12,F6_geography,La Libertad,0.05396066629680047,proportion,2792.4,51748.8,726,37,False,False,publish
+P12,F6_geography,Lambayeque,0.02487976149025108,proportion,1287.5,51748.8,726,19,False,True,publish
+P12,F6_geography,Lima (incl. Callao),0.02136799223473561,proportion,1105.8,51748.8,726,4,False,True,publish
+P12,F6_geography,Lima Metropolitana y Callao,0.5203710353954928,proportion,26928.6,51748.8,726,100,False,False,publish
+P12,F6_geography,Loreto,0.02894919158809083,proportion,1498.1,51748.8,726,29,False,True,publish
+P12,F6_geography,Madre de Dios,0.005325719233254919,proportion,275.6,51748.8,726,14,False,True,publish
+P12,F6_geography,Moquegua,0.005334013610153109,proportion,276.0,51748.8,726,16,False,True,publish
+P12,F6_geography,Pasco,0.005634456621038547,proportion,291.6,51748.8,726,14,False,True,publish
+P12,F6_geography,Piura,0.02686355384084225,proportion,1390.2,51748.8,726,19,False,True,publish
+P12,F6_geography,Puno,0.01282384364563026,proportion,663.6,51748.8,726,18,False,True,publish
+P12,F6_geography,San Martin,0.0357237318571321,proportion,1848.7,51748.8,726,65,False,False,publish
+P12,F6_geography,Tacna,0.003729113365996957,proportion,193.0,51748.8,726,5,False,True,publish
+P12,F6_geography,Tumbes,0.005749048602125125,proportion,297.5,51748.8,726,11,False,True,publish
+P12,F6_geography,Ucayali,0.013689411287202103,proportion,708.4,51748.8,726,15,False,True,publish
+P12,F7_women,women,0.34279834406474907,proportion,17739.4,51748.8,726,304,False,False,publish
+P12,F7_university_degree,"C366 in 11,12",0.8532459010325073,proportion,44154.4,51748.8,726,619,False,False,publish
+P12,F7_median_age,years,49.0,years,,51748.8,726,,False,False,publish
+P12,F8_median_labour_income,PEN_per_month,6000.0,PEN_month,,51748.8,726,,False,False,publish
+P12,F8_income_vs_all_employed,ratio,4.615384615384615,ratio,,51748.8,726,,False,False,publish
+P12,F8b_median_total_labour_income_ingtrabw,PEN_per_month,6392.0,PEN_month,,51748.8,726,,False,False,publish
+P12,F6_rural_share,rural,0.042935777604260116,proportion,2221.9,51748.8,726,33,False,False,publish
+P13,F3_position,private_employee,0.5332102498687158,proportion,32277.3,60533.9,1021,363,False,False,publish
+P13,F3_position,government_employee,0.46678975013128426,proportion,28256.6,60533.9,1021,658,False,False,publish
+P13,F3_position,self_employed,0.0,proportion,0.0,60533.9,1021,0,False,True,publish
+P13,F3_position,employer,0.0,proportion,0.0,60533.9,1021,0,False,True,publish
+P13,F3_position,other_family_domestic_unpaid,0.0,proportion,0.0,60533.9,1021,0,False,True,publish
+P13,F4_company_size,1_alone,0.0,proportion,0.0,60533.9,1021,0,False,True,publish
+P13,F4_company_size,2_10,0.0031665988022414483,proportion,191.7,60533.9,1021,6,False,True,publish
+P13,F4_company_size,11_50,0.05627948192651727,proportion,3406.8,60533.9,1021,42,False,False,publish
+P13,F4_company_size,51_200,0.06082903027494029,proportion,3682.2,60533.9,1021,54,False,False,publish
+P13,F4_company_size,201_plus,0.879724888996301,proportion,53253.2,60533.9,1021,919,False,False,publish
+P13,F5_section_J_info_comm,J,0.0,proportion,0.0,60533.9,1021,0,False,True,publish
+P13,F5_outside_tech,not_J,1.0,proportion,60533.9,60533.9,1021,1021,False,False,publish
+P13,F5_section,P,1.0,proportion,60533.9,60533.9,1021,1021,False,False,publish
+P13,F6_geography,Amazonas,0.0063373122898634626,proportion,383.6,60533.9,1021,53,False,False,publish
+P13,F6_geography,Ancash,0.014334842030373043,proportion,867.7,60533.9,1021,54,False,False,publish
+P13,F6_geography,Apurimac,0.005787060616250248,proportion,350.3,60533.9,1021,39,False,False,publish
+P13,F6_geography,Arequipa,0.08058908139342336,proportion,4878.4,60533.9,1021,51,False,False,publish
+P13,F6_geography,Ayacucho,0.020045954950129962,proportion,1213.5,60533.9,1021,39,False,False,publish
+P13,F6_geography,Cajamarca,0.025123244435897293,proportion,1520.8,60533.9,1021,38,False,False,publish
+P13,F6_geography,Cusco,0.06503586383116135,proportion,3936.9,60533.9,1021,50,False,False,publish
+P13,F6_geography,Huancavelica,0.0052377611624499195,proportion,317.1,60533.9,1021,47,False,False,publish
+P13,F6_geography,Huanuco,0.031629947512461544,proportion,1914.7,60533.9,1021,32,False,False,publish
+P13,F6_geography,Ica,0.031047141041978255,proportion,1879.4,60533.9,1021,36,False,False,publish
+P13,F6_geography,Junin,0.046579807466700054,proportion,2819.7,60533.9,1021,48,False,False,publish
+P13,F6_geography,La Libertad,0.0865709941584293,proportion,5240.5,60533.9,1021,77,False,False,publish
+P13,F6_geography,Lambayeque,0.027985659057207558,proportion,1694.1,60533.9,1021,29,False,True,publish
+P13,F6_geography,Lima (incl. Callao),0.009169129752742526,proportion,555.0,60533.9,1021,1,False,True,publish
+P13,F6_geography,Lima Metropolitana y Callao,0.3864009325305246,proportion,23390.4,60533.9,1021,97,False,False,publish
+P13,F6_geography,Loreto,0.017591649905166935,proportion,1064.9,60533.9,1021,26,False,True,publish
+P13,F6_geography,Madre de Dios,0.0037538601453198086,proportion,227.2,60533.9,1021,20,False,True,publish
+P13,F6_geography,Moquegua,0.0036462504201342223,proportion,220.7,60533.9,1021,26,False,True,publish
+P13,F6_geography,Pasco,0.004087706759621113,proportion,247.4,60533.9,1021,25,False,True,publish
+P13,F6_geography,Piura,0.04497988461875036,proportion,2722.8,60533.9,1021,40,False,False,publish
+P13,F6_geography,Puno,0.02770954321583224,proportion,1677.4,60533.9,1021,69,False,False,publish
+P13,F6_geography,San Martin,0.016655392333769985,proportion,1008.2,60533.9,1021,53,False,False,publish
+P13,F6_geography,Tacna,0.026431205139878455,proportion,1600.0,60533.9,1021,34,False,False,publish
+P13,F6_geography,Tumbes,0.008405899821773062,proportion,508.8,60533.9,1021,25,False,True,publish
+P13,F6_geography,Ucayali,0.004863875410161377,proportion,294.4,60533.9,1021,12,False,True,publish
+P13,F7_women,women,0.314977080467155,proportion,19066.8,60533.9,1021,356,False,False,publish
+P13,F7_university_degree,"C366 in 11,12",0.9434717890923346,proportion,57112.0,60533.9,1021,975,False,False,publish
+P13,F7_median_age,years,51.0,years,,60533.9,1021,,False,False,publish
+P13,F8_median_labour_income,PEN_per_month,3600.0,PEN_month,,60533.9,1021,,False,False,publish
+P13,F8_income_vs_all_employed,ratio,2.769230769230769,ratio,,60533.9,1021,,False,False,publish
+P13,F8b_median_total_labour_income_ingtrabw,PEN_per_month,4417.0,PEN_month,,60533.9,1021,,False,False,publish
+P13,F6_rural_share,rural,0.004474809333806539,proportion,270.9,60533.9,1021,9,False,True,publish
+RING_CORE,F3_position,private_employee,0.6483271036879763,proportion,93982.4,144961.4,1265,628,False,False,publish
+RING_CORE,F3_position,government_employee,0.13306955255274713,proportion,19290.0,144961.4,1265,294,False,False,publish
+RING_CORE,F3_position,self_employed,0.1879137335773571,proportion,27240.2,144961.4,1265,296,False,False,publish
+RING_CORE,F3_position,employer,0.022823428175920563,proportion,3308.5,144961.4,1265,29,False,True,publish
+RING_CORE,F3_position,other_family_domestic_unpaid,0.007866182005999001,proportion,1140.3,144961.4,1265,18,False,True,publish
+RING_CORE,F4_company_size,1_alone,0.18292358333171427,proportion,26516.9,144961.4,1265,283,False,False,publish
+RING_CORE,F4_company_size,2_10,0.118981084678739,proportion,17247.7,144961.4,1265,196,False,False,publish
+RING_CORE,F4_company_size,11_50,0.14752125722277523,proportion,21384.9,144961.4,1265,160,False,False,publish
+RING_CORE,F4_company_size,51_200,0.16235259730365834,proportion,23534.9,144961.4,1265,122,False,False,publish
+RING_CORE,F4_company_size,201_plus,0.38822147746311314,proportion,56277.1,144961.4,1265,504,False,False,publish
+RING_CORE,F5_section_J_info_comm,J,0.37363126511316275,proportion,54162.1,144961.4,1265,402,False,False,publish
+RING_CORE,F5_outside_tech,not_J,0.6263687348868372,proportion,90799.3,144961.4,1265,863,False,False,publish
+RING_CORE,F5_section,A,0.006269907401241014,proportion,908.9,144961.4,1265,10,False,True,publish
+RING_CORE,F5_section,B,0.007115463304325044,proportion,1031.5,144961.4,1265,15,False,True,publish
+RING_CORE,F5_section,C,0.04579181245854736,proportion,6638.0,144961.4,1265,26,False,True,publish
+RING_CORE,F5_section,D,0.0012451125553239605,proportion,180.5,144961.4,1265,5,False,True,publish
+RING_CORE,F5_section,E,0.0022266542560210644,proportion,322.8,144961.4,1265,6,False,True,publish
+RING_CORE,F5_section,F,0.01902826231688036,proportion,2758.4,144961.4,1265,36,False,False,publish
+RING_CORE,F5_section,G,0.07266078244183419,proportion,10533.0,144961.4,1265,62,False,False,publish
+RING_CORE,F5_section,H,0.002139161244927382,proportion,310.1,144961.4,1265,2,False,True,publish
+RING_CORE,F5_section,I,0.012994737561282572,proportion,1883.7,144961.4,1265,12,False,True,publish
+RING_CORE,F5_section,J,0.37363126511316275,proportion,54162.1,144961.4,1265,402,False,False,publish
+RING_CORE,F5_section,K,0.07308730918558076,proportion,10594.8,144961.4,1265,54,False,False,publish
+RING_CORE,F5_section,L,0.0010098420642523911,proportion,146.4,144961.4,1265,1,False,True,publish
+RING_CORE,F5_section,M,0.056443589475701,proportion,8182.1,144961.4,1265,64,False,False,publish
+RING_CORE,F5_section,N,0.037241271298313304,proportion,5398.5,144961.4,1265,33,False,False,publish
+RING_CORE,F5_section,O,0.08434418774505874,proportion,12226.7,144961.4,1265,171,False,False,publish
+RING_CORE,F5_section,P,0.03574115118349144,proportion,5181.1,144961.4,1265,80,False,False,publish
+RING_CORE,F5_section,Q,0.025619907196103114,proportion,3713.9,144961.4,1265,66,False,False,publish
+RING_CORE,F5_section,R,0.052009270311426124,proportion,7539.3,144961.4,1265,91,False,False,publish
+RING_CORE,F5_section,S,0.09140031288652752,proportion,13249.5,144961.4,1265,129,False,False,publish
+RING_CORE,F6_geography,Amazonas,0.006280962595053167,proportion,910.5,144961.4,1265,63,False,False,publish
+RING_CORE,F6_geography,Ancash,0.013941227556143205,proportion,2020.9,144961.4,1265,61,False,False,publish
+RING_CORE,F6_geography,Apurimac,0.003968610564937433,proportion,575.3,144961.4,1265,38,False,False,publish
+RING_CORE,F6_geography,Arequipa,0.02421723402523333,proportion,3510.6,144961.4,1265,34,False,False,publish
+RING_CORE,F6_geography,Ayacucho,0.007424128834924443,proportion,1076.2,144961.4,1265,26,False,True,publish
+RING_CORE,F6_geography,Cajamarca,0.011047777300620495,proportion,1601.5,144961.4,1265,29,False,True,publish
+RING_CORE,F6_geography,Cusco,0.023769078418525227,proportion,3445.6,144961.4,1265,34,False,False,publish
+RING_CORE,F6_geography,Huancavelica,0.002839287620375204,proportion,411.6,144961.4,1265,33,False,False,publish
+RING_CORE,F6_geography,Huanuco,0.003991882158373166,proportion,578.7,144961.4,1265,17,False,True,publish
+RING_CORE,F6_geography,Ica,0.026256863790366774,proportion,3806.2,144961.4,1265,49,False,False,publish
+RING_CORE,F6_geography,Junin,0.016723917368618904,proportion,2424.3,144961.4,1265,34,False,False,publish
+RING_CORE,F6_geography,La Libertad,0.03678667111476904,proportion,5332.6,144961.4,1265,55,False,False,publish
+RING_CORE,F6_geography,Lambayeque,0.028759272536185553,proportion,4169.0,144961.4,1265,59,False,False,publish
+RING_CORE,F6_geography,Lima (incl. Callao),0.013662295358971224,proportion,1980.5,144961.4,1265,6,False,True,publish
+RING_CORE,F6_geography,Lima Metropolitana y Callao,0.6883683563509889,proportion,99786.9,144961.4,1265,361,False,False,publish
+RING_CORE,F6_geography,Loreto,0.012746348257179508,proportion,1847.7,144961.4,1265,31,False,False,publish
+RING_CORE,F6_geography,Madre de Dios,0.002615209723862259,proportion,379.1,144961.4,1265,27,False,True,publish
+RING_CORE,F6_geography,Moquegua,0.002863782049722783,proportion,415.1,144961.4,1265,35,False,False,publish
+RING_CORE,F6_geography,Pasco,0.004103973673169585,proportion,594.9,144961.4,1265,25,False,True,publish
+RING_CORE,F6_geography,Piura,0.03810524758706205,proportion,5523.8,144961.4,1265,61,False,False,publish
+RING_CORE,F6_geography,Puno,0.0072860703278082965,proportion,1056.2,144961.4,1265,34,False,False,publish
+RING_CORE,F6_geography,San Martin,0.008409552443973404,proportion,1219.1,144961.4,1265,88,False,False,publish
+RING_CORE,F6_geography,Tacna,0.007080558523095675,proportion,1026.4,144961.4,1265,24,False,True,publish
+RING_CORE,F6_geography,Tumbes,0.002012793795239954,proportion,291.8,144961.4,1265,15,False,True,publish
+RING_CORE,F6_geography,Ucayali,0.006738898024800485,proportion,976.9,144961.4,1265,26,False,True,publish
+RING_CORE,F7_women,women,0.1542296266990505,proportion,22357.3,144961.4,1265,180,False,False,publish
+RING_CORE,F7_university_degree,"C366 in 11,12",0.6050019446542665,proportion,87701.9,144961.4,1265,720,False,False,publish
+RING_CORE,F7_median_age,years,35.0,years,,144961.4,1265,,False,False,publish
+RING_CORE,F8_median_labour_income,PEN_per_month,2800.0,PEN_month,,143821.1,1247,,False,False,publish
+RING_CORE,F8_income_vs_all_employed,ratio,2.1538461538461537,ratio,,143821.1,1247,,False,False,publish
+RING_CORE,F8b_median_total_labour_income_ingtrabw,PEN_per_month,3124.0,PEN_month,,143821.1,1247,,False,False,publish
+RING_CORE,F6_rural_share,rural,0.011729504321740615,proportion,1700.3,144961.4,1265,8,False,True,publish
+RING_ADJACENT,F3_position,private_employee,0.5906817655920966,proportion,86484.7,146415.1,1564,734,False,False,publish
+RING_ADJACENT,F3_position,government_employee,0.19315013928619812,proportion,28280.1,146415.1,1564,507,False,False,publish
+RING_ADJACENT,F3_position,self_employed,0.13345252780530414,proportion,19539.5,146415.1,1564,167,False,False,publish
+RING_ADJACENT,F3_position,employer,0.07601397845529423,proportion,11129.6,146415.1,1564,148,False,False,publish
+RING_ADJACENT,F3_position,other_family_domestic_unpaid,0.00670158886110693,proportion,981.2,146415.1,1564,8,False,True,publish
+RING_ADJACENT,F4_company_size,1_alone,0.11874125863606799,proportion,17385.5,146415.1,1564,146,False,False,publish
+RING_ADJACENT,F4_company_size,2_10,0.21489070232192947,proportion,31463.2,146415.1,1564,385,False,False,publish
+RING_ADJACENT,F4_company_size,11_50,0.18319913550702058,proportion,26823.1,146415.1,1564,228,False,False,publish
+RING_ADJACENT,F4_company_size,51_200,0.11078031585902491,proportion,16219.9,146415.1,1564,101,False,False,publish
+RING_ADJACENT,F4_company_size,201_plus,0.37238858767595706,proportion,54523.3,146415.1,1564,704,False,False,publish
+RING_ADJACENT,F5_section_J_info_comm,J,0.01430833635037769,proportion,2095.0,146415.1,1564,22,False,True,publish
+RING_ADJACENT,F5_outside_tech,not_J,0.9856916636496224,proportion,144320.1,146415.1,1564,1542,False,False,publish
+RING_ADJACENT,F5_section,A,0.012693001066166621,proportion,1858.4,146415.1,1564,17,False,True,publish
+RING_ADJACENT,F5_section,B,0.01573024210008282,proportion,2303.1,146415.1,1564,24,False,True,publish
+RING_ADJACENT,F5_section,C,0.09912034211834565,proportion,14512.7,146415.1,1564,102,False,False,publish
+RING_ADJACENT,F5_section,D,0.007384734669199615,proportion,1081.2,146415.1,1564,9,False,True,publish
+RING_ADJACENT,F5_section,E,0.005265370836865657,proportion,770.9,146415.1,1564,11,False,True,publish
+RING_ADJACENT,F5_section,F,0.03358211367651808,proportion,4916.9,146415.1,1564,61,False,False,publish
+RING_ADJACENT,F5_section,G,0.13571274621147286,proportion,19870.4,146415.1,1564,191,False,False,publish
+RING_ADJACENT,F5_section,H,0.02644123780271842,proportion,3871.4,146415.1,1564,40,False,False,publish
+RING_ADJACENT,F5_section,I,0.03293434499709831,proportion,4822.1,146415.1,1564,70,False,False,publish
+RING_ADJACENT,F5_section,J,0.01430833635037769,proportion,2095.0,146415.1,1564,22,False,True,publish
+RING_ADJACENT,F5_section,K,0.08951108270825463,proportion,13105.8,146415.1,1564,102,False,False,publish
+RING_ADJACENT,F5_section,L,0.014049207134027616,proportion,2057.0,146415.1,1564,26,False,True,publish
+RING_ADJACENT,F5_section,M,0.21301537040990517,proportion,31188.7,146415.1,1564,251,False,False,publish
+RING_ADJACENT,F5_section,N,0.04241845412234528,proportion,6210.7,146415.1,1564,49,False,False,publish
+RING_ADJACENT,F5_section,O,0.1400356883313775,proportion,20503.3,146415.1,1564,387,False,False,publish
+RING_ADJACENT,F5_section,P,0.07299703744148142,proportion,10687.9,146415.1,1564,97,False,False,publish
+RING_ADJACENT,F5_section,Q,0.024353066611586923,proportion,3565.7,146415.1,1564,64,False,False,publish
+RING_ADJACENT,F5_section,R,0.0073132120808113545,proportion,1070.8,146415.1,1564,12,False,True,publish
+RING_ADJACENT,F5_section,S,0.013134411331364346,proportion,1923.1,146415.1,1564,29,False,True,publish
+RING_ADJACENT,F6_geography,Amazonas,0.002729225664929847,proportion,399.6,146415.1,1564,97,False,False,publish
+RING_ADJACENT,F6_geography,Ancash,0.014942552273434637,proportion,2187.8,146415.1,1564,83,False,False,publish
+RING_ADJACENT,F6_geography,Apurimac,0.004649509524354687,proportion,680.8,146415.1,1564,37,False,False,publish
+RING_ADJACENT,F6_geography,Arequipa,0.040647425165226854,proportion,5951.4,146415.1,1564,62,False,False,publish
+RING_ADJACENT,F6_geography,Ayacucho,0.006732011237433795,proportion,985.7,146415.1,1564,34,False,False,publish
+RING_ADJACENT,F6_geography,Cajamarca,0.018244662051523093,proportion,2671.3,146415.1,1564,52,False,False,publish
+RING_ADJACENT,F6_geography,Cusco,0.03235555461882478,proportion,4737.3,146415.1,1564,62,False,False,publish
+RING_ADJACENT,F6_geography,Huancavelica,0.0016977801224823167,proportion,248.6,146415.1,1564,34,False,False,publish
+RING_ADJACENT,F6_geography,Huanuco,0.01255405371081295,proportion,1838.1,146415.1,1564,51,False,False,publish
+RING_ADJACENT,F6_geography,Ica,0.020790286293293256,proportion,3044.0,146415.1,1564,50,False,False,publish
+RING_ADJACENT,F6_geography,Junin,0.03812534753096909,proportion,5582.1,146415.1,1564,76,False,False,publish
+RING_ADJACENT,F6_geography,La Libertad,0.053987195949097684,proportion,7904.5,146415.1,1564,81,False,False,publish
+RING_ADJACENT,F6_geography,Lambayeque,0.016566988825017104,proportion,2425.7,146415.1,1564,42,False,False,publish
+RING_ADJACENT,F6_geography,Lima (incl. Callao),0.007843114696671639,proportion,1148.4,146415.1,1564,4,False,True,publish
+RING_ADJACENT,F6_geography,Lima Metropolitana y Callao,0.6313669163564153,proportion,92441.6,146415.1,1564,356,False,False,publish
+RING_ADJACENT,F6_geography,Loreto,0.007410655526459442,proportion,1085.0,146415.1,1564,29,False,True,publish
+RING_ADJACENT,F6_geography,Madre de Dios,0.004700904298585944,proportion,688.3,146415.1,1564,46,False,False,publish
+RING_ADJACENT,F6_geography,Moquegua,0.0033541151150848726,proportion,491.1,146415.1,1564,30,False,False,publish
+RING_ADJACENT,F6_geography,Pasco,0.003758709764918405,proportion,550.3,146415.1,1564,38,False,False,publish
+RING_ADJACENT,F6_geography,Piura,0.02681789149787302,proportion,3926.5,146415.1,1564,65,False,False,publish
+RING_ADJACENT,F6_geography,Puno,0.01648910569276009,proportion,2414.3,146415.1,1564,65,False,False,publish
+RING_ADJACENT,F6_geography,San Martin,0.013909717205015116,proportion,2036.6,146415.1,1564,82,False,False,publish
+RING_ADJACENT,F6_geography,Tacna,0.009365789128074318,proportion,1371.3,146415.1,1564,33,False,False,publish
+RING_ADJACENT,F6_geography,Tumbes,0.0024339836226692745,proportion,356.4,146415.1,1564,20,False,True,publish
+RING_ADJACENT,F6_geography,Ucayali,0.008526504128072553,proportion,1248.4,146415.1,1564,35,False,False,publish
+RING_ADJACENT,F7_women,women,0.45861585331102406,proportion,67148.3,146415.1,1564,700,False,False,publish
+RING_ADJACENT,F7_university_degree,"C366 in 11,12",0.9315511413745409,proportion,136393.1,146415.1,1564,1480,False,False,publish
+RING_ADJACENT,F7_median_age,years,37.0,years,,146415.1,1564,,False,False,publish
+RING_ADJACENT,F8_median_labour_income,PEN_per_month,3000.0,PEN_month,,145433.8,1556,,False,False,publish
+RING_ADJACENT,F8_income_vs_all_employed,ratio,2.3076923076923075,ratio,,145433.8,1556,,False,False,publish
+RING_ADJACENT,F8b_median_total_labour_income_ingtrabw,PEN_per_month,3500.0,PEN_month,,145433.8,1556,,False,False,publish
+RING_ADJACENT,F6_rural_share,rural,0.004481786845164553,proportion,656.2,146415.1,1564,10,False,True,publish
+RING_EXTENDED,F3_position,private_employee,0.5881709997435584,proportion,221409.0,376436.5,5125,2084,False,False,publish
+RING_EXTENDED,F3_position,government_employee,0.24013153167981302,proportion,90394.3,376436.5,5125,2097,False,False,publish
+RING_EXTENDED,F3_position,self_employed,0.1293133805859673,proportion,48678.3,376436.5,5125,753,False,False,publish
+RING_EXTENDED,F3_position,employer,0.04220997510756789,proportion,15889.4,376436.5,5125,188,False,False,publish
+RING_EXTENDED,F3_position,other_family_domestic_unpaid,0.00017411288309341456,proportion,65.5,376436.5,5125,3,False,True,publish
+RING_EXTENDED,F4_company_size,1_alone,0.12346139226527635,proportion,46475.4,376436.5,5125,697,False,False,publish
+RING_EXTENDED,F4_company_size,2_10,0.1051505211550639,proportion,39582.5,376436.5,5125,563,False,False,publish
+RING_EXTENDED,F4_company_size,11_50,0.1564359328903989,proportion,58888.2,376436.5,5125,553,False,False,publish
+RING_EXTENDED,F4_company_size,51_200,0.1293279699758457,proportion,48683.8,376436.5,5125,377,False,False,publish
+RING_EXTENDED,F4_company_size,201_plus,0.48562418371341515,proportion,182806.7,376436.5,5125,2935,False,False,publish
+RING_EXTENDED,F5_section_J_info_comm,J,0.010313952296463832,proportion,3882.5,376436.5,5125,21,False,True,publish
+RING_EXTENDED,F5_outside_tech,not_J,0.9896860477035362,proportion,372553.9,376436.5,5125,5104,False,False,publish
+RING_EXTENDED,F5_section,A,0.012187344531236877,proportion,4587.8,376436.5,5125,55,False,False,publish
+RING_EXTENDED,F5_section,B,0.05237060073976773,proportion,19714.2,376436.5,5125,209,False,False,publish
+RING_EXTENDED,F5_section,C,0.08169762662746713,proportion,30754.0,376436.5,5125,197,False,False,publish
+RING_EXTENDED,F5_section,D,0.009746865360645477,proportion,3669.1,376436.5,5125,36,False,False,publish
+RING_EXTENDED,F5_section,E,0.006835294648799064,proportion,2573.1,376436.5,5125,41,False,False,publish
+RING_EXTENDED,F5_section,F,0.12394799322853793,proportion,46658.5,376436.5,5125,550,False,False,publish
+RING_EXTENDED,F5_section,G,0.0658965675985211,proportion,24805.9,376436.5,5125,174,False,False,publish
+RING_EXTENDED,F5_section,H,0.019831869663402158,proportion,7465.4,376436.5,5125,64,False,False,publish
+RING_EXTENDED,F5_section,I,0.0034463673426966697,proportion,1297.3,376436.5,5125,13,False,True,publish
+RING_EXTENDED,F5_section,J,0.010313952296463832,proportion,3882.5,376436.5,5125,21,False,True,publish
+RING_EXTENDED,F5_section,K,0.02627312483162876,proportion,9890.2,376436.5,5125,149,False,False,publish
+RING_EXTENDED,F5_section,L,0.0039353643522302625,proportion,1481.4,376436.5,5125,12,False,True,publish
+RING_EXTENDED,F5_section,M,0.22556186296477074,proportion,84909.7,376436.5,5125,1069,False,False,publish
+RING_EXTENDED,F5_section,N,0.01056853505340302,proportion,3978.4,376436.5,5125,36,False,False,publish
+RING_EXTENDED,F5_section,O,0.09645251931945902,proportion,36308.2,376436.5,5125,810,False,False,publish
+RING_EXTENDED,F5_section,P,0.22834984703588984,proportion,85959.2,376436.5,5125,1559,False,False,publish
+RING_EXTENDED,F5_section,Q,0.012474872825421634,proportion,4696.0,376436.5,5125,86,False,False,publish
+RING_EXTENDED,F5_section,R,0.0019265439988918746,proportion,725.2,376436.5,5125,4,False,True,publish
+RING_EXTENDED,F5_section,S,0.008182847580766896,proportion,3080.3,376436.5,5125,40,False,False,publish
+RING_EXTENDED,F6_geography,Amazonas,0.006980715520046204,proportion,2627.8,376436.5,5125,322,False,False,publish
+RING_EXTENDED,F6_geography,Ancash,0.023397502783099176,proportion,8807.7,376436.5,5125,335,False,False,publish
+RING_EXTENDED,F6_geography,Apurimac,0.006944848282376861,proportion,2614.3,376436.5,5125,219,False,False,publish
+RING_EXTENDED,F6_geography,Arequipa,0.06460990822581027,proportion,24321.5,376436.5,5125,247,False,False,publish
+RING_EXTENDED,F6_geography,Ayacucho,0.017656440376174913,proportion,6646.5,376436.5,5125,190,False,False,publish
+RING_EXTENDED,F6_geography,Cajamarca,0.02729588971018362,proportion,10275.2,376436.5,5125,201,False,False,publish
+RING_EXTENDED,F6_geography,Cusco,0.03656929126996351,proportion,13766.0,376436.5,5125,224,False,False,publish
+RING_EXTENDED,F6_geography,Huancavelica,0.007139493963691426,proportion,2687.6,376436.5,5125,231,False,False,publish
+RING_EXTENDED,F6_geography,Huanuco,0.014241001768523496,proportion,5360.8,376436.5,5125,124,False,False,publish
+RING_EXTENDED,F6_geography,Ica,0.030062889660140372,proportion,11316.8,376436.5,5125,170,False,False,publish
+RING_EXTENDED,F6_geography,Junin,0.044246066194125445,proportion,16655.8,376436.5,5125,205,False,False,publish
+RING_EXTENDED,F6_geography,La Libertad,0.05665765839556607,proportion,21328.0,376436.5,5125,263,False,False,publish
+RING_EXTENDED,F6_geography,Lambayeque,0.020448733678001964,proportion,7697.6,376436.5,5125,122,False,False,publish
+RING_EXTENDED,F6_geography,Lima (incl. Callao),0.01699890723471322,proportion,6399.0,376436.5,5125,16,False,True,publish
+RING_EXTENDED,F6_geography,Lima Metropolitana y Callao,0.5011322456012932,proportion,188644.5,376436.5,5125,733,False,False,publish
+RING_EXTENDED,F6_geography,Loreto,0.014087476762377659,proportion,5303.0,376436.5,5125,122,False,False,publish
+RING_EXTENDED,F6_geography,Madre de Dios,0.004274654321694305,proportion,1609.1,376436.5,5125,109,False,False,publish
+RING_EXTENDED,F6_geography,Moquegua,0.008382725447473156,proportion,3155.6,376436.5,5125,164,False,False,publish
+RING_EXTENDED,F6_geography,Pasco,0.0038416777600860244,proportion,1446.1,376436.5,5125,93,False,False,publish
+RING_EXTENDED,F6_geography,Piura,0.03583995094139172,proportion,13491.5,376436.5,5125,180,False,False,publish
+RING_EXTENDED,F6_geography,Puno,0.018461545063310346,proportion,6949.6,376436.5,5125,217,False,False,publish
+RING_EXTENDED,F6_geography,San Martin,0.015232063000887284,proportion,5733.9,376436.5,5125,332,False,False,publish
+RING_EXTENDED,F6_geography,Tacna,0.013732084207640688,proportion,5169.3,376436.5,5125,120,False,False,publish
+RING_EXTENDED,F6_geography,Tumbes,0.003958501097591721,proportion,1490.1,376436.5,5125,104,False,False,publish
+RING_EXTENDED,F6_geography,Ucayali,0.007807728733837339,proportion,2939.1,376436.5,5125,82,False,False,publish
+RING_EXTENDED,F7_women,women,0.30591314881632525,proportion,115156.9,376436.5,5125,1763,False,False,publish
+RING_EXTENDED,F7_university_degree,"C366 in 11,12",0.9692189640695832,proportion,364849.4,376436.5,5125,4967,False,False,publish
+RING_EXTENDED,F7_median_age,years,42.0,years,,376436.5,5125,,False,False,publish
+RING_EXTENDED,F8_median_labour_income,PEN_per_month,4000.0,PEN_month,,376370.9,5122,,False,False,publish
+RING_EXTENDED,F8_income_vs_all_employed,ratio,3.076923076923077,ratio,,376370.9,5122,,False,False,publish
+RING_EXTENDED,F8b_median_total_labour_income_ingtrabw,PEN_per_month,4583.0,PEN_month,,376370.9,5122,,False,False,publish
+RING_EXTENDED,F6_rural_share,rural,0.011157529495045468,proportion,4200.1,376436.5,5125,61,False,False,publish
+ALL13,F3_position,private_employee,0.6017794931669597,proportion,401876.2,667813.0,7954,3446,False,False,publish
+ALL13,F3_position,government_employee,0.20659124240925483,proportion,137964.3,667813.0,7954,2898,False,False,publish
+ALL13,F3_position,self_employed,0.1429411843231449,proportion,95458.0,667813.0,7954,1216,False,False,publish
+ALL13,F3_position,employer,0.045413137862482536,proportion,30327.5,667813.0,7954,365,False,False,publish
+ALL13,F3_position,other_family_domestic_unpaid,0.0032749422381580253,proportion,2187.0,667813.0,7954,29,False,True,publish
+ALL13,F4_company_size,1_alone,0.1353339158723286,proportion,90377.7,667813.0,7954,1126,False,False,publish
+ALL13,F4_company_size,2_10,0.1322127584686397,proportion,88293.4,667813.0,7954,1144,False,False,publish
+ALL13,F4_company_size,11_50,0.16036854857635782,proportion,107096.2,667813.0,7954,941,False,False,publish
+ALL13,F4_company_size,51_200,0.13243009775420717,proportion,88438.5,667813.0,7954,600,False,False,publish
+ALL13,F4_company_size,201_plus,0.43965467932846675,proportion,293607.1,667813.0,7954,4143,False,False,publish
+ALL13,F5_section_J_info_comm,J,0.09005459131051542,proportion,60139.6,667813.0,7954,445,False,False,publish
+ALL13,F5_outside_tech,not_J,0.9099454086894845,proportion,607673.3,667813.0,7954,7509,False,False,publish
+ALL13,F5_section,A,0.011013715959942718,proportion,7355.1,667813.0,7954,82,False,False,publish
+ALL13,F5_section,B,0.03451388051885434,proportion,23048.8,667813.0,7954,248,False,False,publish
+ALL13,F5_section,C,0.07772344495618694,proportion,51904.7,667813.0,7954,325,False,False,publish
+ALL13,F5_section,D,0.007383512500691252,proportion,4930.8,667813.0,7954,50,False,False,publish
+ALL13,F5_section,E,0.005490703275774796,proportion,3666.8,667813.0,7954,58,False,False,publish
+ALL13,F5_section,F,0.08136086137650066,proportion,54333.8,667813.0,7954,647,False,False,publish
+ALL13,F5_section,G,0.08267175840451328,proportion,55209.3,667813.0,7954,427,False,False,publish
+ALL13,F5_section,H,0.01744040788673311,proportion,11646.9,667813.0,7954,106,False,False,publish
+ALL13,F5_section,I,0.011984130955511834,proportion,8003.2,667813.0,7954,95,False,False,publish
+ALL13,F5_section,J,0.09005459131051542,proportion,60139.6,667813.0,7954,445,False,False,publish
+ALL13,F5_section,K,0.05029967232114345,proportion,33590.8,667813.0,7954,305,False,False,publish
+ALL13,F5_section,L,0.005517740016431263,proportion,3684.8,667813.0,7954,39,False,False,publish
+ALL13,F5_section,M,0.18610078277689376,proportion,124280.5,667813.0,7954,1384,False,False,publish
+ALL13,F5_section,N,0.02334131115780443,proportion,15587.6,667813.0,7954,118,False,False,publish
+ALL13,F5_section,O,0.10337959531466791,proportion,69038.2,667813.0,7954,1368,False,False,publish
+ALL13,F5_section,P,0.15248006975456194,proportion,101828.2,667813.0,7954,1736,False,False,publish
+ALL13,F5_section,Q,0.017932492675852542,proportion,11975.6,667813.0,7954,216,False,False,publish
+ALL13,F5_section,R,0.013978949382499857,proportion,9335.3,667813.0,7954,107,False,False,publish
+ALL13,F5_section,S,0.02733237945492047,proportion,18252.9,667813.0,7954,198,False,False,publish
+ALL13,F6_geography,Amazonas,0.005896700469613409,proportion,3937.9,667813.0,7954,482,False,False,publish
+ALL13,F6_geography,Ancash,0.01949112884185098,proportion,13016.4,667813.0,7954,479,False,False,publish
+ALL13,F6_geography,Apurimac,0.005795556718314383,proportion,3870.3,667813.0,7954,294,False,False,publish
+ALL13,F6_geography,Arequipa,0.050588246002161844,proportion,33783.5,667813.0,7954,343,False,False,publish
+ALL13,F6_geography,Ayacucho,0.013040190758731668,proportion,8708.4,667813.0,7954,250,False,False,publish
+ALL13,F6_geography,Cajamarca,0.02178448802914514,proportion,14548.0,667813.0,7954,282,False,False,publish
+ALL13,F6_geography,Cusco,0.03286691997003467,proportion,21949.0,667813.0,7954,320,False,False,publish
+ALL13,F6_geography,Huancavelica,0.005012981090588738,proportion,3347.7,667813.0,7954,298,False,False,publish
+ALL13,F6_geography,Huanuco,0.01164638074937809,proportion,7777.6,667813.0,7954,192,False,False,publish
+ALL13,F6_geography,Ica,0.027203742313682774,proportion,18167.0,667813.0,7954,269,False,False,publish
+ALL13,F6_geography,Junin,0.036929923089423326,proportion,24662.3,667813.0,7954,315,False,False,publish
+ALL13,F6_geography,La Libertad,0.05175879798182178,proportion,34565.2,667813.0,7954,399,False,False,publish
+ALL13,F6_geography,Lambayeque,0.021401637680546457,proportion,14292.3,667813.0,7954,223,False,False,publish
+ALL13,F6_geography,Lima (incl. Callao),0.014267265326122961,proportion,9527.9,667813.0,7954,26,False,True,publish
+ALL13,F6_geography,Lima Metropolitana y Callao,0.5703287602783309,proportion,380872.9,667813.0,7954,1450,False,False,publish
+ALL13,F6_geography,Loreto,0.012332495782646643,proportion,8235.8,667813.0,7954,182,False,False,publish
+ALL13,F6_geography,Madre de Dios,0.004007893948494565,proportion,2676.5,667813.0,7954,182,False,False,publish
+ALL13,F6_geography,Moquegua,0.0060822337956182105,proportion,4061.8,667813.0,7954,229,False,False,publish
+ALL13,F6_geography,Pasco,0.0038804236761732806,proportion,2591.4,667813.0,7954,156,False,False,publish
+ALL13,F6_geography,Piura,0.03435362952215901,proportion,22941.8,667813.0,7954,306,False,False,publish
+ALL13,F6_geography,Puno,0.015603248445141374,proportion,10420.1,667813.0,7954,316,False,False,publish
+ALL13,F6_geography,San Martin,0.013461189667506838,proportion,8989.6,667813.0,7954,502,False,False,publish
+ALL13,F6_geography,Tacna,0.011330953876321742,proportion,7567.0,667813.0,7954,177,False,False,publish
+ALL13,F6_geography,Tumbes,0.003201904809502134,proportion,2138.3,667813.0,7954,139,False,False,publish
+ALL13,F6_geography,Ucayali,0.0077333071766890775,proportion,5164.4,667813.0,7954,143,False,False,publish
+ALL13,F7_women,women,0.3064667706618001,proportion,204662.5,667813.0,7954,2643,False,False,publish
+ALL13,F7_university_degree,"C366 in 11,12",0.8819002733871045,proportion,588944.4,667813.0,7954,7167,False,False,publish
+ALL13,F7_median_age,years,39.0,years,,667813.0,7954,,False,False,publish
+ALL13,F8_median_labour_income,PEN_per_month,3500.0,PEN_month,,665625.9,7925,,False,False,publish
+ALL13,F8_income_vs_all_employed,ratio,2.6923076923076925,ratio,,665625.9,7925,,False,False,publish
+ALL13,F8b_median_total_labour_income_ingtrabw,PEN_per_month,4041.0,PEN_month,,665625.9,7925,,False,False,publish
+ALL13,F6_rural_share,rural,0.009818060218136615,proportion,6556.6,667813.0,7954,79,False,False,publish
+COMB_P01_P02,F3_position,private_employee,0.7332107100138017,proportion,50095.5,68323.4,510,289,False,False,publish
+COMB_P01_P02,F3_position,government_employee,0.1511330826651423,proportion,10325.9,68323.4,510,143,False,False,publish
+COMB_P01_P02,F3_position,self_employed,0.09619482531191106,proportion,6572.4,68323.4,510,69,False,False,publish
+COMB_P01_P02,F3_position,employer,0.019461382009144986,proportion,1329.7,68323.4,510,9,False,True,publish
+COMB_P01_P02,F3_position,other_family_domestic_unpaid,0.0,proportion,0.0,68323.4,510,0,False,True,publish
+COMB_P01_P02,F4_company_size,1_alone,0.09538558894743868,proportion,6517.1,68323.4,510,68,False,False,publish
+COMB_P01_P02,F4_company_size,2_10,0.04708471351694366,proportion,3217.0,68323.4,510,32,False,False,publish
+COMB_P01_P02,F4_company_size,11_50,0.13942049494433717,proportion,9525.7,68323.4,510,63,False,False,publish
+COMB_P01_P02,F4_company_size,51_200,0.2159760853210698,proportion,14756.2,68323.4,510,72,False,False,publish
+COMB_P01_P02,F4_company_size,201_plus,0.5021331172702107,proportion,34307.4,68323.4,510,275,False,False,publish
+COMB_P01_P02,F5_section_J_info_comm,J,0.4403522680641896,proportion,30086.4,68323.4,510,212,False,False,publish
+COMB_P01_P02,F5_outside_tech,not_J,0.5596477319358104,proportion,38237.0,68323.4,510,298,False,False,publish
+COMB_P01_P02,F5_section,A,0.003416690800186297,proportion,233.4,68323.4,510,3,False,True,publish
+COMB_P01_P02,F5_section,B,0.013194430450666254,proportion,901.5,68323.4,510,12,False,True,publish
+COMB_P01_P02,F5_section,C,0.07389871963521732,proportion,5049.0,68323.4,510,21,False,True,publish
+COMB_P01_P02,F5_section,D,0.0026417488594364462,proportion,180.5,68323.4,510,5,False,True,publish
+COMB_P01_P02,F5_section,E,0.002241621166409905,proportion,153.2,68323.4,510,2,False,True,publish
+COMB_P01_P02,F5_section,F,0.015498467892470181,proportion,1058.9,68323.4,510,10,False,True,publish
+COMB_P01_P02,F5_section,G,0.07565326391981973,proportion,5168.9,68323.4,510,24,False,True,publish
+COMB_P01_P02,F5_section,H,0.0008204292793666781,proportion,56.1,68323.4,510,1,False,True,publish
+COMB_P01_P02,F5_section,I,0.01251364409092968,proportion,855.0,68323.4,510,2,False,True,publish
+COMB_P01_P02,F5_section,J,0.4403522680641896,proportion,30086.4,68323.4,510,212,False,False,publish
+COMB_P01_P02,F5_section,K,0.12424451359747127,proportion,8488.8,68323.4,510,37,False,False,publish
+COMB_P01_P02,F5_section,L,0.002142576677138711,proportion,146.4,68323.4,510,1,False,True,publish
+COMB_P01_P02,F5_section,M,0.022685378134202655,proportion,1549.9,68323.4,510,10,False,True,publish
+COMB_P01_P02,F5_section,N,0.02322103199149984,proportion,1586.5,68323.4,510,9,False,True,publish
+COMB_P01_P02,F5_section,O,0.09866026887724368,proportion,6740.8,68323.4,510,86,False,False,publish
+COMB_P01_P02,F5_section,P,0.03452743884922393,proportion,2359.0,68323.4,510,36,False,False,publish
+COMB_P01_P02,F5_section,Q,0.025060738046249666,proportion,1712.2,68323.4,510,25,False,True,publish
+COMB_P01_P02,F5_section,R,0.00020799719175139,proportion,14.2,68323.4,510,1,False,True,publish
+COMB_P01_P02,F5_section,S,0.029018772476526802,proportion,1982.7,68323.4,510,13,False,True,publish
+COMB_P01_P02,F6_geography,Amazonas,0.0012678860553904257,proportion,86.6,68323.4,510,17,False,True,publish
+COMB_P01_P02,F6_geography,Ancash,0.012790362261758309,proportion,873.9,68323.4,510,22,False,True,publish
+COMB_P01_P02,F6_geography,Apurimac,0.0019860520139455035,proportion,135.7,68323.4,510,12,False,True,publish
+COMB_P01_P02,F6_geography,Arequipa,0.0185892303414191,proportion,1270.1,68323.4,510,13,False,True,publish
+COMB_P01_P02,F6_geography,Ayacucho,0.0064213670861863826,proportion,438.7,68323.4,510,12,False,True,publish
+COMB_P01_P02,F6_geography,Cajamarca,0.018678201057716313,proportion,1276.2,68323.4,510,18,False,True,publish
+COMB_P01_P02,F6_geography,Cusco,0.028011599892394393,proportion,1913.8,68323.4,510,16,False,True,publish
+COMB_P01_P02,F6_geography,Huancavelica,0.0009828968958348404,proportion,67.2,68323.4,510,7,False,True,publish
+COMB_P01_P02,F6_geography,Huanuco,0.005867826304549897,proportion,400.9,68323.4,510,11,False,True,publish
+COMB_P01_P02,F6_geography,Ica,0.018704976163586212,proportion,1278.0,68323.4,510,19,False,True,publish
+COMB_P01_P02,F6_geography,Junin,0.015838885836796938,proportion,1082.2,68323.4,510,13,False,True,publish
+COMB_P01_P02,F6_geography,La Libertad,0.04491082905936959,proportion,3068.5,68323.4,510,30,False,False,publish
+COMB_P01_P02,F6_geography,Lambayeque,0.031092130886204168,proportion,2124.3,68323.4,510,24,False,True,publish
+COMB_P01_P02,F6_geography,Lima (incl. Callao),0.024939064184078593,proportion,1703.9,68323.4,510,5,False,True,publish
+COMB_P01_P02,F6_geography,Lima Metropolitana y Callao,0.7107907428930377,proportion,48563.6,68323.4,510,171,False,False,publish
+COMB_P01_P02,F6_geography,Loreto,0.005394560981650136,proportion,368.6,68323.4,510,8,False,True,publish
+COMB_P01_P02,F6_geography,Madre de Dios,0.0025807395630506142,proportion,176.3,68323.4,510,10,False,True,publish
+COMB_P01_P02,F6_geography,Moquegua,0.0030376601785177823,proportion,207.5,68323.4,510,17,False,True,publish
+COMB_P01_P02,F6_geography,Pasco,0.002329456915147926,proportion,159.2,68323.4,510,10,False,True,publish
+COMB_P01_P02,F6_geography,Piura,0.02569453817578196,proportion,1755.5,68323.4,510,24,False,True,publish
+COMB_P01_P02,F6_geography,Puno,0.003455465224362232,proportion,236.1,68323.4,510,6,False,True,publish
+COMB_P01_P02,F6_geography,San Martin,0.006271314971564253,proportion,428.5,68323.4,510,27,False,True,publish
+COMB_P01_P02,F6_geography,Tacna,0.004804638378061447,proportion,328.3,68323.4,510,8,False,True,publish
+COMB_P01_P02,F6_geography,Tumbes,0.002983388202019865,proportion,203.8,68323.4,510,5,False,True,publish
+COMB_P01_P02,F6_geography,Ucayali,0.002576186477575449,proportion,176.0,68323.4,510,5,False,True,publish
+COMB_P01_P02,F7_women,women,0.16830560809543038,proportion,11499.2,68323.4,510,77,False,False,publish
+COMB_P01_P02,F7_university_degree,"C366 in 11,12",1.0,proportion,68323.4,68323.4,510,510,False,False,publish
+COMB_P01_P02,F7_median_age,years,38.0,years,,68323.4,510,,False,False,publish
+COMB_P01_P02,F8_median_labour_income,PEN_per_month,4000.0,PEN_month,,68323.4,510,,False,False,publish
+COMB_P01_P02,F8_income_vs_all_employed,ratio,3.076923076923077,ratio,,68323.4,510,,False,False,publish
+COMB_P01_P02,F8b_median_total_labour_income_ingtrabw,PEN_per_month,4999.0,PEN_month,,68323.4,510,,False,False,publish
+COMB_P01_P02,F6_rural_share,rural,0.02061526909861122,proportion,1408.5,68323.4,510,6,False,True,publish
+INFO_3432,F3_position,private_employee,0.5074715938618155,proportion,32066.7,63189.1,507,233,False,False,publish
+INFO_3432,F3_position,government_employee,0.02814105246726219,proportion,1778.2,63189.1,507,11,False,True,publish
+INFO_3432,F3_position,self_employed,0.40401212639435397,proportion,25529.1,63189.1,507,218,False,False,publish
+INFO_3432,F3_position,employer,0.03767565462451677,proportion,2380.7,63189.1,507,25,False,True,publish
+INFO_3432,F3_position,other_family_domestic_unpaid,0.02269957265205152,proportion,1434.4,63189.1,507,20,False,True,publish
+INFO_3432,F4_company_size,1_alone,0.3790033170724208,proportion,23948.9,63189.1,507,198,False,False,publish
+INFO_3432,F4_company_size,2_10,0.32969909922372603,proportion,20833.4,63189.1,507,199,False,False,publish
+INFO_3432,F4_company_size,11_50,0.17923361394950804,proportion,11325.6,63189.1,507,68,False,False,publish
+INFO_3432,F4_company_size,51_200,0.049706736428889085,proportion,3140.9,63189.1,507,16,False,True,publish
+INFO_3432,F4_company_size,201_plus,0.06235723332545604,proportion,3940.3,63189.1,507,26,False,True,publish
+INFO_3432,F5_section_J_info_comm,J,0.04175910362669799,proportion,2638.7,63189.1,507,16,False,True,publish
+INFO_3432,F5_outside_tech,not_J,0.958240896373302,proportion,60550.3,63189.1,507,491,False,False,publish
+INFO_3432,F5_section,A,0.00047379523076226715,proportion,29.9,63189.1,507,1,False,True,publish
+INFO_3432,F5_section,B,0.0012052920372662519,proportion,76.2,63189.1,507,1,False,True,publish
+INFO_3432,F5_section,C,0.1712748338890328,proportion,10822.7,63189.1,507,102,False,False,publish
+INFO_3432,F5_section,E,0.002675395118694356,proportion,169.1,63189.1,507,1,False,True,publish
+INFO_3432,F5_section,F,0.006208895263396517,proportion,392.3,63189.1,507,6,False,True,publish
+INFO_3432,F5_section,G,0.0407219002461211,proportion,2573.2,63189.1,507,18,False,True,publish
+INFO_3432,F5_section,J,0.04175910362669799,proportion,2638.7,63189.1,507,16,False,True,publish
+INFO_3432,F5_section,K,0.007047951577498576,proportion,445.4,63189.1,507,2,False,True,publish
+INFO_3432,F5_section,L,0.0035091675820509097,proportion,221.7,63189.1,507,2,False,True,publish
+INFO_3432,F5_section,M,0.5997260417811714,proportion,37896.1,63189.1,507,289,False,False,publish
+INFO_3432,F5_section,N,0.002522414129818434,proportion,159.4,63189.1,507,3,False,True,publish
+INFO_3432,F5_section,O,0.02741468317682218,proportion,1732.3,63189.1,507,10,False,True,publish
+INFO_3432,F5_section,P,0.034022084417845294,proportion,2149.8,63189.1,507,15,False,True,publish
+INFO_3432,F5_section,Q,0.015223149878842445,proportion,961.9,63189.1,507,6,False,True,publish
+INFO_3432,F5_section,R,0.002968188578303968,proportion,187.6,63189.1,507,6,False,True,publish
+INFO_3432,F5_section,S,0.04324710346567537,proportion,2732.7,63189.1,507,29,False,True,publish
+INFO_3432,F6_geography,Amazonas,0.002062578758717557,proportion,130.3,63189.1,507,14,False,True,publish
+INFO_3432,F6_geography,Ancash,0.010792453249146444,proportion,682.0,63189.1,507,25,False,True,publish
+INFO_3432,F6_geography,Apurimac,0.007401473415450239,proportion,467.7,63189.1,507,8,False,True,publish
+INFO_3432,F6_geography,Arequipa,0.06676847248593099,proportion,4219.0,63189.1,507,39,False,False,publish
+INFO_3432,F6_geography,Ayacucho,0.0067924999234141425,proportion,429.2,63189.1,507,14,False,True,publish
+INFO_3432,F6_geography,Cajamarca,0.028106888711632406,proportion,1776.0,63189.1,507,12,False,True,publish
+INFO_3432,F6_geography,Cusco,0.017976468942916816,proportion,1135.9,63189.1,507,14,False,True,publish
+INFO_3432,F6_geography,Huancavelica,0.0007769181021053268,proportion,49.1,63189.1,507,5,False,True,publish
+INFO_3432,F6_geography,Huanuco,0.00985876906566681,proportion,623.0,63189.1,507,10,False,True,publish
+INFO_3432,F6_geography,Ica,0.01902219243742905,proportion,1202.0,63189.1,507,12,False,True,publish
+INFO_3432,F6_geography,Junin,0.021228995724184508,proportion,1341.4,63189.1,507,13,False,True,publish
+INFO_3432,F6_geography,La Libertad,0.02499827434933845,proportion,1579.6,63189.1,507,19,False,True,publish
+INFO_3432,F6_geography,Lambayeque,0.02329677936103763,proportion,1472.1,63189.1,507,24,False,True,publish
+INFO_3432,F6_geography,Lima (incl. Callao),0.02516061485026396,proportion,1589.9,63189.1,507,3,False,True,publish
+INFO_3432,F6_geography,Lima Metropolitana y Callao,0.6354387102526935,proportion,40152.8,63189.1,507,160,False,False,publish
+INFO_3432,F6_geography,Loreto,0.011980602520759496,proportion,757.0,63189.1,507,18,False,True,publish
+INFO_3432,F6_geography,Madre de Dios,0.002438178503984464,proportion,154.1,63189.1,507,8,False,True,publish
+INFO_3432,F6_geography,Moquegua,0.0027914835104062836,proportion,176.4,63189.1,507,8,False,True,publish
+INFO_3432,F6_geography,Pasco,0.0008950350761884614,proportion,56.6,63189.1,507,7,False,True,publish
+INFO_3432,F6_geography,Piura,0.040447051100068694,proportion,2555.8,63189.1,507,11,False,True,publish
+INFO_3432,F6_geography,Puno,0.009673182099091791,proportion,611.2,63189.1,507,10,False,True,publish
+INFO_3432,F6_geography,San Martin,0.007639543259435177,proportion,482.7,63189.1,507,24,False,True,publish
+INFO_3432,F6_geography,Tacna,0.016607342345497995,proportion,1049.4,63189.1,507,29,False,True,publish
+INFO_3432,F6_geography,Tumbes,0.003021209783870606,proportion,190.9,63189.1,507,13,False,True,publish
+INFO_3432,F6_geography,Ucayali,0.004824282170769166,proportion,304.8,63189.1,507,7,False,True,publish
+INFO_3432,F7_women,women,0.37305290208529457,proportion,23572.9,63189.1,507,169,False,False,publish
+INFO_3432,F7_university_degree,"C366 in 11,12",0.1980793483469628,proportion,12516.4,63189.1,507,96,False,False,publish
+INFO_3432,F7_median_age,years,31.0,years,,63189.1,507,,False,False,publish
+INFO_3432,F8_median_labour_income,PEN_per_month,1500.0,PEN_month,,61754.7,487,,False,False,publish
+INFO_3432,F8_income_vs_all_employed,ratio,1.1538461538461537,ratio,,61754.7,487,,False,False,publish
+INFO_3432,F8b_median_total_labour_income_ingtrabw,PEN_per_month,1600.0,PEN_month,,61754.7,487,,False,False,publish
+INFO_3432,F6_rural_share,rural,0.01861968038073223,proportion,1176.6,63189.1,507,5,False,True,publish
+INFO_2163,F3_position,private_employee,,proportion,,920.9,3,3,True,False,suppressed_unreliable
+INFO_2163,F3_position,government_employee,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F3_position,self_employed,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F3_position,employer,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F3_position,other_family_domestic_unpaid,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F4_company_size,1_alone,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F4_company_size,2_10,,proportion,,920.9,3,3,True,False,suppressed_unreliable
+INFO_2163,F4_company_size,11_50,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F4_company_size,51_200,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F4_company_size,201_plus,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F5_section_J_info_comm,J,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2163,F5_outside_tech,not_J,,proportion,,920.9,3,3,True,False,suppressed_unreliable
+INFO_2163,F5_section,C,,proportion,,920.9,3,1,True,False,suppressed_unreliable
+INFO_2163,F5_section,M,,proportion,,920.9,3,2,True,False,suppressed_unreliable
+INFO_2163,F6_geography,Lima Metropolitana y Callao,,proportion,,920.9,3,3,True,False,suppressed_unreliable
+INFO_2163,F7_women,women,,proportion,,920.9,3,3,True,False,suppressed_unreliable
+INFO_2163,F7_university_degree,"C366 in 11,12",,proportion,,920.9,3,3,True,False,suppressed_unreliable
+INFO_2163,F7_median_age,years,,years,,920.9,3,,True,False,suppressed_unreliable
+INFO_2163,F8_median_labour_income,PEN_per_month,,PEN_month,,920.9,3,,True,False,suppressed_unreliable
+INFO_2163,F8_income_vs_all_employed,ratio,,ratio,,920.9,3,,True,False,suppressed_unreliable
+INFO_2163,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,920.9,3,,True,False,suppressed_unreliable
+INFO_2163,F6_rural_share,rural,,proportion,,920.9,3,0,True,False,suppressed_unreliable
+INFO_2166,F3_position,private_employee,,proportion,,1595.7,6,3,True,False,suppressed_unreliable
+INFO_2166,F3_position,government_employee,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F3_position,self_employed,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F3_position,employer,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F3_position,other_family_domestic_unpaid,,proportion,,1595.7,6,0,True,False,suppressed_unreliable
+INFO_2166,F4_company_size,1_alone,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F4_company_size,2_10,,proportion,,1595.7,6,2,True,False,suppressed_unreliable
+INFO_2166,F4_company_size,11_50,,proportion,,1595.7,6,2,True,False,suppressed_unreliable
+INFO_2166,F4_company_size,51_200,,proportion,,1595.7,6,0,True,False,suppressed_unreliable
+INFO_2166,F4_company_size,201_plus,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F5_section_J_info_comm,J,,proportion,,1595.7,6,0,True,False,suppressed_unreliable
+INFO_2166,F5_outside_tech,not_J,,proportion,,1595.7,6,6,True,False,suppressed_unreliable
+INFO_2166,F5_section,C,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F5_section,G,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F5_section,M,,proportion,,1595.7,6,3,True,False,suppressed_unreliable
+INFO_2166,F5_section,O,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F6_geography,Amazonas,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F6_geography,La Libertad,,proportion,,1595.7,6,1,True,False,suppressed_unreliable
+INFO_2166,F6_geography,Lima Metropolitana y Callao,,proportion,,1595.7,6,4,True,False,suppressed_unreliable
+INFO_2166,F7_women,women,,proportion,,1595.7,6,3,True,False,suppressed_unreliable
+INFO_2166,F7_university_degree,"C366 in 11,12",,proportion,,1595.7,6,6,True,False,suppressed_unreliable
+INFO_2166,F7_median_age,years,,years,,1595.7,6,,True,False,suppressed_unreliable
+INFO_2166,F8_median_labour_income,PEN_per_month,,PEN_month,,1595.7,6,,True,False,suppressed_unreliable
+INFO_2166,F8_income_vs_all_employed,ratio,,ratio,,1595.7,6,,True,False,suppressed_unreliable
+INFO_2166,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,1595.7,6,,True,False,suppressed_unreliable
+INFO_2166,F6_rural_share,rural,,proportion,,1595.7,6,0,True,False,suppressed_unreliable
+INFO_DESIGN_2163_2166_3432,F3_position,private_employee,0.5185509694336037,proportion,34071.8,65705.7,516,239,False,False,publish
+INFO_DESIGN_2163_2166_3432,F3_position,government_employee,0.027264853267318923,proportion,1791.5,65705.7,516,12,False,True,publish
+INFO_DESIGN_2163_2166_3432,F3_position,self_employed,0.39059376777613636,proportion,25664.2,65705.7,516,219,False,False,publish
+INFO_DESIGN_2163_2166_3432,F3_position,employer,0.041760275034212646,proportion,2743.9,65705.7,516,26,False,True,publish
+INFO_DESIGN_2163_2166_3432,F3_position,other_family_domestic_unpaid,0.02183013448872839,proportion,1434.4,65705.7,516,20,False,True,publish
+INFO_DESIGN_2163_2166_3432,F4_company_size,1_alone,0.36654284491211386,proportion,24084.0,65705.7,516,199,False,False,publish
+INFO_DESIGN_2163_2166_3432,F4_company_size,2_10,0.33938008153580307,proportion,22299.2,65705.7,516,204,False,False,publish
+INFO_DESIGN_2163_2166_3432,F4_company_size,11_50,0.1861037153650527,proportion,12228.1,65705.7,516,70,False,False,publish
+INFO_DESIGN_2163_2166_3432,F4_company_size,51_200,0.047802870911772634,proportion,3140.9,65705.7,516,16,False,True,publish
+INFO_DESIGN_2163_2166_3432,F4_company_size,201_plus,0.0601704872752578,proportion,3953.5,65705.7,516,27,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section_J_info_comm,J,0.040159648037126114,proportion,2638.7,65705.7,516,16,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_outside_tech,not_J,0.9598403519628739,proportion,63067.0,65705.7,516,500,False,False,publish
+INFO_DESIGN_2163_2166_3432,F5_section,A,0.00045564794395913975,proportion,29.9,65705.7,516,1,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,B,0.0011591269877645792,proportion,76.2,65705.7,516,1,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,C,0.17374535981526315,proportion,11416.1,65705.7,516,104,False,False,publish
+INFO_DESIGN_2163_2166_3432,F5_section,E,0.0025729222372081455,proportion,169.1,65705.7,516,1,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,F,0.005971082394545644,proportion,392.3,65705.7,516,6,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,G,0.047120952662348656,proportion,3096.1,65705.7,516,19,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,J,0.040159648037126114,proportion,2638.7,65705.7,516,16,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,K,0.006778001205803938,proportion,445.4,65705.7,516,2,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,L,0.0033747595795700484,proportion,221.7,65705.7,516,2,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,M,0.597866192157733,proportion,39283.2,65705.7,516,294,False,False,publish
+INFO_DESIGN_2163_2166_3432,F5_section,N,0.0024258007203157026,proportion,159.4,65705.7,516,3,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,O,0.026566305345653334,proportion,1745.6,65705.7,516,11,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,P,0.03271897184202318,proportion,2149.8,65705.7,516,15,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,Q,0.01464007337456044,proportion,961.9,65705.7,516,6,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,R,0.0028545011329289085,proportion,187.6,65705.7,516,6,False,True,publish
+INFO_DESIGN_2163_2166_3432,F5_section,S,0.04159065456319596,proportion,2732.7,65705.7,516,29,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Amazonas,0.002185236261099854,proportion,143.6,65705.7,516,15,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Ancash,0.010379081117674152,proportion,682.0,65705.7,516,25,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Apurimac,0.007117982463842722,proportion,467.7,65705.7,516,8,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Arequipa,0.06421110900707216,proportion,4219.0,65705.7,516,39,False,False,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Ayacucho,0.006532333851201678,proportion,429.2,65705.7,516,14,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Cajamarca,0.0270303397354577,proportion,1776.0,65705.7,516,12,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Cusco,0.017287934917173717,proportion,1135.9,65705.7,516,14,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Huancavelica,0.000747160614680298,proportion,49.1,65705.7,516,5,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Huanuco,0.009481158870071097,proportion,623.0,65705.7,516,10,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Ica,0.018293605150404388,proportion,1202.0,65705.7,516,12,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Junin,0.020415883542094088,proportion,1341.4,65705.7,516,13,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,La Libertad,0.026096889792580184,proportion,1714.7,65705.7,516,20,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Lambayeque,0.02240446700919367,proportion,1472.1,65705.7,516,24,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Lima (incl. Callao),0.024196913942814622,proportion,1589.9,65705.7,516,3,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Lima Metropolitana y Callao,0.6471443661197961,proportion,42521.1,65705.7,516,167,False,False,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Loreto,0.011521721941339767,proportion,757.0,65705.7,516,18,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Madre de Dios,0.002344791484199904,proportion,154.1,65705.7,516,8,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Moquegua,0.0026845642157818047,proportion,176.4,65705.7,516,8,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Pasco,0.000860753476940788,proportion,56.6,65705.7,516,7,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Piura,0.038897849696177836,proportion,2555.8,65705.7,516,11,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Puno,0.00930268024839001,proportion,611.2,65705.7,516,10,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,San Martin,0.007346933765770958,proportion,482.7,65705.7,516,24,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Tacna,0.01597124855431187,proportion,1049.4,65705.7,516,29,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Tumbes,0.0029054915223083143,proportion,190.9,65705.7,516,13,False,True,publish
+INFO_DESIGN_2163_2166_3432,F6_geography,Ucayali,0.0046395026996222935,proportion,304.8,65705.7,516,7,False,True,publish
+INFO_DESIGN_2163_2166_3432,F7_women,women,0.3833780945566196,proportion,25190.1,65705.7,516,175,False,False,publish
+INFO_DESIGN_2163_2166_3432,F7_university_degree,"C366 in 11,12",0.22879448246826947,proportion,15033.1,65705.7,516,105,False,False,publish
+INFO_DESIGN_2163_2166_3432,F7_median_age,years,31.0,years,,65705.7,516,,False,False,publish
+INFO_DESIGN_2163_2166_3432,F8_median_labour_income,PEN_per_month,1500.0,PEN_month,,64271.4,496,,False,False,publish
+INFO_DESIGN_2163_2166_3432,F8_income_vs_all_employed,ratio,1.1538461538461537,ratio,,64271.4,496,,False,False,publish
+INFO_DESIGN_2163_2166_3432,F8b_median_total_labour_income_ingtrabw,PEN_per_month,1642.0,PEN_month,,64271.4,496,,False,False,publish
+INFO_DESIGN_2163_2166_3432,F6_rural_share,rural,0.017906510095104647,proportion,1176.6,65705.7,516,5,False,True,publish
+INFO_1150,F3_position,private_employee,,proportion,,338.2,3,2,True,False,suppressed_unreliable
+INFO_1150,F3_position,government_employee,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F3_position,self_employed,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F3_position,employer,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F3_position,other_family_domestic_unpaid,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F4_company_size,1_alone,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F4_company_size,2_10,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F4_company_size,11_50,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F4_company_size,51_200,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F4_company_size,201_plus,,proportion,,338.2,3,2,True,False,suppressed_unreliable
+INFO_1150,F5_section_J_info_comm,J,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F5_outside_tech,not_J,,proportion,,338.2,3,3,True,False,suppressed_unreliable
+INFO_1150,F5_section,C,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F5_section,G,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F5_section,R,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F6_geography,Amazonas,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F6_geography,Lima Metropolitana y Callao,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F6_geography,San Martin,,proportion,,338.2,3,1,True,False,suppressed_unreliable
+INFO_1150,F7_women,women,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+INFO_1150,F7_university_degree,"C366 in 11,12",,proportion,,338.2,3,2,True,False,suppressed_unreliable
+INFO_1150,F7_median_age,years,,years,,338.2,3,,True,False,suppressed_unreliable
+INFO_1150,F8_median_labour_income,PEN_per_month,,PEN_month,,338.2,3,,True,False,suppressed_unreliable
+INFO_1150,F8_income_vs_all_employed,ratio,,ratio,,338.2,3,,True,False,suppressed_unreliable
+INFO_1150,F8b_median_total_labour_income_ingtrabw,PEN_per_month,,PEN_month,,338.2,3,,True,False,suppressed_unreliable
+INFO_1150,F6_rural_share,rural,,proportion,,338.2,3,0,True,False,suppressed_unreliable
+REF_ALL_EMPLOYED,F3_position,private_employee,0.3894367780471734,proportion,6844409.8,17575150.0,193008,66677,False,False,publish
+REF_ALL_EMPLOYED,F3_position,government_employee,0.0916548724078054,proportion,1610848.1,17575150.0,193008,27485,False,False,publish
+REF_ALL_EMPLOYED,F3_position,self_employed,0.36785854738837176,proportion,6465169.2,17575150.0,193008,70989,False,False,publish
+REF_ALL_EMPLOYED,F3_position,employer,0.03632327592966356,proportion,638387.0,17575150.0,193008,7184,False,False,publish
+REF_ALL_EMPLOYED,F3_position,other_family_domestic_unpaid,0.1147265262269858,proportion,2016335.9,17575150.0,193008,20673,False,False,publish
+REF_ALL_EMPLOYED,F4_company_size,1_alone,0.2583738902317053,proportion,4540959.9,17575150.0,193008,50763,False,False,publish
+REF_ALL_EMPLOYED,F4_company_size,2_10,0.45862361525547035,proportion,8060378.8,17575150.0,193008,85620,False,False,publish
+REF_ALL_EMPLOYED,F4_company_size,11_50,0.07859782963469561,proportion,1381368.6,17575150.0,193008,12680,False,False,publish
+REF_ALL_EMPLOYED,F4_company_size,51_200,0.04263852037241406,proportion,749378.4,17575150.0,193008,5823,False,False,publish
+REF_ALL_EMPLOYED,F4_company_size,201_plus,0.16176614450571458,proportion,2843064.3,17575150.0,193008,38122,False,False,publish
+REF_ALL_EMPLOYED,F5_section_J_info_comm,J,0.00771589336254392,proportion,135608.0,17575150.0,193008,1145,False,False,publish
+REF_ALL_EMPLOYED,F5_outside_tech,not_J,0.992284106637456,proportion,17439542.0,17575150.0,193008,191863,False,False,publish
+REF_ALL_EMPLOYED,F5_section,A,0.22988462939332932,proportion,4040256.8,17575150.0,193008,33778,False,False,publish
+REF_ALL_EMPLOYED,F5_section,B,0.01020926299145804,proportion,179429.3,17575150.0,193008,1989,False,False,publish
+REF_ALL_EMPLOYED,F5_section,C,0.08639195348858819,proportion,1518351.5,17575150.0,193008,14217,False,False,publish
+REF_ALL_EMPLOYED,F5_section,D,0.001362264295561999,proportion,23942.0,17575150.0,193008,277,False,False,publish
+REF_ALL_EMPLOYED,F5_section,E,0.005208360137859115,proportion,91537.7,17575150.0,193008,976,False,False,publish
+REF_ALL_EMPLOYED,F5_section,F,0.06655194833917907,proportion,1169660.5,17575150.0,193008,12685,False,False,publish
+REF_ALL_EMPLOYED,F5_section,G,0.18976898177376406,proportion,3335218.3,17575150.0,193008,40148,False,False,publish
+REF_ALL_EMPLOYED,F5_section,H,0.07926046939550022,proportion,1393014.6,17575150.0,193008,14941,False,False,publish
+REF_ALL_EMPLOYED,F5_section,I,0.07457716247095454,proportion,1310704.8,17575150.0,193008,16767,False,False,publish
+REF_ALL_EMPLOYED,F5_section,J,0.00771589336254392,proportion,135608.0,17575150.0,193008,1145,False,False,publish
+REF_ALL_EMPLOYED,F5_section,K,0.009660306210682174,proportion,169781.3,17575150.0,193008,1872,False,False,publish
+REF_ALL_EMPLOYED,F5_section,L,0.0025661719344340253,proportion,45100.9,17575150.0,193008,463,False,False,publish
+REF_ALL_EMPLOYED,F5_section,M,0.026002073496928093,proportion,456990.3,17575150.0,193008,5020,False,False,publish
+REF_ALL_EMPLOYED,F5_section,N,0.029597101932612526,proportion,520173.5,17575150.0,193008,4746,False,False,publish
+REF_ALL_EMPLOYED,F5_section,O,0.04448654200920325,proportion,781857.6,17575150.0,193008,12268,False,False,publish
+REF_ALL_EMPLOYED,F5_section,P,0.047370063815091,proportion,832536.0,17575150.0,193008,13343,False,False,publish
+REF_ALL_EMPLOYED,F5_section,Q,0.03180798600411232,proportion,559030.1,17575150.0,193008,7492,False,False,publish
+REF_ALL_EMPLOYED,F5_section,R,0.009229984637446308,proportion,162218.4,17575150.0,193008,1878,False,False,publish
+REF_ALL_EMPLOYED,F5_section,S,0.027100421418563322,proportion,476294.0,17575150.0,193008,5258,False,False,publish
+REF_ALL_EMPLOYED,F5_section,T,0.021206960654458276,proportion,372715.5,17575150.0,193008,3741,False,False,publish
+REF_ALL_EMPLOYED,F5_section,U,4.1462237730162254e-05,proportion,728.7,17575150.0,193008,4,False,True,publish
+REF_ALL_EMPLOYED,F6_geography,Amazonas,0.012472391830540065,proportion,219204.2,17575150.0,193008,10382,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Ancash,0.03425793210997216,proportion,602088.3,17575150.0,193008,9799,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Apurimac,0.014017916616382749,proportion,246367.0,17575150.0,193008,6109,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Arequipa,0.04419663213805811,proportion,776762.4,17575150.0,193008,7805,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Ayacucho,0.020735244978013538,proportion,364425.0,17575150.0,193008,6180,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Cajamarca,0.04518352997330084,proportion,794107.3,17575150.0,193008,6174,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Cusco,0.044370991105086396,proportion,779826.8,17575150.0,193008,6147,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Huancavelica,0.010138955824379832,proportion,178193.7,17575150.0,193008,6157,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Huanuco,0.020986483600175174,proportion,368840.6,17575150.0,193008,5357,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Ica,0.029361520609513216,proportion,516033.1,17575150.0,193008,7265,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Junin,0.037982201974268145,proportion,667542.9,17575150.0,193008,6103,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,La Libertad,0.06832164682429516,proportion,1200763.2,17575150.0,193008,9144,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Lambayeque,0.038593686748404236,proportion,678289.8,17575150.0,193008,7182,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Lima (incl. Callao),0.04061470925037763,proportion,713809.6,17575150.0,193008,2295,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Lima Metropolitana y Callao,0.3198444092483737,proportion,5621313.5,17575150.0,193008,23337,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Loreto,0.02941705749263282,proportion,517009.2,17575150.0,193008,8212,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Madre de Dios,0.006395827840652213,proportion,112407.6,17575150.0,193008,6317,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Moquegua,0.006164182104422269,proportion,108336.4,17575150.0,193008,5965,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Pasco,0.007720624370692185,proportion,135691.1,17575150.0,193008,4809,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Piura,0.06371413886164974,proportion,1119785.5,17575150.0,193008,8941,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Puno,0.037730786385416396,proportion,663124.2,17575150.0,193008,7806,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,San Martin,0.0291792060154215,proportion,512828.9,17575150.0,193008,12636,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Tacna,0.012087540094144807,proportion,212440.3,17575150.0,193008,5725,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Tumbes,0.007727786298174965,proportion,135817.0,17575150.0,193008,6033,False,False,publish
+REF_ALL_EMPLOYED,F6_geography,Ucayali,0.018784597705652037,proportion,330142.1,17575150.0,193008,7128,False,False,publish
+REF_ALL_EMPLOYED,F7_women,women,0.4451554181720373,proportion,7823673.3,17575150.0,193008,92705,False,False,publish
+REF_ALL_EMPLOYED,F7_university_degree,"C366 in 11,12",0.1511532567013168,proportion,2656541.2,17575150.0,193008,35769,False,False,publish
+REF_ALL_EMPLOYED,F7_median_age,years,40.0,years,,17575150.0,193008,,False,False,publish
+REF_ALL_EMPLOYED,F8_median_labour_income,PEN_per_month,1300.0,PEN_month,,15929366.4,176052,,False,False,publish
+REF_ALL_EMPLOYED,F8_income_vs_all_employed,ratio,1.0,ratio,,15929366.4,176052,,False,False,publish
+REF_ALL_EMPLOYED,F8b_median_total_labour_income_ingtrabw,PEN_per_month,1414.0,PEN_month,,15929694.6,176055,,False,False,publish
+REF_ALL_EMPLOYED,F6_rural_share,rural,0.18708989342429702,proportion,3288132.9,17575150.0,193008,26484,False,False,publish

@@ -1,0 +1,11 @@
+group_id,source,cno2015_codes,records,unique_persons,employed,cv,ci95_low,ci95_high,status,in_rings
+INFO_2163,EPEN 2025,2163,3,3,,,,,suppressed_unreliable,no
+INFO_2163,ENAHO 2025,2163,21,21,,,,,suppressed_unreliable,no
+INFO_2166,EPEN 2025,2166,6,6,,,,,suppressed_unreliable,no
+INFO_2166,ENAHO 2025,2166,102,102,48574.2,0.14634139255936904,34641.9,62506.4,publish_enaho_separate,no
+INFO_3432,EPEN 2025,3432,507,425,63189.1,0.07399947245672822,54024.3,72353.8,publish,no
+INFO_3432,ENAHO 2025,3432,13,13,,,,,suppressed_unreliable,no
+INFO_DESIGN_2163_2166_3432,EPEN 2025,2163;2166;3432,516,434,65705.7,0.07250042417959167,56369.0,75042.4,publish,no
+INFO_DESIGN_2163_2166_3432,ENAHO 2025,2163;2166;3432,136,136,65524.9,0.12428407283119255,49563.5,81486.3,publish_enaho_separate,no
+P05,EPEN 2025,2163;2166,9,9,,,,,suppressed_unreliable,persona 5 (Adjacent)
+P05,ENAHO 2025,2163;2166,123,123,60305.1,0.13233731191384204,44663.4,75946.8,publish_enaho_separate,"persona 5 (Adjacent) - ENAHO result, separate"
