@@ -1,0 +1,22 @@
+{
+  "country": "PE",
+  "day": 5,
+  "O": {
+    "source": "ERESTEL 2025 / OSIPTEL",
+    "records": 18,
+    "status": "published_context_indicators"
+  },
+  "Q": {
+    "department_features": 25,
+    "district_features": 1891,
+    "status": "IGN geometries with geographic keys"
+  },
+  "P": {
+    "status": "pending",
+    "reason": "No programme/sponsorship evidence supplied."
+  },
+  "R": {
+    "status": "partial",
+    "reason": "Layer-specific reproducibility checks exist; a cross-layer business reconciliation is not yet approved."
+  }
+}
