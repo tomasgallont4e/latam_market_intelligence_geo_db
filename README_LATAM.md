@@ -7,7 +7,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 ## Perú en el mapa
 
 - Las capas A–R están disponibles en el selector. Una capa sin cifras publicadas se conserva como pendiente, nunca como cero.
-- Los indicadores y las 13 personas se presentan como datos nacionales. No se interpolan ni se asignan a departamentos, provincias ni distritos.
+- Los indicadores se conservan como datos nacionales cuando su fuente no aporta geografía. Las 13 personas pueden verse por departamento como **estimación modelada**, no como observación: se reparte cada total nacional publicado con pesos verificables de RUC TIC y matrícula secundaria. Las personas suprimidas por precisión permanecen sin estimación.
 - **Departamentos del Perú** es una coropleta con 25 límites referenciales del IGN y cuatro indicadores con llave territorial verificable: RUC TIC activos, matrícula secundaria objetivo, servicios de secundaria y matrícula secundaria total. Sus nombres se muestran en la interfaz; no como letras de capa.
 - La capa `Servicios educativos` representa 15.700 puntos de secundaria EBR. Los códigos `ubigeo` sirven para filtrar o enlazar datos, pero el paquete no incluye polígonos distritales certificados.
 - Las cifras visibles mantienen periodo, estado, fuente y limitación declarada por el consolidado.
@@ -17,6 +17,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 - `geo_departments_ign_2025.geojson` contiene 25 polígonos WGS84 de límites departamentales referenciales del Instituto Geográfico Nacional (IGN), simplificados solo para visualización web. La fuente oficial es el conjunto público **Límites Departamentales**, escala 1:100.000.
 - Los códigos departamentales IGN se unen a `fact_secondary_region_2025.json` de MINEDU; las 25 geometrías tienen datos de educación secundaria 2025.
 - Los nombres departamentales IGN se unen a los agregados SUNAT de `fact_ruc_tic_district_202604.json`; las 25 geometrías tienen RUC TIC. Tres RUC cuyo departamento figura como `NO DISPONIBLE` se excluyen del mapa y del total territorial, pues no se les puede asignar ubicación.
+- Para cada persona publicable, el modelo preserva su total nacional y asigna departamentos con pesos por anillo: **Core** 80% RUC TIC / 20% matrícula secundaria; **Adjacent** 60% / 40%; **Extended** 40% / 60%. Esta es una proxy de planificación territorial y no una estimación departamental de INEI.
 
 ## Datos que aún faltan en Perú
 
@@ -47,4 +48,4 @@ La carpeta `data/peru-map/research_layers_B_R/` conserva los contratos por capa.
 
 ## Restricciones metodológicas
 
-Los conteos de personas de Perú son estimaciones nacionales de ocupación, no TAM/SAM/SOM ni demanda comercial. Los valores `null` significan suprimido, no disponible o pendiente. No deben convertirse a cero ni utilizarse para colorear geografía subnacional.
+Los conteos de personas de Perú son estimaciones nacionales de ocupación, no TAM/SAM/SOM ni demanda comercial. Los valores `null` significan suprimido, no disponible o pendiente y nunca se convierten a cero. La coropleta de persona es una proxy modelada y se etiqueta como tal; no sustituye una estimación departamental observada.
