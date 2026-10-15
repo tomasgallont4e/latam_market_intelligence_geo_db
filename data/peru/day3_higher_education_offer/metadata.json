@@ -1,0 +1,15 @@
+{
+  "country": "PE",
+  "source": "MINEDU Padron web 20260918",
+  "reference_date": "2026-09-18",
+  "level_codes": [
+    "K0",
+    "M0",
+    "P0",
+    "S0",
+    "T0"
+  ],
+  "departments": 25,
+  "scope": "institutional_offer_not_enrollment",
+  "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+}

@@ -1,0 +1,837 @@
+[
+  {
+    "department": "AMAZONAS",
+    "higher_nonuniversity_services": 21,
+    "active_higher_nonuniversity_services": 21,
+    "public_services": 15,
+    "private_services": 6,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 1,
+        "active_services": 1
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 2,
+        "active_services": 2
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 16,
+        "active_services": 16
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "ANCASH",
+    "higher_nonuniversity_services": 87,
+    "active_higher_nonuniversity_services": 87,
+    "public_services": 41,
+    "private_services": 46,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 21,
+        "active_services": 21
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 6,
+        "active_services": 6
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 59,
+        "active_services": 59
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "APURIMAC",
+    "higher_nonuniversity_services": 33,
+    "active_higher_nonuniversity_services": 33,
+    "public_services": 21,
+    "private_services": 12,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 6,
+        "active_services": 6
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 23,
+        "active_services": 23
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "AREQUIPA",
+    "higher_nonuniversity_services": 135,
+    "active_higher_nonuniversity_services": 135,
+    "public_services": 24,
+    "private_services": 111,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 19,
+        "active_services": 19
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 2,
+        "active_services": 2
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 3,
+        "active_services": 3
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 7,
+        "active_services": 7
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 104,
+        "active_services": 104
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "AYACUCHO",
+    "higher_nonuniversity_services": 42,
+    "active_higher_nonuniversity_services": 42,
+    "public_services": 26,
+    "private_services": 16,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 5,
+        "active_services": 5
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 2,
+        "active_services": 2
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 5,
+        "active_services": 5
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 29,
+        "active_services": 29
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "CAJAMARCA",
+    "higher_nonuniversity_services": 82,
+    "active_higher_nonuniversity_services": 82,
+    "public_services": 38,
+    "private_services": 44,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 20,
+        "active_services": 20
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 58,
+        "active_services": 58
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "CALLAO",
+    "higher_nonuniversity_services": 34,
+    "active_higher_nonuniversity_services": 34,
+    "public_services": 5,
+    "private_services": 29,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 4,
+        "active_services": 4
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 2,
+        "active_services": 2
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 25,
+        "active_services": 25
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "CUSCO",
+    "higher_nonuniversity_services": 98,
+    "active_higher_nonuniversity_services": 98,
+    "public_services": 27,
+    "private_services": 71,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 28,
+        "active_services": 28
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 5,
+        "active_services": 5
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 5,
+        "active_services": 5
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 2,
+        "active_services": 2
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 58,
+        "active_services": 58
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "HUANCAVELICA",
+    "higher_nonuniversity_services": 25,
+    "active_higher_nonuniversity_services": 25,
+    "public_services": 21,
+    "private_services": 4,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 2,
+        "active_services": 2
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 20,
+        "active_services": 20
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "HUANUCO",
+    "higher_nonuniversity_services": 37,
+    "active_higher_nonuniversity_services": 37,
+    "public_services": 19,
+    "private_services": 18,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 9,
+        "active_services": 9
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 26,
+        "active_services": 26
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "ICA",
+    "higher_nonuniversity_services": 67,
+    "active_higher_nonuniversity_services": 67,
+    "public_services": 22,
+    "private_services": 45,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 16,
+        "active_services": 16
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 3,
+        "active_services": 3
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 45,
+        "active_services": 45
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "JUNIN",
+    "higher_nonuniversity_services": 103,
+    "active_higher_nonuniversity_services": 103,
+    "public_services": 38,
+    "private_services": 65,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 23,
+        "active_services": 23
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 4,
+        "active_services": 4
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 4,
+        "active_services": 4
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 72,
+        "active_services": 72
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "LA LIBERTAD",
+    "higher_nonuniversity_services": 124,
+    "active_higher_nonuniversity_services": 124,
+    "public_services": 40,
+    "private_services": 84,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 34,
+        "active_services": 34
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 4,
+        "active_services": 4
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 81,
+        "active_services": 81
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "LAMBAYEQUE",
+    "higher_nonuniversity_services": 99,
+    "active_higher_nonuniversity_services": 99,
+    "public_services": 15,
+    "private_services": 84,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 16,
+        "active_services": 16
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 77,
+        "active_services": 77
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "LIMA",
+    "higher_nonuniversity_services": 729,
+    "active_higher_nonuniversity_services": 729,
+    "public_services": 56,
+    "private_services": 673,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 70,
+        "active_services": 70
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 11,
+        "active_services": 11
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 8,
+        "active_services": 8
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 49,
+        "active_services": 49
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 591,
+        "active_services": 591
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "LORETO",
+    "higher_nonuniversity_services": 36,
+    "active_higher_nonuniversity_services": 36,
+    "public_services": 23,
+    "private_services": 13,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 6,
+        "active_services": 6
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 2,
+        "active_services": 2
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 26,
+        "active_services": 26
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "MADRE DE DIOS",
+    "higher_nonuniversity_services": 8,
+    "active_higher_nonuniversity_services": 8,
+    "public_services": 4,
+    "private_services": 4,
+    "levels": {
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 7,
+        "active_services": 7
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "MOQUEGUA",
+    "higher_nonuniversity_services": 22,
+    "active_higher_nonuniversity_services": 22,
+    "public_services": 14,
+    "private_services": 8,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 5,
+        "active_services": 5
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 16,
+        "active_services": 16
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "PASCO",
+    "higher_nonuniversity_services": 13,
+    "active_higher_nonuniversity_services": 13,
+    "public_services": 12,
+    "private_services": 1,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 11,
+        "active_services": 11
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "PIURA",
+    "higher_nonuniversity_services": 85,
+    "active_higher_nonuniversity_services": 85,
+    "public_services": 32,
+    "private_services": 53,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 16,
+        "active_services": 16
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 2,
+        "active_services": 2
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "S0": {
+        "name": "Escuela Superior Tecnológica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 63,
+        "active_services": 63
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "PUNO",
+    "higher_nonuniversity_services": 81,
+    "active_higher_nonuniversity_services": 81,
+    "public_services": 40,
+    "private_services": 41,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 24,
+        "active_services": 24
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 4,
+        "active_services": 4
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 2,
+        "active_services": 2
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 51,
+        "active_services": 51
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "SAN MARTIN",
+    "higher_nonuniversity_services": 47,
+    "active_higher_nonuniversity_services": 47,
+    "public_services": 16,
+    "private_services": 31,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 7,
+        "active_services": 7
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 3,
+        "active_services": 3
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 37,
+        "active_services": 37
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "TACNA",
+    "higher_nonuniversity_services": 22,
+    "active_higher_nonuniversity_services": 22,
+    "public_services": 6,
+    "private_services": 16,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 3,
+        "active_services": 3
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 17,
+        "active_services": 17
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "TUMBES",
+    "higher_nonuniversity_services": 9,
+    "active_higher_nonuniversity_services": 9,
+    "public_services": 5,
+    "private_services": 4,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 7,
+        "active_services": 7
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  },
+  {
+    "department": "UCAYALI",
+    "higher_nonuniversity_services": 26,
+    "active_higher_nonuniversity_services": 26,
+    "public_services": 12,
+    "private_services": 14,
+    "levels": {
+      "K0": {
+        "name": "Instituto Superior Pedagógico",
+        "services": 4,
+        "active_services": 4
+      },
+      "M0": {
+        "name": "Escuela Formación Artística",
+        "services": 1,
+        "active_services": 1
+      },
+      "P0": {
+        "name": "Escuela Superior Pedagógica",
+        "services": 1,
+        "active_services": 1
+      },
+      "T0": {
+        "name": "Instituto Superior Tecnológico",
+        "services": 20,
+        "active_services": 20
+      }
+    },
+    "reference_date": "2026-09-18",
+    "source": "MINEDU Padron web 20260918",
+    "scope": "institutional_offer_not_enrollment",
+    "caveat": "Includes K0, M0, P0, S0 and T0 only. Excludes universities and does not identify programme field, entrants, modality or ICT education."
+  }
+]

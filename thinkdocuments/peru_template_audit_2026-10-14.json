@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T13:22:55.927Z",
+  "generated_at": "2026-10-15T13:24:44.527Z",
   "checks": [
     {
       "id": "day1_package",
@@ -37,6 +37,12 @@
       "file": "data/peru/day3_sunedu/sunedu_licensed_universities_by_department.json",
       "pass": true,
       "note": "SUNEDU licensed university inventory"
+    },
+    {
+      "id": "day3_higher_offer",
+      "file": "data/peru/day3_higher_education_offer/higher_nonuniversity_offer_by_department_20260918.json",
+      "pass": true,
+      "note": "MINEDU higher non-university offer aggregate"
     },
     {
       "id": "day4_script",
@@ -87,7 +93,7 @@
     "day4_districts": 1211,
     "day4_local_departments": 25
   },
-  "passed": 13,
+  "passed": 14,
   "failed": 0,
   "not_completed": [
     "C/L university and programme-level data",

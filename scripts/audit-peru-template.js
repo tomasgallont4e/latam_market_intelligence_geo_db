@@ -8,6 +8,7 @@ const checks=[
  ['day3_script','scripts/build-peru-day3-l-partial.js',exists('scripts/build-peru-day3-l-partial.js'),'L partial builder'],
  ['day3_data','data/peru/day3_l_partial/l_nonuniversity_by_department_2025.json',exists('data/peru/day3_l_partial/l_nonuniversity_by_department_2025.json'),'MINEDU non-university aggregates'],
  ['day3_sunedu','data/peru/day3_sunedu/sunedu_licensed_universities_by_department.json',exists('data/peru/day3_sunedu/sunedu_licensed_universities_by_department.json'),'SUNEDU licensed university inventory'],
+ ['day3_higher_offer','data/peru/day3_higher_education_offer/higher_nonuniversity_offer_by_department_20260918.json',exists('data/peru/day3_higher_education_offer/higher_nonuniversity_offer_by_department_20260918.json'),'MINEDU higher non-university offer aggregate'],
  ['day4_script','scripts/build-peru-day4-dj-ruc.js',exists('scripts/build-peru-day4-dj-ruc.js'),'D/J RUC builder'],
  ['day4_data','data/peru/day4_dj_ruc/j_tic_ruc_by_district_202604.json',exists('data/peru/day4_dj_ruc/j_tic_ruc_by_district_202604.json'),'SUNAT RUC territorial aggregate'],
  ['day4_enaho','data/peru/day4_m_enaho/m_enaho_employment_by_department_2025.json',exists('data/peru/day4_m_enaho/m_enaho_employment_by_department_2025.json'),'ENAHO employed-resident aggregate'],
