@@ -1,0 +1,1280 @@
+{
+  "country": "PE",
+  "generated_at": "2026-10-15T15:35:53.959Z",
+  "purpose": "Template requirement matrix. A missing value remains unavailable; it is not converted to zero.",
+  "summary": {
+    "B": {
+      "requirements": 5,
+      "published": 4,
+      "pending": 1,
+      "statuses": [
+        "processed_low_sample"
+      ]
+    },
+    "C": {
+      "requirements": 4,
+      "published": 0,
+      "pending": 4,
+      "statuses": [
+        "partial_education_frame"
+      ]
+    },
+    "D": {
+      "requirements": 3,
+      "published": 0,
+      "pending": 3,
+      "statuses": [
+        "pending_data"
+      ]
+    },
+    "E": {
+      "requirements": 2,
+      "published": 0,
+      "pending": 2,
+      "statuses": [
+        "pending_data"
+      ]
+    },
+    "F": {
+      "requirements": 11,
+      "published": 0,
+      "pending": 11,
+      "statuses": [
+        "quarterly2026_received_mapping_pending"
+      ]
+    },
+    "G": {
+      "requirements": 4,
+      "published": 0,
+      "pending": 4,
+      "statuses": [
+        "quarterly2026_received_mapping_pending"
+      ]
+    },
+    "H": {
+      "requirements": 2,
+      "published": 0,
+      "pending": 2,
+      "statuses": [
+        "quarterly2026_received_mapping_pending"
+      ]
+    },
+    "I": {
+      "requirements": 3,
+      "published": 2,
+      "pending": 1,
+      "statuses": [
+        "scenario_calculated",
+        "pending_data",
+        "partial"
+      ]
+    },
+    "J": {
+      "requirements": 4,
+      "published": 0,
+      "pending": 4,
+      "statuses": [
+        "pending_data"
+      ]
+    },
+    "K": {
+      "requirements": 7,
+      "published": 3,
+      "pending": 4,
+      "statuses": [
+        "partial_processed_secondary_grades",
+        "processed_secondary_grades"
+      ]
+    },
+    "L": {
+      "requirements": 7,
+      "published": 0,
+      "pending": 7,
+      "statuses": [
+        "partial_nonuniversity_padron"
+      ]
+    },
+    "M": {
+      "requirements": 6,
+      "published": 0,
+      "pending": 6,
+      "statuses": [
+        "pending_data"
+      ]
+    },
+    "N": {
+      "requirements": 4,
+      "published": 0,
+      "pending": 4,
+      "statuses": [
+        "pending_data"
+      ]
+    },
+    "O": {
+      "requirements": 7,
+      "published": 3,
+      "pending": 4,
+      "statuses": [
+        "partial",
+        "partial_published",
+        "partial_documented",
+        "pending_data"
+      ]
+    },
+    "P": {
+      "requirements": 5,
+      "published": 0,
+      "pending": 5,
+      "statuses": [
+        "school_unit_incomplete",
+        "scenario_contract_period_pending",
+        "pending_data",
+        "partial_documented"
+      ]
+    },
+    "Q": {
+      "requirements": 2,
+      "published": 0,
+      "pending": 2,
+      "statuses": [
+        "design_defined_not_loaded"
+      ]
+    },
+    "R": {
+      "requirements": 2,
+      "published": 0,
+      "pending": 2,
+      "statuses": [
+        "pending_data"
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "layer": "B",
+      "id": "B1",
+      "indicator": "Uso de IA",
+      "status": "processed_low_sample",
+      "published_value": true,
+      "period": "2026",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "limitation": "Alguna categoría de uso IA 2026; universo/cuestionario distintos a 2025."
+    },
+    {
+      "layer": "B",
+      "id": "B2",
+      "indicator": "Uso diario de IA",
+      "status": "processed_low_sample",
+      "published_value": true,
+      "period": "2026",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "limitation": "Alguna familia IA usada diariamente, entre quienes contestaron al menos una frecuencia; distinta base que 2025."
+    },
+    {
+      "layer": "B",
+      "id": "B3",
+      "indicator": "Uso de agentes",
+      "status": "processed_low_sample",
+      "published_value": true,
+      "period": "2026",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "limitation": "Categoría agentes/workflows; asistentes/coding agents separados, no equivalente exacto B3 2025."
+    },
+    {
+      "layer": "B",
+      "id": "B4",
+      "indicator": "Editores y herramientas IA",
+      "status": "processed_low_sample",
+      "published_value": false,
+      "period": "2026",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "limitation": "Detalle multirrespuesta en layer_B.json; IDE n=7; cada familia tiene su denominador."
+    },
+    {
+      "layer": "B",
+      "id": "B5",
+      "indicator": "Respuestas y confianza",
+      "status": "processed_low_sample",
+      "published_value": true,
+      "period": "2026",
+      "source_ids": [
+        "SO26",
+        "SO25"
+      ],
+      "limitation": "Muestra voluntaria de 16 respuestas. No representativa."
+    },
+    {
+      "layer": "C",
+      "id": "C1",
+      "indicator": "Matrícula TIC/sistemas",
+      "status": "partial_education_frame",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "limitation": "Oferta no universitaria recibida. TIC/sistemas por programa pendiente de procesamiento por programa y fuente universitaria."
+    },
+    {
+      "layer": "C",
+      "id": "C2",
+      "indicator": "Matrícula presencial por ciudad",
+      "status": "partial_education_frame",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "limitation": "Oferta no universitaria recibida. TIC/sistemas por programa pendiente de procesamiento por programa y fuente universitaria."
+    },
+    {
+      "layer": "C",
+      "id": "C3",
+      "indicator": "Ciudades para alcanzar 50/75/90%",
+      "status": "partial_education_frame",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "limitation": "Oferta no universitaria recibida. TIC/sistemas por programa pendiente de procesamiento por programa y fuente universitaria."
+    },
+    {
+      "layer": "C",
+      "id": "C4",
+      "indicator": "Nivel, sector, modalidad y sexo",
+      "status": "partial_education_frame",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "limitation": "Oferta no universitaria recibida. TIC/sistemas por programa pendiente de procesamiento por programa y fuente universitaria."
+    },
+    {
+      "layer": "D",
+      "id": "D1",
+      "indicator": "Empresas TI y software",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "D",
+      "id": "D2",
+      "indicator": "Empresas TI por ciudad/región",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "D",
+      "id": "D3",
+      "indicator": "Comparación con estudio sectorial",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "E",
+      "id": "E1",
+      "indicator": "Participación empresas / participación estudiantes",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "CPV",
+        "RUC",
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "E",
+      "id": "E2",
+      "indicator": "Estudiantes por 100.000 habitantes",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "CPV",
+        "RUC",
+        "SUNEDU",
+        "ESCALE"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "F",
+      "id": "F1",
+      "indicator": "Ocupados por persona",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F2",
+      "indicator": "Muestra y confianza",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F3",
+      "indicator": "Posición laboral",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F4",
+      "indicator": "Tamaño de empleador",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F5",
+      "indicator": "Industria y fuera de TI",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F6",
+      "indicator": "Ciudad y región",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F7",
+      "indicator": "Sexo, educación y edad",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F8",
+      "indicator": "Ingreso laboral mediano",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F9",
+      "indicator": "Nivel socioeconómico",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F10",
+      "indicator": "Trabajo desde casa",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "F",
+      "id": "F11",
+      "indicator": "Mercado en tres anillos",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "G",
+      "id": "G1",
+      "indicator": "Personal TI por industria",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "G",
+      "id": "G2",
+      "indicator": "TI fuera del sector por tamaño",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "G",
+      "id": "G3",
+      "indicator": "TI gobierno por sector",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "G",
+      "id": "G4",
+      "indicator": "Gobierno en otras personas",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "H",
+      "id": "H1",
+      "indicator": "Persona × ciudad × comprador",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "H",
+      "id": "H2",
+      "indicator": "Muestra por celda",
+      "status": "quarterly2026_received_mapping_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "EPEN",
+        "CNO"
+      ],
+      "limitation": "EPEN ciudades2026Q1/Q2 recibidos. Q1:3842 ocupados sin peso. Mapeo13 personas/diccionario2026 pendientes; no anual ni cobertura nacional."
+    },
+    {
+      "layer": "I",
+      "id": "I1",
+      "indicator": "Planes en moneda local",
+      "status": "scenario_calculated",
+      "published_value": true,
+      "period": "2026-09",
+      "source_ids": [
+        "FX",
+        "RMV",
+        "EPEN"
+      ],
+      "limitation": "Escenario USD25=84,47 PEN; USD250=844,72 PEN. No confirma precio, periodicidad ni IGV incluidos."
+    },
+    {
+      "layer": "I",
+      "id": "I2",
+      "indicator": "Plan / ingreso mediano",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "FX",
+        "RMV",
+        "EPEN"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "I",
+      "id": "I3",
+      "indicator": "Plan / salario mínimo y salario desarrollador",
+      "status": "partial",
+      "published_value": true,
+      "period": "FX2026-09_RMV2025",
+      "source_ids": [
+        "FX",
+        "RMV",
+        "EPEN"
+      ],
+      "limitation": "Solo componente RMV: S/1130 decreto vigente desde enero2025; salario desarrollador pendiente; no presentar como mismo periodo que F2025."
+    },
+    {
+      "layer": "J",
+      "id": "J1",
+      "indicator": "Empresas por zona y tamaño",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "J",
+      "id": "J2",
+      "indicator": "Software/TI por zona",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "J",
+      "id": "J3",
+      "indicator": "Actividades vinculadas a personas por zona",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "J",
+      "id": "J4",
+      "indicator": "Tiendas por zona",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC",
+        "UBIGEO"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "K",
+      "id": "K1",
+      "indicator": "Servicios/locales con grados objetivo",
+      "status": "partial_processed_secondary_grades",
+      "published_value": true,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "K",
+      "id": "K2",
+      "indicator": "Matrícula por grado",
+      "status": "processed_secondary_grades",
+      "published_value": true,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "K",
+      "id": "K3",
+      "indicator": "Público y privado",
+      "status": "processed_secondary_grades",
+      "published_value": false,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "K",
+      "id": "K4",
+      "indicator": "Edad, sexo, ruralidad y trayectoria",
+      "status": "partial_processed_secondary_grades",
+      "published_value": false,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "K",
+      "id": "K5",
+      "indicator": "Tamaño escolar y mediana",
+      "status": "partial_processed_secondary_grades",
+      "published_value": true,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "K",
+      "id": "K6",
+      "indicator": "Alcance con tope 100",
+      "status": "partial_processed_secondary_grades",
+      "published_value": false,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "K",
+      "id": "K7",
+      "indicator": "Escuelas y matrícula por región/ciudad",
+      "status": "partial_processed_secondary_grades",
+      "published_value": false,
+      "period": "2025",
+      "source_ids": [
+        "MINEDU_CE2025_PADRON",
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Conciliación exacta contra padrón por servicio y sexo. Conteo institucional incompleto (2084 servicios sin CODINST). Edad<18 y trayectoria técnica no disponibles en estas tablas. Distritos de reporte; ciudades urbanas pendientes. Conciliación externa pendiente."
+    },
+    {
+      "layer": "L",
+      "id": "L1",
+      "indicator": "Matrícula e instituciones",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "L",
+      "id": "L2",
+      "indicator": "Nivel, sector y modalidad",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "L",
+      "id": "L3",
+      "indicator": "Campo TIC",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "L",
+      "id": "L4",
+      "indicator": "Ingresantes",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "L",
+      "id": "L5",
+      "indicator": "Formación profesional",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "L",
+      "id": "L6",
+      "indicator": "Matrícula presencial por ciudad/institución",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "L",
+      "id": "L7",
+      "indicator": "Solapamientos",
+      "status": "partial_nonuniversity_padron",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SUNEDU",
+        "ESCALE",
+        "VOC"
+      ],
+      "limitation": "Padrón2025 agrega niveles no universitarios. Falta programa/modalidad e información universitaria; no es total nacional de educación superior."
+    },
+    {
+      "layer": "M",
+      "id": "M1",
+      "indicator": "Micronegocios",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "M",
+      "id": "M2",
+      "indicator": "Actividad, autoempleo y sexo propietario",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "M",
+      "id": "M3",
+      "indicator": "Formalidad",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "M",
+      "id": "M4",
+      "indicator": "Uso digital empresarial",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "M",
+      "id": "M5",
+      "indicator": "Local de funcionamiento y región",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "M",
+      "id": "M6",
+      "indicator": "Ventas medianas",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ENAHO",
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "N",
+      "id": "N1",
+      "indicator": "Empresas formales activas",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "N",
+      "id": "N2",
+      "indicator": "Personas jurídicas/naturales",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "N",
+      "id": "N3",
+      "indicator": "Tiendas CIIU 4711",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "N",
+      "id": "N4",
+      "indicator": "Región y empresas por escuela",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RUC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "O",
+      "id": "O1",
+      "indicator": "PIB per cápita, salario mínimo y salario desarrollador",
+      "status": "partial",
+      "published_value": true,
+      "period": "effective_2025-01-01",
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "Solo RMV. PIB per cápita y salario desarrollador pendientes."
+    },
+    {
+      "layer": "O",
+      "id": "O2",
+      "indicator": "Pagos y bancarización",
+      "status": "partial_published",
+      "published_value": true,
+      "period": "2025",
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "ERESTEL billeteras12+; NO propiedad de cuenta o tarjeta Findex. Es un componente de pagos; otros componentes pendientes."
+    },
+    {
+      "layer": "O",
+      "id": "O3",
+      "indicator": "Tributación digital",
+      "status": "partial_documented",
+      "published_value": false,
+      "period": "review_2026-10-13",
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "DL1623 y mecanismo SUNAT desde 2024-12-01; revisar caso B2B/B2C y tasa aplicable."
+    },
+    {
+      "layer": "O",
+      "id": "O4",
+      "indicator": "Protección de datos",
+      "status": "partial_documented",
+      "published_value": false,
+      "period": "review_2026-10-13",
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "Ley29733 y DS016-2024-JUS. Autoridad ANPD. Vigencia reglamento desde 2025-03-31."
+    },
+    {
+      "layer": "O",
+      "id": "O5",
+      "indicator": "Marco IA y financiamiento",
+      "status": "partial_documented",
+      "published_value": false,
+      "period": "review_2026-10-13",
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "Ley31814, reglamento DS115-2025-PCM. Fondos para el programa no identificados."
+    },
+    {
+      "layer": "O",
+      "id": "O6",
+      "indicator": "Conectividad y tráfico",
+      "status": "partial_published",
+      "published_value": true,
+      "period": "2025",
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "ERESTEL personas12+; hogares internet96% aparte. No sustituye definición DataReportal; velocidad/tráfico pendientes."
+    },
+    {
+      "layer": "O",
+      "id": "O7",
+      "indicator": "PESTEL",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "ERESTEL",
+        "PUNKU",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "P",
+      "id": "P1",
+      "indicator": "Alcance escolar y conversión",
+      "status": "school_unit_incomplete",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "MINEDU_CE2025_MATRICULA"
+      ],
+      "limitation": "Matrícula objetivo calculada. 2084 servicios sin CODINST impiden total de colegios/tope100 nacional. Escenario por servicio separado, no conversión observada."
+    },
+    {
+      "layer": "P",
+      "id": "P2",
+      "indicator": "Patrocinios por año",
+      "status": "scenario_contract_period_pending",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "limitation": "Base escolar calculada; USD250 y periodicidad contractual siguen sin confirmar. No registrar ingreso anual observado."
+    },
+    {
+      "layer": "P",
+      "id": "P3",
+      "indicator": "Empresas por escuela",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "P",
+      "id": "P4",
+      "indicator": "Incentivo fiscal donaciones",
+      "status": "partial_documented",
+      "published_value": false,
+      "period": "review_2026-10-13",
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "limitation": "Deducción de donaciones sujeta a condiciones, tope10% renta neta tercera categoría; no crédito25% ni beneficio automático por licencia."
+    },
+    {
+      "layer": "P",
+      "id": "P5",
+      "indicator": "Datos de menores",
+      "status": "partial_documented",
+      "published_value": false,
+      "period": "review_2026-10-13",
+      "source_ids": [
+        "ESCALE",
+        "RUC",
+        "DON",
+        "LPDP"
+      ],
+      "limitation": "DS016-2024-JUS arts22–25: reglas de consentimiento según edad y servicio digital; no copiar Colombia."
+    },
+    {
+      "layer": "Q",
+      "id": "Q1",
+      "indicator": "Llaves geográficas",
+      "status": "design_defined_not_loaded",
+      "published_value": false,
+      "period": "2026-10-13",
+      "source_ids": [
+        "UBIGEO",
+        "CPV"
+      ],
+      "limitation": "Contrato de datos definido; catálogo/geometrías completos y joins de producción pendientes."
+    },
+    {
+      "layer": "Q",
+      "id": "Q2",
+      "indicator": "Tablas y granularidad",
+      "status": "design_defined_not_loaded",
+      "published_value": false,
+      "period": "2026-10-13",
+      "source_ids": [
+        "UBIGEO",
+        "CPV"
+      ],
+      "limitation": "Contrato de datos definido; catálogo/geometrías completos y joins de producción pendientes."
+    },
+    {
+      "layer": "R",
+      "id": "R1",
+      "indicator": "Conciliación de totales",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SO25",
+        "SO26",
+        "EPEN",
+        "CNO",
+        "ENAHO",
+        "ESCALE",
+        "SUNEDU",
+        "RUC",
+        "CPV",
+        "FX",
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "DON",
+        "ERESTEL",
+        "PUNKU",
+        "UBIGEO",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED",
+        "VOC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    },
+    {
+      "layer": "R",
+      "id": "R2",
+      "indicator": "Registro de fuentes",
+      "status": "pending_data",
+      "published_value": false,
+      "period": null,
+      "source_ids": [
+        "SO25",
+        "SO26",
+        "EPEN",
+        "CNO",
+        "ENAHO",
+        "ESCALE",
+        "SUNEDU",
+        "RUC",
+        "CPV",
+        "FX",
+        "RMV",
+        "IGV",
+        "LPDP",
+        "IA",
+        "DON",
+        "ERESTEL",
+        "PUNKU",
+        "UBIGEO",
+        "FIND",
+        "GDP",
+        "TRAFFIC",
+        "SPEED",
+        "VOC"
+      ],
+      "limitation": "Pendiente extracción/conciliación; no es un cero."
+    }
+  ]
+}
