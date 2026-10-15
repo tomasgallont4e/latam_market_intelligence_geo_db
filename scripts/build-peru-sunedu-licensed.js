@@ -1,0 +1,6 @@
+'use strict';
+const fs=require('fs'),path=require('path');const [input,out]=process.argv.slice(2);fs.mkdirSync(out,{recursive:true});
+const html=fs.readFileSync(input,'utf8');const clean=(x)=>x.replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
+const table=html.match(/<table id="tablepress-114"[\s\S]*?<\/table>/i)[0];const rows=[];
+for(const tr of table.match(/<tr[\s\S]*?<\/tr>/gi).slice(1)){const cells=[...tr.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map(x=>clean(x[1]));if(cells.length===5){const [department,province]=(cells[3]||'').split('/');rows.push({university:cells[0],license_date:cells[1],department,province,management:cells[4],source_id:'SUNEDU_LICENSED_UNIVERSITIES',scope:'licensed_university_inventory_not_enrollment'});}}
+fs.writeFileSync(path.join(out,'sunedu_licensed_universities.json'),JSON.stringify(rows,null,2));fs.writeFileSync(path.join(out,'metadata.json'),JSON.stringify({source:'https://www.sunedu.gob.pe/lista-de-universidades-licenciadas/',records:rows.length,limitation:'Official licensed-university inventory only. It does not provide enrollment, programme, modality, campus-level capacity or ICT field.'},null,2));console.log(JSON.stringify({records:rows.length}));

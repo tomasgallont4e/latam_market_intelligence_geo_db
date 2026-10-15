@@ -1,0 +1,947 @@
+[
+  {
+    "university": "Universidad Científica del Perú",
+    "license_date": "24-08-2026",
+    "department": "Loreto",
+    "province": "Maynas",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Peruana de las Américas S.A.C.",
+    "license_date": "31-07-2026",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Tecnológica de Frontera San Ignacio de Loyola",
+    "license_date": "11-02-2026",
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Interamericana para el Desarrollo",
+    "license_date": "08-02-2026",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad José Carlos Mariátegui de Moquegua",
+    "license_date": "16-01-2026",
+    "department": "Mariscal Nieto",
+    "province": "Moquegua",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Música",
+    "license_date": "21-11-2025",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Daniel Alomía Robles",
+    "license_date": "28-10-2025",
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Católica Los Ángeles de Chimbote",
+    "license_date": "12-06-2025",
+    "department": "Áncash",
+    "province": "Santa",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Politécnica del Perú S.A.",
+    "license_date": "06-05-2025",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada de Trujillo",
+    "license_date": "11-11-2024",
+    "department": "Laredo",
+    "province": "Trujillo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Peruana del Centro",
+    "license_date": "18-07-2024",
+    "department": "Junín",
+    "province": "Huancayo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Ciro Alegría",
+    "license_date": "06-10-2023",
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "license_date": "09-06-2023",
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional San Luis Gonzaga",
+    "license_date": "15-01-2022",
+    "department": "Ica",
+    "province": "Ica",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Autónoma de Ica",
+    "license_date": "13-06-2020",
+    "department": "Ica",
+    "province": "Chincha",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Facultad de Teología Pontificia y Civil de Lima",
+    "license_date": "14-03-2020",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Federico Villarreal",
+    "license_date": "11-03-2020",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Tecnológica de los Andes",
+    "license_date": "29-02-2020",
+    "department": "Apurímac",
+    "province": "Abancay",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Peruana Los Andes",
+    "license_date": "18-02-2020",
+    "department": "Junín",
+    "province": "Huancayo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Micaela Bastidas de Apurímac",
+    "license_date": "05-02-2020",
+    "department": "Apurímac",
+    "province": "Abancay",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional José Faustino Sánchez Carrión",
+    "license_date": "28-01-2020",
+    "department": "Lima",
+    "province": "Huaura",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Señor de Sipán",
+    "license_date": "03-01-2020",
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional del Callao",
+    "license_date": "24-12-2019",
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Educación Enrique Guzmán y Valle",
+    "license_date": "13-12-2019",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada Norbert Wiener",
+    "license_date": "11-12-2019",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Tumbes",
+    "license_date": "03-12-2019",
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada San Juan Bautista",
+    "license_date": "08-11-2019",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Amazónica de Madre de Dios",
+    "license_date": "12-10-2019",
+    "department": "Madre de Dios",
+    "province": "Tambopata",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Agraria de la Selva",
+    "license_date": "29-08-2019",
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Daniel Alcides Carrión",
+    "license_date": "22-08-2019",
+    "department": "Pasco",
+    "province": "Pasco",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Hermilio Valdizán",
+    "license_date": "26-07-2019",
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Huancavelica",
+    "license_date": "03-07-2019",
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Intercultural de Quillabamba",
+    "license_date": "02-07-2019",
+    "department": "Cusco",
+    "province": "La Convención",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Tecnológica del Perú",
+    "license_date": "13-06-2019",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada de Huancayo Franklin Roosevelt",
+    "license_date": "12-06-2019",
+    "department": "Junín",
+    "province": "Huancayo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad César Vallejo",
+    "license_date": "12-06-2019",
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de Huánuco",
+    "license_date": "06-06-2019",
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Piura",
+    "license_date": "06-05-2019",
+    "department": "Piura",
+    "province": "Piura",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de San Antonio Abad del Cusco",
+    "license_date": "04-05-2019",
+    "department": "Cusco",
+    "province": "Cusco",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de San Martín",
+    "license_date": "01-05-2019",
+    "department": "San Martín",
+    "province": "San Martín",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Frontera",
+    "license_date": "06-04-2019",
+    "department": "Piura",
+    "province": "Sullana",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional del Santa",
+    "license_date": "12-03-2019",
+    "department": "Áncash",
+    "province": "Santa",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional del Centro del Perú",
+    "license_date": "01-03-2019",
+    "department": "Junín",
+    "province": "Huancayo",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Católica de Trujillo Benedicto XVI",
+    "license_date": "21-02-2019",
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Autónoma de Tayacaja “Daniel Hernández Morillo”",
+    "license_date": "15-02-2019",
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de la Amazonía Peruana",
+    "license_date": "01-02-2019",
+    "department": "Loreto",
+    "province": "Maynas",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Santiago Antúnez de Mayolo",
+    "license_date": "01-01-2019",
+    "department": "Áncash",
+    "province": "Huaraz",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Autónoma de Chota",
+    "license_date": "08-12-2018",
+    "department": "Cajamarca",
+    "province": "Chota",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Le Cordon Bleu S.A.C.",
+    "license_date": "16-11-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Ucayali",
+    "license_date": "15-11-2018",
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad María Auxiliadora",
+    "license_date": "19-10-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Autónoma Altoandina de Tarma",
+    "license_date": "19-10-2018",
+    "department": "Junín",
+    "province": "Tarma",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Intercultural de la Amazonia",
+    "license_date": "27-09-2018",
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Trujillo",
+    "license_date": "20-09-2018",
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Católica Sedes Sapientiae",
+    "license_date": "13-09-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Cañete",
+    "license_date": "12-09-2018",
+    "department": "Lima",
+    "province": "Cañete",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de San Agustín",
+    "license_date": "27-08-2018",
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Juliaca",
+    "license_date": "26-08-2018",
+    "department": "Puno",
+    "province": "San Román",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Intercultural Fabiola Salazar Leguía de Bagua",
+    "license_date": "14-08-2018",
+    "department": "Amazonas",
+    "province": "Bagua",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Continental",
+    "license_date": "11-08-2018",
+    "department": "Junín",
+    "province": "Huancayo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Autónoma del Perú",
+    "license_date": "30-07-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Cajamarca",
+    "license_date": "17-07-2018",
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Autónoma de Alto Amazonas",
+    "license_date": "29-06-2018",
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Tecnológica De Lima Sur",
+    "license_date": "21-06-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Jaime Bausate y Meza",
+    "license_date": "17-06-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Jorge Basadre Grohmann",
+    "license_date": "13-06-2018",
+    "department": "Tacna",
+    "province": "Tacna",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Peruana Unión",
+    "license_date": "07-06-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de San Cristóbal de Huamanga",
+    "license_date": "01-06-2018",
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Barranca",
+    "license_date": "24-05-2018",
+    "department": "Lima",
+    "province": "Barranca",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Científica del Sur",
+    "license_date": "02-05-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad ESAN",
+    "license_date": "10-04-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "license_date": "04-04-2018",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada Antenor Orrego",
+    "license_date": "29-03-2018",
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Intercultural de la selva central Juan Santos Atahualpa",
+    "license_date": "23-03-2018",
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Católica Santo Toribio de Mogrovejo",
+    "license_date": "22-03-2018",
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad La Salle",
+    "license_date": "19-01-2018",
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Jaén",
+    "license_date": "14-01-2018",
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Moquegua",
+    "license_date": "06-12-2017",
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Católica de Santa María",
+    "license_date": "31-12-2017",
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional del Altiplano",
+    "license_date": "30-12-2017",
+    "department": "Puno",
+    "province": "Puno",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Andina del Cusco",
+    "license_date": "23-12-2017",
+    "department": "Cusco",
+    "province": "Cusco",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada de Tacna",
+    "license_date": "30-11-2017",
+    "department": "Tacna",
+    "province": "Tacna",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional de Ingeniería",
+    "license_date": "28-11-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de Ciencias y Humanidades",
+    "license_date": "21-11-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Privada del Norte",
+    "license_date": "11-11-2017",
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Católica San Pablo",
+    "license_date": "22-10-2017",
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Marcelino Champagnat",
+    "license_date": "12-10-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad San Ignacio de Loyola",
+    "license_date": "08-10-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Peruana de Ciencias Aplicadas",
+    "license_date": "06-10-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional José María Arguedas",
+    "license_date": "02-10-2017",
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas",
+    "license_date": "17-09-2017",
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de San Martín de Porres",
+    "license_date": "11-08-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Antonio Ruiz de Montoya",
+    "license_date": "03-06-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Autónoma de Huanta",
+    "license_date": "19-04-2017",
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Nacional Agraria la Molina",
+    "license_date": "20-03-2017",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Pública",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de Piura",
+    "license_date": "27-01-2017",
+    "department": "Piura",
+    "province": "Piura",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Ricardo Palma",
+    "license_date": "31-12-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Femenina del Sagrado Corazón",
+    "license_date": "15-12-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de Ciencias y Artes de América Latina",
+    "license_date": "12-10-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad para el Desarrollo Andino",
+    "license_date": "28-09-2016",
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad Peruana Cayetano Heredia",
+    "license_date": "27-07-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad del Pacífico",
+    "license_date": "27-07-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de Lima",
+    "license_date": "12-07-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Pontificia Universidad Católica del Perú",
+    "license_date": "06-07-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "university": "Universidad de Ingeniería y Tecnología",
+    "license_date": "25-03-2016",
+    "department": "Lima",
+    "province": "Lima",
+    "management": "Privada",
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  }
+]
