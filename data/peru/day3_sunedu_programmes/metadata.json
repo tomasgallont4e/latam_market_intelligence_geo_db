@@ -1,0 +1,13 @@
+{
+  "country": "PE",
+  "source": "SUNEDU Programas Académicos, Plataforma Nacional de Datos Abiertos",
+  "source_resource_updated": "2026-10-13",
+  "reference_cutoff": [
+    "20240828"
+  ],
+  "source_rows": 8112,
+  "accepted_rows": 8112,
+  "departments": 25,
+  "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+  "caveat": "Public programme offer by local. It does not include enrolment, entrants, graduates, capacity, demand or modality."
+}

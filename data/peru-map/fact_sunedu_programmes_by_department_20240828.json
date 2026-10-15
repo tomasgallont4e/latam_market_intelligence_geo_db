@@ -1,0 +1,452 @@
+[
+  {
+    "department": "AMAZONAS",
+    "university_programme_rows": 45,
+    "unique_university_programmes": 45,
+    "universities_with_programmes": 2,
+    "locales_with_programmes": 3,
+    "ict_programme_rows": 1,
+    "unique_ict_programmes": 1,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "ANCASH",
+    "university_programme_rows": 164,
+    "unique_university_programmes": 164,
+    "universities_with_programmes": 4,
+    "locales_with_programmes": 7,
+    "ict_programme_rows": 7,
+    "unique_ict_programmes": 7,
+    "universities_with_ict_programmes": 3,
+    "locales_with_ict_programmes": 3,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "APURIMAC",
+    "university_programme_rows": 85,
+    "unique_university_programmes": 85,
+    "universities_with_programmes": 4,
+    "locales_with_programmes": 8,
+    "ict_programme_rows": 3,
+    "unique_ict_programmes": 3,
+    "universities_with_ict_programmes": 3,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "AREQUIPA",
+    "university_programme_rows": 546,
+    "unique_university_programmes": 546,
+    "universities_with_programmes": 7,
+    "locales_with_programmes": 9,
+    "ict_programme_rows": 19,
+    "unique_ict_programmes": 19,
+    "universities_with_ict_programmes": 7,
+    "locales_with_ict_programmes": 4,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "AYACUCHO",
+    "university_programme_rows": 49,
+    "unique_university_programmes": 49,
+    "universities_with_programmes": 2,
+    "locales_with_programmes": 3,
+    "ict_programme_rows": 1,
+    "unique_ict_programmes": 1,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "CAJAMARCA",
+    "university_programme_rows": 95,
+    "unique_university_programmes": 95,
+    "universities_with_programmes": 4,
+    "locales_with_programmes": 8,
+    "ict_programme_rows": 3,
+    "unique_ict_programmes": 3,
+    "universities_with_ict_programmes": 2,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "CALLAO",
+    "university_programme_rows": 89,
+    "unique_university_programmes": 89,
+    "universities_with_programmes": 2,
+    "locales_with_programmes": 2,
+    "ict_programme_rows": 3,
+    "unique_ict_programmes": 3,
+    "universities_with_ict_programmes": 2,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "CUSCO",
+    "university_programme_rows": 206,
+    "unique_university_programmes": 206,
+    "universities_with_programmes": 6,
+    "locales_with_programmes": 13,
+    "ict_programme_rows": 5,
+    "unique_ict_programmes": 5,
+    "universities_with_ict_programmes": 4,
+    "locales_with_ict_programmes": 3,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "HUANCAVELICA",
+    "university_programme_rows": 71,
+    "unique_university_programmes": 71,
+    "universities_with_programmes": 3,
+    "locales_with_programmes": 5,
+    "ict_programme_rows": 2,
+    "unique_ict_programmes": 2,
+    "universities_with_ict_programmes": 2,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "HUANUCO",
+    "university_programme_rows": 160,
+    "unique_university_programmes": 160,
+    "universities_with_programmes": 3,
+    "locales_with_programmes": 5,
+    "ict_programme_rows": 3,
+    "unique_ict_programmes": 3,
+    "universities_with_ict_programmes": 3,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "ICA",
+    "university_programme_rows": 103,
+    "unique_university_programmes": 103,
+    "universities_with_programmes": 4,
+    "locales_with_programmes": 11,
+    "ict_programme_rows": 5,
+    "unique_ict_programmes": 5,
+    "universities_with_ict_programmes": 4,
+    "locales_with_ict_programmes": 4,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "JUNIN",
+    "university_programme_rows": 228,
+    "unique_university_programmes": 228,
+    "universities_with_programmes": 10,
+    "locales_with_programmes": 15,
+    "ict_programme_rows": 9,
+    "unique_ict_programmes": 9,
+    "universities_with_ict_programmes": 5,
+    "locales_with_ict_programmes": 3,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "LA LIBERTAD",
+    "university_programme_rows": 567,
+    "unique_university_programmes": 566,
+    "universities_with_programmes": 7,
+    "locales_with_programmes": 10,
+    "ict_programme_rows": 18,
+    "unique_ict_programmes": 18,
+    "universities_with_ict_programmes": 6,
+    "locales_with_ict_programmes": 6,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "LAMBAYEQUE",
+    "university_programme_rows": 214,
+    "unique_university_programmes": 214,
+    "universities_with_programmes": 6,
+    "locales_with_programmes": 4,
+    "ict_programme_rows": 6,
+    "unique_ict_programmes": 6,
+    "universities_with_ict_programmes": 4,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "LIMA",
+    "university_programme_rows": 4301,
+    "unique_university_programmes": 4258,
+    "universities_with_programmes": 40,
+    "locales_with_programmes": 28,
+    "ict_programme_rows": 162,
+    "unique_ict_programmes": 159,
+    "universities_with_ict_programmes": 30,
+    "locales_with_ict_programmes": 22,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "LORETO",
+    "university_programme_rows": 245,
+    "unique_university_programmes": 245,
+    "universities_with_programmes": 2,
+    "locales_with_programmes": 22,
+    "ict_programme_rows": 4,
+    "unique_ict_programmes": 4,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "MADRE DE DIOS",
+    "university_programme_rows": 56,
+    "unique_university_programmes": 56,
+    "universities_with_programmes": 3,
+    "locales_with_programmes": 4,
+    "ict_programme_rows": 1,
+    "unique_ict_programmes": 1,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "MOQUEGUA",
+    "university_programme_rows": 16,
+    "unique_university_programmes": 16,
+    "universities_with_programmes": 1,
+    "locales_with_programmes": 4,
+    "ict_programme_rows": 1,
+    "unique_ict_programmes": 1,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "PASCO",
+    "university_programme_rows": 55,
+    "unique_university_programmes": 55,
+    "universities_with_programmes": 1,
+    "locales_with_programmes": 6,
+    "ict_programme_rows": 1,
+    "unique_ict_programmes": 1,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "PIURA",
+    "university_programme_rows": 225,
+    "unique_university_programmes": 225,
+    "universities_with_programmes": 7,
+    "locales_with_programmes": 5,
+    "ict_programme_rows": 8,
+    "unique_ict_programmes": 8,
+    "universities_with_ict_programmes": 4,
+    "locales_with_ict_programmes": 3,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "PUNO",
+    "university_programme_rows": 196,
+    "unique_university_programmes": 194,
+    "universities_with_programmes": 3,
+    "locales_with_programmes": 4,
+    "ict_programme_rows": 8,
+    "unique_ict_programmes": 8,
+    "universities_with_ict_programmes": 2,
+    "locales_with_ict_programmes": 2,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "SAN MARTIN",
+    "university_programme_rows": 107,
+    "unique_university_programmes": 106,
+    "universities_with_programmes": 4,
+    "locales_with_programmes": 11,
+    "ict_programme_rows": 6,
+    "unique_ict_programmes": 6,
+    "universities_with_ict_programmes": 4,
+    "locales_with_ict_programmes": 5,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "TACNA",
+    "university_programme_rows": 169,
+    "unique_university_programmes": 169,
+    "universities_with_programmes": 2,
+    "locales_with_programmes": 6,
+    "ict_programme_rows": 7,
+    "unique_ict_programmes": 7,
+    "universities_with_ict_programmes": 2,
+    "locales_with_ict_programmes": 3,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "TUMBES",
+    "university_programme_rows": 48,
+    "unique_university_programmes": 48,
+    "universities_with_programmes": 1,
+    "locales_with_programmes": 4,
+    "ict_programme_rows": 0,
+    "unique_ict_programmes": 0,
+    "universities_with_ict_programmes": 0,
+    "locales_with_ict_programmes": 0,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  },
+  {
+    "department": "UCAYALI",
+    "university_programme_rows": 72,
+    "unique_university_programmes": 72,
+    "universities_with_programmes": 3,
+    "locales_with_programmes": 3,
+    "ict_programme_rows": 3,
+    "unique_ict_programmes": 3,
+    "universities_with_ict_programmes": 1,
+    "locales_with_ict_programmes": 1,
+    "reference_cutoff": [
+      "20240828"
+    ],
+    "source_id": "SUNEDU_PROGRAMAS_ACADEMICOS",
+    "scope": "current_programme_offer_not_enrollment",
+    "ict_definition": "NOMBRE_CLASE_PROGRAMA_N2 = INFORMÁTICA",
+    "caveat": "Counts offer rows/programmes by local, not students, entrants, graduates, capacity, demand, teaching modality or programme quality."
+  }
+]
