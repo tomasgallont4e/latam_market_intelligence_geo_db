@@ -1,0 +1,12 @@
+{
+  "country": "PE",
+  "source": "SUNAT Padrón reducido local anexo",
+  "scope": "Public RUC locations with a valid UBIGEO; aggregate only",
+  "indicator": "registered_local_addresses",
+  "caveat": "This is a count of registered local-address records, not active firms, not unique firms, and not an ICT classification. The source has no CIIU/activity, status, legal form or size fields.",
+  "source_rows": 775300,
+  "accepted_rows": 775150,
+  "departments": 25,
+  "districts": 1891,
+  "generated_at": "2026-10-15T13:18:56.492Z"
+}

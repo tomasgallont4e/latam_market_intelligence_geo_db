@@ -1,0 +1,102 @@
+[
+  {
+    "department_code": "01",
+    "registered_local_addresses": 6015
+  },
+  {
+    "department_code": "02",
+    "registered_local_addresses": 27178
+  },
+  {
+    "department_code": "03",
+    "registered_local_addresses": 8902
+  },
+  {
+    "department_code": "04",
+    "registered_local_addresses": 49660
+  },
+  {
+    "department_code": "05",
+    "registered_local_addresses": 12706
+  },
+  {
+    "department_code": "06",
+    "registered_local_addresses": 19225
+  },
+  {
+    "department_code": "07",
+    "registered_local_addresses": 19234
+  },
+  {
+    "department_code": "08",
+    "registered_local_addresses": 25619
+  },
+  {
+    "department_code": "09",
+    "registered_local_addresses": 3664
+  },
+  {
+    "department_code": "10",
+    "registered_local_addresses": 11040
+  },
+  {
+    "department_code": "11",
+    "registered_local_addresses": 24708
+  },
+  {
+    "department_code": "12",
+    "registered_local_addresses": 29200
+  },
+  {
+    "department_code": "13",
+    "registered_local_addresses": 49013
+  },
+  {
+    "department_code": "14",
+    "registered_local_addresses": 29338
+  },
+  {
+    "department_code": "15",
+    "registered_local_addresses": 312491
+  },
+  {
+    "department_code": "16",
+    "registered_local_addresses": 16888
+  },
+  {
+    "department_code": "17",
+    "registered_local_addresses": 8743
+  },
+  {
+    "department_code": "18",
+    "registered_local_addresses": 6592
+  },
+  {
+    "department_code": "19",
+    "registered_local_addresses": 5572
+  },
+  {
+    "department_code": "20",
+    "registered_local_addresses": 32820
+  },
+  {
+    "department_code": "21",
+    "registered_local_addresses": 21099
+  },
+  {
+    "department_code": "22",
+    "registered_local_addresses": 18140
+  },
+  {
+    "department_code": "23",
+    "registered_local_addresses": 16681
+  },
+  {
+    "department_code": "24",
+    "registered_local_addresses": 6210
+  },
+  {
+    "department_code": "25",
+    "registered_local_addresses": 14412
+  }
+]

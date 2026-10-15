@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T03:36:01.841Z",
+  "generated_at": "2026-10-15T13:19:32.138Z",
   "checks": [
     {
       "id": "day1_package",
@@ -33,6 +33,12 @@
       "note": "MINEDU non-university aggregates"
     },
     {
+      "id": "day3_sunedu",
+      "file": "data/peru/day3_sunedu/sunedu_licensed_universities_by_department.json",
+      "pass": true,
+      "note": "SUNEDU licensed university inventory"
+    },
+    {
       "id": "day4_script",
       "file": "scripts/build-peru-day4-dj-ruc.js",
       "pass": true,
@@ -43,6 +49,18 @@
       "file": "data/peru/day4_dj_ruc/j_tic_ruc_by_district_202604.json",
       "pass": true,
       "note": "SUNAT RUC territorial aggregate"
+    },
+    {
+      "id": "day4_enaho",
+      "file": "data/peru/day4_m_enaho/m_enaho_employment_by_department_2025.json",
+      "pass": true,
+      "note": "ENAHO employed-resident aggregate"
+    },
+    {
+      "id": "day4_local_anexo",
+      "file": "data/peru/day4_n_padron_local/registered_local_addresses_by_department.json",
+      "pass": true,
+      "note": "SUNAT local-address geographic aggregate"
     },
     {
       "id": "day5_script",
@@ -60,9 +78,10 @@
   "counts": {
     "day2_observed": 85,
     "day3_rows": 116,
-    "day4_districts": 1211
+    "day4_districts": 1211,
+    "day4_local_departments": 25
   },
-  "passed": 9,
+  "passed": 12,
   "failed": 0,
   "not_completed": [
     "C/L university and programme-level data",
