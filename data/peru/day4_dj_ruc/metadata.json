@@ -1,0 +1,17 @@
+{
+  "country": "PE",
+  "period": "2026-04",
+  "source_id": "SUNAT_RUC_202604",
+  "universe": "Active RUC with CIIU 6201, 6202, 6209, 6311 or 6312; fiscal UBIGEO",
+  "country_totals": {
+    "active_ruc_tic": 88147,
+    "ciiu_6201": 21188,
+    "ciiu_6202": 19391,
+    "ciiu_6209": 43118,
+    "ciiu_6311": 3599,
+    "ciiu_6312": 851
+  },
+  "department_rows": 25,
+  "district_rows": 1211,
+  "limitations": "RUC records are legal/tax registrations. They do not establish employment, revenue, firm size, physical operating location, buyers, or commercial zones."
+}
