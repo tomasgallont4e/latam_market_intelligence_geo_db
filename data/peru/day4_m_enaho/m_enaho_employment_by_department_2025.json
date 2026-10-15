@@ -2,226 +2,501 @@
   {
     "department_code": "01",
     "weighted_employed": 251462.1,
+    "weighted_employed_up_to_20_people": 221223.9,
+    "weighted_employed_employer_registered_sunat": 31347.5,
+    "weighted_employed_employer_not_registered_sunat": 192327.4,
     "sample_records": 2097,
+    "sample_records_up_to_20_people": 1898,
+    "sample_records_employer_registered_sunat": 193,
+    "sample_records_employer_not_registered_sunat": 1731,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "02",
     "weighted_employed": 678334.8,
+    "weighted_employed_up_to_20_people": 542512.6,
+    "weighted_employed_employer_registered_sunat": 167381.3,
+    "weighted_employed_employer_not_registered_sunat": 444989.5,
     "sample_records": 2523,
+    "sample_records_up_to_20_people": 2092,
+    "sample_records_employer_registered_sunat": 510,
+    "sample_records_employer_not_registered_sunat": 1772,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "03",
     "weighted_employed": 302181.8,
+    "weighted_employed_up_to_20_people": 261770.9,
+    "weighted_employed_employer_registered_sunat": 38207.0,
+    "weighted_employed_employer_not_registered_sunat": 232463.4,
     "sample_records": 1679,
+    "sample_records_up_to_20_people": 1490,
+    "sample_records_employer_registered_sunat": 177,
+    "sample_records_employer_not_registered_sunat": 1337,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "04",
     "weighted_employed": 758108.1,
+    "weighted_employed_up_to_20_people": 549775.5,
+    "weighted_employed_employer_registered_sunat": 319289.9,
+    "weighted_employed_employer_not_registered_sunat": 365378.5,
     "sample_records": 2559,
+    "sample_records_up_to_20_people": 1960,
+    "sample_records_employer_registered_sunat": 969,
+    "sample_records_employer_not_registered_sunat": 1344,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "05",
     "weighted_employed": 414056.6,
+    "weighted_employed_up_to_20_people": 352973.3,
+    "weighted_employed_employer_registered_sunat": 59675.6,
+    "weighted_employed_employer_not_registered_sunat": 307717.8,
     "sample_records": 1851,
+    "sample_records_up_to_20_people": 1624,
+    "sample_records_employer_registered_sunat": 178,
+    "sample_records_employer_not_registered_sunat": 1484,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "06",
     "weighted_employed": 915445.9,
+    "weighted_employed_up_to_20_people": 801303.9,
+    "weighted_employed_employer_registered_sunat": 120528.7,
+    "weighted_employed_employer_not_registered_sunat": 708394.8,
     "sample_records": 2559,
+    "sample_records_up_to_20_people": 2289,
+    "sample_records_employer_registered_sunat": 252,
+    "sample_records_employer_not_registered_sunat": 2095,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "07",
     "weighted_employed": 588325.5,
+    "weighted_employed_up_to_20_people": 372485.6,
+    "weighted_employed_employer_registered_sunat": 316212.3,
+    "weighted_employed_employer_not_registered_sunat": 217628.4,
     "sample_records": 1627,
+    "sample_records_up_to_20_people": 1028,
+    "sample_records_employer_registered_sunat": 853,
+    "sample_records_employer_not_registered_sunat": 591,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "08",
     "weighted_employed": 803646.3,
+    "weighted_employed_up_to_20_people": 661831.3,
+    "weighted_employed_employer_registered_sunat": 154460.8,
+    "weighted_employed_employer_not_registered_sunat": 549936.9,
     "sample_records": 2194,
+    "sample_records_up_to_20_people": 1868,
+    "sample_records_employer_registered_sunat": 334,
+    "sample_records_employer_not_registered_sunat": 1616,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "09",
     "weighted_employed": 294488.3,
+    "weighted_employed_up_to_20_people": 252804.3,
+    "weighted_employed_employer_registered_sunat": 36593.3,
+    "weighted_employed_employer_not_registered_sunat": 231340.9,
     "sample_records": 1893,
+    "sample_records_up_to_20_people": 1673,
+    "sample_records_employer_registered_sunat": 152,
+    "sample_records_employer_not_registered_sunat": 1584,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "10",
     "weighted_employed": 508089.4,
+    "weighted_employed_up_to_20_people": 445721.6,
+    "weighted_employed_employer_registered_sunat": 81267.2,
+    "weighted_employed_employer_not_registered_sunat": 381732.6,
     "sample_records": 2018,
+    "sample_records_up_to_20_people": 1777,
+    "sample_records_employer_registered_sunat": 287,
+    "sample_records_employer_not_registered_sunat": 1533,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "11",
     "weighted_employed": 475511.7,
+    "weighted_employed_up_to_20_people": 312322.7,
+    "weighted_employed_employer_registered_sunat": 204587.0,
+    "weighted_employed_employer_not_registered_sunat": 223006.9,
     "sample_records": 2497,
+    "sample_records_up_to_20_people": 1675,
+    "sample_records_employer_registered_sunat": 1015,
+    "sample_records_employer_not_registered_sunat": 1202,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "12",
     "weighted_employed": 805927.6,
+    "weighted_employed_up_to_20_people": 669626.5,
+    "weighted_employed_employer_registered_sunat": 201402.8,
+    "weighted_employed_employer_not_registered_sunat": 538805.5,
     "sample_records": 2721,
+    "sample_records_up_to_20_people": 2299,
+    "sample_records_employer_registered_sunat": 595,
+    "sample_records_employer_not_registered_sunat": 1899,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "13",
     "weighted_employed": 1100082.6,
+    "weighted_employed_up_to_20_people": 822708.5,
+    "weighted_employed_employer_registered_sunat": 375031.9,
+    "weighted_employed_employer_not_registered_sunat": 627939.9,
     "sample_records": 2662,
+    "sample_records_up_to_20_people": 2055,
+    "sample_records_employer_registered_sunat": 830,
+    "sample_records_employer_not_registered_sunat": 1582,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "14",
     "weighted_employed": 698387.0,
+    "weighted_employed_up_to_20_people": 523929.3,
+    "weighted_employed_employer_registered_sunat": 219003.9,
+    "weighted_employed_employer_not_registered_sunat": 404725.2,
     "sample_records": 2375,
+    "sample_records_up_to_20_people": 1813,
+    "sample_records_employer_registered_sunat": 711,
+    "sample_records_employer_not_registered_sunat": 1405,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "15",
     "weighted_employed": 5809097.9,
+    "weighted_employed_up_to_20_people": 3929246.8,
+    "weighted_employed_employer_registered_sunat": 2797833.5,
+    "weighted_employed_employer_not_registered_sunat": 2312561.7,
     "sample_records": 7527,
+    "sample_records_up_to_20_people": 5254,
+    "sample_records_employer_registered_sunat": 3227,
+    "sample_records_employer_not_registered_sunat": 3388,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "16",
     "weighted_employed": 577684.3,
+    "weighted_employed_up_to_20_people": 455196.8,
+    "weighted_employed_employer_registered_sunat": 122505.0,
+    "weighted_employed_employer_not_registered_sunat": 368777.7,
     "sample_records": 2552,
+    "sample_records_up_to_20_people": 2034,
+    "sample_records_employer_registered_sunat": 490,
+    "sample_records_employer_not_registered_sunat": 1689,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "17",
     "weighted_employed": 104138.3,
+    "weighted_employed_up_to_20_people": 87750.2,
+    "weighted_employed_employer_registered_sunat": 18416.1,
+    "weighted_employed_employer_not_registered_sunat": 70856.9,
     "sample_records": 1008,
+    "sample_records_up_to_20_people": 851,
+    "sample_records_employer_registered_sunat": 187,
+    "sample_records_employer_not_registered_sunat": 684,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "18",
     "weighted_employed": 116117.9,
+    "weighted_employed_up_to_20_people": 76771.0,
+    "weighted_employed_employer_registered_sunat": 35480.3,
+    "weighted_employed_employer_not_registered_sunat": 54201.3,
     "sample_records": 1428,
+    "sample_records_up_to_20_people": 975,
+    "sample_records_employer_registered_sunat": 418,
+    "sample_records_employer_not_registered_sunat": 716,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "19",
     "weighted_employed": 180306.1,
+    "weighted_employed_up_to_20_people": 137378.3,
+    "weighted_employed_employer_registered_sunat": 45906.2,
+    "weighted_employed_employer_not_registered_sunat": 114145.8,
     "sample_records": 1413,
+    "sample_records_up_to_20_people": 1153,
+    "sample_records_employer_registered_sunat": 273,
+    "sample_records_employer_not_registered_sunat": 984,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "20",
     "weighted_employed": 1020656.1,
+    "weighted_employed_up_to_20_people": 791596.0,
+    "weighted_employed_employer_registered_sunat": 295567.6,
+    "weighted_employed_employer_not_registered_sunat": 647347.6,
     "sample_records": 2806,
+    "sample_records_up_to_20_people": 2178,
+    "sample_records_employer_registered_sunat": 765,
+    "sample_records_employer_not_registered_sunat": 1797,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "21",
     "weighted_employed": 816365.0,
+    "weighted_employed_up_to_20_people": 698124.3,
+    "weighted_employed_employer_registered_sunat": 114480.3,
+    "weighted_employed_employer_not_registered_sunat": 617598.4,
     "sample_records": 1714,
+    "sample_records_up_to_20_people": 1534,
+    "sample_records_employer_registered_sunat": 173,
+    "sample_records_employer_not_registered_sunat": 1402,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "22",
     "weighted_employed": 558321.1,
+    "weighted_employed_up_to_20_people": 483158.2,
+    "weighted_employed_employer_registered_sunat": 109647.7,
+    "weighted_employed_employer_not_registered_sunat": 402548.3,
     "sample_records": 2542,
+    "sample_records_up_to_20_people": 2185,
+    "sample_records_employer_registered_sunat": 522,
+    "sample_records_employer_not_registered_sunat": 1773,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "23",
     "weighted_employed": 203484.8,
+    "weighted_employed_up_to_20_people": 160908.1,
+    "weighted_employed_employer_registered_sunat": 56935.7,
+    "weighted_employed_employer_not_registered_sunat": 118123.0,
     "sample_records": 1905,
+    "sample_records_up_to_20_people": 1435,
+    "sample_records_employer_registered_sunat": 514,
+    "sample_records_employer_not_registered_sunat": 1084,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "24",
     "weighted_employed": 145325.4,
+    "weighted_employed_up_to_20_people": 117502.2,
+    "weighted_employed_employer_registered_sunat": 34427.4,
+    "weighted_employed_employer_not_registered_sunat": 92661.9,
     "sample_records": 1388,
+    "sample_records_up_to_20_people": 1100,
+    "sample_records_employer_registered_sunat": 316,
+    "sample_records_employer_not_registered_sunat": 863,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   },
   {
     "department_code": "25",
     "weighted_employed": 334830.4,
+    "weighted_employed_up_to_20_people": 280912.0,
+    "weighted_employed_employer_registered_sunat": 73253.2,
+    "weighted_employed_employer_not_registered_sunat": 225792.0,
     "sample_records": 2178,
+    "sample_records_up_to_20_people": 1818,
+    "sample_records_employer_registered_sunat": 471,
+    "sample_records_employer_not_registered_sunat": 1451,
     "period": "2025_annual",
     "source_id": "INEI_ENAHO_2025_M05",
     "indicator": "Empleo ocupado ENAHO",
-    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+    "definitions": {
+      "weighted_employed_up_to_20_people": "Employed persons whose reported work/business/enterprise size is up to 20 persons (P512A=1).",
+      "weighted_employed_employer_registered_sunat": "Employed persons reporting the business/enterprise as registered with SUNAT (P510A1=1 or 2).",
+      "weighted_employed_employer_not_registered_sunat": "Employed persons reporting the business/enterprise as not registered/no RUC (P510A1=3)."
+    },
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department. Registration and size are respondent reports and do not define a legal microenterprise universe."
   }
 ]

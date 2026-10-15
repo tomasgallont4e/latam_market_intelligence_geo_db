@@ -1,6 +1,6 @@
 {
   "source_rows": 57716,
   "aggregate_rows": 3228,
-  "definition": "ENAHO employed people (OCU500=1), FAC500A weighted; grouped by residence department, reported CIIU and reported size-band code.",
-  "not_measured": "firms, sales, formalization or a legal microenterprise universe"
+  "definition": "ENAHO employed people (OCU500=1), FAC500A weighted; grouped by residence department, reported CIIU and reported size-band code. P512A labels: 1 up to 20, 2 21–50, 3 51–100, 4 101–500, 5 over 500. P510A1 reports SUNAT registration of the business/enterprise.",
+  "not_measured": "firms, sales, legal formalization or a legal microenterprise universe"
 }
