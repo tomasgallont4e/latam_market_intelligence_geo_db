@@ -30,6 +30,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 | 2 | `data/peru/day2_gh/` | G/H: empleo TIC por departamento e indicador de empleador; no es demanda. |
 | 3 | `data/peru/day3_tuni_enrollment/` | Matrícula superior reportada por TUNI/SUNEDU, 2025-2, por departamento y distrito. |
 | 3 | `data/peru/day3_tuni_ingress/` | Ingresantes reportados por TUNI/SUNEDU, 2025, con alcance nacional (sin sede ni territorio en el archivo fuente). |
+| 3 | `data/peru/day3_tuni_graduates/` | Egresados reportados por TUNI/SUNEDU, 2024, por departamento y distrito. |
 | 4 | `data/peru/day4_dj_ruc/` | RUC TIC SUNAT por departamento y distrito fiscal. |
 | 5 | `data/peru/day5_oq/` | Contexto ERESTEL/OSIPTEL y auditoría de llaves IGN. |
 
@@ -41,7 +42,7 @@ La carpeta `data/peru-map/research_layers_B_R/` conserva los contratos por capa.
 
 | Capas | Estado en el consolidado | Próxima fuente o trabajo declarado |
 |---|---|---|
-| C y L | Marco educativo parcial | TUNI/SUNEDU aporta matrícula reportada 2025-2 por programa/local e ingresantes nacionales 2025; faltan modalidad, capacidad, egresados y homologación ISCED-F. |
+| C y L | Marco educativo parcial | TUNI/SUNEDU aporta matrícula 2025-2 y egresados 2024 por programa/local, e ingresantes nacionales 2025; faltan modalidad, capacidad y homologación ISCED-F. |
 | D | Disponible por departamento | RUC/SUNAT, usando CIIU 6201, 6202, 6209, 6311 y 6312 con universo activo explícito. Para llegar a distrito falta cartografía distrital con UBIGEO validado. |
 | E | Sin valores | CPV, RUC, SUNEDU y ESCALE, según el contrato de capa. |
 | H | Parcial departamental | EPEN 2025 y CNO: empleador como proxy; falta el cruce de ciudad/cliente de la plantilla. |

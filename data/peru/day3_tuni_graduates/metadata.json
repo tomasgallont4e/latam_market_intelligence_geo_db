@@ -1,0 +1,12 @@
+{
+  "country": "PE",
+  "source": "SUNEDU TUNI, Comunidad estudiantil / Egresados",
+  "source_url": "https://www.tuni.pe/comunidad/estudiantes#egresados",
+  "downloaded_at": "2026-10-15",
+  "reference_period": "2024",
+  "source_rows": 4035,
+  "accepted_rows": 4029,
+  "departments": 25,
+  "districts": 132,
+  "caveat": "TUNI export aggregates reported graduates by programme and local. It contains no individual people. It covers institutions reporting to SIU and is not a census of all Peruvian tertiary education. ICT is the TUNI programme groups Sistemas y Cómputo or Informática only."
+}
