@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T13:29:14.454Z",
+  "generated_at": "2026-10-15T13:35:28.996Z",
   "checks": [
     {
       "id": "day1_package",
@@ -90,15 +90,17 @@
   "counts": {
     "day2_observed": 85,
     "day3_rows": 116,
+    "day3_sunedu_departments": 25,
     "day4_districts": 1211,
-    "day4_local_departments": 25
+    "day4_local_departments": 25,
+    "day4_connectivity_departments": 25
   },
   "passed": 14,
   "failed": 0,
   "not_completed": [
-    "C/L university and programme-level data",
-    "M/N business size or microbusiness universe",
+    "C/L university programme, enrollment, campus and modality data",
+    "N legal business-size and microenterprise universe",
     "P programme/sponsorship evidence",
-    "R approved cross-layer reconciliation"
+    "R approved business reconciliation (technical geographic reconciliation is published)"
   ]
 }
