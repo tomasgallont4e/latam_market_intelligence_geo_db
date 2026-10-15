@@ -7,7 +7,9 @@
     if (loading) return loading;
     loading = new Promise(function (resolve, reject) {
       var s = document.createElement('script');
-      s.src = 'js/map_view.js';
+      // Versioned URL prevents a deployed HTML update from reusing an older
+      // cached map module with Colombia-only country-switch behavior.
+      s.src = 'js/map_view.js?v=peru-map-20261014-2';
       s.onload = function () { resolve(); };
       s.onerror = function () { loading = null; reject(new Error('No se pudo cargar js/map_view.js')); };
       document.body.appendChild(s);
