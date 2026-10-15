@@ -1,0 +1,73 @@
+{
+  "country": "PE",
+  "generated_at": "2026-10-15T03:36:01.841Z",
+  "checks": [
+    {
+      "id": "day1_package",
+      "file": "data/peru/think4ever_peru_day1_FINAL",
+      "pass": true,
+      "note": "A/B/F supplied final package"
+    },
+    {
+      "id": "day2_script",
+      "file": "scripts/build-peru-day2-gh.py",
+      "pass": true,
+      "note": "G/H builder"
+    },
+    {
+      "id": "day2_observed",
+      "file": "data/peru-map/fact_persona_department_epen2025.json",
+      "pass": true,
+      "note": "EPEN departmental observed estimates"
+    },
+    {
+      "id": "day3_script",
+      "file": "scripts/build-peru-day3-l-partial.js",
+      "pass": true,
+      "note": "L partial builder"
+    },
+    {
+      "id": "day3_data",
+      "file": "data/peru/day3_l_partial/l_nonuniversity_by_department_2025.json",
+      "pass": true,
+      "note": "MINEDU non-university aggregates"
+    },
+    {
+      "id": "day4_script",
+      "file": "scripts/build-peru-day4-dj-ruc.js",
+      "pass": true,
+      "note": "D/J RUC builder"
+    },
+    {
+      "id": "day4_data",
+      "file": "data/peru/day4_dj_ruc/j_tic_ruc_by_district_202604.json",
+      "pass": true,
+      "note": "SUNAT RUC territorial aggregate"
+    },
+    {
+      "id": "day5_script",
+      "file": "scripts/audit-peru-day5-oq.js",
+      "pass": true,
+      "note": "O/Q builder"
+    },
+    {
+      "id": "day5_data",
+      "file": "data/peru/day5_oq/audit.json",
+      "pass": true,
+      "note": "ERESTEL/IGN audit"
+    }
+  ],
+  "counts": {
+    "day2_observed": 85,
+    "day3_rows": 116,
+    "day4_districts": 1211
+  },
+  "passed": 9,
+  "failed": 0,
+  "not_completed": [
+    "C/L university and programme-level data",
+    "M/N business size or microbusiness universe",
+    "P programme/sponsorship evidence",
+    "R approved cross-layer reconciliation"
+  ]
+}
