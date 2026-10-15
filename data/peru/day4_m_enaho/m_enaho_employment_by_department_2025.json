@@ -1,0 +1,227 @@
+[
+  {
+    "department_code": "01",
+    "weighted_employed": 251462.1,
+    "sample_records": 2097,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "02",
+    "weighted_employed": 678334.8,
+    "sample_records": 2523,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "03",
+    "weighted_employed": 302181.8,
+    "sample_records": 1679,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "04",
+    "weighted_employed": 758108.1,
+    "sample_records": 2559,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "05",
+    "weighted_employed": 414056.6,
+    "sample_records": 1851,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "06",
+    "weighted_employed": 915445.9,
+    "sample_records": 2559,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "07",
+    "weighted_employed": 588325.5,
+    "sample_records": 1627,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "08",
+    "weighted_employed": 803646.3,
+    "sample_records": 2194,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "09",
+    "weighted_employed": 294488.3,
+    "sample_records": 1893,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "10",
+    "weighted_employed": 508089.4,
+    "sample_records": 2018,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "11",
+    "weighted_employed": 475511.7,
+    "sample_records": 2497,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "12",
+    "weighted_employed": 805927.6,
+    "sample_records": 2721,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "13",
+    "weighted_employed": 1100082.6,
+    "sample_records": 2662,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "14",
+    "weighted_employed": 698387.0,
+    "sample_records": 2375,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "15",
+    "weighted_employed": 5809097.9,
+    "sample_records": 7527,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "16",
+    "weighted_employed": 577684.3,
+    "sample_records": 2552,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "17",
+    "weighted_employed": 104138.3,
+    "sample_records": 1008,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "18",
+    "weighted_employed": 116117.9,
+    "sample_records": 1428,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "19",
+    "weighted_employed": 180306.1,
+    "sample_records": 1413,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "20",
+    "weighted_employed": 1020656.1,
+    "sample_records": 2806,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "21",
+    "weighted_employed": 816365.0,
+    "sample_records": 1714,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "22",
+    "weighted_employed": 558321.1,
+    "sample_records": 2542,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "23",
+    "weighted_employed": 203484.8,
+    "sample_records": 1905,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "24",
+    "weighted_employed": 145325.4,
+    "sample_records": 1388,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  },
+  {
+    "department_code": "25",
+    "weighted_employed": 334830.4,
+    "sample_records": 2178,
+    "period": "2025_annual",
+    "source_id": "INEI_ENAHO_2025_M05",
+    "indicator": "Empleo ocupado ENAHO",
+    "limitation": "Persons employed by residence department; not firms or jobs located in the department."
+  }
+]
