@@ -9,7 +9,7 @@
       var s = document.createElement('script');
       // Versioned URL prevents a deployed HTML update from reusing an older
       // cached map module with Colombia-only country-switch behavior.
-      s.src = 'js/map_view.js?v=peru-map-20261014-2';
+      s.src = 'js/map_view.js?v=peru-map-20261014-4';
       s.onload = function () { resolve(); };
       s.onerror = function () { loading = null; reject(new Error('No se pudo cargar js/map_view.js')); };
       document.body.appendChild(s);
