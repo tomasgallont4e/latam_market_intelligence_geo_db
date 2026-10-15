@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T13:43:37.748Z",
+  "generated_at": "2026-10-15T15:05:03.150Z",
   "checks": [
     {
       "id": "day1_package",
@@ -57,6 +57,12 @@
       "note": "MINEDU non-university enrollment aggregate"
     },
     {
+      "id": "day3_tuni_enrollment",
+      "file": "data/peru/day3_tuni_enrollment/tuni_enrollment_by_department_2025_2.json",
+      "pass": true,
+      "note": "SUNEDU TUNI reported enrollment aggregate"
+    },
+    {
       "id": "day4_script",
       "file": "scripts/build-peru-day4-dj-ruc.js",
       "pass": true,
@@ -103,14 +109,16 @@
     "day2_observed": 85,
     "day3_rows": 116,
     "day3_sunedu_departments": 25,
+    "day3_tuni_departments": 25,
+    "day3_tuni_districts": 146,
     "day4_districts": 1211,
     "day4_local_departments": 25,
     "day4_connectivity_departments": 25
   },
-  "passed": 16,
+  "passed": 17,
   "failed": 0,
   "not_completed": [
-    "C university enrollment, entrants, graduates, capacity and teaching-modality data",
+    "C university entrants, graduates, capacity and teaching-modality data (reported enrollment is published)",
     "L programme field and modality for non-university enrollment",
     "N legal business-size and microenterprise universe",
     "P programme/sponsorship evidence",

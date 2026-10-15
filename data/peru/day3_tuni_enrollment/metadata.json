@@ -1,0 +1,12 @@
+{
+  "country": "PE",
+  "source": "SUNEDU TUNI, Comunidad estudiantil / Matriculados",
+  "source_url": "https://www.tuni.pe/comunidad/estudiantes",
+  "downloaded_at": "2026-10-15",
+  "reference_period": "2025-2",
+  "source_rows": 5656,
+  "accepted_rows": 5650,
+  "departments": 25,
+  "districts": 146,
+  "caveat": "TUNI export aggregates reported enrollment by programme and local. It contains no individual students. It covers institutions reporting to SIU and is not a census of all Peruvian tertiary education. ICT is the TUNI programme groups Sistemas y Cómputo or Informática only."
+}

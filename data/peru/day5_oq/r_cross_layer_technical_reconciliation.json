@@ -177,6 +177,22 @@
       "available_departments": 25,
       "missing_departments": 0,
       "status": "complete_geographic_coverage"
+    },
+    {
+      "indicator_key": "tuni_reported_enrollment",
+      "label": "Matrícula superior reportada (TUNI/SUNEDU)",
+      "department_features": 25,
+      "available_departments": 25,
+      "missing_departments": 0,
+      "status": "complete_geographic_coverage"
+    },
+    {
+      "indicator_key": "tuni_ict_enrollment",
+      "label": "Matrícula TIC reportada (TUNI/SUNEDU)",
+      "department_features": 25,
+      "available_departments": 25,
+      "missing_departments": 0,
+      "status": "complete_geographic_coverage"
     }
   ],
   "business_reconciliation_status": "pending_approval",

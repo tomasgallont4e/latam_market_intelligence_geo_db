@@ -7,7 +7,7 @@ se sustituye por cero ni por una distribución sintética.
 |---|---|---|---|
 | 1 | A, B, F | Completo: GitHub Innovation Graph, Stack Overflow 2025, EPEN/ENAHO 2025 y CNO 2015 | `data/peru/think4ever_peru_day1_FINAL/` |
 | 2 | F, G, H, I | F completo. G/H reproducidos desde EPEN anual 2025 por departamento; I conserva solo escenarios sin precio aprobado | `data/peru/day2_gh/` y `data/peru-map/fact_persona_department_epen2025.json` |
-| 3 | K, L, C | K tiene padrones/MINEDU procesados y mapa de servicios; L tiene matrícula SNU 2025 por departamento; C tiene inventario SUNEDU y oferta de programas universitarios por local. Aún faltan matrícula universitaria, modalidad y capacidad | `data/peru/day3_higher_education_offer/`, `data/peru/day3_minedu_snu_enrollment/`, `data/peru/day3_sunedu/`, `data/peru/day3_sunedu_programmes/`, `data/peru-map/fact_secondary_*` |
+| 3 | K, L, C | K tiene padrones/MINEDU procesados y mapa de servicios; L tiene matrícula SNU 2025 por departamento; C tiene inventario y oferta SUNEDU, más matrícula TUNI/SUNEDU 2025-2 por programa y local. Aún faltan modalidad, capacidad, ingresantes y egresados | `data/peru/day3_higher_education_offer/`, `data/peru/day3_minedu_snu_enrollment/`, `data/peru/day3_sunedu/`, `data/peru/day3_sunedu_programmes/`, `data/peru/day3_tuni_enrollment/`, `data/peru-map/fact_secondary_*` |
 | 4 | M, N, J, D, E | D tiene agregado RUC TIC por distrito. M tiene empleo ENAHO por tamaño reportado y registro SUNAT declarado; N/J/E no tienen aún un insumo publicable con las definiciones completas de la plantilla | `data/peru-map/fact_ruc_tic_district_202604.json`, `data/peru/day4_m_enaho/`, `data/peru/day4_n_padron_local/` |
 | 5 | O, P, Q, R | O contiene contexto ERESTEL. Q tiene geometrías IGN. R tiene conciliación técnica de cobertura geográfica de las capas mapeadas; P y la conciliación de negocio requieren evidencia/aprobación | `data/peru/day5_oq/`, `data/peru-map/fact_digital_context_erestel_2025.json`, `geo_*ign_2025.geojson` |
 
@@ -25,9 +25,9 @@ la posición/sector del empleador. No mide compradores ni demanda comercial.
 
 ## Insumos necesarios para cerrar los pendientes
 
-1. SUNEDU: matrícula por programa, sede, modalidad y periodo; el acceso se
-   solicita en https://saip.sunedu.gob.pe/ cuando el titular autorice la
-   solicitud.
+1. SUNEDU: TUNI ya entrega matrícula agregada por programa, sede y periodo.
+   Para modalidad, capacidad, ingresantes y egresados, el acceso se solicita
+   en https://saip.sunedu.gob.pe/ cuando el titular autorice la solicitud.
 2. Definición y fuente oficial de micronegocio, empresa formal, zona comercial
    y tipología de ciudad para M/N/J/E. El padrón RUC por sí solo no contiene
    empleo, ventas, tamaño o universo de micronegocios.
