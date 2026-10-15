@@ -1,0 +1,218 @@
+[
+  {
+    "department": "Loreto",
+    "licensed_universities": 3,
+    "public_universities": 2,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Lima",
+    "licensed_universities": 39,
+    "public_universities": 10,
+    "private_universities": 29,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Cajamarca",
+    "licensed_universities": 4,
+    "public_universities": 4,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Mariscal Nieto",
+    "licensed_universities": 1,
+    "public_universities": 0,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Huánuco",
+    "licensed_universities": 4,
+    "public_universities": 3,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Áncash",
+    "licensed_universities": 3,
+    "public_universities": 2,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Laredo",
+    "licensed_universities": 1,
+    "public_universities": 0,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Junín",
+    "licensed_universities": 7,
+    "public_universities": 3,
+    "private_universities": 4,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "La Libertad",
+    "licensed_universities": 6,
+    "public_universities": 2,
+    "private_universities": 4,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Lambayeque",
+    "licensed_universities": 3,
+    "public_universities": 1,
+    "private_universities": 2,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Ica",
+    "licensed_universities": 2,
+    "public_universities": 1,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Apurímac",
+    "licensed_universities": 3,
+    "public_universities": 2,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Callao",
+    "licensed_universities": 1,
+    "public_universities": 1,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Tumbes",
+    "licensed_universities": 1,
+    "public_universities": 1,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Madre de Dios",
+    "licensed_universities": 1,
+    "public_universities": 1,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Pasco",
+    "licensed_universities": 1,
+    "public_universities": 1,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Huancavelica",
+    "licensed_universities": 3,
+    "public_universities": 2,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Cusco",
+    "licensed_universities": 3,
+    "public_universities": 2,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Piura",
+    "licensed_universities": 3,
+    "public_universities": 2,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "San Martín",
+    "licensed_universities": 1,
+    "public_universities": 1,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Ucayali",
+    "licensed_universities": 2,
+    "public_universities": 2,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Arequipa",
+    "licensed_universities": 4,
+    "public_universities": 1,
+    "private_universities": 3,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Puno",
+    "licensed_universities": 2,
+    "public_universities": 2,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Amazonas",
+    "licensed_universities": 2,
+    "public_universities": 2,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Tacna",
+    "licensed_universities": 2,
+    "public_universities": 1,
+    "private_universities": 1,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Ayacucho",
+    "licensed_universities": 2,
+    "public_universities": 2,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  },
+  {
+    "department": "Moquegua",
+    "licensed_universities": 1,
+    "public_universities": 1,
+    "private_universities": 0,
+    "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
+    "scope": "licensed_university_inventory_not_enrollment"
+  }
+]
