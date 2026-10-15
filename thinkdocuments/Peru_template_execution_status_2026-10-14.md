@@ -7,9 +7,9 @@ se sustituye por cero ni por una distribución sintética.
 |---|---|---|---|
 | 1 | A, B, F | Completo: GitHub Innovation Graph, Stack Overflow 2025, EPEN/ENAHO 2025 y CNO 2015 | `data/peru/think4ever_peru_day1_FINAL/` |
 | 2 | F, G, H, I | F completo. G/H reproducidos desde EPEN anual 2025 por departamento; I conserva solo escenarios sin precio aprobado | `data/peru/day2_gh/` y `data/peru-map/fact_persona_department_epen2025.json` |
-| 3 | K, L, C | K tiene padrones/MINEDU procesados y mapa de servicios. C/L requieren programa, sede, modalidad y periodo de SUNEDU | `data/peru-map/fact_secondary_*`, `geo_secondary_services_2025.geojson` |
-| 4 | M, N, J, D, E | D tiene agregado RUC TIC por distrito. M/N/J/E no tienen aún un insumo publicable con las definiciones de la plantilla | `data/peru-map/fact_ruc_tic_district_202604.json` |
-| 5 | O, P, Q, R | O contiene contexto ERESTEL. Q tiene geometrías IGN y llaves UBIGEO ya verificadas. P/R necesitan evidencia de programa y conciliaciones finales | `data/peru-map/fact_digital_context_erestel_2025.json`, `geo_*ign_2025.geojson` |
+| 3 | K, L, C | K tiene padrones/MINEDU procesados y mapa de servicios; se publicó oferta superior no universitaria y el inventario SUNEDU de universidades licenciadas. C/L aún requieren programa, sede, modalidad y periodo | `data/peru/day3_higher_education_offer/`, `data/peru/day3_sunedu/`, `data/peru-map/fact_secondary_*` |
+| 4 | M, N, J, D, E | D tiene agregado RUC TIC por distrito. M tiene empleo ENAHO por tamaño reportado y registro SUNAT declarado; N/J/E no tienen aún un insumo publicable con las definiciones completas de la plantilla | `data/peru-map/fact_ruc_tic_district_202604.json`, `data/peru/day4_m_enaho/`, `data/peru/day4_n_padron_local/` |
+| 5 | O, P, Q, R | O contiene contexto ERESTEL. Q tiene geometrías IGN. R tiene conciliación técnica de cobertura geográfica de las capas mapeadas; P y la conciliación de negocio requieren evidencia/aprobación | `data/peru/day5_oq/`, `data/peru-map/fact_digital_context_erestel_2025.json`, `geo_*ign_2025.geojson` |
 
 ## Día 2: alcance exacto
 
@@ -32,4 +32,6 @@ la posición/sector del empleador. No mide compradores ni demanda comercial.
    y tipología de ciudad para M/N/J/E. El padrón RUC por sí solo no contiene
    empleo, ventas, tamaño o universo de micronegocios.
 3. Evidencia del programa/patrocinios para P y una matriz de conciliación
-   aprobada por negocio para R. No se infieren de geografía o encuestas.
+   aprobada por negocio para R. No se infieren de geografía o encuestas. La
+   conciliación técnica actualmente publicada solo prueba cobertura de llaves,
+   no equivalencia de conceptos entre fuentes.

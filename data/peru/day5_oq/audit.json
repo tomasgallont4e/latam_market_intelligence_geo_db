@@ -16,7 +16,163 @@
     "reason": "No programme/sponsorship evidence supplied."
   },
   "R": {
-    "status": "partial",
-    "reason": "Layer-specific reproducibility checks exist; a cross-layer business reconciliation is not yet approved."
+    "status": "technical_geographic_reconciliation_complete",
+    "department_features": 25,
+    "indicators": [
+      {
+        "indicator_key": "ruc_tic_active",
+        "label": "Empresas TIC activas",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "ruc_6201",
+        "label": "Desarrollo de software",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "ruc_6202",
+        "label": "Consultoría TI",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "ruc_6209",
+        "label": "Otros servicios TI",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "ruc_6311",
+        "label": "Procesamiento de datos",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "ruc_6312",
+        "label": "Portales web",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "education_students_all",
+        "label": "Matrícula educativa total",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "education_services_all",
+        "label": "Servicios educativos totales",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "secondary_target_students",
+        "label": "Matrícula secundaria objetivo",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "secondary_services",
+        "label": "Servicios de secundaria",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "secondary_all_students",
+        "label": "Matrícula secundaria total",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "enaho_employed_residents",
+        "label": "Ocupados residentes (ENAHO)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "enaho_employed_up_to_20_people",
+        "label": "Ocupados en establecimientos de hasta 20 personas (ENAHO)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "enaho_employer_registered_sunat",
+        "label": "Ocupados con empleador registrado en SUNAT (ENAHO)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "sunedu_licensed_universities",
+        "label": "Universidades licenciadas (SUNEDU)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "registered_local_addresses",
+        "label": "Establecimientos registrados con local (SUNAT)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "enaho_internet_household_rate",
+        "label": "Hogares con internet (ENAHO)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "enaho_internet_households",
+        "label": "Hogares con internet (ENAHO)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      },
+      {
+        "indicator_key": "higher_nonuniversity_services",
+        "label": "Oferta superior no universitaria (MINEDU)",
+        "department_features": 25,
+        "available_departments": 25,
+        "missing_departments": 0,
+        "status": "complete_geographic_coverage"
+      }
+    ],
+    "business_reconciliation_status": "pending_approval",
+    "caveat": "This verifies published feature coverage and geographic keys only. It does not reconcile incompatible definitions, periods or business totals across sources."
   }
 }

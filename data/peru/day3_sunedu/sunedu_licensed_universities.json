@@ -38,8 +38,8 @@
   {
     "university": "Universidad José Carlos Mariátegui de Moquegua",
     "license_date": "16-01-2026",
-    "department": "Mariscal Nieto",
-    "province": "Moquegua",
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
     "management": "Privada",
     "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
     "scope": "licensed_university_inventory_not_enrollment"
@@ -83,8 +83,8 @@
   {
     "university": "Universidad Privada de Trujillo",
     "license_date": "11-11-2024",
-    "department": "Laredo",
-    "province": "Trujillo",
+    "department": "La Libertad",
+    "province": "Laredo",
     "management": "Privada",
     "source_id": "SUNEDU_LICENSED_UNIVERSITIES",
     "scope": "licensed_university_inventory_not_enrollment"
