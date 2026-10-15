@@ -1,0 +1,42 @@
+[
+  {
+    "layer": "C",
+    "metric_id": "C_TUNI_INGRESS_TOTAL_2025",
+    "scope_type": "country",
+    "scope_id": "PE",
+    "group_id": "",
+    "persona_id": "",
+    "indicator": "Ingresantes reportados (TUNI/SUNEDU)",
+    "category": "higher_education",
+    "value": 609872,
+    "unit": "students",
+    "period": "2025",
+    "comparison_period": "",
+    "numerator": null,
+    "denominator": null,
+    "status": "published_aggregate_national",
+    "source_id": "SUNEDU_TUNI_INGRESANTES_2025",
+    "method": "sum of public TUNI programme rows",
+    "limitations": "TUNI public export is an aggregate by institution and programme group. It has no local, district or department field, so these values are national only and must not be allocated geographically. ICT is the TUNI programme groups Sistemas y Cómputo or Informática only."
+  },
+  {
+    "layer": "C",
+    "metric_id": "C_TUNI_INGRESS_ICT_2025",
+    "scope_type": "country",
+    "scope_id": "PE",
+    "group_id": "",
+    "persona_id": "",
+    "indicator": "Ingresantes TIC reportados (TUNI/SUNEDU)",
+    "category": "higher_education",
+    "value": 28394,
+    "unit": "students",
+    "period": "2025",
+    "comparison_period": "",
+    "numerator": null,
+    "denominator": null,
+    "status": "published_aggregate_national",
+    "source_id": "SUNEDU_TUNI_INGRESANTES_2025",
+    "method": "sum of public TUNI rows classified Sistemas y Cómputo or Informática",
+    "limitations": "TUNI public export is an aggregate by institution and programme group. It has no local, district or department field, so these values are national only and must not be allocated geographically. ICT is the TUNI programme groups Sistemas y Cómputo or Informática only."
+  }
+]

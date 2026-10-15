@@ -8,7 +8,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 
 - Las capas A–R están disponibles en el selector. Una capa sin cifras publicadas se conserva como pendiente, nunca como cero.
 - Los indicadores se conservan como datos nacionales cuando su fuente no aporta geografía. El **Núcleo TIC observado (P01–P04 combinado)** y las personas P01–P04 se muestran por departamento a partir de EPEN 2025 cuando su muestra lo permite; las celdas pequeñas se suprimen. P05–P13 siguen siendo una estimación modelada con pesos de RUC TIC y matrícula secundaria.
-- **Departamentos del Perú** es una coropleta con 25 límites referenciales del IGN y 24 indicadores con llave territorial verificable: actividad TIC formal, educación básica/superior, empleo, conectividad y matrícula reportada por TUNI/SUNEDU. Sus nombres se muestran en la interfaz; no como letras de capa.
+- **Departamentos del Perú** es una coropleta con 25 límites referenciales del IGN y 24 indicadores con llave territorial verificable: actividad TIC formal, educación básica/superior, empleo, conectividad y matrícula reportada por TUNI/SUNEDU. Además, TUNI aporta dos indicadores nacionales de ingresantes 2025. Sus nombres se muestran en la interfaz; no como letras de capa.
 - **Distritos del Perú** es una coropleta de detalle con 1.891 límites IGN. Para mantener la respuesta rápida, carga hasta 450 distritos del área visible y se actualiza al acercar o desplazar el mapa. La ficha incluye departamento, provincia y UBIGEO.
 - La capa `Servicios educativos` representa 15.700 puntos de secundaria EBR. Los códigos `ubigeo` sirven para filtrar o enlazar datos, pero el paquete no incluye polígonos distritales certificados.
 - Las cifras visibles mantienen periodo, estado, fuente y limitación declarada por el consolidado.
@@ -29,6 +29,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 | 1 | `data/peru/think4ever_peru_day1_FINAL/` | A, B y F; fuentes, controles y resultados finales. |
 | 2 | `data/peru/day2_gh/` | G/H: empleo TIC por departamento e indicador de empleador; no es demanda. |
 | 3 | `data/peru/day3_tuni_enrollment/` | Matrícula superior reportada por TUNI/SUNEDU, 2025-2, por departamento y distrito. |
+| 3 | `data/peru/day3_tuni_ingress/` | Ingresantes reportados por TUNI/SUNEDU, 2025, con alcance nacional (sin sede ni territorio en el archivo fuente). |
 | 4 | `data/peru/day4_dj_ruc/` | RUC TIC SUNAT por departamento y distrito fiscal. |
 | 5 | `data/peru/day5_oq/` | Contexto ERESTEL/OSIPTEL y auditoría de llaves IGN. |
 
@@ -40,7 +41,7 @@ La carpeta `data/peru-map/research_layers_B_R/` conserva los contratos por capa.
 
 | Capas | Estado en el consolidado | Próxima fuente o trabajo declarado |
 |---|---|---|
-| C y L | Marco educativo parcial | TUNI/SUNEDU aporta matrícula reportada 2025-2 por programa/local; faltan modalidad, capacidad, ingresantes/egresados y homologación ISCED-F. |
+| C y L | Marco educativo parcial | TUNI/SUNEDU aporta matrícula reportada 2025-2 por programa/local e ingresantes nacionales 2025; faltan modalidad, capacidad, egresados y homologación ISCED-F. |
 | D | Disponible por departamento | RUC/SUNAT, usando CIIU 6201, 6202, 6209, 6311 y 6312 con universo activo explícito. Para llegar a distrito falta cartografía distrital con UBIGEO validado. |
 | E | Sin valores | CPV, RUC, SUNEDU y ESCALE, según el contrato de capa. |
 | H | Parcial departamental | EPEN 2025 y CNO: empleador como proxy; falta el cruce de ciudad/cliente de la plantilla. |
@@ -54,7 +55,7 @@ La carpeta `data/peru-map/research_layers_B_R/` conserva los contratos por capa.
 
 ## Memoria de accesos y adquisiciones
 
-- **SUNEDU (capas C y L):** TUNI publica matrícula reportada por periodo/programa/local y ya se agrega al mapa. Aún queda pendiente modalidad y capacidad; no se sustituyen con estimaciones. Las rutas oficiales son `https://www.tuni.pe/comunidad/estudiantes`, `https://saip.sunedu.gob.pe/` y `https://www.sunedu.gob.pe/solicitud-acceso-informacion-publica/`. La solicitud exige identificación y datos del solicitante; no se presenta sin autorización expresa del titular.
+- **SUNEDU (capas C y L):** TUNI publica matrícula por periodo/programa/local e ingresantes por programa; la primera se agrega territorialmente y los segundos se muestran solo a nivel nacional porque el archivo no trae sede ni territorio. Aún quedan pendiente modalidad, capacidad y egresados; no se sustituyen con estimaciones. Las rutas oficiales son `https://www.tuni.pe/comunidad/estudiantes`, `https://saip.sunedu.gob.pe/` y `https://www.sunedu.gob.pe/solicitud-acceso-informacion-publica/`. La solicitud exige identificación y datos del solicitante; no se presenta sin autorización expresa del titular.
 - **Fuentes ya descargadas o iniciadas:** Padrón RUC SUNAT abril 2026; EPEN 2025 por departamentos; EPEN 2026 ciudades (T1 y T2); ENAHO 2025 completa. Se conservarán como insumos pendientes de normalización, no se mezclan automáticamente con el corte base 2025.
 - **RUC integrado:** el padrón SUNAT de abril de 2026 provisto por el usuario ya alimenta la capa D. Se publican únicamente agregados: 88.147 RUC activos con actividad principal CIIU rev.4 6201/6202/6209/6311/6312, distribuidos en 1.211 distritos de domicilio fiscal. No equivale a empleo o establecimientos locales.
 - **ESCALE:** para conservar la comparabilidad se utilizará el corte 2025 del histórico. El padrón vigente publica archivos 2026 y necesita una decisión explícita antes de sustituir los datos escolares del mapa.

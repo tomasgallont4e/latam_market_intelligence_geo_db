@@ -1,6 +1,6 @@
 {
   "country": "PE",
-  "generated_at": "2026-10-15T15:07:11.221Z",
+  "generated_at": "2026-10-15T15:21:41.717Z",
   "checks": [
     {
       "id": "day1_package",
@@ -63,6 +63,12 @@
       "note": "SUNEDU TUNI reported enrollment aggregate"
     },
     {
+      "id": "day3_tuni_ingress",
+      "file": "data/peru/day3_tuni_ingress/ingress_national_2025.json",
+      "pass": true,
+      "note": "SUNEDU TUNI national entrants aggregate"
+    },
+    {
       "id": "day4_script",
       "file": "scripts/build-peru-day4-dj-ruc.js",
       "pass": true,
@@ -115,10 +121,10 @@
     "day4_local_departments": 25,
     "day4_connectivity_departments": 25
   },
-  "passed": 17,
+  "passed": 18,
   "failed": 0,
   "not_completed": [
-    "C university entrants, graduates, capacity and teaching-modality data (reported enrollment is published)",
+    "C university graduates, capacity and teaching-modality data (reported enrollment and national entrants are published)",
     "L programme field and modality for non-university enrollment",
     "N legal business-size and microenterprise universe",
     "P programme/sponsorship evidence",

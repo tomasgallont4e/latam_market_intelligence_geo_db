@@ -1,0 +1,10 @@
+{
+  "country": "PE",
+  "source": "SUNEDU TUNI, Comunidad estudiantil / Ingresantes",
+  "source_url": "https://www.tuni.pe/comunidad/estudiantes#ingresantes",
+  "downloaded_at": "2026-10-15",
+  "reference_period": "2025",
+  "source_rows": 4268,
+  "accepted_rows": 4262,
+  "caveat": "TUNI public export is an aggregate by institution and programme group. It has no local, district or department field, so these values are national only and must not be allocated geographically. ICT is the TUNI programme groups Sistemas y Cómputo or Informática only."
+}

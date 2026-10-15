@@ -1,0 +1,351 @@
+{
+  "metric": "entrants",
+  "total_entrants": 609872,
+  "ict_entrants": 28394,
+  "programme_group_totals": [
+    {
+      "programme_group": "ADMINISTRACION PUBLICA",
+      "entrants": 6421
+    },
+    {
+      "programme_group": "ANTROPOLOGIA",
+      "entrants": 673
+    },
+    {
+      "programme_group": "ARQUITECTURA Y URBANISMO",
+      "entrants": 12287
+    },
+    {
+      "programme_group": "ARTE",
+      "entrants": 556
+    },
+    {
+      "programme_group": "ASISTENCIA A ADULTOS MAYORES",
+      "entrants": 55
+    },
+    {
+      "programme_group": "ASISTENCIA A LA INFANCIA",
+      "entrants": 759
+    },
+    {
+      "programme_group": "BIBLIOTECOLOGIA Y ARCHIVO",
+      "entrants": 43
+    },
+    {
+      "programme_group": "BIOLOGIA",
+      "entrants": 2573
+    },
+    {
+      "programme_group": "CIENCIAS DE LA COMPUTACION",
+      "entrants": 1295
+    },
+    {
+      "programme_group": "CIENCIAS DE LA COMUNICACION Y PERIODISMO",
+      "entrants": 6695
+    },
+    {
+      "programme_group": "CIENCIAS DE LA TIERRA",
+      "entrants": 1150
+    },
+    {
+      "programme_group": "CIENCIAS POLITICAS",
+      "entrants": 1389
+    },
+    {
+      "programme_group": "COMPETENCIAS LABORALES",
+      "entrants": 1075
+    },
+    {
+      "programme_group": "CONSTRUCCION E INGENIERIA CIVIL",
+      "entrants": 24356
+    },
+    {
+      "programme_group": "CONTABILIDAD E IMPUESTOS",
+      "entrants": 17721
+    },
+    {
+      "programme_group": "DEPORTE",
+      "entrants": 147
+    },
+    {
+      "programme_group": "DERECHO",
+      "entrants": 46785
+    },
+    {
+      "programme_group": "DISENO INDUSTRIAL, DE MODAS E INTERIORES",
+      "entrants": 1170
+    },
+    {
+      "programme_group": "ECOLOGIA Y MEDIO AMBIENTE",
+      "entrants": 7618
+    },
+    {
+      "programme_group": "ECONOMIA",
+      "entrants": 10335
+    },
+    {
+      "programme_group": "EDUCACION ARTISTICA",
+      "entrants": 1424
+    },
+    {
+      "programme_group": "EDUCACION CON ASIGNATURA DE ESPECIALIZACION",
+      "entrants": 2225
+    },
+    {
+      "programme_group": "EDUCACION ESPECIAL",
+      "entrants": 837
+    },
+    {
+      "programme_group": "EDUCACION FISICA",
+      "entrants": 1885
+    },
+    {
+      "programme_group": "EDUCACION INICIAL",
+      "entrants": 10301
+    },
+    {
+      "programme_group": "EDUCACION MILITAR Y DE DEFENSA",
+      "entrants": 309
+    },
+    {
+      "programme_group": "EDUCACION PRIMARIA",
+      "entrants": 5998
+    },
+    {
+      "programme_group": "EDUCACION SECUNDARIA",
+      "entrants": 4209
+    },
+    {
+      "programme_group": "EDUCACION SUPERIOR Y TECNOLOGICA",
+      "entrants": 5941
+    },
+    {
+      "programme_group": "ELECTRICIDAD Y ENERGIA",
+      "entrants": 1760
+    },
+    {
+      "programme_group": "ELECTRONICA Y AUTOMATIZACION",
+      "entrants": 2629
+    },
+    {
+      "programme_group": "ENFERMERIA",
+      "entrants": 25405
+    },
+    {
+      "programme_group": "ESTADISTICA",
+      "entrants": 840
+    },
+    {
+      "programme_group": "FARMACIA",
+      "entrants": 4209
+    },
+    {
+      "programme_group": "FILOSOFIA Y ETICA",
+      "entrants": 507
+    },
+    {
+      "programme_group": "FISICA",
+      "entrants": 808
+    },
+    {
+      "programme_group": "GESTION FINANCIERA Y SEGUROS",
+      "entrants": 1347
+    },
+    {
+      "programme_group": "GESTION Y ADMINISTRACION",
+      "entrants": 42550
+    },
+    {
+      "programme_group": "GESTION Y CALIDAD EDUCATIVA",
+      "entrants": 3396
+    },
+    {
+      "programme_group": "HISTORIA Y ARQUEOLOGIA",
+      "entrants": 802
+    },
+    {
+      "programme_group": "HORTICULTURA",
+      "entrants": 2
+    },
+    {
+      "programme_group": "HOTELERIA, RESTAURANTES Y GASTRONOMIA",
+      "entrants": 1147
+    },
+    {
+      "programme_group": "IDIOMAS",
+      "entrants": 607
+    },
+    {
+      "programme_group": "INDUSTRIA Y PRODUCTOS TRANSFORMADOS",
+      "entrants": 27183
+    },
+    {
+      "programme_group": "INDUSTRIAS ALIMENTARIAS",
+      "entrants": 1844
+    },
+    {
+      "programme_group": "INGENIERIA SANITARIA",
+      "entrants": 220
+    },
+    {
+      "programme_group": "INVESTIGACION OPERATIVA",
+      "entrants": 56
+    },
+    {
+      "programme_group": "LINGUISTICA Y LITERATURA",
+      "entrants": 391
+    },
+    {
+      "programme_group": "MARKETING Y PUBLICIDAD",
+      "entrants": 3168
+    },
+    {
+      "programme_group": "MATEMATICA",
+      "entrants": 930
+    },
+    {
+      "programme_group": "MECANICA Y METALURGICA",
+      "entrants": 7811
+    },
+    {
+      "programme_group": "MEDICINA",
+      "entrants": 17838
+    },
+    {
+      "programme_group": "MINERIA Y EXTRACCION",
+      "entrants": 4539
+    },
+    {
+      "programme_group": "MUSICA Y ARTES ESCENICAS",
+      "entrants": 1158
+    },
+    {
+      "programme_group": "NEGOCIOS INTERNACIONALES",
+      "entrants": 10407
+    },
+    {
+      "programme_group": "NUTRICION",
+      "entrants": 4261
+    },
+    {
+      "programme_group": "OBSTETRICIA",
+      "entrants": 8068
+    },
+    {
+      "programme_group": "ODONTOLOGIA",
+      "entrants": 5574
+    },
+    {
+      "programme_group": "OTROS PROGRAMAS EN ADMINISTRACION Y COMERCIO",
+      "entrants": 6044
+    },
+    {
+      "programme_group": "OTROS PROGRAMAS EN EDUCACION",
+      "entrants": 5850
+    },
+    {
+      "programme_group": "OTROS PROGRAMAS EN SALUD",
+      "entrants": 1422
+    },
+    {
+      "programme_group": "PESCA",
+      "entrants": 862
+    },
+    {
+      "programme_group": "PRODUCCION AGRICOLA Y GANADERA",
+      "entrants": 6722
+    },
+    {
+      "programme_group": "PRODUCCION TEXTIL Y CONFECCIONES",
+      "entrants": 211
+    },
+    {
+      "programme_group": "PSICOLOGIA",
+      "entrants": 35039
+    },
+    {
+      "programme_group": "QUIMICA",
+      "entrants": 1948
+    },
+    {
+      "programme_group": "RECURSOS HIDRICOS",
+      "entrants": 246
+    },
+    {
+      "programme_group": "RELIGION Y TEOLOGIA",
+      "entrants": 116
+    },
+    {
+      "programme_group": "SALUD Y PROTECCION LABORAL",
+      "entrants": 2086
+    },
+    {
+      "programme_group": "SANEAMIENTO DE LA COMUNIDAD",
+      "entrants": 3006
+    },
+    {
+      "programme_group": "SERVICIOS DE TRANSPORTE",
+      "entrants": 131
+    },
+    {
+      "programme_group": "SILVICULTURA",
+      "entrants": 855
+    },
+    {
+      "programme_group": "SIN CLASIFICACION",
+      "entrants": 75
+    },
+    {
+      "programme_group": "SIN_CLASIFICACION",
+      "entrants": 143308
+    },
+    {
+      "programme_group": "SISTEMAS Y COMPUTO",
+      "entrants": 28394
+    },
+    {
+      "programme_group": "SOCIOLOGIA Y ESTUDIOS CULTURALES",
+      "entrants": 1364
+    },
+    {
+      "programme_group": "TECNICAS AUDIOVISUALES Y DE PRODUCCION",
+      "entrants": 3197
+    },
+    {
+      "programme_group": "TECNOLOGIA DE DIAGNOSTICO MEDICO",
+      "entrants": 2663
+    },
+    {
+      "programme_group": "TELECOMUNICACIONES",
+      "entrants": 817
+    },
+    {
+      "programme_group": "TERAPIA Y REHABILITACION",
+      "entrants": 2533
+    },
+    {
+      "programme_group": "TRABAJO SOCIAL",
+      "entrants": 1165
+    },
+    {
+      "programme_group": "VEHICULOS MOTORIZADOS",
+      "entrants": 385
+    },
+    {
+      "programme_group": "VETERINARIA",
+      "entrants": 3042
+    },
+    {
+      "programme_group": "VIAJES, TURISMO Y ACTIVIDADES RECREATIVAS",
+      "entrants": 2702
+    }
+  ],
+  "country": "PE",
+  "source": "SUNEDU TUNI, Comunidad estudiantil / Ingresantes",
+  "source_url": "https://www.tuni.pe/comunidad/estudiantes#ingresantes",
+  "downloaded_at": "2026-10-15",
+  "reference_period": "2025",
+  "source_rows": 4268,
+  "accepted_rows": 4262,
+  "caveat": "TUNI public export is an aggregate by institution and programme group. It has no local, district or department field, so these values are national only and must not be allocated geographically. ICT is the TUNI programme groups Sistemas y Cómputo or Informática only."
+}
