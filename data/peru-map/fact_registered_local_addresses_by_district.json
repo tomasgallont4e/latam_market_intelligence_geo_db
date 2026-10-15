@@ -1,0 +1,9457 @@
+[
+  {
+    "ubigeo": "010101",
+    "department_code": "01",
+    "registered_local_addresses": 1488
+  },
+  {
+    "ubigeo": "010102",
+    "department_code": "01",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "010103",
+    "department_code": "01",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "010104",
+    "department_code": "01",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "010105",
+    "department_code": "01",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "010106",
+    "department_code": "01",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "010107",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010108",
+    "department_code": "01",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "010109",
+    "department_code": "01",
+    "registered_local_addresses": 47
+  },
+  {
+    "ubigeo": "010110",
+    "department_code": "01",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "010111",
+    "department_code": "01",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "010112",
+    "department_code": "01",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "010113",
+    "department_code": "01",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "010114",
+    "department_code": "01",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "010115",
+    "department_code": "01",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "010116",
+    "department_code": "01",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "010117",
+    "department_code": "01",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "010118",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010119",
+    "department_code": "01",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "010120",
+    "department_code": "01",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "010121",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010201",
+    "department_code": "01",
+    "registered_local_addresses": 835
+  },
+  {
+    "ubigeo": "010202",
+    "department_code": "01",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "010203",
+    "department_code": "01",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "010204",
+    "department_code": "01",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "010205",
+    "department_code": "01",
+    "registered_local_addresses": 151
+  },
+  {
+    "ubigeo": "010206",
+    "department_code": "01",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "010301",
+    "department_code": "01",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "010302",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010303",
+    "department_code": "01",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "010304",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010305",
+    "department_code": "01",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "010306",
+    "department_code": "01",
+    "registered_local_addresses": 58
+  },
+  {
+    "ubigeo": "010307",
+    "department_code": "01",
+    "registered_local_addresses": 252
+  },
+  {
+    "ubigeo": "010308",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010309",
+    "department_code": "01",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "010310",
+    "department_code": "01",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "010311",
+    "department_code": "01",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "010312",
+    "department_code": "01",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "010401",
+    "department_code": "01",
+    "registered_local_addresses": 168
+  },
+  {
+    "ubigeo": "010402",
+    "department_code": "01",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "010403",
+    "department_code": "01",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "010501",
+    "department_code": "01",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "010502",
+    "department_code": "01",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "010503",
+    "department_code": "01",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "010504",
+    "department_code": "01",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "010505",
+    "department_code": "01",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "010506",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010507",
+    "department_code": "01",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "010508",
+    "department_code": "01",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "010509",
+    "department_code": "01",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "010510",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010511",
+    "department_code": "01",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "010512",
+    "department_code": "01",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "010513",
+    "department_code": "01",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "010514",
+    "department_code": "01",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "010515",
+    "department_code": "01",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "010516",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010517",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010518",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010519",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010520",
+    "department_code": "01",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "010521",
+    "department_code": "01",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "010522",
+    "department_code": "01",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "010523",
+    "department_code": "01",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "010601",
+    "department_code": "01",
+    "registered_local_addresses": 240
+  },
+  {
+    "ubigeo": "010602",
+    "department_code": "01",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "010603",
+    "department_code": "01",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "010604",
+    "department_code": "01",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "010605",
+    "department_code": "01",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "010606",
+    "department_code": "01",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "010607",
+    "department_code": "01",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "010608",
+    "department_code": "01",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "010609",
+    "department_code": "01",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "010610",
+    "department_code": "01",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "010611",
+    "department_code": "01",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "010612",
+    "department_code": "01",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "010701",
+    "department_code": "01",
+    "registered_local_addresses": 1370
+  },
+  {
+    "ubigeo": "010702",
+    "department_code": "01",
+    "registered_local_addresses": 147
+  },
+  {
+    "ubigeo": "010703",
+    "department_code": "01",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "010704",
+    "department_code": "01",
+    "registered_local_addresses": 80
+  },
+  {
+    "ubigeo": "010705",
+    "department_code": "01",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "010706",
+    "department_code": "01",
+    "registered_local_addresses": 94
+  },
+  {
+    "ubigeo": "010707",
+    "department_code": "01",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "020101",
+    "department_code": "02",
+    "registered_local_addresses": 3497
+  },
+  {
+    "ubigeo": "020102",
+    "department_code": "02",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "020103",
+    "department_code": "02",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "020104",
+    "department_code": "02",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "020105",
+    "department_code": "02",
+    "registered_local_addresses": 1599
+  },
+  {
+    "ubigeo": "020106",
+    "department_code": "02",
+    "registered_local_addresses": 77
+  },
+  {
+    "ubigeo": "020107",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "020108",
+    "department_code": "02",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "020109",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "020110",
+    "department_code": "02",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "020111",
+    "department_code": "02",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "020112",
+    "department_code": "02",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "020201",
+    "department_code": "02",
+    "registered_local_addresses": 58
+  },
+  {
+    "ubigeo": "020202",
+    "department_code": "02",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "020203",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "020204",
+    "department_code": "02",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "020205",
+    "department_code": "02",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "020301",
+    "department_code": "02",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "020302",
+    "department_code": "02",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "020303",
+    "department_code": "02",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "020304",
+    "department_code": "02",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "020305",
+    "department_code": "02",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "020306",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "020401",
+    "department_code": "02",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "020402",
+    "department_code": "02",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "020501",
+    "department_code": "02",
+    "registered_local_addresses": 111
+  },
+  {
+    "ubigeo": "020502",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "020503",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "020504",
+    "department_code": "02",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "020505",
+    "department_code": "02",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "020506",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "020507",
+    "department_code": "02",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "020508",
+    "department_code": "02",
+    "registered_local_addresses": 161
+  },
+  {
+    "ubigeo": "020509",
+    "department_code": "02",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "020510",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "020511",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "020512",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "020513",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "020514",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "020515",
+    "department_code": "02",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "020601",
+    "department_code": "02",
+    "registered_local_addresses": 391
+  },
+  {
+    "ubigeo": "020602",
+    "department_code": "02",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "020603",
+    "department_code": "02",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "020604",
+    "department_code": "02",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "020605",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "020606",
+    "department_code": "02",
+    "registered_local_addresses": 91
+  },
+  {
+    "ubigeo": "020607",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "020608",
+    "department_code": "02",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "020609",
+    "department_code": "02",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "020610",
+    "department_code": "02",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "020611",
+    "department_code": "02",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "020701",
+    "department_code": "02",
+    "registered_local_addresses": 96
+  },
+  {
+    "ubigeo": "020702",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "020703",
+    "department_code": "02",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "020801",
+    "department_code": "02",
+    "registered_local_addresses": 1006
+  },
+  {
+    "ubigeo": "020802",
+    "department_code": "02",
+    "registered_local_addresses": 130
+  },
+  {
+    "ubigeo": "020803",
+    "department_code": "02",
+    "registered_local_addresses": 109
+  },
+  {
+    "ubigeo": "020804",
+    "department_code": "02",
+    "registered_local_addresses": 79
+  },
+  {
+    "ubigeo": "020901",
+    "department_code": "02",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "020902",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "020903",
+    "department_code": "02",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "020904",
+    "department_code": "02",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "020905",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "020906",
+    "department_code": "02",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "020907",
+    "department_code": "02",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "021001",
+    "department_code": "02",
+    "registered_local_addresses": 177
+  },
+  {
+    "ubigeo": "021002",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "021003",
+    "department_code": "02",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "021004",
+    "department_code": "02",
+    "registered_local_addresses": 128
+  },
+  {
+    "ubigeo": "021005",
+    "department_code": "02",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "021006",
+    "department_code": "02",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "021007",
+    "department_code": "02",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "021008",
+    "department_code": "02",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "021009",
+    "department_code": "02",
+    "registered_local_addresses": 36
+  },
+  {
+    "ubigeo": "021010",
+    "department_code": "02",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "021011",
+    "department_code": "02",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "021012",
+    "department_code": "02",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "021013",
+    "department_code": "02",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "021014",
+    "department_code": "02",
+    "registered_local_addresses": 381
+  },
+  {
+    "ubigeo": "021015",
+    "department_code": "02",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "021016",
+    "department_code": "02",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "021101",
+    "department_code": "02",
+    "registered_local_addresses": 799
+  },
+  {
+    "ubigeo": "021102",
+    "department_code": "02",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "021103",
+    "department_code": "02",
+    "registered_local_addresses": 73
+  },
+  {
+    "ubigeo": "021104",
+    "department_code": "02",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "021105",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "021201",
+    "department_code": "02",
+    "registered_local_addresses": 645
+  },
+  {
+    "ubigeo": "021202",
+    "department_code": "02",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "021203",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "021204",
+    "department_code": "02",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "021205",
+    "department_code": "02",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "021206",
+    "department_code": "02",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "021207",
+    "department_code": "02",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "021208",
+    "department_code": "02",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "021209",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "021210",
+    "department_code": "02",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "021301",
+    "department_code": "02",
+    "registered_local_addresses": 62
+  },
+  {
+    "ubigeo": "021302",
+    "department_code": "02",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "021303",
+    "department_code": "02",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "021304",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "021305",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "021306",
+    "department_code": "02",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "021307",
+    "department_code": "02",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "021308",
+    "department_code": "02",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "021401",
+    "department_code": "02",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "021402",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "021403",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "021404",
+    "department_code": "02",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "021405",
+    "department_code": "02",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "021406",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "021407",
+    "department_code": "02",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "021408",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "021409",
+    "department_code": "02",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "021410",
+    "department_code": "02",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "021501",
+    "department_code": "02",
+    "registered_local_addresses": 73
+  },
+  {
+    "ubigeo": "021502",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "021503",
+    "department_code": "02",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "021504",
+    "department_code": "02",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "021505",
+    "department_code": "02",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "021506",
+    "department_code": "02",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "021507",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "021508",
+    "department_code": "02",
+    "registered_local_addresses": 47
+  },
+  {
+    "ubigeo": "021509",
+    "department_code": "02",
+    "registered_local_addresses": 70
+  },
+  {
+    "ubigeo": "021510",
+    "department_code": "02",
+    "registered_local_addresses": 36
+  },
+  {
+    "ubigeo": "021511",
+    "department_code": "02",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "021601",
+    "department_code": "02",
+    "registered_local_addresses": 198
+  },
+  {
+    "ubigeo": "021602",
+    "department_code": "02",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "021603",
+    "department_code": "02",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "021604",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "021701",
+    "department_code": "02",
+    "registered_local_addresses": 93
+  },
+  {
+    "ubigeo": "021702",
+    "department_code": "02",
+    "registered_local_addresses": 69
+  },
+  {
+    "ubigeo": "021703",
+    "department_code": "02",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "021704",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "021705",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "021706",
+    "department_code": "02",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "021707",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "021708",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "021709",
+    "department_code": "02",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "021710",
+    "department_code": "02",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "021801",
+    "department_code": "02",
+    "registered_local_addresses": 8912
+  },
+  {
+    "ubigeo": "021802",
+    "department_code": "02",
+    "registered_local_addresses": 56
+  },
+  {
+    "ubigeo": "021803",
+    "department_code": "02",
+    "registered_local_addresses": 165
+  },
+  {
+    "ubigeo": "021804",
+    "department_code": "02",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "021805",
+    "department_code": "02",
+    "registered_local_addresses": 178
+  },
+  {
+    "ubigeo": "021806",
+    "department_code": "02",
+    "registered_local_addresses": 214
+  },
+  {
+    "ubigeo": "021807",
+    "department_code": "02",
+    "registered_local_addresses": 185
+  },
+  {
+    "ubigeo": "021808",
+    "department_code": "02",
+    "registered_local_addresses": 555
+  },
+  {
+    "ubigeo": "021809",
+    "department_code": "02",
+    "registered_local_addresses": 4040
+  },
+  {
+    "ubigeo": "021901",
+    "department_code": "02",
+    "registered_local_addresses": 139
+  },
+  {
+    "ubigeo": "021902",
+    "department_code": "02",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "021903",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "021904",
+    "department_code": "02",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "021905",
+    "department_code": "02",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "021906",
+    "department_code": "02",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "021907",
+    "department_code": "02",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "021908",
+    "department_code": "02",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "021909",
+    "department_code": "02",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "021910",
+    "department_code": "02",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "022001",
+    "department_code": "02",
+    "registered_local_addresses": 293
+  },
+  {
+    "ubigeo": "022002",
+    "department_code": "02",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "022003",
+    "department_code": "02",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "022004",
+    "department_code": "02",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "022005",
+    "department_code": "02",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "022006",
+    "department_code": "02",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "022007",
+    "department_code": "02",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "022008",
+    "department_code": "02",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "030101",
+    "department_code": "03",
+    "registered_local_addresses": 2156
+  },
+  {
+    "ubigeo": "030102",
+    "department_code": "03",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "030103",
+    "department_code": "03",
+    "registered_local_addresses": 58
+  },
+  {
+    "ubigeo": "030104",
+    "department_code": "03",
+    "registered_local_addresses": 345
+  },
+  {
+    "ubigeo": "030105",
+    "department_code": "03",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "030106",
+    "department_code": "03",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "030107",
+    "department_code": "03",
+    "registered_local_addresses": 187
+  },
+  {
+    "ubigeo": "030108",
+    "department_code": "03",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "030109",
+    "department_code": "03",
+    "registered_local_addresses": 172
+  },
+  {
+    "ubigeo": "030201",
+    "department_code": "03",
+    "registered_local_addresses": 1427
+  },
+  {
+    "ubigeo": "030202",
+    "department_code": "03",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "030203",
+    "department_code": "03",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "030204",
+    "department_code": "03",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "030205",
+    "department_code": "03",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "030206",
+    "department_code": "03",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "030207",
+    "department_code": "03",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "030208",
+    "department_code": "03",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "030209",
+    "department_code": "03",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "030210",
+    "department_code": "03",
+    "registered_local_addresses": 60
+  },
+  {
+    "ubigeo": "030211",
+    "department_code": "03",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "030212",
+    "department_code": "03",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "030213",
+    "department_code": "03",
+    "registered_local_addresses": 151
+  },
+  {
+    "ubigeo": "030214",
+    "department_code": "03",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "030215",
+    "department_code": "03",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "030216",
+    "department_code": "03",
+    "registered_local_addresses": 253
+  },
+  {
+    "ubigeo": "030217",
+    "department_code": "03",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "030218",
+    "department_code": "03",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "030219",
+    "department_code": "03",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "030220",
+    "department_code": "03",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "030301",
+    "department_code": "03",
+    "registered_local_addresses": 81
+  },
+  {
+    "ubigeo": "030302",
+    "department_code": "03",
+    "registered_local_addresses": 90
+  },
+  {
+    "ubigeo": "030303",
+    "department_code": "03",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "030304",
+    "department_code": "03",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "030305",
+    "department_code": "03",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "030306",
+    "department_code": "03",
+    "registered_local_addresses": 127
+  },
+  {
+    "ubigeo": "030307",
+    "department_code": "03",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "030401",
+    "department_code": "03",
+    "registered_local_addresses": 252
+  },
+  {
+    "ubigeo": "030402",
+    "department_code": "03",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "030403",
+    "department_code": "03",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "030404",
+    "department_code": "03",
+    "registered_local_addresses": 67
+  },
+  {
+    "ubigeo": "030405",
+    "department_code": "03",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "030406",
+    "department_code": "03",
+    "registered_local_addresses": 120
+  },
+  {
+    "ubigeo": "030407",
+    "department_code": "03",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "030408",
+    "department_code": "03",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "030409",
+    "department_code": "03",
+    "registered_local_addresses": 84
+  },
+  {
+    "ubigeo": "030410",
+    "department_code": "03",
+    "registered_local_addresses": 100
+  },
+  {
+    "ubigeo": "030411",
+    "department_code": "03",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "030412",
+    "department_code": "03",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "030413",
+    "department_code": "03",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "030414",
+    "department_code": "03",
+    "registered_local_addresses": 92
+  },
+  {
+    "ubigeo": "030415",
+    "department_code": "03",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "030416",
+    "department_code": "03",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "030417",
+    "department_code": "03",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "030501",
+    "department_code": "03",
+    "registered_local_addresses": 84
+  },
+  {
+    "ubigeo": "030502",
+    "department_code": "03",
+    "registered_local_addresses": 60
+  },
+  {
+    "ubigeo": "030503",
+    "department_code": "03",
+    "registered_local_addresses": 302
+  },
+  {
+    "ubigeo": "030504",
+    "department_code": "03",
+    "registered_local_addresses": 87
+  },
+  {
+    "ubigeo": "030505",
+    "department_code": "03",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "030506",
+    "department_code": "03",
+    "registered_local_addresses": 480
+  },
+  {
+    "ubigeo": "030601",
+    "department_code": "03",
+    "registered_local_addresses": 110
+  },
+  {
+    "ubigeo": "030602",
+    "department_code": "03",
+    "registered_local_addresses": 172
+  },
+  {
+    "ubigeo": "030603",
+    "department_code": "03",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "030604",
+    "department_code": "03",
+    "registered_local_addresses": 49
+  },
+  {
+    "ubigeo": "030605",
+    "department_code": "03",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "030606",
+    "department_code": "03",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "030607",
+    "department_code": "03",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "030608",
+    "department_code": "03",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "030609",
+    "department_code": "03",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "030610",
+    "department_code": "03",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "030612",
+    "department_code": "03",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "030701",
+    "department_code": "03",
+    "registered_local_addresses": 104
+  },
+  {
+    "ubigeo": "030702",
+    "department_code": "03",
+    "registered_local_addresses": 82
+  },
+  {
+    "ubigeo": "030703",
+    "department_code": "03",
+    "registered_local_addresses": 76
+  },
+  {
+    "ubigeo": "030704",
+    "department_code": "03",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "030705",
+    "department_code": "03",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "030706",
+    "department_code": "03",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "030707",
+    "department_code": "03",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "030708",
+    "department_code": "03",
+    "registered_local_addresses": 159
+  },
+  {
+    "ubigeo": "030709",
+    "department_code": "03",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "030710",
+    "department_code": "03",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "030711",
+    "department_code": "03",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "030712",
+    "department_code": "03",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "030713",
+    "department_code": "03",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "030714",
+    "department_code": "03",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "040101",
+    "department_code": "04",
+    "registered_local_addresses": 10926
+  },
+  {
+    "ubigeo": "040102",
+    "department_code": "04",
+    "registered_local_addresses": 737
+  },
+  {
+    "ubigeo": "040103",
+    "department_code": "04",
+    "registered_local_addresses": 2039
+  },
+  {
+    "ubigeo": "040104",
+    "department_code": "04",
+    "registered_local_addresses": 4979
+  },
+  {
+    "ubigeo": "040105",
+    "department_code": "04",
+    "registered_local_addresses": 129
+  },
+  {
+    "ubigeo": "040106",
+    "department_code": "04",
+    "registered_local_addresses": 73
+  },
+  {
+    "ubigeo": "040107",
+    "department_code": "04",
+    "registered_local_addresses": 894
+  },
+  {
+    "ubigeo": "040108",
+    "department_code": "04",
+    "registered_local_addresses": 1283
+  },
+  {
+    "ubigeo": "040109",
+    "department_code": "04",
+    "registered_local_addresses": 1106
+  },
+  {
+    "ubigeo": "040110",
+    "department_code": "04",
+    "registered_local_addresses": 1623
+  },
+  {
+    "ubigeo": "040111",
+    "department_code": "04",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "040112",
+    "department_code": "04",
+    "registered_local_addresses": 2234
+  },
+  {
+    "ubigeo": "040113",
+    "department_code": "04",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "040114",
+    "department_code": "04",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "040115",
+    "department_code": "04",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "040116",
+    "department_code": "04",
+    "registered_local_addresses": 85
+  },
+  {
+    "ubigeo": "040117",
+    "department_code": "04",
+    "registered_local_addresses": 619
+  },
+  {
+    "ubigeo": "040118",
+    "department_code": "04",
+    "registered_local_addresses": 56
+  },
+  {
+    "ubigeo": "040119",
+    "department_code": "04",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "040120",
+    "department_code": "04",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "040121",
+    "department_code": "04",
+    "registered_local_addresses": 232
+  },
+  {
+    "ubigeo": "040122",
+    "department_code": "04",
+    "registered_local_addresses": 861
+  },
+  {
+    "ubigeo": "040123",
+    "department_code": "04",
+    "registered_local_addresses": 208
+  },
+  {
+    "ubigeo": "040124",
+    "department_code": "04",
+    "registered_local_addresses": 343
+  },
+  {
+    "ubigeo": "040125",
+    "department_code": "04",
+    "registered_local_addresses": 239
+  },
+  {
+    "ubigeo": "040126",
+    "department_code": "04",
+    "registered_local_addresses": 1589
+  },
+  {
+    "ubigeo": "040127",
+    "department_code": "04",
+    "registered_local_addresses": 76
+  },
+  {
+    "ubigeo": "040128",
+    "department_code": "04",
+    "registered_local_addresses": 405
+  },
+  {
+    "ubigeo": "040129",
+    "department_code": "04",
+    "registered_local_addresses": 2804
+  },
+  {
+    "ubigeo": "040201",
+    "department_code": "04",
+    "registered_local_addresses": 892
+  },
+  {
+    "ubigeo": "040202",
+    "department_code": "04",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "040203",
+    "department_code": "04",
+    "registered_local_addresses": 1613
+  },
+  {
+    "ubigeo": "040204",
+    "department_code": "04",
+    "registered_local_addresses": 100
+  },
+  {
+    "ubigeo": "040205",
+    "department_code": "04",
+    "registered_local_addresses": 84
+  },
+  {
+    "ubigeo": "040206",
+    "department_code": "04",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "040207",
+    "department_code": "04",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "040208",
+    "department_code": "04",
+    "registered_local_addresses": 258
+  },
+  {
+    "ubigeo": "040301",
+    "department_code": "04",
+    "registered_local_addresses": 391
+  },
+  {
+    "ubigeo": "040302",
+    "department_code": "04",
+    "registered_local_addresses": 324
+  },
+  {
+    "ubigeo": "040303",
+    "department_code": "04",
+    "registered_local_addresses": 513
+  },
+  {
+    "ubigeo": "040304",
+    "department_code": "04",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "040305",
+    "department_code": "04",
+    "registered_local_addresses": 404
+  },
+  {
+    "ubigeo": "040306",
+    "department_code": "04",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "040307",
+    "department_code": "04",
+    "registered_local_addresses": 671
+  },
+  {
+    "ubigeo": "040308",
+    "department_code": "04",
+    "registered_local_addresses": 666
+  },
+  {
+    "ubigeo": "040309",
+    "department_code": "04",
+    "registered_local_addresses": 574
+  },
+  {
+    "ubigeo": "040310",
+    "department_code": "04",
+    "registered_local_addresses": 102
+  },
+  {
+    "ubigeo": "040311",
+    "department_code": "04",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "040312",
+    "department_code": "04",
+    "registered_local_addresses": 191
+  },
+  {
+    "ubigeo": "040313",
+    "department_code": "04",
+    "registered_local_addresses": 207
+  },
+  {
+    "ubigeo": "040401",
+    "department_code": "04",
+    "registered_local_addresses": 298
+  },
+  {
+    "ubigeo": "040402",
+    "department_code": "04",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "040403",
+    "department_code": "04",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "040404",
+    "department_code": "04",
+    "registered_local_addresses": 137
+  },
+  {
+    "ubigeo": "040405",
+    "department_code": "04",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "040406",
+    "department_code": "04",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "040407",
+    "department_code": "04",
+    "registered_local_addresses": 90
+  },
+  {
+    "ubigeo": "040408",
+    "department_code": "04",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "040409",
+    "department_code": "04",
+    "registered_local_addresses": 232
+  },
+  {
+    "ubigeo": "040410",
+    "department_code": "04",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "040411",
+    "department_code": "04",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "040412",
+    "department_code": "04",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "040413",
+    "department_code": "04",
+    "registered_local_addresses": 238
+  },
+  {
+    "ubigeo": "040414",
+    "department_code": "04",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "040501",
+    "department_code": "04",
+    "registered_local_addresses": 221
+  },
+  {
+    "ubigeo": "040502",
+    "department_code": "04",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "040503",
+    "department_code": "04",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "040504",
+    "department_code": "04",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "040505",
+    "department_code": "04",
+    "registered_local_addresses": 222
+  },
+  {
+    "ubigeo": "040506",
+    "department_code": "04",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "040507",
+    "department_code": "04",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "040508",
+    "department_code": "04",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "040509",
+    "department_code": "04",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "040510",
+    "department_code": "04",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "040511",
+    "department_code": "04",
+    "registered_local_addresses": 230
+  },
+  {
+    "ubigeo": "040512",
+    "department_code": "04",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "040513",
+    "department_code": "04",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "040514",
+    "department_code": "04",
+    "registered_local_addresses": 51
+  },
+  {
+    "ubigeo": "040515",
+    "department_code": "04",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "040516",
+    "department_code": "04",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "040517",
+    "department_code": "04",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "040518",
+    "department_code": "04",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "040519",
+    "department_code": "04",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "040520",
+    "department_code": "04",
+    "registered_local_addresses": 2001
+  },
+  {
+    "ubigeo": "040601",
+    "department_code": "04",
+    "registered_local_addresses": 90
+  },
+  {
+    "ubigeo": "040602",
+    "department_code": "04",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "040603",
+    "department_code": "04",
+    "registered_local_addresses": 117
+  },
+  {
+    "ubigeo": "040604",
+    "department_code": "04",
+    "registered_local_addresses": 61
+  },
+  {
+    "ubigeo": "040605",
+    "department_code": "04",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "040606",
+    "department_code": "04",
+    "registered_local_addresses": 631
+  },
+  {
+    "ubigeo": "040607",
+    "department_code": "04",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "040608",
+    "department_code": "04",
+    "registered_local_addresses": 1186
+  },
+  {
+    "ubigeo": "040701",
+    "department_code": "04",
+    "registered_local_addresses": 1020
+  },
+  {
+    "ubigeo": "040702",
+    "department_code": "04",
+    "registered_local_addresses": 339
+  },
+  {
+    "ubigeo": "040703",
+    "department_code": "04",
+    "registered_local_addresses": 114
+  },
+  {
+    "ubigeo": "040704",
+    "department_code": "04",
+    "registered_local_addresses": 372
+  },
+  {
+    "ubigeo": "040705",
+    "department_code": "04",
+    "registered_local_addresses": 103
+  },
+  {
+    "ubigeo": "040706",
+    "department_code": "04",
+    "registered_local_addresses": 149
+  },
+  {
+    "ubigeo": "040801",
+    "department_code": "04",
+    "registered_local_addresses": 79
+  },
+  {
+    "ubigeo": "040802",
+    "department_code": "04",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "040803",
+    "department_code": "04",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "040804",
+    "department_code": "04",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "040805",
+    "department_code": "04",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "040806",
+    "department_code": "04",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "040807",
+    "department_code": "04",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "040808",
+    "department_code": "04",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "040809",
+    "department_code": "04",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "040810",
+    "department_code": "04",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "040811",
+    "department_code": "04",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "050101",
+    "department_code": "05",
+    "registered_local_addresses": 3981
+  },
+  {
+    "ubigeo": "050102",
+    "department_code": "05",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "050103",
+    "department_code": "05",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "050104",
+    "department_code": "05",
+    "registered_local_addresses": 251
+  },
+  {
+    "ubigeo": "050105",
+    "department_code": "05",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "050106",
+    "department_code": "05",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "050107",
+    "department_code": "05",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "050108",
+    "department_code": "05",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "050109",
+    "department_code": "05",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "050110",
+    "department_code": "05",
+    "registered_local_addresses": 855
+  },
+  {
+    "ubigeo": "050111",
+    "department_code": "05",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "050112",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050113",
+    "department_code": "05",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "050114",
+    "department_code": "05",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "050115",
+    "department_code": "05",
+    "registered_local_addresses": 427
+  },
+  {
+    "ubigeo": "050116",
+    "department_code": "05",
+    "registered_local_addresses": 424
+  },
+  {
+    "ubigeo": "050201",
+    "department_code": "05",
+    "registered_local_addresses": 76
+  },
+  {
+    "ubigeo": "050202",
+    "department_code": "05",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "050203",
+    "department_code": "05",
+    "registered_local_addresses": 74
+  },
+  {
+    "ubigeo": "050204",
+    "department_code": "05",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "050205",
+    "department_code": "05",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "050206",
+    "department_code": "05",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "050301",
+    "department_code": "05",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "050302",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "050303",
+    "department_code": "05",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "050304",
+    "department_code": "05",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "050401",
+    "department_code": "05",
+    "registered_local_addresses": 728
+  },
+  {
+    "ubigeo": "050402",
+    "department_code": "05",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "050403",
+    "department_code": "05",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "050404",
+    "department_code": "05",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "050405",
+    "department_code": "05",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "050406",
+    "department_code": "05",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "050407",
+    "department_code": "05",
+    "registered_local_addresses": 72
+  },
+  {
+    "ubigeo": "050408",
+    "department_code": "05",
+    "registered_local_addresses": 82
+  },
+  {
+    "ubigeo": "050409",
+    "department_code": "05",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "050410",
+    "department_code": "05",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "050411",
+    "department_code": "05",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "050412",
+    "department_code": "05",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "050501",
+    "department_code": "05",
+    "registered_local_addresses": 112
+  },
+  {
+    "ubigeo": "050502",
+    "department_code": "05",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "050503",
+    "department_code": "05",
+    "registered_local_addresses": 180
+  },
+  {
+    "ubigeo": "050504",
+    "department_code": "05",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "050505",
+    "department_code": "05",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "050506",
+    "department_code": "05",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "050507",
+    "department_code": "05",
+    "registered_local_addresses": 84
+  },
+  {
+    "ubigeo": "050508",
+    "department_code": "05",
+    "registered_local_addresses": 64
+  },
+  {
+    "ubigeo": "050509",
+    "department_code": "05",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "050510",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050511",
+    "department_code": "05",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "050512",
+    "department_code": "05",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "050513",
+    "department_code": "05",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "050514",
+    "department_code": "05",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "050515",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "050601",
+    "department_code": "05",
+    "registered_local_addresses": 443
+  },
+  {
+    "ubigeo": "050602",
+    "department_code": "05",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "050603",
+    "department_code": "05",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "050604",
+    "department_code": "05",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "050605",
+    "department_code": "05",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "050606",
+    "department_code": "05",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "050607",
+    "department_code": "05",
+    "registered_local_addresses": 222
+  },
+  {
+    "ubigeo": "050608",
+    "department_code": "05",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "050609",
+    "department_code": "05",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "050610",
+    "department_code": "05",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "050611",
+    "department_code": "05",
+    "registered_local_addresses": 90
+  },
+  {
+    "ubigeo": "050612",
+    "department_code": "05",
+    "registered_local_addresses": 251
+  },
+  {
+    "ubigeo": "050613",
+    "department_code": "05",
+    "registered_local_addresses": 234
+  },
+  {
+    "ubigeo": "050614",
+    "department_code": "05",
+    "registered_local_addresses": 111
+  },
+  {
+    "ubigeo": "050615",
+    "department_code": "05",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "050616",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050617",
+    "department_code": "05",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "050618",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050619",
+    "department_code": "05",
+    "registered_local_addresses": 834
+  },
+  {
+    "ubigeo": "050620",
+    "department_code": "05",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "050621",
+    "department_code": "05",
+    "registered_local_addresses": 197
+  },
+  {
+    "ubigeo": "050701",
+    "department_code": "05",
+    "registered_local_addresses": 229
+  },
+  {
+    "ubigeo": "050702",
+    "department_code": "05",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "050703",
+    "department_code": "05",
+    "registered_local_addresses": 62
+  },
+  {
+    "ubigeo": "050704",
+    "department_code": "05",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "050705",
+    "department_code": "05",
+    "registered_local_addresses": 439
+  },
+  {
+    "ubigeo": "050706",
+    "department_code": "05",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "050707",
+    "department_code": "05",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "050708",
+    "department_code": "05",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "050801",
+    "department_code": "05",
+    "registered_local_addresses": 149
+  },
+  {
+    "ubigeo": "050802",
+    "department_code": "05",
+    "registered_local_addresses": 143
+  },
+  {
+    "ubigeo": "050803",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050804",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050805",
+    "department_code": "05",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "050806",
+    "department_code": "05",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "050807",
+    "department_code": "05",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "050808",
+    "department_code": "05",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "050809",
+    "department_code": "05",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "050810",
+    "department_code": "05",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "050901",
+    "department_code": "05",
+    "registered_local_addresses": 100
+  },
+  {
+    "ubigeo": "050902",
+    "department_code": "05",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "050903",
+    "department_code": "05",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "050904",
+    "department_code": "05",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "050905",
+    "department_code": "05",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "050906",
+    "department_code": "05",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "050907",
+    "department_code": "05",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "050908",
+    "department_code": "05",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "050909",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "050910",
+    "department_code": "05",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "050911",
+    "department_code": "05",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "051001",
+    "department_code": "05",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "051002",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051003",
+    "department_code": "05",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "051004",
+    "department_code": "05",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "051005",
+    "department_code": "05",
+    "registered_local_addresses": 56
+  },
+  {
+    "ubigeo": "051006",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051007",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051008",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051009",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051010",
+    "department_code": "05",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "051011",
+    "department_code": "05",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "051012",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051101",
+    "department_code": "05",
+    "registered_local_addresses": 86
+  },
+  {
+    "ubigeo": "051102",
+    "department_code": "05",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "051103",
+    "department_code": "05",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "051104",
+    "department_code": "05",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "051105",
+    "department_code": "05",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "051106",
+    "department_code": "05",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "051107",
+    "department_code": "05",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "051108",
+    "department_code": "05",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "060101",
+    "department_code": "06",
+    "registered_local_addresses": 7655
+  },
+  {
+    "ubigeo": "060102",
+    "department_code": "06",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "060103",
+    "department_code": "06",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "060104",
+    "department_code": "06",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "060105",
+    "department_code": "06",
+    "registered_local_addresses": 259
+  },
+  {
+    "ubigeo": "060106",
+    "department_code": "06",
+    "registered_local_addresses": 83
+  },
+  {
+    "ubigeo": "060107",
+    "department_code": "06",
+    "registered_local_addresses": 60
+  },
+  {
+    "ubigeo": "060108",
+    "department_code": "06",
+    "registered_local_addresses": 643
+  },
+  {
+    "ubigeo": "060109",
+    "department_code": "06",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "060110",
+    "department_code": "06",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "060111",
+    "department_code": "06",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "060112",
+    "department_code": "06",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "060201",
+    "department_code": "06",
+    "registered_local_addresses": 585
+  },
+  {
+    "ubigeo": "060202",
+    "department_code": "06",
+    "registered_local_addresses": 283
+  },
+  {
+    "ubigeo": "060203",
+    "department_code": "06",
+    "registered_local_addresses": 81
+  },
+  {
+    "ubigeo": "060204",
+    "department_code": "06",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "060301",
+    "department_code": "06",
+    "registered_local_addresses": 395
+  },
+  {
+    "ubigeo": "060302",
+    "department_code": "06",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "060303",
+    "department_code": "06",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "060304",
+    "department_code": "06",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "060305",
+    "department_code": "06",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "060306",
+    "department_code": "06",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "060307",
+    "department_code": "06",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "060308",
+    "department_code": "06",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "060309",
+    "department_code": "06",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "060310",
+    "department_code": "06",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "060311",
+    "department_code": "06",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "060312",
+    "department_code": "06",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "060401",
+    "department_code": "06",
+    "registered_local_addresses": 767
+  },
+  {
+    "ubigeo": "060402",
+    "department_code": "06",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "060403",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "060404",
+    "department_code": "06",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "060405",
+    "department_code": "06",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "060406",
+    "department_code": "06",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "060407",
+    "department_code": "06",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "060408",
+    "department_code": "06",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "060409",
+    "department_code": "06",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "060410",
+    "department_code": "06",
+    "registered_local_addresses": 48
+  },
+  {
+    "ubigeo": "060411",
+    "department_code": "06",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "060412",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "060413",
+    "department_code": "06",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "060414",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "060415",
+    "department_code": "06",
+    "registered_local_addresses": 74
+  },
+  {
+    "ubigeo": "060416",
+    "department_code": "06",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "060417",
+    "department_code": "06",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "060418",
+    "department_code": "06",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "060419",
+    "department_code": "06",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "060501",
+    "department_code": "06",
+    "registered_local_addresses": 95
+  },
+  {
+    "ubigeo": "060502",
+    "department_code": "06",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "060503",
+    "department_code": "06",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "060504",
+    "department_code": "06",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "060505",
+    "department_code": "06",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "060506",
+    "department_code": "06",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "060507",
+    "department_code": "06",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "060508",
+    "department_code": "06",
+    "registered_local_addresses": 106
+  },
+  {
+    "ubigeo": "060601",
+    "department_code": "06",
+    "registered_local_addresses": 668
+  },
+  {
+    "ubigeo": "060602",
+    "department_code": "06",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "060603",
+    "department_code": "06",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "060604",
+    "department_code": "06",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "060605",
+    "department_code": "06",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "060606",
+    "department_code": "06",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "060607",
+    "department_code": "06",
+    "registered_local_addresses": 36
+  },
+  {
+    "ubigeo": "060608",
+    "department_code": "06",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "060609",
+    "department_code": "06",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "060610",
+    "department_code": "06",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "060611",
+    "department_code": "06",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "060612",
+    "department_code": "06",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "060613",
+    "department_code": "06",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "060614",
+    "department_code": "06",
+    "registered_local_addresses": 65
+  },
+  {
+    "ubigeo": "060615",
+    "department_code": "06",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "060701",
+    "department_code": "06",
+    "registered_local_addresses": 530
+  },
+  {
+    "ubigeo": "060702",
+    "department_code": "06",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "060703",
+    "department_code": "06",
+    "registered_local_addresses": 162
+  },
+  {
+    "ubigeo": "060801",
+    "department_code": "06",
+    "registered_local_addresses": 3337
+  },
+  {
+    "ubigeo": "060802",
+    "department_code": "06",
+    "registered_local_addresses": 160
+  },
+  {
+    "ubigeo": "060803",
+    "department_code": "06",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "060804",
+    "department_code": "06",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "060805",
+    "department_code": "06",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "060806",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "060807",
+    "department_code": "06",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "060808",
+    "department_code": "06",
+    "registered_local_addresses": 109
+  },
+  {
+    "ubigeo": "060809",
+    "department_code": "06",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "060810",
+    "department_code": "06",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "060811",
+    "department_code": "06",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "060812",
+    "department_code": "06",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "060901",
+    "department_code": "06",
+    "registered_local_addresses": 402
+  },
+  {
+    "ubigeo": "060902",
+    "department_code": "06",
+    "registered_local_addresses": 52
+  },
+  {
+    "ubigeo": "060903",
+    "department_code": "06",
+    "registered_local_addresses": 62
+  },
+  {
+    "ubigeo": "060904",
+    "department_code": "06",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "060905",
+    "department_code": "06",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "060906",
+    "department_code": "06",
+    "registered_local_addresses": 49
+  },
+  {
+    "ubigeo": "060907",
+    "department_code": "06",
+    "registered_local_addresses": 49
+  },
+  {
+    "ubigeo": "061001",
+    "department_code": "06",
+    "registered_local_addresses": 209
+  },
+  {
+    "ubigeo": "061002",
+    "department_code": "06",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "061003",
+    "department_code": "06",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "061004",
+    "department_code": "06",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "061005",
+    "department_code": "06",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "061006",
+    "department_code": "06",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "061007",
+    "department_code": "06",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "061101",
+    "department_code": "06",
+    "registered_local_addresses": 135
+  },
+  {
+    "ubigeo": "061102",
+    "department_code": "06",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "061103",
+    "department_code": "06",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "061104",
+    "department_code": "06",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "061105",
+    "department_code": "06",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "061106",
+    "department_code": "06",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "061107",
+    "department_code": "06",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "061108",
+    "department_code": "06",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "061109",
+    "department_code": "06",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "061110",
+    "department_code": "06",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "061111",
+    "department_code": "06",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "061112",
+    "department_code": "06",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "061113",
+    "department_code": "06",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "061201",
+    "department_code": "06",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "061202",
+    "department_code": "06",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "061203",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "061204",
+    "department_code": "06",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "061301",
+    "department_code": "06",
+    "registered_local_addresses": 144
+  },
+  {
+    "ubigeo": "061302",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "061303",
+    "department_code": "06",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "061304",
+    "department_code": "06",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "061305",
+    "department_code": "06",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "061306",
+    "department_code": "06",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "061307",
+    "department_code": "06",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "061308",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "061309",
+    "department_code": "06",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "061310",
+    "department_code": "06",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "061311",
+    "department_code": "06",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "070101",
+    "department_code": "07",
+    "registered_local_addresses": 12235
+  },
+  {
+    "ubigeo": "070102",
+    "department_code": "07",
+    "registered_local_addresses": 1991
+  },
+  {
+    "ubigeo": "070103",
+    "department_code": "07",
+    "registered_local_addresses": 638
+  },
+  {
+    "ubigeo": "070104",
+    "department_code": "07",
+    "registered_local_addresses": 828
+  },
+  {
+    "ubigeo": "070105",
+    "department_code": "07",
+    "registered_local_addresses": 131
+  },
+  {
+    "ubigeo": "070106",
+    "department_code": "07",
+    "registered_local_addresses": 3276
+  },
+  {
+    "ubigeo": "070107",
+    "department_code": "07",
+    "registered_local_addresses": 135
+  },
+  {
+    "ubigeo": "080101",
+    "department_code": "08",
+    "registered_local_addresses": 6433
+  },
+  {
+    "ubigeo": "080102",
+    "department_code": "08",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "080103",
+    "department_code": "08",
+    "registered_local_addresses": 70
+  },
+  {
+    "ubigeo": "080104",
+    "department_code": "08",
+    "registered_local_addresses": 1286
+  },
+  {
+    "ubigeo": "080105",
+    "department_code": "08",
+    "registered_local_addresses": 1947
+  },
+  {
+    "ubigeo": "080106",
+    "department_code": "08",
+    "registered_local_addresses": 1789
+  },
+  {
+    "ubigeo": "080107",
+    "department_code": "08",
+    "registered_local_addresses": 106
+  },
+  {
+    "ubigeo": "080108",
+    "department_code": "08",
+    "registered_local_addresses": 4168
+  },
+  {
+    "ubigeo": "080201",
+    "department_code": "08",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "080202",
+    "department_code": "08",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "080203",
+    "department_code": "08",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "080204",
+    "department_code": "08",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "080205",
+    "department_code": "08",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "080206",
+    "department_code": "08",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "080207",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "080301",
+    "department_code": "08",
+    "registered_local_addresses": 349
+  },
+  {
+    "ubigeo": "080302",
+    "department_code": "08",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "080303",
+    "department_code": "08",
+    "registered_local_addresses": 82
+  },
+  {
+    "ubigeo": "080304",
+    "department_code": "08",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "080305",
+    "department_code": "08",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "080306",
+    "department_code": "08",
+    "registered_local_addresses": 69
+  },
+  {
+    "ubigeo": "080307",
+    "department_code": "08",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "080308",
+    "department_code": "08",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "080309",
+    "department_code": "08",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "080401",
+    "department_code": "08",
+    "registered_local_addresses": 325
+  },
+  {
+    "ubigeo": "080402",
+    "department_code": "08",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "080403",
+    "department_code": "08",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "080404",
+    "department_code": "08",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "080405",
+    "department_code": "08",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "080406",
+    "department_code": "08",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "080407",
+    "department_code": "08",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "080408",
+    "department_code": "08",
+    "registered_local_addresses": 61
+  },
+  {
+    "ubigeo": "080501",
+    "department_code": "08",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "080502",
+    "department_code": "08",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "080503",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "080504",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "080505",
+    "department_code": "08",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "080506",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "080507",
+    "department_code": "08",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "080508",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "080601",
+    "department_code": "08",
+    "registered_local_addresses": 718
+  },
+  {
+    "ubigeo": "080602",
+    "department_code": "08",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "080603",
+    "department_code": "08",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "080604",
+    "department_code": "08",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "080605",
+    "department_code": "08",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "080606",
+    "department_code": "08",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "080607",
+    "department_code": "08",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "080608",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "080701",
+    "department_code": "08",
+    "registered_local_addresses": 241
+  },
+  {
+    "ubigeo": "080702",
+    "department_code": "08",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "080703",
+    "department_code": "08",
+    "registered_local_addresses": 186
+  },
+  {
+    "ubigeo": "080704",
+    "department_code": "08",
+    "registered_local_addresses": 337
+  },
+  {
+    "ubigeo": "080705",
+    "department_code": "08",
+    "registered_local_addresses": 156
+  },
+  {
+    "ubigeo": "080706",
+    "department_code": "08",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "080707",
+    "department_code": "08",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "080708",
+    "department_code": "08",
+    "registered_local_addresses": 226
+  },
+  {
+    "ubigeo": "080801",
+    "department_code": "08",
+    "registered_local_addresses": 866
+  },
+  {
+    "ubigeo": "080802",
+    "department_code": "08",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "080803",
+    "department_code": "08",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "080804",
+    "department_code": "08",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "080805",
+    "department_code": "08",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "080806",
+    "department_code": "08",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "080807",
+    "department_code": "08",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "080808",
+    "department_code": "08",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "080901",
+    "department_code": "08",
+    "registered_local_addresses": 1298
+  },
+  {
+    "ubigeo": "080902",
+    "department_code": "08",
+    "registered_local_addresses": 375
+  },
+  {
+    "ubigeo": "080903",
+    "department_code": "08",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "080904",
+    "department_code": "08",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "080905",
+    "department_code": "08",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "080906",
+    "department_code": "08",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "080907",
+    "department_code": "08",
+    "registered_local_addresses": 252
+  },
+  {
+    "ubigeo": "080908",
+    "department_code": "08",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "080909",
+    "department_code": "08",
+    "registered_local_addresses": 82
+  },
+  {
+    "ubigeo": "080910",
+    "department_code": "08",
+    "registered_local_addresses": 595
+  },
+  {
+    "ubigeo": "080911",
+    "department_code": "08",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "080912",
+    "department_code": "08",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "080913",
+    "department_code": "08",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "080914",
+    "department_code": "08",
+    "registered_local_addresses": 107
+  },
+  {
+    "ubigeo": "080915",
+    "department_code": "08",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "080916",
+    "department_code": "08",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "080917",
+    "department_code": "08",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "080918",
+    "department_code": "08",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "081001",
+    "department_code": "08",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "081002",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "081003",
+    "department_code": "08",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "081004",
+    "department_code": "08",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "081005",
+    "department_code": "08",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "081006",
+    "department_code": "08",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "081007",
+    "department_code": "08",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "081008",
+    "department_code": "08",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "081009",
+    "department_code": "08",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "081101",
+    "department_code": "08",
+    "registered_local_addresses": 119
+  },
+  {
+    "ubigeo": "081102",
+    "department_code": "08",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "081103",
+    "department_code": "08",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "081104",
+    "department_code": "08",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "081105",
+    "department_code": "08",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "081106",
+    "department_code": "08",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "081201",
+    "department_code": "08",
+    "registered_local_addresses": 171
+  },
+  {
+    "ubigeo": "081202",
+    "department_code": "08",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "081203",
+    "department_code": "08",
+    "registered_local_addresses": 186
+  },
+  {
+    "ubigeo": "081204",
+    "department_code": "08",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "081205",
+    "department_code": "08",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "081206",
+    "department_code": "08",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "081207",
+    "department_code": "08",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "081208",
+    "department_code": "08",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "081209",
+    "department_code": "08",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "081210",
+    "department_code": "08",
+    "registered_local_addresses": 61
+  },
+  {
+    "ubigeo": "081211",
+    "department_code": "08",
+    "registered_local_addresses": 221
+  },
+  {
+    "ubigeo": "081212",
+    "department_code": "08",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "081301",
+    "department_code": "08",
+    "registered_local_addresses": 531
+  },
+  {
+    "ubigeo": "081302",
+    "department_code": "08",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "081303",
+    "department_code": "08",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "081304",
+    "department_code": "08",
+    "registered_local_addresses": 225
+  },
+  {
+    "ubigeo": "081305",
+    "department_code": "08",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "081306",
+    "department_code": "08",
+    "registered_local_addresses": 111
+  },
+  {
+    "ubigeo": "081307",
+    "department_code": "08",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "090101",
+    "department_code": "09",
+    "registered_local_addresses": 1217
+  },
+  {
+    "ubigeo": "090102",
+    "department_code": "09",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "090103",
+    "department_code": "09",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "090104",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090105",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090106",
+    "department_code": "09",
+    "registered_local_addresses": 76
+  },
+  {
+    "ubigeo": "090107",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090108",
+    "department_code": "09",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "090109",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090110",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090111",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090112",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090113",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090114",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090115",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090116",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090117",
+    "department_code": "09",
+    "registered_local_addresses": 55
+  },
+  {
+    "ubigeo": "090118",
+    "department_code": "09",
+    "registered_local_addresses": 215
+  },
+  {
+    "ubigeo": "090119",
+    "department_code": "09",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "090201",
+    "department_code": "09",
+    "registered_local_addresses": 139
+  },
+  {
+    "ubigeo": "090202",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090203",
+    "department_code": "09",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "090204",
+    "department_code": "09",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "090205",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090206",
+    "department_code": "09",
+    "registered_local_addresses": 112
+  },
+  {
+    "ubigeo": "090207",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090208",
+    "department_code": "09",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "090301",
+    "department_code": "09",
+    "registered_local_addresses": 235
+  },
+  {
+    "ubigeo": "090302",
+    "department_code": "09",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "090303",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090304",
+    "department_code": "09",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "090305",
+    "department_code": "09",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "090306",
+    "department_code": "09",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "090307",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090308",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090309",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090310",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090311",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090312",
+    "department_code": "09",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "090401",
+    "department_code": "09",
+    "registered_local_addresses": 51
+  },
+  {
+    "ubigeo": "090402",
+    "department_code": "09",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "090403",
+    "department_code": "09",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "090404",
+    "department_code": "09",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "090405",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090407",
+    "department_code": "09",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "090408",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090409",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090410",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090411",
+    "department_code": "09",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "090412",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090413",
+    "department_code": "09",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "090501",
+    "department_code": "09",
+    "registered_local_addresses": 74
+  },
+  {
+    "ubigeo": "090502",
+    "department_code": "09",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "090503",
+    "department_code": "09",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "090504",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090505",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090506",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090507",
+    "department_code": "09",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "090508",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090509",
+    "department_code": "09",
+    "registered_local_addresses": 102
+  },
+  {
+    "ubigeo": "090510",
+    "department_code": "09",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "090511",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090601",
+    "department_code": "09",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "090602",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090603",
+    "department_code": "09",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "090604",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090605",
+    "department_code": "09",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "090606",
+    "department_code": "09",
+    "registered_local_addresses": 69
+  },
+  {
+    "ubigeo": "090607",
+    "department_code": "09",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "090608",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090609",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090610",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090611",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090612",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090613",
+    "department_code": "09",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "090614",
+    "department_code": "09",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "090615",
+    "department_code": "09",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "090616",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090701",
+    "department_code": "09",
+    "registered_local_addresses": 325
+  },
+  {
+    "ubigeo": "090702",
+    "department_code": "09",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "090703",
+    "department_code": "09",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "090704",
+    "department_code": "09",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "090705",
+    "department_code": "09",
+    "registered_local_addresses": 98
+  },
+  {
+    "ubigeo": "090706",
+    "department_code": "09",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "090707",
+    "department_code": "09",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "090708",
+    "department_code": "09",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "090709",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090710",
+    "department_code": "09",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "090711",
+    "department_code": "09",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "090713",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090714",
+    "department_code": "09",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "090715",
+    "department_code": "09",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "090716",
+    "department_code": "09",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "090717",
+    "department_code": "09",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "090718",
+    "department_code": "09",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "090719",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090720",
+    "department_code": "09",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "090721",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090722",
+    "department_code": "09",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "090723",
+    "department_code": "09",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "090724",
+    "department_code": "09",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "100101",
+    "department_code": "10",
+    "registered_local_addresses": 3760
+  },
+  {
+    "ubigeo": "100102",
+    "department_code": "10",
+    "registered_local_addresses": 1407
+  },
+  {
+    "ubigeo": "100103",
+    "department_code": "10",
+    "registered_local_addresses": 73
+  },
+  {
+    "ubigeo": "100104",
+    "department_code": "10",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "100105",
+    "department_code": "10",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "100106",
+    "department_code": "10",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "100107",
+    "department_code": "10",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "100108",
+    "department_code": "10",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "100109",
+    "department_code": "10",
+    "registered_local_addresses": 79
+  },
+  {
+    "ubigeo": "100110",
+    "department_code": "10",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "100111",
+    "department_code": "10",
+    "registered_local_addresses": 684
+  },
+  {
+    "ubigeo": "100112",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "100113",
+    "department_code": "10",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "100201",
+    "department_code": "10",
+    "registered_local_addresses": 264
+  },
+  {
+    "ubigeo": "100202",
+    "department_code": "10",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "100204",
+    "department_code": "10",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "100205",
+    "department_code": "10",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "100206",
+    "department_code": "10",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "100207",
+    "department_code": "10",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "100208",
+    "department_code": "10",
+    "registered_local_addresses": 52
+  },
+  {
+    "ubigeo": "100301",
+    "department_code": "10",
+    "registered_local_addresses": 144
+  },
+  {
+    "ubigeo": "100307",
+    "department_code": "10",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "100311",
+    "department_code": "10",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "100313",
+    "department_code": "10",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "100316",
+    "department_code": "10",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "100317",
+    "department_code": "10",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "100321",
+    "department_code": "10",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "100322",
+    "department_code": "10",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "100323",
+    "department_code": "10",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "100401",
+    "department_code": "10",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "100402",
+    "department_code": "10",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "100403",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "100404",
+    "department_code": "10",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "100501",
+    "department_code": "10",
+    "registered_local_addresses": 142
+  },
+  {
+    "ubigeo": "100502",
+    "department_code": "10",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "100503",
+    "department_code": "10",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "100504",
+    "department_code": "10",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "100505",
+    "department_code": "10",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "100506",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "100507",
+    "department_code": "10",
+    "registered_local_addresses": 76
+  },
+  {
+    "ubigeo": "100508",
+    "department_code": "10",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "100509",
+    "department_code": "10",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "100510",
+    "department_code": "10",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "100511",
+    "department_code": "10",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "100601",
+    "department_code": "10",
+    "registered_local_addresses": 1919
+  },
+  {
+    "ubigeo": "100602",
+    "department_code": "10",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "100603",
+    "department_code": "10",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "100604",
+    "department_code": "10",
+    "registered_local_addresses": 418
+  },
+  {
+    "ubigeo": "100605",
+    "department_code": "10",
+    "registered_local_addresses": 165
+  },
+  {
+    "ubigeo": "100606",
+    "department_code": "10",
+    "registered_local_addresses": 51
+  },
+  {
+    "ubigeo": "100607",
+    "department_code": "10",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "100608",
+    "department_code": "10",
+    "registered_local_addresses": 118
+  },
+  {
+    "ubigeo": "100609",
+    "department_code": "10",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "100610",
+    "department_code": "10",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "100701",
+    "department_code": "10",
+    "registered_local_addresses": 91
+  },
+  {
+    "ubigeo": "100702",
+    "department_code": "10",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "100703",
+    "department_code": "10",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "100704",
+    "department_code": "10",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "100705",
+    "department_code": "10",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "100801",
+    "department_code": "10",
+    "registered_local_addresses": 113
+  },
+  {
+    "ubigeo": "100802",
+    "department_code": "10",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "100803",
+    "department_code": "10",
+    "registered_local_addresses": 70
+  },
+  {
+    "ubigeo": "100804",
+    "department_code": "10",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "100901",
+    "department_code": "10",
+    "registered_local_addresses": 285
+  },
+  {
+    "ubigeo": "100902",
+    "department_code": "10",
+    "registered_local_addresses": 91
+  },
+  {
+    "ubigeo": "100903",
+    "department_code": "10",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "100904",
+    "department_code": "10",
+    "registered_local_addresses": 54
+  },
+  {
+    "ubigeo": "100905",
+    "department_code": "10",
+    "registered_local_addresses": 81
+  },
+  {
+    "ubigeo": "101001",
+    "department_code": "10",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "101002",
+    "department_code": "10",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "101003",
+    "department_code": "10",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "101004",
+    "department_code": "10",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "101005",
+    "department_code": "10",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "101006",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "101007",
+    "department_code": "10",
+    "registered_local_addresses": 54
+  },
+  {
+    "ubigeo": "101101",
+    "department_code": "10",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "101102",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "101103",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "101104",
+    "department_code": "10",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "101105",
+    "department_code": "10",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "101106",
+    "department_code": "10",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "101107",
+    "department_code": "10",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "110101",
+    "department_code": "11",
+    "registered_local_addresses": 6274
+  },
+  {
+    "ubigeo": "110102",
+    "department_code": "11",
+    "registered_local_addresses": 544
+  },
+  {
+    "ubigeo": "110103",
+    "department_code": "11",
+    "registered_local_addresses": 256
+  },
+  {
+    "ubigeo": "110104",
+    "department_code": "11",
+    "registered_local_addresses": 111
+  },
+  {
+    "ubigeo": "110105",
+    "department_code": "11",
+    "registered_local_addresses": 74
+  },
+  {
+    "ubigeo": "110106",
+    "department_code": "11",
+    "registered_local_addresses": 711
+  },
+  {
+    "ubigeo": "110107",
+    "department_code": "11",
+    "registered_local_addresses": 167
+  },
+  {
+    "ubigeo": "110108",
+    "department_code": "11",
+    "registered_local_addresses": 951
+  },
+  {
+    "ubigeo": "110109",
+    "department_code": "11",
+    "registered_local_addresses": 93
+  },
+  {
+    "ubigeo": "110110",
+    "department_code": "11",
+    "registered_local_addresses": 139
+  },
+  {
+    "ubigeo": "110111",
+    "department_code": "11",
+    "registered_local_addresses": 483
+  },
+  {
+    "ubigeo": "110112",
+    "department_code": "11",
+    "registered_local_addresses": 710
+  },
+  {
+    "ubigeo": "110113",
+    "department_code": "11",
+    "registered_local_addresses": 69
+  },
+  {
+    "ubigeo": "110114",
+    "department_code": "11",
+    "registered_local_addresses": 82
+  },
+  {
+    "ubigeo": "110201",
+    "department_code": "11",
+    "registered_local_addresses": 2692
+  },
+  {
+    "ubigeo": "110202",
+    "department_code": "11",
+    "registered_local_addresses": 317
+  },
+  {
+    "ubigeo": "110203",
+    "department_code": "11",
+    "registered_local_addresses": 73
+  },
+  {
+    "ubigeo": "110204",
+    "department_code": "11",
+    "registered_local_addresses": 611
+  },
+  {
+    "ubigeo": "110205",
+    "department_code": "11",
+    "registered_local_addresses": 326
+  },
+  {
+    "ubigeo": "110206",
+    "department_code": "11",
+    "registered_local_addresses": 638
+  },
+  {
+    "ubigeo": "110207",
+    "department_code": "11",
+    "registered_local_addresses": 496
+  },
+  {
+    "ubigeo": "110208",
+    "department_code": "11",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "110209",
+    "department_code": "11",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "110210",
+    "department_code": "11",
+    "registered_local_addresses": 362
+  },
+  {
+    "ubigeo": "110211",
+    "department_code": "11",
+    "registered_local_addresses": 77
+  },
+  {
+    "ubigeo": "110301",
+    "department_code": "11",
+    "registered_local_addresses": 1687
+  },
+  {
+    "ubigeo": "110302",
+    "department_code": "11",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "110303",
+    "department_code": "11",
+    "registered_local_addresses": 133
+  },
+  {
+    "ubigeo": "110304",
+    "department_code": "11",
+    "registered_local_addresses": 786
+  },
+  {
+    "ubigeo": "110305",
+    "department_code": "11",
+    "registered_local_addresses": 946
+  },
+  {
+    "ubigeo": "110401",
+    "department_code": "11",
+    "registered_local_addresses": 325
+  },
+  {
+    "ubigeo": "110402",
+    "department_code": "11",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "110403",
+    "department_code": "11",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "110404",
+    "department_code": "11",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "110405",
+    "department_code": "11",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "110501",
+    "department_code": "11",
+    "registered_local_addresses": 1922
+  },
+  {
+    "ubigeo": "110502",
+    "department_code": "11",
+    "registered_local_addresses": 71
+  },
+  {
+    "ubigeo": "110503",
+    "department_code": "11",
+    "registered_local_addresses": 186
+  },
+  {
+    "ubigeo": "110504",
+    "department_code": "11",
+    "registered_local_addresses": 261
+  },
+  {
+    "ubigeo": "110505",
+    "department_code": "11",
+    "registered_local_addresses": 741
+  },
+  {
+    "ubigeo": "110506",
+    "department_code": "11",
+    "registered_local_addresses": 473
+  },
+  {
+    "ubigeo": "110507",
+    "department_code": "11",
+    "registered_local_addresses": 527
+  },
+  {
+    "ubigeo": "110508",
+    "department_code": "11",
+    "registered_local_addresses": 158
+  },
+  {
+    "ubigeo": "120101",
+    "department_code": "12",
+    "registered_local_addresses": 7889
+  },
+  {
+    "ubigeo": "120104",
+    "department_code": "12",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "120105",
+    "department_code": "12",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "120106",
+    "department_code": "12",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "120107",
+    "department_code": "12",
+    "registered_local_addresses": 1571
+  },
+  {
+    "ubigeo": "120108",
+    "department_code": "12",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "120111",
+    "department_code": "12",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "120112",
+    "department_code": "12",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "120113",
+    "department_code": "12",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "120114",
+    "department_code": "12",
+    "registered_local_addresses": 5019
+  },
+  {
+    "ubigeo": "120116",
+    "department_code": "12",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "120117",
+    "department_code": "12",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "120119",
+    "department_code": "12",
+    "registered_local_addresses": 163
+  },
+  {
+    "ubigeo": "120120",
+    "department_code": "12",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "120121",
+    "department_code": "12",
+    "registered_local_addresses": 95
+  },
+  {
+    "ubigeo": "120122",
+    "department_code": "12",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "120124",
+    "department_code": "12",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "120125",
+    "department_code": "12",
+    "registered_local_addresses": 375
+  },
+  {
+    "ubigeo": "120126",
+    "department_code": "12",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "120127",
+    "department_code": "12",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "120128",
+    "department_code": "12",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "120129",
+    "department_code": "12",
+    "registered_local_addresses": 274
+  },
+  {
+    "ubigeo": "120130",
+    "department_code": "12",
+    "registered_local_addresses": 162
+  },
+  {
+    "ubigeo": "120132",
+    "department_code": "12",
+    "registered_local_addresses": 47
+  },
+  {
+    "ubigeo": "120133",
+    "department_code": "12",
+    "registered_local_addresses": 190
+  },
+  {
+    "ubigeo": "120134",
+    "department_code": "12",
+    "registered_local_addresses": 113
+  },
+  {
+    "ubigeo": "120135",
+    "department_code": "12",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "120136",
+    "department_code": "12",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "120201",
+    "department_code": "12",
+    "registered_local_addresses": 411
+  },
+  {
+    "ubigeo": "120202",
+    "department_code": "12",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "120203",
+    "department_code": "12",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "120204",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120205",
+    "department_code": "12",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "120206",
+    "department_code": "12",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "120207",
+    "department_code": "12",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "120208",
+    "department_code": "12",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "120209",
+    "department_code": "12",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "120210",
+    "department_code": "12",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "120211",
+    "department_code": "12",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "120212",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120213",
+    "department_code": "12",
+    "registered_local_addresses": 60
+  },
+  {
+    "ubigeo": "120214",
+    "department_code": "12",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "120215",
+    "department_code": "12",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "120301",
+    "department_code": "12",
+    "registered_local_addresses": 1437
+  },
+  {
+    "ubigeo": "120302",
+    "department_code": "12",
+    "registered_local_addresses": 623
+  },
+  {
+    "ubigeo": "120303",
+    "department_code": "12",
+    "registered_local_addresses": 1215
+  },
+  {
+    "ubigeo": "120304",
+    "department_code": "12",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "120305",
+    "department_code": "12",
+    "registered_local_addresses": 736
+  },
+  {
+    "ubigeo": "120306",
+    "department_code": "12",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "120401",
+    "department_code": "12",
+    "registered_local_addresses": 616
+  },
+  {
+    "ubigeo": "120402",
+    "department_code": "12",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "120403",
+    "department_code": "12",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "120404",
+    "department_code": "12",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "120405",
+    "department_code": "12",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "120406",
+    "department_code": "12",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "120407",
+    "department_code": "12",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "120408",
+    "department_code": "12",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "120409",
+    "department_code": "12",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "120410",
+    "department_code": "12",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "120411",
+    "department_code": "12",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "120412",
+    "department_code": "12",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "120413",
+    "department_code": "12",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "120414",
+    "department_code": "12",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "120415",
+    "department_code": "12",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "120416",
+    "department_code": "12",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "120417",
+    "department_code": "12",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "120418",
+    "department_code": "12",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "120419",
+    "department_code": "12",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "120420",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120421",
+    "department_code": "12",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "120422",
+    "department_code": "12",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "120423",
+    "department_code": "12",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "120424",
+    "department_code": "12",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "120425",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120426",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120427",
+    "department_code": "12",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "120428",
+    "department_code": "12",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "120429",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120430",
+    "department_code": "12",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "120431",
+    "department_code": "12",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "120432",
+    "department_code": "12",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "120433",
+    "department_code": "12",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "120434",
+    "department_code": "12",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "120501",
+    "department_code": "12",
+    "registered_local_addresses": 221
+  },
+  {
+    "ubigeo": "120502",
+    "department_code": "12",
+    "registered_local_addresses": 179
+  },
+  {
+    "ubigeo": "120503",
+    "department_code": "12",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "120504",
+    "department_code": "12",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "120601",
+    "department_code": "12",
+    "registered_local_addresses": 1239
+  },
+  {
+    "ubigeo": "120602",
+    "department_code": "12",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "120603",
+    "department_code": "12",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "120604",
+    "department_code": "12",
+    "registered_local_addresses": 410
+  },
+  {
+    "ubigeo": "120605",
+    "department_code": "12",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "120606",
+    "department_code": "12",
+    "registered_local_addresses": 663
+  },
+  {
+    "ubigeo": "120607",
+    "department_code": "12",
+    "registered_local_addresses": 232
+  },
+  {
+    "ubigeo": "120608",
+    "department_code": "12",
+    "registered_local_addresses": 158
+  },
+  {
+    "ubigeo": "120609",
+    "department_code": "12",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "120701",
+    "department_code": "12",
+    "registered_local_addresses": 1253
+  },
+  {
+    "ubigeo": "120702",
+    "department_code": "12",
+    "registered_local_addresses": 93
+  },
+  {
+    "ubigeo": "120703",
+    "department_code": "12",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "120704",
+    "department_code": "12",
+    "registered_local_addresses": 89
+  },
+  {
+    "ubigeo": "120705",
+    "department_code": "12",
+    "registered_local_addresses": 64
+  },
+  {
+    "ubigeo": "120706",
+    "department_code": "12",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "120707",
+    "department_code": "12",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "120708",
+    "department_code": "12",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "120709",
+    "department_code": "12",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "120801",
+    "department_code": "12",
+    "registered_local_addresses": 513
+  },
+  {
+    "ubigeo": "120802",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120803",
+    "department_code": "12",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "120804",
+    "department_code": "12",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "120805",
+    "department_code": "12",
+    "registered_local_addresses": 229
+  },
+  {
+    "ubigeo": "120806",
+    "department_code": "12",
+    "registered_local_addresses": 48
+  },
+  {
+    "ubigeo": "120807",
+    "department_code": "12",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "120808",
+    "department_code": "12",
+    "registered_local_addresses": 343
+  },
+  {
+    "ubigeo": "120809",
+    "department_code": "12",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "120810",
+    "department_code": "12",
+    "registered_local_addresses": 213
+  },
+  {
+    "ubigeo": "120901",
+    "department_code": "12",
+    "registered_local_addresses": 437
+  },
+  {
+    "ubigeo": "120902",
+    "department_code": "12",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "120903",
+    "department_code": "12",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "120904",
+    "department_code": "12",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "120905",
+    "department_code": "12",
+    "registered_local_addresses": 81
+  },
+  {
+    "ubigeo": "120906",
+    "department_code": "12",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "120907",
+    "department_code": "12",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "120908",
+    "department_code": "12",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "120909",
+    "department_code": "12",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "130101",
+    "department_code": "13",
+    "registered_local_addresses": 20464
+  },
+  {
+    "ubigeo": "130102",
+    "department_code": "13",
+    "registered_local_addresses": 1354
+  },
+  {
+    "ubigeo": "130103",
+    "department_code": "13",
+    "registered_local_addresses": 429
+  },
+  {
+    "ubigeo": "130104",
+    "department_code": "13",
+    "registered_local_addresses": 3029
+  },
+  {
+    "ubigeo": "130105",
+    "department_code": "13",
+    "registered_local_addresses": 2293
+  },
+  {
+    "ubigeo": "130106",
+    "department_code": "13",
+    "registered_local_addresses": 558
+  },
+  {
+    "ubigeo": "130107",
+    "department_code": "13",
+    "registered_local_addresses": 1348
+  },
+  {
+    "ubigeo": "130108",
+    "department_code": "13",
+    "registered_local_addresses": 71
+  },
+  {
+    "ubigeo": "130109",
+    "department_code": "13",
+    "registered_local_addresses": 590
+  },
+  {
+    "ubigeo": "130110",
+    "department_code": "13",
+    "registered_local_addresses": 110
+  },
+  {
+    "ubigeo": "130111",
+    "department_code": "13",
+    "registered_local_addresses": 2040
+  },
+  {
+    "ubigeo": "130112",
+    "department_code": "13",
+    "registered_local_addresses": 100
+  },
+  {
+    "ubigeo": "130201",
+    "department_code": "13",
+    "registered_local_addresses": 106
+  },
+  {
+    "ubigeo": "130202",
+    "department_code": "13",
+    "registered_local_addresses": 371
+  },
+  {
+    "ubigeo": "130203",
+    "department_code": "13",
+    "registered_local_addresses": 213
+  },
+  {
+    "ubigeo": "130204",
+    "department_code": "13",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "130205",
+    "department_code": "13",
+    "registered_local_addresses": 602
+  },
+  {
+    "ubigeo": "130206",
+    "department_code": "13",
+    "registered_local_addresses": 228
+  },
+  {
+    "ubigeo": "130207",
+    "department_code": "13",
+    "registered_local_addresses": 216
+  },
+  {
+    "ubigeo": "130208",
+    "department_code": "13",
+    "registered_local_addresses": 282
+  },
+  {
+    "ubigeo": "130301",
+    "department_code": "13",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "130302",
+    "department_code": "13",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "130303",
+    "department_code": "13",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "130304",
+    "department_code": "13",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "130305",
+    "department_code": "13",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "130306",
+    "department_code": "13",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "130401",
+    "department_code": "13",
+    "registered_local_addresses": 1253
+  },
+  {
+    "ubigeo": "130402",
+    "department_code": "13",
+    "registered_local_addresses": 358
+  },
+  {
+    "ubigeo": "130403",
+    "department_code": "13",
+    "registered_local_addresses": 136
+  },
+  {
+    "ubigeo": "130501",
+    "department_code": "13",
+    "registered_local_addresses": 111
+  },
+  {
+    "ubigeo": "130502",
+    "department_code": "13",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "130503",
+    "department_code": "13",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "130504",
+    "department_code": "13",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "130601",
+    "department_code": "13",
+    "registered_local_addresses": 415
+  },
+  {
+    "ubigeo": "130602",
+    "department_code": "13",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "130604",
+    "department_code": "13",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "130605",
+    "department_code": "13",
+    "registered_local_addresses": 158
+  },
+  {
+    "ubigeo": "130606",
+    "department_code": "13",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "130608",
+    "department_code": "13",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "130610",
+    "department_code": "13",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "130611",
+    "department_code": "13",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "130613",
+    "department_code": "13",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "130614",
+    "department_code": "13",
+    "registered_local_addresses": 230
+  },
+  {
+    "ubigeo": "130701",
+    "department_code": "13",
+    "registered_local_addresses": 377
+  },
+  {
+    "ubigeo": "130702",
+    "department_code": "13",
+    "registered_local_addresses": 695
+  },
+  {
+    "ubigeo": "130703",
+    "department_code": "13",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "130704",
+    "department_code": "13",
+    "registered_local_addresses": 705
+  },
+  {
+    "ubigeo": "130705",
+    "department_code": "13",
+    "registered_local_addresses": 181
+  },
+  {
+    "ubigeo": "130801",
+    "department_code": "13",
+    "registered_local_addresses": 343
+  },
+  {
+    "ubigeo": "130802",
+    "department_code": "13",
+    "registered_local_addresses": 320
+  },
+  {
+    "ubigeo": "130803",
+    "department_code": "13",
+    "registered_local_addresses": 142
+  },
+  {
+    "ubigeo": "130804",
+    "department_code": "13",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "130805",
+    "department_code": "13",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "130806",
+    "department_code": "13",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "130807",
+    "department_code": "13",
+    "registered_local_addresses": 146
+  },
+  {
+    "ubigeo": "130808",
+    "department_code": "13",
+    "registered_local_addresses": 857
+  },
+  {
+    "ubigeo": "130809",
+    "department_code": "13",
+    "registered_local_addresses": 1626
+  },
+  {
+    "ubigeo": "130810",
+    "department_code": "13",
+    "registered_local_addresses": 67
+  },
+  {
+    "ubigeo": "130811",
+    "department_code": "13",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "130812",
+    "department_code": "13",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "130813",
+    "department_code": "13",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "130901",
+    "department_code": "13",
+    "registered_local_addresses": 1609
+  },
+  {
+    "ubigeo": "130902",
+    "department_code": "13",
+    "registered_local_addresses": 85
+  },
+  {
+    "ubigeo": "130903",
+    "department_code": "13",
+    "registered_local_addresses": 47
+  },
+  {
+    "ubigeo": "130904",
+    "department_code": "13",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "130905",
+    "department_code": "13",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "130906",
+    "department_code": "13",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "130907",
+    "department_code": "13",
+    "registered_local_addresses": 67
+  },
+  {
+    "ubigeo": "130908",
+    "department_code": "13",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "131001",
+    "department_code": "13",
+    "registered_local_addresses": 254
+  },
+  {
+    "ubigeo": "131002",
+    "department_code": "13",
+    "registered_local_addresses": 89
+  },
+  {
+    "ubigeo": "131003",
+    "department_code": "13",
+    "registered_local_addresses": 131
+  },
+  {
+    "ubigeo": "131004",
+    "department_code": "13",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "131005",
+    "department_code": "13",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "131006",
+    "department_code": "13",
+    "registered_local_addresses": 530
+  },
+  {
+    "ubigeo": "131007",
+    "department_code": "13",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "131008",
+    "department_code": "13",
+    "registered_local_addresses": 67
+  },
+  {
+    "ubigeo": "131101",
+    "department_code": "13",
+    "registered_local_addresses": 197
+  },
+  {
+    "ubigeo": "131102",
+    "department_code": "13",
+    "registered_local_addresses": 85
+  },
+  {
+    "ubigeo": "131103",
+    "department_code": "13",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "131104",
+    "department_code": "13",
+    "registered_local_addresses": 314
+  },
+  {
+    "ubigeo": "131201",
+    "department_code": "13",
+    "registered_local_addresses": 1306
+  },
+  {
+    "ubigeo": "131202",
+    "department_code": "13",
+    "registered_local_addresses": 753
+  },
+  {
+    "ubigeo": "131203",
+    "department_code": "13",
+    "registered_local_addresses": 77
+  },
+  {
+    "ubigeo": "140101",
+    "department_code": "14",
+    "registered_local_addresses": 13042
+  },
+  {
+    "ubigeo": "140102",
+    "department_code": "14",
+    "registered_local_addresses": 248
+  },
+  {
+    "ubigeo": "140103",
+    "department_code": "14",
+    "registered_local_addresses": 101
+  },
+  {
+    "ubigeo": "140104",
+    "department_code": "14",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "140105",
+    "department_code": "14",
+    "registered_local_addresses": 3551
+  },
+  {
+    "ubigeo": "140106",
+    "department_code": "14",
+    "registered_local_addresses": 1851
+  },
+  {
+    "ubigeo": "140107",
+    "department_code": "14",
+    "registered_local_addresses": 253
+  },
+  {
+    "ubigeo": "140108",
+    "department_code": "14",
+    "registered_local_addresses": 413
+  },
+  {
+    "ubigeo": "140109",
+    "department_code": "14",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "140110",
+    "department_code": "14",
+    "registered_local_addresses": 184
+  },
+  {
+    "ubigeo": "140111",
+    "department_code": "14",
+    "registered_local_addresses": 181
+  },
+  {
+    "ubigeo": "140112",
+    "department_code": "14",
+    "registered_local_addresses": 748
+  },
+  {
+    "ubigeo": "140113",
+    "department_code": "14",
+    "registered_local_addresses": 225
+  },
+  {
+    "ubigeo": "140114",
+    "department_code": "14",
+    "registered_local_addresses": 181
+  },
+  {
+    "ubigeo": "140115",
+    "department_code": "14",
+    "registered_local_addresses": 198
+  },
+  {
+    "ubigeo": "140116",
+    "department_code": "14",
+    "registered_local_addresses": 165
+  },
+  {
+    "ubigeo": "140117",
+    "department_code": "14",
+    "registered_local_addresses": 102
+  },
+  {
+    "ubigeo": "140118",
+    "department_code": "14",
+    "registered_local_addresses": 205
+  },
+  {
+    "ubigeo": "140119",
+    "department_code": "14",
+    "registered_local_addresses": 55
+  },
+  {
+    "ubigeo": "140120",
+    "department_code": "14",
+    "registered_local_addresses": 150
+  },
+  {
+    "ubigeo": "140201",
+    "department_code": "14",
+    "registered_local_addresses": 974
+  },
+  {
+    "ubigeo": "140202",
+    "department_code": "14",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "140203",
+    "department_code": "14",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "140204",
+    "department_code": "14",
+    "registered_local_addresses": 234
+  },
+  {
+    "ubigeo": "140205",
+    "department_code": "14",
+    "registered_local_addresses": 293
+  },
+  {
+    "ubigeo": "140206",
+    "department_code": "14",
+    "registered_local_addresses": 320
+  },
+  {
+    "ubigeo": "140301",
+    "department_code": "14",
+    "registered_local_addresses": 1861
+  },
+  {
+    "ubigeo": "140302",
+    "department_code": "14",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "140303",
+    "department_code": "14",
+    "registered_local_addresses": 96
+  },
+  {
+    "ubigeo": "140304",
+    "department_code": "14",
+    "registered_local_addresses": 335
+  },
+  {
+    "ubigeo": "140305",
+    "department_code": "14",
+    "registered_local_addresses": 657
+  },
+  {
+    "ubigeo": "140306",
+    "department_code": "14",
+    "registered_local_addresses": 388
+  },
+  {
+    "ubigeo": "140307",
+    "department_code": "14",
+    "registered_local_addresses": 549
+  },
+  {
+    "ubigeo": "140308",
+    "department_code": "14",
+    "registered_local_addresses": 929
+  },
+  {
+    "ubigeo": "140309",
+    "department_code": "14",
+    "registered_local_addresses": 108
+  },
+  {
+    "ubigeo": "140310",
+    "department_code": "14",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "140311",
+    "department_code": "14",
+    "registered_local_addresses": 150
+  },
+  {
+    "ubigeo": "140312",
+    "department_code": "14",
+    "registered_local_addresses": 405
+  },
+  {
+    "ubigeo": "150101",
+    "department_code": "15",
+    "registered_local_addresses": 43437
+  },
+  {
+    "ubigeo": "150102",
+    "department_code": "15",
+    "registered_local_addresses": 1195
+  },
+  {
+    "ubigeo": "150103",
+    "department_code": "15",
+    "registered_local_addresses": 14269
+  },
+  {
+    "ubigeo": "150104",
+    "department_code": "15",
+    "registered_local_addresses": 1566
+  },
+  {
+    "ubigeo": "150105",
+    "department_code": "15",
+    "registered_local_addresses": 4122
+  },
+  {
+    "ubigeo": "150106",
+    "department_code": "15",
+    "registered_local_addresses": 4395
+  },
+  {
+    "ubigeo": "150107",
+    "department_code": "15",
+    "registered_local_addresses": 671
+  },
+  {
+    "ubigeo": "150108",
+    "department_code": "15",
+    "registered_local_addresses": 7394
+  },
+  {
+    "ubigeo": "150109",
+    "department_code": "15",
+    "registered_local_addresses": 622
+  },
+  {
+    "ubigeo": "150110",
+    "department_code": "15",
+    "registered_local_addresses": 8345
+  },
+  {
+    "ubigeo": "150111",
+    "department_code": "15",
+    "registered_local_addresses": 2506
+  },
+  {
+    "ubigeo": "150112",
+    "department_code": "15",
+    "registered_local_addresses": 4946
+  },
+  {
+    "ubigeo": "150113",
+    "department_code": "15",
+    "registered_local_addresses": 4974
+  },
+  {
+    "ubigeo": "150114",
+    "department_code": "15",
+    "registered_local_addresses": 5283
+  },
+  {
+    "ubigeo": "150115",
+    "department_code": "15",
+    "registered_local_addresses": 34865
+  },
+  {
+    "ubigeo": "150116",
+    "department_code": "15",
+    "registered_local_addresses": 4264
+  },
+  {
+    "ubigeo": "150117",
+    "department_code": "15",
+    "registered_local_addresses": 9253
+  },
+  {
+    "ubigeo": "150118",
+    "department_code": "15",
+    "registered_local_addresses": 5090
+  },
+  {
+    "ubigeo": "150119",
+    "department_code": "15",
+    "registered_local_addresses": 5153
+  },
+  {
+    "ubigeo": "150120",
+    "department_code": "15",
+    "registered_local_addresses": 2892
+  },
+  {
+    "ubigeo": "150121",
+    "department_code": "15",
+    "registered_local_addresses": 2781
+  },
+  {
+    "ubigeo": "150122",
+    "department_code": "15",
+    "registered_local_addresses": 11145
+  },
+  {
+    "ubigeo": "150123",
+    "department_code": "15",
+    "registered_local_addresses": 2105
+  },
+  {
+    "ubigeo": "150124",
+    "department_code": "15",
+    "registered_local_addresses": 291
+  },
+  {
+    "ubigeo": "150125",
+    "department_code": "15",
+    "registered_local_addresses": 6271
+  },
+  {
+    "ubigeo": "150126",
+    "department_code": "15",
+    "registered_local_addresses": 1429
+  },
+  {
+    "ubigeo": "150127",
+    "department_code": "15",
+    "registered_local_addresses": 239
+  },
+  {
+    "ubigeo": "150128",
+    "department_code": "15",
+    "registered_local_addresses": 3234
+  },
+  {
+    "ubigeo": "150129",
+    "department_code": "15",
+    "registered_local_addresses": 316
+  },
+  {
+    "ubigeo": "150130",
+    "department_code": "15",
+    "registered_local_addresses": 5149
+  },
+  {
+    "ubigeo": "150131",
+    "department_code": "15",
+    "registered_local_addresses": 7929
+  },
+  {
+    "ubigeo": "150132",
+    "department_code": "15",
+    "registered_local_addresses": 13886
+  },
+  {
+    "ubigeo": "150133",
+    "department_code": "15",
+    "registered_local_addresses": 6400
+  },
+  {
+    "ubigeo": "150134",
+    "department_code": "15",
+    "registered_local_addresses": 3794
+  },
+  {
+    "ubigeo": "150135",
+    "department_code": "15",
+    "registered_local_addresses": 13637
+  },
+  {
+    "ubigeo": "150136",
+    "department_code": "15",
+    "registered_local_addresses": 5657
+  },
+  {
+    "ubigeo": "150137",
+    "department_code": "15",
+    "registered_local_addresses": 6717
+  },
+  {
+    "ubigeo": "150138",
+    "department_code": "15",
+    "registered_local_addresses": 69
+  },
+  {
+    "ubigeo": "150139",
+    "department_code": "15",
+    "registered_local_addresses": 193
+  },
+  {
+    "ubigeo": "150140",
+    "department_code": "15",
+    "registered_local_addresses": 13977
+  },
+  {
+    "ubigeo": "150141",
+    "department_code": "15",
+    "registered_local_addresses": 5523
+  },
+  {
+    "ubigeo": "150142",
+    "department_code": "15",
+    "registered_local_addresses": 7950
+  },
+  {
+    "ubigeo": "150143",
+    "department_code": "15",
+    "registered_local_addresses": 4182
+  },
+  {
+    "ubigeo": "150201",
+    "department_code": "15",
+    "registered_local_addresses": 2064
+  },
+  {
+    "ubigeo": "150202",
+    "department_code": "15",
+    "registered_local_addresses": 315
+  },
+  {
+    "ubigeo": "150203",
+    "department_code": "15",
+    "registered_local_addresses": 135
+  },
+  {
+    "ubigeo": "150204",
+    "department_code": "15",
+    "registered_local_addresses": 560
+  },
+  {
+    "ubigeo": "150205",
+    "department_code": "15",
+    "registered_local_addresses": 181
+  },
+  {
+    "ubigeo": "150301",
+    "department_code": "15",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "150302",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "150303",
+    "department_code": "15",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "150304",
+    "department_code": "15",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "150305",
+    "department_code": "15",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "150401",
+    "department_code": "15",
+    "registered_local_addresses": 77
+  },
+  {
+    "ubigeo": "150402",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "150403",
+    "department_code": "15",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "150404",
+    "department_code": "15",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "150405",
+    "department_code": "15",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "150406",
+    "department_code": "15",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "150407",
+    "department_code": "15",
+    "registered_local_addresses": 244
+  },
+  {
+    "ubigeo": "150501",
+    "department_code": "15",
+    "registered_local_addresses": 1696
+  },
+  {
+    "ubigeo": "150502",
+    "department_code": "15",
+    "registered_local_addresses": 991
+  },
+  {
+    "ubigeo": "150503",
+    "department_code": "15",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "150504",
+    "department_code": "15",
+    "registered_local_addresses": 237
+  },
+  {
+    "ubigeo": "150505",
+    "department_code": "15",
+    "registered_local_addresses": 1289
+  },
+  {
+    "ubigeo": "150506",
+    "department_code": "15",
+    "registered_local_addresses": 72
+  },
+  {
+    "ubigeo": "150507",
+    "department_code": "15",
+    "registered_local_addresses": 894
+  },
+  {
+    "ubigeo": "150508",
+    "department_code": "15",
+    "registered_local_addresses": 178
+  },
+  {
+    "ubigeo": "150509",
+    "department_code": "15",
+    "registered_local_addresses": 900
+  },
+  {
+    "ubigeo": "150510",
+    "department_code": "15",
+    "registered_local_addresses": 255
+  },
+  {
+    "ubigeo": "150511",
+    "department_code": "15",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "150512",
+    "department_code": "15",
+    "registered_local_addresses": 475
+  },
+  {
+    "ubigeo": "150513",
+    "department_code": "15",
+    "registered_local_addresses": 121
+  },
+  {
+    "ubigeo": "150514",
+    "department_code": "15",
+    "registered_local_addresses": 150
+  },
+  {
+    "ubigeo": "150515",
+    "department_code": "15",
+    "registered_local_addresses": 99
+  },
+  {
+    "ubigeo": "150516",
+    "department_code": "15",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "150601",
+    "department_code": "15",
+    "registered_local_addresses": 2721
+  },
+  {
+    "ubigeo": "150602",
+    "department_code": "15",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "150603",
+    "department_code": "15",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "150604",
+    "department_code": "15",
+    "registered_local_addresses": 400
+  },
+  {
+    "ubigeo": "150605",
+    "department_code": "15",
+    "registered_local_addresses": 1413
+  },
+  {
+    "ubigeo": "150606",
+    "department_code": "15",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "150607",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "150608",
+    "department_code": "15",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "150609",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "150610",
+    "department_code": "15",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "150611",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "150612",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "150701",
+    "department_code": "15",
+    "registered_local_addresses": 76
+  },
+  {
+    "ubigeo": "150702",
+    "department_code": "15",
+    "registered_local_addresses": 52
+  },
+  {
+    "ubigeo": "150703",
+    "department_code": "15",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "150704",
+    "department_code": "15",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "150705",
+    "department_code": "15",
+    "registered_local_addresses": 123
+  },
+  {
+    "ubigeo": "150706",
+    "department_code": "15",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "150707",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "150708",
+    "department_code": "15",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "150709",
+    "department_code": "15",
+    "registered_local_addresses": 98
+  },
+  {
+    "ubigeo": "150710",
+    "department_code": "15",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "150711",
+    "department_code": "15",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "150712",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "150713",
+    "department_code": "15",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "150714",
+    "department_code": "15",
+    "registered_local_addresses": 79
+  },
+  {
+    "ubigeo": "150715",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "150716",
+    "department_code": "15",
+    "registered_local_addresses": 1214
+  },
+  {
+    "ubigeo": "150717",
+    "department_code": "15",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "150718",
+    "department_code": "15",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "150719",
+    "department_code": "15",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "150720",
+    "department_code": "15",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "150721",
+    "department_code": "15",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "150722",
+    "department_code": "15",
+    "registered_local_addresses": 134
+  },
+  {
+    "ubigeo": "150723",
+    "department_code": "15",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "150724",
+    "department_code": "15",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "150725",
+    "department_code": "15",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "150726",
+    "department_code": "15",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "150727",
+    "department_code": "15",
+    "registered_local_addresses": 64
+  },
+  {
+    "ubigeo": "150728",
+    "department_code": "15",
+    "registered_local_addresses": 130
+  },
+  {
+    "ubigeo": "150729",
+    "department_code": "15",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "150730",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "150731",
+    "department_code": "15",
+    "registered_local_addresses": 153
+  },
+  {
+    "ubigeo": "150732",
+    "department_code": "15",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "150801",
+    "department_code": "15",
+    "registered_local_addresses": 2593
+  },
+  {
+    "ubigeo": "150802",
+    "department_code": "15",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "150803",
+    "department_code": "15",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "150804",
+    "department_code": "15",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "150805",
+    "department_code": "15",
+    "registered_local_addresses": 370
+  },
+  {
+    "ubigeo": "150806",
+    "department_code": "15",
+    "registered_local_addresses": 604
+  },
+  {
+    "ubigeo": "150807",
+    "department_code": "15",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "150808",
+    "department_code": "15",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "150809",
+    "department_code": "15",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "150810",
+    "department_code": "15",
+    "registered_local_addresses": 819
+  },
+  {
+    "ubigeo": "150811",
+    "department_code": "15",
+    "registered_local_addresses": 603
+  },
+  {
+    "ubigeo": "150812",
+    "department_code": "15",
+    "registered_local_addresses": 373
+  },
+  {
+    "ubigeo": "150901",
+    "department_code": "15",
+    "registered_local_addresses": 363
+  },
+  {
+    "ubigeo": "150902",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "150903",
+    "department_code": "15",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "150904",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "150905",
+    "department_code": "15",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "150906",
+    "department_code": "15",
+    "registered_local_addresses": 119
+  },
+  {
+    "ubigeo": "151001",
+    "department_code": "15",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "151002",
+    "department_code": "15",
+    "registered_local_addresses": 47
+  },
+  {
+    "ubigeo": "151003",
+    "department_code": "15",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "151004",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "151006",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151007",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "151008",
+    "department_code": "15",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "151009",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151010",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151011",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151013",
+    "department_code": "15",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "151014",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "151015",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151016",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "151017",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151018",
+    "department_code": "15",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "151019",
+    "department_code": "15",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "151020",
+    "department_code": "15",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "151021",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151022",
+    "department_code": "15",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "151023",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "151024",
+    "department_code": "15",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "151025",
+    "department_code": "15",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "151026",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151027",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "151028",
+    "department_code": "15",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "151029",
+    "department_code": "15",
+    "registered_local_addresses": 55
+  },
+  {
+    "ubigeo": "151030",
+    "department_code": "15",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "151031",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "151032",
+    "department_code": "15",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "151033",
+    "department_code": "15",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "160101",
+    "department_code": "16",
+    "registered_local_addresses": 7017
+  },
+  {
+    "ubigeo": "160102",
+    "department_code": "16",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "160103",
+    "department_code": "16",
+    "registered_local_addresses": 92
+  },
+  {
+    "ubigeo": "160104",
+    "department_code": "16",
+    "registered_local_addresses": 69
+  },
+  {
+    "ubigeo": "160105",
+    "department_code": "16",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "160106",
+    "department_code": "16",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "160107",
+    "department_code": "16",
+    "registered_local_addresses": 71
+  },
+  {
+    "ubigeo": "160108",
+    "department_code": "16",
+    "registered_local_addresses": 1330
+  },
+  {
+    "ubigeo": "160109",
+    "department_code": "16",
+    "registered_local_addresses": 39
+  },
+  {
+    "ubigeo": "160110",
+    "department_code": "16",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "160111",
+    "department_code": "16",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "160112",
+    "department_code": "16",
+    "registered_local_addresses": 1078
+  },
+  {
+    "ubigeo": "160113",
+    "department_code": "16",
+    "registered_local_addresses": 1695
+  },
+  {
+    "ubigeo": "160114",
+    "department_code": "16",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "160201",
+    "department_code": "16",
+    "registered_local_addresses": 2159
+  },
+  {
+    "ubigeo": "160202",
+    "department_code": "16",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "160203",
+    "department_code": "16",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "160205",
+    "department_code": "16",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "160206",
+    "department_code": "16",
+    "registered_local_addresses": 70
+  },
+  {
+    "ubigeo": "160207",
+    "department_code": "16",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "160208",
+    "department_code": "16",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "160209",
+    "department_code": "16",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "160210",
+    "department_code": "16",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "160211",
+    "department_code": "16",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "160301",
+    "department_code": "16",
+    "registered_local_addresses": 469
+  },
+  {
+    "ubigeo": "160302",
+    "department_code": "16",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "160303",
+    "department_code": "16",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "160304",
+    "department_code": "16",
+    "registered_local_addresses": 83
+  },
+  {
+    "ubigeo": "160305",
+    "department_code": "16",
+    "registered_local_addresses": 83
+  },
+  {
+    "ubigeo": "160401",
+    "department_code": "16",
+    "registered_local_addresses": 284
+  },
+  {
+    "ubigeo": "160402",
+    "department_code": "16",
+    "registered_local_addresses": 64
+  },
+  {
+    "ubigeo": "160403",
+    "department_code": "16",
+    "registered_local_addresses": 179
+  },
+  {
+    "ubigeo": "160404",
+    "department_code": "16",
+    "registered_local_addresses": 62
+  },
+  {
+    "ubigeo": "160501",
+    "department_code": "16",
+    "registered_local_addresses": 341
+  },
+  {
+    "ubigeo": "160502",
+    "department_code": "16",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "160503",
+    "department_code": "16",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "160504",
+    "department_code": "16",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "160505",
+    "department_code": "16",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "160506",
+    "department_code": "16",
+    "registered_local_addresses": 62
+  },
+  {
+    "ubigeo": "160507",
+    "department_code": "16",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "160508",
+    "department_code": "16",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "160509",
+    "department_code": "16",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "160510",
+    "department_code": "16",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "160511",
+    "department_code": "16",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "160601",
+    "department_code": "16",
+    "registered_local_addresses": 424
+  },
+  {
+    "ubigeo": "160602",
+    "department_code": "16",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "160603",
+    "department_code": "16",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "160604",
+    "department_code": "16",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "160605",
+    "department_code": "16",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "160606",
+    "department_code": "16",
+    "registered_local_addresses": 52
+  },
+  {
+    "ubigeo": "160701",
+    "department_code": "16",
+    "registered_local_addresses": 318
+  },
+  {
+    "ubigeo": "160702",
+    "department_code": "16",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "160703",
+    "department_code": "16",
+    "registered_local_addresses": 137
+  },
+  {
+    "ubigeo": "160704",
+    "department_code": "16",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "160705",
+    "department_code": "16",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "160706",
+    "department_code": "16",
+    "registered_local_addresses": 60
+  },
+  {
+    "ubigeo": "160801",
+    "department_code": "16",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "160802",
+    "department_code": "16",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "160803",
+    "department_code": "16",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "160804",
+    "department_code": "16",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "170101",
+    "department_code": "17",
+    "registered_local_addresses": 3969
+  },
+  {
+    "ubigeo": "170102",
+    "department_code": "17",
+    "registered_local_addresses": 1264
+  },
+  {
+    "ubigeo": "170103",
+    "department_code": "17",
+    "registered_local_addresses": 554
+  },
+  {
+    "ubigeo": "170104",
+    "department_code": "17",
+    "registered_local_addresses": 522
+  },
+  {
+    "ubigeo": "170201",
+    "department_code": "17",
+    "registered_local_addresses": 134
+  },
+  {
+    "ubigeo": "170202",
+    "department_code": "17",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "170203",
+    "department_code": "17",
+    "registered_local_addresses": 800
+  },
+  {
+    "ubigeo": "170204",
+    "department_code": "17",
+    "registered_local_addresses": 873
+  },
+  {
+    "ubigeo": "170301",
+    "department_code": "17",
+    "registered_local_addresses": 172
+  },
+  {
+    "ubigeo": "170302",
+    "department_code": "17",
+    "registered_local_addresses": 195
+  },
+  {
+    "ubigeo": "170303",
+    "department_code": "17",
+    "registered_local_addresses": 245
+  },
+  {
+    "ubigeo": "180101",
+    "department_code": "18",
+    "registered_local_addresses": 2534
+  },
+  {
+    "ubigeo": "180102",
+    "department_code": "18",
+    "registered_local_addresses": 54
+  },
+  {
+    "ubigeo": "180103",
+    "department_code": "18",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "180104",
+    "department_code": "18",
+    "registered_local_addresses": 212
+  },
+  {
+    "ubigeo": "180105",
+    "department_code": "18",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "180106",
+    "department_code": "18",
+    "registered_local_addresses": 256
+  },
+  {
+    "ubigeo": "180107",
+    "department_code": "18",
+    "registered_local_addresses": 192
+  },
+  {
+    "ubigeo": "180201",
+    "department_code": "18",
+    "registered_local_addresses": 81
+  },
+  {
+    "ubigeo": "180202",
+    "department_code": "18",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "180203",
+    "department_code": "18",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "180204",
+    "department_code": "18",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "180205",
+    "department_code": "18",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "180206",
+    "department_code": "18",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "180207",
+    "department_code": "18",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "180208",
+    "department_code": "18",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "180209",
+    "department_code": "18",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "180210",
+    "department_code": "18",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "180211",
+    "department_code": "18",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "180301",
+    "department_code": "18",
+    "registered_local_addresses": 2781
+  },
+  {
+    "ubigeo": "180302",
+    "department_code": "18",
+    "registered_local_addresses": 60
+  },
+  {
+    "ubigeo": "180303",
+    "department_code": "18",
+    "registered_local_addresses": 187
+  },
+  {
+    "ubigeo": "190101",
+    "department_code": "19",
+    "registered_local_addresses": 1158
+  },
+  {
+    "ubigeo": "190102",
+    "department_code": "19",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "190103",
+    "department_code": "19",
+    "registered_local_addresses": 105
+  },
+  {
+    "ubigeo": "190104",
+    "department_code": "19",
+    "registered_local_addresses": 225
+  },
+  {
+    "ubigeo": "190105",
+    "department_code": "19",
+    "registered_local_addresses": 94
+  },
+  {
+    "ubigeo": "190106",
+    "department_code": "19",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "190107",
+    "department_code": "19",
+    "registered_local_addresses": 168
+  },
+  {
+    "ubigeo": "190108",
+    "department_code": "19",
+    "registered_local_addresses": 55
+  },
+  {
+    "ubigeo": "190109",
+    "department_code": "19",
+    "registered_local_addresses": 217
+  },
+  {
+    "ubigeo": "190110",
+    "department_code": "19",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "190111",
+    "department_code": "19",
+    "registered_local_addresses": 192
+  },
+  {
+    "ubigeo": "190112",
+    "department_code": "19",
+    "registered_local_addresses": 73
+  },
+  {
+    "ubigeo": "190113",
+    "department_code": "19",
+    "registered_local_addresses": 928
+  },
+  {
+    "ubigeo": "190201",
+    "department_code": "19",
+    "registered_local_addresses": 174
+  },
+  {
+    "ubigeo": "190202",
+    "department_code": "19",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "190203",
+    "department_code": "19",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "190204",
+    "department_code": "19",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "190205",
+    "department_code": "19",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "190206",
+    "department_code": "19",
+    "registered_local_addresses": 52
+  },
+  {
+    "ubigeo": "190207",
+    "department_code": "19",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "190208",
+    "department_code": "19",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "190301",
+    "department_code": "19",
+    "registered_local_addresses": 676
+  },
+  {
+    "ubigeo": "190302",
+    "department_code": "19",
+    "registered_local_addresses": 95
+  },
+  {
+    "ubigeo": "190303",
+    "department_code": "19",
+    "registered_local_addresses": 68
+  },
+  {
+    "ubigeo": "190304",
+    "department_code": "19",
+    "registered_local_addresses": 116
+  },
+  {
+    "ubigeo": "190305",
+    "department_code": "19",
+    "registered_local_addresses": 105
+  },
+  {
+    "ubigeo": "190306",
+    "department_code": "19",
+    "registered_local_addresses": 305
+  },
+  {
+    "ubigeo": "190307",
+    "department_code": "19",
+    "registered_local_addresses": 417
+  },
+  {
+    "ubigeo": "190308",
+    "department_code": "19",
+    "registered_local_addresses": 173
+  },
+  {
+    "ubigeo": "200101",
+    "department_code": "20",
+    "registered_local_addresses": 10126
+  },
+  {
+    "ubigeo": "200104",
+    "department_code": "20",
+    "registered_local_addresses": 2881
+  },
+  {
+    "ubigeo": "200105",
+    "department_code": "20",
+    "registered_local_addresses": 749
+  },
+  {
+    "ubigeo": "200107",
+    "department_code": "20",
+    "registered_local_addresses": 74
+  },
+  {
+    "ubigeo": "200108",
+    "department_code": "20",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "200109",
+    "department_code": "20",
+    "registered_local_addresses": 142
+  },
+  {
+    "ubigeo": "200110",
+    "department_code": "20",
+    "registered_local_addresses": 383
+  },
+  {
+    "ubigeo": "200111",
+    "department_code": "20",
+    "registered_local_addresses": 349
+  },
+  {
+    "ubigeo": "200114",
+    "department_code": "20",
+    "registered_local_addresses": 1227
+  },
+  {
+    "ubigeo": "200115",
+    "department_code": "20",
+    "registered_local_addresses": 1494
+  },
+  {
+    "ubigeo": "200201",
+    "department_code": "20",
+    "registered_local_addresses": 185
+  },
+  {
+    "ubigeo": "200202",
+    "department_code": "20",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "200203",
+    "department_code": "20",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "200204",
+    "department_code": "20",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "200205",
+    "department_code": "20",
+    "registered_local_addresses": 51
+  },
+  {
+    "ubigeo": "200206",
+    "department_code": "20",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "200207",
+    "department_code": "20",
+    "registered_local_addresses": 102
+  },
+  {
+    "ubigeo": "200208",
+    "department_code": "20",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "200209",
+    "department_code": "20",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "200210",
+    "department_code": "20",
+    "registered_local_addresses": 391
+  },
+  {
+    "ubigeo": "200301",
+    "department_code": "20",
+    "registered_local_addresses": 277
+  },
+  {
+    "ubigeo": "200302",
+    "department_code": "20",
+    "registered_local_addresses": 77
+  },
+  {
+    "ubigeo": "200303",
+    "department_code": "20",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "200304",
+    "department_code": "20",
+    "registered_local_addresses": 132
+  },
+  {
+    "ubigeo": "200305",
+    "department_code": "20",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "200306",
+    "department_code": "20",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "200307",
+    "department_code": "20",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "200308",
+    "department_code": "20",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "200401",
+    "department_code": "20",
+    "registered_local_addresses": 898
+  },
+  {
+    "ubigeo": "200402",
+    "department_code": "20",
+    "registered_local_addresses": 81
+  },
+  {
+    "ubigeo": "200403",
+    "department_code": "20",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "200404",
+    "department_code": "20",
+    "registered_local_addresses": 136
+  },
+  {
+    "ubigeo": "200405",
+    "department_code": "20",
+    "registered_local_addresses": 237
+  },
+  {
+    "ubigeo": "200406",
+    "department_code": "20",
+    "registered_local_addresses": 79
+  },
+  {
+    "ubigeo": "200407",
+    "department_code": "20",
+    "registered_local_addresses": 36
+  },
+  {
+    "ubigeo": "200408",
+    "department_code": "20",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "200409",
+    "department_code": "20",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "200410",
+    "department_code": "20",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "200501",
+    "department_code": "20",
+    "registered_local_addresses": 2287
+  },
+  {
+    "ubigeo": "200502",
+    "department_code": "20",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "200503",
+    "department_code": "20",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "200504",
+    "department_code": "20",
+    "registered_local_addresses": 187
+  },
+  {
+    "ubigeo": "200505",
+    "department_code": "20",
+    "registered_local_addresses": 92
+  },
+  {
+    "ubigeo": "200506",
+    "department_code": "20",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "200507",
+    "department_code": "20",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "200601",
+    "department_code": "20",
+    "registered_local_addresses": 3784
+  },
+  {
+    "ubigeo": "200602",
+    "department_code": "20",
+    "registered_local_addresses": 301
+  },
+  {
+    "ubigeo": "200603",
+    "department_code": "20",
+    "registered_local_addresses": 195
+  },
+  {
+    "ubigeo": "200604",
+    "department_code": "20",
+    "registered_local_addresses": 59
+  },
+  {
+    "ubigeo": "200605",
+    "department_code": "20",
+    "registered_local_addresses": 206
+  },
+  {
+    "ubigeo": "200606",
+    "department_code": "20",
+    "registered_local_addresses": 127
+  },
+  {
+    "ubigeo": "200607",
+    "department_code": "20",
+    "registered_local_addresses": 152
+  },
+  {
+    "ubigeo": "200608",
+    "department_code": "20",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "200701",
+    "department_code": "20",
+    "registered_local_addresses": 2279
+  },
+  {
+    "ubigeo": "200702",
+    "department_code": "20",
+    "registered_local_addresses": 255
+  },
+  {
+    "ubigeo": "200703",
+    "department_code": "20",
+    "registered_local_addresses": 173
+  },
+  {
+    "ubigeo": "200704",
+    "department_code": "20",
+    "registered_local_addresses": 41
+  },
+  {
+    "ubigeo": "200705",
+    "department_code": "20",
+    "registered_local_addresses": 263
+  },
+  {
+    "ubigeo": "200706",
+    "department_code": "20",
+    "registered_local_addresses": 404
+  },
+  {
+    "ubigeo": "200801",
+    "department_code": "20",
+    "registered_local_addresses": 1098
+  },
+  {
+    "ubigeo": "200802",
+    "department_code": "20",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "200803",
+    "department_code": "20",
+    "registered_local_addresses": 58
+  },
+  {
+    "ubigeo": "200804",
+    "department_code": "20",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "200805",
+    "department_code": "20",
+    "registered_local_addresses": 123
+  },
+  {
+    "ubigeo": "200806",
+    "department_code": "20",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "210101",
+    "department_code": "21",
+    "registered_local_addresses": 2933
+  },
+  {
+    "ubigeo": "210102",
+    "department_code": "21",
+    "registered_local_addresses": 78
+  },
+  {
+    "ubigeo": "210103",
+    "department_code": "21",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "210104",
+    "department_code": "21",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "210105",
+    "department_code": "21",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "210106",
+    "department_code": "21",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "210107",
+    "department_code": "21",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "210108",
+    "department_code": "21",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "210109",
+    "department_code": "21",
+    "registered_local_addresses": 36
+  },
+  {
+    "ubigeo": "210110",
+    "department_code": "21",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "210111",
+    "department_code": "21",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "210112",
+    "department_code": "21",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "210113",
+    "department_code": "21",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "210114",
+    "department_code": "21",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "210115",
+    "department_code": "21",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "210201",
+    "department_code": "21",
+    "registered_local_addresses": 204
+  },
+  {
+    "ubigeo": "210202",
+    "department_code": "21",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "210203",
+    "department_code": "21",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "210204",
+    "department_code": "21",
+    "registered_local_addresses": 34
+  },
+  {
+    "ubigeo": "210205",
+    "department_code": "21",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "210206",
+    "department_code": "21",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "210207",
+    "department_code": "21",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "210208",
+    "department_code": "21",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "210209",
+    "department_code": "21",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "210210",
+    "department_code": "21",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "210211",
+    "department_code": "21",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "210212",
+    "department_code": "21",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "210213",
+    "department_code": "21",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "210214",
+    "department_code": "21",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "210215",
+    "department_code": "21",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "210301",
+    "department_code": "21",
+    "registered_local_addresses": 163
+  },
+  {
+    "ubigeo": "210302",
+    "department_code": "21",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "210303",
+    "department_code": "21",
+    "registered_local_addresses": 131
+  },
+  {
+    "ubigeo": "210304",
+    "department_code": "21",
+    "registered_local_addresses": 395
+  },
+  {
+    "ubigeo": "210305",
+    "department_code": "21",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "210306",
+    "department_code": "21",
+    "registered_local_addresses": 79
+  },
+  {
+    "ubigeo": "210307",
+    "department_code": "21",
+    "registered_local_addresses": 621
+  },
+  {
+    "ubigeo": "210308",
+    "department_code": "21",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "210309",
+    "department_code": "21",
+    "registered_local_addresses": 176
+  },
+  {
+    "ubigeo": "210310",
+    "department_code": "21",
+    "registered_local_addresses": 43
+  },
+  {
+    "ubigeo": "210401",
+    "department_code": "21",
+    "registered_local_addresses": 180
+  },
+  {
+    "ubigeo": "210402",
+    "department_code": "21",
+    "registered_local_addresses": 1209
+  },
+  {
+    "ubigeo": "210403",
+    "department_code": "21",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "210404",
+    "department_code": "21",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "210405",
+    "department_code": "21",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "210406",
+    "department_code": "21",
+    "registered_local_addresses": 61
+  },
+  {
+    "ubigeo": "210407",
+    "department_code": "21",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "210501",
+    "department_code": "21",
+    "registered_local_addresses": 448
+  },
+  {
+    "ubigeo": "210502",
+    "department_code": "21",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "210503",
+    "department_code": "21",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "210504",
+    "department_code": "21",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "210505",
+    "department_code": "21",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "210601",
+    "department_code": "21",
+    "registered_local_addresses": 120
+  },
+  {
+    "ubigeo": "210602",
+    "department_code": "21",
+    "registered_local_addresses": 29
+  },
+  {
+    "ubigeo": "210603",
+    "department_code": "21",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "210604",
+    "department_code": "21",
+    "registered_local_addresses": 6
+  },
+  {
+    "ubigeo": "210605",
+    "department_code": "21",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "210606",
+    "department_code": "21",
+    "registered_local_addresses": 14
+  },
+  {
+    "ubigeo": "210607",
+    "department_code": "21",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "210608",
+    "department_code": "21",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "210701",
+    "department_code": "21",
+    "registered_local_addresses": 58
+  },
+  {
+    "ubigeo": "210702",
+    "department_code": "21",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "210703",
+    "department_code": "21",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "210704",
+    "department_code": "21",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "210705",
+    "department_code": "21",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "210706",
+    "department_code": "21",
+    "registered_local_addresses": 25
+  },
+  {
+    "ubigeo": "210707",
+    "department_code": "21",
+    "registered_local_addresses": 49
+  },
+  {
+    "ubigeo": "210708",
+    "department_code": "21",
+    "registered_local_addresses": 27
+  },
+  {
+    "ubigeo": "210709",
+    "department_code": "21",
+    "registered_local_addresses": 85
+  },
+  {
+    "ubigeo": "210710",
+    "department_code": "21",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "210801",
+    "department_code": "21",
+    "registered_local_addresses": 309
+  },
+  {
+    "ubigeo": "210802",
+    "department_code": "21",
+    "registered_local_addresses": 129
+  },
+  {
+    "ubigeo": "210803",
+    "department_code": "21",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "210804",
+    "department_code": "21",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "210805",
+    "department_code": "21",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "210806",
+    "department_code": "21",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "210807",
+    "department_code": "21",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "210808",
+    "department_code": "21",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "210809",
+    "department_code": "21",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "210901",
+    "department_code": "21",
+    "registered_local_addresses": 50
+  },
+  {
+    "ubigeo": "210902",
+    "department_code": "21",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "210903",
+    "department_code": "21",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "210904",
+    "department_code": "21",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "211001",
+    "department_code": "21",
+    "registered_local_addresses": 96
+  },
+  {
+    "ubigeo": "211002",
+    "department_code": "21",
+    "registered_local_addresses": 935
+  },
+  {
+    "ubigeo": "211003",
+    "department_code": "21",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "211004",
+    "department_code": "21",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "211005",
+    "department_code": "21",
+    "registered_local_addresses": 116
+  },
+  {
+    "ubigeo": "211101",
+    "department_code": "21",
+    "registered_local_addresses": 7396
+  },
+  {
+    "ubigeo": "211102",
+    "department_code": "21",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "211103",
+    "department_code": "21",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "211104",
+    "department_code": "21",
+    "registered_local_addresses": 84
+  },
+  {
+    "ubigeo": "211105",
+    "department_code": "21",
+    "registered_local_addresses": 242
+  },
+  {
+    "ubigeo": "211201",
+    "department_code": "21",
+    "registered_local_addresses": 188
+  },
+  {
+    "ubigeo": "211202",
+    "department_code": "21",
+    "registered_local_addresses": 48
+  },
+  {
+    "ubigeo": "211203",
+    "department_code": "21",
+    "registered_local_addresses": 480
+  },
+  {
+    "ubigeo": "211204",
+    "department_code": "21",
+    "registered_local_addresses": 118
+  },
+  {
+    "ubigeo": "211205",
+    "department_code": "21",
+    "registered_local_addresses": 799
+  },
+  {
+    "ubigeo": "211206",
+    "department_code": "21",
+    "registered_local_addresses": 108
+  },
+  {
+    "ubigeo": "211207",
+    "department_code": "21",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "211208",
+    "department_code": "21",
+    "registered_local_addresses": 83
+  },
+  {
+    "ubigeo": "211209",
+    "department_code": "21",
+    "registered_local_addresses": 879
+  },
+  {
+    "ubigeo": "211210",
+    "department_code": "21",
+    "registered_local_addresses": 45
+  },
+  {
+    "ubigeo": "211301",
+    "department_code": "21",
+    "registered_local_addresses": 366
+  },
+  {
+    "ubigeo": "211302",
+    "department_code": "21",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "211303",
+    "department_code": "21",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "211304",
+    "department_code": "21",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "211305",
+    "department_code": "21",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "211306",
+    "department_code": "21",
+    "registered_local_addresses": 10
+  },
+  {
+    "ubigeo": "211307",
+    "department_code": "21",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "220101",
+    "department_code": "22",
+    "registered_local_addresses": 2089
+  },
+  {
+    "ubigeo": "220102",
+    "department_code": "22",
+    "registered_local_addresses": 48
+  },
+  {
+    "ubigeo": "220103",
+    "department_code": "22",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "220104",
+    "department_code": "22",
+    "registered_local_addresses": 48
+  },
+  {
+    "ubigeo": "220105",
+    "department_code": "22",
+    "registered_local_addresses": 252
+  },
+  {
+    "ubigeo": "220106",
+    "department_code": "22",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "220201",
+    "department_code": "22",
+    "registered_local_addresses": 604
+  },
+  {
+    "ubigeo": "220202",
+    "department_code": "22",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "220203",
+    "department_code": "22",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "220204",
+    "department_code": "22",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "220205",
+    "department_code": "22",
+    "registered_local_addresses": 46
+  },
+  {
+    "ubigeo": "220206",
+    "department_code": "22",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "220301",
+    "department_code": "22",
+    "registered_local_addresses": 206
+  },
+  {
+    "ubigeo": "220302",
+    "department_code": "22",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "220303",
+    "department_code": "22",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "220304",
+    "department_code": "22",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "220305",
+    "department_code": "22",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "220401",
+    "department_code": "22",
+    "registered_local_addresses": 233
+  },
+  {
+    "ubigeo": "220402",
+    "department_code": "22",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "220403",
+    "department_code": "22",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "220404",
+    "department_code": "22",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "220405",
+    "department_code": "22",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "220406",
+    "department_code": "22",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "220501",
+    "department_code": "22",
+    "registered_local_addresses": 265
+  },
+  {
+    "ubigeo": "220502",
+    "department_code": "22",
+    "registered_local_addresses": 55
+  },
+  {
+    "ubigeo": "220503",
+    "department_code": "22",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "220504",
+    "department_code": "22",
+    "registered_local_addresses": 113
+  },
+  {
+    "ubigeo": "220505",
+    "department_code": "22",
+    "registered_local_addresses": 36
+  },
+  {
+    "ubigeo": "220506",
+    "department_code": "22",
+    "registered_local_addresses": 21
+  },
+  {
+    "ubigeo": "220507",
+    "department_code": "22",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "220508",
+    "department_code": "22",
+    "registered_local_addresses": 8
+  },
+  {
+    "ubigeo": "220509",
+    "department_code": "22",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "220510",
+    "department_code": "22",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "220511",
+    "department_code": "22",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "220601",
+    "department_code": "22",
+    "registered_local_addresses": 1089
+  },
+  {
+    "ubigeo": "220602",
+    "department_code": "22",
+    "registered_local_addresses": 65
+  },
+  {
+    "ubigeo": "220603",
+    "department_code": "22",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "220604",
+    "department_code": "22",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "220605",
+    "department_code": "22",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "220701",
+    "department_code": "22",
+    "registered_local_addresses": 373
+  },
+  {
+    "ubigeo": "220702",
+    "department_code": "22",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "220703",
+    "department_code": "22",
+    "registered_local_addresses": 9
+  },
+  {
+    "ubigeo": "220704",
+    "department_code": "22",
+    "registered_local_addresses": 11
+  },
+  {
+    "ubigeo": "220705",
+    "department_code": "22",
+    "registered_local_addresses": 57
+  },
+  {
+    "ubigeo": "220706",
+    "department_code": "22",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "220707",
+    "department_code": "22",
+    "registered_local_addresses": 104
+  },
+  {
+    "ubigeo": "220708",
+    "department_code": "22",
+    "registered_local_addresses": 33
+  },
+  {
+    "ubigeo": "220709",
+    "department_code": "22",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "220710",
+    "department_code": "22",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "220801",
+    "department_code": "22",
+    "registered_local_addresses": 840
+  },
+  {
+    "ubigeo": "220802",
+    "department_code": "22",
+    "registered_local_addresses": 40
+  },
+  {
+    "ubigeo": "220803",
+    "department_code": "22",
+    "registered_local_addresses": 127
+  },
+  {
+    "ubigeo": "220804",
+    "department_code": "22",
+    "registered_local_addresses": 1022
+  },
+  {
+    "ubigeo": "220805",
+    "department_code": "22",
+    "registered_local_addresses": 194
+  },
+  {
+    "ubigeo": "220806",
+    "department_code": "22",
+    "registered_local_addresses": 30
+  },
+  {
+    "ubigeo": "220807",
+    "department_code": "22",
+    "registered_local_addresses": 23
+  },
+  {
+    "ubigeo": "220808",
+    "department_code": "22",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "220809",
+    "department_code": "22",
+    "registered_local_addresses": 37
+  },
+  {
+    "ubigeo": "220901",
+    "department_code": "22",
+    "registered_local_addresses": 5626
+  },
+  {
+    "ubigeo": "220902",
+    "department_code": "22",
+    "registered_local_addresses": 20
+  },
+  {
+    "ubigeo": "220903",
+    "department_code": "22",
+    "registered_local_addresses": 67
+  },
+  {
+    "ubigeo": "220904",
+    "department_code": "22",
+    "registered_local_addresses": 66
+  },
+  {
+    "ubigeo": "220905",
+    "department_code": "22",
+    "registered_local_addresses": 26
+  },
+  {
+    "ubigeo": "220906",
+    "department_code": "22",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "220907",
+    "department_code": "22",
+    "registered_local_addresses": 32
+  },
+  {
+    "ubigeo": "220908",
+    "department_code": "22",
+    "registered_local_addresses": 89
+  },
+  {
+    "ubigeo": "220909",
+    "department_code": "22",
+    "registered_local_addresses": 918
+  },
+  {
+    "ubigeo": "220910",
+    "department_code": "22",
+    "registered_local_addresses": 936
+  },
+  {
+    "ubigeo": "220911",
+    "department_code": "22",
+    "registered_local_addresses": 17
+  },
+  {
+    "ubigeo": "220912",
+    "department_code": "22",
+    "registered_local_addresses": 24
+  },
+  {
+    "ubigeo": "220913",
+    "department_code": "22",
+    "registered_local_addresses": 91
+  },
+  {
+    "ubigeo": "220914",
+    "department_code": "22",
+    "registered_local_addresses": 22
+  },
+  {
+    "ubigeo": "221001",
+    "department_code": "22",
+    "registered_local_addresses": 899
+  },
+  {
+    "ubigeo": "221002",
+    "department_code": "22",
+    "registered_local_addresses": 167
+  },
+  {
+    "ubigeo": "221003",
+    "department_code": "22",
+    "registered_local_addresses": 61
+  },
+  {
+    "ubigeo": "221004",
+    "department_code": "22",
+    "registered_local_addresses": 13
+  },
+  {
+    "ubigeo": "221005",
+    "department_code": "22",
+    "registered_local_addresses": 292
+  },
+  {
+    "ubigeo": "221006",
+    "department_code": "22",
+    "registered_local_addresses": 28
+  },
+  {
+    "ubigeo": "230101",
+    "department_code": "23",
+    "registered_local_addresses": 11414
+  },
+  {
+    "ubigeo": "230102",
+    "department_code": "23",
+    "registered_local_addresses": 1177
+  },
+  {
+    "ubigeo": "230103",
+    "department_code": "23",
+    "registered_local_addresses": 145
+  },
+  {
+    "ubigeo": "230104",
+    "department_code": "23",
+    "registered_local_addresses": 461
+  },
+  {
+    "ubigeo": "230105",
+    "department_code": "23",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "230106",
+    "department_code": "23",
+    "registered_local_addresses": 70
+  },
+  {
+    "ubigeo": "230107",
+    "department_code": "23",
+    "registered_local_addresses": 38
+  },
+  {
+    "ubigeo": "230108",
+    "department_code": "23",
+    "registered_local_addresses": 532
+  },
+  {
+    "ubigeo": "230109",
+    "department_code": "23",
+    "registered_local_addresses": 201
+  },
+  {
+    "ubigeo": "230110",
+    "department_code": "23",
+    "registered_local_addresses": 1551
+  },
+  {
+    "ubigeo": "230111",
+    "department_code": "23",
+    "registered_local_addresses": 429
+  },
+  {
+    "ubigeo": "230201",
+    "department_code": "23",
+    "registered_local_addresses": 44
+  },
+  {
+    "ubigeo": "230202",
+    "department_code": "23",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "230203",
+    "department_code": "23",
+    "registered_local_addresses": 18
+  },
+  {
+    "ubigeo": "230204",
+    "department_code": "23",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "230205",
+    "department_code": "23",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "230206",
+    "department_code": "23",
+    "registered_local_addresses": 7
+  },
+  {
+    "ubigeo": "230301",
+    "department_code": "23",
+    "registered_local_addresses": 94
+  },
+  {
+    "ubigeo": "230302",
+    "department_code": "23",
+    "registered_local_addresses": 276
+  },
+  {
+    "ubigeo": "230303",
+    "department_code": "23",
+    "registered_local_addresses": 80
+  },
+  {
+    "ubigeo": "230401",
+    "department_code": "23",
+    "registered_local_addresses": 54
+  },
+  {
+    "ubigeo": "230402",
+    "department_code": "23",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "230403",
+    "department_code": "23",
+    "registered_local_addresses": 4
+  },
+  {
+    "ubigeo": "230404",
+    "department_code": "23",
+    "registered_local_addresses": 3
+  },
+  {
+    "ubigeo": "230405",
+    "department_code": "23",
+    "registered_local_addresses": 2
+  },
+  {
+    "ubigeo": "230406",
+    "department_code": "23",
+    "registered_local_addresses": 5
+  },
+  {
+    "ubigeo": "230407",
+    "department_code": "23",
+    "registered_local_addresses": 1
+  },
+  {
+    "ubigeo": "230408",
+    "department_code": "23",
+    "registered_local_addresses": 15
+  },
+  {
+    "ubigeo": "240101",
+    "department_code": "24",
+    "registered_local_addresses": 3000
+  },
+  {
+    "ubigeo": "240102",
+    "department_code": "24",
+    "registered_local_addresses": 286
+  },
+  {
+    "ubigeo": "240103",
+    "department_code": "24",
+    "registered_local_addresses": 110
+  },
+  {
+    "ubigeo": "240104",
+    "department_code": "24",
+    "registered_local_addresses": 42
+  },
+  {
+    "ubigeo": "240105",
+    "department_code": "24",
+    "registered_local_addresses": 53
+  },
+  {
+    "ubigeo": "240106",
+    "department_code": "24",
+    "registered_local_addresses": 35
+  },
+  {
+    "ubigeo": "240201",
+    "department_code": "24",
+    "registered_local_addresses": 312
+  },
+  {
+    "ubigeo": "240202",
+    "department_code": "24",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "240203",
+    "department_code": "24",
+    "registered_local_addresses": 131
+  },
+  {
+    "ubigeo": "240301",
+    "department_code": "24",
+    "registered_local_addresses": 795
+  },
+  {
+    "ubigeo": "240302",
+    "department_code": "24",
+    "registered_local_addresses": 1356
+  },
+  {
+    "ubigeo": "240303",
+    "department_code": "24",
+    "registered_local_addresses": 19
+  },
+  {
+    "ubigeo": "240304",
+    "department_code": "24",
+    "registered_local_addresses": 55
+  },
+  {
+    "ubigeo": "250101",
+    "department_code": "25",
+    "registered_local_addresses": 6744
+  },
+  {
+    "ubigeo": "250102",
+    "department_code": "25",
+    "registered_local_addresses": 779
+  },
+  {
+    "ubigeo": "250103",
+    "department_code": "25",
+    "registered_local_addresses": 63
+  },
+  {
+    "ubigeo": "250104",
+    "department_code": "25",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "250105",
+    "department_code": "25",
+    "registered_local_addresses": 2708
+  },
+  {
+    "ubigeo": "250106",
+    "department_code": "25",
+    "registered_local_addresses": 111
+  },
+  {
+    "ubigeo": "250107",
+    "department_code": "25",
+    "registered_local_addresses": 1377
+  },
+  {
+    "ubigeo": "250201",
+    "department_code": "25",
+    "registered_local_addresses": 639
+  },
+  {
+    "ubigeo": "250202",
+    "department_code": "25",
+    "registered_local_addresses": 94
+  },
+  {
+    "ubigeo": "250203",
+    "department_code": "25",
+    "registered_local_addresses": 88
+  },
+  {
+    "ubigeo": "250204",
+    "department_code": "25",
+    "registered_local_addresses": 31
+  },
+  {
+    "ubigeo": "250301",
+    "department_code": "25",
+    "registered_local_addresses": 822
+  },
+  {
+    "ubigeo": "250302",
+    "department_code": "25",
+    "registered_local_addresses": 258
+  },
+  {
+    "ubigeo": "250303",
+    "department_code": "25",
+    "registered_local_addresses": 180
+  },
+  {
+    "ubigeo": "250304",
+    "department_code": "25",
+    "registered_local_addresses": 263
+  },
+  {
+    "ubigeo": "250305",
+    "department_code": "25",
+    "registered_local_addresses": 75
+  },
+  {
+    "ubigeo": "250306",
+    "department_code": "25",
+    "registered_local_addresses": 16
+  },
+  {
+    "ubigeo": "250307",
+    "department_code": "25",
+    "registered_local_addresses": 12
+  },
+  {
+    "ubigeo": "250401",
+    "department_code": "25",
+    "registered_local_addresses": 77
+  }
+]
