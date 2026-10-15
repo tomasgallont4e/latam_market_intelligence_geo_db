@@ -1,0 +1,14 @@
+{
+  "country": "PE",
+  "period": "2025 annual",
+  "source": "INEI EPEN departamentos, module 76",
+  "geography": "department_proxy",
+  "deviation_from_template": "The available weighted official file supports departments, not cities. No city-level claim is made.",
+  "buyer_definition": "Employer-position proxy from C310/C311; it is not demand, customers, TAM, SAM, or SOM.",
+  "input_records": 193008,
+  "output_rows": {
+    "G": 749,
+    "H": 118
+  },
+  "suppression_rule": "direct cells with fewer than 30 sampled records are null"
+}
