@@ -1,0 +1,6 @@
+{
+  "source_rows": 57716,
+  "aggregate_rows": 3228,
+  "definition": "ENAHO employed people (OCU500=1), FAC500A weighted; grouped by residence department, reported CIIU and reported size-band code.",
+  "not_measured": "firms, sales, formalization or a legal microenterprise universe"
+}
