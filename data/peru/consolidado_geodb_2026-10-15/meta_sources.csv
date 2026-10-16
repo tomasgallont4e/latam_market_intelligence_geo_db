@@ -1,0 +1,13 @@
+table_name,description,source
+geo_department,Departamentos del Perú (UBIGEO 2 dígitos),INEI proyecciones de población 2018-2026
+geo_municipality,Distritos del Perú (UBIGEO 6 dígitos) con población 2025; lat/lon pendiente de fuente oficial de capitales,IGN límites distritales 2022 + INEI proyecciones 2018-2026
+fact_persona_profile,13 personas (perfil nacional 2024),INEI ENAHO 2024 microdato (módulos 100/200/300/500)
+fact_persona_department,Personas por departamento,INEI ENAHO 2024
+fact_ict_by_sector,Core IT (4 personas) por rama de actividad (ISIC Rev 4),INEI ENAHO 2024
+fact_schools_municipality,"Matrícula secundaria 3º-5º por distrito, 2025",MINEDU SIAGIE Reporte Matrícula 2025
+fact_micro_national,Micronegocios nacionales por dimensión (independientes+empleadores),INEI ENAHO 2024
+fact_micro_department,Micronegocios por departamento,INEI ENAHO 2024
+fact_developers_country,Desarrolladores GitHub Perú (Q1 2026),GitHub Innovation Graph (ver capa A)
+fact_higher_ed_municipality,Educación superior por distrito — BLOQUEADO (SUNEDU sin descarga),SUNEDU (solicitud formal pendiente)
+fact_companies_chamber,Empresas formales por cámara — BLOQUEADO (RUC completo requiere SUNAT),SUNAT/MTPE
+fact_companies_zone,Empresas por zona Lima/Arequipa — BLOQUEADO (RUC por zona),SUNAT
