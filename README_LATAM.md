@@ -7,6 +7,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 ## Perú en el mapa
 
 - Las capas A–R están disponibles en el selector. Una capa sin cifras publicadas se conserva como pendiente, nunca como cero.
+- La ficha de cada persona separa dos bloques complementarios: **EPEN 2025 observado** por departamento para P01–P04, y **ENAHO 2024 perfil nacional** para las 13 personas (ocupados, ingreso, educación universitaria y proporción de mujeres). El perfil ENAHO nunca se distribuye territorialmente ni reemplaza la observación EPEN.
 - Los indicadores se conservan como datos nacionales cuando su fuente no aporta geografía. El **Núcleo TIC observado (P01–P04 combinado)** y las personas P01–P04 se muestran por departamento a partir de EPEN 2025 cuando su muestra lo permite; las celdas pequeñas se suprimen. P05–P13 siguen siendo una estimación modelada con pesos de RUC TIC y matrícula secundaria.
 - **Departamentos del Perú** es una coropleta con 25 límites referenciales del IGN y 24 indicadores con llave territorial verificable: actividad TIC formal, educación básica/superior, empleo, conectividad y matrícula reportada por TUNI/SUNEDU. Además, TUNI aporta dos indicadores nacionales de ingresantes 2025. Sus nombres se muestran en la interfaz; no como letras de capa.
 - **Distritos del Perú** es una coropleta de detalle con 1.891 límites IGN. Para mantener la respuesta rápida, carga hasta 450 distritos del área visible y se actualiza al acercar o desplazar el mapa. La ficha incluye departamento, provincia y UBIGEO.
