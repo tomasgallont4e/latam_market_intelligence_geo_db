@@ -1,0 +1,14 @@
+persona,ring,isco_codes,employed,interviews,pct_private_employee,pct_government_employee,pct_self_employed_or_employer,pct_firm_201_plus,pct_works_alone,pct_outside_tech_sector,pct_women,pct_university,median_age,median_income_pen,pct_stratum_4_6,pct_works_from_home
+Data and research specialists,adjacent,"2120,2631,2632,3314",264062,775,35.7,6.8,57.5,4.4,4.0,99.5,37.7,33.9,44.0,1800.0,17.9,7.9
+Engineers (non-IT),extended,"2141,2142,2143,2144,2145,2146,2149,2151,2152,2153",126130,324,72.3,15.5,12.1,29.0,9.0,98.0,25.1,100.0,33.0,3500.0,15.2,1.1
+Accountants and auditors,extended,2411,85549,209,60.1,10.8,28.5,7.8,23.7,99.4,52.4,100.0,42.0,2602.5,10.8,3.6
+IT technicians and support,core,"3511,3512,3513,3514,3521,3522",73901,151,71.8,8.3,19.9,25.4,17.2,66.1,12.0,29.4,32.0,1600.0,10.1,2.1
+Designers,adjacent,"2163,2166",55815,105,45.9,2.0,48.7,5.7,39.4,99.2,39.2,14.1,31.0,1062.5,4.9,7.8
+University and IT educators,extended,"2310,2311,2312,2353,2356",48739,180,100.0,0.0,0.0,34.5,0.0,100.0,39.2,84.4,53.5,3200.0,12.1,0.0
+Software developers and analysts,core,"2511,2512,2513,2514,2519",45494,104,74.2,8.3,17.5,33.0,14.1,45.6,15.1,100.0,34.5,3100.0,3.4,4.0
+Business and management analysts,adjacent,"2421,2422",44115,119,77.5,12.5,10.0,23.7,6.2,98.1,41.4,100.0,37.0,2500.0,1.9,1.5
+Business and operations managers,extended,"1211,1212,1213,1219,1221,1222,1223,1321,1322,1323,1324,1341,1342,1343,1344,1345,1346,1349",31992,123,91.4,0.2,8.4,9.2,0.0,100.0,43.5,72.4,51.0,4742.0,48.3,2.6
+Finance analysts,adjacent,"2412,2413",3797,11,49.4,19.9,30.7,6.3,15.6,97.5,31.1,100.0,40.0,2800.0,0.0,0.0
+"Database, systems and network professionals",core,"2521,2522,2523,2529",2978,7,92.5,4.7,2.8,59.9,2.8,81.5,0.0,100.0,36.0,3900.0,0.0,0.0
+Marketing and advertising professionals,adjacent,"2431,2432",2606,9,63.3,1.8,34.8,50.8,34.8,100.0,99.2,100.0,35.0,1900.0,0.0,0.0
+IT managers,core,1330,512,1,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,48.0,10000.0,0.0,0.0
