@@ -6,7 +6,7 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 
 ## Colombia: capas nacionales de ecosistema
 
-El mapa incluye tres capas de alcance nacional que se pintan sobre todo Colombia, sin repartir el valor entre departamentos: **GitHub organizaciones** (68.919, Q1 2026, cuentas organizacionales del ecosistema), **RUES empresas software/TI** (50.566, 2026-09, registro mercantil) y **Fedesoft empresas activas** (~7.200, 2026, protocolo propio de ventas, huella digital y crecimiento). La ficha conserva fuente, periodo, alcance nacional y la condición aproximada de Fedesoft. La oscuridad de cada capa expresa únicamente su intensidad relativa frente a esos tres totales nacionales: no representa concentración departamental ni permite comparar sus universos como si fueran equivalentes.
+Los tres indicadores nacionales se organizan dentro del selector de indicadores de **Departamentos**, bajo el grupo “Ecosistema nacional (sin geolocalización)”: **GitHub organizaciones** (68.919, Q1 2026, cuentas organizacionales del ecosistema), **RUES empresas software/TI** (50.566, 2026-09, registro mercantil) y **Fedesoft empresas activas** (~7.200, 2026, protocolo propio de ventas, huella digital y crecimiento). La ficha conserva fuente, periodo, alcance nacional y la condición aproximada de Fedesoft. La oscuridad de cada capa expresa únicamente su intensidad relativa frente a esos tres totales nacionales: no representa concentración departamental ni permite comparar sus universos como si fueran equivalentes.
 
 ## Perú en el mapa
 
