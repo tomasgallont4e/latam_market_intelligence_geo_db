@@ -4,6 +4,10 @@
 
 Ejecute `npm install` y defina las mismas variables de base de datos requeridas por Colombia. Después, ejecute `npm start` con `PORT` definido por el entorno. La vista **Mapa** incorpora un selector de país sin abandonar la página.
 
+## Colombia: capas nacionales de ecosistema
+
+El mapa incluye tres capas de alcance nacional que se pintan sobre todo Colombia, sin repartir el valor entre departamentos: **GitHub organizaciones** (68.919, Q1 2026, cuentas organizacionales del ecosistema), **RUES empresas software/TI** (50.566, 2026-09, registro mercantil) y **Fedesoft empresas activas** (~7.200, 2026, protocolo propio de ventas, huella digital y crecimiento). La ficha conserva fuente, periodo, alcance nacional y la condición aproximada de Fedesoft.
+
 ## Perú en el mapa
 
 - Las capas A–R están disponibles en el selector. Una capa sin cifras publicadas se conserva como pendiente, nunca como cero.
