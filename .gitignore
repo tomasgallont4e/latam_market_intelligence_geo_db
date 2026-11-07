@@ -11,6 +11,10 @@ npm-debug.log*
 *.sqlite
 *.sqlite3
 
+# Mexico raw downloads (microdata, DENUE, 911): stay local; only the folder guide is versioned
+data/mexico/raw/*
+!data/mexico/raw/README.md
+
 # Uploaded media duplicates and internal-only audit material
 thinkdocuments/media/
 **/internal_not_publishable/

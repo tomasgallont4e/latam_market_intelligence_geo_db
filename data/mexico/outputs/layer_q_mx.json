@@ -1,0 +1,155 @@
+{
+  "country": "MX",
+  "layer": "Q",
+  "source_id": "INEGI_CATALOGO_UNICO",
+  "sources": {
+    "entidad": {
+      "zip": "catun_entidad.zip",
+      "zip_sha256": "58800dddb6f523efc1a8771f2d2d19c3f1b467d4422735898ba1047cf0c78899",
+      "member": "AGEEML_202512121056362_utf.csv",
+      "file_date": "2025-12-12",
+      "rows": 32
+    },
+    "municipio": {
+      "zip": "catun_municipio.zip",
+      "zip_sha256": "cb0f21fb4c53d2c0adca356ca669646372f9b81b2cdcbd51745c01acaec7204f",
+      "member": "AGEEML_20268211656753_utf8.csv",
+      "file_date": "2026-08-21",
+      "rows": 2478
+    },
+    "localidad": {
+      "zip": "min_con_acento.zip",
+      "zip_sha256": "75227619e3252b7f854d5c275f17cb34014811f3414e284b86ab0bff667593f7",
+      "member": "AGEEML_202610131447506_utf.csv",
+      "file_date": "2026-10-13",
+      "rows": 296649
+    }
+  },
+  "counts": {
+    "states": 32,
+    "municipalities": 2478,
+    "localities": 296649,
+    "municipalities_per_state": {
+      "10": 39,
+      "11": 46,
+      "12": 85,
+      "13": 84,
+      "14": 125,
+      "15": 125,
+      "16": 113,
+      "17": 36,
+      "18": 20,
+      "19": 51,
+      "20": 570,
+      "21": 217,
+      "22": 18,
+      "23": 11,
+      "24": 59,
+      "25": 20,
+      "26": 72,
+      "27": 17,
+      "28": 43,
+      "29": 60,
+      "30": 212,
+      "31": 106,
+      "32": 58,
+      "01": 11,
+      "02": 7,
+      "03": 5,
+      "04": 13,
+      "05": 38,
+      "06": 10,
+      "07": 124,
+      "08": 67,
+      "09": 16
+    }
+  },
+  "point_method": {
+    "rule": "Municipal point = coordinates of the cabecera locality (CVE_CAB). Ciudad de México alcaldías have no cabecera code (----): their locality 0001 is used.",
+    "counts": {
+      "cabecera": 2462,
+      "cdmx_locality_0001": 16
+    }
+  },
+  "municipalities_without_2020_population": [
+    {
+      "municipality_code": "02007",
+      "name": "San Felipe"
+    },
+    {
+      "municipality_code": "04013",
+      "name": "Dzitbalché"
+    },
+    {
+      "municipality_code": "12082",
+      "name": "Las Vigas"
+    },
+    {
+      "municipality_code": "12083",
+      "name": "Ñuu Savi"
+    },
+    {
+      "municipality_code": "12084",
+      "name": "Santa Cruz del Rincón"
+    },
+    {
+      "municipality_code": "12085",
+      "name": "San Nicolás"
+    },
+    {
+      "municipality_code": "24059",
+      "name": "Villa de Pozos"
+    },
+    {
+      "municipality_code": "25019",
+      "name": "Eldorado"
+    },
+    {
+      "municipality_code": "25020",
+      "name": "Juan José Ríos"
+    }
+  ],
+  "limitations": "Codes and points only; no boundaries. Catálogo population columns are Censo 2020 and are not used (layer E uses CONAPO). Municipalities created after 2020 have no census population.",
+  "boundaries": {
+    "source_id": "INEGI_MARCO_GEOESTADISTICO",
+    "sources": {
+      "states": {
+        "file": "00ent.shp",
+        "shp_sha256": "4a3ca59f4af08e8bc42ab0e21580c871da958a98f1d293303f2efc13e1c3b609",
+        "dbf_sha256": "8545153c871e9bfc423485fe768c9cd943025b3b37195e919a8a1262b1084b62",
+        "crs": "Mexico_ITRF2008_LCC"
+      },
+      "municipalities": {
+        "file": "00mun.shp",
+        "shp_sha256": "faf9c912610e8a6c338652b61ace3c93bfe630eea51f47b90e2245daf2488eed",
+        "dbf_sha256": "4fd4a02ab58149946d178deaf33a676623eb2060e2fcdb960659885dc8fc725b",
+        "crs": "Mexico_ITRF2008_LCC"
+      }
+    },
+    "output_crs": "WGS 84 (EPSG:4326), lon/lat; ITRF2008 treated as WGS84",
+    "simplification": {
+      "method": "Douglas–Peucker per ring",
+      "tolerance_degrees": 0.003,
+      "decimals": 5
+    },
+    "counts": {
+      "states": 32,
+      "municipalities": 2478
+    },
+    "dropped_rings": {
+      "states": 146,
+      "municipalities": 147
+    },
+    "kept_unsimplified": {
+      "states": 0,
+      "municipalities": 0
+    },
+    "reference_points_outside_own_polygon": [
+      "20062",
+      "21113",
+      "31028"
+    ],
+    "name_differences_with_catalogue": [],
+    "limitations": "Web-display boundaries: simplified ring by ring, so neighbouring borders can show small gaps or overlaps. Islets narrower than the tolerance are dropped. Not for area or distance measurement."
+  }
+}

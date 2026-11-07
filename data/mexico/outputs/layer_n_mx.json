@@ -1,0 +1,726 @@
+{
+  "country": "MX",
+  "source_id": "INEGI_DENUE_202605",
+  "period": "2026-05",
+  "edition": "DENUE 05/2026 (metadata: Modified 2026-05-20)",
+  "classification": "SCIAN 2018 (6 digits)",
+  "sources": [
+    {
+      "zip": "denue_00_11_csv.zip",
+      "sha256": "28dcadcad30b377b4de2033b4aa557736529b478ab09e70165edb8763c8d6f34",
+      "member": "conjunto_de_datos/denue_inegi_11_.csv",
+      "rows": 24460
+    },
+    {
+      "zip": "denue_00_21_csv.zip",
+      "sha256": "92769cb9f5aafcb4e11afe7c7224e3dde3a2c97c5585d4e6f13fc563c4c403f7",
+      "member": "conjunto_de_datos/denue_inegi_21_.csv",
+      "rows": 3351
+    },
+    {
+      "zip": "denue_00_22_csv.zip",
+      "sha256": "2f36bc617303b7eaa3fff11648f38a228bd4ad59a418eab9d616f62ebdd8a949",
+      "member": "conjunto_de_datos/denue_inegi_22_.csv",
+      "rows": 11188
+    },
+    {
+      "zip": "denue_00_23_csv.zip",
+      "sha256": "8f93eb74daf8b832eb50d722fd2d5e33a53b9753bf8f51629f7007edacc348d3",
+      "member": "conjunto_de_datos/denue_inegi_23_.csv",
+      "rows": 24229
+    },
+    {
+      "zip": "denue_00_31-33_csv.zip",
+      "sha256": "5ec504d9c761778e94a8cdb4401b9f4f91ef478ee656086c7ac2973ca37890cd",
+      "member": "conjunto_de_datos/denue_inegi_31-33_.csv",
+      "rows": 656617
+    },
+    {
+      "zip": "denue_00_43_csv.zip",
+      "sha256": "0b57798429caccdce1e4c37f3242dd5f5b0ea33f4478a49a4051617fca4b0f55",
+      "member": "conjunto_de_datos/denue_inegi_43_.csv",
+      "rows": 171447
+    },
+    {
+      "zip": "denue_00_46111_csv.zip",
+      "sha256": "3e2b9a82555fcffd3f733b54beaf98a111f993e3475e7839f731ab794a18cb03",
+      "member": "conjunto_de_datos/denue_inegi_46111_.csv",
+      "rows": 682918
+    },
+    {
+      "zip": "denue_00_46112-46311_csv.zip",
+      "sha256": "8f1375af5fe6d30bd0497a1896c46a5a300c81fe607e87034d45e4e43cadd7a4",
+      "member": "conjunto_de_datos/denue_inegi_46112-46311_.csv",
+      "rows": 594442
+    },
+    {
+      "zip": "denue_00_46321-46531_csv.zip",
+      "sha256": "2f19e3e65ce370d9b4f638c20333ad319035b5136c5007d9d49104ef89a4db60",
+      "member": "conjunto_de_datos/denue_inegi_46321-46531_.csv",
+      "rows": 648577
+    },
+    {
+      "zip": "denue_00_46591-46911_csv.zip",
+      "sha256": "dd37519ac10f46af6eda734a9b1ff4e0b5b9be7ecc8a00fc7e4d130f6b8b1fc7",
+      "member": "conjunto_de_datos/denue_inegi_46591-46911_.csv",
+      "rows": 638861
+    },
+    {
+      "zip": "denue_00_48-49_csv.zip",
+      "sha256": "5dd2f6fd55a36cd44dd24b98b6e3c56c150540aed2845897932839c559c30edd",
+      "member": "conjunto_de_datos/denue_inegi_48-49_.csv",
+      "rows": 46061
+    },
+    {
+      "zip": "denue_00_51_csv.zip",
+      "sha256": "3ff73da9f2136713669f3fe24df259b8bbc67f478c1b80cd427016aa1169d04a",
+      "member": "conjunto_de_datos/denue_inegi_51_.csv",
+      "rows": 20818
+    },
+    {
+      "zip": "denue_00_52_csv.zip",
+      "sha256": "86012151652274f6aa0212c3211b8fb24717cac37882557ac85a287ba32bb774",
+      "member": "conjunto_de_datos/denue_inegi_52_.csv",
+      "rows": 49247
+    },
+    {
+      "zip": "denue_00_53_csv.zip",
+      "sha256": "be00934435c3eb640362949f034a4535e520fd82b560914ce216025e326cce09",
+      "member": "conjunto_de_datos/denue_inegi_53_.csv",
+      "rows": 81681
+    },
+    {
+      "zip": "denue_00_54_csv.zip",
+      "sha256": "bd4eb1dee2e36efa5a095e3e26eda90a4b484e9f221f226f1f6b7346f7b38bd3",
+      "member": "conjunto_de_datos/denue_inegi_54_.csv",
+      "rows": 111817
+    },
+    {
+      "zip": "denue_00_55_csv.zip",
+      "sha256": "75c0036a724904e673b6661f99a3b1c1618cd17f0582a1c2bece9b538b622a04",
+      "member": "conjunto_de_datos/denue_inegi_55_.csv",
+      "rows": 463
+    },
+    {
+      "zip": "denue_00_56_csv.zip",
+      "sha256": "37e296986db4f862090d009945b9959a98870a31ec670bf3dd39b2ffc4432403",
+      "member": "conjunto_de_datos/denue_inegi_56_.csv",
+      "rows": 57920
+    },
+    {
+      "zip": "denue_00_61_csv.zip",
+      "sha256": "2a55d9158929affb24975318f2534a6a257e1a4ee3fcfa90c9ce4ace2e00e5ca",
+      "member": "conjunto_de_datos/denue_inegi_61_.csv",
+      "rows": 150571
+    },
+    {
+      "zip": "denue_00_62_csv.zip",
+      "sha256": "c02d7ad5e2338af4eb3a3a7ac066b73d4e84f8846287d605543f769ac53524f4",
+      "member": "conjunto_de_datos/denue_inegi_62_.csv",
+      "rows": 281996
+    },
+    {
+      "zip": "denue_00_71_csv.zip",
+      "sha256": "b251bcf0adb8f645870298c29e51e1ab2fb465e13630b00c50d933a681e71288",
+      "member": "conjunto_de_datos/denue_inegi_71_.csv",
+      "rows": 68423
+    },
+    {
+      "zip": "denue_00_72_1_csv.zip",
+      "sha256": "909dd5c7d4447f2905c890ec1336f65e10ad5ca47467d89276236b48c8701b49",
+      "member": "conjunto_de_datos/denue_inegi_72_1.csv",
+      "rows": 520000
+    },
+    {
+      "zip": "denue_00_72_2_csv.zip",
+      "sha256": "cf12fc06171e06726427db15fd9e29fa0cfb44b9b984edf48fb382a69fcce441",
+      "member": "conjunto_de_datos/denue_inegi_72_2.csv",
+      "rows": 286496
+    },
+    {
+      "zip": "denue_00_81_1_csv.zip",
+      "sha256": "eb3a50e1b7f47f819c9e2ed9e04257b05041aeb70619a9648d0cb4de5414468f",
+      "member": "conjunto_de_datos/denue_inegi_81_1.csv",
+      "rows": 520000
+    },
+    {
+      "zip": "denue_00_81_2_csv.zip",
+      "sha256": "0e6d1b10b0ceb0ef43740967229bf21fc1953119e9300dedbbef350b13eb7b02",
+      "member": "conjunto_de_datos/denue_inegi_81_2.csv",
+      "rows": 417810
+    },
+    {
+      "zip": "denue_00_93_csv.zip",
+      "sha256": "b4cc4c83941073710cf1c406505cdf668d2fc40eb3a212955266d13ff2e0d319",
+      "member": "conjunto_de_datos/denue_inegi_93_.csv",
+      "rows": 68682
+    }
+  ],
+  "layer": "N",
+  "indicators": {
+    "establishments_total": 6138075,
+    "N1_businesses": 5798408,
+    "N1_exclusions": {
+      "cooperative": 3557,
+      "public_sector": 215830,
+      "association": 120280
+    },
+    "N1_excluded_classes": {
+      "association": {
+        "813210 Asociaciones y organizaciones religiosas": 96074,
+        "813230 Asociaciones y organizaciones civiles": 13506,
+        "813120 Asociaciones y organizaciones laborales y sindicales": 5200,
+        "813110 Asociaciones, organizaciones y cámaras de productores, comerciantes y prestadores de servicios": 4765,
+        "813130 Asociaciones y organizaciones de profesionistas": 682,
+        "813140 Asociaciones regulatorias de actividades recreativas": 53
+      },
+      "cooperative": {
+        "114119 Pesca y captura de peces, crustáceos, moluscos y otras especies": 942,
+        "522320 Cajas de ahorro popular": 402,
+        "722515 Cafeterías, fuentes de sodas, neverías, refresquerías y similares": 260,
+        "485210 Transporte colectivo foráneo de pasajeros de ruta fija": 214,
+        "485111 Transporte colectivo urbano y suburbano de pasajeros en autobuses de ruta fija": 208,
+        "114111 Pesca de camarón": 173,
+        "485990 Otro transporte terrestre de pasajeros": 100,
+        "461110 Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 88,
+        "461130 Comercio al por menor de frutas y verduras frescas": 67,
+        "487210 Transporte turístico por agua": 60,
+        "434112 Comercio al por mayor de medicamentos veterinarios y alimentos para animales, excepto mascotas": 58,
+        "431211 Comercio al por mayor de bebidas no alcohólicas y hielo": 48,
+        "112513 Camaronicultura y acuicultura de otros crustáceos en agua salada": 39,
+        "461160 Comercio al por menor de dulces y materias primas para repostería": 35,
+        "461123 Comercio al por menor de pescados y mariscos": 33,
+        "112519 Otra acuicultura": 30,
+        "112515 Piscicultura en agua dulce": 30,
+        "461213 Comercio al por menor de bebidas no alcohólicas y hielo": 24,
+        "461190 Comercio al por menor de otros alimentos": 22,
+        "722511 Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 17,
+        "812410 Estacionamientos y pensiones para vehículos automotores": 17,
+        "112516 Piscicultura en agua salada": 15,
+        "434111 Comercio al por mayor de fertilizantes, plaguicidas y semillas para siembra": 15,
+        "722512 Restaurantes con servicio de preparación de pescados y mariscos": 15,
+        "311812 Panificación tradicional": 14,
+        "212391 Minería de sal": 13,
+        "466111 Comercio al por menor de muebles para el hogar": 13,
+        "468411 Comercio al por menor de gasolina y diesel": 12,
+        "468412 Comercio al por menor de gas L. P. en cilindros y para tanques estacionarios": 12,
+        "811111 Reparación mecánica en general de automóviles y camiones": 12,
+        "812310 Servicios funerarios": 12,
+        "311830 Elaboración de tortillas de maíz y molienda de nixtamal": 11,
+        "312112 Purificación y embotellado de agua": 11,
+        "431150 Comercio al por mayor de semillas y granos alimenticios, especias y chiles secos": 11,
+        "465915 Comercio al por menor en tiendas de artesanías": 11,
+        "431123 Comercio al por mayor de pescados y mariscos": 10,
+        "483210 Transporte por aguas interiores": 10,
+        "114112 Pesca de túnidos": 9,
+        "434311 Comercio al por mayor de desechos metálicos": 9,
+        "484221 Autotransporte local de materiales para la construcción": 9,
+        "713998 Otros servicios recreativos prestados por el sector privado": 9,
+        "721111 Hoteles con otros servicios integrados": 9,
+        "812130 Sanitarios públicos y bolerías": 9,
+        "462112 Comercio al por menor en minisupers": 8,
+        "487110 Transporte turístico por tierra": 8,
+        "112514 Camaronicultura y acuicultura de otros crustáceos en agua dulce": 7,
+        "431110 Comercio al por mayor de abarrotes": 7,
+        "434211 Comercio al por mayor de cemento, tabique y grava": 7,
+        "722513 Restaurantes con servicio de preparación de antojitos": 7,
+        "315229 Confección en serie de otra ropa exterior de materiales textiles": 6,
+        "431130 Comercio al por mayor de frutas y verduras frescas": 6,
+        "811312 Reparación y mantenimiento de maquinaria y equipo industrial": 6,
+        "212321 Minería de arena y grava para la construcción": 5,
+        "311710 Preparación y envasado de pescados y mariscos": 5,
+        "431199 Comercio al por mayor de otros alimentos": 5,
+        "465311 Comercio al por menor de artículos de papelería": 5,
+        "467111 Comercio al por menor en ferreterías y tlapalerías": 5,
+        "531113 Alquiler sin intermediación de salones para fiestas y convenciones": 5,
+        "561510 Agencias de viajes": 5,
+        "722518 Restaurantes que preparan otro tipo de alimentos para llevar": 5,
+        "811499 Reparación y mantenimiento de otros artículos para el hogar y personales": 5,
+        "315223 Confección en serie de uniformes": 4,
+        "314991 Confección, bordado y deshilado de productos textiles": 4,
+        "311922 Elaboración de café tostado y molido": 4,
+        "312113 Elaboración de hielo": 4,
+        "311513 Elaboración de derivados y fermentos lácteos": 4,
+        "327310 Fabricación de cemento y productos a base de cemento en plantas integradas": 4,
+        "461122 Comercio al por menor de carne de aves": 4,
+        "461140 Comercio al por menor de semillas y granos alimenticios, especias y chiles secos": 4,
+        "463214 Comercio al por menor de disfraces, vestimenta regional y vestidos de novia": 4,
+        "465911 Comercio al por menor de mascotas": 4,
+        "484111 Autotransporte local de productos agrícolas sin refrigeración": 4,
+        "541110 Bufetes jurídicos": 4,
+        "561431 Servicios de fotocopiado, fax y afines": 4,
+        "561520 Organización de excursiones y paquetes turísticos para agencias de viajes": 4,
+        "713113 Parques acuáticos y balnearios del sector privado": 4,
+        "721112 Hoteles sin otros servicios integrados": 4,
+        "212312 Minería de mármol": 3,
+        "212311 Minería de piedra caliza": 3,
+        "323119 Impresión de formas continuas y otros impresos": 3,
+        "312111 Elaboración de refrescos y otras bebidas no alcohólicas": 3,
+        "311110 Elaboración de alimentos para animales": 3,
+        "435313 Comercio al por mayor de mobiliario, equipo e instrumental médico y de laboratorio": 3,
+        "462111 Comercio al por menor en supermercados": 3,
+        "461150 Comercio al por menor de leche, otros productos lácteos y embutidos": 3,
+        "461121 Comercio al por menor de carnes rojas": 3,
+        "464111 Farmacias sin minisúper": 3,
+        "468413 Comercio al por menor de gas L. P. en estaciones de carburación": 3,
+        "484129 Otro autotransporte foráneo de carga general": 3,
+        "484231 Autotransporte foráneo de materiales para la construcción": 3,
+        "485410 Transporte escolar y de personal": 3,
+        "532492 Alquiler de maquinaria y equipo para mover, levantar y acomodar materiales": 3,
+        "531311 Servicios de administración de bienes raíces": 3,
+        "541610 Servicios de consultoría en administración": 3,
+        "561110 Servicios de administración de negocios": 3,
+        "713992 Clubes o ligas de aficionados": 3,
+        "713943 Centros de acondicionamiento físico del sector privado": 3,
+        "722519 Servicios de preparación de otros alimentos para consumo inmediato": 3,
+        "114113 Pesca de sardina y anchoveta": 2,
+        "236112 Edificación de vivienda multifamiliar": 2,
+        "311611 Matanza de ganado, aves y otros animales comestibles": 2,
+        "314110 Fabricación de alfombras y tapetes": 2,
+        "337120 Fabricación de muebles, excepto cocinas integrales, muebles modulares de baño y muebles de oficina y estantería": 2,
+        "321920 Fabricación de productos para embalaje y envases de madera": 2,
+        "312145 Elaboración de mezcal": 2,
+        "327111 Fabricación de artículos de alfarería, porcelana y loza": 2,
+        "311340 Elaboración de dulces, chicles y productos de confitería que no sean de chocolate": 2,
+        "311423 Conservación de guisos y otros alimentos preparados por procesos distintos a la congelación": 2,
+        "339999 Otras industrias manufactureras": 2,
+        "325310 Fabricación de fertilizantes": 2,
+        "311999 Elaboración de otros alimentos": 2,
+        "437311 Intermediación de comercio al por mayor de productos agropecuarios": 2,
+        "434221 Comercio al por mayor de materiales metálicos para la construcción y la manufactura": 2,
+        "431121 Comercio al por mayor de carnes rojas": 2,
+        "434219 Comercio al por mayor de otros materiales para la construcción, excepto de madera y metálicos": 2,
+        "464121 Comercio al por menor de lentes": 2,
+        "463310 Comercio al por menor de calzado": 2,
+        "463211 Comercio al por menor de ropa, excepto de bebé y lencería": 2,
+        "465215 Comercio al por menor de artículos y aparatos deportivos": 2,
+        "464113 Comercio al por menor de productos naturistas, medicamentos homeopáticos y de complementos alimenticios": 2,
+        "466212 Comercio al por menor de teléfonos y otros aparatos de comunicación": 2,
+        "468211 Comercio al por menor de partes y refacciones nuevas para automóviles, camionetas y camiones": 2,
+        "466112 Comercio al por menor de electrodomésticos menores y aparatos de línea blanca": 2,
+        "485510 Alquiler de autobuses con chofer": 2,
+        "488491 Servicios de administración de centrales camioneras": 2,
+        "493130 Almacenamiento de productos agrícolas que no requieren refrigeración": 2,
+        "524210 Agentes, ajustadores y gestores de seguros y fianzas": 2,
+        "522490 Otras instituciones de intermediación crediticia y financiera no bursátil": 2,
+        "522390 Otras instituciones de ahorro y préstamo": 2,
+        "532289 Alquiler de otros artículos para el hogar y personales": 2,
+        "611611 Escuelas de arte del sector privado": 2,
+        "621398 Otros consultorios del sector privado para el cuidado de la salud": 2,
+        "712131 Jardines botánicos y zoológicos del sector privado": 2,
+        "713930 Marinas turísticas": 2,
+        "722514 Restaurantes con servicio de preparación de tacos y tortas": 2,
+        "812110 Salones y clínicas de belleza y peluquerías": 2,
+        "811199 Otros servicios de reparación y mantenimiento de automóviles y camiones": 2,
+        "811112 Reparación del sistema eléctrico de automóviles y camiones": 2,
+        "115111 Servicios de fumigación agrícola": 1,
+        "115113 Beneficio de productos agrícolas": 1,
+        "115119 Otros servicios relacionados con la agricultura": 1,
+        "212319 Minería de otras piedras dimensionadas": 1,
+        "212221 Minería de oro": 1,
+        "221311 Captación, tratamiento y suministro de agua realizados por el sector privado": 1,
+        "236111 Edificación de vivienda unifamiliar": 1,
+        "238210 Instalaciones eléctricas en construcciones": 1,
+        "238110 Trabajos de cimentaciones": 1,
+        "237212 Construcción de obras de urbanización": 1,
+        "237312 Construcción de carreteras, puentes y similares": 1,
+        "332211 Fabricación de herramientas de mano metálicas sin motor": 1,
+        "321992 Fabricación de artículos y utensilios de madera para el hogar": 1,
+        "316999 Fabricación de otros productos de cuero, piel y materiales sucedáneos": 1,
+        "339994 Fabricación de velas y veladoras": 1,
+        "339913 Joyería de metales y piedras no preciosos y de otros materiales": 1,
+        "315224 Confección en serie de disfraces y trajes típicos": 1,
+        "323111 Impresión de libros, periódicos y revistas": 1,
+        "335312 Fabricación de equipo y aparatos de distribución de energía eléctrica": 1,
+        "321111 Aserraderos integrados": 1,
+        "316211 Fabricación de calzado con corte de piel y cuero": 1,
+        "316214 Fabricación de calzado de hule": 1,
+        "332710 Maquinado de piezas metálicas para maquinaria y equipo en general": 1,
+        "327410 Fabricación de cal": 1,
+        "327330 Fabricación de tubos y bloques de cemento y concreto": 1,
+        "311511 Elaboración de leche líquida": 1,
+        "312144 Elaboración de tequila": 1,
+        "325993 Fabricación de resinas de plásticos reciclados": 1,
+        "325212 Fabricación de hules sintéticos": 1,
+        "326120 Fabricación de tubería y conexiones, y tubos para embalaje": 1,
+        "331510 Moldeo por fundición de piezas de hierro y acero": 1,
+        "314120 Confección de cortinas, blancos y similares": 1,
+        "332320 Fabricación de productos de herrería": 1,
+        "311811 Panificación industrial": 1,
+        "325620 Fabricación de cosméticos, perfumes y otras preparaciones de tocador": 1,
+        "311214 Elaboración de harina de otros productos agrícolas": 1,
+        "311921 Beneficio del café": 1,
+        "313210 Fabricación de telas anchas de tejido de trama": 1,
+        "322299 Fabricación de otros productos de cartón y papel": 1,
+        "311212 Elaboración de harina de trigo": 1,
+        "312222 Elaboración de puros y otros productos de tabaco": 1,
+        "321112 Aserrado de tablas y tablones": 1,
+        "311422 Conservación de frutas y verduras por procesos distintos a la congelación y la deshidratación": 1,
+        "434319 Comercio al por mayor de otros materiales de desecho": 1,
+        "434228 Comercio al por mayor de ganado y aves en pie": 1,
+        "434223 Comercio al por mayor de envases en general, papel y cartón para la industria": 1,
+        "433410 Comercio al por mayor de artículos de papelería": 1,
+        "432120 Comercio al por mayor de ropa, bisutería y accesorios de vestir": 1,
+        "435110 Comercio al por mayor de maquinaria y equipo agropecuario, forestal y para la pesca": 1,
+        "435419 Comercio al por mayor de otra maquinaria y equipo de uso general": 1,
+        "436112 Comercio al por mayor de partes y refacciones nuevas para automóviles, camionetas y camiones": 1,
+        "431212 Comercio al por mayor de vinos y licores": 1,
+        "431194 Comercio al por mayor de miel": 1,
+        "433313 Comercio al por mayor de artículos y aparatos deportivos": 1,
+        "461170 Comercio al por menor de paletas de hielo y helados": 1,
+        "463111 Comercio al por menor de telas": 1,
+        "463113 Comercio al por menor de artículos de mercería y bonetería": 1,
+        "464112 Farmacias con minisúper": 1,
+        "468112 Comercio al por menor de automóviles y camionetas usados": 1,
+        "467112 Comercio al por menor de pisos y recubrimientos cerámicos": 1,
+        "466319 Comercio al por menor de otros artículos para la decoración de interiores": 1,
+        "465912 Comercio al por menor de regalos": 1,
+        "468319 Comercio al por menor de otros vehículos de motor": 1,
+        "466211 Comercio al por menor de mobiliario, equipo y accesorios de cómputo": 1,
+        "484232 Autotransporte foráneo de materiales y residuos peligrosos": 1,
+        "492210 Servicios de mensajería y paquetería local": 1,
+        "488493 Servicios de báscula para el transporte y otros servicios relacionados con el transporte por carretera": 1,
+        "484229 Otro autotransporte local de carga especializado": 1,
+        "484119 Otro autotransporte local de carga general": 1,
+        "488990 Otros servicios relacionados con el transporte": 1,
+        "493120 Almacenamiento con refrigeración": 1,
+        "493119 Otros servicios de almacenamiento general sin instalaciones especializadas": 1,
+        "484121 Autotransporte foráneo de productos agrícolas sin refrigeración": 1,
+        "488112 Administración de aeropuertos y helipuertos": 1,
+        "484233 Autotransporte foráneo con refrigeración": 1,
+        "488310 Administración de puertos y muelles": 1,
+        "488320 Servicios de carga y descarga para el transporte por agua": 1,
+        "488519 Otros servicios de intermediación para el transporte de carga": 1,
+        "488410 Servicios de grúa": 1,
+        "513112 Edición de periódicos integrada con la impresión": 1,
+        "522310 Uniones de crédito": 1,
+        "522460 Sociedades financieras de objeto múltiple": 1,
+        "532282 Alquiler de mesas, sillas, vajillas y similares": 1,
+        "531210 Inmobiliarias y corredores de bienes raíces": 1,
+        "531119 Alquiler sin intermediación de otros bienes raíces": 1,
+        "532411 Alquiler de maquinaria y equipo para construcción, minería y actividades forestales": 1,
+        "531114 Alquiler sin intermediación de oficinas y locales comerciales": 1,
+        "541211 Servicios de contabilidad y auditoría": 1,
+        "541810 Agencias de publicidad": 1,
+        "541943 Servicios veterinarios para la ganadería prestados por el sector privado": 1,
+        "541620 Servicios de consultoría en medio ambiente": 1,
+        "541219 Otros servicios relacionados con la contabilidad": 1,
+        "541310 Servicios de arquitectura": 1,
+        "561210 Servicios combinados de apoyo en instalaciones": 1,
+        "562221 Tratamiento y disposición final de residuos no peligrosos por el sector privado": 1,
+        "562121 Recolección de residuos no peligrosos por el sector privado": 1,
+        "561440 Agencias de cobranza": 1,
+        "561432 Servicios de acceso a computadoras": 1,
+        "561720 Servicios de limpieza de inmuebles": 1,
+        "561620 Servicios de protección y custodia mediante el monitoreo de sistemas de seguridad": 1,
+        "611111 Escuelas de educación preescolar del sector privado": 1,
+        "611171 Escuelas del sector privado que combinan diversos niveles de educación": 1,
+        "611691 Servicios de profesores particulares": 1,
+        "611511 Escuelas del sector privado dedicadas a la enseñanza de oficios": 1,
+        "611698 Otros servicios educativos proporcionados por el sector privado": 1,
+        "611161 Escuelas de educación media superior del sector privado": 1,
+        "621341 Consultorios del sector privado de audiología y de terapia ocupacional, física y del lenguaje": 1,
+        "624111 Servicios de orientación y trabajo social para la niñez y la juventud prestados por el sector privado": 1,
+        "621111 Consultorios de medicina general del sector privado": 1,
+        "621421 Centros del sector privado de atención médica externa para enfermos mentales y adictos": 1,
+        "621910 Servicios de ambulancias": 1,
+        "621331 Consultorios de psicología del sector privado": 1,
+        "713941 Clubes deportivos del sector privado": 1,
+        "713111 Parques de diversiones y temáticos del sector privado": 1,
+        "713291 Venta de billetes de lotería, pronósticos deportivos y otros boletos de sorteo": 1,
+        "722517 Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 1,
+        "722516 Restaurantes de autoservicio": 1,
+        "722330 Servicios de preparación de alimentos en unidades móviles": 1,
+        "811121 Hojalatería y pintura de automóviles y camiones": 1,
+        "811191 Reparación menor de llantas": 1,
+        "811114 Reparación de transmisiones de automóviles y camiones": 1,
+        "812210 Lavanderías y tintorerías": 1,
+        "811491 Cerrajerías": 1,
+        "811420 Reparación de tapicería de muebles para el hogar": 1,
+        "811492 Reparación y mantenimiento de motocicletas": 1
+      },
+      "public_sector": {
+        "611122 Escuelas de educación primaria del sector público": 34614,
+        "611112 Escuelas de educación preescolar del sector público": 28350,
+        "931210 Administración pública en general": 24750,
+        "931610 Actividades administrativas de instituciones de bienestar social": 21315,
+        "931412 Mantenimiento de la seguridad y el orden público": 10491,
+        "611132 Escuelas de educación secundaria general del sector público": 9089,
+        "221312 Captación, tratamiento y suministro de agua realizados por el sector público": 7684,
+        "611162 Escuelas de educación media superior del sector público": 6673,
+        "621116 Clínicas de consultorios médicos del sector público": 5439,
+        "931310 Regulación y fomento del desarrollo económico": 4826,
+        "519212 Bibliotecas y archivos del sector público": 4414,
+        "812322 Administración de cementerios pertenecientes al sector público": 4257,
+        "931411 Impartición de justicia": 4211,
+        "611182 Escuelas del sector público de educación para necesidades especiales": 4189,
+        "711312 Promotores del sector público de espectáculos artísticos, culturales, deportivos y similares que cuentan con instalaciones para presentarlos": 3676,
+        "611312 Escuelas de educación superior del sector público": 3444,
+        "624112 Servicios de orientación y trabajo social para la niñez y la juventud prestados por el sector público": 3118,
+        "611142 Escuelas de educación secundaria técnica del sector público": 3091,
+        "621112 Consultorios de medicina general del sector público": 3048,
+        "713944 Centros de acondicionamiento físico del sector público": 2989,
+        "624212 Servicios de alimentación comunitarios prestados por el sector público": 2914,
+        "622112 Hospitales generales del sector público": 2775,
+        "611172 Escuelas del sector público que combinan diversos niveles de educación": 2662,
+        "624412 Guarderías del sector público": 2439,
+        "931510 Regulación y fomento de actividades para mejorar y preservar el medio ambiente": 1932,
+        "624199 Otros servicios de orientación y trabajo social prestados por el sector público": 1603,
+        "712112 Museos del sector público": 1115,
+        "624122 Centros del sector público dedicados a la atención y cuidado diurno de ancianos y discapacitados": 1045,
+        "611512 Escuelas del sector público dedicadas a la enseñanza de oficios": 1023,
+        "621342 Consultorios del sector público de audiología y de terapia ocupacional, física y del lenguaje": 960,
+        "931810 Actividades de seguridad nacional": 782,
+        "623992 Orfanatos y otras residencias de asistencia social del sector público": 666,
+        "713112 Parques de diversiones y temáticos del sector público": 611,
+        "611699 Otros servicios educativos proporcionados por el sector público": 430,
+        "611612 Escuelas de arte del sector público": 398,
+        "621332 Consultorios de psicología del sector público": 329,
+        "624222 Refugios temporales comunitarios del sector público": 318,
+        "623312 Asilos y otras residencias del sector público para el cuidado de ancianos": 289,
+        "624312 Servicios de capacitación para el trabajo prestados por el sector público para personas desempleadas, subempleadas o discapacitadas": 249,
+        "611622 Escuelas de deporte del sector público": 237,
+        "621212 Consultorios dentales del sector público": 232,
+        "541712 Servicios de investigación científica y desarrollo en ciencias naturales y exactas, ingeniería, y ciencias de la vida, prestados por el sector público": 196,
+        "541942 Servicios veterinarios para mascotas prestados por el sector público": 194,
+        "622312 Hospitales del sector público de otras especialidades médicas": 178,
+        "931710 Relaciones exteriores": 173,
+        "621399 Otros consultorios del sector público para el cuidado de la salud": 167,
+        "931110 Órganos legislativos": 159,
+        "713114 Parques acuáticos y balnearios del sector público": 158,
+        "562122 Recolección de residuos no peligrosos por el sector público": 144,
+        "621422 Centros del sector público de atención médica externa para enfermos mentales y adictos": 142,
+        "713942 Clubes deportivos del sector público": 125,
+        "611212 Escuelas de educación técnica superior del sector público": 122,
+        "621114 Consultorios de medicina especializada del sector público": 118,
+        "611632 Escuelas de idiomas del sector público": 114,
+        "621512 Laboratorios médicos y de diagnóstico del sector público": 99,
+        "623222 Residencias del sector público para el cuidado de personas con problemas de trastorno mental y adicción": 92,
+        "624232 Servicios de emergencia comunitarios prestados por el sector público": 89,
+        "541722 Servicios de investigación científica y desarrollo en ciencias sociales y humanidades, prestados por el sector público": 83,
+        "623112 Residencias del sector público con cuidados de enfermeras para enfermos convalecientes, en rehabilitación, incurables y terminales": 72,
+        "711132 Grupos musicales del sector público": 70,
+        "713999 Otros servicios recreativos prestados por el sector público": 67,
+        "712132 Jardines botánicos y zoológicos del sector público": 66,
+        "611422 Escuelas de computación del sector público": 64,
+        "623212 Residencias del sector público para el cuidado de personas con problemas de retardo mental": 64,
+        "932110 Organismos internacionales": 43,
+        "611152 Escuelas de educación media técnica terminal del sector público": 41,
+        "621312 Consultorios de quiropráctica del sector público": 40,
+        "621492 Otros centros del sector público para la atención de pacientes que no requieren hospitalización": 40,
+        "622212 Hospitales psiquiátricos y para el tratamiento por adicción del sector público": 39,
+        "621992 Servicios de bancos de órganos, bancos de sangre y otros servicios auxiliares al tratamiento médico prestados por el sector público": 37,
+        "562999 Otros servicios de manejo de residuos por el sector público": 33,
+        "621412 Centros de planificación familiar del sector público": 29,
+        "621392 Consultorios de nutriólogos y dietistas del sector público": 19,
+        "562922 Recuperación de residuos por el sector público": 18,
+        "711112 Compañías de teatro del sector público": 16,
+        "711122 Compañías de danza del sector público": 12,
+        "611412 Escuelas comerciales y secretariales del sector público": 11,
+        "541944 Servicios veterinarios para la ganadería prestados por el sector público": 8,
+        "562222 Tratamiento y disposición final de residuos no peligrosos por el sector público": 8,
+        "562912 Servicios de remediación de residuos por el sector público": 2,
+        "711192 Otras compañías y grupos de espectáculos artísticos del sector público": 1
+      }
+    },
+    "N2_with_legal_name": 1293566,
+    "N2_without_legal_name": 4844509,
+    "N3_shops": 682918,
+    "N4_by_state": {
+      "01": {
+        "businesses": 68823,
+        "shops_4711": 5679,
+        "share_of_businesses_pct": 1.2
+      },
+      "02": {
+        "businesses": 129018,
+        "shops_4711": 12417,
+        "share_of_businesses_pct": 2.2
+      },
+      "03": {
+        "businesses": 39310,
+        "shops_4711": 3681,
+        "share_of_businesses_pct": 0.7
+      },
+      "04": {
+        "businesses": 43957,
+        "shops_4711": 5597,
+        "share_of_businesses_pct": 0.8
+      },
+      "05": {
+        "businesses": 117320,
+        "shops_4711": 15027,
+        "share_of_businesses_pct": 2.0
+      },
+      "06": {
+        "businesses": 39509,
+        "shops_4711": 3510,
+        "share_of_businesses_pct": 0.7
+      },
+      "07": {
+        "businesses": 233720,
+        "shops_4711": 40783,
+        "share_of_businesses_pct": 4.0
+      },
+      "08": {
+        "businesses": 130903,
+        "shops_4711": 14286,
+        "share_of_businesses_pct": 2.3
+      },
+      "09": {
+        "businesses": 445397,
+        "shops_4711": 38996,
+        "share_of_businesses_pct": 7.7
+      },
+      "10": {
+        "businesses": 69631,
+        "shops_4711": 7829,
+        "share_of_businesses_pct": 1.2
+      },
+      "11": {
+        "businesses": 284154,
+        "shops_4711": 32354,
+        "share_of_businesses_pct": 4.9
+      },
+      "12": {
+        "businesses": 174012,
+        "shops_4711": 24067,
+        "share_of_businesses_pct": 3.0
+      },
+      "13": {
+        "businesses": 152587,
+        "shops_4711": 16709,
+        "share_of_businesses_pct": 2.6
+      },
+      "14": {
+        "businesses": 383409,
+        "shops_4711": 40288,
+        "share_of_businesses_pct": 6.6
+      },
+      "15": {
+        "businesses": 788235,
+        "shops_4711": 101725,
+        "share_of_businesses_pct": 13.6
+      },
+      "16": {
+        "businesses": 274053,
+        "shops_4711": 32715,
+        "share_of_businesses_pct": 4.7
+      },
+      "17": {
+        "businesses": 106496,
+        "shops_4711": 12962,
+        "share_of_businesses_pct": 1.8
+      },
+      "18": {
+        "businesses": 68716,
+        "shops_4711": 6365,
+        "share_of_businesses_pct": 1.2
+      },
+      "19": {
+        "businesses": 198202,
+        "shops_4711": 20592,
+        "share_of_businesses_pct": 3.4
+      },
+      "20": {
+        "businesses": 260417,
+        "shops_4711": 33355,
+        "share_of_businesses_pct": 4.5
+      },
+      "21": {
+        "businesses": 392943,
+        "shops_4711": 53867,
+        "share_of_businesses_pct": 6.8
+      },
+      "22": {
+        "businesses": 104507,
+        "shops_4711": 8808,
+        "share_of_businesses_pct": 1.8
+      },
+      "23": {
+        "businesses": 64027,
+        "shops_4711": 7333,
+        "share_of_businesses_pct": 1.1
+      },
+      "24": {
+        "businesses": 120652,
+        "shops_4711": 13369,
+        "share_of_businesses_pct": 2.1
+      },
+      "25": {
+        "businesses": 130410,
+        "shops_4711": 13556,
+        "share_of_businesses_pct": 2.2
+      },
+      "26": {
+        "businesses": 118009,
+        "shops_4711": 11408,
+        "share_of_businesses_pct": 2.0
+      },
+      "27": {
+        "businesses": 87995,
+        "shops_4711": 10022,
+        "share_of_businesses_pct": 1.5
+      },
+      "28": {
+        "businesses": 137381,
+        "shops_4711": 16835,
+        "share_of_businesses_pct": 2.4
+      },
+      "29": {
+        "businesses": 94618,
+        "shops_4711": 13523,
+        "share_of_businesses_pct": 1.6
+      },
+      "30": {
+        "businesses": 332295,
+        "shops_4711": 43680,
+        "share_of_businesses_pct": 5.7
+      },
+      "31": {
+        "businesses": 137894,
+        "shops_4711": 13705,
+        "share_of_businesses_pct": 2.4
+      },
+      "32": {
+        "businesses": 69808,
+        "shops_4711": 7875,
+        "share_of_businesses_pct": 1.2
+      }
+    },
+    "N4_businesses_per_school": null,
+    "size_bands_all_establishments": {
+      "0 a 5 personas": 5378989,
+      "6 a 10 personas": 384382,
+      "11 a 30 personas": 255426,
+      "31 a 50 personas": 49768,
+      "51 a 100 personas": 33915,
+      "101 a 250 personas": 22397,
+      "251 y más personas": 13198
+    },
+    "unit_type": {
+      "Fijo": 5964036,
+      "Semifijo": 174039
+    }
+  },
+  "checks": {
+    "establishments_equal_published_total": true,
+    "published_total": 6138075,
+    "duplicate_records": [
+      {
+        "id": "9701347",
+        "clee": "20342722511000081000000000U5",
+        "file": "denue_00_72_2_csv.zip",
+        "codigo_act": "722511",
+        "municipality_code": "20342"
+      }
+    ],
+    "duplicate_note": "One record (id 9701347, same clee, SCIAN 722511, municipality 20342) is repeated in sector files 72_1 and 72_2. It is kept so the file total equals the published 6,138,075."
+  },
+  "notes": {
+    "N1_businesses": "Private-business universe, closest to Colombia RUES (private merchants): excludes SCIAN 813 associations, cooperatives identified by legal name (COOPERATIVA, S.C. de R.L., S.C.L.) and public-sector establishments (SCIAN 93 and the classes whose name says 'sector público').",
+    "N2": "Establishments with and without a razón social recorded; a proxy for legal entities vs natural persons, counted by establishment, not by firm.",
+    "N4_businesses_per_school": "Pending layer K (schools, cycle 2025-2026)."
+  },
+  "limitations": "DENUE includes informal fixed and semi-fixed premises and has no renewal flag, so \"active in the year\" cannot be applied as in Colombia. Counts are establishments, not firms."
+}
