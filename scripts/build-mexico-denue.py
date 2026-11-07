@@ -12,6 +12,9 @@ Universes (decisions_log.csv D-MX-03, D-MX-04, D-MX-05, D-MX-06):
   it_companies_active  SCIAN 2018 541510 + 518210 + 519290 (template ISIC 6201/6202/6209, 6311, 6312)
   J zones              Ciudad de México: its 16 alcaldías. Monterrey: the 16 municipalities of the
                        Zona Metropolitana de Monterrey (Metrópolis de México 2020, cuadro A.19.1.01).
+                       Guadalajara: the 7 municipalities of its metro area (cuadro A.14.1.01). Estado de
+                       México: its 45 municipalities in the Zona Metropolitana de la Ciudad de México
+                       (cuadro A.09.1.01), i.e. the Mexico City metro area outside CDMX (D-MX-16).
                        Zone counts use the private-business universe, like Colombia's register.
 
 Usage: python -I scripts/build-mexico-denue.py <raw_dir> [repo_dir]
@@ -34,7 +37,13 @@ COLUMNS = ['establishments', 'businesses', 'shops_4711', 'it_companies_active', 
 # Layer J. Zone cities: prefix → (zone type, member municipalities).
 MTY_METRO = ['19006', '19009', '19010', '19012', '19018', '19019', '19021', '19025', '19026', '19031',
              '19039', '19041', '19045', '19046', '19048', '19049']
-ZONE_CITIES = {'CMX': ('alcaldia', None), 'MTY': ('municipio_metropolitano', MTY_METRO)}  # None = every municipality of state 09
+GDL_METRO = ['14039', '14051', '14070', '14097', '14098', '14101', '14120']
+EDM_METRO = ['15002', '15011', '15013', '15020', '15022', '15023', '15024', '15025', '15028', '15029', '15030', '15031',
+             '15033', '15035', '15037', '15038', '15039', '15044', '15046', '15053', '15057', '15058', '15059', '15060',
+             '15069', '15070', '15075', '15081', '15083', '15084', '15089', '15091', '15092', '15093', '15095', '15099',
+             '15100', '15103', '15104', '15108', '15109', '15120', '15121', '15122', '15125']
+ZONE_CITIES = {'CMX': ('alcaldia', None), 'MTY': ('municipio_metropolitano', MTY_METRO),  # None = every municipality of state 09
+               'GDL': ('municipio_metropolitano', GDL_METRO), 'EDM': ('municipio_metropolitano', EDM_METRO)}
 # Size by people employed, INEGI strata: micro 0-10, medium and large 51+ (Colombia uses assets).
 MICRO_BANDS = {'0 a 5 personas', '6 a 10 personas'}
 MEDIUM_LARGE_BANDS = {'51 a 100 personas', '101 a 250 personas', '251 y más personas'}
@@ -231,7 +240,7 @@ layer_n = {
     },
     'limitations': 'DENUE includes informal fixed and semi-fixed premises and has no renewal flag, so "active in the year" cannot be applied as in Colombia. Counts are establishments, not firms.',
 }
-# ───────────── Layer J: zones of Ciudad de México and Monterrey ─────────────
+# ───────────── Layer J: zones of Ciudad de México, Monterrey, Guadalajara and Estado de México ─────────────
 csv.field_size_limit(1 << 30)
 with open(os.path.join(CSV_DIR, 'geo_municipality_shape.csv'), encoding='utf-8') as f:
     shapes = {r['municipality_code']: r['geojson'] for r in csv.DictReader(f)}
@@ -268,6 +277,11 @@ layer_j = {
         'CMX': {'name': 'Ciudad de México', 'zone_type': 'alcaldía (16)', **cities['CMX']},
         'MTY': {'name': 'Zona Metropolitana de Monterrey', 'zone_type': 'municipio (16)',
                 'definition_source': 'SEDATU, CONAPO and INEGI, Metrópolis de México 2020, cuadros A.19.1.01 and B.19.1.01', **cities['MTY']},
+        'GDL': {'name': 'Zona Metropolitana de Guadalajara', 'zone_type': 'municipio (7)',
+                'definition_source': 'SEDATU, CONAPO and INEGI, Metrópolis de México 2020, cuadros A.14.1.01 and B.14.1.01', **cities['GDL']},
+        'EDM': {'name': 'Estado de México (Zona Metropolitana de la Ciudad de México)', 'zone_type': 'municipio (45)',
+                'definition_source': 'SEDATU, CONAPO and INEGI, Metrópolis de México 2020, cuadros A.09.1.01 and B.09.1.01: the 45 Estado de México members '
+                                     '(the 16 alcaldías are CMX; the 2 Hidalgo members are left out)', **cities['EDM']},
     },
     'definitions': {
         'universe': 'Private businesses (N1 universe): excludes associations, cooperatives and the public sector.',
@@ -275,7 +289,7 @@ layer_j = {
         'medium_large': 'DENUE size bands 51-100, 101-250 and 251+ people employed (INEGI medium and large). Colombia measures size by assets, so shares are comparable only in direction.',
         'scian_groups': {**{k: sorted(v) for k, v in J_GROUPS.items()}, 'software_it': sorted(IT_CODES), 'shops_4711': [SHOP_CODE]},
     },
-    'limitations': 'Zones are whole municipalities or alcaldías (Monterrey has no official internal division comparable to Colombian comunas). Counts are establishments, not firms.',
+    'limitations': 'Zones are whole municipalities or alcaldías (the metro areas have no official internal division comparable to Colombian comunas). Counts are establishments, not firms.',
 }
 for name, doc in (('layer_d_mx.json', layer_d), ('layer_j_mx.json', layer_j), ('layer_n_mx.json', layer_n)):
     with open(os.path.join(LAYER_DIR, name), 'w', encoding='utf-8') as f:

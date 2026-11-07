@@ -14,7 +14,7 @@ México se carga desde archivos, como Perú (`lib/mexicoData.js`, rutas `/api/me
 
 - **Estados de México**: 32 polígonos INEGI con personas de la ENOE 2025 (estimación observada por estado, con número de entrevistas), establecimientos DENUE 05/2026, escuelas y alumnos en grados objetivo (SEP 911 2024-2025), educación superior y estudiantes TIC (911 y ANUIES 2024-2025), población CONAPO 2024 y micronegocios. El filtro por persona funciona solo en esta capa.
 - **Municipios de México**: 2.478 polígonos INEGI con DENUE, escuelas, educación superior y población. Se cargan por área visible (hasta 600) y la capa abre centrada en Ciudad de México; con más municipios en pantalla se muestra una muestra y se pide acercar. Las personas de la ENOE nunca se reparten por municipio.
-- **Ciudad de México y Monterrey**: empresas privadas por alcaldía y por municipio de la Zona Metropolitana de Monterrey (capa J).
+- **Ciudad de México, Estado de México, Monterrey y Guadalajara** (capa J): empresas privadas por alcaldía de Ciudad de México y por municipio metropolitano según *Metrópolis de México 2020*: los 45 municipios del Estado de México en la Zona Metropolitana de la Ciudad de México, y las zonas metropolitanas de Monterrey (16) y Guadalajara (7). Cada ciudad es un botón propio con su escala de color.
 - **Indicadores nacionales** (A, B, I, O, P): se dibujan sobre el contorno del país y nunca se reparten por territorio. Los datos sin fuente entregada quedan vacíos, no en cero.
 
 ## Perú en el mapa

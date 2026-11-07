@@ -29,7 +29,7 @@ Polígonos municipales, mismo tratamiento que los estatales. Fuente: INEGI Marco
 Solo para visualización: cada anillo se simplifica por separado, así que los bordes vecinos pueden mostrar pequeños huecos o traslapes, y se omiten islotes más estrechos que la tolerancia.
 
 ## geo_zone
-Zonas de las dos ciudades mayores (`decisions_log.csv`, D-MX-05): las 16 alcaldías de Ciudad de México (`CMX-<cve_mun>`, `zone_type` = `alcaldia`) y los 16 municipios de la Zona Metropolitana de Monterrey según *Metrópolis de México 2020* (`MTY-<cve_mun>`, `zone_type` = `municipio_metropolitano`). Cada zona es un municipio completo: `municipality_code` es el propio municipio, `geojson` su polígono y `lat`/`lon`/`wkt` su punto de referencia. Capa J. Filas: 32.
+Zonas de las ciudades mayores (`decisions_log.csv`, D-MX-05 y D-MX-16): las 16 alcaldías de Ciudad de México (`CMX-<cve_mun>`, `zone_type` = `alcaldia`) y, según *Metrópolis de México 2020* (`zone_type` = `municipio_metropolitano`), los 16 municipios de la Zona Metropolitana de Monterrey (`MTY-`), los 7 de la Zona Metropolitana de Guadalajara (`GDL-`) y los 45 municipios del Estado de México que forman parte de la Zona Metropolitana de la Ciudad de México (`EDM-`; los 2 de Hidalgo quedan fuera). Cada zona es un municipio completo: `municipality_code` es el propio municipio, `geojson` su polígono y `lat`/`lon`/`wkt` su punto de referencia. Capa J. Filas: 84.
 | zone_id | municipality_code | zone_type | zone_code | name | lat | lon | geojson | wkt |
 
 ## fact_persona_profile
@@ -95,7 +95,7 @@ Establecimientos DENUE 05/2026 por municipio, una fila por cada municipio del ca
 - `it_companies_active` = SCIAN 2018 541510 + 518210 + 519290, también por separado (D-MX-03). DENUE usa SCIAN 2018; no hay código propio de software, así que la columna `software_companies` prevista no existe.
 
 ## fact_companies_zone
-Empresas privadas DENUE 05/2026 (universo N1) por zona de `geo_zone`; cada zona suma lo mismo que `businesses` de su municipio. Mismas columnas que Colombia, con los grupos del anexo 3 de la plantilla traducidos a clases privadas SCIAN 2018 (D-MX-06). Tamaño por personal ocupado: `micro` = 0 a 10 personas, `medium_large` = 51 o más (Colombia mide por activos: comparable solo en dirección). Capa J. Filas: 32.
+Empresas privadas DENUE 05/2026 (universo N1) por zona de `geo_zone`; cada zona suma lo mismo que `businesses` de su municipio. Mismas columnas que Colombia, con los grupos del anexo 3 de la plantilla traducidos a clases privadas SCIAN 2018 (D-MX-06). Tamaño por personal ocupado: `micro` = 0 a 10 personas, `medium_large` = 51 o más (Colombia mide por activos: comparable solo en dirección). Capa J. Filas: 84.
 | zone_id | zone_name | companies_total | micro | medium_large | software_it | design | accounting_audit | management_consulting | research_market_studies | higher_education_training | shops_4711 | private_schools |
 
 ## fact_population_municipality — añadida para México

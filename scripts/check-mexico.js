@@ -86,8 +86,9 @@ if (data.geo_zone && data.fact_companies_zone) {
   const facts = data.fact_companies_zone.rows;
   const zoneIds = new Set(zones.map((z) => z.zone_id));
   const businesses = new Map((data.fact_companies_municipality ? data.fact_companies_municipality.rows : []).map((r) => [r.municipality_code, Number(r.businesses)]));
-  check('zones', 'Zonas J: 16 alcaldías CMX + 16 municipios MTY', 32, zones.length,
-    zones.length === 32 && zones.filter((z) => z.zone_id.startsWith('CMX-')).length === 16 && zoneIds.size === 32);
+  const perCity = { CMX: 16, MTY: 16, GDL: 7, EDM: 45 };
+  check('zones', 'Zonas J: 16 alcaldías CMX + 16 MTY + 7 GDL + 45 EDM (Metrópolis 2020)', 84, zones.length,
+    zones.length === 84 && zoneIds.size === 84 && Object.entries(perCity).every(([p, n]) => zones.filter((z) => z.zone_id.startsWith(p + '-')).length === n));
   check('zones_valid', 'geo_zone: polígonos WGS84 válidos y cerrados', zones.length, zones.filter((z) => validShape(z.geojson)).length);
   check('zones_join', 'fact_companies_zone.zone_id une con geo_zone', 0, facts.filter((f) => !zoneIds.has(f.zone_id)).length);
   const zoneMuni = new Map(zones.map((z) => [z.zone_id, z.municipality_code]));
