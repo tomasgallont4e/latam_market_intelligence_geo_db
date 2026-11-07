@@ -48,7 +48,7 @@ México se carga desde archivos, como Perú (`lib/mexicoData.js`, rutas `/api/me
 | 4 | `data/peru/day4_dj_ruc/` | RUC TIC SUNAT por departamento y distrito fiscal. |
 | 5 | `data/peru/day5_oq/` | Contexto ERESTEL/OSIPTEL y auditoría de llaves IGN. |
 
-`scripts/audit-peru-template.js` verifica la presencia de los paquetes y deja el resultado en `thinkdocuments/peru_template_audit_2026-10-14.json`.
+`scripts/audit-peru-template.js` verifica la presencia de los paquetes y deja el resultado en `thinkdocuments/peru/peru_template_audit_2026-10-14.json`.
 
 ## Datos que aún faltan en Perú
 

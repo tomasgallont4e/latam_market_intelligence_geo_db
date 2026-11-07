@@ -16,7 +16,7 @@ data/mexico/raw/*
 !data/mexico/raw/README.md
 
 # Uploaded media duplicates and internal-only audit material
-thinkdocuments/media/
+thinkdocuments/**/media/
 **/internal_not_publishable/
 
 # Stray root copies
