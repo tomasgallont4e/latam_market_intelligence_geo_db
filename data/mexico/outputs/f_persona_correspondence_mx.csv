@@ -1,0 +1,14 @@
+persona_id,persona,ring,isco08_template_codes,sinco2019_codes_primary,sinco2019_codes_excluded,isco08_codes_reached,isco08_codes_not_reached,review_status
+P01,Software developers and analysts,core,2511;2512;2513;2514;2519,2271,,2511;2512;2513;2514;2519,,pending_approval
+P02,"Database, systems and network professionals",core,2521;2522;2523;2529,2272,,2521;2522;2523;2529,,pending_approval
+P03,ICT technicians and user support,core,3511;3512;3513;3514;3521;3522,2651;2652;2653,,3511;3512;3513;3514;3521;3522,,pending_approval
+P04,ICT managers,core,1330,1321;1621;1622;1329,,1330,,pending_approval
+P05,"Designers (graphic, multimedia, product)",adjacent,2163;2166,2541;2543,,2163;2166,,pending_approval
+P06,Business and management analysts,adjacent,2421;2422,2111;2113,,2421;2422,,pending_approval
+P10,Accountants and auditors,extended,2411,2121,,2411,,pending_approval
+P07,Finance and investment analysts,adjacent,2412;2413,2122,,2412;2413,,pending_approval
+P08,"Data, statistics and research specialists",adjacent,2120;2631;2632;3314,2134;2136;2212,2131;2132;2611,2120;2631;2632,3314,pending_approval
+P09,Marketing and advertising professionals,adjacent,2431;2432,2112,,2431;2432,,pending_approval
+P11,Engineers (non-ICT),extended,2141;2142;2143;2144;2145;2146;2149;2151;2152;2153,2241;2242;2251;2252;2253;2254;2261;2281,2262,2141;2142;2144;2145;2146;2151;2152;2153,2143;2149,pending_approval
+P12,Business and operations managers,extended,1211;1212;1213;1219;1221;1222;1223;1321;1322;1323;1324;1341;1342;1343;1344;1345;1346;1349,1211;1212;1221;1222;1223;1312;1314;1315;1323;1324;1511;1512;1521;1522;1523;1612;1614;1615;1623;1624;1711;1319,1224;1422;1423;1524,1211;1212;1213;1219;1221;1222;1223;1321;1322;1323;1324;1342;1343;1344;1345;1346;1349,1341,pending_approval
+P13,Higher-education and IT educators,extended,2310;2356,2321,2713,2310,2356,pending_approval

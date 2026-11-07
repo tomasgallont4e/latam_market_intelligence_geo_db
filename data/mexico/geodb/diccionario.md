@@ -8,7 +8,7 @@ Las tablas copian la forma de Colombia (`data/geodb-v2/diccionario.md`). Regla d
 - **Unidad o escala distinta:** se renombra la columna para que no se lea como comparable (moneda, estratos, grados escolares).
 - **Sin equivalente en Colombia:** tabla nueva, marcada como *añadida para México*.
 
-Estado: capa Q completa. `geo_department` y `geo_municipality` (`scripts/build-mexico-q-catalogo.py`); `geo_department_shape` y `geo_municipality_shape` (`scripts/build-mexico-q-marco.js`). Capas D, J y N: `fact_companies_municipality`, `geo_zone` y `fact_companies_zone` (`scripts/build-mexico-denue.py`). El resto de tablas no tiene datos todavía. Comprobaciones: `node scripts/check-mexico.js`.
+Estado: capa Q completa. `geo_department` y `geo_municipality` (`scripts/build-mexico-q-catalogo.py`); `geo_department_shape` y `geo_municipality_shape` (`scripts/build-mexico-q-marco.js`). Capas D, J y N: `fact_companies_municipality`, `geo_zone` y `fact_companies_zone` (`scripts/build-mexico-denue.py`). Capas A y B: `fact_developers_country` y `fact_map_indicator` (`scripts/build-mexico-a-github.py`, `scripts/build-mexico-b-survey.py`). Capas F, G, H y M: `fact_persona_profile`, `fact_persona_department`, `fact_persona_metro`, `fact_persona_segment`, `fact_ict_by_sector`, `fact_micro_department` y `fact_micro_national` (`scripts/build-mexico-f-sinco-mapping.py`, `scripts/build-mexico-enoe.py`). El resto de tablas no tiene datos todavía. Comprobaciones: `node scripts/check-mexico.js`.
 
 ## geo_department
 Estados. Fuente: INEGI Catálogo Único, entidades (archivo del 2025-12-12). Capa Q. Filas: 32.
@@ -33,27 +33,35 @@ Zonas de las dos ciudades mayores (`decisions_log.csv`, D-MX-05): las 16 alcald�
 | zone_id | municipality_code | zone_type | zone_code | name | lat | lon | geojson | wkt |
 
 ## fact_persona_profile
-Una fila por persona: perfil nacional, ENOE 2025 (promedio de 4 trimestres, `fac_tri`). Capa F.
-| persona | ring | isco_codes | employed | interviews | pct_private_employee | pct_government_employee | pct_self_employed_or_employer | pct_firm_201_plus | pct_works_alone | pct_outside_tech_sector | pct_women | pct_university | median_age | median_income_mxn | pct_stratum_3_4 | pct_works_from_home |
+Una fila por persona: perfil nacional, ENOE 2025 (suma de `fac_tri` de los 4 trimestres / 4; universo `r_def`=00, `c_res` 1 o 3, 15 a 98 años, ocupados). Ocupación SINCO 2019 asignada a las personas con `outputs/f_occupation_mapping_mx.csv` (D-MX-07 a D-MX-09). Capa F. Filas: 13. Fuente: `scripts/build-mexico-enoe.py`.
+| persona | ring | isco_codes | employed | interviews | pct_private_employee | pct_government_employee | pct_self_employed_or_employer | pct_firm_251_plus | pct_works_alone | pct_outside_tech_sector | pct_women | pct_university | median_age | median_income_mxn | pct_stratum_3_4 | pct_works_from_home |
 
-- `median_income_mxn` sustituye a `median_income_cop`.
-- `pct_stratum_3_4`: estrato sociodemográfico ENOE (4 estratos), medio alto + alto; sustituye a `pct_stratum_4_6` (estrato de la factura eléctrica, solo Colombia). Definición pendiente de confirmar en `decisions_log.csv`.
+- `interviews`: registros de los 4 trimestres (la ENOE es un panel rotativo: una persona puede contar hasta 4 veces).
+- `median_income_mxn` sustituye a `median_income_cop`: mediana ponderada de `ingocup` entre quienes declaran ingreso positivo.
+- `pct_firm_251_plus` sustituye a `pct_firm_201_plus`: las bandas de tamaño de la ENOE (P3Q/P3L) cortan en 250 personas. Para empleadores y cuenta propia, el tamaño sale de P3D y P3G (insumos del `ambito2` de INEGI).
+- `pct_outside_tech_sector`: sector tecnológico = SCIAN 51. La ENOE codifica la actividad con el SCIAN de hogares, donde los servicios de TI (5415) están dentro de 5411 con los servicios legales y contables, así que no se pueden separar: el porcentaje fuera de tecnología queda sobrestimado frente a la sección J de la CIIU (D-MX-10).
+- `pct_stratum_3_4`: estrato socioeconómico ENOE (primer dígito de `est`: 1 bajo, 2 medio bajo, 3 medio alto, 4 alto), estratos 3 y 4; sustituye a `pct_stratum_4_6` (estrato de la factura eléctrica, solo Colombia).
+- `pct_university`: nivel aprobado `cs_p13_1` profesional, maestría o doctorado.
+- `pct_works_from_home`: vacío (no disponible, como en Perú). La ENOE solo pregunta dónde se trabaja (P4F) a negocios sin local, no a asalariados.
+- Cada porcentaje usa solo respuestas válidas de su variable (no especificado excluido).
 - `isco_codes`: códigos CIUO-08 de la plantilla; la correspondencia SINCO 2019 → CIUO-08 se publica aparte.
 
 ## fact_persona_department
-Personas por estado. ENOE 2025. Capas F, G.
-| persona | department_code | department | employed |
+Personas por estado. ENOE 2025. Capas F, G. Las filas de cada persona suman su total.
+| persona | department_code | department | employed | interviews |
+
+- `interviews` añadida para México, para mostrar la confianza de cada celda.
 
 ## fact_persona_metro
-Personas por ciudad ENOE (`cd_a`), anclada al código del municipio principal; el resto del país sin código ("Rest of the country"). Capas F, H.
-| persona | municipality_code | metro_area | employed |
+Personas por ciudad ENOE (`cd_a`, 39 ciudades), anclada al código de su municipio principal (Ciudad de México: 09015); el resto del país sin código ("Rest of the country"). Capas F, H. Las filas de cada persona suman su total.
+| persona | municipality_code | metro_area | employed | interviews |
 
 ## fact_persona_segment
-Persona × ciudad × tipo de comprador (cruce directo). ENOE 2025. Capa H.
+Persona × ciudad × tipo de comprador (cruce directo, nunca producto de porcentajes). Tipos: Government employee; Employee, firm 251+; Employee, firm 11-250; Employee, firm up to 10; Self-employed or employer; Other or unknown (Colombia corta en 200). ENOE 2025. Capa H. Las celdas de cada persona suman su total.
 | persona | municipality_code | city | buyer_type | employed | interviews |
 
 ## fact_ict_by_sector
-Personal TI (4 personas núcleo) por sector SCIAN del empleador; sector tecnológico = SCIAN 51. Capa G.
+Personal TI (4 personas núcleo) por sector SCIAN del empleador; sector tecnológico = SCIAN 51 (ver la nota de `pct_outside_tech_sector`). Capa G. Suma = total de las 4 personas núcleo.
 | sector | employed | share_pct |
 
 ## fact_schools_municipality
@@ -68,11 +76,11 @@ Matrícula de educación superior por municipio donde se ofrece el programa; la 
 | municipality_code | department_code | students_total | students_on_campus | students_ict_field |
 
 ## fact_micro_department
-Micronegocios por estado: trabajadores por cuenta propia y empleadores en unidades pequeñas, ENOE 2025 (límite de 9 o 10 personas pendiente de decisión). Capa M.
+Micronegocios por estado: trabajadores por cuenta propia y empleadores cuya unidad tiene hasta 10 personas (respaldo de la plantilla; ENAMIN se descontinuó en 2012). Las bandas de la ENOE dan 1, 2-5 y 6-10, así que el límite de 9 de la plantilla no se puede aplicar (D-MX-10). ENOE 2025. Capa M.
 | department_code | department | micro_businesses |
 
 ## fact_micro_national
-Distribuciones nacionales de micronegocios. ENOE 2025. Capa M.
+Distribuciones nacionales de micronegocios. Dimensiones: total, activity, position, owner_sex, owner_age, informal_sector, accounts (P4G), premises (P4E), site_without_premises (P4F), zone. Sin variables digitales (M4 no disponible en 2025). ENOE 2025. Capa M.
 | dimension | category | micro_businesses | pct |
 
 ## fact_companies_municipality — añadida para México
@@ -93,11 +101,15 @@ Población a mitad de año por municipio. Fuente: CONAPO, proyecciones municipal
 | municipality_code | department_code | year | population |
 
 ## fact_developers_country
-GitHub Innovation Graph, Q1 2026. La fila `MX` ya existe en `data/geodb-v2/csv/fact_developers_country.csv`. Capa A.
+GitHub Innovation Graph, Q1 2026: la fila `MX` de `data/geodb-v2/csv/fact_developers_country.csv`, comprobada campo por campo contra el motor de la capa A (`scripts/build-mexico-a-github.py`). Capa A. Filas: 1.
 | iso2 | country | developers | developers_yoy_pct | organizations | organizations_yoy_pct | pushes_per_dev | enterprise_lang_share_pct |
 
 ## fact_map_indicator — formato de Perú
-Indicadores nacionales sin geografía (capas A, B, I, O, P), con `scope_type=country`, `scope_id=MX`. Mismas columnas que `data/peru-map/fact_map_indicator.csv`.
+Indicadores nacionales sin geografía (capas A, B, I, O, P), con `scope_type=country`, `scope_id=MX`. Mismas columnas y construcción que `data/peru-map/fact_map_indicator.csv`; un `value` vacío es una celda suprimida, nunca cero.
+| layer | metric_id | scope_type | scope_id | group_id | persona_id | indicator | category | value | unit | period | comparison_period | numerator | denominator | status | source_id | method | limitations |
+
+- Capa A (25 filas): motor de Perú `layer_a_country.py` sin cambios, 2026Q1 frente a 2025Q1 (`scripts/build-mexico-a-github.py`).
+- Capa B: motor de Perú `layer_b_engine.py` sin cambios, encuesta 2025, México como país foco y sus grupos de comparación (`scripts/build-mexico-b-survey.py`).
 
 ## meta_sources
 Fuente y año de cada tabla.

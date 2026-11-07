@@ -1,0 +1,38 @@
+{
+  "country": "MX",
+  "source_id": "INEGI_ENOE_2025",
+  "period": "2025 (Q1-Q4 average)",
+  "sources": [
+    {
+      "zip": "enoe_2025_trim1_csv.zip",
+      "sha256": "dddbb698e7f18f63bc256ece61ac0038a5ad062d42aca13390d88828fb27796e"
+    },
+    {
+      "zip": "enoe_2025_trim2_csv.zip",
+      "sha256": "291db61afcc472a0933d2bebf46720cfd024df8912dc899d541d8109bd406722"
+    },
+    {
+      "zip": "enoe_2025_trim3_csv.zip",
+      "sha256": "d2817a14201694e119a3fd6fcb8b8ed7619ea7e26cf8b353761a1ac1f23d6022"
+    },
+    {
+      "zip": "enoe_2025_trim4_csv.zip",
+      "sha256": "e675b41bde4fb3c183a0abd067738109c6aaf30ed314bc9fc548669fb8a1565d"
+    }
+  ],
+  "universe": "r_def = 00, c_res 1 or 3, age 15-98, employed (clase2 = 1); annual = sum of fac_tri over 4 quarters / 4",
+  "layer": "M",
+  "M1_micro_businesses": 15752397,
+  "definition": "Own-account workers and employers (pos_ocu 2-3) whose workplace has up to 10 people (p3q 01-03), the template fallback; ENAMIN was discontinued after 2012.",
+  "M1_by_position": {
+    "own_account": 12869904,
+    "employers": 2882493
+  },
+  "M4_digital": null,
+  "M6_median_monthly_owner_income_mxn": 6450.0,
+  "notes": {
+    "M4_digital": "No 2025 source (Censos Económicos 2024 refer to 2023; left out to keep one period).",
+    "M6": "Not sales: ENOE has no business sales question; this is the owner's labour income, labelled as such.",
+    "size_limit": "Up to 10 people: ENOE p3q bands give 1, 2-5, 6-10, so the template limit of 9 cannot be applied."
+  }
+}

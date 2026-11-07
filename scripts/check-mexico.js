@@ -100,6 +100,59 @@ if (data.geo_zone && data.fact_companies_zone) {
       && Number(f.micro) + Number(f.medium_large) <= Number(f.companies_total)).length);
 }
 
+// National indicators (layers A and B): Peru's fact_map_indicator format, MX scope, nulls kept empty.
+if (data.fact_map_indicator) {
+  const rows = data.fact_map_indicator.rows;
+  const a = rows.filter((r) => r.layer === 'A');
+  const b = rows.filter((r) => r.layer === 'B');
+  check('national_scope', 'fact_map_indicator: ámbito nacional MX en todas las filas', rows.length,
+    rows.filter((r) => r.scope_type === 'country' && r.scope_id === 'MX').length);
+  check('layer_a_rows', 'Capa A: 25 indicadores, todos con valor', 25, a.filter((r) => r.value !== '').length, a.length === 25 && a.every((r) => r.value !== ''));
+  if (data.fact_developers_country) {
+    const dev = data.fact_developers_country.rows.find((r) => r.iso2 === 'MX');
+    const a1 = a.find((r) => r.metric_id === 'A1_developer_accounts');
+    check('layer_a_benchmark', 'A1 = developers de fact_developers_country (MX)', dev && Number(dev.developers), a1 && Number(a1.value));
+  }
+  const proportionsOk = b.filter((r) => r.value === '' || (Number(r.value) >= 0 && Number(r.value) <= 1)).length;
+  check('layer_b_proportions', 'Capa B: proporciones entre 0 y 1 o vacías (suprimidas)', b.length, proportionsOk, b.length > 0 && proportionsOk === b.length);
+  const suppressedNotEmpty = b.filter((r) => /suppress=suppressed/.test(r.limitations) && r.value !== '').length;
+  check('layer_b_suppressed', 'Capa B: celdas suprimidas sin valor (nunca cero)', 0, suppressedNotEmpty);
+  check('layer_b_mexico', 'Capa B: 158 filas del grupo México (todos los encuestados)', 158, b.filter((r) => r.metric_id.includes(':country:MX:all_respondents:')).length);
+}
+
+// Layer F, G, H, M (ENOE 2025): 13 personas, parts add up, published employed totals (layer R1).
+if (data.fact_persona_profile) {
+  const profile = data.fact_persona_profile.rows;
+  check('personas', 'Personas (13 personas, mismos nombres que Colombia)', 13, profile.length);
+  const total = new Map(profile.map((p) => [p.persona, Number(p.employed)]));
+  for (const t of ['fact_persona_department', 'fact_persona_metro', 'fact_persona_segment']) {
+    if (!data[t]) continue;
+    const sums = new Map();
+    const cells = new Map();
+    for (const r of data[t].rows) {
+      sums.set(r.persona, (sums.get(r.persona) || 0) + Number(r.employed));
+      cells.set(r.persona, (cells.get(r.persona) || 0) + 1);
+    }
+    // Each cell is rounded on its own, so the sum may differ from the total by at most one per cell.
+    const ok = [...total].filter(([p, v]) => sums.has(p) && Math.abs(sums.get(p) - v) <= cells.get(p)).length;
+    check(`${t}_adds_up`, `${t}: las celdas de cada persona suman su total`, profile.length, ok);
+  }
+  const fJson = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_f_mx.json');
+  if (fs.existsSync(fJson)) {
+    const q = JSON.parse(fs.readFileSync(fJson, 'utf8')).checks.employed_vs_bulletins;
+    const within = Object.values(q).filter((x) => Math.abs(x.difference_pct) <= 0.5).length;
+    check('enoe_employed', 'ENOE 2025: ocupados por trimestre dentro de 0,5 % del boletín', 4, within);
+  }
+  if (data.fact_ict_by_sector) {
+    const core = ['Software developers and analysts', 'Database, systems and network professionals', 'ICT technicians and user support', 'ICT managers']
+      .reduce((s, p) => s + (total.get(p) || 0), 0);
+    const g1 = data.fact_ict_by_sector.rows.reduce((s, r) => s + Number(r.employed), 0);
+    check('g1_core', 'G1: personal TI por sector = suma de las 4 personas núcleo', core, g1, Math.abs(core - g1) <= data.fact_ict_by_sector.rows.length);
+  }
+  const emptyFromHome = profile.every((p) => p.pct_works_from_home === '');
+  check('f10_empty', 'F10 trabajo desde casa: vacío (no disponible), nunca cero', true, emptyFromHome);
+}
+
 // Every code column in every table must join to its geography (lib/acceptance.js "Códigos sin unir").
 for (const t of tables) {
   if (t === 'geo_department' || t === 'meta_sources') continue;

@@ -1,0 +1,413 @@
+persona,department_code,department,employed,interviews
+Software developers and analysts,01,Aguascalientes,5770,154
+Software developers and analysts,02,Baja California,7518,157
+Software developers and analysts,03,Baja California Sur,1520,77
+Software developers and analysts,04,Campeche,1046,92
+Software developers and analysts,05,Coahuila de Zaragoza,7995,155
+Software developers and analysts,06,Colima,2871,179
+Software developers and analysts,07,Chiapas,5755,134
+Software developers and analysts,08,Chihuahua,10376,212
+Software developers and analysts,09,Ciudad de México,80762,279
+Software developers and analysts,10,Durango,3188,105
+Software developers and analysts,11,Guanajuato,8890,127
+Software developers and analysts,12,Guerrero,2932,61
+Software developers and analysts,13,Hidalgo,4850,107
+Software developers and analysts,14,Jalisco,29001,197
+Software developers and analysts,15,México,72043,239
+Software developers and analysts,16,Michoacán de Ocampo,6392,91
+Software developers and analysts,17,Morelos,5345,131
+Software developers and analysts,18,Nayarit,1299,71
+Software developers and analysts,19,Nuevo León,36185,249
+Software developers and analysts,20,Oaxaca,3062,87
+Software developers and analysts,21,Puebla,11130,131
+Software developers and analysts,22,Querétaro,13270,272
+Software developers and analysts,23,Quintana Roo,3484,78
+Software developers and analysts,24,San Luis Potosí,4215,74
+Software developers and analysts,25,Sinaloa,6845,151
+Software developers and analysts,26,Sonora,4468,83
+Software developers and analysts,27,Tabasco,3752,114
+Software developers and analysts,28,Tamaulipas,6928,107
+Software developers and analysts,29,Tlaxcala,2227,66
+Software developers and analysts,30,Veracruz de Ignacio de la Llave,8024,108
+Software developers and analysts,31,Yucatán,7338,130
+Software developers and analysts,32,Zacatecas,1162,58
+"Database, systems and network professionals",01,Aguascalientes,114,3
+"Database, systems and network professionals",02,Baja California,323,4
+"Database, systems and network professionals",03,Baja California Sur,118,3
+"Database, systems and network professionals",04,Campeche,87,11
+"Database, systems and network professionals",05,Coahuila de Zaragoza,404,10
+"Database, systems and network professionals",06,Colima,36,2
+"Database, systems and network professionals",07,Chiapas,298,5
+"Database, systems and network professionals",08,Chihuahua,89,2
+"Database, systems and network professionals",09,Ciudad de México,2520,7
+"Database, systems and network professionals",10,Durango,193,8
+"Database, systems and network professionals",11,Guanajuato,1018,11
+"Database, systems and network professionals",12,Guerrero,76,2
+"Database, systems and network professionals",13,Hidalgo,51,2
+"Database, systems and network professionals",14,Jalisco,1003,8
+"Database, systems and network professionals",15,México,1894,6
+"Database, systems and network professionals",16,Michoacán de Ocampo,60,1
+"Database, systems and network professionals",17,Morelos,150,4
+"Database, systems and network professionals",18,Nayarit,132,6
+"Database, systems and network professionals",19,Nuevo León,296,3
+"Database, systems and network professionals",20,Oaxaca,33,1
+"Database, systems and network professionals",21,Puebla,306,4
+"Database, systems and network professionals",22,Querétaro,231,6
+"Database, systems and network professionals",24,San Luis Potosí,110,2
+"Database, systems and network professionals",25,Sinaloa,390,10
+"Database, systems and network professionals",26,Sonora,440,8
+"Database, systems and network professionals",27,Tabasco,162,5
+"Database, systems and network professionals",28,Tamaulipas,603,6
+"Database, systems and network professionals",30,Veracruz de Ignacio de la Llave,180,5
+"Database, systems and network professionals",31,Yucatán,170,3
+"Database, systems and network professionals",32,Zacatecas,32,2
+ICT technicians and user support,01,Aguascalientes,3307,79
+ICT technicians and user support,02,Baja California,4741,87
+ICT technicians and user support,03,Baja California Sur,871,45
+ICT technicians and user support,04,Campeche,946,86
+ICT technicians and user support,05,Coahuila de Zaragoza,3042,74
+ICT technicians and user support,06,Colima,864,52
+ICT technicians and user support,07,Chiapas,2510,78
+ICT technicians and user support,08,Chihuahua,5631,95
+ICT technicians and user support,09,Ciudad de México,33522,136
+ICT technicians and user support,10,Durango,2106,75
+ICT technicians and user support,11,Guanajuato,5588,67
+ICT technicians and user support,12,Guerrero,1712,36
+ICT technicians and user support,13,Hidalgo,4227,60
+ICT technicians and user support,14,Jalisco,16931,98
+ICT technicians and user support,15,México,36060,95
+ICT technicians and user support,16,Michoacán de Ocampo,5258,59
+ICT technicians and user support,17,Morelos,1480,43
+ICT technicians and user support,18,Nayarit,1237,52
+ICT technicians and user support,19,Nuevo León,18419,134
+ICT technicians and user support,20,Oaxaca,2767,50
+ICT technicians and user support,21,Puebla,7950,90
+ICT technicians and user support,22,Querétaro,4290,79
+ICT technicians and user support,23,Quintana Roo,2512,50
+ICT technicians and user support,24,San Luis Potosí,2678,46
+ICT technicians and user support,25,Sinaloa,3763,69
+ICT technicians and user support,26,Sonora,3618,54
+ICT technicians and user support,27,Tabasco,2669,66
+ICT technicians and user support,28,Tamaulipas,3154,56
+ICT technicians and user support,29,Tlaxcala,1161,34
+ICT technicians and user support,30,Veracruz de Ignacio de la Llave,3116,51
+ICT technicians and user support,31,Yucatán,2364,39
+ICT technicians and user support,32,Zacatecas,847,32
+ICT managers,01,Aguascalientes,1223,25
+ICT managers,02,Baja California,259,5
+ICT managers,03,Baja California Sur,272,10
+ICT managers,04,Campeche,249,26
+ICT managers,05,Coahuila de Zaragoza,732,16
+ICT managers,06,Colima,180,15
+ICT managers,07,Chiapas,711,11
+ICT managers,08,Chihuahua,1088,22
+ICT managers,09,Ciudad de México,18302,59
+ICT managers,10,Durango,153,7
+ICT managers,11,Guanajuato,1360,17
+ICT managers,12,Guerrero,117,1
+ICT managers,13,Hidalgo,166,5
+ICT managers,14,Jalisco,3882,23
+ICT managers,15,México,5949,17
+ICT managers,16,Michoacán de Ocampo,502,12
+ICT managers,17,Morelos,74,3
+ICT managers,18,Nayarit,173,12
+ICT managers,19,Nuevo León,3190,26
+ICT managers,20,Oaxaca,404,9
+ICT managers,21,Puebla,565,9
+ICT managers,22,Querétaro,1692,36
+ICT managers,23,Quintana Roo,436,9
+ICT managers,24,San Luis Potosí,134,3
+ICT managers,25,Sinaloa,1518,21
+ICT managers,26,Sonora,707,17
+ICT managers,27,Tabasco,366,6
+ICT managers,28,Tamaulipas,312,5
+ICT managers,29,Tlaxcala,233,7
+ICT managers,30,Veracruz de Ignacio de la Llave,285,6
+ICT managers,31,Yucatán,1378,29
+ICT managers,32,Zacatecas,276,15
+"Designers (graphic, multimedia, product)",01,Aguascalientes,1050,27
+"Designers (graphic, multimedia, product)",02,Baja California,3347,55
+"Designers (graphic, multimedia, product)",03,Baja California Sur,557,16
+"Designers (graphic, multimedia, product)",04,Campeche,256,24
+"Designers (graphic, multimedia, product)",05,Coahuila de Zaragoza,1528,39
+"Designers (graphic, multimedia, product)",06,Colima,364,24
+"Designers (graphic, multimedia, product)",07,Chiapas,911,28
+"Designers (graphic, multimedia, product)",08,Chihuahua,1506,28
+"Designers (graphic, multimedia, product)",09,Ciudad de México,18890,72
+"Designers (graphic, multimedia, product)",10,Durango,672,23
+"Designers (graphic, multimedia, product)",11,Guanajuato,4306,61
+"Designers (graphic, multimedia, product)",12,Guerrero,94,2
+"Designers (graphic, multimedia, product)",13,Hidalgo,1626,31
+"Designers (graphic, multimedia, product)",14,Jalisco,5178,36
+"Designers (graphic, multimedia, product)",15,México,12145,34
+"Designers (graphic, multimedia, product)",16,Michoacán de Ocampo,3212,22
+"Designers (graphic, multimedia, product)",17,Morelos,556,14
+"Designers (graphic, multimedia, product)",18,Nayarit,624,32
+"Designers (graphic, multimedia, product)",19,Nuevo León,4298,34
+"Designers (graphic, multimedia, product)",20,Oaxaca,812,17
+"Designers (graphic, multimedia, product)",21,Puebla,4946,53
+"Designers (graphic, multimedia, product)",22,Querétaro,2009,35
+"Designers (graphic, multimedia, product)",23,Quintana Roo,1382,29
+"Designers (graphic, multimedia, product)",24,San Luis Potosí,1152,21
+"Designers (graphic, multimedia, product)",25,Sinaloa,1253,27
+"Designers (graphic, multimedia, product)",26,Sonora,1320,26
+"Designers (graphic, multimedia, product)",27,Tabasco,416,16
+"Designers (graphic, multimedia, product)",28,Tamaulipas,1337,20
+"Designers (graphic, multimedia, product)",29,Tlaxcala,385,16
+"Designers (graphic, multimedia, product)",30,Veracruz de Ignacio de la Llave,2524,25
+"Designers (graphic, multimedia, product)",31,Yucatán,1908,35
+"Designers (graphic, multimedia, product)",32,Zacatecas,518,29
+Business and management analysts,01,Aguascalientes,2300,60
+Business and management analysts,02,Baja California,4395,76
+Business and management analysts,03,Baja California Sur,435,22
+Business and management analysts,04,Campeche,1023,108
+Business and management analysts,05,Coahuila de Zaragoza,7294,157
+Business and management analysts,06,Colima,710,38
+Business and management analysts,07,Chiapas,998,24
+Business and management analysts,08,Chihuahua,7830,133
+Business and management analysts,09,Ciudad de México,45572,144
+Business and management analysts,10,Durango,1546,46
+Business and management analysts,11,Guanajuato,5468,58
+Business and management analysts,12,Guerrero,92,1
+Business and management analysts,13,Hidalgo,2062,47
+Business and management analysts,14,Jalisco,10344,65
+Business and management analysts,15,México,28316,90
+Business and management analysts,16,Michoacán de Ocampo,1506,21
+Business and management analysts,17,Morelos,634,20
+Business and management analysts,18,Nayarit,453,22
+Business and management analysts,19,Nuevo León,17197,127
+Business and management analysts,20,Oaxaca,808,16
+Business and management analysts,21,Puebla,5215,64
+Business and management analysts,22,Querétaro,7020,125
+Business and management analysts,23,Quintana Roo,2063,42
+Business and management analysts,24,San Luis Potosí,2991,49
+Business and management analysts,25,Sinaloa,2795,49
+Business and management analysts,26,Sonora,3081,63
+Business and management analysts,27,Tabasco,566,24
+Business and management analysts,28,Tamaulipas,3409,67
+Business and management analysts,29,Tlaxcala,1004,27
+Business and management analysts,30,Veracruz de Ignacio de la Llave,3673,39
+Business and management analysts,31,Yucatán,2706,50
+Business and management analysts,32,Zacatecas,608,30
+Accountants and auditors,01,Aguascalientes,6706,180
+Accountants and auditors,02,Baja California,17164,280
+Accountants and auditors,03,Baja California Sur,3753,182
+Accountants and auditors,04,Campeche,2722,265
+Accountants and auditors,05,Coahuila de Zaragoza,15580,294
+Accountants and auditors,06,Colima,3476,204
+Accountants and auditors,07,Chiapas,8960,245
+Accountants and auditors,08,Chihuahua,13006,190
+Accountants and auditors,09,Ciudad de México,69940,257
+Accountants and auditors,10,Durango,6195,198
+Accountants and auditors,11,Guanajuato,12952,191
+Accountants and auditors,12,Guerrero,4028,103
+Accountants and auditors,13,Hidalgo,6311,132
+Accountants and auditors,14,Jalisco,37835,242
+Accountants and auditors,15,México,71473,262
+Accountants and auditors,16,Michoacán de Ocampo,12941,194
+Accountants and auditors,17,Morelos,7067,162
+Accountants and auditors,18,Nayarit,3632,195
+Accountants and auditors,19,Nuevo León,29102,231
+Accountants and auditors,20,Oaxaca,6623,194
+Accountants and auditors,21,Puebla,20343,228
+Accountants and auditors,22,Querétaro,10366,201
+Accountants and auditors,23,Quintana Roo,7069,140
+Accountants and auditors,24,San Luis Potosí,4696,90
+Accountants and auditors,25,Sinaloa,11087,214
+Accountants and auditors,26,Sonora,11869,205
+Accountants and auditors,27,Tabasco,4095,153
+Accountants and auditors,28,Tamaulipas,13292,218
+Accountants and auditors,29,Tlaxcala,2804,98
+Accountants and auditors,30,Veracruz de Ignacio de la Llave,15274,202
+Accountants and auditors,31,Yucatán,9497,171
+Accountants and auditors,32,Zacatecas,4290,191
+Finance and investment analysts,01,Aguascalientes,614,14
+Finance and investment analysts,02,Baja California,897,12
+Finance and investment analysts,03,Baja California Sur,120,10
+Finance and investment analysts,04,Campeche,314,22
+Finance and investment analysts,05,Coahuila de Zaragoza,1388,28
+Finance and investment analysts,06,Colima,237,17
+Finance and investment analysts,07,Chiapas,558,14
+Finance and investment analysts,08,Chihuahua,572,9
+Finance and investment analysts,09,Ciudad de México,21683,66
+Finance and investment analysts,10,Durango,145,5
+Finance and investment analysts,11,Guanajuato,1710,19
+Finance and investment analysts,12,Guerrero,536,11
+Finance and investment analysts,13,Hidalgo,922,21
+Finance and investment analysts,14,Jalisco,5550,33
+Finance and investment analysts,15,México,12066,30
+Finance and investment analysts,16,Michoacán de Ocampo,569,13
+Finance and investment analysts,17,Morelos,500,10
+Finance and investment analysts,18,Nayarit,192,11
+Finance and investment analysts,19,Nuevo León,2297,18
+Finance and investment analysts,20,Oaxaca,416,15
+Finance and investment analysts,21,Puebla,2210,16
+Finance and investment analysts,22,Querétaro,1713,30
+Finance and investment analysts,23,Quintana Roo,382,8
+Finance and investment analysts,24,San Luis Potosí,700,10
+Finance and investment analysts,25,Sinaloa,1400,28
+Finance and investment analysts,26,Sonora,1069,28
+Finance and investment analysts,27,Tabasco,565,16
+Finance and investment analysts,28,Tamaulipas,856,12
+Finance and investment analysts,29,Tlaxcala,370,10
+Finance and investment analysts,30,Veracruz de Ignacio de la Llave,1493,16
+Finance and investment analysts,31,Yucatán,1154,19
+Finance and investment analysts,32,Zacatecas,227,11
+"Data, statistics and research specialists",01,Aguascalientes,298,7
+"Data, statistics and research specialists",02,Baja California,63,2
+"Data, statistics and research specialists",03,Baja California Sur,23,2
+"Data, statistics and research specialists",04,Campeche,38,3
+"Data, statistics and research specialists",05,Coahuila de Zaragoza,265,6
+"Data, statistics and research specialists",06,Colima,8,1
+"Data, statistics and research specialists",07,Chiapas,49,2
+"Data, statistics and research specialists",08,Chihuahua,597,9
+"Data, statistics and research specialists",09,Ciudad de México,18977,50
+"Data, statistics and research specialists",10,Durango,33,1
+"Data, statistics and research specialists",11,Guanajuato,93,2
+"Data, statistics and research specialists",12,Guerrero,127,1
+"Data, statistics and research specialists",13,Hidalgo,35,2
+"Data, statistics and research specialists",14,Jalisco,257,3
+"Data, statistics and research specialists",15,México,2906,10
+"Data, statistics and research specialists",16,Michoacán de Ocampo,10,1
+"Data, statistics and research specialists",18,Nayarit,24,2
+"Data, statistics and research specialists",19,Nuevo León,138,1
+"Data, statistics and research specialists",20,Oaxaca,43,2
+"Data, statistics and research specialists",21,Puebla,643,8
+"Data, statistics and research specialists",22,Querétaro,442,7
+"Data, statistics and research specialists",23,Quintana Roo,496,5
+"Data, statistics and research specialists",24,San Luis Potosí,156,3
+"Data, statistics and research specialists",25,Sinaloa,252,3
+"Data, statistics and research specialists",26,Sonora,398,6
+"Data, statistics and research specialists",27,Tabasco,66,4
+"Data, statistics and research specialists",28,Tamaulipas,54,2
+"Data, statistics and research specialists",30,Veracruz de Ignacio de la Llave,73,2
+"Data, statistics and research specialists",31,Yucatán,220,3
+"Data, statistics and research specialists",32,Zacatecas,76,5
+Marketing and advertising professionals,01,Aguascalientes,1293,30
+Marketing and advertising professionals,02,Baja California,3092,54
+Marketing and advertising professionals,03,Baja California Sur,465,26
+Marketing and advertising professionals,04,Campeche,366,38
+Marketing and advertising professionals,05,Coahuila de Zaragoza,1914,39
+Marketing and advertising professionals,06,Colima,1210,49
+Marketing and advertising professionals,07,Chiapas,1126,30
+Marketing and advertising professionals,08,Chihuahua,2774,39
+Marketing and advertising professionals,09,Ciudad de México,40267,130
+Marketing and advertising professionals,10,Durango,1029,34
+Marketing and advertising professionals,11,Guanajuato,3443,35
+Marketing and advertising professionals,12,Guerrero,430,12
+Marketing and advertising professionals,13,Hidalgo,1485,26
+Marketing and advertising professionals,14,Jalisco,8581,56
+Marketing and advertising professionals,15,México,10669,36
+Marketing and advertising professionals,16,Michoacán de Ocampo,1514,27
+Marketing and advertising professionals,17,Morelos,691,20
+Marketing and advertising professionals,18,Nayarit,545,24
+Marketing and advertising professionals,19,Nuevo León,6212,42
+Marketing and advertising professionals,20,Oaxaca,422,12
+Marketing and advertising professionals,21,Puebla,3812,43
+Marketing and advertising professionals,22,Querétaro,3636,67
+Marketing and advertising professionals,23,Quintana Roo,744,18
+Marketing and advertising professionals,24,San Luis Potosí,2010,38
+Marketing and advertising professionals,25,Sinaloa,2097,38
+Marketing and advertising professionals,26,Sonora,2751,53
+Marketing and advertising professionals,27,Tabasco,407,17
+Marketing and advertising professionals,28,Tamaulipas,2189,32
+Marketing and advertising professionals,29,Tlaxcala,395,14
+Marketing and advertising professionals,30,Veracruz de Ignacio de la Llave,1968,37
+Marketing and advertising professionals,31,Yucatán,2488,44
+Marketing and advertising professionals,32,Zacatecas,488,26
+Engineers (non-ICT),01,Aguascalientes,6464,162
+Engineers (non-ICT),02,Baja California,20951,347
+Engineers (non-ICT),03,Baja California Sur,1904,71
+Engineers (non-ICT),04,Campeche,1912,204
+Engineers (non-ICT),05,Coahuila de Zaragoza,16717,326
+Engineers (non-ICT),06,Colima,2050,111
+Engineers (non-ICT),07,Chiapas,5948,147
+Engineers (non-ICT),08,Chihuahua,16350,288
+Engineers (non-ICT),09,Ciudad de México,38662,129
+Engineers (non-ICT),10,Durango,3696,118
+Engineers (non-ICT),11,Guanajuato,7779,84
+Engineers (non-ICT),12,Guerrero,1366,16
+Engineers (non-ICT),13,Hidalgo,5975,127
+Engineers (non-ICT),14,Jalisco,24609,169
+Engineers (non-ICT),15,México,50829,211
+Engineers (non-ICT),16,Michoacán de Ocampo,7952,99
+Engineers (non-ICT),17,Morelos,2592,60
+Engineers (non-ICT),18,Nayarit,1961,86
+Engineers (non-ICT),19,Nuevo León,39170,264
+Engineers (non-ICT),20,Oaxaca,4944,101
+Engineers (non-ICT),21,Puebla,15729,209
+Engineers (non-ICT),22,Querétaro,19709,348
+Engineers (non-ICT),23,Quintana Roo,4044,60
+Engineers (non-ICT),24,San Luis Potosí,8737,166
+Engineers (non-ICT),25,Sinaloa,5768,84
+Engineers (non-ICT),26,Sonora,11525,178
+Engineers (non-ICT),27,Tabasco,4170,152
+Engineers (non-ICT),28,Tamaulipas,9148,200
+Engineers (non-ICT),29,Tlaxcala,2869,93
+Engineers (non-ICT),30,Veracruz de Ignacio de la Llave,7154,124
+Engineers (non-ICT),31,Yucatán,4242,88
+Engineers (non-ICT),32,Zacatecas,1506,82
+Business and operations managers,01,Aguascalientes,16169,405
+Business and operations managers,02,Baja California,39091,629
+Business and operations managers,03,Baja California Sur,11274,426
+Business and operations managers,04,Campeche,8965,799
+Business and operations managers,05,Coahuila de Zaragoza,45813,911
+Business and operations managers,06,Colima,11344,541
+Business and operations managers,07,Chiapas,18363,503
+Business and operations managers,08,Chihuahua,61076,1020
+Business and operations managers,09,Ciudad de México,255755,763
+Business and operations managers,10,Durango,15665,496
+Business and operations managers,11,Guanajuato,45694,484
+Business and operations managers,12,Guerrero,9158,139
+Business and operations managers,13,Hidalgo,16056,361
+Business and operations managers,14,Jalisco,82397,521
+Business and operations managers,15,México,155212,496
+Business and operations managers,16,Michoacán de Ocampo,18936,269
+Business and operations managers,17,Morelos,8114,198
+Business and operations managers,18,Nayarit,8445,411
+Business and operations managers,19,Nuevo León,107532,831
+Business and operations managers,20,Oaxaca,16762,309
+Business and operations managers,21,Puebla,35377,387
+Business and operations managers,22,Querétaro,31297,615
+Business and operations managers,23,Quintana Roo,17528,329
+Business and operations managers,24,San Luis Potosí,23452,404
+Business and operations managers,25,Sinaloa,27939,398
+Business and operations managers,26,Sonora,27652,479
+Business and operations managers,27,Tabasco,13527,402
+Business and operations managers,28,Tamaulipas,36182,680
+Business and operations managers,29,Tlaxcala,8211,244
+Business and operations managers,30,Veracruz de Ignacio de la Llave,29456,416
+Business and operations managers,31,Yucatán,28219,530
+Business and operations managers,32,Zacatecas,7941,338
+Higher-education and IT educators,01,Aguascalientes,3044,80
+Higher-education and IT educators,02,Baja California,4828,83
+Higher-education and IT educators,03,Baja California Sur,1123,64
+Higher-education and IT educators,04,Campeche,1680,154
+Higher-education and IT educators,05,Coahuila de Zaragoza,9160,172
+Higher-education and IT educators,06,Colima,1021,66
+Higher-education and IT educators,07,Chiapas,5123,166
+Higher-education and IT educators,08,Chihuahua,6703,116
+Higher-education and IT educators,09,Ciudad de México,37748,118
+Higher-education and IT educators,10,Durango,3749,122
+Higher-education and IT educators,11,Guanajuato,5443,52
+Higher-education and IT educators,12,Guerrero,3674,55
+Higher-education and IT educators,13,Hidalgo,5593,160
+Higher-education and IT educators,14,Jalisco,13086,84
+Higher-education and IT educators,15,México,43559,160
+Higher-education and IT educators,16,Michoacán de Ocampo,6653,139
+Higher-education and IT educators,17,Morelos,3367,87
+Higher-education and IT educators,18,Nayarit,2474,127
+Higher-education and IT educators,19,Nuevo León,8031,65
+Higher-education and IT educators,20,Oaxaca,3857,83
+Higher-education and IT educators,21,Puebla,15151,163
+Higher-education and IT educators,22,Querétaro,7583,136
+Higher-education and IT educators,23,Quintana Roo,2189,44
+Higher-education and IT educators,24,San Luis Potosí,4350,78
+Higher-education and IT educators,25,Sinaloa,10292,148
+Higher-education and IT educators,26,Sonora,6968,107
+Higher-education and IT educators,27,Tabasco,2827,116
+Higher-education and IT educators,28,Tamaulipas,6522,94
+Higher-education and IT educators,29,Tlaxcala,2240,70
+Higher-education and IT educators,30,Veracruz de Ignacio de la Llave,8496,93
+Higher-education and IT educators,31,Yucatán,5181,96
+Higher-education and IT educators,32,Zacatecas,4132,216

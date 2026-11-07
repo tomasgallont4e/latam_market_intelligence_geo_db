@@ -1,0 +1,101 @@
+country_code,metric,metric_definition,year,quarter,period_label,value
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2020,1,2020Q1,537945
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2020,2,2020Q2,595987
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2020,3,2020Q3,666919
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2020,4,2020Q4,735164
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2021,1,2021Q1,827563
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2021,2,2021Q2,896220
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2021,3,2021Q3,980147
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2021,4,2021Q4,1047463
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2022,1,2022Q1,1129550
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2022,2,2022Q2,1200917
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2022,3,2022Q3,1274130
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2022,4,2022Q4,1339349
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2023,1,2023Q1,1418639
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2023,2,2023Q2,1504115
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2023,3,2023Q3,1588610
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2023,4,2023Q4,1672397
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2024,1,2024Q1,1785060
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2024,2,2024Q2,1852119
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2024,3,2024Q3,1931434
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2024,4,2024Q4,2009830
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2025,1,2025Q1,2121070
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2025,2,2025Q2,2237748
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2025,3,2025Q3,2426573
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2025,4,2025Q4,2637576
+MX,developers,"developer accounts located in economy (mode daily IP), incl. inactive",2026,1,2026Q1,2865151
+MX,organizations,organization accounts located in economy,2020,1,2020Q1,36691
+MX,organizations,organization accounts located in economy,2020,2,2020Q2,39262
+MX,organizations,organization accounts located in economy,2020,3,2020Q3,41448
+MX,organizations,organization accounts located in economy,2020,4,2020Q4,43366
+MX,organizations,organization accounts located in economy,2021,1,2021Q1,45538
+MX,organizations,organization accounts located in economy,2021,2,2021Q2,47614
+MX,organizations,organization accounts located in economy,2021,3,2021Q3,49540
+MX,organizations,organization accounts located in economy,2021,4,2021Q4,50757
+MX,organizations,organization accounts located in economy,2022,1,2022Q1,52832
+MX,organizations,organization accounts located in economy,2022,2,2022Q2,54311
+MX,organizations,organization accounts located in economy,2022,3,2022Q3,56304
+MX,organizations,organization accounts located in economy,2022,4,2022Q4,57579
+MX,organizations,organization accounts located in economy,2023,1,2023Q1,60393
+MX,organizations,organization accounts located in economy,2023,2,2023Q2,62303
+MX,organizations,organization accounts located in economy,2023,3,2023Q3,64138
+MX,organizations,organization accounts located in economy,2023,4,2023Q4,66152
+MX,organizations,organization accounts located in economy,2024,1,2024Q1,68623
+MX,organizations,organization accounts located in economy,2024,2,2024Q2,70831
+MX,organizations,organization accounts located in economy,2024,3,2024Q3,73017
+MX,organizations,organization accounts located in economy,2024,4,2024Q4,75556
+MX,organizations,organization accounts located in economy,2025,1,2025Q1,78953
+MX,organizations,organization accounts located in economy,2025,2,2025Q2,81822
+MX,organizations,organization accounts located in economy,2025,3,2025Q3,84454
+MX,organizations,organization accounts located in economy,2025,4,2025Q4,87432
+MX,organizations,organization accounts located in economy,2026,1,2026Q1,92440
+MX,git_pushes,git pushes in the quarter (flow),2020,1,2020Q1,572711
+MX,git_pushes,git pushes in the quarter (flow),2020,2,2020Q2,803902
+MX,git_pushes,git pushes in the quarter (flow),2020,3,2020Q3,731235
+MX,git_pushes,git pushes in the quarter (flow),2020,4,2020Q4,807280
+MX,git_pushes,git pushes in the quarter (flow),2021,1,2021Q1,828908
+MX,git_pushes,git pushes in the quarter (flow),2021,2,2021Q2,974157
+MX,git_pushes,git pushes in the quarter (flow),2021,3,2021Q3,885658
+MX,git_pushes,git pushes in the quarter (flow),2021,4,2021Q4,979483
+MX,git_pushes,git pushes in the quarter (flow),2022,1,2022Q1,1056651
+MX,git_pushes,git pushes in the quarter (flow),2022,2,2022Q2,1229609
+MX,git_pushes,git pushes in the quarter (flow),2022,3,2022Q3,1065160
+MX,git_pushes,git pushes in the quarter (flow),2022,4,2022Q4,1191179
+MX,git_pushes,git pushes in the quarter (flow),2023,1,2023Q1,1177565
+MX,git_pushes,git pushes in the quarter (flow),2023,2,2023Q2,1333712
+MX,git_pushes,git pushes in the quarter (flow),2023,3,2023Q3,1134809
+MX,git_pushes,git pushes in the quarter (flow),2023,4,2023Q4,1317667
+MX,git_pushes,git pushes in the quarter (flow),2024,1,2024Q1,1225268
+MX,git_pushes,git pushes in the quarter (flow),2024,2,2024Q2,1525171
+MX,git_pushes,git pushes in the quarter (flow),2024,3,2024Q3,1330833
+MX,git_pushes,git pushes in the quarter (flow),2024,4,2024Q4,1629944
+MX,git_pushes,git pushes in the quarter (flow),2025,1,2025Q1,1593077
+MX,git_pushes,git pushes in the quarter (flow),2025,2,2025Q2,2179086
+MX,git_pushes,git pushes in the quarter (flow),2025,3,2025Q3,2038588
+MX,git_pushes,git pushes in the quarter (flow),2025,4,2025Q4,2670594
+MX,git_pushes,git pushes in the quarter (flow),2026,1,2026Q1,3192114
+MX,repositories,"repositories with activity, located in economy",2020,1,2020Q1,1089820
+MX,repositories,"repositories with activity, located in economy",2020,2,2020Q2,1184402
+MX,repositories,"repositories with activity, located in economy",2020,3,2020Q3,1274788
+MX,repositories,"repositories with activity, located in economy",2020,4,2020Q4,1385699
+MX,repositories,"repositories with activity, located in economy",2021,1,2021Q1,1499021
+MX,repositories,"repositories with activity, located in economy",2021,2,2021Q2,1617585
+MX,repositories,"repositories with activity, located in economy",2021,3,2021Q3,1740510
+MX,repositories,"repositories with activity, located in economy",2021,4,2021Q4,1873602
+MX,repositories,"repositories with activity, located in economy",2022,1,2022Q1,2050901
+MX,repositories,"repositories with activity, located in economy",2022,2,2022Q2,2197057
+MX,repositories,"repositories with activity, located in economy",2022,3,2022Q3,2323483
+MX,repositories,"repositories with activity, located in economy",2022,4,2022Q4,2466161
+MX,repositories,"repositories with activity, located in economy",2023,1,2023Q1,2613772
+MX,repositories,"repositories with activity, located in economy",2023,2,2023Q2,2756348
+MX,repositories,"repositories with activity, located in economy",2023,3,2023Q3,2879692
+MX,repositories,"repositories with activity, located in economy",2023,4,2023Q4,3022860
+MX,repositories,"repositories with activity, located in economy",2024,1,2024Q1,3175618
+MX,repositories,"repositories with activity, located in economy",2024,2,2024Q2,3330982
+MX,repositories,"repositories with activity, located in economy",2024,3,2024Q3,3467967
+MX,repositories,"repositories with activity, located in economy",2024,4,2024Q4,3628800
+MX,repositories,"repositories with activity, located in economy",2025,1,2025Q1,3832713
+MX,repositories,"repositories with activity, located in economy",2025,2,2025Q2,4047274
+MX,repositories,"repositories with activity, located in economy",2025,3,2025Q3,4253140
+MX,repositories,"repositories with activity, located in economy",2025,4,2025Q4,4501247
+MX,repositories,"repositories with activity, located in economy",2026,1,2026Q1,4777192

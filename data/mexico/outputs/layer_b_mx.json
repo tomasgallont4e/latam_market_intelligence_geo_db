@@ -1,0 +1,73 @@
+{
+  "country": "MX",
+  "layer": "B",
+  "source_id": "SRC_SO_2025",
+  "survey": "Stack Overflow Developer Survey",
+  "survey_year": 2025,
+  "source": {
+    "repository": "https://github.com/StackExchange/Survey",
+    "commit": "c9c23dc6f385d5be1a3011c238deb6c23b617e93",
+    "path": "packages/archive/2025/results.csv",
+    "sha256": "2d1f65308877282edfb4470520eabbc08cb499118432a3dcec6a66c086aa2baa",
+    "official_aggregate": {
+      "file": "ai.json",
+      "sha256": "fb2d797e08185eba13136835ba439e43d4ba3ed33a97c47ca93b5cf7434c01c8"
+    }
+  },
+  "engine": {
+    "script": "data/peru/think4ever_peru_day1_FINAL/layerB/think4ever_peru_day1_layerB_FINAL/scripts/layer_b_engine.py",
+    "sha256": "7ba34fec21a540eefb54bb22b1a78667ca4f41dbfbf0d7995cdbb8b8b7736a0e"
+  },
+  "headline": {
+    "B1": {
+      "item": "Uses AI tools (daily, weekly or monthly/infrequently)",
+      "proportion": 0.8208955223880597,
+      "numerator": "220",
+      "valid_n": "268",
+      "ci_95": [
+        "0.7705544855206503",
+        "0.8621672514291603"
+      ]
+    },
+    "B2": {
+      "item": "Uses AI tools daily",
+      "proportion": 0.4701492537313433,
+      "numerator": "126",
+      "valid_n": "268",
+      "ci_95": [
+        "0.41123814157330774",
+        "0.529904022431361"
+      ]
+    },
+    "B3": {
+      "item": "Uses AI agents at work (daily, weekly or monthly/infrequently)",
+      "proportion": 0.35546875,
+      "numerator": "91",
+      "valid_n": "256",
+      "ci_95": [
+        "0.29936712788953435",
+        "0.4158438306085691"
+      ]
+    }
+  },
+  "B5_respondents": 286,
+  "B5_confidence": "low (below 300)",
+  "checks": {
+    "reproduces_peru_published_groups": {
+      "MX": {
+        "rows_published_by_peru": 158,
+        "rows_reproduced": 158,
+        "differences": []
+      },
+      "GLOBAL": {
+        "rows_published_by_peru": 158,
+        "rows_reproduced": 158,
+        "differences": []
+      }
+    }
+  },
+  "notes": {
+    "edition": "2025 edition, the same file as Colombia's template example and Peru's published package, so the three countries compare on one survey."
+  },
+  "limitations": "Self-selected online survey: unweighted, not representative of all developers in Mexico. Cells with fewer than 30 valid answers are suppressed (empty), never zero."
+}

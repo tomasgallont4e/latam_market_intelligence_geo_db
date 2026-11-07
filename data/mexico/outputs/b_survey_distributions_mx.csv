@@ -1,0 +1,281 @@
+focus_country_code,group_type,group_code,survey_segment,group_definition,survey_year,indicator_id,variable,category,numerator,valid_n,proportion,base_flag,small_numerator_flag,source_id
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX5,AISent,Favorable,114,265,0.43018867924528303,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX5,AISent,Indifferent,42,265,0.15849056603773584,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX5,AISent,Unfavorable,16,265,0.06037735849056604,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX5,AISent,Unsure,9,265,0.033962264150943396,ok,True,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX5,AISent,Very favorable,79,265,0.2981132075471698,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX5,AISent,Very unfavorable,5,265,0.018867924528301886,ok,True,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX7,AIComplex,Bad at handling complex tasks,41,264,0.1553030303030303,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",99,264,0.375,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,31,264,0.11742424242424243,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,53,264,0.20075757575757575,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX7,AIComplex,Very poor at handling complex tasks,22,264,0.08333333333333333,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX7,AIComplex,Very well at handling complex tasks,18,264,0.06818181818181818,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX6,AIAcc,Highly distrust,17,264,0.06439393939393939,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX6,AIAcc,Highly trust,17,264,0.06439393939393939,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX6,AIAcc,Neither trust nor distrust,65,264,0.24621212121212122,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX6,AIAcc,Somewhat distrust,50,264,0.1893939393939394,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX6,AIAcc,Somewhat trust,115,264,0.4356060606060606,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",9,252,0.03571428571428571,ok,True,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",8,252,0.031746031746031744,ok,True,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX8,AIAgentChange,Not at all or minimally,100,252,0.3968253968253968,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX8,AIAgentChange,"Yes, somewhat",78,252,0.30952380952380953,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX8,AIAgentChange,"Yes, to a great extent",57,252,0.2261904761904762,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX10,PurchaseInfluence,No,132,256,0.515625,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",37,256,0.14453125,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",16,256,0.0625,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",58,256,0.2265625,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",13,256,0.05078125,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",22,286,0.07692307692307693,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",28,286,0.0979020979020979,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",26,286,0.09090909090909091,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",101,286,0.3531468531468531,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",109,286,0.3811188811188811,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX11,AIThreat,I'm not sure,56,279,0.2007168458781362,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX11,AIThreat,No,187,279,0.6702508960573477,ok,False,SRC_SO_2025
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",2025,BX11,AIThreat,Yes,36,279,0.12903225806451613,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX5,AISent,Favorable,92,206,0.44660194174757284,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX5,AISent,Indifferent,30,206,0.14563106796116504,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX5,AISent,Unfavorable,13,206,0.06310679611650485,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX5,AISent,Unsure,6,206,0.02912621359223301,ok,True,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX5,AISent,Very favorable,62,206,0.30097087378640774,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX5,AISent,Very unfavorable,3,206,0.014563106796116505,ok,True,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX7,AIComplex,Bad at handling complex tasks,29,206,0.1407766990291262,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",83,206,0.4029126213592233,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,22,206,0.10679611650485436,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,43,206,0.2087378640776699,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX7,AIComplex,Very poor at handling complex tasks,20,206,0.0970873786407767,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX7,AIComplex,Very well at handling complex tasks,9,206,0.043689320388349516,ok,True,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX6,AIAcc,Highly distrust,13,206,0.06310679611650485,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX6,AIAcc,Highly trust,10,206,0.04854368932038835,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX6,AIAcc,Neither trust nor distrust,52,206,0.2524271844660194,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX6,AIAcc,Somewhat distrust,39,206,0.18932038834951456,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX6,AIAcc,Somewhat trust,92,206,0.44660194174757284,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",4,198,0.020202020202020204,ok,True,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",6,198,0.030303030303030304,ok,True,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX8,AIAgentChange,Not at all or minimally,80,198,0.40404040404040403,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX8,AIAgentChange,"Yes, somewhat",67,198,0.3383838383838384,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX8,AIAgentChange,"Yes, to a great extent",41,198,0.20707070707070707,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX10,PurchaseInfluence,No,106,204,0.5196078431372549,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",30,204,0.14705882352941177,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",11,204,0.05392156862745098,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",46,204,0.22549019607843138,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",11,204,0.05392156862745098,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",12,217,0.055299539170506916,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",18,217,0.08294930875576037,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",18,217,0.08294930875576037,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",80,217,0.3686635944700461,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",89,217,0.41013824884792627,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX11,AIThreat,I'm not sure,41,215,0.19069767441860466,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX11,AIThreat,No,144,215,0.6697674418604651,ok,False,SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",2025,BX11,AIThreat,Yes,30,215,0.13953488372093023,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX5,AISent,Favorable,664,1639,0.40512507626601585,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX5,AISent,Indifferent,203,1639,0.12385600976205004,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX5,AISent,Unfavorable,93,1639,0.056741915802318486,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX5,AISent,Unsure,29,1639,0.017693715680292862,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX5,AISent,Very favorable,580,1639,0.35387431360585725,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX5,AISent,Very unfavorable,70,1639,0.04270896888346553,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX7,AIComplex,Bad at handling complex tasks,333,1635,0.2036697247706422,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",536,1635,0.32782874617737,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,169,1635,0.10336391437308869,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,263,1635,0.16085626911314985,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX7,AIComplex,Very poor at handling complex tasks,225,1635,0.13761467889908258,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX7,AIComplex,Very well at handling complex tasks,109,1635,0.06666666666666667,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX6,AIAcc,Highly distrust,170,1637,0.10384850335980451,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX6,AIAcc,Highly trust,87,1637,0.0531459987782529,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX6,AIAcc,Neither trust nor distrust,379,1637,0.23152107513744655,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX6,AIAcc,Somewhat distrust,364,1637,0.22235797189981674,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX6,AIAcc,Somewhat trust,637,1637,0.3891264508246793,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",64,1540,0.04155844155844156,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",45,1540,0.02922077922077922,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX8,AIAgentChange,Not at all or minimally,485,1540,0.31493506493506496,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX8,AIAgentChange,"Yes, somewhat",619,1540,0.40194805194805194,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX8,AIAgentChange,"Yes, to a great extent",327,1540,0.21233766233766233,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX10,PurchaseInfluence,No,778,1519,0.5121790651744569,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",234,1519,0.15404871626069783,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",62,1519,0.04081632653061224,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",320,1519,0.21066491112574062,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",125,1519,0.08229098090849243,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",136,1734,0.0784313725490196,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",150,1734,0.08650519031141868,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",178,1734,0.10265282583621683,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",568,1734,0.3275663206459054,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",702,1734,0.40484429065743943,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX11,AIThreat,I'm not sure,375,1725,0.21739130434782608,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX11,AIThreat,No,1092,1725,0.6330434782608696,ok,False,SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",2025,BX11,AIThreat,Yes,258,1725,0.14956521739130435,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX5,AISent,Favorable,12311,33467,0.36785490184360714,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX5,AISent,Indifferent,5880,33467,0.17569546120058566,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX5,AISent,Unfavorable,3621,33467,0.10819613350464637,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX5,AISent,Unsure,759,33467,0.02267905698150417,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX5,AISent,Very favorable,7677,33467,0.22939014551647893,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX5,AISent,Very unfavorable,3219,33467,0.09618430095317776,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX7,AIComplex,Bad at handling complex tasks,7328,33283,0.220172460415227,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",8384,33283,0.25190036955803263,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,5582,33283,0.1677132470029745,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,4688,33283,0.1408526875582129,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX7,AIComplex,Very poor at handling complex tasks,5844,33283,0.175585133551663,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX7,AIComplex,Very well at handling complex tasks,1457,33283,0.043776101913889975,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX6,AIAcc,Highly distrust,6533,33297,0.1962038622098087,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX6,AIAcc,Highly trust,1048,33297,0.03147430699462414,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX6,AIAcc,Neither trust nor distrust,7162,33297,0.21509445295371957,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX6,AIAcc,Somewhat distrust,8685,33297,0.260834309397243,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX6,AIAcc,Somewhat trust,9869,33297,0.2963930684446046,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",1410,31678,0.04451038575667656,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",822,31678,0.025948607866658247,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX8,AIAgentChange,Not at all or minimally,13097,31678,0.41344150514552686,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX8,AIAgentChange,"Yes, somewhat",11171,31678,0.35264221226087505,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX8,AIAgentChange,"Yes, to a great extent",5178,31678,0.16345728897026326,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX10,PurchaseInfluence,No,19697,37437,0.5261372439030906,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",5794,37437,0.15476667468012928,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",1403,37437,0.037476293506424126,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",7430,37437,0.19846675748590967,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",3113,37437,0.0831530304244464,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",4864,45201,0.10760823875577974,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",4625,45201,0.1023207451162585,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",5282,45201,0.11685582177385456,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",14027,45201,0.31032499280989356,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",16403,45201,0.36289020154421364,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX11,AIThreat,I'm not sure,7700,36078,0.21342646488164532,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX11,AIThreat,No,22958,36078,0.6363434780198459,ok,False,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",2025,BX11,AIThreat,Yes,5420,36078,0.15023005709850878,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX5,AISent,Favorable,283,779,0.3632862644415918,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX5,AISent,Indifferent,105,779,0.13478818998716302,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX5,AISent,Unfavorable,61,779,0.07830551989730423,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX5,AISent,Unsure,15,779,0.019255455712451863,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX5,AISent,Very favorable,272,779,0.3491655969191271,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX5,AISent,Very unfavorable,43,779,0.055198973042362,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX7,AIComplex,Bad at handling complex tasks,163,779,0.2092426187419769,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",234,779,0.30038510911424904,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,86,779,0.110397946084724,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,119,779,0.1527599486521181,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX7,AIComplex,Very poor at handling complex tasks,133,779,0.17073170731707318,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX7,AIComplex,Very well at handling complex tasks,44,779,0.05648267008985879,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX6,AIAcc,Highly distrust,100,780,0.1282051282051282,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX6,AIAcc,Highly trust,40,780,0.05128205128205128,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX6,AIAcc,Neither trust nor distrust,182,780,0.23333333333333334,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX6,AIAcc,Somewhat distrust,192,780,0.24615384615384617,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX6,AIAcc,Somewhat trust,266,780,0.34102564102564104,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",31,729,0.04252400548696845,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",24,729,0.03292181069958848,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX8,AIAgentChange,Not at all or minimally,249,729,0.34156378600823045,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX8,AIAgentChange,"Yes, somewhat",288,729,0.3950617283950617,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX8,AIAgentChange,"Yes, to a great extent",137,729,0.18792866941015088,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX10,PurchaseInfluence,No,379,727,0.5213204951856947,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",121,727,0.16643741403026135,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",27,727,0.037138927097661624,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",143,727,0.19669876203576342,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",57,727,0.07840440165061899,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",68,822,0.0827250608272506,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",67,822,0.08150851581508516,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",92,822,0.11192214111922141,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",259,822,0.3150851581508516,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",336,822,0.40875912408759124,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX11,AIThreat,I'm not sure,179,815,0.2196319018404908,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX11,AIThreat,No,514,815,0.6306748466257669,ok,False,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",2025,BX11,AIThreat,Yes,122,815,0.14969325153374233,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX5,AISent,Favorable,92,210,0.4380952380952381,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX5,AISent,Indifferent,27,210,0.12857142857142856,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX5,AISent,Unfavorable,8,210,0.0380952380952381,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX5,AISent,Unsure,5,210,0.023809523809523808,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX5,AISent,Very favorable,70,210,0.3333333333333333,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX5,AISent,Very unfavorable,8,210,0.0380952380952381,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX7,AIComplex,Bad at handling complex tasks,43,208,0.20673076923076922,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",65,208,0.3125,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,24,208,0.11538461538461539,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,31,208,0.14903846153846154,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX7,AIComplex,Very poor at handling complex tasks,33,208,0.15865384615384615,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX7,AIComplex,Very well at handling complex tasks,12,208,0.057692307692307696,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX6,AIAcc,Highly distrust,26,210,0.12380952380952381,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX6,AIAcc,Highly trust,7,210,0.03333333333333333,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX6,AIAcc,Neither trust nor distrust,44,210,0.20952380952380953,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX6,AIAcc,Somewhat distrust,50,210,0.23809523809523808,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX6,AIAcc,Somewhat trust,83,210,0.3952380952380952,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",7,197,0.03553299492385787,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",4,197,0.02030456852791878,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX8,AIAgentChange,Not at all or minimally,67,197,0.3401015228426396,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX8,AIAgentChange,"Yes, somewhat",73,197,0.37055837563451777,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX8,AIAgentChange,"Yes, to a great extent",46,197,0.233502538071066,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX10,PurchaseInfluence,No,100,194,0.5154639175257731,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",37,194,0.19072164948453607,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",8,194,0.041237113402061855,ok,True,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",38,194,0.1958762886597938,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",11,194,0.05670103092783505,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",23,221,0.10407239819004525,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",15,221,0.06787330316742081,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",24,221,0.1085972850678733,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",82,221,0.37104072398190047,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",77,221,0.34841628959276016,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX11,AIThreat,I'm not sure,50,219,0.228310502283105,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX11,AIThreat,No,129,219,0.589041095890411,ok,False,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",2025,BX11,AIThreat,Yes,40,219,0.182648401826484,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX5,AISent,Favorable,101,193,0.5233160621761658,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX5,AISent,Indifferent,19,193,0.09844559585492228,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX5,AISent,Unfavorable,4,193,0.02072538860103627,ok,True,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX5,AISent,Unsure,2,193,0.010362694300518135,ok,True,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX5,AISent,Very favorable,60,193,0.31088082901554404,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX5,AISent,Very unfavorable,7,193,0.03626943005181347,ok,True,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX7,AIComplex,Bad at handling complex tasks,38,192,0.19791666666666666,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",70,192,0.3645833333333333,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,12,192,0.0625,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,38,192,0.19791666666666666,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX7,AIComplex,Very poor at handling complex tasks,19,192,0.09895833333333333,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX7,AIComplex,Very well at handling complex tasks,15,192,0.078125,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX6,AIAcc,Highly distrust,11,193,0.05699481865284974,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX6,AIAcc,Highly trust,13,193,0.06735751295336788,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX6,AIAcc,Neither trust nor distrust,36,193,0.18652849740932642,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX6,AIAcc,Somewhat distrust,37,193,0.19170984455958548,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX6,AIAcc,Somewhat trust,96,193,0.49740932642487046,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",7,183,0.03825136612021858,ok,True,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",7,183,0.03825136612021858,ok,True,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX8,AIAgentChange,Not at all or minimally,51,183,0.2786885245901639,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX8,AIAgentChange,"Yes, somewhat",79,183,0.43169398907103823,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX8,AIAgentChange,"Yes, to a great extent",39,183,0.21311475409836064,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX10,PurchaseInfluence,No,91,152,0.5986842105263158,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",15,152,0.09868421052631579,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",7,152,0.046052631578947366,ok,True,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",23,152,0.1513157894736842,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",16,152,0.10526315789473684,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",11,201,0.05472636815920398,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",21,201,0.1044776119402985,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",18,201,0.08955223880597014,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",67,201,0.3333333333333333,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",84,201,0.417910447761194,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX11,AIThreat,I'm not sure,47,201,0.23383084577114427,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX11,AIThreat,No,121,201,0.6019900497512438,ok,False,SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",2025,BX11,AIThreat,Yes,33,201,0.16417910447761194,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX5,AISent,Favorable,48,121,0.39669421487603307,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX5,AISent,Indifferent,13,121,0.10743801652892562,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX5,AISent,Unfavorable,10,121,0.08264462809917356,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX5,AISent,Unsure,0,121,0.0,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX5,AISent,Very favorable,47,121,0.3884297520661157,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX5,AISent,Very unfavorable,3,121,0.024793388429752067,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX7,AIComplex,Bad at handling complex tasks,28,121,0.23140495867768596,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX7,AIComplex,"Good, but not great at handling complex tasks",45,121,0.371900826446281,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX7,AIComplex,I don't use AI tools for complex tasks / I don't know,14,121,0.11570247933884298,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX7,AIComplex,Neither good or bad at handling complex tasks,18,121,0.1487603305785124,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX7,AIComplex,Very poor at handling complex tasks,8,121,0.06611570247933884,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX7,AIComplex,Very well at handling complex tasks,8,121,0.06611570247933884,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX6,AIAcc,Highly distrust,14,120,0.11666666666666667,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX6,AIAcc,Highly trust,6,120,0.05,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX6,AIAcc,Neither trust nor distrust,28,120,0.23333333333333334,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX6,AIAcc,Somewhat distrust,25,120,0.20833333333333334,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX6,AIAcc,Somewhat trust,47,120,0.39166666666666666,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX8,AIAgentChange,"No, but my development work has changed somewhat due to non-AI factors",6,110,0.05454545454545454,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX8,AIAgentChange,"No, but my development work has significantly changed due to non-AI factors",1,110,0.00909090909090909,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX8,AIAgentChange,Not at all or minimally,28,110,0.2545454545454545,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX8,AIAgentChange,"Yes, somewhat",51,110,0.4636363636363636,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX8,AIAgentChange,"Yes, to a great extent",24,110,0.21818181818181817,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX10,PurchaseInfluence,No,49,120,0.4083333333333333,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was open-source and is currently used by more than just myself but no purchase was made",20,120,0.16666666666666666,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX10,PurchaseInfluence,"Yes, I endorsed a tool that was ultimately not purchased or used at my organization",8,120,0.06666666666666667,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a substantial addition to the tech stack",36,120,0.3,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX10,PurchaseInfluence,"Yes, I influenced the purchase of a tool that more than five colleagues use but it is not a substantial addition to the tech stack",7,120,0.058333333333333334,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX12,LearnCodeAI,"No, I didn't spend time learning in the past year",6,129,0.046511627906976744,ok,True,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement as required for my job or to benefit my career",11,129,0.08527131782945736,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX12,LearnCodeAI,"No, I learned something that was not related to AI or AI enablement for my personal curiosity and/or hobbies",12,129,0.09302325581395349,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools for my personal curiosity and/or hobbies",52,129,0.40310077519379844,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX12,LearnCodeAI,"Yes, I learned how to use AI-enabled tools required for my job or to benefit my career",48,129,0.37209302325581395,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX11,AIThreat,I'm not sure,27,130,0.2076923076923077,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX11,AIThreat,No,91,130,0.7,ok,False,SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",2025,BX11,AIThreat,Yes,12,130,0.09230769230769231,ok,False,SRC_SO_2025

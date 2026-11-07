@@ -1,0 +1,201 @@
+{
+  "country": "MX",
+  "source_id": "INEGI_ENOE_2025",
+  "period": "2025 (Q1-Q4 average)",
+  "sources": [
+    {
+      "zip": "enoe_2025_trim1_csv.zip",
+      "sha256": "dddbb698e7f18f63bc256ece61ac0038a5ad062d42aca13390d88828fb27796e"
+    },
+    {
+      "zip": "enoe_2025_trim2_csv.zip",
+      "sha256": "291db61afcc472a0933d2bebf46720cfd024df8912dc899d541d8109bd406722"
+    },
+    {
+      "zip": "enoe_2025_trim3_csv.zip",
+      "sha256": "d2817a14201694e119a3fd6fcb8b8ed7619ea7e26cf8b353761a1ac1f23d6022"
+    },
+    {
+      "zip": "enoe_2025_trim4_csv.zip",
+      "sha256": "e675b41bde4fb3c183a0abd067738109c6aaf30ed314bc9fc548669fb8a1565d"
+    }
+  ],
+  "universe": "r_def = 00, c_res 1 or 3, age 15-98, employed (clase2 = 1); annual = sum of fac_tri over 4 quarters / 4",
+  "layer": "H",
+  "buyer_types": [
+    "Employee, firm 11-250",
+    "Employee, firm 251+",
+    "Employee, firm up to 10",
+    "Government employee",
+    "Other or unknown",
+    "Self-employed or employer"
+  ],
+  "cities": {
+    "01": {
+      "name": "Ciudad de México",
+      "anchor_municipality": "09015"
+    },
+    "02": {
+      "name": "Guadalajara",
+      "anchor_municipality": "14039"
+    },
+    "03": {
+      "name": "Monterrey",
+      "anchor_municipality": "19039"
+    },
+    "04": {
+      "name": "Puebla",
+      "anchor_municipality": "21114"
+    },
+    "05": {
+      "name": "León",
+      "anchor_municipality": "11020"
+    },
+    "06": {
+      "name": "Torreón",
+      "anchor_municipality": "05035"
+    },
+    "07": {
+      "name": "San Luis Potosí",
+      "anchor_municipality": "24028"
+    },
+    "08": {
+      "name": "Mérida",
+      "anchor_municipality": "31050"
+    },
+    "09": {
+      "name": "Chihuahua",
+      "anchor_municipality": "08019"
+    },
+    "10": {
+      "name": "Tampico",
+      "anchor_municipality": "28038"
+    },
+    "12": {
+      "name": "Veracruz",
+      "anchor_municipality": "30193"
+    },
+    "13": {
+      "name": "Acapulco",
+      "anchor_municipality": "12001"
+    },
+    "14": {
+      "name": "Aguascalientes",
+      "anchor_municipality": "01001"
+    },
+    "15": {
+      "name": "Morelia",
+      "anchor_municipality": "16053"
+    },
+    "16": {
+      "name": "Toluca",
+      "anchor_municipality": "15106"
+    },
+    "17": {
+      "name": "Saltillo",
+      "anchor_municipality": "05030"
+    },
+    "18": {
+      "name": "Villahermosa",
+      "anchor_municipality": "27004"
+    },
+    "19": {
+      "name": "Tuxtla Gutiérrez",
+      "anchor_municipality": "07101"
+    },
+    "20": {
+      "name": "Ciudad Juárez",
+      "anchor_municipality": "08037"
+    },
+    "21": {
+      "name": "Tijuana",
+      "anchor_municipality": "02004"
+    },
+    "24": {
+      "name": "Culiacán",
+      "anchor_municipality": "25006"
+    },
+    "25": {
+      "name": "Hermosillo",
+      "anchor_municipality": "26030"
+    },
+    "26": {
+      "name": "Durango",
+      "anchor_municipality": "10005"
+    },
+    "27": {
+      "name": "Tepic",
+      "anchor_municipality": "18017"
+    },
+    "28": {
+      "name": "Campeche",
+      "anchor_municipality": "04002"
+    },
+    "29": {
+      "name": "Cuernavaca",
+      "anchor_municipality": "17007"
+    },
+    "30": {
+      "name": "Coatzacoalcos",
+      "anchor_municipality": "30039"
+    },
+    "31": {
+      "name": "Oaxaca",
+      "anchor_municipality": "20067"
+    },
+    "32": {
+      "name": "Zacatecas",
+      "anchor_municipality": "32056"
+    },
+    "33": {
+      "name": "Colima",
+      "anchor_municipality": "06002"
+    },
+    "36": {
+      "name": "Querétaro",
+      "anchor_municipality": "22014"
+    },
+    "39": {
+      "name": "Tlaxcala",
+      "anchor_municipality": "29033"
+    },
+    "40": {
+      "name": "La Paz",
+      "anchor_municipality": "03003"
+    },
+    "41": {
+      "name": "Cancún",
+      "anchor_municipality": "23005"
+    },
+    "42": {
+      "name": "Ciudad del Carmen",
+      "anchor_municipality": "04003"
+    },
+    "43": {
+      "name": "Pachuca",
+      "anchor_municipality": "13048"
+    },
+    "44": {
+      "name": "Mexicali",
+      "anchor_municipality": "02002"
+    },
+    "46": {
+      "name": "Reynosa",
+      "anchor_municipality": "28032"
+    },
+    "52": {
+      "name": "Tapachula",
+      "anchor_municipality": "07089"
+    }
+  },
+  "cells": 2402,
+  "confidence_rule": "high >= 1,000 interviews, medium 100-999, low < 100 (template H2)",
+  "cells_by_confidence": {
+    "low": 2346,
+    "medium": 56
+  },
+  "notes": {
+    "firm_size_bands": "Employee bands use ENOE p3q: up to 10, 11-250, 251+ (Colombia: up to 10, 11-200, 201+).",
+    "method": "Direct cross-tabulation; cells of each persona add to the persona total."
+  }
+}
