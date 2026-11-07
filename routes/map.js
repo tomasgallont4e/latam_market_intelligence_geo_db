@@ -4,6 +4,7 @@ const express = require('express');
 const data = require('../lib/mapData');
 const cmp = require('../lib/compare');
 const peru = require('../lib/peruData');
+const mexico = require('../lib/mexicoData');
 
 const router = express.Router();
 
@@ -24,6 +25,11 @@ router.get('/api/peru/departments', wrap(() => peru.getDepartmentMap()));
 router.get('/api/peru/districts', wrap((req) => peru.getDistrictMap(req.query)));
 router.get('/api/peru/schools', wrap((req) => peru.getSchools(req.query)));
 router.get('/api/peru/layers', wrap(() => peru.layerSummary()));
+router.get('/api/mexico/map', wrap(() => mexico.getMap()));
+router.get('/api/mexico/states', wrap(() => mexico.getStateMap()));
+router.get('/api/mexico/municipalities', wrap((req) => mexico.getMunicipalityMap(req.query)));
+router.get('/api/mexico/zones', wrap(() => mexico.getZoneMap()));
+router.get('/api/mexico/layers', wrap(() => mexico.layerSummary()));
 router.get('/api/compare/places', wrap((req) => cmp.listPlaces(req.query.level)));
 router.get('/api/compare', wrap((req) => cmp.compare({ level: req.query.level, ids: req.query.ids, persona: req.query.persona })));
 
