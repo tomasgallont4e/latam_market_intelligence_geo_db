@@ -1,0 +1,186 @@
+{
+  "country": "MX",
+  "layer": "R",
+  "R1_published_totals": {
+    "checks": [
+      {
+        "check": "Employed (F), ENOE 2025 Q1",
+        "processed": 59001009,
+        "published": 59000000,
+        "difference_pct": 0.002,
+        "tolerance": "0.5% (bulletin rounded to 0.1 million)",
+        "ok": true
+      },
+      {
+        "check": "Employed (F), ENOE 2025 Q2",
+        "processed": 59440760,
+        "published": 59400000,
+        "difference_pct": 0.069,
+        "tolerance": "0.5% (bulletin rounded to 0.1 million)",
+        "ok": true
+      },
+      {
+        "check": "Employed (F), ENOE 2025 Q3",
+        "processed": 59533449,
+        "published": 59500000,
+        "difference_pct": 0.056,
+        "tolerance": "0.5% (bulletin rounded to 0.1 million)",
+        "ok": true
+      },
+      {
+        "check": "Employed (F), ENOE 2025 Q4",
+        "processed": 59785854,
+        "published": 59800000,
+        "difference_pct": -0.024,
+        "tolerance": "0.5% (bulletin rounded to 0.1 million)",
+        "ok": true
+      },
+      {
+        "check": "employers (M base), ENOE 2025 Q1",
+        "processed": 3043023,
+        "published": 3043023,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "own-account (M base), ENOE 2025 Q1",
+        "processed": 13023470,
+        "published": 13023470,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "employers (M base), ENOE 2025 Q2",
+        "processed": 3541449,
+        "published": 3541449,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "own-account (M base), ENOE 2025 Q2",
+        "processed": 12860970,
+        "published": 12860970,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "employers (M base), ENOE 2025 Q3",
+        "processed": 3675572,
+        "published": 3675572,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "own-account (M base), ENOE 2025 Q3",
+        "processed": 12950556,
+        "published": 12950556,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "employers (M base), ENOE 2025 Q4",
+        "processed": 3572775,
+        "published": 3572775,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "own-account (M base), ENOE 2025 Q4",
+        "processed": 12980516,
+        "published": 12980516,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "Enrolment secundaria (K), 911 2024-2025",
+        "processed": 6293530,
+        "published": 6293530,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "Enrolment media_superior (K), 911 2024-2025",
+        "processed": 5492491,
+        "published": 5492491,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "Higher education (L), 911 2024-2025",
+        "processed": 5519791,
+        "published": 5519791,
+        "difference_pct": 0.0,
+        "tolerance": "1%",
+        "ok": true
+      },
+      {
+        "check": "Businesses (N), DENUE 05/2026",
+        "processed": 6138075,
+        "published": 6138075,
+        "difference_pct": 0.0,
+        "tolerance": "exact",
+        "ok": true
+      }
+    ],
+    "passed": 16,
+    "total": 16
+  },
+  "R2_sources_register": {
+    "sources": 25,
+    "complete": 25,
+    "incomplete": [],
+    "to_confirm": [
+      {
+        "source_id": "INEGI_MARCO_GEOESTADISTICO",
+        "missing": [],
+        "to_confirm": [
+          "dataset_version"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "SEP_911_2024_2025",
+        "missing": [],
+        "to_confirm": [
+          "license"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "CONAPO_PROY_MUN_2024",
+        "missing": [],
+        "to_confirm": [
+          "license"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "BANXICO_FIX_2025",
+        "missing": [],
+        "to_confirm": [
+          "license"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "ANUIES_ANUARIO_2024_2025",
+        "missing": [],
+        "to_confirm": [
+          "license"
+        ],
+        "hash_recorded": true
+      }
+    ]
+  },
+  "table_checks": "node scripts/check-mexico.js (joins, parts add up, published totals, empty-not-zero rules)."
+}

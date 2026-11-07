@@ -1,0 +1,103 @@
+{
+  "country": "MX",
+  "layer": "I",
+  "period": "2025",
+  "sources": {
+    "fix": {
+      "file": "tipoCambio_FIX_2025-01-01_2025-12-31.xls",
+      "sha256": "b068087410c9f6bd6649b3b6322a3ca60c2113383926c31be8e40f9c7034e656",
+      "days": 251,
+      "column": "Determinación"
+    },
+    "minimum_wage": "CONASAMI resolution, DOF 19-12-2024: MXN 278.80 a day (general zone), 419.88 (Zona Libre de la Frontera Norte), from 1 January 2025"
+  },
+  "indicators": {
+    "I1_fix_2025_average": 19.1996,
+    "I1_fix_2025_december_average": 18.0739,
+    "I1_plans_mxn": {
+      "individual": 479.99,
+      "team": 4799.89
+    },
+    "I2_by_persona": [
+      {
+        "persona": "Software developers and analysts",
+        "median_income_mxn": 19350.0,
+        "individual_plan_pct_of_income": 2.48
+      },
+      {
+        "persona": "Database, systems and network professionals",
+        "median_income_mxn": 16000.0,
+        "individual_plan_pct_of_income": 3.0
+      },
+      {
+        "persona": "ICT technicians and user support",
+        "median_income_mxn": 12040.0,
+        "individual_plan_pct_of_income": 3.99
+      },
+      {
+        "persona": "ICT managers",
+        "median_income_mxn": 23000.0,
+        "individual_plan_pct_of_income": 2.09
+      },
+      {
+        "persona": "Designers (graphic, multimedia, product)",
+        "median_income_mxn": 10750.0,
+        "individual_plan_pct_of_income": 4.47
+      },
+      {
+        "persona": "Business and management analysts",
+        "median_income_mxn": 18000.0,
+        "individual_plan_pct_of_income": 2.67
+      },
+      {
+        "persona": "Accountants and auditors",
+        "median_income_mxn": 16000.0,
+        "individual_plan_pct_of_income": 3.0
+      },
+      {
+        "persona": "Finance and investment analysts",
+        "median_income_mxn": 20000.0,
+        "individual_plan_pct_of_income": 2.4
+      },
+      {
+        "persona": "Data, statistics and research specialists",
+        "median_income_mxn": 25000.0,
+        "individual_plan_pct_of_income": 1.92
+      },
+      {
+        "persona": "Marketing and advertising professionals",
+        "median_income_mxn": 17000.0,
+        "individual_plan_pct_of_income": 2.82
+      },
+      {
+        "persona": "Engineers (non-ICT)",
+        "median_income_mxn": 20000.0,
+        "individual_plan_pct_of_income": 2.4
+      },
+      {
+        "persona": "Business and operations managers",
+        "median_income_mxn": 18000.0,
+        "individual_plan_pct_of_income": 2.67
+      },
+      {
+        "persona": "Higher-education and IT educators",
+        "median_income_mxn": 16000.0,
+        "individual_plan_pct_of_income": 3.0
+      }
+    ],
+    "I3": {
+      "individual_plan_pct_of_min_wage_general": 5.66,
+      "individual_plan_pct_of_min_wage_northern_border": 3.76,
+      "individual_plan_pct_of_developer_median_income": 2.48
+    },
+    "min_wage_monthly_mxn": {
+      "general": 8475.52,
+      "northern_border": 12764.35
+    }
+  },
+  "notes": {
+    "rate": "State the rate and its period on every slide: 2025 average FIX.",
+    "monthly_min_wage": "Daily minimum wage × 30.4 days (D-MX-13).",
+    "I2": "Median monthly labour income from ENOE 2025 (fact_persona_profile.median_income_mxn), the official alternative to job boards."
+  }
+}

@@ -118,6 +118,29 @@ if (data.fact_map_indicator) {
   const suppressedNotEmpty = b.filter((r) => /suppress=suppressed/.test(r.limitations) && r.value !== '').length;
   check('layer_b_suppressed', 'Capa B: celdas suprimidas sin valor (nunca cero)', 0, suppressedNotEmpty);
   check('layer_b_mexico', 'Capa B: 158 filas del grupo México (todos los encuestados)', 158, b.filter((r) => r.metric_id.includes(':country:MX:all_respondents:')).length);
+  const oRows = rows.filter((r) => r.layer === 'O');
+  if (oRows.length) {
+    check('layer_o_verified', 'Capa O: datos verificados con valor o texto y fuente', oRows.filter((r) => r.status === 'verified').length,
+      oRows.filter((r) => r.status === 'verified' && r.source_id && (r.value !== '' || r.limitations)).length);
+    check('layer_o_not_checked_empty', 'Capa O: datos no verificados quedan vacíos (nunca cero)', 0,
+      oRows.filter((r) => r.status === 'not_checked' && r.value !== '').length);
+  }
+  const pRows = rows.filter((r) => r.layer === 'P');
+  if (pRows.length && data.fact_schools_municipality && data.fact_companies_municipality) {
+    const pv = (id) => Number((pRows.find((r) => r.metric_id === id) || {}).value);
+    const schools = data.fact_schools_municipality.rows.reduce((s, r) => s + Number(r.schools), 0);
+    const biz = data.fact_companies_municipality.rows.reduce((s, r) => s + Number(r.businesses), 0);
+    check('layer_p_schools', 'Capa P: escuelas = K1 (suma municipal)', schools, pv('P1_schools'));
+    check('layer_p_per_school', 'Capa P: empresas por escuela = N1 ÷ K1', Math.round((biz / schools) * 10) / 10, pv('P3_businesses_per_school'));
+    check('layer_p_assumption', 'Capa P: la conversión del 10 % está marcada como supuesto', 'assumption',
+      (pRows.find((r) => r.metric_id === 'P1_paid_users_at_10pct') || {}).status);
+  }
+  const iRows = rows.filter((r) => r.layer === 'I');
+  if (iRows.length) {
+    const val = (id) => Number((iRows.find((r) => r.metric_id === id) || {}).value);
+    check('layer_i_plans', 'Capa I: plan individual = USD 25 × FIX promedio 2025', Math.round(25 * val('I1_fix_2025_average') * 100) / 100, val('I1_plan_individual_mxn'));
+    check('layer_i_min_wage', 'Capa I: salario mínimo mensual = 278,80 × 30,4', 8475.52, val('I3_min_wage_monthly_general'));
+  }
 }
 
 // Layer F, G, H, M (ENOE 2025): 13 personas, parts add up, published employed totals (layer R1).
@@ -142,6 +165,11 @@ if (data.fact_persona_profile) {
     const q = JSON.parse(fs.readFileSync(fJson, 'utf8')).checks.employed_vs_bulletins;
     const within = Object.values(q).filter((x) => Math.abs(x.difference_pct) <= 0.5).length;
     check('enoe_employed', 'ENOE 2025: ocupados por trimestre dentro de 0,5 % del boletín', 4, within);
+    const mJson = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_m_mx.json');
+    if (fs.existsSync(mJson)) {
+      const pos = Object.values(JSON.parse(fs.readFileSync(mJson, 'utf8')).check_position_totals_vs_bulletins || {}).flatMap((c) => Object.values(c));
+      check('enoe_position', 'ENOE 2025: empleadores y cuenta propia por trimestre dentro de 1 % del boletín', 8, pos.filter((x) => x.within_1pct).length);
+    }
   }
   if (data.fact_ict_by_sector) {
     const core = ['Software developers and analysts', 'Database, systems and network professionals', 'ICT technicians and user support', 'ICT managers']
@@ -151,6 +179,59 @@ if (data.fact_persona_profile) {
   }
   const emptyFromHome = profile.every((p) => p.pct_works_from_home === '');
   check('f10_empty', 'F10 trabajo desde casa: vacío (no disponible), nunca cero', true, emptyFromHome);
+}
+
+// Layer K (SEP 911): published enrolment totals and internal consistency.
+if (data.fact_schools_municipality) {
+  const rows = data.fact_schools_municipality.rows;
+  const kJson = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_k_mx.json');
+  if (fs.existsSync(kJson)) {
+    const k = JSON.parse(fs.readFileSync(kJson, 'utf8'));
+    const pub = Object.values(k.checks.enrolment_vs_principales_cifras);
+    check('k_published', 'SEP 911: secundaria y media superior dentro de 1 % de Principales Cifras', pub.length, pub.filter((x) => x.within_1pct).length);
+    check('k_target_total', 'K2: alumnos en grados objetivo = suma municipal', k.indicators.K2_students_target, rows.reduce((s, r) => s + Number(r.students_target), 0));
+  }
+  check('k_parts', 'Por municipio: grados suman el total; públicos, rurales y alcance ≤ total; escuelas públicas ≤ escuelas', rows.length, rows.filter((r) => {
+    const v = (key) => Number(r[key]);
+    return v('students_sec3') + v('students_ms1') + v('students_ms2') + v('students_ms3') === v('students_target')
+      && v('students_public') <= v('students_target') && v('students_rural') <= v('students_target')
+      && v('reach_cap100') <= v('students_target') && v('reach_cap100') <= 100 * v('schools') && v('schools_public') <= v('schools');
+  }).length);
+}
+
+// Layers C and L (SEP 911 superior): published total, on campus within total, ICT field kept empty.
+if (data.fact_higher_ed_municipality) {
+  const rows = data.fact_higher_ed_municipality.rows;
+  const lJson = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_l_mx.json');
+  if (fs.existsSync(lJson)) {
+    const l = JSON.parse(fs.readFileSync(lJson, 'utf8')).check_total_vs_principales_cifras;
+    check('l_published', 'SEP 911 superior: total dentro de 1 % de Principales Cifras', l.published, l.file_total, Math.abs(l.difference_pct) <= 1);
+    check('l_total_sum', 'Educación superior: suma municipal = total nacional', l.file_total, rows.reduce((s, r) => s + Number(r.students_total), 0));
+  }
+  check('l_on_campus', 'Presencial ≤ total en cada municipio', rows.length, rows.filter((r) => Number(r.students_on_campus) <= Number(r.students_total)).length);
+  check('c1_ict_le_total', 'Alumnos TIC ≤ total en cada municipio', rows.length,
+    rows.filter((r) => r.students_ict_field !== '' && Number(r.students_ict_field) <= Number(r.students_total)).length);
+  const cJson = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_c_mx.json');
+  if (fs.existsSync(cJson)) {
+    const c1 = JSON.parse(fs.readFileSync(cJson, 'utf8')).indicators.C1_ict_students;
+    check('c1_sum', 'C1: alumnos TIC = suma municipal', c1, rows.reduce((s, r) => s + Number(r.students_ict_field || 0), 0));
+  }
+}
+
+// Layer E (CONAPO): positive population, one row per municipality, never zero-filled.
+if (data.fact_population_municipality) {
+  const rows = data.fact_population_municipality.rows;
+  check('e_rows', 'Población 2024: filas únicas con valor positivo', rows.length,
+    new Set(rows.filter((r) => Number(r.population) > 0 && r.year === '2024').map((r) => r.municipality_code)).size);
+  check('e_coverage', 'Población 2024: municipios del catálogo con proyección (faltan solo los 3 más nuevos)', muni.length - 3, rows.length);
+}
+
+// Layer R: summary of every published-total check and of the sources register (scripts/build-mexico-r-checks.py).
+const rJson = path.join(__dirname, '..', 'data', 'mexico', 'validation', 'r_checks_mx.json');
+if (fs.existsSync(rJson)) {
+  const r = JSON.parse(fs.readFileSync(rJson, 'utf8'));
+  check('r1', 'R1: totales contra cifras publicadas (todos dentro de tolerancia)', r.R1_published_totals.total, r.R1_published_totals.passed);
+  check('r2', 'R2: registro de fuentes completo (URL, periodo, archivo, hash, licencia, script)', r.R2_sources_register.sources, r.R2_sources_register.complete);
 }
 
 // Every code column in every table must join to its geography (lib/acceptance.js "Códigos sin unir").

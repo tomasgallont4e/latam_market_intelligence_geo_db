@@ -9,8 +9,10 @@ Todo lo que se guarde aquí, salvo este archivo, queda fuera de Git (`.gitignore
 | `inegi_enoe_2025/` | INEGI ENOE, microdatos | F, G, H, M | Los cuatro trimestres de 2025 (`microdatos/`), todas las tablas, con la estructura de la base de datos y los cuestionarios (`documentacion/`) |
 | `inegi_sinco_ciuo/` | INEGI SINCO 2019 y tablas comparativas SINCO 2011 – CIUO-08 | F (mapeo de ocupaciones) | Manual SINCO 2019 (anexo de equivalencia 2011-2019), fe de erratas, `sinco_tablas_comparativas.xlsx`, estructura CIUO-08 y clasificaciones de la ENOE |
 | `inegi_denue_2026_05/` | INEGI DENUE 05/2026, descarga masiva | D, J, N | Los 25 archivos nacionales por sector (`denue_00_*_csv.zip`) y el diccionario de datos |
-| `sep_911_2025_2026/` | SEP Formato 911 (datos.gob.mx) | C, K, L | Secundaria, media superior, superior escolarizada y no escolarizada, con sus diccionarios. Descarga manual: el sitio bloquea accesos automatizados |
-| `conapo_proyecciones_municipales/` | CONAPO, proyecciones municipales 1990-2040 | E | Población a mitad de año por municipio |
+| `layers_C_K_L_sep_formato911_2024_2025/` | SEP Formato 911, ciclo 2024-2025 (datos.gob.mx) | C, K, L | Básica, media superior, superior escolarizada y no escolarizada (CSV por escuela). Descarga manual: el sitio bloquea accesos automatizados |
+| `layer_E_conapo_proyecciones_municipios_1990_2040/` | CONAPO, proyecciones municipales 1990-2040 (2024) | E | `00_Republica_mexicana.zip` (población a mitad de año por municipio), metodología y resultados |
 | `inegi_catalogo_unico_202610/` | INEGI Catálogo Único de Claves | Q | Catálogo completo de estados, municipios y localidades, con su fecha de corte |
 | `inegi_marco_geoestadistico/` | INEGI Marco Geoestadístico | Q (mapa) | Polígonos estatales y municipales |
-| `contexto/` | Banxico, CONASAMI, ENDUTIH, ENIF, DOF, SAT, ATDT | I, O, P | Documentos de respaldo de las cifras y normas de contexto |
+| `layer_I_banxico_fix_2025/`, `layers_I_O_dof_salarios_minimos_2025/`, `layer_O_context/`, `layer_O_atdt_plan_nacional_ia_2026/`, `layers_O_P_leyes_camara_diputados/`, `layer_M_notes/` | Banxico FIX 2025, CONASAMI (DOF 19-12-2024), ENDUTIH 2025, ENIF 2024, Plan Nacional de IA, LFPDPPP, LIVA, LISR, nota ENAMIN | I, O, P, M | Documentos de respaldo de las cifras y normas de contexto |
+| `layer_R_checks/` | Boletines ENOE 2025, boletín DENUE 05/2026, SEP Principales Cifras 2024-2025 | R | Totales publicados para las comprobaciones |
+| `sedatu_metropolis_2020/` | SEDATU, CONAPO e INEGI, Metrópolis de México 2020, parte 17 | J | Cuadros A.19.1.01 y B.19.1.01 de la Zona Metropolitana de Monterrey (descargado de gob.mx) |

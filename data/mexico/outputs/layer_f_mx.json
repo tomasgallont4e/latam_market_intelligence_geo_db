@@ -29,28 +29,76 @@
         "published_millions": 59.0,
         "difference_pct": 0.002,
         "within_tolerance": true,
-        "records_without_occupation_record": 0
+        "records_without_occupation_record": 0,
+        "employers_vs_bulletin": {
+          "microdata": 3043023,
+          "published": 3043023,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        },
+        "own_account_vs_bulletin": {
+          "microdata": 13023470,
+          "published": 13023470,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        }
       },
       "Q2": {
         "employed": 59440760,
         "published_millions": 59.4,
         "difference_pct": 0.069,
         "within_tolerance": true,
-        "records_without_occupation_record": 0
+        "records_without_occupation_record": 0,
+        "employers_vs_bulletin": {
+          "microdata": 3541449,
+          "published": 3541449,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        },
+        "own_account_vs_bulletin": {
+          "microdata": 12860970,
+          "published": 12860970,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        }
       },
       "Q3": {
         "employed": 59533449,
         "published_millions": 59.5,
         "difference_pct": 0.056,
         "within_tolerance": true,
-        "records_without_occupation_record": 0
+        "records_without_occupation_record": 0,
+        "employers_vs_bulletin": {
+          "microdata": 3675572,
+          "published": 3675572,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        },
+        "own_account_vs_bulletin": {
+          "microdata": 12950556,
+          "published": 12950556,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        }
       },
       "Q4": {
         "employed": 59785854,
         "published_millions": 59.8,
         "difference_pct": -0.024,
         "within_tolerance": true,
-        "records_without_occupation_record": 0
+        "records_without_occupation_record": 0,
+        "employers_vs_bulletin": {
+          "microdata": 3572775,
+          "published": 3572775,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        },
+        "own_account_vs_bulletin": {
+          "microdata": 12980516,
+          "published": 12980516,
+          "difference_pct": 0.0,
+          "within_1pct": true
+        }
       }
     },
     "parts_add_up": true,

@@ -28,6 +28,65 @@
     "own_account": 12869904,
     "employers": 2882493
   },
+  "check_position_totals_vs_bulletins": {
+    "Q1": {
+      "employers_vs_bulletin": {
+        "microdata": 3043023,
+        "published": 3043023,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 13023470,
+        "published": 13023470,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "Q2": {
+      "employers_vs_bulletin": {
+        "microdata": 3541449,
+        "published": 3541449,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 12860970,
+        "published": 12860970,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "Q3": {
+      "employers_vs_bulletin": {
+        "microdata": 3675572,
+        "published": 3675572,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 12950556,
+        "published": 12950556,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "Q4": {
+      "employers_vs_bulletin": {
+        "microdata": 3572775,
+        "published": 3572775,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 12980516,
+        "published": 12980516,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    }
+  },
+  "check_note": "No micro-business total is published. All-size employers and own-account workers in the microdata are checked against the quarterly bulletins (within 1%); M1 is the subset in units of up to 10 people.",
   "M4_digital": null,
   "M6_median_monthly_owner_income_mxn": 6450.0,
   "notes": {

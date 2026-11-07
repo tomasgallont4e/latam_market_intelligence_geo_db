@@ -1,0 +1,233 @@
+{
+  "country": "MX",
+  "layer": "O",
+  "sources": {
+    "CONASAMI_DOF_20241219": {
+      "file": "layers_I_O_dof_salarios_minimos_2025/CONASAMI_191224.pdf",
+      "sha256": "d52d99def335289aaa71ce6e40d2af86456567c6cc531dea321cd36660f478b0"
+    },
+    "INEGI_ENIF_2024": {
+      "file": "layer_O_context/inegi_enif_2024/ENIF2024_CP.pdf",
+      "sha256": "bb4ab0ca5434dea1be12a259e4db3c43ea3c7f10c7c8cfdaa7356c02f8be8163"
+    },
+    "LIVA_DOF_20211112": {
+      "file": "layers_O_P_leyes_camara_diputados/LIVA_ultima_reforma_DOF_2021-11-12.pdf",
+      "sha256": "f2b5b1770441a6a4e48f3ade408f9ff7a3e9c81bd5d529e52484f49e4a8e91a6"
+    },
+    "LFPDPPP_DOF_20251114": {
+      "file": "layers_O_P_leyes_camara_diputados/LFPDPPP_ultima_reforma_DOF_2025-11-14.pdf",
+      "sha256": "04d67464e1efc0472040e2ff8012ced52c73ff4fc3573c8e2d3477fd976359c6"
+    },
+    "ATDT_PLAN_IA_2026": {
+      "file": "layer_O_atdt_plan_nacional_ia_2026/Plan-Nacional-de-IA.pdf",
+      "sha256": "978cd9f059b1ba6808f50652443361fa254281c1daa0666343dd2c897453d91e"
+    },
+    "INEGI_ENDUTIH_2025": {
+      "file": "layer_O_context/inegi_endutih_2025/ENDUTIH_25.pdf",
+      "sha256": "058031f40e3227ea1b6058de4162bef8428eaf76d455290f1fc8885ccb1446da"
+    }
+  },
+  "facts": [
+    {
+      "metric_id": "O1_min_wage_daily",
+      "indicator": "Minimum wage 2025, general zone",
+      "value": 278.8,
+      "unit": "MXN per day",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "CONASAMI_DOF_20241219",
+      "limitations": "Zona Libre de la Frontera Norte: MXN 419.88 a day."
+    },
+    {
+      "metric_id": "O1_min_wage_daily_northern_border",
+      "indicator": "Minimum wage 2025, northern border zone",
+      "value": 419.88,
+      "unit": "MXN per day",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "CONASAMI_DOF_20241219",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O1_min_wage_monthly",
+      "indicator": "Minimum wage 2025, general zone, monthly",
+      "value": 8475.52,
+      "unit": "MXN per month",
+      "period": "2025",
+      "status": "derived",
+      "source_id": "CONASAMI_DOF_20241219",
+      "limitations": "Daily × 30.4 days (D-MX-13)."
+    },
+    {
+      "metric_id": "O1_developer_median_income",
+      "indicator": "Developer median monthly labour income (persona P01)",
+      "value": 19350.0,
+      "unit": "MXN per month",
+      "period": "2025",
+      "status": "derived",
+      "source_id": "INEGI_ENOE_2025",
+      "limitations": "Weighted median of ENOE 2025 ingocup among developers reporting income (fact_persona_profile)."
+    },
+    {
+      "metric_id": "O1_gdp_per_capita",
+      "indicator": "GDP per capita (IMF WEO)",
+      "value": "",
+      "unit": "USD",
+      "period": "2025",
+      "status": "not_checked",
+      "source_id": "IMF_WEO",
+      "limitations": "International source not supplied; left empty, never zero."
+    },
+    {
+      "metric_id": "O2_financial_product",
+      "indicator": "Population with at least one formal financial product",
+      "value": 76.5,
+      "unit": "percent",
+      "period": "2024",
+      "status": "verified",
+      "source_id": "INEGI_ENIF_2024",
+      "limitations": "ENIF 2024 (no 2025 edition). Account or savings card, credit, insurance or retirement account. The release text refers to people aged 15-70; its chart notes say 18-70."
+    },
+    {
+      "metric_id": "O2_formal_credit",
+      "indicator": "Population with at least one formal credit",
+      "value": 37.3,
+      "unit": "percent",
+      "period": "2024",
+      "status": "verified",
+      "source_id": "INEGI_ENIF_2024",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O2_insurance",
+      "indicator": "Population with insurance",
+      "value": 22.9,
+      "unit": "percent",
+      "period": "2024",
+      "status": "verified",
+      "source_id": "INEGI_ENIF_2024",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O2_instant_payments",
+      "indicator": "Instant payments (SPEI, CoDi, DiMo)",
+      "value": "",
+      "unit": "",
+      "period": "2025",
+      "status": "not_checked",
+      "source_id": "BANXICO_SPEI",
+      "limitations": "SPEI (since 2004) with CoDi and DiMo on top, per the source register; Banxico statistics not supplied."
+    },
+    {
+      "metric_id": "O3_vat_rate",
+      "indicator": "VAT rate (IVA), including digital services from abroad",
+      "value": 16,
+      "unit": "percent",
+      "period": "in force 2026",
+      "status": "verified",
+      "source_id": "LIVA_DOF_20211112",
+      "limitations": "Ley del IVA art. 1; chapter III BIS (arts. 18-B onwards, added DOF 09-12-2019) taxes digital services provided by residents abroad without establishment in Mexico."
+    },
+    {
+      "metric_id": "O3_digital_services_chapter",
+      "indicator": "VAT on digital services from abroad (Ley del IVA, chapter III BIS)",
+      "value": "",
+      "unit": "",
+      "period": "in force 2026",
+      "status": "verified",
+      "source_id": "LIVA_DOF_20211112",
+      "limitations": "Foreign providers register with SAT (per the source register)."
+    },
+    {
+      "metric_id": "O4_data_protection_authority",
+      "indicator": "Data protection: law and authority",
+      "value": "",
+      "unit": "",
+      "period": "in force 2026",
+      "status": "verified",
+      "source_id": "LFPDPPP_DOF_20251114",
+      "limitations": "Ley Federal de Protección de Datos Personales en Posesión de los Particulares (2025; last reform DOF 14-11-2025). Authority: Secretaría Anticorrupción y Buen Gobierno, which absorbed INAI."
+    },
+    {
+      "metric_id": "O4_consent",
+      "indicator": "Data protection: consent",
+      "value": "",
+      "unit": "",
+      "period": "in force 2026",
+      "status": "verified",
+      "source_id": "LFPDPPP_DOF_20251114",
+      "limitations": "Art. 7: every processing requires the data subject's consent, express or tacit; exceptions in art. 9. The law text has no article specific to minors (P5)."
+    },
+    {
+      "metric_id": "O5_ai_policy",
+      "indicator": "National AI policy",
+      "value": "",
+      "unit": "",
+      "period": "2026",
+      "status": "verified",
+      "source_id": "ATDT_PLAN_IA_2026",
+      "limitations": "Plan Nacional de Inteligencia Artificial (ATDT, 2026): a public-policy plan, not a law; it cites the Principios de Chapultepec (29-01-2026) as the first official ethical framework. The document gives no funding amount."
+    },
+    {
+      "metric_id": "O6_internet_users_pct",
+      "indicator": "People aged 6+ who used the internet",
+      "value": 86.1,
+      "unit": "percent",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_internet_users_millions",
+      "indicator": "People aged 6+ who used the internet",
+      "value": 104.9,
+      "unit": "million people",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_households_internet_pct",
+      "indicator": "Households with internet",
+      "value": 78.3,
+      "unit": "percent",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_computer_use_pct",
+      "indicator": "People aged 6+ who used a computer",
+      "value": 38.1,
+      "unit": "percent",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_broadband_speed",
+      "indicator": "Fixed broadband speed / desktop share of traffic",
+      "value": "",
+      "unit": "",
+      "period": "2025",
+      "status": "not_checked",
+      "source_id": "DATAREPORTAL_STATCOUNTER",
+      "limitations": "International sources not supplied; left empty."
+    },
+    {
+      "metric_id": "O7_pestel",
+      "indicator": "PESTEL summary",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "status": "pending",
+      "source_id": "O1-O6",
+      "limitations": "One line per factor, written in the deck from O1-O6."
+    }
+  ],
+  "evidence_rule": "Every verified fact was matched against its quoted phrase in the source PDF at build time."
+}

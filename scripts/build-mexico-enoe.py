@@ -22,6 +22,11 @@ QUARTERS = (1, 2, 3, 4)
 # Published employed totals, ENOE quarterly bulletins 265/25, 433/25, 636/25 and 97/26 (millions, one decimal).
 PUBLISHED_EMPLOYED_M = {1: 59.0, 2: 59.4, 3: 59.5, 4: 59.8}
 TOLERANCE = 0.005  # template: employed within 0.5%
+# Employers and own-account workers (all sizes), same bulletins, table "Población ocupada por posición en la ocupación"
+# (p. 6, 2025 column). No micro-business total is published, so layer M is checked through these (tolerance 1%).
+PUBLISHED_POSITION = {1: {'employers': 3043023, 'own_account': 13023470}, 2: {'employers': 3541449, 'own_account': 12860970},
+                      3: {'employers': 3675572, 'own_account': 12950556}, 4: {'employers': 3572775, 'own_account': 12980516}}
+M_TOLERANCE = 0.01
 KEY = ('cd_a', 'ent', 'con', 'v_sel', 'n_hog', 'h_mud', 'n_ren')
 RENAMES = {'cve_ent': 'ent', 'cve_mun': 'mun', 'cve_loc': 'loc', 'cve_ageb': 'ageb'}  # renamed by INEGI from Q3 2025
 PERSONA_ID = {'2511': 'P01', '2521': 'P02', '3511': 'P03', '1330': 'P04', '2163': 'P05', '2421': 'P06', '2412': 'P07',
@@ -149,6 +154,7 @@ for q in QUARTERS:
         coe1 = {tuple(r[k] for k in KEY): (r['p3'], workplace_size(r, size_var), r['p4a'], r['p4e'], r['p4f'], r['p4g'])
                 for r in rows(z, names[f'ENOE_COE1T{q}25.CSV'])}
         employed, missing = 0.0, 0
+        position = Counter()
         for r in rows(z, names[f'ENOE_SDEMT{q}25.CSV']):
             if r['r_def'] not in ('0', '00') or r['c_res'] not in ('1', '3') or not r['eda'].isdigit() or not 15 <= int(r['eda']) <= 98:
                 continue
@@ -156,6 +162,7 @@ for q in QUARTERS:
                 continue
             w = float(r['fac_tri'])
             employed += w
+            position[r['pos_ocu']] += w
             occ = coe1.get(tuple(r[k] for k in KEY))
             if occ is None:
                 missing += 1
@@ -172,6 +179,13 @@ for q in QUARTERS:
                        'difference_pct': round(100 * (employed - published) / published, 3),
                        'within_tolerance': abs(employed - published) <= max(TOLERANCE * published, 0.05e6),
                        'records_without_occupation_record': missing}
+    for key, code in (('employers', '2'), ('own_account', '3')):
+        pub = PUBLISHED_POSITION[q][key]
+        checks[f'Q{q}'][f'{key}_vs_bulletin'] = {'microdata': round(position[code]), 'published': pub,
+                                                  'difference_pct': round(100 * (position[code] - pub) / pub, 3),
+                                                  'within_1pct': abs(position[code] - pub) <= M_TOLERANCE * pub}
+        if not checks[f'Q{q}'][f'{key}_vs_bulletin']['within_1pct']:
+            sys.exit(f'Q{q} {key} {position[code]:,.0f} differs from the published {pub:,} by more than 1%')
     if not checks[f'Q{q}']['within_tolerance']:
         sys.exit(f'Q{q} employed {employed:,.0f} differs from the published {published:,.0f} by more than 0.5%')
 Q, W, PID, P3, ENT, CDA, POS, TUE3, P3Q, SCIAN, TECH, SEX, EDA, EDU, INC, STRAT, UR, TUEP, P4E, P4F, P4G, PROF5411 = range(22)
@@ -349,6 +363,8 @@ layer_h = {**common, 'layer': 'H', 'buyer_types': sorted({x['buyer_type'] for x 
 layer_m = {**common, 'layer': 'M', 'M1_micro_businesses': round(micro_total),
            'definition': 'Own-account workers and employers (pos_ocu 2-3) whose workplace has up to 10 people (p3q 01-03), the template fallback; ENAMIN was discontinued after 2012.',
            'M1_by_position': {'own_account': round(annual([r for r in micro_rs if r[POS] == '3'])), 'employers': round(annual([r for r in micro_rs if r[POS] == '2']))},
+           'check_position_totals_vs_bulletins': {q: {k: v for k, v in c.items() if k.endswith('_vs_bulletin')} for q, c in checks.items()},
+           'check_note': 'No micro-business total is published. All-size employers and own-account workers in the microdata are checked against the quarterly bulletins (within 1%); M1 is the subset in units of up to 10 people.',
            'M4_digital': None, 'M6_median_monthly_owner_income_mxn': wmedian([(r[INC], r[W]) for r in micro_rs if r[INC]]),
            'notes': {'M4_digital': 'No 2025 source (Censos Económicos 2024 refer to 2023; left out to keep one period).',
                      'M6': 'Not sales: ENOE has no business sales question; this is the owner\'s labour income, labelled as such.',

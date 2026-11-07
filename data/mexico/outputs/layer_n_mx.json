@@ -688,7 +688,7 @@
         "share_of_businesses_pct": 1.2
       }
     },
-    "N4_businesses_per_school": null,
+    "N4_businesses_per_school": 99.2,
     "size_bands_all_establishments": {
       "0 a 5 personas": 5378989,
       "6 a 10 personas": 384382,
@@ -701,6 +701,40 @@
     "unit_type": {
       "Fijo": 5964036,
       "Semifijo": 174039
+    },
+    "N4_businesses_per_school_by_state": {
+      "01": 118.0,
+      "02": 142.1,
+      "03": 120.2,
+      "04": 92.3,
+      "05": 99.2,
+      "06": 108.2,
+      "07": 62.3,
+      "08": 86.9,
+      "09": 262.3,
+      "10": 50.3,
+      "11": 98.7,
+      "12": 63.0,
+      "13": 85.0,
+      "14": 137.8,
+      "15": 134.9,
+      "16": 107.0,
+      "17": 130.7,
+      "18": 77.5,
+      "19": 125.9,
+      "20": 76.5,
+      "21": 93.9,
+      "22": 122.4,
+      "23": 92.5,
+      "24": 57.5,
+      "25": 87.1,
+      "26": 119.3,
+      "27": 79.4,
+      "28": 118.1,
+      "29": 171.1,
+      "30": 62.6,
+      "31": 124.8,
+      "32": 49.0
     }
   },
   "checks": {
@@ -720,7 +754,7 @@
   "notes": {
     "N1_businesses": "Private-business universe, closest to Colombia RUES (private merchants): excludes SCIAN 813 associations, cooperatives identified by legal name (COOPERATIVA, S.C. de R.L., S.C.L.) and public-sector establishments (SCIAN 93 and the classes whose name says 'sector público').",
     "N2": "Establishments with and without a razón social recorded; a proxy for legal entities vs natural persons, counted by establishment, not by firm.",
-    "N4_businesses_per_school": "Pending layer K (schools, cycle 2025-2026)."
+    "N4_businesses_per_school": "N1 private businesses (DENUE 05/2026) ÷ K1 schools by CCT (SEP 911 2024-2025); added by build-mexico-p-programme.py."
   },
   "limitations": "DENUE includes informal fixed and semi-fixed premises and has no renewal flag, so \"active in the year\" cannot be applied as in Colombia. Counts are establishments, not firms."
 }
