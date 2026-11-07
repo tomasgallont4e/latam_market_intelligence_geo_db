@@ -87,10 +87,74 @@
     }
   },
   "check_note": "No micro-business total is published. All-size employers and own-account workers in the microdata are checked against the quarterly bulletins (within 1%); M1 is the subset in units of up to 10 people.",
-  "M4_digital": null,
+  "M4_digital": {
+    "micro_units_total": 5214497,
+    "indicators": {
+      "computer_or_tablet": {
+        "units": 1167527,
+        "pct": 22.4
+      },
+      "internet": {
+        "units": 1230187,
+        "pct": 23.6
+      },
+      "mobile_phone": {
+        "units": 1796177,
+        "pct": 34.4
+      },
+      "email": {
+        "units": 622361,
+        "pct": 11.9
+      },
+      "social_media_promotion": {
+        "units": 638820,
+        "pct": 12.3
+      },
+      "website": {
+        "units": 204579,
+        "pct": 3.9
+      },
+      "any_digital_technology": {
+        "units": 1063805,
+        "pct": 20.4
+      },
+      "internet_banking": {
+        "units": 743372,
+        "pct": 14.3
+      },
+      "cloud_services": {
+        "units": 250450,
+        "pct": 4.8
+      },
+      "artificial_intelligence": {
+        "units": 6749,
+        "pct": 0.1
+      },
+      "online_sales": {
+        "units": 231418,
+        "pct": 4.4
+      },
+      "online_sales_social_media": {
+        "units": 60187,
+        "pct": 1.2
+      },
+      "online_purchases": {
+        "units": 264292,
+        "pct": 5.1
+      }
+    },
+    "period": "2023",
+    "universe": "fixed economic units with 0 to 10 people (census)",
+    "source_id": "INEGI_CE_2024",
+    "edition": "Censos Económicos 2024 (reference year 2023), open data 2025-09-25 and tabulation CE_TEMACE_1",
+    "sha256": {
+      "conjunto_de_datos_ce_nac_2024_csv.zip": "f38b2b476b6157c8c53991e04684be870d0ac8d50c2d34d61e43cb663f892aae",
+      "CE_TEMACE_1_tema_entidad_estrato_2023.xlsx": "471c3bd14b9aa16cad0148acfa5fc2b469b916c952547d7870aa95c178fc559d"
+    }
+  },
   "M6_median_monthly_owner_income_mxn": 6450.0,
   "notes": {
-    "M4_digital": "No 2025 source (Censos Económicos 2024 refer to 2023; left out to keep one period).",
+    "M4_digital": "Censos Económicos 2024, reference year 2023 (D-MX-15). Universe: fixed economic units with 0-10 people (5.2 million); M1 (ENOE 2025, 15.8 million) also counts street and home-based businesses, so these shares are not applied to M1.",
     "M6": "Not sales: ENOE has no business sales question; this is the owner's labour income, labelled as such.",
     "size_limit": "Up to 10 people: ENOE p3q bands give 1, 2-5, 6-10, so the template limit of 9 cannot be applied."
   }

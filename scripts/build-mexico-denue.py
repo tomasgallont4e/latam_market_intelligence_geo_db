@@ -202,7 +202,7 @@ layer_d = {
     },
     'notes': {
         'D1_software_only': 'Not available: SCIAN 2018 541510 covers software development, IT consulting and other IT services together (ISIC 6201, 6202, 6209).',
-        'D3_industry_census': 'Left out by the Mexico source register to keep one period (Censos Económicos 2024 refer to 2023).',
+        'D3_industry_census': 'Filled by build-mexico-d3-m4-census.py (Censos Económicos 2024, reference year 2023; D-MX-15).',
     },
     'limitations': 'DENUE counts establishments with a physical location, not firms or registrations: home-based and freelance IT work is largely absent, and a firm with several branches counts once per branch. Not comparable in level with registry counts such as Colombia RUES.',
 }

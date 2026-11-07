@@ -33,12 +33,12 @@
       "normal": 127938
     },
     "L2_by_subcontrol": {
+      "Federal Transferido": 103437,
+      "Estatal": 879551,
       "Federal": 743883,
       "Subsidio": 808,
-      "Privado": 2101023,
-      "Federal Transferido": 103437,
       "Autónomo": 1691089,
-      "Estatal": 879551
+      "Privado": 2101023
     },
     "L2_by_modality": {
       "escolarizada": 4059754,
@@ -89,16 +89,60 @@
     },
     "L4_ict_first_year_entrants": 82345,
     "ict_graduates": 48678,
+    "L5_tecnm_students": 573976,
+    "L5_tecnm_by_unit": {
+      "UNIDADES DESCENTRALIZADAS DEL TECNOLOGICO NACIONAL DE MEXICO": 230886,
+      "UNIDADES FEDERALES DEL TECNOLOGICO NACIONAL DE MEXICO": 343090
+    },
     "L4_first_year_entrants": 1293070,
     "L4_by_level": {
       "tecnico_superior": 108624,
       "licenciatura": 1150652,
       "normal": 33794
     },
-    "L5_tecnm_approx_students": 534062,
     "L5_conalep_approx_students": 324374,
     "L5_conalep_approx_schools": 548,
-    "L5_capacitacion_para_el_trabajo": null,
+    "L5_capacitacion_para_el_trabajo": {
+      "students": 2153875,
+      "schools": 4146,
+      "women_pct": 61.8,
+      "by_state": {
+        "01": 29645,
+        "02": 25998,
+        "03": 22457,
+        "04": 71190,
+        "05": 41587,
+        "06": 8021,
+        "07": 127177,
+        "08": 131107,
+        "09": 83494,
+        "10": 17593,
+        "11": 139570,
+        "12": 56215,
+        "13": 105302,
+        "14": 98442,
+        "15": 203236,
+        "16": 69926,
+        "17": 49799,
+        "18": 35606,
+        "19": 86313,
+        "20": 64145,
+        "21": 54073,
+        "22": 33288,
+        "23": 38981,
+        "24": 109130,
+        "25": 163346,
+        "26": 57007,
+        "27": 30048,
+        "28": 61688,
+        "29": 27511,
+        "30": 86042,
+        "31": 15046,
+        "32": 10892
+      },
+      "file": "sep_capacitacion_para_el_trabajo_2024-2025_por_entidad.xlsx",
+      "sha256": "21112619eadce8041a745859f161d011b92fe5ff93b9b2482263ed0744ad51e7"
+    },
     "L6_on_campus_top_municipalities": [
       {
         "municipality_code": "21114",
@@ -199,7 +243,7 @@
   "notes": {
     "L3_ict_share": "Percent of all higher-education students in the ICT broad field (ANUIES programme-level file, D-MX-14).",
     "L4": "New entrants (ni_) in técnico superior, licenciatura and normal, both modalities; posgrado excluded.",
-    "L5": "Approximations: TecNM = public institutions named \"Instituto Tecnológico…\"; CONALEP = media superior schools named CONALEP or Educación Profesional Técnica. The 911 files carry no TecNM or CONALEP flag. Capacitación para el trabajo is reported in a separate 911 form, not supplied.",
+    "L5": "TecNM = the ANUIES subsystems \"Unidades federales\" and \"Unidades descentralizadas del Tecnológico Nacional de México\" (exact). CONALEP = media superior schools named CONALEP or Educación Profesional Técnica. The 911 files carry no TecNM or CONALEP flag. Capacitación para el trabajo comes from its own 911 form (SEP, cycle 2024-2025, by state); it is outside higher education and is not added to L1.",
     "L7": "3º of media superior vs first-year entrants of the same cycle."
   }
 }

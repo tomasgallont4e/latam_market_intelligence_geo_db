@@ -136,8 +136,8 @@
     "total": 16
   },
   "R2_sources_register": {
-    "sources": 25,
-    "complete": 25,
+    "sources": 31,
+    "complete": 31,
     "incomplete": [],
     "to_confirm": [
       {
@@ -174,6 +174,31 @@
       },
       {
         "source_id": "ANUIES_ANUARIO_2024_2025",
+        "missing": [],
+        "to_confirm": [
+          "license"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "SEP_CAPACITACION_2024_2025",
+        "missing": [],
+        "to_confirm": [
+          "license",
+          "url"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "BANXICO_SPEI_CODI_2025",
+        "missing": [],
+        "to_confirm": [
+          "license"
+        ],
+        "hash_recorded": true
+      },
+      {
+        "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
         "missing": [],
         "to_confirm": [
           "license"

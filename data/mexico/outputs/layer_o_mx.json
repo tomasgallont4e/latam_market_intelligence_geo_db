@@ -25,6 +25,27 @@
     "INEGI_ENDUTIH_2025": {
       "file": "layer_O_context/inegi_endutih_2025/ENDUTIH_25.pdf",
       "sha256": "058031f40e3227ea1b6058de4162bef8428eaf76d455290f1fc8885ccb1446da"
+    },
+    "IMF_WEO_DATAMAPPER": {
+      "file": "layer_O1_imf_weo_gdp_per_capita\\imf_datamapper_NGDPDPC_downloaded_2026-11-07.json",
+      "sha256": "d1143922c6ec0248cfc715d66c6d90f347396879a94ef464d150b7b98b75db17"
+    },
+    "BANXICO_SPEI_CODI_2025": {
+      "file": "layer_O2_banxico_spei_codi_2025/ (one xlsx per series)",
+      "sha256": {
+        "CF891": "3ba1efe5189f37c211617d825eccb60ff99422751f2dd9b285543a40c9055bda",
+        "CF890": "5fca1103fc49f9805ee5af86894289261bbd8225460516946c3ca5f483891519",
+        "CF884": "af3e4df46093ac80ad39717bdd26b1a83380b9293233b6260cee2753a4a2f905",
+        "CF882": "3ea9612886d5459f3ce629e66dbaefb601c38c85cc277538b7e1a42bddec582e"
+      }
+    },
+    "DATAREPORTAL_DIGITAL_2026_MX": {
+      "file": "layer_O6_datareportal_digital_2026_mexico\\digital-2026-mexico_page_downloaded_2026-11-07.html",
+      "sha256": "07927d74f916fee4d0083cec7ce663507763ceb69d6d299e734bfb93c32e4f3c"
+    },
+    "STATCOUNTER_2025": {
+      "file": "layer_O6_statcounter_2025\\statcounter_desktop_mobile_tablet_MX_yearly_2025.csv",
+      "sha256": "09d0f4407aa3423928d21c5aaa03feb244c425855596df7467efa17decc54aa8"
     }
   },
   "facts": [
@@ -71,12 +92,12 @@
     {
       "metric_id": "O1_gdp_per_capita",
       "indicator": "GDP per capita (IMF WEO)",
-      "value": "",
+      "value": 13759.3,
       "unit": "USD",
       "period": "2025",
-      "status": "not_checked",
-      "source_id": "IMF_WEO",
-      "limitations": "International source not supplied; left empty, never zero."
+      "status": "verified",
+      "source_id": "IMF_WEO_DATAMAPPER",
+      "limitations": "IMF World Economic Outlook, DataMapper indicator NGDPDPC (current USD), as served on 2026-11-07. Same file: Colombia 8,617, Peru 9,938."
     },
     {
       "metric_id": "O2_financial_product",
@@ -109,14 +130,44 @@
       "limitations": ""
     },
     {
-      "metric_id": "O2_instant_payments",
-      "indicator": "Instant payments (SPEI, CoDi, DiMo)",
-      "value": "",
-      "unit": "",
+      "metric_id": "O2_spei_operations",
+      "indicator": "SPEI instant payments, third party to third party",
+      "value": 7006531100,
+      "unit": "operations",
       "period": "2025",
-      "status": "not_checked",
-      "source_id": "BANXICO_SPEI",
-      "limitations": "SPEI (since 2004) with CoDi and DiMo on top, per the source register; Banxico statistics not supplied."
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Sum of the 365 daily values of Banxico series CF891. SPEI runs 24/7; DiMo (payments to a mobile number) is not in the supplied files."
+    },
+    {
+      "metric_id": "O2_spei_amount",
+      "indicator": "SPEI amount, third party to third party",
+      "value": 184.52,
+      "unit": "MXN trillion",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Sum of the 365 daily values of Banxico series CF890 (pesos)."
+    },
+    {
+      "metric_id": "O2_codi_operations",
+      "indicator": "CoDi payment operations",
+      "value": 4354930,
+      "unit": "operations",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Sum of daily CoDi operations sent (series CF884); CoDi runs on top of SPEI."
+    },
+    {
+      "metric_id": "O2_codi_paying_accounts",
+      "indicator": "CoDi accounts that have made at least one payment",
+      "value": 2577076,
+      "unit": "accounts",
+      "period": "end of 2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Cumulative count on 31-12-2025 (series CF882)."
     },
     {
       "metric_id": "O3_vat_rate",
@@ -209,14 +260,44 @@
       "limitations": ""
     },
     {
-      "metric_id": "O6_broadband_speed",
-      "indicator": "Fixed broadband speed / desktop share of traffic",
-      "value": "",
-      "unit": "",
+      "metric_id": "O6_fixed_download_speed",
+      "indicator": "Median fixed internet download speed (Ookla)",
+      "value": 90.59,
+      "unit": "Mbps",
+      "period": "end of 2025",
+      "status": "verified",
+      "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
+      "limitations": "DataReportal Digital 2026 Mexico, citing Ookla."
+    },
+    {
+      "metric_id": "O6_mobile_download_speed",
+      "indicator": "Median mobile internet download speed (Ookla)",
+      "value": 45.21,
+      "unit": "Mbps",
+      "period": "end of 2025",
+      "status": "verified",
+      "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
+      "limitations": "DataReportal Digital 2026 Mexico, citing Ookla."
+    },
+    {
+      "metric_id": "O6_internet_users_datareportal",
+      "indicator": "Internet users (DataReportal)",
+      "value": 110,
+      "unit": "million people",
+      "period": "October 2025",
+      "status": "verified",
+      "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
+      "limitations": "Kepios estimate; the official figure is ENDUTIH 2025 (86.1% of people aged 6+, 104.9 million)."
+    },
+    {
+      "metric_id": "O6_desktop_share",
+      "indicator": "Desktop share of web traffic (StatCounter)",
+      "value": 27.55,
+      "unit": "percent",
       "period": "2025",
-      "status": "not_checked",
-      "source_id": "DATAREPORTAL_STATCOUNTER",
-      "limitations": "International sources not supplied; left empty."
+      "status": "verified",
+      "source_id": "STATCOUNTER_2025",
+      "limitations": "StatCounter yearly 2025: mobile 71.55%, tablet 0.89%."
     },
     {
       "metric_id": "O7_pestel",

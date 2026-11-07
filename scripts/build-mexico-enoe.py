@@ -366,7 +366,7 @@ layer_m = {**common, 'layer': 'M', 'M1_micro_businesses': round(micro_total),
            'check_position_totals_vs_bulletins': {q: {k: v for k, v in c.items() if k.endswith('_vs_bulletin')} for q, c in checks.items()},
            'check_note': 'No micro-business total is published. All-size employers and own-account workers in the microdata are checked against the quarterly bulletins (within 1%); M1 is the subset in units of up to 10 people.',
            'M4_digital': None, 'M6_median_monthly_owner_income_mxn': wmedian([(r[INC], r[W]) for r in micro_rs if r[INC]]),
-           'notes': {'M4_digital': 'No 2025 source (Censos Económicos 2024 refer to 2023; left out to keep one period).',
+           'notes': {'M4_digital': 'Filled by build-mexico-d3-m4-census.py (Censos Económicos 2024, reference year 2023; D-MX-15).',
                      'M6': 'Not sales: ENOE has no business sales question; this is the owner\'s labour income, labelled as such.',
                      'size_limit': 'Up to 10 people: ENOE p3q bands give 1, 2-5, 6-10, so the template limit of 9 cannot be applied.'}}
 for name, doc in (('layer_f_mx.json', layer_f), ('layer_g_mx.json', {**common, 'layer': 'G', **layer_g}), ('layer_h_mx.json', layer_h), ('layer_m_mx.json', layer_m)):

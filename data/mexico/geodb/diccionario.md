@@ -82,7 +82,7 @@ Micronegocios por estado: trabajadores por cuenta propia y empleadores cuya unid
 | department_code | department | micro_businesses |
 
 ## fact_micro_national
-Distribuciones nacionales de micronegocios. Dimensiones: total, activity, position, owner_sex, owner_age, informal_sector, accounts (P4G), premises (P4E), site_without_premises (P4F), zone. Sin variables digitales (M4 no disponible en 2025). ENOE 2025. Capa M.
+Distribuciones nacionales de micronegocios. Dimensiones: total, activity, position, owner_sex, owner_age, informal_sector, accounts (P4G), premises (P4E), site_without_premises (P4F), zone. Sin variables digitales: M4 está en `layer_m_mx.json` (Censos Económicos 2024, año de referencia 2023, unidades fijas de 0 a 10 personas; D-MX-15) y no se aplica a estos totales. ENOE 2025. Capa M.
 | dimension | category | micro_businesses | pct |
 
 ## fact_companies_municipality — añadida para México
@@ -112,9 +112,14 @@ Indicadores nacionales sin geografía (capas A, B, I, O, P), con `scope_type=cou
 
 - Capa A (25 filas): motor de Perú `layer_a_country.py` sin cambios, 2026Q1 frente a 2025Q1 (`scripts/build-mexico-a-github.py`).
 - Capa I: tipo de cambio FIX promedio 2025, planes de USD 25 y USD 250 en pesos, plan frente al salario mínimo mensual (diario × 30,4; D-MX-13) y frente al ingreso mediano de cada persona (`scripts/build-mexico-i-price.py`).
-- Capa O: contexto del país en filas O1-O7 como Perú (`scripts/build-mexico-o-context.py`). Cada dato verificado se cotejó con su frase en el PDF fuente; los datos internacionales no entregados quedan vacíos con estado `not_checked`.
+- Capa O: contexto del país en filas O1-O7 como Perú (`scripts/build-mexico-o-context.py`). Cada dato citado se cotejó con su frase en el PDF o la página fuente; PIB per cápita (FMI), SPEI y CoDi (Banxico, 2025) y la participación de escritorio (StatCounter) se leen de los archivos entregados. DiMo no está en los archivos.
 - Capa P: programa de secundaria en filas P1-P5 como Perú (`scripts/build-mexico-p-programme.py`): escuelas, mediana y alcance (capa K), conversión de 10 % (supuesto, nunca tasa medida), USD 250 por escuela al FIX 2025, empresas por escuela (N1 ÷ K1, también N4 en `layer_n_mx.json`), deducción de donativos (LISR art. 27) y datos de menores (LFPDPPP). Correr después de las capas D/N, K e I.
 - Capa B: motor de Perú `layer_b_engine.py` sin cambios, encuesta 2025, México como país foco y sus grupos de comparación (`scripts/build-mexico-b-survey.py`).
+
+## Indicadores que viven solo en los JSON de capa
+- L5 (`layer_l_mx.json`): TecNM exacto del anuario ANUIES (subsistema: unidades federales 343.090 + descentralizadas 230.886 = 573.976), CONALEP 324.374 y capacitación para el trabajo 2024-2025 (SEP, 2.153.875 alumnos en 4.146 escuelas, por estado).
+- D3 (`layer_d_mx.json`): industria TI de los Censos Económicos 2024, año de referencia 2023, SCIAN 5415: 2.820 unidades, 92.366 personas, 62,5 % micro (`scripts/build-mexico-d3-m4-census.py`, D-MX-15). No se suma ni se compara como crecimiento con DENUE 2026.
+- M4 (`layer_m_mx.json`): adopción digital de unidades fijas de 0 a 10 personas, misma fuente y periodo (5.214.497 unidades).
 
 ## meta_sources
 Fuente y año de cada tabla.

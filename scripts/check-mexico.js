@@ -124,6 +124,8 @@ if (data.fact_map_indicator) {
       oRows.filter((r) => r.status === 'verified' && r.source_id && (r.value !== '' || r.limitations)).length);
     check('layer_o_not_checked_empty', 'Capa O: datos no verificados quedan vacíos (nunca cero)', 0,
       oRows.filter((r) => r.status === 'not_checked' && r.value !== '').length);
+    check('layer_o_international', 'Capa O: O1 (FMI), O2 (Banxico) y O6 (DataReportal, StatCounter) verificados con valor', 9,
+      oRows.filter((r) => /^O1_gdp|^O2_(spei|codi)|^O6_(fixed|mobile|internet_users_data|desktop)/.test(r.metric_id) && r.status === 'verified' && r.value !== '').length);
   }
   const pRows = rows.filter((r) => r.layer === 'P');
   if (pRows.length && data.fact_schools_municipality && data.fact_companies_municipality) {
@@ -169,6 +171,12 @@ if (data.fact_persona_profile) {
     if (fs.existsSync(mJson)) {
       const pos = Object.values(JSON.parse(fs.readFileSync(mJson, 'utf8')).check_position_totals_vs_bulletins || {}).flatMap((c) => Object.values(c));
       check('enoe_position', 'ENOE 2025: empleadores y cuenta propia por trimestre dentro de 1 % del boletín', 8, pos.filter((x) => x.within_1pct).length);
+      const m4 = JSON.parse(fs.readFileSync(mJson, 'utf8')).M4_digital;
+      if (m4) {
+        const ind = Object.values(m4.indicators);
+        check('m4_census', 'M4 (Censos 2024, ref. 2023): conteos ≤ unidades de 0 a 10 personas, periodo 2023', ind.length,
+          ind.filter((x) => x.units >= 0 && x.units <= m4.micro_units_total).length, m4.period === '2023' && ind.every((x) => x.units <= m4.micro_units_total));
+      }
     }
   }
   if (data.fact_ict_by_sector) {
@@ -207,6 +215,12 @@ if (data.fact_higher_ed_municipality) {
     const l = JSON.parse(fs.readFileSync(lJson, 'utf8')).check_total_vs_principales_cifras;
     check('l_published', 'SEP 911 superior: total dentro de 1 % de Principales Cifras', l.published, l.file_total, Math.abs(l.difference_pct) <= 1);
     check('l_total_sum', 'Educación superior: suma municipal = total nacional', l.file_total, rows.reduce((s, r) => s + Number(r.students_total), 0));
+    const l5 = JSON.parse(fs.readFileSync(lJson, 'utf8')).indicators;
+    const sum = (o) => Object.values(o || {}).reduce((s, v) => s + Number(v), 0);
+    check('l5_tecnm', 'L5: TecNM exacto = unidades federales + descentralizadas (ANUIES)', l5.L5_tecnm_students, sum(l5.L5_tecnm_by_unit));
+    const cap = l5.L5_capacitacion_para_el_trabajo || {};
+    check('l5_capacitacion', 'L5: capacitación para el trabajo, 32 estados suman el total', cap.students, sum(cap.by_state),
+      cap.students > 0 && Object.keys(cap.by_state || {}).length === 32 && sum(cap.by_state) === cap.students);
   }
   check('l_on_campus', 'Presencial ≤ total en cada municipio', rows.length, rows.filter((r) => Number(r.students_on_campus) <= Number(r.students_total)).length);
   check('c1_ict_le_total', 'Alumnos TIC ≤ total en cada municipio', rows.length,
@@ -224,6 +238,17 @@ if (data.fact_population_municipality) {
   check('e_rows', 'Población 2024: filas únicas con valor positivo', rows.length,
     new Set(rows.filter((r) => Number(r.population) > 0 && r.year === '2024').map((r) => r.municipality_code)).size);
   check('e_coverage', 'Población 2024: municipios del catálogo con proyección (faltan solo los 3 más nuevos)', muni.length - 3, rows.length);
+}
+
+// Layer D3 (Censos Económicos 2024, reference year 2023): SCIAN 5415 strata add up to the total (D-MX-15).
+const dJson = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_d_mx.json');
+if (fs.existsSync(dJson)) {
+  const d3 = JSON.parse(fs.readFileSync(dJson, 'utf8')).indicators.D3_industry_census;
+  if (d3) {
+    const strata = Object.values(d3.by_stratum);
+    check('d3_strata', 'D3: estratos de SCIAN 5415 suman unidades y personal, periodo 2023', d3.units,
+      strata.reduce((s, x) => s + x.units, 0), d3.period === '2023' && strata.reduce((s, x) => s + x.people_employed, 0) === d3.people_employed);
+  }
 }
 
 // Layer R: summary of every published-total check and of the sources register (scripts/build-mexico-r-checks.py).

@@ -251,7 +251,42 @@
       "31": 95,
       "32": 15
     },
-    "D3_industry_census": null,
+    "D3_industry_census": {
+      "units": 2820,
+      "people_employed": 92366,
+      "by_stratum": {
+        "0-10": {
+          "units": 1762,
+          "people_employed": 7624,
+          "share_units_pct": 62.5
+        },
+        "11-50": {
+          "units": 810,
+          "people_employed": 18186,
+          "share_units_pct": 28.7
+        },
+        "51-250": {
+          "units": 167,
+          "people_employed": 19703,
+          "share_units_pct": 5.9
+        },
+        "251+": {
+          "units": 81,
+          "people_employed": 46853,
+          "share_units_pct": 2.9
+        }
+      },
+      "pct_micro_units": 62.5,
+      "period": "2023",
+      "universe": "fixed economic units (census)",
+      "classification": "SCIAN 2018 5415 (= class 541510)",
+      "source_id": "INEGI_CE_2024",
+      "edition": "Censos Económicos 2024 (reference year 2023), open data 2025-09-25 and tabulation CE_TEMACE_1",
+      "sha256": {
+        "conjunto_de_datos_ce_nac_2024_csv.zip": "f38b2b476b6157c8c53991e04684be870d0ac8d50c2d34d61e43cb663f892aae",
+        "CE_TEMACE_1_tema_entidad_estrato_2023.xlsx": "471c3bd14b9aa16cad0148acfa5fc2b469b916c952547d7870aa95c178fc559d"
+      }
+    },
     "it_by_size_band": {
       "0 a 5 personas": 1404,
       "6 a 10 personas": 650,
@@ -264,7 +299,7 @@
   },
   "notes": {
     "D1_software_only": "Not available: SCIAN 2018 541510 covers software development, IT consulting and other IT services together (ISIC 6201, 6202, 6209).",
-    "D3_industry_census": "Left out by the Mexico source register to keep one period (Censos Económicos 2024 refer to 2023)."
+    "D3_industry_census": "Censos Económicos 2024, reference year 2023 (D-MX-15: period exception, like Colombia's Fedesoft own census). Counts economic units with fixed premises; DENUE 05/2026 class 541510 has 3,059 establishments (directory, 2026), so the two are not added or compared as growth."
   },
   "limitations": "DENUE counts establishments with a physical location, not firms or registrations: home-based and freelance IT work is largely absent, and a firm with several branches counts once per branch. Not comparable in level with registry counts such as Colombia RUES."
 }

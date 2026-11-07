@@ -129,7 +129,7 @@ if ANUIES:
             continue
         programmes.append({'code': code, 'field': key(r[col['CAMPO AMPLIO']]), 'detail': str(r[col['CAMPO DETALLADO']] or ''),
                            'programme': key(r[col['PROGRAMA (CARRERA)']]), 'level': r[col['NIVEL']], 'mode': r[col['MODALIDAD']],
-                           'public': key(r[col['SOSTENIMIENTO']]) == 'PUBLICO', 'students': n(r[col['Matrícula Total']]),
+                           'public': key(r[col['SOSTENIMIENTO']]) == 'PUBLICO', 'subsystem': key(r[col['SUBSISTEMA']]), 'students': n(r[col['Matrícula Total']]),
                            'women': n(r[col['Matrícula Mujeres']]), 'new': n(r[col['Nuevo Ingreso Total']]), 'graduates': n(r[col['Egresados Total']])})
     a_total = sum(p['students'] for p in programmes)
     a_campus = sum(p['students'] for p in programmes if p['mode'] == 'ESCOLARIZADA')
@@ -179,6 +179,9 @@ if ANUIES:
         'L3_by_broad_field': {f: {'students': v, 'pct': pct(v, total)} for f, v in field_totals.most_common()},
         'L4_ict_first_year_entrants': sum(p['new'] for p in ict_rows),
         'ict_graduates': sum(p['graduates'] for p in ict_rows),
+        # TecNM from the ANUIES subsystem: federal and decentralised units of the Tecnológico Nacional de México.
+        'L5_tecnm_students': sum(p['students'] for p in programmes if 'TECNOLOGICO NACIONAL DE MEXICO' in p['subsystem']),
+        'L5_tecnm_by_unit': {u: sum(p['students'] for p in programmes if p['subsystem'] == u) for u in sorted({p['subsystem'] for p in programmes if 'TECNOLOGICO NACIONAL DE MEXICO' in p['subsystem']})},
     }
 
 rows = [{'municipality_code': c, 'department_code': munis[c], 'students_total': v['total'], 'students_on_campus': v['on_campus'],
@@ -197,6 +200,33 @@ def cities_to(share):
         acc += r['students_on_campus']
         if acc >= share * on_campus:
             return i
+# L5: capacitación para el trabajo (SEP 911, cycle 2024-2025, by state). The states must add up to the file's TOTAL row.
+capacitacion = None
+CAP = glob.glob(os.path.join(repo, 'data', 'mexico', 'raw', 'layer_L5_sep_capacitacion_para_el_trabajo_2024_2025', '*.xlsx'))
+if CAP:
+    with open(os.path.join(CSV_DIR, 'geo_department.csv'), encoding='utf-8') as f:
+        cap_states = {key(r['name']): r['department_code'] for r in csv.DictReader(f)}
+    sheet = openpyxl.load_workbook(CAP[0], read_only=True, data_only=True).worksheets[0]
+    sheet.reset_dimensions()
+    cap_rows = [r for r in sheet.iter_rows(values_only=True) if r and r[0]]
+    hdr = next(i for i, r in enumerate(cap_rows) if str(r[0]).strip() == 'Entidad')
+    ci = {str(h).strip(): i for i, h in enumerate(cap_rows[hdr])}
+    by_state, total_row = {}, None
+    for r in cap_rows[hdr + 1:]:
+        name = key(r[0])
+        if name == 'TOTAL':
+            total_row = r
+            continue
+        code = cap_states.get(STATE_ALIASES.get(name, name))
+        if code is None:
+            sys.exit(f'Capacitación para el trabajo: state not matched: {r[0]}')
+        by_state[code] = {'students': n(r[ci['Alumnos']]), 'schools': n(r[ci['Escuelas']]), 'women': n(r[ci['Alumnos Mujeres']])}
+    cap_total = {k: sum(v[k] for v in by_state.values()) for k in ('students', 'schools', 'women')}
+    if len(by_state) != 32 or total_row is None or cap_total['students'] != n(total_row[ci['Alumnos']]) or cap_total['schools'] != n(total_row[ci['Escuelas']]):
+        sys.exit('Capacitación para el trabajo: states do not add up to the TOTAL row')
+    capacitacion = {'students': cap_total['students'], 'schools': cap_total['schools'], 'women_pct': pct(cap_total['women'], cap_total['students']),
+                    'by_state': {c: v['students'] for c, v in sorted(by_state.items())}, 'file': os.path.basename(CAP[0]), 'sha256': sha256(CAP[0])}
+
 undergrad = [x for x in records if x['level'] in ('tecnico_superior', 'licenciatura', 'normal')]
 first_year = sum(x['new'] for x in undergrad)
 with open(UPPER, encoding='utf-8-sig', newline='') as f:
@@ -234,19 +264,19 @@ layer_l = {**common, 'layer': 'L', 'indicators': {
     'L2_by_subcontrol': dict(Counter({k: sum(x['students'] for x in records if x['subcontrol'] == k) for k in {x['subcontrol'] for x in records}})),
     'L2_by_modality': {'escolarizada': sum(x['students'] for x in records if x['mode'] == 'esc'), 'no_escolarizada': sum(x['students'] for x in records if x['mode'] == 'no_esc')},
     'L3_ict_share': ict['L3_ict_share_pct'] if ict else None,
-    **({k: v for k, v in ict.items() if k.startswith(('L3_by', 'L4_ict', 'ict_'))} if ict else {}),
+    **({k: v for k, v in ict.items() if k.startswith(('L3_by', 'L4_ict', 'ict_', 'L5_tecnm'))} if ict else {}),
     'L4_first_year_entrants': first_year,
     'L4_by_level': {k: sum(x['new'] for x in undergrad if x['level'] == k) for k in ('tecnico_superior', 'licenciatura', 'normal')},
-    'L5_tecnm_approx_students': sum(x['students'] for x in tecnm),
+    **({} if ict else {'L5_tecnm_approx_students': sum(x['students'] for x in tecnm)}),
     'L5_conalep_approx_students': sum(n(r['alumnos']) for r in conalep), 'L5_conalep_approx_schools': len(conalep),
-    'L5_capacitacion_para_el_trabajo': None,
+    'L5_capacitacion_para_el_trabajo': capacitacion,
     'L6_on_campus_top_municipalities': layer_c['indicators']['C2_top_municipalities'],
     'L6_largest_institutions_on_campus': [{'institution': k, 'students': v} for k, v in Counter(
         {name: sum(x['students'] for x in records if x['name'] == name and x['mode'] == 'esc') for name in {x['name'] for x in records}}).most_common(10)],
     'L7_media_superior_grade3': ms3, 'L7_first_year_entrants': first_year},
     'notes': {'L3_ict_share': 'Percent of all higher-education students in the ICT broad field (ANUIES programme-level file, D-MX-14).' if ict else 'Not available without a programme-level file.',
               'L4': 'New entrants (ni_) in técnico superior, licenciatura and normal, both modalities; posgrado excluded.',
-              'L5': 'Approximations: TecNM = public institutions named "Instituto Tecnológico…"; CONALEP = media superior schools named CONALEP or Educación Profesional Técnica. The 911 files carry no TecNM or CONALEP flag. Capacitación para el trabajo is reported in a separate 911 form, not supplied.',
+              'L5': ('TecNM = the ANUIES subsystems "Unidades federales" and "Unidades descentralizadas del Tecnológico Nacional de México" (exact). ' if ict else 'Approximation: TecNM = public institutions named "Instituto Tecnológico…". ') + 'CONALEP = media superior schools named CONALEP or Educación Profesional Técnica. The 911 files carry no TecNM or CONALEP flag. Capacitación para el trabajo comes from its own 911 form (SEP, cycle 2024-2025, by state); it is outside higher education and is not added to L1.',
               'L7': '3º of media superior vs first-year entrants of the same cycle.'}}
 for name, doc in (('layer_c_mx.json', layer_c), ('layer_l_mx.json', layer_l)):
     with open(os.path.join(OUT, name), 'w', encoding='utf-8') as f:
@@ -254,5 +284,5 @@ for name, doc in (('layer_c_mx.json', layer_c), ('layer_l_mx.json', layer_l)):
         f.write('\n')
 print(json.dumps({'total': total, 'diff_pct': round(diff, 3), 'on_campus': on_campus, 'municipalities': len(rows), 'C3': layer_c['indicators']['C3_municipalities_to_reach'],
                   'public_pct': layer_c['indicators']['C4_public_pct'], 'women_pct': layer_c['indicators']['C4_women_pct'], 'institutions': len(institutions),
-                  'L4': first_year, 'L5_tecnm': layer_l['indicators']['L5_tecnm_approx_students'], 'L5_conalep': layer_l['indicators']['L5_conalep_approx_students'],
+                  'L4': first_year, 'L5_tecnm': layer_l['indicators'].get('L5_tecnm_students', layer_l['indicators'].get('L5_tecnm_approx_students')), 'L5_conalep': layer_l['indicators']['L5_conalep_approx_students'],
                   'L7': [ms3, first_year]}, ensure_ascii=False))
