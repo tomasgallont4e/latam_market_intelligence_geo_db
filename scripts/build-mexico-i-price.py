@@ -52,25 +52,25 @@ i3 = {
 
 source_rate = 'BANXICO_FIX_2025'
 rows = [
-    {'metric_id': 'I1_fix_2025_average', 'indicator': 'FIX exchange rate, 2025 average', 'value': round(fix_avg, 4), 'unit': 'MXN per USD',
+    {'metric_id': 'I1_fix_2025_average', 'indicator': 'Tipo de cambio FIX, promedio 2025', 'value': round(fix_avg, 4), 'unit': 'MXN por USD',
      'numerator': '', 'denominator': '', 'source_id': source_rate, 'method': f'mean of {len(fix)} daily FIX determinations, 2025'},
-    {'metric_id': 'I1_fix_2025_december_average', 'indicator': 'FIX exchange rate, December 2025 average', 'value': round(fix_dec, 4), 'unit': 'MXN per USD',
+    {'metric_id': 'I1_fix_2025_december_average', 'indicator': 'Tipo de cambio FIX, promedio de diciembre de 2025', 'value': round(fix_dec, 4), 'unit': 'MXN por USD',
      'numerator': '', 'denominator': '', 'source_id': source_rate, 'method': 'mean of daily FIX determinations, December 2025'},
-    {'metric_id': 'I1_plan_individual_mxn', 'indicator': 'Individual plan (USD 25) in MXN', 'value': plans_mxn['individual'], 'unit': 'MXN per month',
+    {'metric_id': 'I1_plan_individual_mxn', 'indicator': 'Plan individual (USD 25) en pesos', 'value': plans_mxn['individual'], 'unit': 'MXN al mes',
      'numerator': PLANS_USD['individual'], 'denominator': '', 'source_id': source_rate, 'method': 'USD 25 × 2025 average FIX'},
-    {'metric_id': 'I1_plan_team_mxn', 'indicator': 'Team plan (USD 250) in MXN', 'value': plans_mxn['team'], 'unit': 'MXN',
+    {'metric_id': 'I1_plan_team_mxn', 'indicator': 'Plan de equipo (USD 250) en pesos', 'value': plans_mxn['team'], 'unit': 'MXN',
      'numerator': PLANS_USD['team'], 'denominator': '', 'source_id': source_rate, 'method': 'USD 250 × 2025 average FIX'},
-    {'metric_id': 'I3_min_wage_monthly_general', 'indicator': 'Monthly minimum wage 2025 (general zone)', 'value': min_wage_monthly['general'], 'unit': 'MXN per month',
+    {'metric_id': 'I3_min_wage_monthly_general', 'indicator': 'Salario mínimo mensual 2025 (zona general)', 'value': min_wage_monthly['general'], 'unit': 'MXN al mes',
      'numerator': MIN_WAGE_DAILY['general'], 'denominator': '', 'source_id': 'CONASAMI_DOF_20241219', 'method': 'daily × 30.4 (D-MX-13)'},
-    {'metric_id': 'I3_plan_pct_min_wage_general', 'indicator': 'Individual plan as % of the monthly minimum wage', 'value': i3['individual_plan_pct_of_min_wage_general'],
-     'unit': 'percent', 'numerator': plans_mxn['individual'], 'denominator': min_wage_monthly['general'], 'source_id': 'CONASAMI_DOF_20241219', 'method': 'I1 ÷ monthly minimum wage'},
-    {'metric_id': 'I3_plan_pct_developer_income', 'indicator': 'Individual plan as % of the developers\' median monthly income', 'value': i3['individual_plan_pct_of_developer_median_income'],
-     'unit': 'percent', 'numerator': plans_mxn['individual'], 'denominator': float(dev['median_income_mxn']), 'source_id': 'INEGI_ENOE_2025', 'method': 'I1 ÷ persona P01 median income (ENOE 2025)'},
-] + [{'metric_id': f'I2_plan_pct_income_{k:02d}', 'indicator': f"Individual plan as % of median income: {x['persona']}", 'value': x['individual_plan_pct_of_income'],
-      'unit': 'percent', 'numerator': plans_mxn['individual'], 'denominator': x['median_income_mxn'], 'source_id': 'INEGI_ENOE_2025', 'method': 'I1 ÷ F8 median monthly labour income'}
+    {'metric_id': 'I3_plan_pct_min_wage_general', 'indicator': 'Plan individual como % del salario mínimo mensual', 'value': i3['individual_plan_pct_of_min_wage_general'],
+     'unit': 'porcentaje', 'numerator': plans_mxn['individual'], 'denominator': min_wage_monthly['general'], 'source_id': 'CONASAMI_DOF_20241219', 'method': 'I1 ÷ monthly minimum wage'},
+    {'metric_id': 'I3_plan_pct_developer_income', 'indicator': 'Plan individual como % del ingreso mensual mediano de los desarrolladores', 'value': i3['individual_plan_pct_of_developer_median_income'],
+     'unit': 'porcentaje', 'numerator': plans_mxn['individual'], 'denominator': float(dev['median_income_mxn']), 'source_id': 'INEGI_ENOE_2025', 'method': 'I1 ÷ persona P01 median income (ENOE 2025)'},
+] + [{'metric_id': f'I2_plan_pct_income_{k:02d}', 'indicator': f"Plan individual como % del ingreso mediano: {x['persona']}", 'value': x['individual_plan_pct_of_income'],
+      'unit': 'porcentaje', 'numerator': plans_mxn['individual'], 'denominator': x['median_income_mxn'], 'source_id': 'INEGI_ENOE_2025', 'method': 'I1 ÷ F8 median monthly labour income'}
      for k, x in enumerate(i2, 1)]
 map_rows = [{'layer': 'I', 'scope_type': 'country', 'scope_id': 'MX', 'group_id': '', 'persona_id': '', 'category': '', 'period': '2025',
-             'comparison_period': '', 'status': 'verified', 'limitations': 'Price is an unapproved scenario (USD 25 / USD 250), shown with its rate and date; not a recommendation.', **r}
+             'comparison_period': '', 'status': 'verified', 'limitations': 'El precio es un escenario no aprobado (USD 25 / USD 250), mostrado con su tipo de cambio y fecha; no es una recomendación.', **r}
             for r in rows]
 map_path = os.path.join(CSV_DIR, 'fact_map_indicator.csv')
 with open(map_path, encoding='utf-8') as f:

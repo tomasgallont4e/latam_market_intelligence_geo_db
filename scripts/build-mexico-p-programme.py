@@ -66,22 +66,22 @@ with open(os.path.join(OUT, 'layer_n_mx.json'), 'w', encoding='utf-8') as f:
 paid = round(reach * CONVERSION)
 plans_usd = schools * TEAM_PLAN_USD
 facts = [
-    ('P1_schools', 'Schools with target-grade students (CCT)', schools, 'schools', 'SEP_911_2024_2025', 'verified', 'Layer K1 (D-MX-12).'),
-    ('P1_median_students_per_school', 'Median target-grade students per school', median, 'students', 'SEP_911_2024_2025', 'verified', 'Layer K5.'),
-    ('P1_students_reached_cap100', 'Students reachable with a cap of 100 per school', reach, 'students', 'SEP_911_2024_2025', 'verified', 'Layer K6.'),
-    ('P1_paid_users_at_10pct', 'Paid users at the assumed conversion', paid, 'users', 'SEP_911_2024_2025', 'assumption',
-     '10% conversion is an assumption from the template, not a measured rate.'),
-    ('P2_sponsored_team_plans_usd', 'Sponsored team plans a year (schools × USD 250)', plans_usd, 'USD', 'SEP_911_2024_2025', 'scenario',
-     'USD 250 per school is an unapproved price scenario.'),
-    ('P2_sponsored_team_plans_mxn', 'Sponsored team plans a year in MXN', round(plans_usd * fix), 'MXN', 'BANXICO_FIX_2025', 'scenario',
-     f'At the 2025 average FIX rate, {fix} MXN per USD.'),
-    ('P3_businesses_per_school', 'Formal private businesses per school', per_school, 'businesses per school', 'INEGI_DENUE_202605', 'verified',
-     'N1 (DENUE 05/2026, private universe) ÷ K1 (911 2024-2025); different periods, as the template specifies.'),
-    ('P4_donation_incentive', 'Tax incentive for education donations', 7, 'percent of taxable profit (cap)', 'LISR_DOF_20240401', 'to_confirm_with_legal',
-     'Ley del ISR art. 27 fr. I: donations to donatarias autorizadas are deductible, capped at 7% of the previous year\'s taxable profit. Confirm the article and cap with legal.'),
-    ('P5_minors_data', 'Rules for minors\' data', '', '', 'LFPDPPP_DOF_20251114', 'verified',
-     'LFPDPPP art. 7: every processing requires consent (express or tacit); exceptions in art. 9. '
-     + ('The law text mentions minors explicitly.' if minors_article else 'The law text has no article specific to minors; consent for minors follows general rules (confirm with legal).')),
+    ('P1_schools', 'Escuelas con alumnos en los grados objetivo (CCT)', schools, 'escuelas', 'SEP_911_2024_2025', 'verified', 'Capa K1 (D-MX-12).'),
+    ('P1_median_students_per_school', 'Mediana de alumnos en grados objetivo por escuela', median, 'alumnos', 'SEP_911_2024_2025', 'verified', 'Capa K5.'),
+    ('P1_students_reached_cap100', 'Alumnos alcanzables con un tope de 100 por escuela', reach, 'alumnos', 'SEP_911_2024_2025', 'verified', 'Capa K6.'),
+    ('P1_paid_users_at_10pct', 'Usuarios de pago con la conversión supuesta', paid, 'usuarios', 'SEP_911_2024_2025', 'assumption',
+     'La conversión del 10 % es un supuesto de la plantilla, no una tasa medida.'),
+    ('P2_sponsored_team_plans_usd', 'Planes de equipo patrocinados al año (escuelas × USD 250)', plans_usd, 'USD', 'SEP_911_2024_2025', 'scenario',
+     'USD 250 por escuela es un escenario de precio no aprobado.'),
+    ('P2_sponsored_team_plans_mxn', 'Planes de equipo patrocinados al año, en pesos', round(plans_usd * fix), 'MXN', 'BANXICO_FIX_2025', 'scenario',
+     f"Al tipo de cambio FIX promedio de 2025, {fix:.2f} MXN por USD.".replace('.', ',', 1)),
+    ('P3_businesses_per_school', 'Negocios privados formales por escuela', per_school, 'negocios por escuela', 'INEGI_DENUE_202605', 'verified',
+     'N1 (DENUE 05/2026, universo privado) ÷ K1 (911 2024-2025); periodos distintos, como indica la plantilla.'),
+    ('P4_donation_incentive', 'Incentivo fiscal a donativos para educación', 7, 'porcentaje de la utilidad fiscal (tope)', 'LISR_DOF_20240401', 'to_confirm_with_legal',
+     'Ley del ISR art. 27 fr. I: los donativos a donatarias autorizadas son deducibles, con tope del 7 % de la utilidad fiscal del ejercicio anterior. Confirmar el artículo y el tope con el área legal.'),
+    ('P5_minors_data', 'Reglas para datos de menores', '', '', 'LFPDPPP_DOF_20251114', 'verified',
+     'LFPDPPP art. 7: todo tratamiento requiere consentimiento (expreso o tácito); excepciones en el art. 9. '
+     + ('La ley menciona a los menores de forma expresa.' if minors_article else 'La ley no tiene un artículo específico sobre menores; su consentimiento sigue las reglas generales (confirmar con el área legal).')),
 ]
 rows = [{'layer': 'P', 'metric_id': m, 'scope_type': 'country', 'scope_id': 'MX', 'group_id': '', 'persona_id': '', 'indicator': ind, 'category': '',
          'value': val, 'unit': unit, 'period': '2024-2025 / 2026', 'comparison_period': '', 'numerator': '', 'denominator': '', 'status': st,

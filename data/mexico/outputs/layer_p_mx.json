@@ -11,84 +11,84 @@
   "facts": [
     {
       "metric_id": "P1_schools",
-      "indicator": "Schools with target-grade students (CCT)",
+      "indicator": "Escuelas con alumnos en los grados objetivo (CCT)",
       "value": 58471,
-      "unit": "schools",
+      "unit": "escuelas",
       "status": "verified",
       "source_id": "SEP_911_2024_2025",
-      "limitations": "Layer K1 (D-MX-12)."
+      "limitations": "Capa K1 (D-MX-12)."
     },
     {
       "metric_id": "P1_median_students_per_school",
-      "indicator": "Median target-grade students per school",
+      "indicator": "Mediana de alumnos en grados objetivo por escuela",
       "value": 35,
-      "unit": "students",
+      "unit": "alumnos",
       "status": "verified",
       "source_id": "SEP_911_2024_2025",
-      "limitations": "Layer K5."
+      "limitations": "Capa K5."
     },
     {
       "metric_id": "P1_students_reached_cap100",
-      "indicator": "Students reachable with a cap of 100 per school",
+      "indicator": "Alumnos alcanzables con un tope de 100 por escuela",
       "value": 2742061,
-      "unit": "students",
+      "unit": "alumnos",
       "status": "verified",
       "source_id": "SEP_911_2024_2025",
-      "limitations": "Layer K6."
+      "limitations": "Capa K6."
     },
     {
       "metric_id": "P1_paid_users_at_10pct",
-      "indicator": "Paid users at the assumed conversion",
+      "indicator": "Usuarios de pago con la conversión supuesta",
       "value": 274206,
-      "unit": "users",
+      "unit": "usuarios",
       "status": "assumption",
       "source_id": "SEP_911_2024_2025",
-      "limitations": "10% conversion is an assumption from the template, not a measured rate."
+      "limitations": "La conversión del 10 % es un supuesto de la plantilla, no una tasa medida."
     },
     {
       "metric_id": "P2_sponsored_team_plans_usd",
-      "indicator": "Sponsored team plans a year (schools × USD 250)",
+      "indicator": "Planes de equipo patrocinados al año (escuelas × USD 250)",
       "value": 14617750,
       "unit": "USD",
       "status": "scenario",
       "source_id": "SEP_911_2024_2025",
-      "limitations": "USD 250 per school is an unapproved price scenario."
+      "limitations": "USD 250 por escuela es un escenario de precio no aprobado."
     },
     {
       "metric_id": "P2_sponsored_team_plans_mxn",
-      "indicator": "Sponsored team plans a year in MXN",
+      "indicator": "Planes de equipo patrocinados al año, en pesos",
       "value": 280654953,
       "unit": "MXN",
       "status": "scenario",
       "source_id": "BANXICO_FIX_2025",
-      "limitations": "At the 2025 average FIX rate, 19.1996 MXN per USD."
+      "limitations": "Al tipo de cambio FIX promedio de 2025, 19,20 MXN por USD."
     },
     {
       "metric_id": "P3_businesses_per_school",
-      "indicator": "Formal private businesses per school",
+      "indicator": "Negocios privados formales por escuela",
       "value": 99.2,
-      "unit": "businesses per school",
+      "unit": "negocios por escuela",
       "status": "verified",
       "source_id": "INEGI_DENUE_202605",
-      "limitations": "N1 (DENUE 05/2026, private universe) ÷ K1 (911 2024-2025); different periods, as the template specifies."
+      "limitations": "N1 (DENUE 05/2026, universo privado) ÷ K1 (911 2024-2025); periodos distintos, como indica la plantilla."
     },
     {
       "metric_id": "P4_donation_incentive",
-      "indicator": "Tax incentive for education donations",
+      "indicator": "Incentivo fiscal a donativos para educación",
       "value": 7,
-      "unit": "percent of taxable profit (cap)",
+      "unit": "porcentaje de la utilidad fiscal (tope)",
       "status": "to_confirm_with_legal",
       "source_id": "LISR_DOF_20240401",
-      "limitations": "Ley del ISR art. 27 fr. I: donations to donatarias autorizadas are deductible, capped at 7% of the previous year's taxable profit. Confirm the article and cap with legal."
+      "limitations": "Ley del ISR art. 27 fr. I: los donativos a donatarias autorizadas son deducibles, con tope del 7 % de la utilidad fiscal del ejercicio anterior. Confirmar el artículo y el tope con el área legal."
     },
     {
       "metric_id": "P5_minors_data",
-      "indicator": "Rules for minors' data",
+      "indicator": "Reglas para datos de menores",
       "value": "",
       "unit": "",
       "status": "verified",
       "source_id": "LFPDPPP_DOF_20251114",
-      "limitations": "LFPDPPP art. 7: every processing requires consent (express or tacit); exceptions in art. 9. The law text has no article specific to minors; consent for minors follows general rules (confirm with legal)."
+      "limitations": "LFPDPPP art. 7: todo tratamiento requiere consentimiento (expreso o tácito); excepciones en el art. 9. La ley no tiene un artículo específico sobre menores; su consentimiento sigue las reglas generales (confirmar con el área legal)."
     }
   ],
   "notes": {
