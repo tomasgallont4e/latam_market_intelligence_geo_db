@@ -1,0 +1,249 @@
+{
+  "country": "MX",
+  "source_id": "SEP_911_2024_2025",
+  "period": "school cycle 2024-2025 (start of cycle)",
+  "sources": [
+    {
+      "file": "educacion_superior_escolarizada_2024_2025.csv",
+      "sha256": "04846f3111148dfa48e4276361952205f84b9085c395952e8b9f90c912069005"
+    },
+    {
+      "file": "educacion_superior_no_escolarizada_2024_2025.csv",
+      "sha256": "c4bb87331801f648101145d2f22edf5c09543eec2f0d7c068cf6dfbef2973a98"
+    },
+    {
+      "file": "base_anuario_2024-2025_2026-11-07.xlsx",
+      "sha256": "969d463ca74842c8b891473ef4c346710d701a49268cda4a3d14f1df6a455fdf"
+    }
+  ],
+  "check_total_vs_principales_cifras": {
+    "file_total": 5519791,
+    "published": 5519791,
+    "difference_pct": 0.0
+  },
+  "layer": "L",
+  "indicators": {
+    "L1_students": 5519791,
+    "L1_institutions": 4578,
+    "L1_schools": 7274,
+    "L2_by_level": {
+      "licenciatura": 4720618,
+      "posgrado": 478382,
+      "tecnico_superior": 192853,
+      "normal": 127938
+    },
+    "L2_by_subcontrol": {
+      "Privado": 2101023,
+      "Autónomo": 1691089,
+      "Estatal": 879551,
+      "Federal": 743883,
+      "Federal Transferido": 103437,
+      "Subsidio": 808
+    },
+    "L2_by_modality": {
+      "escolarizada": 4059754,
+      "no_escolarizada": 1460037
+    },
+    "L3_ict_share": 6.0,
+    "L3_by_broad_field": {
+      "ADMINISTRACION Y NEGOCIOS": {
+        "students": 1211623,
+        "pct": 22.0
+      },
+      "INGENIERIA, MANUFACTURA Y CONSTRUCCION": {
+        "students": 1000675,
+        "pct": 18.1
+      },
+      "CIENCIAS SOCIALES Y DERECHO": {
+        "students": 975514,
+        "pct": 17.7
+      },
+      "CIENCIAS DE LA SALUD": {
+        "students": 744111,
+        "pct": 13.5
+      },
+      "EDUCACION": {
+        "students": 538520,
+        "pct": 9.8
+      },
+      "TECNOLOGIAS DE LA INFORMACION Y LA COMUNICACION": {
+        "students": 330358,
+        "pct": 6.0
+      },
+      "ARTES Y HUMANIDADES": {
+        "students": 254790,
+        "pct": 4.6
+      },
+      "SERVICIOS": {
+        "students": 176933,
+        "pct": 3.2
+      },
+      "CIENCIAS NATURALES, MATEMATICAS Y ESTADISTICA": {
+        "students": 145370,
+        "pct": 2.6
+      },
+      "AGRONOMIA Y VETERINARIA": {
+        "students": 141897,
+        "pct": 2.6
+      }
+    },
+    "L4_ict_first_year_entrants": 82345,
+    "ict_graduates": 48678,
+    "L5_tecnm_students": 573976,
+    "L5_tecnm_by_unit": {
+      "UNIDADES DESCENTRALIZADAS DEL TECNOLOGICO NACIONAL DE MEXICO": 230886,
+      "UNIDADES FEDERALES DEL TECNOLOGICO NACIONAL DE MEXICO": 343090
+    },
+    "L4_first_year_entrants": 1293070,
+    "L4_by_level": {
+      "tecnico_superior": 108624,
+      "licenciatura": 1150652,
+      "normal": 33794
+    },
+    "L5_conalep_approx_students": 324374,
+    "L5_conalep_approx_schools": 548,
+    "L5_capacitacion_para_el_trabajo": {
+      "students": 2153875,
+      "schools": 4146,
+      "women_pct": 61.8,
+      "by_state": {
+        "01": 29645,
+        "02": 25998,
+        "03": 22457,
+        "04": 71190,
+        "05": 41587,
+        "06": 8021,
+        "07": 127177,
+        "08": 131107,
+        "09": 83494,
+        "10": 17593,
+        "11": 139570,
+        "12": 56215,
+        "13": 105302,
+        "14": 98442,
+        "15": 203236,
+        "16": 69926,
+        "17": 49799,
+        "18": 35606,
+        "19": 86313,
+        "20": 64145,
+        "21": 54073,
+        "22": 33288,
+        "23": 38981,
+        "24": 109130,
+        "25": 163346,
+        "26": 57007,
+        "27": 30048,
+        "28": 61688,
+        "29": 27511,
+        "30": 86042,
+        "31": 15046,
+        "32": 10892
+      },
+      "file": "sep_capacitacion_para_el_trabajo_2024-2025_por_entidad.xlsx",
+      "sha256": "21112619eadce8041a745859f161d011b92fe5ff93b9b2482263ed0744ad51e7"
+    },
+    "L6_on_campus_top_municipalities": [
+      {
+        "municipality_code": "21114",
+        "students_on_campus": 160608,
+        "share_pct": 4.0
+      },
+      {
+        "municipality_code": "09003",
+        "students_on_campus": 160450,
+        "share_pct": 4.0
+      },
+      {
+        "municipality_code": "19039",
+        "students_on_campus": 91665,
+        "share_pct": 2.3
+      },
+      {
+        "municipality_code": "14039",
+        "students_on_campus": 81865,
+        "share_pct": 2.0
+      },
+      {
+        "municipality_code": "19046",
+        "students_on_campus": 77019,
+        "share_pct": 1.9
+      },
+      {
+        "municipality_code": "14120",
+        "students_on_campus": 76984,
+        "share_pct": 1.9
+      },
+      {
+        "municipality_code": "09005",
+        "students_on_campus": 73767,
+        "share_pct": 1.8
+      },
+      {
+        "municipality_code": "16053",
+        "students_on_campus": 69539,
+        "share_pct": 1.7
+      },
+      {
+        "municipality_code": "25006",
+        "students_on_campus": 65256,
+        "share_pct": 1.6
+      },
+      {
+        "municipality_code": "02004",
+        "students_on_campus": 64094,
+        "share_pct": 1.6
+      }
+    ],
+    "L6_largest_institutions_on_campus": [
+      {
+        "institution": "Universidad Nacional Autónoma de México",
+        "students": 214295
+      },
+      {
+        "institution": "Universidad de Guadalajara",
+        "students": 142610
+      },
+      {
+        "institution": "Instituto Politécnico Nacional",
+        "students": 119513
+      },
+      {
+        "institution": "Universidad Autonoma de Nuevo Leon",
+        "students": 109274
+      },
+      {
+        "institution": "Benemerita Universidad Autonoma de Puebla",
+        "students": 92667
+      },
+      {
+        "institution": "Universidad Autonoma de Sinaloa",
+        "students": 74039
+      },
+      {
+        "institution": "Universidad Autonoma de Baja California",
+        "students": 70655
+      },
+      {
+        "institution": "Universidad Veracruzana",
+        "students": 60002
+      },
+      {
+        "institution": "Universidad Autónoma Metropolitana",
+        "students": 55538
+      },
+      {
+        "institution": "Universidad Tecnologica de Mexico",
+        "students": 45022
+      }
+    ],
+    "L7_media_superior_grade3": 1469632,
+    "L7_first_year_entrants": 1293070
+  },
+  "notes": {
+    "L3_ict_share": "Percent of all higher-education students in the ICT broad field (ANUIES programme-level file, D-MX-14).",
+    "L4": "New entrants (ni_) in técnico superior, licenciatura and normal, both modalities; posgrado excluded.",
+    "L5": "TecNM = the ANUIES subsystems \"Unidades federales\" and \"Unidades descentralizadas del Tecnológico Nacional de México\" (exact). CONALEP = media superior schools named CONALEP or Educación Profesional Técnica. The 911 files carry no TecNM or CONALEP flag. Capacitación para el trabajo comes from its own 911 form (SEP, cycle 2024-2025, by state); it is outside higher education and is not added to L1.",
+    "L7": "3º of media superior vs first-year entrants of the same cycle."
+  }
+}

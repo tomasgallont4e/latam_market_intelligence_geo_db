@@ -1,0 +1,314 @@
+{
+  "country": "MX",
+  "layer": "O",
+  "sources": {
+    "CONASAMI_DOF_20241219": {
+      "file": "layers_I_O_dof_salarios_minimos_2025/CONASAMI_191224.pdf",
+      "sha256": "d52d99def335289aaa71ce6e40d2af86456567c6cc531dea321cd36660f478b0"
+    },
+    "INEGI_ENIF_2024": {
+      "file": "layer_O_context/inegi_enif_2024/ENIF2024_CP.pdf",
+      "sha256": "bb4ab0ca5434dea1be12a259e4db3c43ea3c7f10c7c8cfdaa7356c02f8be8163"
+    },
+    "LIVA_DOF_20211112": {
+      "file": "layers_O_P_leyes_camara_diputados/LIVA_ultima_reforma_DOF_2021-11-12.pdf",
+      "sha256": "f2b5b1770441a6a4e48f3ade408f9ff7a3e9c81bd5d529e52484f49e4a8e91a6"
+    },
+    "LFPDPPP_DOF_20251114": {
+      "file": "layers_O_P_leyes_camara_diputados/LFPDPPP_ultima_reforma_DOF_2025-11-14.pdf",
+      "sha256": "04d67464e1efc0472040e2ff8012ced52c73ff4fc3573c8e2d3477fd976359c6"
+    },
+    "ATDT_PLAN_IA_2026": {
+      "file": "layer_O_atdt_plan_nacional_ia_2026/Plan-Nacional-de-IA.pdf",
+      "sha256": "978cd9f059b1ba6808f50652443361fa254281c1daa0666343dd2c897453d91e"
+    },
+    "INEGI_ENDUTIH_2025": {
+      "file": "layer_O_context/inegi_endutih_2025/ENDUTIH_25.pdf",
+      "sha256": "058031f40e3227ea1b6058de4162bef8428eaf76d455290f1fc8885ccb1446da"
+    },
+    "IMF_WEO_DATAMAPPER": {
+      "file": "layer_O1_imf_weo_gdp_per_capita\\imf_datamapper_NGDPDPC_downloaded_2026-11-07.json",
+      "sha256": "d1143922c6ec0248cfc715d66c6d90f347396879a94ef464d150b7b98b75db17"
+    },
+    "BANXICO_SPEI_CODI_2025": {
+      "file": "layer_O2_banxico_spei_codi_2025/ (one xlsx per series)",
+      "sha256": {
+        "CF891": "3ba1efe5189f37c211617d825eccb60ff99422751f2dd9b285543a40c9055bda",
+        "CF890": "5fca1103fc49f9805ee5af86894289261bbd8225460516946c3ca5f483891519",
+        "CF884": "af3e4df46093ac80ad39717bdd26b1a83380b9293233b6260cee2753a4a2f905",
+        "CF882": "3ea9612886d5459f3ce629e66dbaefb601c38c85cc277538b7e1a42bddec582e"
+      }
+    },
+    "DATAREPORTAL_DIGITAL_2026_MX": {
+      "file": "layer_O6_datareportal_digital_2026_mexico\\digital-2026-mexico_page_downloaded_2026-11-07.html",
+      "sha256": "07927d74f916fee4d0083cec7ce663507763ceb69d6d299e734bfb93c32e4f3c"
+    },
+    "STATCOUNTER_2025": {
+      "file": "layer_O6_statcounter_2025\\statcounter_desktop_mobile_tablet_MX_yearly_2025.csv",
+      "sha256": "09d0f4407aa3423928d21c5aaa03feb244c425855596df7467efa17decc54aa8"
+    }
+  },
+  "facts": [
+    {
+      "metric_id": "O1_min_wage_daily",
+      "indicator": "Salario mínimo 2025, zona general",
+      "value": 278.8,
+      "unit": "MXN al día",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "CONASAMI_DOF_20241219",
+      "limitations": "Zona Libre de la Frontera Norte: 419,88 pesos al día."
+    },
+    {
+      "metric_id": "O1_min_wage_daily_northern_border",
+      "indicator": "Salario mínimo 2025, zona libre de la frontera norte",
+      "value": 419.88,
+      "unit": "MXN al día",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "CONASAMI_DOF_20241219",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O1_min_wage_monthly",
+      "indicator": "Salario mínimo 2025, zona general, mensual",
+      "value": 8475.52,
+      "unit": "MXN al mes",
+      "period": "2025",
+      "status": "derived",
+      "source_id": "CONASAMI_DOF_20241219",
+      "limitations": "Diario × 30,4 días (D-MX-13)."
+    },
+    {
+      "metric_id": "O1_developer_median_income",
+      "indicator": "Ingreso laboral mensual mediano de los desarrolladores (persona P01)",
+      "value": 19350.0,
+      "unit": "MXN al mes",
+      "period": "2025",
+      "status": "derived",
+      "source_id": "INEGI_ENOE_2025",
+      "limitations": "Mediana ponderada de ingocup de la ENOE 2025 entre los desarrolladores que reportan ingreso (fact_persona_profile)."
+    },
+    {
+      "metric_id": "O1_gdp_per_capita",
+      "indicator": "PIB per cápita (FMI, WEO)",
+      "value": 13759.3,
+      "unit": "USD",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "IMF_WEO_DATAMAPPER",
+      "limitations": "FMI, World Economic Outlook, indicador NGDPDPC de DataMapper (USD corrientes), consultado el 2026-11-07. En el mismo archivo: Colombia 8.617, Perú 9.938."
+    },
+    {
+      "metric_id": "O2_financial_product",
+      "indicator": "Población con al menos un producto financiero formal",
+      "value": 76.5,
+      "unit": "porcentaje",
+      "period": "2024",
+      "status": "verified",
+      "source_id": "INEGI_ENIF_2024",
+      "limitations": "ENIF 2024 (no hay edición 2025). Cuenta o tarjeta de ahorro, crédito, seguro o cuenta de ahorro para el retiro. El comunicado habla de personas de 15 a 70 años; las notas de sus gráficas dicen 18 a 70."
+    },
+    {
+      "metric_id": "O2_formal_credit",
+      "indicator": "Población con al menos un crédito formal",
+      "value": 37.3,
+      "unit": "porcentaje",
+      "period": "2024",
+      "status": "verified",
+      "source_id": "INEGI_ENIF_2024",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O2_insurance",
+      "indicator": "Población con seguro",
+      "value": 22.9,
+      "unit": "porcentaje",
+      "period": "2024",
+      "status": "verified",
+      "source_id": "INEGI_ENIF_2024",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O2_spei_operations",
+      "indicator": "Pagos inmediatos SPEI entre terceros",
+      "value": 7006531100,
+      "unit": "operaciones",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Suma de los 365 valores diarios de la serie CF891 de Banxico. SPEI opera 24/7; DiMo (pagos a un número celular) no está en los archivos entregados."
+    },
+    {
+      "metric_id": "O2_spei_amount",
+      "indicator": "Monto SPEI entre terceros",
+      "value": 184.52,
+      "unit": "billones de MXN",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Suma de los 365 valores diarios de la serie CF890 de Banxico (pesos)."
+    },
+    {
+      "metric_id": "O2_codi_operations",
+      "indicator": "Operaciones de pago CoDi",
+      "value": 4354930,
+      "unit": "operaciones",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Suma diaria de operaciones CoDi enviadas (serie CF884); CoDi opera sobre SPEI."
+    },
+    {
+      "metric_id": "O2_codi_paying_accounts",
+      "indicator": "Cuentas CoDi que han hecho al menos un pago",
+      "value": 2577076,
+      "unit": "cuentas",
+      "period": "cierre de 2025",
+      "status": "verified",
+      "source_id": "BANXICO_SPEI_CODI_2025",
+      "limitations": "Conteo acumulado al 31-12-2025 (serie CF882)."
+    },
+    {
+      "metric_id": "O3_vat_rate",
+      "indicator": "Tasa de IVA, incluidos los servicios digitales del extranjero",
+      "value": 16,
+      "unit": "porcentaje",
+      "period": "vigente en 2026",
+      "status": "verified",
+      "source_id": "LIVA_DOF_20211112",
+      "limitations": "Ley del IVA art. 1; el capítulo III BIS (arts. 18-B y siguientes, adicionado en el DOF del 09-12-2019) grava los servicios digitales de residentes en el extranjero sin establecimiento en México."
+    },
+    {
+      "metric_id": "O3_digital_services_chapter",
+      "indicator": "IVA de servicios digitales del extranjero (Ley del IVA, capítulo III BIS)",
+      "value": "",
+      "unit": "",
+      "period": "vigente en 2026",
+      "status": "verified",
+      "source_id": "LIVA_DOF_20211112",
+      "limitations": "Los proveedores extranjeros se inscriben ante el SAT (según el registro de fuentes)."
+    },
+    {
+      "metric_id": "O4_data_protection_authority",
+      "indicator": "Protección de datos: ley y autoridad",
+      "value": "",
+      "unit": "",
+      "period": "vigente en 2026",
+      "status": "verified",
+      "source_id": "LFPDPPP_DOF_20251114",
+      "limitations": "Ley Federal de Protección de Datos Personales en Posesión de los Particulares (2025; última reforma DOF 14-11-2025). Autoridad: Secretaría Anticorrupción y Buen Gobierno, que absorbió al INAI."
+    },
+    {
+      "metric_id": "O4_consent",
+      "indicator": "Protección de datos: consentimiento",
+      "value": "",
+      "unit": "",
+      "period": "vigente en 2026",
+      "status": "verified",
+      "source_id": "LFPDPPP_DOF_20251114",
+      "limitations": "Art. 7: todo tratamiento requiere el consentimiento del titular, expreso o tácito; excepciones en el art. 9. La ley no tiene un artículo específico sobre menores (P5)."
+    },
+    {
+      "metric_id": "O5_ai_policy",
+      "indicator": "Política nacional de IA",
+      "value": "",
+      "unit": "",
+      "period": "2026",
+      "status": "verified",
+      "source_id": "ATDT_PLAN_IA_2026",
+      "limitations": "Plan Nacional de Inteligencia Artificial (ATDT, 2026): un plan de política pública, no una ley; cita los Principios de Chapultepec (29-01-2026) como el primer marco ético oficial. El documento no da un monto de financiamiento."
+    },
+    {
+      "metric_id": "O6_internet_users_pct",
+      "indicator": "Personas de 6 años o más que usaron internet",
+      "value": 86.1,
+      "unit": "porcentaje",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_internet_users_millions",
+      "indicator": "Personas de 6 años o más que usaron internet",
+      "value": 104.9,
+      "unit": "millones de personas",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_households_internet_pct",
+      "indicator": "Hogares con internet",
+      "value": 78.3,
+      "unit": "porcentaje",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_computer_use_pct",
+      "indicator": "Personas de 6 años o más que usaron computadora",
+      "value": 38.1,
+      "unit": "porcentaje",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "INEGI_ENDUTIH_2025",
+      "limitations": ""
+    },
+    {
+      "metric_id": "O6_fixed_download_speed",
+      "indicator": "Velocidad mediana de descarga, internet fijo (Ookla)",
+      "value": 90.59,
+      "unit": "Mbps",
+      "period": "cierre de 2025",
+      "status": "verified",
+      "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
+      "limitations": "DataReportal Digital 2026 México, con datos de Ookla."
+    },
+    {
+      "metric_id": "O6_mobile_download_speed",
+      "indicator": "Velocidad mediana de descarga, internet móvil (Ookla)",
+      "value": 45.21,
+      "unit": "Mbps",
+      "period": "cierre de 2025",
+      "status": "verified",
+      "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
+      "limitations": "DataReportal Digital 2026 México, con datos de Ookla."
+    },
+    {
+      "metric_id": "O6_internet_users_datareportal",
+      "indicator": "Usuarios de internet (DataReportal)",
+      "value": 110,
+      "unit": "millones de personas",
+      "period": "octubre de 2025",
+      "status": "verified",
+      "source_id": "DATAREPORTAL_DIGITAL_2026_MX",
+      "limitations": "Estimación de Kepios; la cifra oficial es la ENDUTIH 2025 (86,1 % de las personas de 6 años o más, 104,9 millones)."
+    },
+    {
+      "metric_id": "O6_desktop_share",
+      "indicator": "Participación de computadoras de escritorio en el tráfico web (StatCounter)",
+      "value": 27.55,
+      "unit": "porcentaje",
+      "period": "2025",
+      "status": "verified",
+      "source_id": "STATCOUNTER_2025",
+      "limitations": "StatCounter, año 2025: móvil 71,55 %, tableta 0,89 %."
+    },
+    {
+      "metric_id": "O7_pestel",
+      "indicator": "Resumen PESTEL",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "status": "pending",
+      "source_id": "O1-O6",
+      "limitations": "Una línea por factor, redactada en el deck a partir de O1-O6."
+    }
+  ],
+  "evidence_rule": "Every quoted fact was matched against its phrase in the source PDF or page at build time; data-file facts (IMF, Banxico, StatCounter) are read from the supplied files."
+}

@@ -1,0 +1,60 @@
+persona_id,persona,ring,sinco2019_code,sinco2019_title,sinco2011_codes,ciuo08_codes_linked,ciuo08_codes_in_persona,mapping_status,in_primary,note
+P01,Software developers and analysts,core,2271,Desarrolladores y analistas de software y multi-,2271,2511;2512;2513;2514;2519,2511;2512;2513;2514;2519,exact_within_persona,True,
+P02,"Database, systems and network professionals",core,2272,Administradores de bases de datos y redes de,2272,2521;2522;2523;2529,2521;2522;2523;2529,exact_within_persona,True,
+P03,ICT technicians and user support,core,2651,"Técnicos en la instalación y reparación de redes,",2651,3511;3512;3513;3514,3511;3512;3513;3514,exact_within_persona,True,
+P03,ICT technicians and user support,core,2652,Técnicos en operaciones de equipos de radio,2652,3521;3522,3521;3522,exact_within_persona,True,
+P03,ICT technicians and user support,core,2653,Auxiliares y técnicos de equipos de grabación y,2653,3521,3521,exact_within_persona,True,
+P04,ICT managers,core,1321,Directores y gerentes en informática,1321,1330,1330,exact_within_persona,True,
+P04,ICT managers,core,1329,"Otros directores y gerentes en informática, teleco-",,,,included_by_review,True,"New in SINCO 2019, no SINCO 2011 equivalent. Included by D-MX-08."
+P04,ICT managers,core,1621,Coordinadores y jefes de área en informática,1621,1330,1330,exact_within_persona,True,
+P04,ICT managers,core,1622,Coordinadores y jefes de área en comunicación y,1622,1330,1330,exact_within_persona,True,
+P05,"Designers (graphic, multimedia, product)",adjacent,2541,Diseñadores de moda y vestuario,2541,2163,2163,exact_within_persona,True,
+P05,"Designers (graphic, multimedia, product)",adjacent,2543,Diseñadores gráficos,2543,2166,2166,exact_within_persona,True,
+P06,Business and management analysts,adjacent,2111,Administradores y profesionistas en recursos hu-,2111,2421;2422;2423;2424,2421;2422,included_by_review,True,"Also links to CIUO 2423 Especialistas en políticas y servicios de personal y afines, 2424 Especialistas en formación del personal Included by D-MX-08."
+P06,Business and management analysts,adjacent,2113,Profesionistas en hotelería y turismo,2113,2422,2422,exact_within_persona,True,
+P07,Finance and investment analysts,adjacent,2122,Asesores y analistas en finanzas,2122,2412;2413,2412;2413,exact_within_persona,True,
+P08,"Data, statistics and research specialists",adjacent,2131,"Antropólogos, arqueólogos e historiadores",2131,2632;2633,2632,excluded_by_review,False,"Also links to CIUO 2633 Filósofos, historiadores y especialistas en ciencias políticas Excluded by D-MX-09."
+P08,"Data, statistics and research specialists",adjacent,2132,Investigadores y profesionistas en sociología y,2132,2164;2632,2632,excluded_by_review,False,Also links to CIUO 2164 Urbanistas e ingenieros de tránsito Excluded by D-MX-09.
+P08,"Data, statistics and research specialists",adjacent,2134,Geógrafos,2134,2632,2632,exact_within_persona,True,
+P08,"Data, statistics and research specialists",adjacent,2136,"Economistas, consultores e investigadores en",2123,2631,2631,exact_within_persona,True,
+P08,"Data, statistics and research specialists",adjacent,2212,"Investigadores y profesionistas en matemáticas,",2212,2120,2120,exact_within_persona,True,
+P08,"Data, statistics and research specialists",adjacent,2611,"Auxiliares y técnicos en física, astronomía, mate-",2611,3111;3314;4312,3314,excluded_by_review,False,"Also links to CIUO 3111 Técnicos en ciencias físicas y químicas, 4312 Empleados de servicios estadísticos, financieros y de seguros Excluded by D-MX-09."
+P09,Marketing and advertising professionals,adjacent,2112,"Profesionistas y consultores en mercadotecnia,",2112,2431;2432,2431;2432,exact_within_persona,True,
+P10,Accountants and auditors,extended,2121,Contadores y auditores,2121,2411,2411,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2241,Ingenieros eléctricos,2241,2151,2151,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2242,Ingenieros electrónicos,2242,2152,2152,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2251,Ingenieros químicos,2251,2145,2145,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2252,Ingenieros mecánicos,2252,2144,2144,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2253,Ingenieros industriales,2253,2141,2141,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2254,"Ingenieros en minas, metalurgia y petróleo",2254,2146,2146,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2261,Ingenieros civiles y de la construcción,2261,2142,2142,exact_within_persona,True,
+P11,Engineers (non-ICT),extended,2262,"Ingenieros en topografía, hidrología, geología y",2262,2114;2149;2165,2149,excluded_by_review,False,"Also links to CIUO 2114 Geólogos y geofísicos, 2165 Cartógrafos y agrimensores Excluded by D-MX-09."
+P11,Engineers (non-ICT),extended,2281,Ingenieros en comunicaciones y telecomunica-,2281,2153,2153,exact_within_persona,True,
+P12,Business and operations managers,extended,1211,"Directores y gerentes en administración, recursos",1211,1212,1212,exact_within_persona,True,
+P12,Business and operations managers,extended,1212,"Directores y gerentes en servicios contables, fi-",1212,1211;1213;1219;1221;1346,1211;1213;1219;1221;1346,exact_within_persona,True,
+P12,Business and operations managers,extended,1221,"Directores y gerentes en servicios de salud, pro-",1221,1342;1349,1342;1349,exact_within_persona,True,
+P12,Business and operations managers,extended,1222,Directores y gerentes en desarrollo social,1222,1344,1344,exact_within_persona,True,
+P12,Business and operations managers,extended,1223,Directores y gerentes en centros de enseñanza y,1223,1345,1345,exact_within_persona,True,
+P12,Business and operations managers,extended,1224,"Jueces de juzgado, directores y gerentes en ser-",1224,1349;2612,1349,excluded_by_review,False,Also links to CIUO 2612 Jueces Excluded by D-MX-09.
+P12,Business and operations managers,extended,1312,"Directores y gerentes en producción minera, pe-",1312,1322,1322,exact_within_persona,True,
+P12,Business and operations managers,extended,1314,Directores y gerentes en producción manufacture-,1314,1321,1321,exact_within_persona,True,
+P12,Business and operations managers,extended,1315,"Directores y gerentes en construcción, reparación",1315,1323,1323,exact_within_persona,True,
+P12,Business and operations managers,extended,1319,Otros directores y gerentes de área en produc-,,,,included_by_review,True,"New in SINCO 2019, no SINCO 2011 equivalent. Included by D-MX-08."
+P12,Business and operations managers,extended,1323,Directores y gerentes en servicios de transporte,1323,1324,1324,exact_within_persona,True,
+P12,Business and operations managers,extended,1324,Directores y gerentes en centros de investigación,1324,1223,1223,exact_within_persona,True,
+P12,Business and operations managers,extended,1422,"Directores y gerentes de museos, cines y otros",1422,1341;1431,1341,excluded_by_review,False,"Also links to CIUO 1431 Gerentes de centros deportivos, de esparcimiento y culturales Excluded by D-MX-09."
+P12,Business and operations managers,extended,1423,Directores y gerentes en servicios funerarios,1423,1343;1439,1343,excluded_by_review,False,Also links to CIUO 1439 Gerentes de servicios no clasificados bajo otros epígrafes Excluded by D-MX-09.
+P12,Business and operations managers,extended,1511,"Coordinadores y jefes de área en administración,",1511,1212;1213,1212;1213,exact_within_persona,True,
+P12,Business and operations managers,extended,1512,Coordinadores y jefes de área en servicios conta-,1512,1211;1346,1211;1346,exact_within_persona,True,
+P12,Business and operations managers,extended,1521,Coordinadores y jefes de área en servicios de sa-,1521,1342;1343,1342;1343,exact_within_persona,True,
+P12,Business and operations managers,extended,1522,Coordinadores y jefes de área en desarrollo,1522,1344,1344,exact_within_persona,True,
+P12,Business and operations managers,extended,1523,Coordinadores y jefes de área en centros de en-,1523,1345,1345,exact_within_persona,True,
+P12,Business and operations managers,extended,1524,Coordinadores y jefes de área en servicios lega-,1524,1349;2612,1349,excluded_by_review,False,Also links to CIUO 2612 Jueces Excluded by D-MX-09.
+P12,Business and operations managers,extended,1612,Coordinadores y jefes de área en producción mi-,1612,1322,1322,exact_within_persona,True,
+P12,Business and operations managers,extended,1614,Coordinadores y jefes de área en producción ma-,1614,1321,1321,exact_within_persona,True,
+P12,Business and operations managers,extended,1615,"Coordinadores y jefes de área en construcción,",1615,1323,1323,exact_within_persona,True,
+P12,Business and operations managers,extended,1623,Coordinadores y jefes de área en servicios de,1623,1324,1324,exact_within_persona,True,
+P12,Business and operations managers,extended,1624,Coordinadores y jefes de área en centros de in-,1624,1223,1223,exact_within_persona,True,
+P12,Business and operations managers,extended,1711,"Coordinadores y jefes de área de ventas, comer-",1711,1221;1222;1420,1221;1222,included_by_review,True,Also links to CIUO 1420 Gerentes de comercios al por mayor y al por menor Included by D-MX-08.
+P13,Higher-education and IT educators,extended,2321,Profesores universitarios y de enseñanza,2321,2310;2320,2310,included_by_review,True,Also links to CIUO 2320 Profesores de formación profesional Included by D-MX-08.
+P13,Higher-education and IT educators,extended,2713,Instructores en estudios y capacitación comercial,2713,2356;2359,2356,excluded_by_review,False,Also links to CIUO 2359 Profesionales de la enseñanza no clasificados bajo otros epígrafes Excluded by D-MX-09.

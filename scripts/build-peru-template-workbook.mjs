@@ -7,7 +7,7 @@ const root = path.resolve(import.meta.dirname, '..');
 const read = (file) => JSON.parse(fsSync.readFileSync(path.join(root, file), 'utf8'));
 const national = read('data/peru-map/fact_map_indicator.json').concat(read('data/peru-map/fact_tuni_ingress_national_2025.json'));
 const catalog = read('data/peru-map/map_catalog.json');
-const status = read('thinkdocuments/peru_template_audit_2026-10-14.json');
+const status = read('thinkdocuments/peru/peru_template_audit_2026-10-14.json');
 const wb = Workbook.create();
 const summary = wb.worksheets.add('Summary');
 const indicators = wb.worksheets.add('Indicators');
@@ -32,7 +32,7 @@ for (const s of [summary,indicators,sources,audit]) { s.getUsedRange().format.au
 indicators.freezePanes.freezeRows(1); sources.freezePanes.freezeRows(1);
 indicators.getRange(`D2:D${indRows.length}`).format.numberFormat='#,##0.0';
 await wb.recalculate();
-const outputDir=path.join(root,'thinkdocuments'); await fs.mkdir(outputDir,{recursive:true});
+const outputDir=path.join(root,'thinkdocuments','peru'); await fs.mkdir(outputDir,{recursive:true});
 const preview=await wb.render({sheetName:'Summary',range:'A1:G14',scale:1.5,format:'png'}); await fs.writeFile(path.join(outputDir,'think4ever-peru-country-template-preview.png'),new Uint8Array(await preview.arrayBuffer()));
 const out=await SpreadsheetFile.exportXlsx(wb); await out.save(path.join(outputDir,'think4ever-peru-country-template.xlsx'));
 const check=await wb.inspect({kind:'table',range:'Indicators!A1:I10',include:'values,formulas',tableMaxRows:10,tableMaxCols:9}); console.log(check.ndjson);

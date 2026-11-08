@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Presentation, PresentationFile } from '@oai/artifact-tool';
 
-const outputDir = fileURLToPath(new URL('../thinkdocuments/deck-output/', import.meta.url));
+const outputDir = fileURLToPath(new URL('../thinkdocuments/peru/deck-output/', import.meta.url));
 const out = path.join(outputDir, 'Think4Ever_Peru_market_research_2026-10-15.pptx');
 const deck = Presentation.create({slideSize:{width:1280,height:720}});
 const navy='#173B72', ink='#18263D', muted='#50657F', pale='#EDF3FA', orange='#F58220';

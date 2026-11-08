@@ -1,0 +1,2107 @@
+{
+  "country": "MX",
+  "layer": "E",
+  "source_id": "CONAPO_PROY_MUN_2024",
+  "source": {
+    "file": "00_Republica_mexicana.zip",
+    "member": "00_Republica_mexicana/2_Gran_Gedad_00_RM.xlsx",
+    "member_sha256": "df978e24e7afef24bb8110cbe53372810151fd8bb258ff30e6d72f94b35ff807",
+    "variable": "POB_TOTAL (men + women), mid-year",
+    "year": 2024
+  },
+  "indicators": {
+    "population_2024_national": 132274416,
+    "municipalities_with_population": 2475,
+    "municipalities_not_in_conapo": [
+      {
+        "municipality_code": "24059",
+        "name": "Villa de Pozos"
+      },
+      {
+        "municipality_code": "25019",
+        "name": "Eldorado"
+      },
+      {
+        "municipality_code": "25020",
+        "name": "Juan José Ríos"
+      }
+    ],
+    "municipalities_in_typology": 199,
+    "E1_highest": [
+      {
+        "municipality_code": "09014",
+        "name": "Benito Juárez",
+        "students_on_campus": 19796,
+        "it_establishments": 215,
+        "E1_it_share_over_student_share": 13.34,
+        "population_2024": 443336,
+        "E2_students_per_100k": 4465.2
+      },
+      {
+        "municipality_code": "19019",
+        "name": "San Pedro Garza García",
+        "students_on_campus": 16287,
+        "it_establishments": 97,
+        "E1_it_share_over_student_share": 7.32,
+        "population_2024": 126240,
+        "E2_students_per_100k": 12901.6
+      },
+      {
+        "municipality_code": "09004",
+        "name": "Cuajimalpa de Morelos",
+        "students_on_campus": 5192,
+        "it_establishments": 23,
+        "E1_it_share_over_student_share": 5.44,
+        "population_2024": 225237,
+        "E2_students_per_100k": 2305.1
+      },
+      {
+        "municipality_code": "09016",
+        "name": "Miguel Hidalgo",
+        "students_on_campus": 43196,
+        "it_establishments": 172,
+        "E1_it_share_over_student_share": 4.89,
+        "population_2024": 416647,
+        "E2_students_per_100k": 10367.5
+      },
+      {
+        "municipality_code": "19006",
+        "name": "Apodaca",
+        "students_on_campus": 3814,
+        "it_establishments": 14,
+        "E1_it_share_over_student_share": 4.51,
+        "population_2024": 730930,
+        "E2_students_per_100k": 521.8
+      },
+      {
+        "municipality_code": "09015",
+        "name": "Cuauhtémoc",
+        "students_on_campus": 57849,
+        "it_establishments": 160,
+        "E1_it_share_over_student_share": 3.4,
+        "population_2024": 538431,
+        "E2_students_per_100k": 10744.0
+      },
+      {
+        "municipality_code": "19039",
+        "name": "Monterrey",
+        "students_on_campus": 91665,
+        "it_establishments": 212,
+        "E1_it_share_over_student_share": 2.84,
+        "population_2024": 1168978,
+        "E2_students_per_100k": 7841.5
+      },
+      {
+        "municipality_code": "06002",
+        "name": "Colima",
+        "students_on_campus": 7967,
+        "it_establishments": 18,
+        "E1_it_share_over_student_share": 2.78,
+        "population_2024": 163731,
+        "E2_students_per_100k": 4865.9
+      },
+      {
+        "municipality_code": "16069",
+        "name": "La Piedad",
+        "students_on_campus": 3144,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 2.73,
+        "population_2024": 111836,
+        "E2_students_per_100k": 2811.3
+      },
+      {
+        "municipality_code": "22014",
+        "name": "Querétaro",
+        "students_on_campus": 56645,
+        "it_establishments": 126,
+        "E1_it_share_over_student_share": 2.73,
+        "population_2024": 1186253,
+        "E2_students_per_100k": 4775.1
+      }
+    ],
+    "E1_lowest": [
+      {
+        "municipality_code": "27006",
+        "name": "Cunduacán",
+        "students_on_campus": 5108,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 139217,
+        "E2_students_per_100k": 3669.1
+      },
+      {
+        "municipality_code": "29029",
+        "name": "Tepeyanco",
+        "students_on_campus": 5942,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 14635,
+        "E2_students_per_100k": 40601.3
+      },
+      {
+        "municipality_code": "29038",
+        "name": "Tzompantepec",
+        "students_on_campus": 4951,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 19962,
+        "E2_students_per_100k": 24802.1
+      },
+      {
+        "municipality_code": "29044",
+        "name": "Zacatelco",
+        "students_on_campus": 3178,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 49322,
+        "E2_students_per_100k": 6443.4
+      },
+      {
+        "municipality_code": "30003",
+        "name": "Acayucan",
+        "students_on_campus": 3654,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 79545,
+        "E2_students_per_100k": 4593.6
+      },
+      {
+        "municipality_code": "30053",
+        "name": "Cuitláhuac",
+        "students_on_campus": 6844,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 28632,
+        "E2_students_per_100k": 23903.3
+      },
+      {
+        "municipality_code": "30141",
+        "name": "San Andrés Tuxtla",
+        "students_on_campus": 3172,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 162543,
+        "E2_students_per_100k": 1951.5
+      },
+      {
+        "municipality_code": "30174",
+        "name": "Tierra Blanca",
+        "students_on_campus": 3171,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 94283,
+        "E2_students_per_100k": 3363.3
+      },
+      {
+        "municipality_code": "30201",
+        "name": "Zongolica",
+        "students_on_campus": 3473,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 45516,
+        "E2_students_per_100k": 7630.3
+      },
+      {
+        "municipality_code": "31102",
+        "name": "Valladolid",
+        "students_on_campus": 7106,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 88536,
+        "E2_students_per_100k": 8026.1
+      }
+    ],
+    "E2_highest": [
+      {
+        "municipality_code": "29029",
+        "name": "Tepeyanco",
+        "students_on_campus": 5942,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 14635,
+        "E2_students_per_100k": 40601.3
+      },
+      {
+        "municipality_code": "13052",
+        "name": "San Agustín Tlaxiaca",
+        "students_on_campus": 14888,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 41255,
+        "E2_students_per_100k": 36087.7
+      },
+      {
+        "municipality_code": "09003",
+        "name": "Coyoacán",
+        "students_on_campus": 160450,
+        "it_establishments": 25,
+        "E1_it_share_over_student_share": 0.19,
+        "population_2024": 605473,
+        "E2_students_per_100k": 26499.9
+      },
+      {
+        "municipality_code": "29038",
+        "name": "Tzompantepec",
+        "students_on_campus": 4951,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 19962,
+        "E2_students_per_100k": 24802.1
+      },
+      {
+        "municipality_code": "30053",
+        "name": "Cuitláhuac",
+        "students_on_campus": 6844,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 28632,
+        "E2_students_per_100k": 23903.3
+      },
+      {
+        "municipality_code": "32056",
+        "name": "Zacatecas",
+        "students_on_campus": 32604,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 0.19,
+        "population_2024": 155144,
+        "E2_students_per_100k": 21015.3
+      },
+      {
+        "municipality_code": "19046",
+        "name": "San Nicolás de los Garza",
+        "students_on_campus": 77019,
+        "it_establishments": 18,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 422404,
+        "E2_students_per_100k": 18233.5
+      },
+      {
+        "municipality_code": "14025",
+        "name": "Colotlán",
+        "students_on_campus": 3909,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 21527,
+        "E2_students_per_100k": 18158.6
+      },
+      {
+        "municipality_code": "17031",
+        "name": "Zacatepec",
+        "students_on_campus": 5314,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 36191,
+        "E2_students_per_100k": 14683.2
+      },
+      {
+        "municipality_code": "13075",
+        "name": "Tolcayuca",
+        "students_on_campus": 3282,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 23244,
+        "E2_students_per_100k": 14119.8
+      }
+    ],
+    "typology": [
+      {
+        "municipality_code": "09014",
+        "name": "Benito Juárez",
+        "students_on_campus": 19796,
+        "it_establishments": 215,
+        "E1_it_share_over_student_share": 13.34,
+        "population_2024": 443336,
+        "E2_students_per_100k": 4465.2
+      },
+      {
+        "municipality_code": "19019",
+        "name": "San Pedro Garza García",
+        "students_on_campus": 16287,
+        "it_establishments": 97,
+        "E1_it_share_over_student_share": 7.32,
+        "population_2024": 126240,
+        "E2_students_per_100k": 12901.6
+      },
+      {
+        "municipality_code": "09004",
+        "name": "Cuajimalpa de Morelos",
+        "students_on_campus": 5192,
+        "it_establishments": 23,
+        "E1_it_share_over_student_share": 5.44,
+        "population_2024": 225237,
+        "E2_students_per_100k": 2305.1
+      },
+      {
+        "municipality_code": "09016",
+        "name": "Miguel Hidalgo",
+        "students_on_campus": 43196,
+        "it_establishments": 172,
+        "E1_it_share_over_student_share": 4.89,
+        "population_2024": 416647,
+        "E2_students_per_100k": 10367.5
+      },
+      {
+        "municipality_code": "19006",
+        "name": "Apodaca",
+        "students_on_campus": 3814,
+        "it_establishments": 14,
+        "E1_it_share_over_student_share": 4.51,
+        "population_2024": 730930,
+        "E2_students_per_100k": 521.8
+      },
+      {
+        "municipality_code": "09015",
+        "name": "Cuauhtémoc",
+        "students_on_campus": 57849,
+        "it_establishments": 160,
+        "E1_it_share_over_student_share": 3.4,
+        "population_2024": 538431,
+        "E2_students_per_100k": 10744.0
+      },
+      {
+        "municipality_code": "19039",
+        "name": "Monterrey",
+        "students_on_campus": 91665,
+        "it_establishments": 212,
+        "E1_it_share_over_student_share": 2.84,
+        "population_2024": 1168978,
+        "E2_students_per_100k": 7841.5
+      },
+      {
+        "municipality_code": "06002",
+        "name": "Colima",
+        "students_on_campus": 7967,
+        "it_establishments": 18,
+        "E1_it_share_over_student_share": 2.78,
+        "population_2024": 163731,
+        "E2_students_per_100k": 4865.9
+      },
+      {
+        "municipality_code": "16069",
+        "name": "La Piedad",
+        "students_on_campus": 3144,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 2.73,
+        "population_2024": 111836,
+        "E2_students_per_100k": 2811.3
+      },
+      {
+        "municipality_code": "22014",
+        "name": "Querétaro",
+        "students_on_campus": 56645,
+        "it_establishments": 126,
+        "E1_it_share_over_student_share": 2.73,
+        "population_2024": 1186253,
+        "E2_students_per_100k": 4775.1
+      },
+      {
+        "municipality_code": "06010",
+        "name": "Villa de Álvarez",
+        "students_on_campus": 4998,
+        "it_establishments": 10,
+        "E1_it_share_over_student_share": 2.46,
+        "population_2024": 159164,
+        "E2_students_per_100k": 3140.2
+      },
+      {
+        "municipality_code": "09010",
+        "name": "Álvaro Obregón",
+        "students_on_campus": 34226,
+        "it_establishments": 64,
+        "E1_it_share_over_student_share": 2.3,
+        "population_2024": 769868,
+        "E2_students_per_100k": 4445.7
+      },
+      {
+        "municipality_code": "14039",
+        "name": "Guadalajara",
+        "students_on_campus": 81865,
+        "it_establishments": 149,
+        "E1_it_share_over_student_share": 2.24,
+        "population_2024": 1386883,
+        "E2_students_per_100k": 5902.8
+      },
+      {
+        "municipality_code": "15054",
+        "name": "Metepec",
+        "students_on_campus": 10443,
+        "it_establishments": 19,
+        "E1_it_share_over_student_share": 2.23,
+        "population_2024": 253728,
+        "E2_students_per_100k": 4115.8
+      },
+      {
+        "municipality_code": "19026",
+        "name": "Guadalupe",
+        "students_on_campus": 8461,
+        "it_establishments": 14,
+        "E1_it_share_over_student_share": 2.03,
+        "population_2024": 661895,
+        "E2_students_per_100k": 1278.3
+      },
+      {
+        "municipality_code": "15104",
+        "name": "Tlalnepantla de Baz",
+        "students_on_campus": 25308,
+        "it_establishments": 41,
+        "E1_it_share_over_student_share": 1.99,
+        "population_2024": 693545,
+        "E2_students_per_100k": 3649.1
+      },
+      {
+        "municipality_code": "06007",
+        "name": "Manzanillo",
+        "students_on_campus": 3997,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 1.84,
+        "population_2024": 200515,
+        "E2_students_per_100k": 1993.4
+      },
+      {
+        "municipality_code": "31050",
+        "name": "Mérida",
+        "students_on_campus": 59891,
+        "it_establishments": 89,
+        "E1_it_share_over_student_share": 1.83,
+        "population_2024": 1073284,
+        "E2_students_per_100k": 5580.2
+      },
+      {
+        "municipality_code": "01001",
+        "name": "Aguascalientes",
+        "students_on_campus": 44812,
+        "it_establishments": 65,
+        "E1_it_share_over_student_share": 1.78,
+        "population_2024": 1017043,
+        "E2_students_per_100k": 4406.1
+      },
+      {
+        "municipality_code": "26055",
+        "name": "San Luis Río Colorado",
+        "students_on_campus": 3797,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 1.62,
+        "population_2024": 211025,
+        "E2_students_per_100k": 1799.3
+      },
+      {
+        "municipality_code": "30028",
+        "name": "Boca del Río",
+        "students_on_campus": 13243,
+        "it_establishments": 17,
+        "E1_it_share_over_student_share": 1.58,
+        "population_2024": 147767,
+        "E2_students_per_100k": 8962.1
+      },
+      {
+        "municipality_code": "08021",
+        "name": "Delicias",
+        "students_on_campus": 3928,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 1.56,
+        "population_2024": 155990,
+        "E2_students_per_100k": 2518.1
+      },
+      {
+        "municipality_code": "11037",
+        "name": "Silao de la Victoria",
+        "students_on_campus": 4834,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 1.52,
+        "population_2024": 218235,
+        "E2_students_per_100k": 2215.0
+      },
+      {
+        "municipality_code": "08019",
+        "name": "Chihuahua",
+        "students_on_campus": 46981,
+        "it_establishments": 57,
+        "E1_it_share_over_student_share": 1.49,
+        "population_2024": 1013822,
+        "E2_students_per_100k": 4634.0
+      },
+      {
+        "municipality_code": "11020",
+        "name": "León",
+        "students_on_campus": 60999,
+        "it_establishments": 74,
+        "E1_it_share_over_student_share": 1.49,
+        "population_2024": 1851376,
+        "E2_students_per_100k": 3294.8
+      },
+      {
+        "municipality_code": "13048",
+        "name": "Pachuca de Soto",
+        "students_on_campus": 21092,
+        "it_establishments": 25,
+        "E1_it_share_over_student_share": 1.46,
+        "population_2024": 347826,
+        "E2_students_per_100k": 6064.0
+      },
+      {
+        "municipality_code": "16108",
+        "name": "Zamora",
+        "students_on_campus": 5948,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 1.45,
+        "population_2024": 218215,
+        "E2_students_per_100k": 2725.8
+      },
+      {
+        "municipality_code": "02004",
+        "name": "Tijuana",
+        "students_on_campus": 64094,
+        "it_establishments": 74,
+        "E1_it_share_over_student_share": 1.42,
+        "population_2024": 2112570,
+        "E2_students_per_100k": 3033.9
+      },
+      {
+        "municipality_code": "23005",
+        "name": "Benito Juárez",
+        "students_on_campus": 20797,
+        "it_establishments": 24,
+        "E1_it_share_over_student_share": 1.42,
+        "population_2024": 1008615,
+        "E2_students_per_100k": 2061.9
+      },
+      {
+        "municipality_code": "25001",
+        "name": "Ahome",
+        "students_on_campus": 24231,
+        "it_establishments": 28,
+        "E1_it_share_over_student_share": 1.42,
+        "population_2024": 486569,
+        "E2_students_per_100k": 4980.0
+      },
+      {
+        "municipality_code": "26030",
+        "name": "Hermosillo",
+        "students_on_campus": 57910,
+        "it_establishments": 67,
+        "E1_it_share_over_student_share": 1.42,
+        "population_2024": 1013689,
+        "E2_students_per_100k": 5712.8
+      },
+      {
+        "municipality_code": "01005",
+        "name": "Jesús María",
+        "students_on_campus": 4390,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 1.4,
+        "population_2024": 139599,
+        "E2_students_per_100k": 3144.7
+      },
+      {
+        "municipality_code": "24020",
+        "name": "Matehuala",
+        "students_on_campus": 4387,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 1.4,
+        "population_2024": 107363,
+        "E2_students_per_100k": 4086.1
+      },
+      {
+        "municipality_code": "14120",
+        "name": "Zapopan",
+        "students_on_campus": 76984,
+        "it_establishments": 86,
+        "E1_it_share_over_student_share": 1.37,
+        "population_2024": 1578715,
+        "E2_students_per_100k": 4876.4
+      },
+      {
+        "municipality_code": "32017",
+        "name": "Guadalupe",
+        "students_on_campus": 4694,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 1.31,
+        "population_2024": 234666,
+        "E2_students_per_100k": 2000.3
+      },
+      {
+        "municipality_code": "05035",
+        "name": "Torreón",
+        "students_on_campus": 37122,
+        "it_establishments": 39,
+        "E1_it_share_over_student_share": 1.29,
+        "population_2024": 767200,
+        "E2_students_per_100k": 4838.6
+      },
+      {
+        "municipality_code": "11017",
+        "name": "Irapuato",
+        "students_on_campus": 17353,
+        "it_establishments": 18,
+        "E1_it_share_over_student_share": 1.27,
+        "population_2024": 614588,
+        "E2_students_per_100k": 2823.5
+      },
+      {
+        "municipality_code": "05030",
+        "name": "Saltillo",
+        "students_on_campus": 38013,
+        "it_establishments": 38,
+        "E1_it_share_over_student_share": 1.23,
+        "population_2024": 961895,
+        "E2_students_per_100k": 3951.9
+      },
+      {
+        "municipality_code": "26018",
+        "name": "Cajeme",
+        "students_on_campus": 21919,
+        "it_establishments": 22,
+        "E1_it_share_over_student_share": 1.23,
+        "population_2024": 451214,
+        "E2_students_per_100k": 4857.8
+      },
+      {
+        "municipality_code": "20039",
+        "name": "Heroica Ciudad de Huajuapan de León",
+        "students_on_campus": 3041,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 1.21,
+        "population_2024": 79739,
+        "E2_students_per_100k": 3813.7
+      },
+      {
+        "municipality_code": "03003",
+        "name": "La Paz",
+        "students_on_campus": 14293,
+        "it_establishments": 14,
+        "E1_it_share_over_student_share": 1.2,
+        "population_2024": 316752,
+        "E2_students_per_100k": 4512.4
+      },
+      {
+        "municipality_code": "15057",
+        "name": "Naucalpan de Juárez",
+        "students_on_campus": 36728,
+        "it_establishments": 34,
+        "E1_it_share_over_student_share": 1.14,
+        "population_2024": 829699,
+        "E2_students_per_100k": 4426.7
+      },
+      {
+        "municipality_code": "30189",
+        "name": "Tuxpan",
+        "students_on_campus": 3230,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 1.14,
+        "population_2024": 149802,
+        "E2_students_per_100k": 2156.2
+      },
+      {
+        "municipality_code": "22011",
+        "name": "El Marqués",
+        "students_on_campus": 7760,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 1.11,
+        "population_2024": 271565,
+        "E2_students_per_100k": 2857.5
+      },
+      {
+        "municipality_code": "17007",
+        "name": "Cuernavaca",
+        "students_on_campus": 33243,
+        "it_establishments": 28,
+        "E1_it_share_over_student_share": 1.03,
+        "population_2024": 390985,
+        "E2_students_per_100k": 8502.4
+      },
+      {
+        "municipality_code": "16102",
+        "name": "Uruapan",
+        "students_on_campus": 7383,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 1.0,
+        "population_2024": 384146,
+        "E2_students_per_100k": 1921.9
+      },
+      {
+        "municipality_code": "24028",
+        "name": "San Luis Potosí",
+        "students_on_campus": 47879,
+        "it_establishments": 39,
+        "E1_it_share_over_student_share": 1.0,
+        "population_2024": 972381,
+        "E2_students_per_100k": 4923.9
+      },
+      {
+        "municipality_code": "30108",
+        "name": "Minatitlán",
+        "students_on_campus": 6319,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 0.97,
+        "population_2024": 138853,
+        "E2_students_per_100k": 4550.9
+      },
+      {
+        "municipality_code": "30193",
+        "name": "Veracruz",
+        "students_on_campus": 24207,
+        "it_establishments": 19,
+        "E1_it_share_over_student_share": 0.96,
+        "population_2024": 623561,
+        "E2_students_per_100k": 3882.1
+      },
+      {
+        "municipality_code": "02001",
+        "name": "Ensenada",
+        "students_on_campus": 18135,
+        "it_establishments": 14,
+        "E1_it_share_over_student_share": 0.95,
+        "population_2024": 464596,
+        "E2_students_per_100k": 3903.4
+      },
+      {
+        "municipality_code": "04003",
+        "name": "Carmen",
+        "students_on_campus": 9456,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 0.91,
+        "population_2024": 257324,
+        "E2_students_per_100k": 3674.7
+      },
+      {
+        "municipality_code": "08017",
+        "name": "Cuauhtémoc",
+        "students_on_campus": 4051,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.91,
+        "population_2024": 194126,
+        "E2_students_per_100k": 2086.8
+      },
+      {
+        "municipality_code": "30039",
+        "name": "Coatzacoalcos",
+        "students_on_campus": 12540,
+        "it_establishments": 9,
+        "E1_it_share_over_student_share": 0.88,
+        "population_2024": 311382,
+        "E2_students_per_100k": 4027.2
+      },
+      {
+        "municipality_code": "02002",
+        "name": "Mexicali",
+        "students_on_campus": 40842,
+        "it_establishments": 29,
+        "E1_it_share_over_student_share": 0.87,
+        "population_2024": 1083531,
+        "E2_students_per_100k": 3769.3
+      },
+      {
+        "municipality_code": "03008",
+        "name": "Los Cabos",
+        "students_on_campus": 7409,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 0.83,
+        "population_2024": 409232,
+        "E2_students_per_100k": 1810.5
+      },
+      {
+        "municipality_code": "21114",
+        "name": "Puebla",
+        "students_on_campus": 160608,
+        "it_establishments": 109,
+        "E1_it_share_over_student_share": 0.83,
+        "population_2024": 1812484,
+        "E2_students_per_100k": 8861.2
+      },
+      {
+        "municipality_code": "21154",
+        "name": "Tecamachalco",
+        "students_on_campus": 4484,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.82,
+        "population_2024": 84754,
+        "E2_students_per_100k": 5290.6
+      },
+      {
+        "municipality_code": "25012",
+        "name": "Mazatlán",
+        "students_on_campus": 23986,
+        "it_establishments": 16,
+        "E1_it_share_over_student_share": 0.82,
+        "population_2024": 520033,
+        "E2_students_per_100k": 4612.4
+      },
+      {
+        "municipality_code": "21019",
+        "name": "Atlixco",
+        "students_on_campus": 3138,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.78,
+        "population_2024": 146323,
+        "E2_students_per_100k": 2144.6
+      },
+      {
+        "municipality_code": "15109",
+        "name": "Tultitlán",
+        "students_on_campus": 6413,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.77,
+        "population_2024": 520232,
+        "E2_students_per_100k": 1232.7
+      },
+      {
+        "municipality_code": "29033",
+        "name": "Tlaxcala",
+        "students_on_campus": 14389,
+        "it_establishments": 9,
+        "E1_it_share_over_student_share": 0.77,
+        "population_2024": 105404,
+        "E2_students_per_100k": 13651.3
+      },
+      {
+        "municipality_code": "19009",
+        "name": "Cadereyta Jiménez",
+        "students_on_campus": 3240,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.76,
+        "population_2024": 137963,
+        "E2_students_per_100k": 2348.5
+      },
+      {
+        "municipality_code": "05025",
+        "name": "Piedras Negras",
+        "students_on_campus": 5040,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.73,
+        "population_2024": 189733,
+        "E2_students_per_100k": 2656.4
+      },
+      {
+        "municipality_code": "30087",
+        "name": "Xalapa",
+        "students_on_campus": 42244,
+        "it_establishments": 25,
+        "E1_it_share_over_student_share": 0.73,
+        "population_2024": 499199,
+        "E2_students_per_100k": 8462.4
+      },
+      {
+        "municipality_code": "13076",
+        "name": "Tula de Allende",
+        "students_on_campus": 6875,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.71,
+        "population_2024": 120050,
+        "E2_students_per_100k": 5726.8
+      },
+      {
+        "municipality_code": "30118",
+        "name": "Orizaba",
+        "students_on_campus": 10411,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 0.71,
+        "population_2024": 121601,
+        "E2_students_per_100k": 8561.6
+      },
+      {
+        "municipality_code": "28038",
+        "name": "Tampico",
+        "students_on_campus": 30011,
+        "it_establishments": 17,
+        "E1_it_share_over_student_share": 0.7,
+        "population_2024": 303788,
+        "E2_students_per_100k": 9878.9
+      },
+      {
+        "municipality_code": "15037",
+        "name": "Huixquilucan",
+        "students_on_campus": 14299,
+        "it_establishments": 8,
+        "E1_it_share_over_student_share": 0.69,
+        "population_2024": 298470,
+        "E2_students_per_100k": 4790.8
+      },
+      {
+        "municipality_code": "25006",
+        "name": "Culiacán",
+        "students_on_campus": 65256,
+        "it_establishments": 36,
+        "E1_it_share_over_student_share": 0.68,
+        "population_2024": 1076523,
+        "E2_students_per_100k": 6061.7
+      },
+      {
+        "municipality_code": "14098",
+        "name": "San Pedro Tlaquepaque",
+        "students_on_campus": 16458,
+        "it_establishments": 9,
+        "E1_it_share_over_student_share": 0.67,
+        "population_2024": 725799,
+        "E2_students_per_100k": 2267.6
+      },
+      {
+        "municipality_code": "28027",
+        "name": "Nuevo Laredo",
+        "students_on_campus": 13095,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 0.66,
+        "population_2024": 453961,
+        "E2_students_per_100k": 2884.6
+      },
+      {
+        "municipality_code": "05002",
+        "name": "Acuña",
+        "students_on_campus": 3805,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.65,
+        "population_2024": 175675,
+        "E2_students_per_100k": 2165.9
+      },
+      {
+        "municipality_code": "10005",
+        "name": "Durango",
+        "students_on_campus": 30099,
+        "it_establishments": 16,
+        "E1_it_share_over_student_share": 0.65,
+        "population_2024": 726388,
+        "E2_students_per_100k": 4143.7
+      },
+      {
+        "municipality_code": "20067",
+        "name": "Oaxaca de Juárez",
+        "students_on_campus": 32160,
+        "it_establishments": 17,
+        "E1_it_share_over_student_share": 0.65,
+        "population_2024": 282931,
+        "E2_students_per_100k": 11366.7
+      },
+      {
+        "municipality_code": "17011",
+        "name": "Jiutepec",
+        "students_on_campus": 3827,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.64,
+        "population_2024": 221516,
+        "E2_students_per_100k": 1727.6
+      },
+      {
+        "municipality_code": "18017",
+        "name": "Tepic",
+        "students_on_campus": 22917,
+        "it_establishments": 12,
+        "E1_it_share_over_student_share": 0.64,
+        "population_2024": 449030,
+        "E2_students_per_100k": 5103.7
+      },
+      {
+        "municipality_code": "20184",
+        "name": "San Juan Bautista Tuxtepec",
+        "students_on_campus": 5952,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.62,
+        "population_2024": 158295,
+        "E2_students_per_100k": 3760.1
+      },
+      {
+        "municipality_code": "14067",
+        "name": "Puerto Vallarta",
+        "students_on_campus": 12383,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 0.6,
+        "population_2024": 308300,
+        "E2_students_per_100k": 4016.5
+      },
+      {
+        "municipality_code": "21119",
+        "name": "San Andrés Cholula",
+        "students_on_campus": 22371,
+        "it_establishments": 11,
+        "E1_it_share_over_student_share": 0.6,
+        "population_2024": 172136,
+        "E2_students_per_100k": 12996.1
+      },
+      {
+        "municipality_code": "07101",
+        "name": "Tuxtla Gutiérrez",
+        "students_on_campus": 39668,
+        "it_establishments": 19,
+        "E1_it_share_over_student_share": 0.59,
+        "population_2024": 633805,
+        "E2_students_per_100k": 6258.7
+      },
+      {
+        "municipality_code": "28009",
+        "name": "Ciudad Madero",
+        "students_on_campus": 8665,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.57,
+        "population_2024": 209904,
+        "E2_students_per_100k": 4128.1
+      },
+      {
+        "municipality_code": "15013",
+        "name": "Atizapán de Zaragoza",
+        "students_on_campus": 19794,
+        "it_establishments": 9,
+        "E1_it_share_over_student_share": 0.56,
+        "population_2024": 527938,
+        "E2_students_per_100k": 3749.3
+      },
+      {
+        "municipality_code": "15106",
+        "name": "Toluca",
+        "students_on_campus": 46001,
+        "it_establishments": 21,
+        "E1_it_share_over_student_share": 0.56,
+        "population_2024": 944788,
+        "E2_students_per_100k": 4868.9
+      },
+      {
+        "municipality_code": "09006",
+        "name": "Iztacalco",
+        "students_on_campus": 15517,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 0.55,
+        "population_2024": 401277,
+        "E2_students_per_100k": 3866.9
+      },
+      {
+        "municipality_code": "27004",
+        "name": "Centro",
+        "students_on_campus": 40324,
+        "it_establishments": 18,
+        "E1_it_share_over_student_share": 0.55,
+        "population_2024": 697711,
+        "E2_students_per_100k": 5779.5
+      },
+      {
+        "municipality_code": "09012",
+        "name": "Tlalpan",
+        "students_on_campus": 27255,
+        "it_establishments": 12,
+        "E1_it_share_over_student_share": 0.54,
+        "population_2024": 711475,
+        "E2_students_per_100k": 3830.8
+      },
+      {
+        "municipality_code": "17006",
+        "name": "Cuautla",
+        "students_on_campus": 7063,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.52,
+        "population_2024": 192796,
+        "E2_students_per_100k": 3663.5
+      },
+      {
+        "municipality_code": "14097",
+        "name": "Tlajomulco de Zúñiga",
+        "students_on_campus": 7257,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.51,
+        "population_2024": 813144,
+        "E2_students_per_100k": 892.5
+      },
+      {
+        "municipality_code": "14093",
+        "name": "Tepatitlán de Morelos",
+        "students_on_campus": 4911,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.5,
+        "population_2024": 156947,
+        "E2_students_per_100k": 3129.1
+      },
+      {
+        "municipality_code": "04002",
+        "name": "Campeche",
+        "students_on_campus": 14983,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 0.49,
+        "population_2024": 302186,
+        "E2_students_per_100k": 4958.2
+      },
+      {
+        "municipality_code": "09002",
+        "name": "Azcapotzalco",
+        "students_on_campus": 40517,
+        "it_establishments": 16,
+        "E1_it_share_over_student_share": 0.49,
+        "population_2024": 442812,
+        "E2_students_per_100k": 9149.9
+      },
+      {
+        "municipality_code": "22016",
+        "name": "San Juan del Río",
+        "students_on_campus": 10208,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.48,
+        "population_2024": 316130,
+        "E2_students_per_100k": 3229.1
+      },
+      {
+        "municipality_code": "05018",
+        "name": "Monclova",
+        "students_on_campus": 10765,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.46,
+        "population_2024": 246990,
+        "E2_students_per_100k": 4358.5
+      },
+      {
+        "municipality_code": "08032",
+        "name": "Hidalgo del Parral",
+        "students_on_campus": 5872,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.42,
+        "population_2024": 125892,
+        "E2_students_per_100k": 4664.3
+      },
+      {
+        "municipality_code": "13077",
+        "name": "Tulancingo de Bravo",
+        "students_on_campus": 8822,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.42,
+        "population_2024": 175815,
+        "E2_students_per_100k": 5017.8
+      },
+      {
+        "municipality_code": "15121",
+        "name": "Cuautitlán Izcalli",
+        "students_on_campus": 35321,
+        "it_establishments": 12,
+        "E1_it_share_over_student_share": 0.42,
+        "population_2024": 572817,
+        "E2_students_per_100k": 6166.2
+      },
+      {
+        "municipality_code": "24013",
+        "name": "Ciudad Valles",
+        "students_on_campus": 5899,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.42,
+        "population_2024": 185439,
+        "E2_students_per_100k": 3181.1
+      },
+      {
+        "municipality_code": "21197",
+        "name": "Xicotepec",
+        "students_on_campus": 3039,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.4,
+        "population_2024": 80429,
+        "E2_students_per_100k": 3778.5
+      },
+      {
+        "municipality_code": "25015",
+        "name": "Salvador Alvarado",
+        "students_on_campus": 3183,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.39,
+        "population_2024": 81184,
+        "E2_students_per_100k": 3920.7
+      },
+      {
+        "municipality_code": "11027",
+        "name": "Salamanca",
+        "students_on_campus": 6456,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.38,
+        "population_2024": 275763,
+        "E2_students_per_100k": 2341.1
+      },
+      {
+        "municipality_code": "19038",
+        "name": "Montemorelos",
+        "students_on_campus": 3216,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.38,
+        "population_2024": 72063,
+        "E2_students_per_100k": 4462.8
+      },
+      {
+        "municipality_code": "23004",
+        "name": "Othón P. Blanco",
+        "students_on_campus": 9761,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.38,
+        "population_2024": 253275,
+        "E2_students_per_100k": 3853.9
+      },
+      {
+        "municipality_code": "15025",
+        "name": "Chalco",
+        "students_on_campus": 6554,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.37,
+        "population_2024": 441147,
+        "E2_students_per_100k": 1485.7
+      },
+      {
+        "municipality_code": "15058",
+        "name": "Nezahualcóyotl",
+        "students_on_campus": 36464,
+        "it_establishments": 11,
+        "E1_it_share_over_student_share": 0.37,
+        "population_2024": 1102721,
+        "E2_students_per_100k": 3306.7
+      },
+      {
+        "municipality_code": "15099",
+        "name": "Texcoco",
+        "students_on_campus": 13320,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.37,
+        "population_2024": 293942,
+        "E2_students_per_100k": 4531.5
+      },
+      {
+        "municipality_code": "19033",
+        "name": "Linares",
+        "students_on_campus": 3425,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.36,
+        "population_2024": 83408,
+        "E2_students_per_100k": 4106.3
+      },
+      {
+        "municipality_code": "05004",
+        "name": "Arteaga",
+        "students_on_campus": 3551,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.35,
+        "population_2024": 32777,
+        "E2_students_per_100k": 10833.8
+      },
+      {
+        "municipality_code": "09005",
+        "name": "Gustavo A. Madero",
+        "students_on_campus": 73767,
+        "it_establishments": 21,
+        "E1_it_share_over_student_share": 0.35,
+        "population_2024": 1155768,
+        "E2_students_per_100k": 6382.5
+      },
+      {
+        "municipality_code": "11007",
+        "name": "Celaya",
+        "students_on_campus": 24690,
+        "it_establishments": 7,
+        "E1_it_share_over_student_share": 0.35,
+        "population_2024": 551662,
+        "E2_students_per_100k": 4475.6
+      },
+      {
+        "municipality_code": "11014",
+        "name": "Dolores Hidalgo Cuna de la Independencia Nacional",
+        "students_on_campus": 3511,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.35,
+        "population_2024": 174517,
+        "E2_students_per_100k": 2011.8
+      },
+      {
+        "municipality_code": "16053",
+        "name": "Morelia",
+        "students_on_campus": 69539,
+        "it_establishments": 20,
+        "E1_it_share_over_student_share": 0.35,
+        "population_2024": 907402,
+        "E2_students_per_100k": 7663.5
+      },
+      {
+        "municipality_code": "08037",
+        "name": "Juárez",
+        "students_on_campus": 58071,
+        "it_establishments": 16,
+        "E1_it_share_over_student_share": 0.34,
+        "population_2024": 1637477,
+        "E2_students_per_100k": 3546.4
+      },
+      {
+        "municipality_code": "28041",
+        "name": "Victoria",
+        "students_on_campus": 21555,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 0.34,
+        "population_2024": 364633,
+        "E2_students_per_100k": 5911.4
+      },
+      {
+        "municipality_code": "07078",
+        "name": "San Cristóbal de las Casas",
+        "students_on_campus": 7767,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.32,
+        "population_2024": 230661,
+        "E2_students_per_100k": 3367.3
+      },
+      {
+        "municipality_code": "09007",
+        "name": "Iztapalapa",
+        "students_on_campus": 61083,
+        "it_establishments": 16,
+        "E1_it_share_over_student_share": 0.32,
+        "population_2024": 1810052,
+        "E2_students_per_100k": 3374.7
+      },
+      {
+        "municipality_code": "10007",
+        "name": "Gómez Palacio",
+        "students_on_campus": 11385,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.32,
+        "population_2024": 392953,
+        "E2_students_per_100k": 2897.3
+      },
+      {
+        "municipality_code": "15033",
+        "name": "Ecatepec de Morelos",
+        "students_on_campus": 38425,
+        "it_establishments": 10,
+        "E1_it_share_over_student_share": 0.32,
+        "population_2024": 1660264,
+        "E2_students_per_100k": 2314.4
+      },
+      {
+        "municipality_code": "26043",
+        "name": "Nogales",
+        "students_on_campus": 7765,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.32,
+        "population_2024": 287440,
+        "E2_students_per_100k": 2701.4
+      },
+      {
+        "municipality_code": "17008",
+        "name": "Emiliano Zapata",
+        "students_on_campus": 3945,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.31,
+        "population_2024": 114472,
+        "E2_students_per_100k": 3446.3
+      },
+      {
+        "municipality_code": "05027",
+        "name": "Ramos Arizpe",
+        "students_on_campus": 4039,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.3,
+        "population_2024": 140864,
+        "E2_students_per_100k": 2867.3
+      },
+      {
+        "municipality_code": "07089",
+        "name": "Tapachula",
+        "students_on_campus": 12254,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.3,
+        "population_2024": 373399,
+        "E2_students_per_100k": 3281.7
+      },
+      {
+        "municipality_code": "14053",
+        "name": "Lagos de Moreno",
+        "students_on_campus": 4047,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.3,
+        "population_2024": 181443,
+        "E2_students_per_100k": 2230.5
+      },
+      {
+        "municipality_code": "15118",
+        "name": "Zinacantepec",
+        "students_on_campus": 4078,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.3,
+        "population_2024": 216143,
+        "E2_students_per_100k": 1886.7
+      },
+      {
+        "municipality_code": "28021",
+        "name": "El Mante",
+        "students_on_campus": 4074,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.3,
+        "population_2024": 111444,
+        "E2_students_per_100k": 3655.6
+      },
+      {
+        "municipality_code": "14008",
+        "name": "Arandas",
+        "students_on_campus": 4221,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 85259,
+        "E2_students_per_100k": 4950.8
+      },
+      {
+        "municipality_code": "14015",
+        "name": "Autlán de Navarro",
+        "students_on_campus": 4168,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 69328,
+        "E2_students_per_100k": 6012.0
+      },
+      {
+        "municipality_code": "16052",
+        "name": "Lázaro Cárdenas",
+        "students_on_campus": 4262,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 213527,
+        "E2_students_per_100k": 1996.0
+      },
+      {
+        "municipality_code": "19046",
+        "name": "San Nicolás de los Garza",
+        "students_on_campus": 77019,
+        "it_establishments": 18,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 422404,
+        "E2_students_per_100k": 18233.5
+      },
+      {
+        "municipality_code": "23008",
+        "name": "Playa del Carmen",
+        "students_on_campus": 4306,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 396286,
+        "E2_students_per_100k": 1086.6
+      },
+      {
+        "municipality_code": "28003",
+        "name": "Altamira",
+        "students_on_campus": 8541,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.29,
+        "population_2024": 289681,
+        "E2_students_per_100k": 2948.4
+      },
+      {
+        "municipality_code": "25011",
+        "name": "Guasave",
+        "students_on_campus": 8638,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.28,
+        "population_2024": 295315,
+        "E2_students_per_100k": 2925.0
+      },
+      {
+        "municipality_code": "15101",
+        "name": "Tianguistenco",
+        "students_on_campus": 4586,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.27,
+        "population_2024": 88229,
+        "E2_students_per_100k": 5197.8
+      },
+      {
+        "municipality_code": "11011",
+        "name": "Cortazar",
+        "students_on_campus": 4747,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.26,
+        "population_2024": 101125,
+        "E2_students_per_100k": 4694.2
+      },
+      {
+        "municipality_code": "26029",
+        "name": "Guaymas",
+        "students_on_campus": 4643,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.26,
+        "population_2024": 160709,
+        "E2_students_per_100k": 2889.1
+      },
+      {
+        "municipality_code": "27002",
+        "name": "Cárdenas",
+        "students_on_campus": 4792,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.26,
+        "population_2024": 245409,
+        "E2_students_per_100k": 1952.7
+      },
+      {
+        "municipality_code": "09013",
+        "name": "Xochimilco",
+        "students_on_campus": 9977,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 443400,
+        "E2_students_per_100k": 2250.1
+      },
+      {
+        "municipality_code": "13051",
+        "name": "Mineral de la Reforma",
+        "students_on_campus": 10001,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 230747,
+        "E2_students_per_100k": 4334.2
+      },
+      {
+        "municipality_code": "19048",
+        "name": "Santa Catarina",
+        "students_on_campus": 10000,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 337111,
+        "E2_students_per_100k": 2966.4
+      },
+      {
+        "municipality_code": "20385",
+        "name": "Santa Cruz Xoxocotlán",
+        "students_on_campus": 4901,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 108081,
+        "E2_students_per_100k": 4534.6
+      },
+      {
+        "municipality_code": "24035",
+        "name": "Soledad de Graciano Sánchez",
+        "students_on_campus": 9662,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 360638,
+        "E2_students_per_100k": 2679.1
+      },
+      {
+        "municipality_code": "26042",
+        "name": "Navojoa",
+        "students_on_campus": 9754,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 169869,
+        "E2_students_per_100k": 5742.1
+      },
+      {
+        "municipality_code": "28022",
+        "name": "Matamoros",
+        "students_on_campus": 19966,
+        "it_establishments": 4,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 576355,
+        "E2_students_per_100k": 3464.2
+      },
+      {
+        "municipality_code": "28032",
+        "name": "Reynosa",
+        "students_on_campus": 29996,
+        "it_establishments": 6,
+        "E1_it_share_over_student_share": 0.25,
+        "population_2024": 767017,
+        "E2_students_per_100k": 3910.7
+      },
+      {
+        "municipality_code": "16112",
+        "name": "Zitácuaro",
+        "students_on_campus": 5163,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.24,
+        "population_2024": 155307,
+        "E2_students_per_100k": 3324.4
+      },
+      {
+        "municipality_code": "21174",
+        "name": "Teziutlán",
+        "students_on_campus": 10081,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.24,
+        "population_2024": 108581,
+        "E2_students_per_100k": 9284.3
+      },
+      {
+        "municipality_code": "12029",
+        "name": "Chilpancingo de los Bravo",
+        "students_on_campus": 16808,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.22,
+        "population_2024": 295775,
+        "E2_students_per_100k": 5682.7
+      },
+      {
+        "municipality_code": "27005",
+        "name": "Comalcalco",
+        "students_on_campus": 5632,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.22,
+        "population_2024": 223853,
+        "E2_students_per_100k": 2515.9
+      },
+      {
+        "municipality_code": "12035",
+        "name": "Iguala de la Independencia",
+        "students_on_campus": 5821,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.21,
+        "population_2024": 158183,
+        "E2_students_per_100k": 3679.9
+      },
+      {
+        "municipality_code": "14063",
+        "name": "Ocotlán",
+        "students_on_campus": 5883,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.21,
+        "population_2024": 110122,
+        "E2_students_per_100k": 5342.3
+      },
+      {
+        "municipality_code": "20043",
+        "name": "Heroica Ciudad de Juchitán de Zaragoza",
+        "students_on_campus": 5907,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.21,
+        "population_2024": 121359,
+        "E2_students_per_100k": 4867.4
+      },
+      {
+        "municipality_code": "21156",
+        "name": "Tehuacán",
+        "students_on_campus": 18358,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.2,
+        "population_2024": 336788,
+        "E2_students_per_100k": 5450.9
+      },
+      {
+        "municipality_code": "30131",
+        "name": "Poza Rica de Hidalgo",
+        "students_on_campus": 12450,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.2,
+        "population_2024": 189560,
+        "E2_students_per_100k": 6567.8
+      },
+      {
+        "municipality_code": "09003",
+        "name": "Coyoacán",
+        "students_on_campus": 160450,
+        "it_establishments": 25,
+        "E1_it_share_over_student_share": 0.19,
+        "population_2024": 605473,
+        "E2_students_per_100k": 26499.9
+      },
+      {
+        "municipality_code": "32056",
+        "name": "Zacatecas",
+        "students_on_campus": 32604,
+        "it_establishments": 5,
+        "E1_it_share_over_student_share": 0.19,
+        "population_2024": 155144,
+        "E2_students_per_100k": 21015.3
+      },
+      {
+        "municipality_code": "15020",
+        "name": "Coacalco de Berriozábal",
+        "students_on_campus": 14050,
+        "it_establishments": 2,
+        "E1_it_share_over_student_share": 0.17,
+        "population_2024": 299314,
+        "E2_students_per_100k": 4694.1
+      },
+      {
+        "municipality_code": "13028",
+        "name": "Huejutla de Reyes",
+        "students_on_campus": 8957,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.14,
+        "population_2024": 128842,
+        "E2_students_per_100k": 6951.9
+      },
+      {
+        "municipality_code": "15031",
+        "name": "Chimalhuacán",
+        "students_on_campus": 8519,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.14,
+        "population_2024": 722753,
+        "E2_students_per_100k": 1178.7
+      },
+      {
+        "municipality_code": "12001",
+        "name": "Acapulco de Juárez",
+        "students_on_campus": 27511,
+        "it_establishments": 3,
+        "E1_it_share_over_student_share": 0.13,
+        "population_2024": 788649,
+        "E2_students_per_100k": 3488.4
+      },
+      {
+        "municipality_code": "14101",
+        "name": "Tonalá",
+        "students_on_campus": 11037,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.11,
+        "population_2024": 604157,
+        "E2_students_per_100k": 1826.8
+      },
+      {
+        "municipality_code": "15070",
+        "name": "La Paz",
+        "students_on_campus": 10850,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.11,
+        "population_2024": 311131,
+        "E2_students_per_100k": 3487.3
+      },
+      {
+        "municipality_code": "15081",
+        "name": "Tecámac",
+        "students_on_campus": 12364,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.1,
+        "population_2024": 604199,
+        "E2_students_per_100k": 2046.3
+      },
+      {
+        "municipality_code": "11015",
+        "name": "Guanajuato",
+        "students_on_campus": 17137,
+        "it_establishments": 1,
+        "E1_it_share_over_student_share": 0.07,
+        "population_2024": 205516,
+        "E2_students_per_100k": 8338.5
+      },
+      {
+        "municipality_code": "01007",
+        "name": "Rincón de Romos",
+        "students_on_campus": 3633,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 60351,
+        "E2_students_per_100k": 6019.8
+      },
+      {
+        "municipality_code": "07086",
+        "name": "Suchiapa",
+        "students_on_campus": 3032,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 28824,
+        "E2_students_per_100k": 10519.0
+      },
+      {
+        "municipality_code": "09009",
+        "name": "Milpa Alta",
+        "students_on_campus": 4613,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 158444,
+        "E2_students_per_100k": 2911.4
+      },
+      {
+        "municipality_code": "09011",
+        "name": "Tláhuac",
+        "students_on_campus": 6383,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 394696,
+        "E2_students_per_100k": 1617.2
+      },
+      {
+        "municipality_code": "10012",
+        "name": "Lerdo",
+        "students_on_campus": 5286,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 173230,
+        "E2_students_per_100k": 3051.4
+      },
+      {
+        "municipality_code": "12055",
+        "name": "Taxco de Alarcón",
+        "students_on_campus": 3202,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 105648,
+        "E2_students_per_100k": 3030.8
+      },
+      {
+        "municipality_code": "13052",
+        "name": "San Agustín Tlaxiaca",
+        "students_on_campus": 14888,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 41255,
+        "E2_students_per_100k": 36087.7
+      },
+      {
+        "municipality_code": "13075",
+        "name": "Tolcayuca",
+        "students_on_campus": 3282,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 23244,
+        "E2_students_per_100k": 14119.8
+      },
+      {
+        "municipality_code": "13083",
+        "name": "Zempoala",
+        "students_on_campus": 4583,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 64950,
+        "E2_students_per_100k": 7056.2
+      },
+      {
+        "municipality_code": "14006",
+        "name": "Ameca",
+        "students_on_campus": 5718,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 60218,
+        "E2_students_per_100k": 9495.5
+      },
+      {
+        "municipality_code": "14023",
+        "name": "Zapotlán el Grande",
+        "students_on_campus": 11926,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 124917,
+        "E2_students_per_100k": 9547.1
+      },
+      {
+        "municipality_code": "14025",
+        "name": "Colotlán",
+        "students_on_campus": 3909,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 21527,
+        "E2_students_per_100k": 18158.6
+      },
+      {
+        "municipality_code": "15005",
+        "name": "Almoloya de Juárez",
+        "students_on_campus": 3847,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 171918,
+        "E2_students_per_100k": 2237.7
+      },
+      {
+        "municipality_code": "15014",
+        "name": "Atlacomulco",
+        "students_on_campus": 3864,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 114158,
+        "E2_students_per_100k": 3384.8
+      },
+      {
+        "municipality_code": "15039",
+        "name": "Ixtapaluca",
+        "students_on_campus": 10125,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 570081,
+        "E2_students_per_100k": 1776.1
+      },
+      {
+        "municipality_code": "15042",
+        "name": "Ixtlahuaca",
+        "students_on_campus": 7572,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 165229,
+        "E2_students_per_100k": 4582.7
+      },
+      {
+        "municipality_code": "15045",
+        "name": "Jilotepec",
+        "students_on_campus": 4917,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 88096,
+        "E2_students_per_100k": 5581.4
+      },
+      {
+        "municipality_code": "15048",
+        "name": "Jocotitlán",
+        "students_on_campus": 5046,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 72368,
+        "E2_students_per_100k": 6972.7
+      },
+      {
+        "municipality_code": "15051",
+        "name": "Lerma",
+        "students_on_campus": 7852,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 183715,
+        "E2_students_per_100k": 4274.0
+      },
+      {
+        "municipality_code": "15060",
+        "name": "Nicolás Romero",
+        "students_on_campus": 9056,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 455330,
+        "E2_students_per_100k": 1988.9
+      },
+      {
+        "municipality_code": "15074",
+        "name": "San Felipe del Progreso",
+        "students_on_campus": 4804,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 153799,
+        "E2_students_per_100k": 3123.6
+      },
+      {
+        "municipality_code": "15091",
+        "name": "Teoloyucan",
+        "students_on_campus": 4597,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 65508,
+        "E2_students_per_100k": 7017.5
+      },
+      {
+        "municipality_code": "17031",
+        "name": "Zacatepec",
+        "students_on_campus": 5314,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 36191,
+        "E2_students_per_100k": 14683.2
+      },
+      {
+        "municipality_code": "18008",
+        "name": "Xalisco",
+        "students_on_campus": 4316,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 72242,
+        "E2_students_per_100k": 5974.4
+      },
+      {
+        "municipality_code": "19021",
+        "name": "General Escobedo",
+        "students_on_campus": 3908,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 534502,
+        "E2_students_per_100k": 731.1
+      },
+      {
+        "municipality_code": "21074",
+        "name": "Huejotzingo",
+        "students_on_campus": 3111,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 98952,
+        "E2_students_per_100k": 3143.9
+      },
+      {
+        "municipality_code": "21207",
+        "name": "Zacapoaxtla",
+        "students_on_campus": 4556,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 60085,
+        "E2_students_per_100k": 7582.6
+      },
+      {
+        "municipality_code": "27006",
+        "name": "Cunduacán",
+        "students_on_campus": 5108,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 139217,
+        "E2_students_per_100k": 3669.1
+      },
+      {
+        "municipality_code": "29029",
+        "name": "Tepeyanco",
+        "students_on_campus": 5942,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 14635,
+        "E2_students_per_100k": 40601.3
+      },
+      {
+        "municipality_code": "29038",
+        "name": "Tzompantepec",
+        "students_on_campus": 4951,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 19962,
+        "E2_students_per_100k": 24802.1
+      },
+      {
+        "municipality_code": "29044",
+        "name": "Zacatelco",
+        "students_on_campus": 3178,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 49322,
+        "E2_students_per_100k": 6443.4
+      },
+      {
+        "municipality_code": "30003",
+        "name": "Acayucan",
+        "students_on_campus": 3654,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 79545,
+        "E2_students_per_100k": 4593.6
+      },
+      {
+        "municipality_code": "30053",
+        "name": "Cuitláhuac",
+        "students_on_campus": 6844,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 28632,
+        "E2_students_per_100k": 23903.3
+      },
+      {
+        "municipality_code": "30141",
+        "name": "San Andrés Tuxtla",
+        "students_on_campus": 3172,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 162543,
+        "E2_students_per_100k": 1951.5
+      },
+      {
+        "municipality_code": "30174",
+        "name": "Tierra Blanca",
+        "students_on_campus": 3171,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 94283,
+        "E2_students_per_100k": 3363.3
+      },
+      {
+        "municipality_code": "30201",
+        "name": "Zongolica",
+        "students_on_campus": 3473,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 45516,
+        "E2_students_per_100k": 7630.3
+      },
+      {
+        "municipality_code": "31102",
+        "name": "Valladolid",
+        "students_on_campus": 7106,
+        "it_establishments": 0,
+        "E1_it_share_over_student_share": 0.0,
+        "population_2024": 88536,
+        "E2_students_per_100k": 8026.1
+      }
+    ]
+  },
+  "notes": {
+    "E1": "Share of national IT establishments (DENUE 05/2026: SCIAN 541510, 518210, 519290) divided by share of national on-campus higher-education students (911 2024-2025). Above 1: the municipality hosts more IT establishments than its share of students (\"employs more than it trains\").",
+    "E2": "On-campus higher-education students per 100,000 inhabitants (CONAPO 2024).",
+    "threshold": "Municipalities with fewer than 3,000 on-campus students are excluded from E1 and E2 (template rule).",
+    "periods": "Population 2024 matches the 2024-2025 school cycle (D-MX-11); DENUE is 05/2026, the only edition used for D, J and N.",
+    "missing": "Municipalities created after CONAPO's 2024 release have no projection and are left without population (never zero)."
+  }
+}

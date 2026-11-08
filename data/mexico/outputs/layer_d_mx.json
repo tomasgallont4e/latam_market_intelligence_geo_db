@@ -1,0 +1,305 @@
+{
+  "country": "MX",
+  "source_id": "INEGI_DENUE_202605",
+  "period": "2026-05",
+  "edition": "DENUE 05/2026 (metadata: Modified 2026-05-20)",
+  "classification": "SCIAN 2018 (6 digits)",
+  "sources": [
+    {
+      "zip": "denue_00_11_csv.zip",
+      "sha256": "28dcadcad30b377b4de2033b4aa557736529b478ab09e70165edb8763c8d6f34",
+      "member": "conjunto_de_datos/denue_inegi_11_.csv",
+      "rows": 24460
+    },
+    {
+      "zip": "denue_00_21_csv.zip",
+      "sha256": "92769cb9f5aafcb4e11afe7c7224e3dde3a2c97c5585d4e6f13fc563c4c403f7",
+      "member": "conjunto_de_datos/denue_inegi_21_.csv",
+      "rows": 3351
+    },
+    {
+      "zip": "denue_00_22_csv.zip",
+      "sha256": "2f36bc617303b7eaa3fff11648f38a228bd4ad59a418eab9d616f62ebdd8a949",
+      "member": "conjunto_de_datos/denue_inegi_22_.csv",
+      "rows": 11188
+    },
+    {
+      "zip": "denue_00_23_csv.zip",
+      "sha256": "8f93eb74daf8b832eb50d722fd2d5e33a53b9753bf8f51629f7007edacc348d3",
+      "member": "conjunto_de_datos/denue_inegi_23_.csv",
+      "rows": 24229
+    },
+    {
+      "zip": "denue_00_31-33_csv.zip",
+      "sha256": "5ec504d9c761778e94a8cdb4401b9f4f91ef478ee656086c7ac2973ca37890cd",
+      "member": "conjunto_de_datos/denue_inegi_31-33_.csv",
+      "rows": 656617
+    },
+    {
+      "zip": "denue_00_43_csv.zip",
+      "sha256": "0b57798429caccdce1e4c37f3242dd5f5b0ea33f4478a49a4051617fca4b0f55",
+      "member": "conjunto_de_datos/denue_inegi_43_.csv",
+      "rows": 171447
+    },
+    {
+      "zip": "denue_00_46111_csv.zip",
+      "sha256": "3e2b9a82555fcffd3f733b54beaf98a111f993e3475e7839f731ab794a18cb03",
+      "member": "conjunto_de_datos/denue_inegi_46111_.csv",
+      "rows": 682918
+    },
+    {
+      "zip": "denue_00_46112-46311_csv.zip",
+      "sha256": "8f1375af5fe6d30bd0497a1896c46a5a300c81fe607e87034d45e4e43cadd7a4",
+      "member": "conjunto_de_datos/denue_inegi_46112-46311_.csv",
+      "rows": 594442
+    },
+    {
+      "zip": "denue_00_46321-46531_csv.zip",
+      "sha256": "2f19e3e65ce370d9b4f638c20333ad319035b5136c5007d9d49104ef89a4db60",
+      "member": "conjunto_de_datos/denue_inegi_46321-46531_.csv",
+      "rows": 648577
+    },
+    {
+      "zip": "denue_00_46591-46911_csv.zip",
+      "sha256": "dd37519ac10f46af6eda734a9b1ff4e0b5b9be7ecc8a00fc7e4d130f6b8b1fc7",
+      "member": "conjunto_de_datos/denue_inegi_46591-46911_.csv",
+      "rows": 638861
+    },
+    {
+      "zip": "denue_00_48-49_csv.zip",
+      "sha256": "5dd2f6fd55a36cd44dd24b98b6e3c56c150540aed2845897932839c559c30edd",
+      "member": "conjunto_de_datos/denue_inegi_48-49_.csv",
+      "rows": 46061
+    },
+    {
+      "zip": "denue_00_51_csv.zip",
+      "sha256": "3ff73da9f2136713669f3fe24df259b8bbc67f478c1b80cd427016aa1169d04a",
+      "member": "conjunto_de_datos/denue_inegi_51_.csv",
+      "rows": 20818
+    },
+    {
+      "zip": "denue_00_52_csv.zip",
+      "sha256": "86012151652274f6aa0212c3211b8fb24717cac37882557ac85a287ba32bb774",
+      "member": "conjunto_de_datos/denue_inegi_52_.csv",
+      "rows": 49247
+    },
+    {
+      "zip": "denue_00_53_csv.zip",
+      "sha256": "be00934435c3eb640362949f034a4535e520fd82b560914ce216025e326cce09",
+      "member": "conjunto_de_datos/denue_inegi_53_.csv",
+      "rows": 81681
+    },
+    {
+      "zip": "denue_00_54_csv.zip",
+      "sha256": "bd4eb1dee2e36efa5a095e3e26eda90a4b484e9f221f226f1f6b7346f7b38bd3",
+      "member": "conjunto_de_datos/denue_inegi_54_.csv",
+      "rows": 111817
+    },
+    {
+      "zip": "denue_00_55_csv.zip",
+      "sha256": "75c0036a724904e673b6661f99a3b1c1618cd17f0582a1c2bece9b538b622a04",
+      "member": "conjunto_de_datos/denue_inegi_55_.csv",
+      "rows": 463
+    },
+    {
+      "zip": "denue_00_56_csv.zip",
+      "sha256": "37e296986db4f862090d009945b9959a98870a31ec670bf3dd39b2ffc4432403",
+      "member": "conjunto_de_datos/denue_inegi_56_.csv",
+      "rows": 57920
+    },
+    {
+      "zip": "denue_00_61_csv.zip",
+      "sha256": "2a55d9158929affb24975318f2534a6a257e1a4ee3fcfa90c9ce4ace2e00e5ca",
+      "member": "conjunto_de_datos/denue_inegi_61_.csv",
+      "rows": 150571
+    },
+    {
+      "zip": "denue_00_62_csv.zip",
+      "sha256": "c02d7ad5e2338af4eb3a3a7ac066b73d4e84f8846287d605543f769ac53524f4",
+      "member": "conjunto_de_datos/denue_inegi_62_.csv",
+      "rows": 281996
+    },
+    {
+      "zip": "denue_00_71_csv.zip",
+      "sha256": "b251bcf0adb8f645870298c29e51e1ab2fb465e13630b00c50d933a681e71288",
+      "member": "conjunto_de_datos/denue_inegi_71_.csv",
+      "rows": 68423
+    },
+    {
+      "zip": "denue_00_72_1_csv.zip",
+      "sha256": "909dd5c7d4447f2905c890ec1336f65e10ad5ca47467d89276236b48c8701b49",
+      "member": "conjunto_de_datos/denue_inegi_72_1.csv",
+      "rows": 520000
+    },
+    {
+      "zip": "denue_00_72_2_csv.zip",
+      "sha256": "cf12fc06171e06726427db15fd9e29fa0cfb44b9b984edf48fb382a69fcce441",
+      "member": "conjunto_de_datos/denue_inegi_72_2.csv",
+      "rows": 286496
+    },
+    {
+      "zip": "denue_00_81_1_csv.zip",
+      "sha256": "eb3a50e1b7f47f819c9e2ed9e04257b05041aeb70619a9648d0cb4de5414468f",
+      "member": "conjunto_de_datos/denue_inegi_81_1.csv",
+      "rows": 520000
+    },
+    {
+      "zip": "denue_00_81_2_csv.zip",
+      "sha256": "0e6d1b10b0ceb0ef43740967229bf21fc1953119e9300dedbbef350b13eb7b02",
+      "member": "conjunto_de_datos/denue_inegi_81_2.csv",
+      "rows": 417810
+    },
+    {
+      "zip": "denue_00_93_csv.zip",
+      "sha256": "b4cc4c83941073710cf1c406505cdf668d2fc40eb3a212955266d13ff2e0d319",
+      "member": "conjunto_de_datos/denue_inegi_93_.csv",
+      "rows": 68682
+    }
+  ],
+  "layer": "D",
+  "indicators": {
+    "D1_it_companies": 3305,
+    "D1_by_code": {
+      "541510": 3059,
+      "518210": 190,
+      "519290": 56
+    },
+    "D1_software_only": null,
+    "D2_top_municipalities": [
+      {
+        "municipality_code": "09014",
+        "it_companies_active": 215,
+        "share_pct": 6.5
+      },
+      {
+        "municipality_code": "19039",
+        "it_companies_active": 212,
+        "share_pct": 6.4
+      },
+      {
+        "municipality_code": "09016",
+        "it_companies_active": 172,
+        "share_pct": 5.2
+      },
+      {
+        "municipality_code": "09015",
+        "it_companies_active": 160,
+        "share_pct": 4.8
+      },
+      {
+        "municipality_code": "14039",
+        "it_companies_active": 149,
+        "share_pct": 4.5
+      },
+      {
+        "municipality_code": "22014",
+        "it_companies_active": 126,
+        "share_pct": 3.8
+      },
+      {
+        "municipality_code": "21114",
+        "it_companies_active": 109,
+        "share_pct": 3.3
+      },
+      {
+        "municipality_code": "19019",
+        "it_companies_active": 97,
+        "share_pct": 2.9
+      },
+      {
+        "municipality_code": "31050",
+        "it_companies_active": 89,
+        "share_pct": 2.7
+      },
+      {
+        "municipality_code": "14120",
+        "it_companies_active": 86,
+        "share_pct": 2.6
+      }
+    ],
+    "D2_by_state": {
+      "01": 70,
+      "02": 121,
+      "03": 20,
+      "04": 17,
+      "05": 92,
+      "06": 34,
+      "07": 36,
+      "08": 87,
+      "09": 741,
+      "10": 21,
+      "11": 123,
+      "12": 8,
+      "13": 50,
+      "14": 278,
+      "15": 203,
+      "16": 50,
+      "17": 36,
+      "18": 18,
+      "19": 364,
+      "20": 46,
+      "21": 148,
+      "22": 147,
+      "23": 30,
+      "24": 50,
+      "25": 85,
+      "26": 104,
+      "27": 24,
+      "28": 51,
+      "29": 31,
+      "30": 110,
+      "31": 95,
+      "32": 15
+    },
+    "D3_industry_census": {
+      "units": 2820,
+      "people_employed": 92366,
+      "by_stratum": {
+        "0-10": {
+          "units": 1762,
+          "people_employed": 7624,
+          "share_units_pct": 62.5
+        },
+        "11-50": {
+          "units": 810,
+          "people_employed": 18186,
+          "share_units_pct": 28.7
+        },
+        "51-250": {
+          "units": 167,
+          "people_employed": 19703,
+          "share_units_pct": 5.9
+        },
+        "251+": {
+          "units": 81,
+          "people_employed": 46853,
+          "share_units_pct": 2.9
+        }
+      },
+      "pct_micro_units": 62.5,
+      "period": "2023",
+      "universe": "fixed economic units (census)",
+      "classification": "SCIAN 2018 5415 (= class 541510)",
+      "source_id": "INEGI_CE_2024",
+      "edition": "Censos Económicos 2024 (reference year 2023), open data 2025-09-25 and tabulation CE_TEMACE_1",
+      "sha256": {
+        "conjunto_de_datos_ce_nac_2024_csv.zip": "f38b2b476b6157c8c53991e04684be870d0ac8d50c2d34d61e43cb663f892aae",
+        "CE_TEMACE_1_tema_entidad_estrato_2023.xlsx": "471c3bd14b9aa16cad0148acfa5fc2b469b916c952547d7870aa95c178fc559d"
+      }
+    },
+    "it_by_size_band": {
+      "0 a 5 personas": 1404,
+      "6 a 10 personas": 650,
+      "11 a 30 personas": 726,
+      "31 a 50 personas": 204,
+      "51 a 100 personas": 107,
+      "101 a 250 personas": 113,
+      "251 y más personas": 101
+    }
+  },
+  "notes": {
+    "D1_software_only": "Not available: SCIAN 2018 541510 covers software development, IT consulting and other IT services together (ISIC 6201, 6202, 6209).",
+    "D3_industry_census": "Censos Económicos 2024, reference year 2023 (D-MX-15: period exception, like Colombia's Fedesoft own census). Counts economic units with fixed premises; DENUE 05/2026 class 541510 has 3,059 establishments (directory, 2026), so the two are not added or compared as growth."
+  },
+  "limitations": "DENUE counts establishments with a physical location, not firms or registrations: home-based and freelance IT work is largely absent, and a firm with several branches counts once per branch. Not comparable in level with registry counts such as Colombia RUES."
+}

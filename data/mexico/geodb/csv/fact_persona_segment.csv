@@ -1,0 +1,2403 @@
+persona,municipality_code,city,buyer_type,employed,interviews
+Software developers and analysts,12001,Acapulco,"Employee, firm 11-250",284,11
+Software developers and analysts,12001,Acapulco,"Employee, firm up to 10",69,3
+Software developers and analysts,12001,Acapulco,Government employee,121,4
+Software developers and analysts,12001,Acapulco,Other or unknown,400,15
+Software developers and analysts,12001,Acapulco,Self-employed or employer,409,13
+Software developers and analysts,01001,Aguascalientes,"Employee, firm 11-250",1019,28
+Software developers and analysts,01001,Aguascalientes,"Employee, firm 251+",1442,36
+Software developers and analysts,01001,Aguascalientes,"Employee, firm up to 10",158,4
+Software developers and analysts,01001,Aguascalientes,Government employee,938,22
+Software developers and analysts,01001,Aguascalientes,Other or unknown,828,23
+Software developers and analysts,01001,Aguascalientes,Self-employed or employer,495,11
+Software developers and analysts,04002,Campeche,"Employee, firm 11-250",133,12
+Software developers and analysts,04002,Campeche,"Employee, firm 251+",21,2
+Software developers and analysts,04002,Campeche,"Employee, firm up to 10",91,7
+Software developers and analysts,04002,Campeche,Government employee,108,11
+Software developers and analysts,04002,Campeche,Other or unknown,46,4
+Software developers and analysts,04002,Campeche,Self-employed or employer,48,4
+Software developers and analysts,23005,Cancún,"Employee, firm 11-250",1069,25
+Software developers and analysts,23005,Cancún,"Employee, firm 251+",774,18
+Software developers and analysts,23005,Cancún,"Employee, firm up to 10",180,5
+Software developers and analysts,23005,Cancún,Government employee,201,5
+Software developers and analysts,23005,Cancún,Other or unknown,319,8
+Software developers and analysts,23005,Cancún,Self-employed or employer,81,2
+Software developers and analysts,08019,Chihuahua,"Employee, firm 11-250",1379,36
+Software developers and analysts,08019,Chihuahua,"Employee, firm 251+",2257,51
+Software developers and analysts,08019,Chihuahua,"Employee, firm up to 10",70,2
+Software developers and analysts,08019,Chihuahua,Government employee,617,16
+Software developers and analysts,08019,Chihuahua,Other or unknown,257,8
+Software developers and analysts,08019,Chihuahua,Self-employed or employer,258,7
+Software developers and analysts,08037,Ciudad Juárez,"Employee, firm 11-250",746,13
+Software developers and analysts,08037,Ciudad Juárez,"Employee, firm 251+",3398,58
+Software developers and analysts,08037,Ciudad Juárez,Government employee,196,5
+Software developers and analysts,08037,Ciudad Juárez,Other or unknown,290,5
+Software developers and analysts,08037,Ciudad Juárez,Self-employed or employer,464,8
+Software developers and analysts,09015,Ciudad de México,"Employee, firm 11-250",66560,176
+Software developers and analysts,09015,Ciudad de México,"Employee, firm 251+",36732,89
+Software developers and analysts,09015,Ciudad de México,"Employee, firm up to 10",7072,23
+Software developers and analysts,09015,Ciudad de México,Government employee,6650,26
+Software developers and analysts,09015,Ciudad de México,Other or unknown,14867,50
+Software developers and analysts,09015,Ciudad de México,Self-employed or employer,9961,25
+Software developers and analysts,04003,Ciudad del Carmen,"Employee, firm 11-250",112,13
+Software developers and analysts,04003,Ciudad del Carmen,"Employee, firm 251+",44,7
+Software developers and analysts,04003,Ciudad del Carmen,"Employee, firm up to 10",61,8
+Software developers and analysts,04003,Ciudad del Carmen,Government employee,36,5
+Software developers and analysts,04003,Ciudad del Carmen,Other or unknown,34,5
+Software developers and analysts,04003,Ciudad del Carmen,Self-employed or employer,72,8
+Software developers and analysts,30039,Coatzacoalcos,"Employee, firm 11-250",92,6
+Software developers and analysts,30039,Coatzacoalcos,"Employee, firm 251+",59,4
+Software developers and analysts,30039,Coatzacoalcos,"Employee, firm up to 10",274,9
+Software developers and analysts,30039,Coatzacoalcos,Government employee,66,5
+Software developers and analysts,30039,Coatzacoalcos,Other or unknown,109,7
+Software developers and analysts,30039,Coatzacoalcos,Self-employed or employer,117,7
+Software developers and analysts,06002,Colima,"Employee, firm 11-250",534,36
+Software developers and analysts,06002,Colima,"Employee, firm 251+",352,25
+Software developers and analysts,06002,Colima,"Employee, firm up to 10",196,15
+Software developers and analysts,06002,Colima,Government employee,338,26
+Software developers and analysts,06002,Colima,Other or unknown,346,27
+Software developers and analysts,06002,Colima,Self-employed or employer,192,14
+Software developers and analysts,17007,Cuernavaca,"Employee, firm 11-250",1004,29
+Software developers and analysts,17007,Cuernavaca,"Employee, firm 251+",312,8
+Software developers and analysts,17007,Cuernavaca,"Employee, firm up to 10",184,6
+Software developers and analysts,17007,Cuernavaca,Government employee,181,5
+Software developers and analysts,17007,Cuernavaca,Other or unknown,1227,31
+Software developers and analysts,17007,Cuernavaca,Self-employed or employer,898,25
+Software developers and analysts,25006,Culiacán,"Employee, firm 11-250",793,25
+Software developers and analysts,25006,Culiacán,"Employee, firm 251+",1758,52
+Software developers and analysts,25006,Culiacán,"Employee, firm up to 10",372,11
+Software developers and analysts,25006,Culiacán,Government employee,416,12
+Software developers and analysts,25006,Culiacán,Other or unknown,498,16
+Software developers and analysts,25006,Culiacán,Self-employed or employer,610,16
+Software developers and analysts,10005,Durango,"Employee, firm 11-250",524,22
+Software developers and analysts,10005,Durango,"Employee, firm 251+",207,8
+Software developers and analysts,10005,Durango,"Employee, firm up to 10",349,15
+Software developers and analysts,10005,Durango,Government employee,288,10
+Software developers and analysts,10005,Durango,Other or unknown,82,3
+Software developers and analysts,10005,Durango,Self-employed or employer,132,6
+Software developers and analysts,14039,Guadalajara,"Employee, firm 11-250",11960,88
+Software developers and analysts,14039,Guadalajara,"Employee, firm 251+",9260,62
+Software developers and analysts,14039,Guadalajara,"Employee, firm up to 10",303,2
+Software developers and analysts,14039,Guadalajara,Government employee,371,5
+Software developers and analysts,14039,Guadalajara,Other or unknown,1592,12
+Software developers and analysts,14039,Guadalajara,Self-employed or employer,2873,19
+Software developers and analysts,26030,Hermosillo,"Employee, firm 11-250",517,14
+Software developers and analysts,26030,Hermosillo,"Employee, firm 251+",454,11
+Software developers and analysts,26030,Hermosillo,"Employee, firm up to 10",79,2
+Software developers and analysts,26030,Hermosillo,Government employee,211,7
+Software developers and analysts,26030,Hermosillo,Other or unknown,1024,28
+Software developers and analysts,26030,Hermosillo,Self-employed or employer,41,1
+Software developers and analysts,03003,La Paz,"Employee, firm 11-250",292,20
+Software developers and analysts,03003,La Paz,"Employee, firm 251+",62,5
+Software developers and analysts,03003,La Paz,"Employee, firm up to 10",147,10
+Software developers and analysts,03003,La Paz,Government employee,352,23
+Software developers and analysts,03003,La Paz,Other or unknown,86,6
+Software developers and analysts,03003,La Paz,Self-employed or employer,36,3
+Software developers and analysts,11020,León,"Employee, firm 11-250",1630,34
+Software developers and analysts,11020,León,"Employee, firm 251+",825,15
+Software developers and analysts,11020,León,"Employee, firm up to 10",581,10
+Software developers and analysts,11020,León,Government employee,172,4
+Software developers and analysts,11020,León,Other or unknown,1471,24
+Software developers and analysts,11020,León,Self-employed or employer,892,16
+Software developers and analysts,02002,Mexicali,"Employee, firm 11-250",943,25
+Software developers and analysts,02002,Mexicali,"Employee, firm 251+",1258,31
+Software developers and analysts,02002,Mexicali,"Employee, firm up to 10",93,2
+Software developers and analysts,02002,Mexicali,Government employee,392,10
+Software developers and analysts,02002,Mexicali,Other or unknown,245,10
+Software developers and analysts,02002,Mexicali,Self-employed or employer,314,7
+Software developers and analysts,19039,Monterrey,"Employee, firm 11-250",12061,84
+Software developers and analysts,19039,Monterrey,"Employee, firm 251+",11361,73
+Software developers and analysts,19039,Monterrey,"Employee, firm up to 10",1752,10
+Software developers and analysts,19039,Monterrey,Government employee,837,7
+Software developers and analysts,19039,Monterrey,Other or unknown,6492,40
+Software developers and analysts,19039,Monterrey,Self-employed or employer,2048,19
+Software developers and analysts,16053,Morelia,"Employee, firm 11-250",1332,34
+Software developers and analysts,16053,Morelia,"Employee, firm 251+",670,15
+Software developers and analysts,16053,Morelia,"Employee, firm up to 10",164,4
+Software developers and analysts,16053,Morelia,Government employee,435,12
+Software developers and analysts,16053,Morelia,Other or unknown,142,4
+Software developers and analysts,16053,Morelia,Self-employed or employer,463,11
+Software developers and analysts,31050,Mérida,"Employee, firm 11-250",1766,32
+Software developers and analysts,31050,Mérida,"Employee, firm 251+",938,17
+Software developers and analysts,31050,Mérida,"Employee, firm up to 10",564,11
+Software developers and analysts,31050,Mérida,Government employee,648,11
+Software developers and analysts,31050,Mérida,Other or unknown,2048,33
+Software developers and analysts,31050,Mérida,Self-employed or employer,686,13
+Software developers and analysts,20067,Oaxaca,"Employee, firm 11-250",490,22
+Software developers and analysts,20067,Oaxaca,"Employee, firm 251+",180,9
+Software developers and analysts,20067,Oaxaca,"Employee, firm up to 10",160,4
+Software developers and analysts,20067,Oaxaca,Government employee,334,10
+Software developers and analysts,20067,Oaxaca,Other or unknown,287,14
+Software developers and analysts,20067,Oaxaca,Self-employed or employer,516,19
+Software developers and analysts,13048,Pachuca,"Employee, firm 11-250",670,32
+Software developers and analysts,13048,Pachuca,"Employee, firm 251+",257,11
+Software developers and analysts,13048,Pachuca,"Employee, firm up to 10",31,2
+Software developers and analysts,13048,Pachuca,Government employee,406,16
+Software developers and analysts,13048,Pachuca,Other or unknown,340,18
+Software developers and analysts,13048,Pachuca,Self-employed or employer,229,10
+Software developers and analysts,21114,Puebla,"Employee, firm 11-250",4367,61
+Software developers and analysts,21114,Puebla,"Employee, firm 251+",1610,25
+Software developers and analysts,21114,Puebla,"Employee, firm up to 10",1250,9
+Software developers and analysts,21114,Puebla,Government employee,488,6
+Software developers and analysts,21114,Puebla,Other or unknown,1031,15
+Software developers and analysts,21114,Puebla,Self-employed or employer,582,9
+Software developers and analysts,22014,Querétaro,"Employee, firm 11-250",2972,60
+Software developers and analysts,22014,Querétaro,"Employee, firm 251+",3946,81
+Software developers and analysts,22014,Querétaro,"Employee, firm up to 10",131,5
+Software developers and analysts,22014,Querétaro,Government employee,514,9
+Software developers and analysts,22014,Querétaro,Other or unknown,2598,53
+Software developers and analysts,22014,Querétaro,Self-employed or employer,1464,32
+Software developers and analysts,28032,Reynosa,"Employee, firm 11-250",307,9
+Software developers and analysts,28032,Reynosa,"Employee, firm 251+",503,17
+Software developers and analysts,28032,Reynosa,"Employee, firm up to 10",34,1
+Software developers and analysts,28032,Reynosa,Government employee,193,6
+Software developers and analysts,28032,Reynosa,Other or unknown,30,1
+Software developers and analysts,28032,Reynosa,Self-employed or employer,110,5
+Software developers and analysts,05030,Saltillo,"Employee, firm 11-250",1111,29
+Software developers and analysts,05030,Saltillo,"Employee, firm 251+",1404,34
+Software developers and analysts,05030,Saltillo,"Employee, firm up to 10",154,4
+Software developers and analysts,05030,Saltillo,Government employee,178,5
+Software developers and analysts,05030,Saltillo,Other or unknown,194,5
+Software developers and analysts,05030,Saltillo,Self-employed or employer,279,6
+Software developers and analysts,24028,San Luis Potosí,"Employee, firm 11-250",644,12
+Software developers and analysts,24028,San Luis Potosí,"Employee, firm 251+",1004,18
+Software developers and analysts,24028,San Luis Potosí,"Employee, firm up to 10",347,7
+Software developers and analysts,24028,San Luis Potosí,Government employee,47,1
+Software developers and analysts,24028,San Luis Potosí,Other or unknown,638,14
+Software developers and analysts,24028,San Luis Potosí,Self-employed or employer,638,13
+Software developers and analysts,28038,Tampico,"Employee, firm 11-250",641,16
+Software developers and analysts,28038,Tampico,"Employee, firm 251+",106,3
+Software developers and analysts,28038,Tampico,Government employee,302,4
+Software developers and analysts,28038,Tampico,Other or unknown,488,11
+Software developers and analysts,28038,Tampico,Self-employed or employer,59,2
+Software developers and analysts,07089,Tapachula,"Employee, firm 11-250",64,7
+Software developers and analysts,07089,Tapachula,"Employee, firm 251+",22,2
+Software developers and analysts,07089,Tapachula,"Employee, firm up to 10",53,4
+Software developers and analysts,07089,Tapachula,Government employee,70,8
+Software developers and analysts,07089,Tapachula,Other or unknown,96,10
+Software developers and analysts,07089,Tapachula,Self-employed or employer,123,13
+Software developers and analysts,18017,Tepic,"Employee, firm 11-250",310,15
+Software developers and analysts,18017,Tepic,"Employee, firm 251+",165,12
+Software developers and analysts,18017,Tepic,"Employee, firm up to 10",204,12
+Software developers and analysts,18017,Tepic,Government employee,278,18
+Software developers and analysts,18017,Tepic,Other or unknown,61,4
+Software developers and analysts,18017,Tepic,Self-employed or employer,110,7
+Software developers and analysts,02004,Tijuana,"Employee, firm 11-250",1174,19
+Software developers and analysts,02004,Tijuana,"Employee, firm 251+",868,14
+Software developers and analysts,02004,Tijuana,"Employee, firm up to 10",340,4
+Software developers and analysts,02004,Tijuana,Government employee,438,6
+Software developers and analysts,02004,Tijuana,Other or unknown,372,7
+Software developers and analysts,02004,Tijuana,Self-employed or employer,450,8
+Software developers and analysts,29033,Tlaxcala,"Employee, firm 11-250",804,28
+Software developers and analysts,29033,Tlaxcala,"Employee, firm 251+",224,7
+Software developers and analysts,29033,Tlaxcala,"Employee, firm up to 10",96,3
+Software developers and analysts,29033,Tlaxcala,Government employee,84,3
+Software developers and analysts,29033,Tlaxcala,Other or unknown,442,12
+Software developers and analysts,29033,Tlaxcala,Self-employed or employer,51,2
+Software developers and analysts,15106,Toluca,"Employee, firm 11-250",2214,34
+Software developers and analysts,15106,Toluca,"Employee, firm 251+",2780,46
+Software developers and analysts,15106,Toluca,"Employee, firm up to 10",102,2
+Software developers and analysts,15106,Toluca,Government employee,725,8
+Software developers and analysts,15106,Toluca,Other or unknown,198,3
+Software developers and analysts,15106,Toluca,Self-employed or employer,1054,21
+Software developers and analysts,05035,Torreón,"Employee, firm 11-250",1350,33
+Software developers and analysts,05035,Torreón,"Employee, firm 251+",824,25
+Software developers and analysts,05035,Torreón,"Employee, firm up to 10",164,5
+Software developers and analysts,05035,Torreón,Government employee,146,4
+Software developers and analysts,05035,Torreón,Other or unknown,331,8
+Software developers and analysts,05035,Torreón,Self-employed or employer,589,15
+Software developers and analysts,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",584,21
+Software developers and analysts,07101,Tuxtla Gutiérrez,"Employee, firm 251+",86,3
+Software developers and analysts,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",262,9
+Software developers and analysts,07101,Tuxtla Gutiérrez,Government employee,380,16
+Software developers and analysts,07101,Tuxtla Gutiérrez,Self-employed or employer,462,16
+Software developers and analysts,30193,Veracruz,"Employee, firm 11-250",693,15
+Software developers and analysts,30193,Veracruz,"Employee, firm 251+",112,3
+Software developers and analysts,30193,Veracruz,"Employee, firm up to 10",228,6
+Software developers and analysts,30193,Veracruz,Government employee,124,4
+Software developers and analysts,30193,Veracruz,Other or unknown,752,17
+Software developers and analysts,30193,Veracruz,Self-employed or employer,368,8
+Software developers and analysts,27004,Villahermosa,"Employee, firm 11-250",443,24
+Software developers and analysts,27004,Villahermosa,"Employee, firm 251+",65,4
+Software developers and analysts,27004,Villahermosa,"Employee, firm up to 10",176,8
+Software developers and analysts,27004,Villahermosa,Government employee,430,22
+Software developers and analysts,27004,Villahermosa,Other or unknown,264,14
+Software developers and analysts,27004,Villahermosa,Self-employed or employer,268,13
+Software developers and analysts,32056,Zacatecas,"Employee, firm 11-250",226,17
+Software developers and analysts,32056,Zacatecas,"Employee, firm 251+",97,9
+Software developers and analysts,32056,Zacatecas,"Employee, firm up to 10",12,1
+Software developers and analysts,32056,Zacatecas,Government employee,190,14
+Software developers and analysts,32056,Zacatecas,Other or unknown,45,3
+Software developers and analysts,32056,Zacatecas,Self-employed or employer,68,5
+Software developers and analysts,,Rest of the country,"Employee, firm 11-250",12467,114
+Software developers and analysts,,Rest of the country,"Employee, firm 251+",10587,107
+Software developers and analysts,,Rest of the country,"Employee, firm up to 10",5283,45
+Software developers and analysts,,Rest of the country,Government employee,5589,66
+Software developers and analysts,,Rest of the country,Other or unknown,9148,84
+Software developers and analysts,,Rest of the country,Self-employed or employer,11834,90
+"Database, systems and network professionals",12001,Acapulco,"Employee, firm 11-250",36,1
+"Database, systems and network professionals",12001,Acapulco,Other or unknown,40,1
+"Database, systems and network professionals",01001,Aguascalientes,"Employee, firm 11-250",36,1
+"Database, systems and network professionals",01001,Aguascalientes,Government employee,79,2
+"Database, systems and network professionals",04002,Campeche,"Employee, firm 11-250",5,1
+"Database, systems and network professionals",04002,Campeche,"Employee, firm 251+",15,2
+"Database, systems and network professionals",04002,Campeche,"Employee, firm up to 10",12,1
+"Database, systems and network professionals",04002,Campeche,Government employee,11,1
+"Database, systems and network professionals",08019,Chihuahua,"Employee, firm 11-250",42,1
+"Database, systems and network professionals",08019,Chihuahua,"Employee, firm 251+",47,1
+"Database, systems and network professionals",09015,Ciudad de México,"Employee, firm 11-250",2784,7
+"Database, systems and network professionals",09015,Ciudad de México,"Employee, firm 251+",1436,4
+"Database, systems and network professionals",04003,Ciudad del Carmen,"Employee, firm 11-250",31,4
+"Database, systems and network professionals",04003,Ciudad del Carmen,Government employee,13,2
+"Database, systems and network professionals",30039,Coatzacoalcos,"Employee, firm 11-250",15,1
+"Database, systems and network professionals",06002,Colima,"Employee, firm 251+",12,1
+"Database, systems and network professionals",17007,Cuernavaca,"Employee, firm 251+",66,2
+"Database, systems and network professionals",17007,Cuernavaca,Government employee,18,1
+"Database, systems and network professionals",17007,Cuernavaca,Other or unknown,66,1
+"Database, systems and network professionals",25006,Culiacán,"Employee, firm 11-250",92,2
+"Database, systems and network professionals",25006,Culiacán,"Employee, firm 251+",118,3
+"Database, systems and network professionals",25006,Culiacán,"Employee, firm up to 10",41,1
+"Database, systems and network professionals",25006,Culiacán,Government employee,59,2
+"Database, systems and network professionals",25006,Culiacán,Other or unknown,80,2
+"Database, systems and network professionals",10005,Durango,"Employee, firm 11-250",47,2
+"Database, systems and network professionals",10005,Durango,Government employee,30,1
+"Database, systems and network professionals",10005,Durango,Other or unknown,17,1
+"Database, systems and network professionals",14039,Guadalajara,"Employee, firm 11-250",282,3
+"Database, systems and network professionals",14039,Guadalajara,"Employee, firm 251+",470,3
+"Database, systems and network professionals",14039,Guadalajara,Other or unknown,78,1
+"Database, systems and network professionals",14039,Guadalajara,Self-employed or employer,174,1
+"Database, systems and network professionals",26030,Hermosillo,"Employee, firm 11-250",44,1
+"Database, systems and network professionals",26030,Hermosillo,"Employee, firm 251+",42,1
+"Database, systems and network professionals",26030,Hermosillo,Government employee,30,1
+"Database, systems and network professionals",26030,Hermosillo,Other or unknown,111,3
+"Database, systems and network professionals",03003,La Paz,Government employee,12,1
+"Database, systems and network professionals",11020,León,"Employee, firm 11-250",72,1
+"Database, systems and network professionals",11020,León,"Employee, firm 251+",18,1
+"Database, systems and network professionals",11020,León,"Employee, firm up to 10",45,1
+"Database, systems and network professionals",11020,León,Other or unknown,84,2
+"Database, systems and network professionals",11020,León,Self-employed or employer,54,1
+"Database, systems and network professionals",02002,Mexicali,"Employee, firm 251+",39,1
+"Database, systems and network professionals",19039,Monterrey,"Employee, firm 11-250",130,1
+"Database, systems and network professionals",19039,Monterrey,"Employee, firm 251+",86,1
+"Database, systems and network professionals",19039,Monterrey,Other or unknown,81,1
+"Database, systems and network professionals",16053,Morelia,Government employee,60,1
+"Database, systems and network professionals",31050,Mérida,"Employee, firm up to 10",126,2
+"Database, systems and network professionals",31050,Mérida,Other or unknown,44,1
+"Database, systems and network professionals",20067,Oaxaca,Other or unknown,33,1
+"Database, systems and network professionals",13048,Pachuca,Government employee,30,1
+"Database, systems and network professionals",13048,Pachuca,Other or unknown,20,1
+"Database, systems and network professionals",21114,Puebla,"Employee, firm 11-250",34,1
+"Database, systems and network professionals",21114,Puebla,"Employee, firm 251+",81,1
+"Database, systems and network professionals",21114,Puebla,"Employee, firm up to 10",114,1
+"Database, systems and network professionals",21114,Puebla,Other or unknown,77,1
+"Database, systems and network professionals",22014,Querétaro,"Employee, firm 11-250",74,2
+"Database, systems and network professionals",22014,Querétaro,Government employee,28,1
+"Database, systems and network professionals",22014,Querétaro,Other or unknown,128,3
+"Database, systems and network professionals",05030,Saltillo,"Employee, firm 11-250",18,1
+"Database, systems and network professionals",24028,San Luis Potosí,"Employee, firm 11-250",53,1
+"Database, systems and network professionals",24028,San Luis Potosí,"Employee, firm 251+",57,1
+"Database, systems and network professionals",28038,Tampico,"Employee, firm 11-250",64,1
+"Database, systems and network professionals",28038,Tampico,"Employee, firm up to 10",42,1
+"Database, systems and network professionals",28038,Tampico,Other or unknown,27,1
+"Database, systems and network professionals",07089,Tapachula,"Employee, firm 11-250",5,1
+"Database, systems and network professionals",18017,Tepic,"Employee, firm up to 10",26,2
+"Database, systems and network professionals",18017,Tepic,Government employee,42,3
+"Database, systems and network professionals",02004,Tijuana,"Employee, firm 11-250",118,1
+"Database, systems and network professionals",15106,Toluca,"Employee, firm 251+",194,2
+"Database, systems and network professionals",05035,Torreón,"Employee, firm 11-250",260,6
+"Database, systems and network professionals",05035,Torreón,"Employee, firm 251+",22,1
+"Database, systems and network professionals",05035,Torreón,Government employee,119,4
+"Database, systems and network professionals",05035,Torreón,Other or unknown,38,1
+"Database, systems and network professionals",05035,Torreón,Self-employed or employer,46,1
+"Database, systems and network professionals",07101,Tuxtla Gutiérrez,"Employee, firm 11-250",8,1
+"Database, systems and network professionals",07101,Tuxtla Gutiérrez,"Employee, firm 251+",36,1
+"Database, systems and network professionals",07101,Tuxtla Gutiérrez,Other or unknown,31,1
+"Database, systems and network professionals",30193,Veracruz,"Employee, firm 11-250",84,2
+"Database, systems and network professionals",30193,Veracruz,Government employee,45,1
+"Database, systems and network professionals",30193,Veracruz,Other or unknown,36,1
+"Database, systems and network professionals",27004,Villahermosa,"Employee, firm 251+",46,2
+"Database, systems and network professionals",27004,Villahermosa,Other or unknown,21,2
+"Database, systems and network professionals",32056,Zacatecas,"Employee, firm 251+",16,1
+"Database, systems and network professionals",32056,Zacatecas,Other or unknown,16,1
+"Database, systems and network professionals",,Rest of the country,"Employee, firm 11-250",333,4
+"Database, systems and network professionals",,Rest of the country,"Employee, firm 251+",746,7
+"Database, systems and network professionals",,Rest of the country,"Employee, firm up to 10",406,3
+"Database, systems and network professionals",,Rest of the country,Government employee,372,2
+"Database, systems and network professionals",,Rest of the country,Other or unknown,152,1
+"Database, systems and network professionals",,Rest of the country,Self-employed or employer,94,1
+ICT technicians and user support,12001,Acapulco,"Employee, firm 11-250",68,2
+ICT technicians and user support,12001,Acapulco,"Employee, firm 251+",34,1
+ICT technicians and user support,12001,Acapulco,"Employee, firm up to 10",66,2
+ICT technicians and user support,12001,Acapulco,Government employee,129,6
+ICT technicians and user support,12001,Acapulco,Other or unknown,58,3
+ICT technicians and user support,12001,Acapulco,Self-employed or employer,271,10
+ICT technicians and user support,01001,Aguascalientes,"Employee, firm 11-250",528,12
+ICT technicians and user support,01001,Aguascalientes,"Employee, firm 251+",713,15
+ICT technicians and user support,01001,Aguascalientes,"Employee, firm up to 10",456,8
+ICT technicians and user support,01001,Aguascalientes,Government employee,473,11
+ICT technicians and user support,01001,Aguascalientes,Other or unknown,453,10
+ICT technicians and user support,01001,Aguascalientes,Self-employed or employer,228,6
+ICT technicians and user support,04002,Campeche,"Employee, firm 11-250",144,12
+ICT technicians and user support,04002,Campeche,"Employee, firm 251+",12,1
+ICT technicians and user support,04002,Campeche,"Employee, firm up to 10",92,9
+ICT technicians and user support,04002,Campeche,Government employee,257,19
+ICT technicians and user support,04002,Campeche,Other or unknown,16,1
+ICT technicians and user support,04002,Campeche,Self-employed or employer,38,4
+ICT technicians and user support,23005,Cancún,"Employee, firm 11-250",451,9
+ICT technicians and user support,23005,Cancún,"Employee, firm 251+",372,10
+ICT technicians and user support,23005,Cancún,"Employee, firm up to 10",274,6
+ICT technicians and user support,23005,Cancún,Government employee,66,2
+ICT technicians and user support,23005,Cancún,Other or unknown,137,4
+ICT technicians and user support,23005,Cancún,Self-employed or employer,280,6
+ICT technicians and user support,08019,Chihuahua,"Employee, firm 11-250",261,6
+ICT technicians and user support,08019,Chihuahua,"Employee, firm 251+",796,17
+ICT technicians and user support,08019,Chihuahua,"Employee, firm up to 10",107,2
+ICT technicians and user support,08019,Chihuahua,Government employee,314,7
+ICT technicians and user support,08019,Chihuahua,Other or unknown,216,5
+ICT technicians and user support,08019,Chihuahua,Self-employed or employer,311,8
+ICT technicians and user support,08037,Ciudad Juárez,"Employee, firm 11-250",452,9
+ICT technicians and user support,08037,Ciudad Juárez,"Employee, firm 251+",1709,27
+ICT technicians and user support,08037,Ciudad Juárez,"Employee, firm up to 10",94,2
+ICT technicians and user support,08037,Ciudad Juárez,Government employee,74,1
+ICT technicians and user support,08037,Ciudad Juárez,Other or unknown,70,1
+ICT technicians and user support,08037,Ciudad Juárez,Self-employed or employer,153,3
+ICT technicians and user support,09015,Ciudad de México,"Employee, firm 11-250",28040,68
+ICT technicians and user support,09015,Ciudad de México,"Employee, firm 251+",8770,23
+ICT technicians and user support,09015,Ciudad de México,"Employee, firm up to 10",5700,21
+ICT technicians and user support,09015,Ciudad de México,Government employee,4361,17
+ICT technicians and user support,09015,Ciudad de México,Other or unknown,8372,29
+ICT technicians and user support,09015,Ciudad de México,Self-employed or employer,9865,39
+ICT technicians and user support,04003,Ciudad del Carmen,"Employee, firm 11-250",86,10
+ICT technicians and user support,04003,Ciudad del Carmen,"Employee, firm 251+",11,2
+ICT technicians and user support,04003,Ciudad del Carmen,"Employee, firm up to 10",46,5
+ICT technicians and user support,04003,Ciudad del Carmen,Government employee,46,6
+ICT technicians and user support,04003,Ciudad del Carmen,Other or unknown,22,3
+ICT technicians and user support,04003,Ciudad del Carmen,Self-employed or employer,58,8
+ICT technicians and user support,30039,Coatzacoalcos,"Employee, firm 11-250",17,2
+ICT technicians and user support,30039,Coatzacoalcos,"Employee, firm up to 10",20,2
+ICT technicians and user support,30039,Coatzacoalcos,Government employee,39,3
+ICT technicians and user support,30039,Coatzacoalcos,Other or unknown,51,4
+ICT technicians and user support,30039,Coatzacoalcos,Self-employed or employer,99,8
+ICT technicians and user support,06002,Colima,"Employee, firm 11-250",47,5
+ICT technicians and user support,06002,Colima,"Employee, firm 251+",102,6
+ICT technicians and user support,06002,Colima,"Employee, firm up to 10",58,5
+ICT technicians and user support,06002,Colima,Government employee,7,1
+ICT technicians and user support,06002,Colima,Other or unknown,223,12
+ICT technicians and user support,06002,Colima,Self-employed or employer,129,11
+ICT technicians and user support,17007,Cuernavaca,"Employee, firm 11-250",167,5
+ICT technicians and user support,17007,Cuernavaca,"Employee, firm 251+",168,5
+ICT technicians and user support,17007,Cuernavaca,"Employee, firm up to 10",182,6
+ICT technicians and user support,17007,Cuernavaca,Government employee,56,2
+ICT technicians and user support,17007,Cuernavaca,Other or unknown,290,10
+ICT technicians and user support,17007,Cuernavaca,Self-employed or employer,259,7
+ICT technicians and user support,25006,Culiacán,"Employee, firm 11-250",696,20
+ICT technicians and user support,25006,Culiacán,"Employee, firm 251+",692,16
+ICT technicians and user support,25006,Culiacán,"Employee, firm up to 10",154,4
+ICT technicians and user support,25006,Culiacán,Government employee,270,8
+ICT technicians and user support,25006,Culiacán,Other or unknown,148,4
+ICT technicians and user support,25006,Culiacán,Self-employed or employer,162,5
+ICT technicians and user support,10005,Durango,"Employee, firm 11-250",203,10
+ICT technicians and user support,10005,Durango,"Employee, firm 251+",136,6
+ICT technicians and user support,10005,Durango,"Employee, firm up to 10",246,10
+ICT technicians and user support,10005,Durango,Government employee,230,9
+ICT technicians and user support,10005,Durango,Other or unknown,56,2
+ICT technicians and user support,10005,Durango,Self-employed or employer,330,15
+ICT technicians and user support,14039,Guadalajara,"Employee, firm 11-250",5098,39
+ICT technicians and user support,14039,Guadalajara,"Employee, firm 251+",2033,14
+ICT technicians and user support,14039,Guadalajara,"Employee, firm up to 10",1041,8
+ICT technicians and user support,14039,Guadalajara,Government employee,420,3
+ICT technicians and user support,14039,Guadalajara,Other or unknown,1277,9
+ICT technicians and user support,14039,Guadalajara,Self-employed or employer,1702,11
+ICT technicians and user support,26030,Hermosillo,"Employee, firm 11-250",40,1
+ICT technicians and user support,26030,Hermosillo,"Employee, firm 251+",196,5
+ICT technicians and user support,26030,Hermosillo,"Employee, firm up to 10",222,6
+ICT technicians and user support,26030,Hermosillo,Government employee,150,4
+ICT technicians and user support,26030,Hermosillo,Other or unknown,517,14
+ICT technicians and user support,26030,Hermosillo,Self-employed or employer,436,10
+ICT technicians and user support,03003,La Paz,"Employee, firm 11-250",176,12
+ICT technicians and user support,03003,La Paz,"Employee, firm 251+",51,2
+ICT technicians and user support,03003,La Paz,"Employee, firm up to 10",74,6
+ICT technicians and user support,03003,La Paz,Government employee,112,9
+ICT technicians and user support,03003,La Paz,Other or unknown,34,2
+ICT technicians and user support,03003,La Paz,Self-employed or employer,109,8
+ICT technicians and user support,11020,León,"Employee, firm 11-250",969,19
+ICT technicians and user support,11020,León,"Employee, firm 251+",379,8
+ICT technicians and user support,11020,León,"Employee, firm up to 10",308,5
+ICT technicians and user support,11020,León,Other or unknown,560,11
+ICT technicians and user support,11020,León,Self-employed or employer,898,15
+ICT technicians and user support,02002,Mexicali,"Employee, firm 11-250",194,6
+ICT technicians and user support,02002,Mexicali,"Employee, firm 251+",442,12
+ICT technicians and user support,02002,Mexicali,"Employee, firm up to 10",199,6
+ICT technicians and user support,02002,Mexicali,Government employee,120,2
+ICT technicians and user support,02002,Mexicali,Other or unknown,167,4
+ICT technicians and user support,02002,Mexicali,Self-employed or employer,382,10
+ICT technicians and user support,19039,Monterrey,"Employee, firm 11-250",4588,35
+ICT technicians and user support,19039,Monterrey,"Employee, firm 251+",5186,33
+ICT technicians and user support,19039,Monterrey,"Employee, firm up to 10",2333,17
+ICT technicians and user support,19039,Monterrey,Government employee,824,6
+ICT technicians and user support,19039,Monterrey,Other or unknown,2711,20
+ICT technicians and user support,19039,Monterrey,Self-employed or employer,1250,9
+ICT technicians and user support,16053,Morelia,"Employee, firm 11-250",421,12
+ICT technicians and user support,16053,Morelia,"Employee, firm 251+",338,7
+ICT technicians and user support,16053,Morelia,"Employee, firm up to 10",213,5
+ICT technicians and user support,16053,Morelia,Government employee,415,11
+ICT technicians and user support,16053,Morelia,Other or unknown,176,5
+ICT technicians and user support,16053,Morelia,Self-employed or employer,328,9
+ICT technicians and user support,31050,Mérida,"Employee, firm 11-250",614,12
+ICT technicians and user support,31050,Mérida,"Employee, firm 251+",94,2
+ICT technicians and user support,31050,Mérida,"Employee, firm up to 10",260,3
+ICT technicians and user support,31050,Mérida,Other or unknown,435,6
+ICT technicians and user support,31050,Mérida,Self-employed or employer,348,7
+ICT technicians and user support,20067,Oaxaca,"Employee, firm 11-250",114,4
+ICT technicians and user support,20067,Oaxaca,"Employee, firm 251+",25,1
+ICT technicians and user support,20067,Oaxaca,"Employee, firm up to 10",136,5
+ICT technicians and user support,20067,Oaxaca,Government employee,174,7
+ICT technicians and user support,20067,Oaxaca,Other or unknown,81,3
+ICT technicians and user support,20067,Oaxaca,Self-employed or employer,292,12
+ICT technicians and user support,13048,Pachuca,"Employee, firm 11-250",251,10
+ICT technicians and user support,13048,Pachuca,"Employee, firm 251+",97,5
+ICT technicians and user support,13048,Pachuca,"Employee, firm up to 10",148,6
+ICT technicians and user support,13048,Pachuca,Government employee,114,6
+ICT technicians and user support,13048,Pachuca,Other or unknown,16,2
+ICT technicians and user support,13048,Pachuca,Self-employed or employer,501,22
+ICT technicians and user support,21114,Puebla,"Employee, firm 11-250",1228,21
+ICT technicians and user support,21114,Puebla,"Employee, firm 251+",1325,16
+ICT technicians and user support,21114,Puebla,"Employee, firm up to 10",651,9
+ICT technicians and user support,21114,Puebla,Government employee,83,1
+ICT technicians and user support,21114,Puebla,Other or unknown,407,7
+ICT technicians and user support,21114,Puebla,Self-employed or employer,1538,24
+ICT technicians and user support,22014,Querétaro,"Employee, firm 11-250",1195,21
+ICT technicians and user support,22014,Querétaro,"Employee, firm 251+",482,13
+ICT technicians and user support,22014,Querétaro,"Employee, firm up to 10",321,6
+ICT technicians and user support,22014,Querétaro,Government employee,228,2
+ICT technicians and user support,22014,Querétaro,Other or unknown,391,7
+ICT technicians and user support,22014,Querétaro,Self-employed or employer,398,8
+ICT technicians and user support,28032,Reynosa,"Employee, firm 11-250",108,3
+ICT technicians and user support,28032,Reynosa,"Employee, firm 251+",373,12
+ICT technicians and user support,28032,Reynosa,"Employee, firm up to 10",29,1
+ICT technicians and user support,28032,Reynosa,Government employee,59,2
+ICT technicians and user support,28032,Reynosa,Self-employed or employer,240,6
+ICT technicians and user support,05030,Saltillo,"Employee, firm 11-250",338,8
+ICT technicians and user support,05030,Saltillo,"Employee, firm 251+",967,26
+ICT technicians and user support,05030,Saltillo,"Employee, firm up to 10",294,8
+ICT technicians and user support,05030,Saltillo,Government employee,183,4
+ICT technicians and user support,05030,Saltillo,Other or unknown,16,1
+ICT technicians and user support,24028,San Luis Potosí,"Employee, firm 11-250",392,9
+ICT technicians and user support,24028,San Luis Potosí,"Employee, firm 251+",164,3
+ICT technicians and user support,24028,San Luis Potosí,"Employee, firm up to 10",223,5
+ICT technicians and user support,24028,San Luis Potosí,Government employee,100,3
+ICT technicians and user support,24028,San Luis Potosí,Other or unknown,157,6
+ICT technicians and user support,24028,San Luis Potosí,Self-employed or employer,411,7
+ICT technicians and user support,28038,Tampico,"Employee, firm 11-250",285,7
+ICT technicians and user support,28038,Tampico,"Employee, firm 251+",138,2
+ICT technicians and user support,28038,Tampico,"Employee, firm up to 10",172,4
+ICT technicians and user support,28038,Tampico,Government employee,85,2
+ICT technicians and user support,28038,Tampico,Other or unknown,200,4
+ICT technicians and user support,28038,Tampico,Self-employed or employer,16,1
+ICT technicians and user support,07089,Tapachula,"Employee, firm 11-250",47,5
+ICT technicians and user support,07089,Tapachula,"Employee, firm up to 10",134,13
+ICT technicians and user support,07089,Tapachula,Government employee,41,3
+ICT technicians and user support,07089,Tapachula,Other or unknown,52,5
+ICT technicians and user support,07089,Tapachula,Self-employed or employer,84,9
+ICT technicians and user support,18017,Tepic,"Employee, firm 11-250",163,11
+ICT technicians and user support,18017,Tepic,"Employee, firm 251+",9,1
+ICT technicians and user support,18017,Tepic,"Employee, firm up to 10",116,7
+ICT technicians and user support,18017,Tepic,Government employee,95,7
+ICT technicians and user support,18017,Tepic,Other or unknown,30,2
+ICT technicians and user support,18017,Tepic,Self-employed or employer,176,11
+ICT technicians and user support,02004,Tijuana,"Employee, firm 11-250",548,8
+ICT technicians and user support,02004,Tijuana,"Employee, firm 251+",616,8
+ICT technicians and user support,02004,Tijuana,"Employee, firm up to 10",323,7
+ICT technicians and user support,02004,Tijuana,Other or unknown,326,5
+ICT technicians and user support,02004,Tijuana,Self-employed or employer,525,8
+ICT technicians and user support,29033,Tlaxcala,"Employee, firm 11-250",74,2
+ICT technicians and user support,29033,Tlaxcala,"Employee, firm 251+",91,3
+ICT technicians and user support,29033,Tlaxcala,"Employee, firm up to 10",362,11
+ICT technicians and user support,29033,Tlaxcala,Government employee,31,1
+ICT technicians and user support,29033,Tlaxcala,Other or unknown,90,3
+ICT technicians and user support,29033,Tlaxcala,Self-employed or employer,130,3
+ICT technicians and user support,15106,Toluca,"Employee, firm 11-250",810,10
+ICT technicians and user support,15106,Toluca,"Employee, firm 251+",139,2
+ICT technicians and user support,15106,Toluca,"Employee, firm up to 10",66,1
+ICT technicians and user support,15106,Toluca,Government employee,471,3
+ICT technicians and user support,15106,Toluca,Self-employed or employer,502,8
+ICT technicians and user support,05035,Torreón,"Employee, firm 11-250",780,21
+ICT technicians and user support,05035,Torreón,"Employee, firm 251+",344,10
+ICT technicians and user support,05035,Torreón,"Employee, firm up to 10",204,5
+ICT technicians and user support,05035,Torreón,Government employee,29,1
+ICT technicians and user support,05035,Torreón,Other or unknown,20,1
+ICT technicians and user support,05035,Torreón,Self-employed or employer,182,4
+ICT technicians and user support,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",248,9
+ICT technicians and user support,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",241,8
+ICT technicians and user support,07101,Tuxtla Gutiérrez,Government employee,259,10
+ICT technicians and user support,07101,Tuxtla Gutiérrez,Self-employed or employer,138,5
+ICT technicians and user support,30193,Veracruz,"Employee, firm 11-250",99,3
+ICT technicians and user support,30193,Veracruz,"Employee, firm 251+",42,1
+ICT technicians and user support,30193,Veracruz,"Employee, firm up to 10",120,3
+ICT technicians and user support,30193,Veracruz,Government employee,172,4
+ICT technicians and user support,30193,Veracruz,Other or unknown,170,4
+ICT technicians and user support,30193,Veracruz,Self-employed or employer,235,7
+ICT technicians and user support,27004,Villahermosa,"Employee, firm 11-250",345,12
+ICT technicians and user support,27004,Villahermosa,"Employee, firm 251+",95,5
+ICT technicians and user support,27004,Villahermosa,"Employee, firm up to 10",226,9
+ICT technicians and user support,27004,Villahermosa,Government employee,256,9
+ICT technicians and user support,27004,Villahermosa,Other or unknown,66,3
+ICT technicians and user support,27004,Villahermosa,Self-employed or employer,208,10
+ICT technicians and user support,32056,Zacatecas,"Employee, firm 11-250",72,6
+ICT technicians and user support,32056,Zacatecas,"Employee, firm 251+",36,2
+ICT technicians and user support,32056,Zacatecas,"Employee, firm up to 10",27,2
+ICT technicians and user support,32056,Zacatecas,Government employee,28,2
+ICT technicians and user support,32056,Zacatecas,Other or unknown,42,3
+ICT technicians and user support,32056,Zacatecas,Self-employed or employer,103,8
+ICT technicians and user support,,Rest of the country,"Employee, firm 11-250",6339,60
+ICT technicians and user support,,Rest of the country,"Employee, firm 251+",3839,35
+ICT technicians and user support,,Rest of the country,"Employee, firm up to 10",12691,96
+ICT technicians and user support,,Rest of the country,Government employee,3120,36
+ICT technicians and user support,,Rest of the country,Other or unknown,4583,36
+ICT technicians and user support,,Rest of the country,Self-employed or employer,13162,87
+ICT managers,01001,Aguascalientes,"Employee, firm 11-250",216,4
+ICT managers,01001,Aguascalientes,"Employee, firm 251+",608,11
+ICT managers,01001,Aguascalientes,Government employee,231,6
+ICT managers,01001,Aguascalientes,Other or unknown,113,2
+ICT managers,04002,Campeche,"Employee, firm 11-250",42,3
+ICT managers,04002,Campeche,"Employee, firm up to 10",6,1
+ICT managers,04002,Campeche,Government employee,85,7
+ICT managers,23005,Cancún,"Employee, firm 11-250",66,1
+ICT managers,23005,Cancún,"Employee, firm 251+",88,3
+ICT managers,23005,Cancún,Other or unknown,124,2
+ICT managers,08019,Chihuahua,"Employee, firm 11-250",105,3
+ICT managers,08019,Chihuahua,"Employee, firm 251+",279,8
+ICT managers,08019,Chihuahua,Government employee,158,2
+ICT managers,08019,Chihuahua,Other or unknown,102,2
+ICT managers,08019,Chihuahua,Self-employed or employer,66,1
+ICT managers,08037,Ciudad Juárez,"Employee, firm 11-250",52,1
+ICT managers,08037,Ciudad Juárez,"Employee, firm 251+",271,4
+ICT managers,08037,Ciudad Juárez,Other or unknown,56,1
+ICT managers,09015,Ciudad de México,"Employee, firm 11-250",7541,25
+ICT managers,09015,Ciudad de México,"Employee, firm 251+",7370,21
+ICT managers,09015,Ciudad de México,"Employee, firm up to 10",692,4
+ICT managers,09015,Ciudad de México,Government employee,3734,9
+ICT managers,09015,Ciudad de México,Other or unknown,1543,3
+ICT managers,09015,Ciudad de México,Self-employed or employer,2830,6
+ICT managers,04003,Ciudad del Carmen,"Employee, firm 11-250",65,9
+ICT managers,04003,Ciudad del Carmen,"Employee, firm up to 10",8,1
+ICT managers,04003,Ciudad del Carmen,Government employee,42,5
+ICT managers,06002,Colima,"Employee, firm 11-250",84,8
+ICT managers,06002,Colima,"Employee, firm 251+",40,3
+ICT managers,06002,Colima,"Employee, firm up to 10",28,2
+ICT managers,06002,Colima,Government employee,11,1
+ICT managers,17007,Cuernavaca,Government employee,26,1
+ICT managers,17007,Cuernavaca,Self-employed or employer,35,1
+ICT managers,25006,Culiacán,"Employee, firm 11-250",265,9
+ICT managers,25006,Culiacán,"Employee, firm 251+",319,9
+ICT managers,25006,Culiacán,Government employee,41,1
+ICT managers,10005,Durango,"Employee, firm 11-250",60,2
+ICT managers,10005,Durango,Government employee,54,3
+ICT managers,14039,Guadalajara,"Employee, firm 11-250",1636,11
+ICT managers,14039,Guadalajara,"Employee, firm 251+",395,2
+ICT managers,14039,Guadalajara,"Employee, firm up to 10",321,2
+ICT managers,14039,Guadalajara,Other or unknown,67,1
+ICT managers,14039,Guadalajara,Self-employed or employer,577,4
+ICT managers,26030,Hermosillo,"Employee, firm 11-250",183,6
+ICT managers,26030,Hermosillo,"Employee, firm 251+",111,3
+ICT managers,26030,Hermosillo,Government employee,116,3
+ICT managers,26030,Hermosillo,Other or unknown,104,3
+ICT managers,26030,Hermosillo,Self-employed or employer,35,1
+ICT managers,03003,La Paz,"Employee, firm 11-250",22,1
+ICT managers,03003,La Paz,"Employee, firm up to 10",8,1
+ICT managers,03003,La Paz,Government employee,55,4
+ICT managers,11020,León,"Employee, firm 11-250",76,3
+ICT managers,11020,León,"Employee, firm 251+",213,5
+ICT managers,11020,León,"Employee, firm up to 10",14,1
+ICT managers,11020,León,Government employee,65,1
+ICT managers,11020,León,Self-employed or employer,161,3
+ICT managers,02002,Mexicali,"Employee, firm 11-250",54,2
+ICT managers,02002,Mexicali,Government employee,34,1
+ICT managers,19039,Monterrey,"Employee, firm 11-250",732,5
+ICT managers,19039,Monterrey,"Employee, firm 251+",803,6
+ICT managers,19039,Monterrey,Government employee,345,3
+ICT managers,19039,Monterrey,Other or unknown,321,2
+ICT managers,19039,Monterrey,Self-employed or employer,544,4
+ICT managers,16053,Morelia,"Employee, firm 11-250",94,2
+ICT managers,16053,Morelia,Government employee,323,8
+ICT managers,16053,Morelia,Other or unknown,43,1
+ICT managers,16053,Morelia,Self-employed or employer,42,1
+ICT managers,31050,Mérida,"Employee, firm 11-250",451,9
+ICT managers,31050,Mérida,"Employee, firm 251+",217,6
+ICT managers,31050,Mérida,"Employee, firm up to 10",184,4
+ICT managers,31050,Mérida,Government employee,108,2
+ICT managers,31050,Mérida,Other or unknown,225,5
+ICT managers,31050,Mérida,Self-employed or employer,193,3
+ICT managers,20067,Oaxaca,"Employee, firm 11-250",28,1
+ICT managers,20067,Oaxaca,"Employee, firm up to 10",55,2
+ICT managers,20067,Oaxaca,Government employee,26,1
+ICT managers,20067,Oaxaca,Other or unknown,69,2
+ICT managers,20067,Oaxaca,Self-employed or employer,30,1
+ICT managers,13048,Pachuca,"Employee, firm 251+",61,2
+ICT managers,13048,Pachuca,Government employee,31,1
+ICT managers,13048,Pachuca,Other or unknown,37,1
+ICT managers,13048,Pachuca,Self-employed or employer,36,1
+ICT managers,21114,Puebla,"Employee, firm 11-250",300,5
+ICT managers,21114,Puebla,"Employee, firm up to 10",106,1
+ICT managers,21114,Puebla,Government employee,44,1
+ICT managers,21114,Puebla,Self-employed or employer,115,2
+ICT managers,22014,Querétaro,"Employee, firm 11-250",378,6
+ICT managers,22014,Querétaro,"Employee, firm 251+",502,10
+ICT managers,22014,Querétaro,Government employee,18,1
+ICT managers,22014,Querétaro,Other or unknown,244,5
+ICT managers,22014,Querétaro,Self-employed or employer,57,1
+ICT managers,05030,Saltillo,"Employee, firm 11-250",46,1
+ICT managers,05030,Saltillo,"Employee, firm 251+",116,2
+ICT managers,05030,Saltillo,Government employee,214,4
+ICT managers,24028,San Luis Potosí,"Employee, firm 251+",52,1
+ICT managers,24028,San Luis Potosí,Government employee,82,2
+ICT managers,28038,Tampico,"Employee, firm 11-250",58,2
+ICT managers,28038,Tampico,"Employee, firm up to 10",42,1
+ICT managers,28038,Tampico,Self-employed or employer,84,2
+ICT managers,07089,Tapachula,Government employee,9,1
+ICT managers,18017,Tepic,"Employee, firm 11-250",40,3
+ICT managers,18017,Tepic,"Employee, firm 251+",19,1
+ICT managers,18017,Tepic,Government employee,105,7
+ICT managers,02004,Tijuana,"Employee, firm 11-250",116,1
+ICT managers,29033,Tlaxcala,"Employee, firm 11-250",82,2
+ICT managers,29033,Tlaxcala,"Employee, firm up to 10",44,1
+ICT managers,29033,Tlaxcala,Government employee,36,1
+ICT managers,15106,Toluca,"Employee, firm 11-250",144,3
+ICT managers,15106,Toluca,"Employee, firm 251+",250,3
+ICT managers,15106,Toluca,Government employee,61,1
+ICT managers,15106,Toluca,Other or unknown,85,1
+ICT managers,05035,Torreón,"Employee, firm 11-250",72,2
+ICT managers,05035,Torreón,"Employee, firm 251+",129,4
+ICT managers,05035,Torreón,"Employee, firm up to 10",41,1
+ICT managers,05035,Torreón,Government employee,71,2
+ICT managers,05035,Torreón,Self-employed or employer,76,1
+ICT managers,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",27,1
+ICT managers,07101,Tuxtla Gutiérrez,Government employee,231,7
+ICT managers,30193,Veracruz,"Employee, firm 11-250",27,1
+ICT managers,30193,Veracruz,Other or unknown,85,3
+ICT managers,27004,Villahermosa,"Employee, firm 11-250",22,1
+ICT managers,27004,Villahermosa,"Employee, firm 251+",25,1
+ICT managers,27004,Villahermosa,Self-employed or employer,31,1
+ICT managers,32056,Zacatecas,"Employee, firm 11-250",26,2
+ICT managers,32056,Zacatecas,"Employee, firm 251+",15,1
+ICT managers,32056,Zacatecas,Government employee,132,10
+ICT managers,,Rest of the country,"Employee, firm 11-250",1121,11
+ICT managers,,Rest of the country,"Employee, firm 251+",1735,21
+ICT managers,,Rest of the country,"Employee, firm up to 10",154,2
+ICT managers,,Rest of the country,Government employee,1901,18
+ICT managers,,Rest of the country,Other or unknown,437,3
+ICT managers,,Rest of the country,Self-employed or employer,378,3
+"Designers (graphic, multimedia, product)",12001,Acapulco,"Employee, firm 11-250",55,1
+"Designers (graphic, multimedia, product)",01001,Aguascalientes,"Employee, firm 11-250",145,4
+"Designers (graphic, multimedia, product)",01001,Aguascalientes,"Employee, firm up to 10",56,2
+"Designers (graphic, multimedia, product)",01001,Aguascalientes,Government employee,253,5
+"Designers (graphic, multimedia, product)",01001,Aguascalientes,Other or unknown,155,3
+"Designers (graphic, multimedia, product)",01001,Aguascalientes,Self-employed or employer,355,10
+"Designers (graphic, multimedia, product)",04002,Campeche,"Employee, firm 11-250",20,2
+"Designers (graphic, multimedia, product)",04002,Campeche,"Employee, firm 251+",10,1
+"Designers (graphic, multimedia, product)",04002,Campeche,"Employee, firm up to 10",12,1
+"Designers (graphic, multimedia, product)",04002,Campeche,Self-employed or employer,74,7
+"Designers (graphic, multimedia, product)",23005,Cancún,"Employee, firm 11-250",217,5
+"Designers (graphic, multimedia, product)",23005,Cancún,"Employee, firm 251+",87,2
+"Designers (graphic, multimedia, product)",23005,Cancún,"Employee, firm up to 10",116,3
+"Designers (graphic, multimedia, product)",23005,Cancún,Other or unknown,116,3
+"Designers (graphic, multimedia, product)",23005,Cancún,Self-employed or employer,308,8
+"Designers (graphic, multimedia, product)",08019,Chihuahua,"Employee, firm 11-250",99,2
+"Designers (graphic, multimedia, product)",08019,Chihuahua,"Employee, firm up to 10",34,1
+"Designers (graphic, multimedia, product)",08019,Chihuahua,Government employee,21,1
+"Designers (graphic, multimedia, product)",08019,Chihuahua,Other or unknown,50,1
+"Designers (graphic, multimedia, product)",08019,Chihuahua,Self-employed or employer,394,9
+"Designers (graphic, multimedia, product)",08037,Ciudad Juárez,"Employee, firm 11-250",244,4
+"Designers (graphic, multimedia, product)",08037,Ciudad Juárez,"Employee, firm 251+",29,1
+"Designers (graphic, multimedia, product)",08037,Ciudad Juárez,"Employee, firm up to 10",104,2
+"Designers (graphic, multimedia, product)",08037,Ciudad Juárez,Self-employed or employer,300,5
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,"Employee, firm 11-250",7576,18
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,"Employee, firm 251+",2038,7
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,"Employee, firm up to 10",2975,11
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,Government employee,581,2
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,Other or unknown,2628,11
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,Self-employed or employer,14532,46
+"Designers (graphic, multimedia, product)",04003,Ciudad del Carmen,"Employee, firm 11-250",9,1
+"Designers (graphic, multimedia, product)",04003,Ciudad del Carmen,"Employee, firm 251+",9,1
+"Designers (graphic, multimedia, product)",04003,Ciudad del Carmen,"Employee, firm up to 10",30,3
+"Designers (graphic, multimedia, product)",04003,Ciudad del Carmen,Other or unknown,15,1
+"Designers (graphic, multimedia, product)",04003,Ciudad del Carmen,Self-employed or employer,42,6
+"Designers (graphic, multimedia, product)",30039,Coatzacoalcos,"Employee, firm up to 10",50,3
+"Designers (graphic, multimedia, product)",30039,Coatzacoalcos,Self-employed or employer,60,5
+"Designers (graphic, multimedia, product)",06002,Colima,"Employee, firm 11-250",42,3
+"Designers (graphic, multimedia, product)",06002,Colima,"Employee, firm 251+",6,1
+"Designers (graphic, multimedia, product)",06002,Colima,"Employee, firm up to 10",30,2
+"Designers (graphic, multimedia, product)",06002,Colima,Other or unknown,14,1
+"Designers (graphic, multimedia, product)",06002,Colima,Self-employed or employer,132,12
+"Designers (graphic, multimedia, product)",17007,Cuernavaca,"Employee, firm 11-250",40,1
+"Designers (graphic, multimedia, product)",17007,Cuernavaca,"Employee, firm up to 10",128,3
+"Designers (graphic, multimedia, product)",17007,Cuernavaca,Other or unknown,186,4
+"Designers (graphic, multimedia, product)",17007,Cuernavaca,Self-employed or employer,76,3
+"Designers (graphic, multimedia, product)",25006,Culiacán,"Employee, firm 11-250",179,5
+"Designers (graphic, multimedia, product)",25006,Culiacán,"Employee, firm 251+",18,1
+"Designers (graphic, multimedia, product)",25006,Culiacán,"Employee, firm up to 10",194,5
+"Designers (graphic, multimedia, product)",25006,Culiacán,Other or unknown,38,1
+"Designers (graphic, multimedia, product)",25006,Culiacán,Self-employed or employer,402,12
+"Designers (graphic, multimedia, product)",10005,Durango,"Employee, firm 11-250",30,1
+"Designers (graphic, multimedia, product)",10005,Durango,"Employee, firm up to 10",98,4
+"Designers (graphic, multimedia, product)",10005,Durango,Other or unknown,24,1
+"Designers (graphic, multimedia, product)",10005,Durango,Self-employed or employer,260,9
+"Designers (graphic, multimedia, product)",14039,Guadalajara,"Employee, firm 11-250",1109,9
+"Designers (graphic, multimedia, product)",14039,Guadalajara,"Employee, firm 251+",94,1
+"Designers (graphic, multimedia, product)",14039,Guadalajara,"Employee, firm up to 10",587,4
+"Designers (graphic, multimedia, product)",14039,Guadalajara,Other or unknown,313,2
+"Designers (graphic, multimedia, product)",14039,Guadalajara,Self-employed or employer,1745,14
+"Designers (graphic, multimedia, product)",26030,Hermosillo,"Employee, firm 11-250",78,3
+"Designers (graphic, multimedia, product)",26030,Hermosillo,"Employee, firm up to 10",68,2
+"Designers (graphic, multimedia, product)",26030,Hermosillo,Other or unknown,257,7
+"Designers (graphic, multimedia, product)",26030,Hermosillo,Self-employed or employer,224,7
+"Designers (graphic, multimedia, product)",03003,La Paz,"Employee, firm 11-250",18,1
+"Designers (graphic, multimedia, product)",03003,La Paz,"Employee, firm up to 10",40,3
+"Designers (graphic, multimedia, product)",03003,La Paz,Other or unknown,22,2
+"Designers (graphic, multimedia, product)",03003,La Paz,Self-employed or employer,29,2
+"Designers (graphic, multimedia, product)",11020,León,"Employee, firm 11-250",725,14
+"Designers (graphic, multimedia, product)",11020,León,"Employee, firm 251+",111,2
+"Designers (graphic, multimedia, product)",11020,León,"Employee, firm up to 10",496,9
+"Designers (graphic, multimedia, product)",11020,León,Government employee,134,2
+"Designers (graphic, multimedia, product)",11020,León,Other or unknown,795,14
+"Designers (graphic, multimedia, product)",11020,León,Self-employed or employer,729,14
+"Designers (graphic, multimedia, product)",02002,Mexicali,"Employee, firm 11-250",70,2
+"Designers (graphic, multimedia, product)",02002,Mexicali,"Employee, firm 251+",240,6
+"Designers (graphic, multimedia, product)",02002,Mexicali,"Employee, firm up to 10",99,2
+"Designers (graphic, multimedia, product)",02002,Mexicali,Government employee,67,2
+"Designers (graphic, multimedia, product)",02002,Mexicali,Other or unknown,48,2
+"Designers (graphic, multimedia, product)",02002,Mexicali,Self-employed or employer,521,12
+"Designers (graphic, multimedia, product)",19039,Monterrey,"Employee, firm 11-250",991,9
+"Designers (graphic, multimedia, product)",19039,Monterrey,"Employee, firm 251+",162,1
+"Designers (graphic, multimedia, product)",19039,Monterrey,"Employee, firm up to 10",156,1
+"Designers (graphic, multimedia, product)",19039,Monterrey,Other or unknown,713,5
+"Designers (graphic, multimedia, product)",19039,Monterrey,Self-employed or employer,2226,17
+"Designers (graphic, multimedia, product)",16053,Morelia,"Employee, firm 11-250",50,2
+"Designers (graphic, multimedia, product)",16053,Morelia,"Employee, firm 251+",42,1
+"Designers (graphic, multimedia, product)",16053,Morelia,"Employee, firm up to 10",119,2
+"Designers (graphic, multimedia, product)",16053,Morelia,Self-employed or employer,481,11
+"Designers (graphic, multimedia, product)",31050,Mérida,"Employee, firm 11-250",242,5
+"Designers (graphic, multimedia, product)",31050,Mérida,"Employee, firm 251+",30,1
+"Designers (graphic, multimedia, product)",31050,Mérida,"Employee, firm up to 10",295,5
+"Designers (graphic, multimedia, product)",31050,Mérida,Other or unknown,406,7
+"Designers (graphic, multimedia, product)",31050,Mérida,Self-employed or employer,626,10
+"Designers (graphic, multimedia, product)",20067,Oaxaca,"Employee, firm 11-250",48,1
+"Designers (graphic, multimedia, product)",20067,Oaxaca,"Employee, firm up to 10",130,5
+"Designers (graphic, multimedia, product)",20067,Oaxaca,Other or unknown,12,1
+"Designers (graphic, multimedia, product)",20067,Oaxaca,Self-employed or employer,270,8
+"Designers (graphic, multimedia, product)",13048,Pachuca,"Employee, firm 11-250",115,6
+"Designers (graphic, multimedia, product)",13048,Pachuca,"Employee, firm up to 10",46,2
+"Designers (graphic, multimedia, product)",13048,Pachuca,Government employee,47,2
+"Designers (graphic, multimedia, product)",13048,Pachuca,Other or unknown,76,2
+"Designers (graphic, multimedia, product)",13048,Pachuca,Self-employed or employer,300,13
+"Designers (graphic, multimedia, product)",21114,Puebla,"Employee, firm 11-250",1059,15
+"Designers (graphic, multimedia, product)",21114,Puebla,"Employee, firm up to 10",379,6
+"Designers (graphic, multimedia, product)",21114,Puebla,Government employee,72,1
+"Designers (graphic, multimedia, product)",21114,Puebla,Other or unknown,24,1
+"Designers (graphic, multimedia, product)",21114,Puebla,Self-employed or employer,1479,21
+"Designers (graphic, multimedia, product)",22014,Querétaro,"Employee, firm 11-250",189,3
+"Designers (graphic, multimedia, product)",22014,Querétaro,"Employee, firm 251+",24,1
+"Designers (graphic, multimedia, product)",22014,Querétaro,"Employee, firm up to 10",294,5
+"Designers (graphic, multimedia, product)",22014,Querétaro,Government employee,145,2
+"Designers (graphic, multimedia, product)",22014,Querétaro,Other or unknown,181,4
+"Designers (graphic, multimedia, product)",22014,Querétaro,Self-employed or employer,635,12
+"Designers (graphic, multimedia, product)",28032,Reynosa,"Employee, firm 251+",56,2
+"Designers (graphic, multimedia, product)",28032,Reynosa,Other or unknown,44,2
+"Designers (graphic, multimedia, product)",28032,Reynosa,Self-employed or employer,139,5
+"Designers (graphic, multimedia, product)",05030,Saltillo,"Employee, firm 11-250",20,1
+"Designers (graphic, multimedia, product)",05030,Saltillo,"Employee, firm 251+",143,3
+"Designers (graphic, multimedia, product)",05030,Saltillo,"Employee, firm up to 10",181,4
+"Designers (graphic, multimedia, product)",05030,Saltillo,Other or unknown,85,3
+"Designers (graphic, multimedia, product)",05030,Saltillo,Self-employed or employer,240,6
+"Designers (graphic, multimedia, product)",24028,San Luis Potosí,"Employee, firm up to 10",230,5
+"Designers (graphic, multimedia, product)",24028,San Luis Potosí,Government employee,26,1
+"Designers (graphic, multimedia, product)",24028,San Luis Potosí,Other or unknown,41,1
+"Designers (graphic, multimedia, product)",24028,San Luis Potosí,Self-employed or employer,484,10
+"Designers (graphic, multimedia, product)",28038,Tampico,"Employee, firm up to 10",17,1
+"Designers (graphic, multimedia, product)",28038,Tampico,Self-employed or employer,368,6
+"Designers (graphic, multimedia, product)",07089,Tapachula,"Employee, firm 11-250",13,2
+"Designers (graphic, multimedia, product)",07089,Tapachula,"Employee, firm up to 10",17,2
+"Designers (graphic, multimedia, product)",07089,Tapachula,Government employee,15,1
+"Designers (graphic, multimedia, product)",07089,Tapachula,Self-employed or employer,24,2
+"Designers (graphic, multimedia, product)",18017,Tepic,"Employee, firm 11-250",13,1
+"Designers (graphic, multimedia, product)",18017,Tepic,"Employee, firm 251+",10,1
+"Designers (graphic, multimedia, product)",18017,Tepic,"Employee, firm up to 10",96,5
+"Designers (graphic, multimedia, product)",18017,Tepic,Government employee,10,1
+"Designers (graphic, multimedia, product)",18017,Tepic,Other or unknown,84,5
+"Designers (graphic, multimedia, product)",18017,Tepic,Self-employed or employer,320,17
+"Designers (graphic, multimedia, product)",02004,Tijuana,"Employee, firm 11-250",506,6
+"Designers (graphic, multimedia, product)",02004,Tijuana,"Employee, firm 251+",82,1
+"Designers (graphic, multimedia, product)",02004,Tijuana,"Employee, firm up to 10",448,6
+"Designers (graphic, multimedia, product)",02004,Tijuana,Other or unknown,253,3
+"Designers (graphic, multimedia, product)",02004,Tijuana,Self-employed or employer,710,9
+"Designers (graphic, multimedia, product)",29033,Tlaxcala,"Employee, firm 11-250",64,2
+"Designers (graphic, multimedia, product)",29033,Tlaxcala,"Employee, firm up to 10",86,4
+"Designers (graphic, multimedia, product)",29033,Tlaxcala,Other or unknown,28,1
+"Designers (graphic, multimedia, product)",29033,Tlaxcala,Self-employed or employer,146,7
+"Designers (graphic, multimedia, product)",15106,Toluca,"Employee, firm 11-250",202,3
+"Designers (graphic, multimedia, product)",15106,Toluca,"Employee, firm up to 10",200,3
+"Designers (graphic, multimedia, product)",15106,Toluca,Self-employed or employer,304,5
+"Designers (graphic, multimedia, product)",05035,Torreón,"Employee, firm 11-250",174,5
+"Designers (graphic, multimedia, product)",05035,Torreón,"Employee, firm 251+",175,4
+"Designers (graphic, multimedia, product)",05035,Torreón,"Employee, firm up to 10",125,3
+"Designers (graphic, multimedia, product)",05035,Torreón,Other or unknown,21,1
+"Designers (graphic, multimedia, product)",05035,Torreón,Self-employed or employer,489,13
+"Designers (graphic, multimedia, product)",07101,Tuxtla Gutiérrez,"Employee, firm 11-250",68,2
+"Designers (graphic, multimedia, product)",07101,Tuxtla Gutiérrez,"Employee, firm 251+",34,1
+"Designers (graphic, multimedia, product)",07101,Tuxtla Gutiérrez,"Employee, firm up to 10",164,6
+"Designers (graphic, multimedia, product)",07101,Tuxtla Gutiérrez,Government employee,51,3
+"Designers (graphic, multimedia, product)",07101,Tuxtla Gutiérrez,Self-employed or employer,223,7
+"Designers (graphic, multimedia, product)",30193,Veracruz,"Employee, firm 11-250",102,3
+"Designers (graphic, multimedia, product)",30193,Veracruz,"Employee, firm up to 10",162,3
+"Designers (graphic, multimedia, product)",30193,Veracruz,Other or unknown,41,1
+"Designers (graphic, multimedia, product)",30193,Veracruz,Self-employed or employer,160,4
+"Designers (graphic, multimedia, product)",27004,Villahermosa,"Employee, firm 11-250",26,1
+"Designers (graphic, multimedia, product)",27004,Villahermosa,"Employee, firm up to 10",38,2
+"Designers (graphic, multimedia, product)",27004,Villahermosa,Other or unknown,27,2
+"Designers (graphic, multimedia, product)",27004,Villahermosa,Self-employed or employer,170,9
+"Designers (graphic, multimedia, product)",32056,Zacatecas,"Employee, firm 11-250",42,3
+"Designers (graphic, multimedia, product)",32056,Zacatecas,"Employee, firm 251+",14,1
+"Designers (graphic, multimedia, product)",32056,Zacatecas,"Employee, firm up to 10",28,2
+"Designers (graphic, multimedia, product)",32056,Zacatecas,Government employee,70,4
+"Designers (graphic, multimedia, product)",32056,Zacatecas,Self-employed or employer,239,16
+"Designers (graphic, multimedia, product)",,Rest of the country,"Employee, firm 11-250",2997,20
+"Designers (graphic, multimedia, product)",,Rest of the country,"Employee, firm 251+",248,4
+"Designers (graphic, multimedia, product)",,Rest of the country,"Employee, firm up to 10",4556,30
+"Designers (graphic, multimedia, product)",,Rest of the country,Government employee,34,2
+"Designers (graphic, multimedia, product)",,Rest of the country,Other or unknown,1785,14
+"Designers (graphic, multimedia, product)",,Rest of the country,Self-employed or employer,6735,55
+Business and management analysts,01001,Aguascalientes,"Employee, firm 11-250",312,9
+Business and management analysts,01001,Aguascalientes,"Employee, firm 251+",585,16
+Business and management analysts,01001,Aguascalientes,"Employee, firm up to 10",279,7
+Business and management analysts,01001,Aguascalientes,Government employee,185,3
+Business and management analysts,01001,Aguascalientes,Other or unknown,568,14
+Business and management analysts,01001,Aguascalientes,Self-employed or employer,123,2
+Business and management analysts,04002,Campeche,"Employee, firm 11-250",34,3
+Business and management analysts,04002,Campeche,"Employee, firm up to 10",25,2
+Business and management analysts,04002,Campeche,Government employee,94,8
+Business and management analysts,04002,Campeche,Self-employed or employer,22,2
+Business and management analysts,23005,Cancún,"Employee, firm 11-250",520,11
+Business and management analysts,23005,Cancún,"Employee, firm 251+",401,8
+Business and management analysts,23005,Cancún,"Employee, firm up to 10",114,2
+Business and management analysts,23005,Cancún,Government employee,106,3
+Business and management analysts,23005,Cancún,Other or unknown,271,7
+Business and management analysts,23005,Cancún,Self-employed or employer,101,2
+Business and management analysts,08019,Chihuahua,"Employee, firm 11-250",556,12
+Business and management analysts,08019,Chihuahua,"Employee, firm 251+",1142,27
+Business and management analysts,08019,Chihuahua,"Employee, firm up to 10",40,1
+Business and management analysts,08019,Chihuahua,Government employee,176,4
+Business and management analysts,08019,Chihuahua,Other or unknown,240,5
+Business and management analysts,08019,Chihuahua,Self-employed or employer,474,10
+Business and management analysts,08037,Ciudad Juárez,"Employee, firm 11-250",557,7
+Business and management analysts,08037,Ciudad Juárez,"Employee, firm 251+",2883,47
+Business and management analysts,08037,Ciudad Juárez,Government employee,71,1
+Business and management analysts,08037,Ciudad Juárez,Other or unknown,267,4
+Business and management analysts,08037,Ciudad Juárez,Self-employed or employer,264,4
+Business and management analysts,09015,Ciudad de México,"Employee, firm 11-250",29858,74
+Business and management analysts,09015,Ciudad de México,"Employee, firm 251+",11139,32
+Business and management analysts,09015,Ciudad de México,"Employee, firm up to 10",5289,19
+Business and management analysts,09015,Ciudad de México,Government employee,6023,17
+Business and management analysts,09015,Ciudad de México,Other or unknown,5855,17
+Business and management analysts,09015,Ciudad de México,Self-employed or employer,11592,28
+Business and management analysts,04003,Ciudad del Carmen,"Employee, firm 11-250",304,38
+Business and management analysts,04003,Ciudad del Carmen,"Employee, firm 251+",146,18
+Business and management analysts,04003,Ciudad del Carmen,"Employee, firm up to 10",73,8
+Business and management analysts,04003,Ciudad del Carmen,Government employee,38,5
+Business and management analysts,04003,Ciudad del Carmen,Other or unknown,93,13
+Business and management analysts,04003,Ciudad del Carmen,Self-employed or employer,78,8
+Business and management analysts,30039,Coatzacoalcos,"Employee, firm 11-250",66,5
+Business and management analysts,30039,Coatzacoalcos,"Employee, firm 251+",45,4
+Business and management analysts,30039,Coatzacoalcos,"Employee, firm up to 10",44,3
+Business and management analysts,30039,Coatzacoalcos,Government employee,14,1
+Business and management analysts,30039,Coatzacoalcos,Self-employed or employer,63,4
+Business and management analysts,06002,Colima,"Employee, firm 11-250",172,13
+Business and management analysts,06002,Colima,"Employee, firm 251+",43,3
+Business and management analysts,06002,Colima,Government employee,64,5
+Business and management analysts,06002,Colima,Other or unknown,48,3
+Business and management analysts,06002,Colima,Self-employed or employer,26,3
+Business and management analysts,17007,Cuernavaca,"Employee, firm 11-250",81,3
+Business and management analysts,17007,Cuernavaca,"Employee, firm 251+",36,1
+Business and management analysts,17007,Cuernavaca,"Employee, firm up to 10",118,4
+Business and management analysts,17007,Cuernavaca,Other or unknown,191,6
+Business and management analysts,17007,Cuernavaca,Self-employed or employer,76,2
+Business and management analysts,25006,Culiacán,"Employee, firm 11-250",241,7
+Business and management analysts,25006,Culiacán,"Employee, firm 251+",437,13
+Business and management analysts,25006,Culiacán,"Employee, firm up to 10",15,1
+Business and management analysts,25006,Culiacán,Government employee,263,8
+Business and management analysts,25006,Culiacán,Other or unknown,190,5
+Business and management analysts,25006,Culiacán,Self-employed or employer,130,3
+Business and management analysts,10005,Durango,"Employee, firm 11-250",214,9
+Business and management analysts,10005,Durango,"Employee, firm 251+",142,5
+Business and management analysts,10005,Durango,"Employee, firm up to 10",103,4
+Business and management analysts,10005,Durango,Government employee,88,3
+Business and management analysts,10005,Durango,Other or unknown,25,1
+Business and management analysts,10005,Durango,Self-employed or employer,106,4
+Business and management analysts,14039,Guadalajara,"Employee, firm 11-250",4297,32
+Business and management analysts,14039,Guadalajara,"Employee, firm 251+",1838,11
+Business and management analysts,14039,Guadalajara,Government employee,109,1
+Business and management analysts,14039,Guadalajara,Other or unknown,592,5
+Business and management analysts,14039,Guadalajara,Self-employed or employer,1426,9
+Business and management analysts,26030,Hermosillo,"Employee, firm 11-250",380,10
+Business and management analysts,26030,Hermosillo,"Employee, firm 251+",480,13
+Business and management analysts,26030,Hermosillo,"Employee, firm up to 10",212,5
+Business and management analysts,26030,Hermosillo,Government employee,498,13
+Business and management analysts,26030,Hermosillo,Other or unknown,228,7
+Business and management analysts,26030,Hermosillo,Self-employed or employer,96,2
+Business and management analysts,03003,La Paz,"Employee, firm 11-250",66,5
+Business and management analysts,03003,La Paz,"Employee, firm up to 10",22,2
+Business and management analysts,03003,La Paz,Government employee,51,5
+Business and management analysts,03003,La Paz,Other or unknown,21,2
+Business and management analysts,03003,La Paz,Self-employed or employer,42,3
+Business and management analysts,11020,León,"Employee, firm 11-250",634,11
+Business and management analysts,11020,León,"Employee, firm 251+",276,5
+Business and management analysts,11020,León,"Employee, firm up to 10",97,2
+Business and management analysts,11020,León,Government employee,252,3
+Business and management analysts,11020,León,Other or unknown,677,13
+Business and management analysts,11020,León,Self-employed or employer,490,10
+Business and management analysts,02002,Mexicali,"Employee, firm 11-250",567,12
+Business and management analysts,02002,Mexicali,"Employee, firm 251+",246,7
+Business and management analysts,02002,Mexicali,"Employee, firm up to 10",162,4
+Business and management analysts,02002,Mexicali,Government employee,356,10
+Business and management analysts,02002,Mexicali,Other or unknown,136,3
+Business and management analysts,02002,Mexicali,Self-employed or employer,315,8
+Business and management analysts,19039,Monterrey,"Employee, firm 11-250",6810,44
+Business and management analysts,19039,Monterrey,"Employee, firm 251+",5077,35
+Business and management analysts,19039,Monterrey,"Employee, firm up to 10",576,6
+Business and management analysts,19039,Monterrey,Government employee,384,4
+Business and management analysts,19039,Monterrey,Other or unknown,1619,12
+Business and management analysts,19039,Monterrey,Self-employed or employer,1730,12
+Business and management analysts,16053,Morelia,"Employee, firm 11-250",478,10
+Business and management analysts,16053,Morelia,"Employee, firm 251+",88,2
+Business and management analysts,16053,Morelia,Government employee,148,4
+Business and management analysts,16053,Morelia,Self-employed or employer,43,1
+Business and management analysts,31050,Mérida,"Employee, firm 11-250",742,13
+Business and management analysts,31050,Mérida,"Employee, firm 251+",215,5
+Business and management analysts,31050,Mérida,"Employee, firm up to 10",73,2
+Business and management analysts,31050,Mérida,Government employee,232,4
+Business and management analysts,31050,Mérida,Other or unknown,432,7
+Business and management analysts,31050,Mérida,Self-employed or employer,660,12
+Business and management analysts,20067,Oaxaca,"Employee, firm 11-250",119,4
+Business and management analysts,20067,Oaxaca,"Employee, firm up to 10",75,3
+Business and management analysts,20067,Oaxaca,Government employee,120,5
+Business and management analysts,13048,Pachuca,"Employee, firm 11-250",202,10
+Business and management analysts,13048,Pachuca,"Employee, firm 251+",64,3
+Business and management analysts,13048,Pachuca,"Employee, firm up to 10",32,2
+Business and management analysts,13048,Pachuca,Government employee,154,6
+Business and management analysts,13048,Pachuca,Other or unknown,83,4
+Business and management analysts,13048,Pachuca,Self-employed or employer,313,13
+Business and management analysts,21114,Puebla,"Employee, firm 11-250",1660,23
+Business and management analysts,21114,Puebla,"Employee, firm 251+",908,13
+Business and management analysts,21114,Puebla,"Employee, firm up to 10",504,6
+Business and management analysts,21114,Puebla,Government employee,616,8
+Business and management analysts,21114,Puebla,Other or unknown,134,2
+Business and management analysts,21114,Puebla,Self-employed or employer,516,7
+Business and management analysts,22014,Querétaro,"Employee, firm 11-250",1601,32
+Business and management analysts,22014,Querétaro,"Employee, firm 251+",1188,21
+Business and management analysts,22014,Querétaro,"Employee, firm up to 10",115,2
+Business and management analysts,22014,Querétaro,Government employee,616,10
+Business and management analysts,22014,Querétaro,Other or unknown,944,19
+Business and management analysts,22014,Querétaro,Self-employed or employer,843,16
+Business and management analysts,28032,Reynosa,"Employee, firm 11-250",152,5
+Business and management analysts,28032,Reynosa,"Employee, firm 251+",873,28
+Business and management analysts,28032,Reynosa,Government employee,41,1
+Business and management analysts,28032,Reynosa,Self-employed or employer,225,6
+Business and management analysts,05030,Saltillo,"Employee, firm 11-250",536,12
+Business and management analysts,05030,Saltillo,"Employee, firm 251+",2333,57
+Business and management analysts,05030,Saltillo,"Employee, firm up to 10",85,2
+Business and management analysts,05030,Saltillo,Government employee,184,5
+Business and management analysts,05030,Saltillo,Other or unknown,139,4
+Business and management analysts,05030,Saltillo,Self-employed or employer,280,6
+Business and management analysts,24028,San Luis Potosí,"Employee, firm 11-250",478,10
+Business and management analysts,24028,San Luis Potosí,"Employee, firm 251+",1383,18
+Business and management analysts,24028,San Luis Potosí,"Employee, firm up to 10",73,1
+Business and management analysts,24028,San Luis Potosí,Government employee,61,2
+Business and management analysts,24028,San Luis Potosí,Other or unknown,693,12
+Business and management analysts,24028,San Luis Potosí,Self-employed or employer,232,5
+Business and management analysts,28038,Tampico,"Employee, firm 11-250",128,4
+Business and management analysts,28038,Tampico,"Employee, firm 251+",100,2
+Business and management analysts,28038,Tampico,Government employee,43,2
+Business and management analysts,28038,Tampico,Other or unknown,65,2
+Business and management analysts,28038,Tampico,Self-employed or employer,238,6
+Business and management analysts,07089,Tapachula,"Employee, firm 11-250",33,3
+Business and management analysts,07089,Tapachula,"Employee, firm up to 10",22,2
+Business and management analysts,07089,Tapachula,Government employee,14,1
+Business and management analysts,18017,Tepic,"Employee, firm 11-250",74,4
+Business and management analysts,18017,Tepic,"Employee, firm 251+",25,3
+Business and management analysts,18017,Tepic,"Employee, firm up to 10",49,3
+Business and management analysts,18017,Tepic,Government employee,158,9
+Business and management analysts,02004,Tijuana,"Employee, firm 11-250",734,9
+Business and management analysts,02004,Tijuana,"Employee, firm 251+",461,7
+Business and management analysts,02004,Tijuana,"Employee, firm up to 10",258,3
+Business and management analysts,02004,Tijuana,Other or unknown,336,3
+Business and management analysts,02004,Tijuana,Self-employed or employer,171,3
+Business and management analysts,29033,Tlaxcala,"Employee, firm 11-250",362,10
+Business and management analysts,29033,Tlaxcala,"Employee, firm 251+",243,6
+Business and management analysts,29033,Tlaxcala,"Employee, firm up to 10",41,2
+Business and management analysts,29033,Tlaxcala,Other or unknown,42,1
+Business and management analysts,29033,Tlaxcala,Self-employed or employer,27,2
+Business and management analysts,15106,Toluca,"Employee, firm 11-250",1346,19
+Business and management analysts,15106,Toluca,"Employee, firm 251+",548,10
+Business and management analysts,15106,Toluca,"Employee, firm up to 10",188,2
+Business and management analysts,15106,Toluca,Government employee,520,9
+Business and management analysts,15106,Toluca,Self-employed or employer,812,5
+Business and management analysts,05035,Torreón,"Employee, firm 11-250",1438,35
+Business and management analysts,05035,Torreón,"Employee, firm 251+",856,22
+Business and management analysts,05035,Torreón,"Employee, firm up to 10",184,4
+Business and management analysts,05035,Torreón,Government employee,144,3
+Business and management analysts,05035,Torreón,Other or unknown,157,4
+Business and management analysts,05035,Torreón,Self-employed or employer,197,5
+Business and management analysts,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",110,4
+Business and management analysts,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",80,3
+Business and management analysts,07101,Tuxtla Gutiérrez,Government employee,154,4
+Business and management analysts,07101,Tuxtla Gutiérrez,Self-employed or employer,76,3
+Business and management analysts,30193,Veracruz,"Employee, firm 11-250",82,3
+Business and management analysts,30193,Veracruz,"Employee, firm up to 10",139,3
+Business and management analysts,30193,Veracruz,Government employee,210,4
+Business and management analysts,30193,Veracruz,Other or unknown,86,3
+Business and management analysts,30193,Veracruz,Self-employed or employer,20,1
+Business and management analysts,27004,Villahermosa,"Employee, firm 11-250",67,5
+Business and management analysts,27004,Villahermosa,"Employee, firm up to 10",88,4
+Business and management analysts,27004,Villahermosa,Government employee,36,3
+Business and management analysts,27004,Villahermosa,Other or unknown,60,3
+Business and management analysts,27004,Villahermosa,Self-employed or employer,94,6
+Business and management analysts,32056,Zacatecas,"Employee, firm 11-250",49,4
+Business and management analysts,32056,Zacatecas,"Employee, firm 251+",11,1
+Business and management analysts,32056,Zacatecas,"Employee, firm up to 10",18,1
+Business and management analysts,32056,Zacatecas,Government employee,99,6
+Business and management analysts,32056,Zacatecas,Other or unknown,40,3
+Business and management analysts,32056,Zacatecas,Self-employed or employer,144,10
+Business and management analysts,,Rest of the country,"Employee, firm 11-250",8374,76
+Business and management analysts,,Rest of the country,"Employee, firm 251+",5548,57
+Business and management analysts,,Rest of the country,"Employee, firm up to 10",1654,10
+Business and management analysts,,Rest of the country,Government employee,3684,29
+Business and management analysts,,Rest of the country,Other or unknown,2754,29
+Business and management analysts,,Rest of the country,Self-employed or employer,4044,34
+Accountants and auditors,12001,Acapulco,"Employee, firm 11-250",676,27
+Accountants and auditors,12001,Acapulco,"Employee, firm up to 10",447,14
+Accountants and auditors,12001,Acapulco,Government employee,180,7
+Accountants and auditors,12001,Acapulco,Other or unknown,473,19
+Accountants and auditors,12001,Acapulco,Self-employed or employer,519,16
+Accountants and auditors,01001,Aguascalientes,"Employee, firm 11-250",1802,45
+Accountants and auditors,01001,Aguascalientes,"Employee, firm 251+",258,7
+Accountants and auditors,01001,Aguascalientes,"Employee, firm up to 10",633,12
+Accountants and auditors,01001,Aguascalientes,Government employee,452,12
+Accountants and auditors,01001,Aguascalientes,Other or unknown,1450,42
+Accountants and auditors,01001,Aguascalientes,Self-employed or employer,1146,27
+Accountants and auditors,04002,Campeche,"Employee, firm 11-250",360,35
+Accountants and auditors,04002,Campeche,"Employee, firm up to 10",338,32
+Accountants and auditors,04002,Campeche,Government employee,276,22
+Accountants and auditors,04002,Campeche,Other or unknown,90,7
+Accountants and auditors,04002,Campeche,Self-employed or employer,423,34
+Accountants and auditors,23005,Cancún,"Employee, firm 11-250",1107,27
+Accountants and auditors,23005,Cancún,"Employee, firm 251+",874,16
+Accountants and auditors,23005,Cancún,"Employee, firm up to 10",764,18
+Accountants and auditors,23005,Cancún,Government employee,476,9
+Accountants and auditors,23005,Cancún,Other or unknown,498,12
+Accountants and auditors,23005,Cancún,Self-employed or employer,965,21
+Accountants and auditors,08019,Chihuahua,"Employee, firm 11-250",1599,36
+Accountants and auditors,08019,Chihuahua,"Employee, firm 251+",825,17
+Accountants and auditors,08019,Chihuahua,"Employee, firm up to 10",605,14
+Accountants and auditors,08019,Chihuahua,Government employee,272,7
+Accountants and auditors,08019,Chihuahua,Other or unknown,491,13
+Accountants and auditors,08019,Chihuahua,Self-employed or employer,809,18
+Accountants and auditors,08037,Ciudad Juárez,"Employee, firm 11-250",1934,22
+Accountants and auditors,08037,Ciudad Juárez,"Employee, firm 251+",681,12
+Accountants and auditors,08037,Ciudad Juárez,"Employee, firm up to 10",522,9
+Accountants and auditors,08037,Ciudad Juárez,Government employee,106,2
+Accountants and auditors,08037,Ciudad Juárez,Other or unknown,494,6
+Accountants and auditors,08037,Ciudad Juárez,Self-employed or employer,978,16
+Accountants and auditors,09015,Ciudad de México,"Employee, firm 11-250",58052,171
+Accountants and auditors,09015,Ciudad de México,"Employee, firm 251+",15344,39
+Accountants and auditors,09015,Ciudad de México,"Employee, firm up to 10",16049,44
+Accountants and auditors,09015,Ciudad de México,Government employee,5998,19
+Accountants and auditors,09015,Ciudad de México,Other or unknown,11164,43
+Accountants and auditors,09015,Ciudad de México,Self-employed or employer,22382,69
+Accountants and auditors,04003,Ciudad del Carmen,"Employee, firm 11-250",380,51
+Accountants and auditors,04003,Ciudad del Carmen,"Employee, firm 251+",86,12
+Accountants and auditors,04003,Ciudad del Carmen,"Employee, firm up to 10",152,19
+Accountants and auditors,04003,Ciudad del Carmen,Government employee,125,16
+Accountants and auditors,04003,Ciudad del Carmen,Other or unknown,100,12
+Accountants and auditors,04003,Ciudad del Carmen,Self-employed or employer,90,14
+Accountants and auditors,30039,Coatzacoalcos,"Employee, firm 11-250",153,11
+Accountants and auditors,30039,Coatzacoalcos,"Employee, firm 251+",13,1
+Accountants and auditors,30039,Coatzacoalcos,"Employee, firm up to 10",263,18
+Accountants and auditors,30039,Coatzacoalcos,Government employee,143,11
+Accountants and auditors,30039,Coatzacoalcos,Other or unknown,332,28
+Accountants and auditors,30039,Coatzacoalcos,Self-employed or employer,290,18
+Accountants and auditors,06002,Colima,"Employee, firm 11-250",476,34
+Accountants and auditors,06002,Colima,"Employee, firm 251+",95,8
+Accountants and auditors,06002,Colima,"Employee, firm up to 10",349,27
+Accountants and auditors,06002,Colima,Government employee,282,26
+Accountants and auditors,06002,Colima,Other or unknown,433,25
+Accountants and auditors,06002,Colima,Self-employed or employer,347,25
+Accountants and auditors,17007,Cuernavaca,"Employee, firm 11-250",806,22
+Accountants and auditors,17007,Cuernavaca,"Employee, firm 251+",61,3
+Accountants and auditors,17007,Cuernavaca,"Employee, firm up to 10",410,11
+Accountants and auditors,17007,Cuernavaca,Government employee,767,20
+Accountants and auditors,17007,Cuernavaca,Other or unknown,1224,31
+Accountants and auditors,17007,Cuernavaca,Self-employed or employer,1544,39
+Accountants and auditors,25006,Culiacán,"Employee, firm 11-250",2360,67
+Accountants and auditors,25006,Culiacán,"Employee, firm 251+",526,14
+Accountants and auditors,25006,Culiacán,"Employee, firm up to 10",950,28
+Accountants and auditors,25006,Culiacán,Government employee,651,19
+Accountants and auditors,25006,Culiacán,Other or unknown,891,26
+Accountants and auditors,25006,Culiacán,Self-employed or employer,872,22
+Accountants and auditors,10005,Durango,"Employee, firm 11-250",1024,32
+Accountants and auditors,10005,Durango,"Employee, firm 251+",285,10
+Accountants and auditors,10005,Durango,"Employee, firm up to 10",492,18
+Accountants and auditors,10005,Durango,Government employee,1078,39
+Accountants and auditors,10005,Durango,Other or unknown,170,6
+Accountants and auditors,10005,Durango,Self-employed or employer,783,32
+Accountants and auditors,14039,Guadalajara,"Employee, firm 11-250",11312,85
+Accountants and auditors,14039,Guadalajara,"Employee, firm 251+",1733,13
+Accountants and auditors,14039,Guadalajara,"Employee, firm up to 10",4786,33
+Accountants and auditors,14039,Guadalajara,Government employee,1925,13
+Accountants and auditors,14039,Guadalajara,Other or unknown,1444,11
+Accountants and auditors,14039,Guadalajara,Self-employed or employer,7216,51
+Accountants and auditors,26030,Hermosillo,"Employee, firm 11-250",1654,42
+Accountants and auditors,26030,Hermosillo,"Employee, firm 251+",470,11
+Accountants and auditors,26030,Hermosillo,"Employee, firm up to 10",477,13
+Accountants and auditors,26030,Hermosillo,Government employee,783,24
+Accountants and auditors,26030,Hermosillo,Other or unknown,1772,47
+Accountants and auditors,26030,Hermosillo,Self-employed or employer,734,23
+Accountants and auditors,03003,La Paz,"Employee, firm 11-250",444,29
+Accountants and auditors,03003,La Paz,"Employee, firm 251+",50,4
+Accountants and auditors,03003,La Paz,"Employee, firm up to 10",302,23
+Accountants and auditors,03003,La Paz,Government employee,368,28
+Accountants and auditors,03003,La Paz,Other or unknown,148,11
+Accountants and auditors,03003,La Paz,Self-employed or employer,567,42
+Accountants and auditors,11020,León,"Employee, firm 11-250",2017,41
+Accountants and auditors,11020,León,"Employee, firm 251+",721,13
+Accountants and auditors,11020,León,"Employee, firm up to 10",621,14
+Accountants and auditors,11020,León,Government employee,794,13
+Accountants and auditors,11020,León,Other or unknown,1890,36
+Accountants and auditors,11020,León,Self-employed or employer,2267,43
+Accountants and auditors,02002,Mexicali,"Employee, firm 11-250",1883,44
+Accountants and auditors,02002,Mexicali,"Employee, firm 251+",704,19
+Accountants and auditors,02002,Mexicali,"Employee, firm up to 10",540,14
+Accountants and auditors,02002,Mexicali,Government employee,582,13
+Accountants and auditors,02002,Mexicali,Other or unknown,340,10
+Accountants and auditors,02002,Mexicali,Self-employed or employer,590,17
+Accountants and auditors,19039,Monterrey,"Employee, firm 11-250",12516,91
+Accountants and auditors,19039,Monterrey,"Employee, firm 251+",5314,41
+Accountants and auditors,19039,Monterrey,"Employee, firm up to 10",2013,16
+Accountants and auditors,19039,Monterrey,Government employee,679,8
+Accountants and auditors,19039,Monterrey,Other or unknown,3856,28
+Accountants and auditors,19039,Monterrey,Self-employed or employer,2572,21
+Accountants and auditors,16053,Morelia,"Employee, firm 11-250",1225,32
+Accountants and auditors,16053,Morelia,"Employee, firm 251+",669,15
+Accountants and auditors,16053,Morelia,"Employee, firm up to 10",1136,31
+Accountants and auditors,16053,Morelia,Government employee,1416,37
+Accountants and auditors,16053,Morelia,Other or unknown,361,11
+Accountants and auditors,16053,Morelia,Self-employed or employer,1066,27
+Accountants and auditors,31050,Mérida,"Employee, firm 11-250",2741,50
+Accountants and auditors,31050,Mérida,"Employee, firm 251+",534,12
+Accountants and auditors,31050,Mérida,"Employee, firm up to 10",1855,26
+Accountants and auditors,31050,Mérida,Government employee,939,21
+Accountants and auditors,31050,Mérida,Other or unknown,1334,27
+Accountants and auditors,31050,Mérida,Self-employed or employer,1248,23
+Accountants and auditors,20067,Oaxaca,"Employee, firm 11-250",857,33
+Accountants and auditors,20067,Oaxaca,"Employee, firm 251+",10,1
+Accountants and auditors,20067,Oaxaca,"Employee, firm up to 10",816,32
+Accountants and auditors,20067,Oaxaca,Government employee,1068,49
+Accountants and auditors,20067,Oaxaca,Other or unknown,355,14
+Accountants and auditors,20067,Oaxaca,Self-employed or employer,1032,42
+Accountants and auditors,13048,Pachuca,"Employee, firm 11-250",404,23
+Accountants and auditors,13048,Pachuca,"Employee, firm 251+",48,2
+Accountants and auditors,13048,Pachuca,"Employee, firm up to 10",465,22
+Accountants and auditors,13048,Pachuca,Government employee,530,24
+Accountants and auditors,13048,Pachuca,Other or unknown,299,13
+Accountants and auditors,13048,Pachuca,Self-employed or employer,526,26
+Accountants and auditors,21114,Puebla,"Employee, firm 11-250",4116,59
+Accountants and auditors,21114,Puebla,"Employee, firm 251+",848,13
+Accountants and auditors,21114,Puebla,"Employee, firm up to 10",3142,39
+Accountants and auditors,21114,Puebla,Government employee,1418,20
+Accountants and auditors,21114,Puebla,Other or unknown,406,8
+Accountants and auditors,21114,Puebla,Self-employed or employer,5208,70
+Accountants and auditors,22014,Querétaro,"Employee, firm 11-250",1777,35
+Accountants and auditors,22014,Querétaro,"Employee, firm 251+",1118,21
+Accountants and auditors,22014,Querétaro,"Employee, firm up to 10",551,13
+Accountants and auditors,22014,Querétaro,Government employee,238,6
+Accountants and auditors,22014,Querétaro,Other or unknown,1770,35
+Accountants and auditors,22014,Querétaro,Self-employed or employer,2966,59
+Accountants and auditors,28032,Reynosa,"Employee, firm 11-250",284,10
+Accountants and auditors,28032,Reynosa,"Employee, firm 251+",130,4
+Accountants and auditors,28032,Reynosa,"Employee, firm up to 10",127,3
+Accountants and auditors,28032,Reynosa,Government employee,170,5
+Accountants and auditors,28032,Reynosa,Other or unknown,78,2
+Accountants and auditors,28032,Reynosa,Self-employed or employer,268,8
+Accountants and auditors,05030,Saltillo,"Employee, firm 11-250",1292,27
+Accountants and auditors,05030,Saltillo,"Employee, firm 251+",1095,21
+Accountants and auditors,05030,Saltillo,"Employee, firm up to 10",598,17
+Accountants and auditors,05030,Saltillo,Government employee,707,11
+Accountants and auditors,05030,Saltillo,Other or unknown,577,9
+Accountants and auditors,05030,Saltillo,Self-employed or employer,508,12
+Accountants and auditors,24028,San Luis Potosí,"Employee, firm 11-250",530,14
+Accountants and auditors,24028,San Luis Potosí,"Employee, firm 251+",315,6
+Accountants and auditors,24028,San Luis Potosí,"Employee, firm up to 10",374,8
+Accountants and auditors,24028,San Luis Potosí,Government employee,591,11
+Accountants and auditors,24028,San Luis Potosí,Other or unknown,816,15
+Accountants and auditors,24028,San Luis Potosí,Self-employed or employer,1232,25
+Accountants and auditors,28038,Tampico,"Employee, firm 11-250",2372,64
+Accountants and auditors,28038,Tampico,"Employee, firm 251+",432,12
+Accountants and auditors,28038,Tampico,"Employee, firm up to 10",685,16
+Accountants and auditors,28038,Tampico,Government employee,746,20
+Accountants and auditors,28038,Tampico,Other or unknown,814,20
+Accountants and auditors,28038,Tampico,Self-employed or employer,464,12
+Accountants and auditors,07089,Tapachula,"Employee, firm 11-250",211,19
+Accountants and auditors,07089,Tapachula,"Employee, firm 251+",12,1
+Accountants and auditors,07089,Tapachula,"Employee, firm up to 10",176,18
+Accountants and auditors,07089,Tapachula,Government employee,77,7
+Accountants and auditors,07089,Tapachula,Other or unknown,119,13
+Accountants and auditors,07089,Tapachula,Self-employed or employer,322,24
+Accountants and auditors,18017,Tepic,"Employee, firm 11-250",658,43
+Accountants and auditors,18017,Tepic,"Employee, firm 251+",43,3
+Accountants and auditors,18017,Tepic,"Employee, firm up to 10",482,29
+Accountants and auditors,18017,Tepic,Government employee,940,58
+Accountants and auditors,18017,Tepic,Other or unknown,176,12
+Accountants and auditors,18017,Tepic,Self-employed or employer,522,29
+Accountants and auditors,02004,Tijuana,"Employee, firm 11-250",2742,43
+Accountants and auditors,02004,Tijuana,"Employee, firm 251+",834,15
+Accountants and auditors,02004,Tijuana,"Employee, firm up to 10",2002,29
+Accountants and auditors,02004,Tijuana,Government employee,149,2
+Accountants and auditors,02004,Tijuana,Other or unknown,639,11
+Accountants and auditors,02004,Tijuana,Self-employed or employer,2007,29
+Accountants and auditors,29033,Tlaxcala,"Employee, firm 11-250",494,15
+Accountants and auditors,29033,Tlaxcala,"Employee, firm 251+",33,1
+Accountants and auditors,29033,Tlaxcala,"Employee, firm up to 10",308,12
+Accountants and auditors,29033,Tlaxcala,Government employee,314,13
+Accountants and auditors,29033,Tlaxcala,Other or unknown,333,9
+Accountants and auditors,29033,Tlaxcala,Self-employed or employer,858,35
+Accountants and auditors,15106,Toluca,"Employee, firm 11-250",1786,28
+Accountants and auditors,15106,Toluca,"Employee, firm 251+",1561,22
+Accountants and auditors,15106,Toluca,"Employee, firm up to 10",1036,15
+Accountants and auditors,15106,Toluca,Government employee,862,12
+Accountants and auditors,15106,Toluca,Other or unknown,169,2
+Accountants and auditors,15106,Toluca,Self-employed or employer,2724,37
+Accountants and auditors,05035,Torreón,"Employee, firm 11-250",3776,100
+Accountants and auditors,05035,Torreón,"Employee, firm 251+",1234,31
+Accountants and auditors,05035,Torreón,"Employee, firm up to 10",1294,34
+Accountants and auditors,05035,Torreón,Government employee,384,11
+Accountants and auditors,05035,Torreón,Other or unknown,305,9
+Accountants and auditors,05035,Torreón,Self-employed or employer,984,27
+Accountants and auditors,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",885,31
+Accountants and auditors,07101,Tuxtla Gutiérrez,"Employee, firm 251+",71,2
+Accountants and auditors,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",786,27
+Accountants and auditors,07101,Tuxtla Gutiérrez,Government employee,665,24
+Accountants and auditors,07101,Tuxtla Gutiérrez,Other or unknown,213,8
+Accountants and auditors,07101,Tuxtla Gutiérrez,Self-employed or employer,886,33
+Accountants and auditors,30193,Veracruz,"Employee, firm 11-250",464,10
+Accountants and auditors,30193,Veracruz,"Employee, firm 251+",123,4
+Accountants and auditors,30193,Veracruz,"Employee, firm up to 10",344,8
+Accountants and auditors,30193,Veracruz,Government employee,80,2
+Accountants and auditors,30193,Veracruz,Other or unknown,920,27
+Accountants and auditors,30193,Veracruz,Self-employed or employer,1047,25
+Accountants and auditors,27004,Villahermosa,"Employee, firm 11-250",613,29
+Accountants and auditors,27004,Villahermosa,"Employee, firm 251+",70,4
+Accountants and auditors,27004,Villahermosa,"Employee, firm up to 10",284,14
+Accountants and auditors,27004,Villahermosa,Government employee,624,31
+Accountants and auditors,27004,Villahermosa,Other or unknown,472,19
+Accountants and auditors,27004,Villahermosa,Self-employed or employer,772,36
+Accountants and auditors,32056,Zacatecas,"Employee, firm 11-250",604,41
+Accountants and auditors,32056,Zacatecas,"Employee, firm 251+",141,8
+Accountants and auditors,32056,Zacatecas,"Employee, firm up to 10",358,27
+Accountants and auditors,32056,Zacatecas,Government employee,576,39
+Accountants and auditors,32056,Zacatecas,Other or unknown,238,18
+Accountants and auditors,32056,Zacatecas,Self-employed or employer,441,29
+Accountants and auditors,,Rest of the country,"Employee, firm 11-250",32332,250
+Accountants and auditors,,Rest of the country,"Employee, firm 251+",7921,73
+Accountants and auditors,,Rest of the country,"Employee, firm up to 10",17914,148
+Accountants and auditors,,Rest of the country,Government employee,9953,101
+Accountants and auditors,,Rest of the country,Other or unknown,10765,112
+Accountants and auditors,,Rest of the country,Self-employed or employer,25730,213
+Finance and investment analysts,12001,Acapulco,"Employee, firm 11-250",20,1
+Finance and investment analysts,12001,Acapulco,"Employee, firm up to 10",36,2
+Finance and investment analysts,12001,Acapulco,Government employee,25,1
+Finance and investment analysts,12001,Acapulco,Self-employed or employer,56,2
+Finance and investment analysts,01001,Aguascalientes,"Employee, firm 11-250",260,5
+Finance and investment analysts,01001,Aguascalientes,"Employee, firm 251+",99,3
+Finance and investment analysts,01001,Aguascalientes,"Employee, firm up to 10",26,1
+Finance and investment analysts,01001,Aguascalientes,Other or unknown,64,2
+Finance and investment analysts,01001,Aguascalientes,Self-employed or employer,55,1
+Finance and investment analysts,04002,Campeche,"Employee, firm 11-250",41,3
+Finance and investment analysts,04002,Campeche,"Employee, firm up to 10",14,1
+Finance and investment analysts,04002,Campeche,Government employee,32,2
+Finance and investment analysts,04002,Campeche,Self-employed or employer,10,1
+Finance and investment analysts,23005,Cancún,"Employee, firm 11-250",25,1
+Finance and investment analysts,23005,Cancún,"Employee, firm 251+",127,3
+Finance and investment analysts,23005,Cancún,"Employee, firm up to 10",36,1
+Finance and investment analysts,23005,Cancún,Self-employed or employer,102,2
+Finance and investment analysts,08019,Chihuahua,"Employee, firm 11-250",98,1
+Finance and investment analysts,08019,Chihuahua,"Employee, firm 251+",53,1
+Finance and investment analysts,08037,Ciudad Juárez,"Employee, firm 11-250",159,2
+Finance and investment analysts,08037,Ciudad Juárez,"Employee, firm 251+",261,5
+Finance and investment analysts,09015,Ciudad de México,"Employee, firm 11-250",14456,30
+Finance and investment analysts,09015,Ciudad de México,"Employee, firm 251+",9160,23
+Finance and investment analysts,09015,Ciudad de México,"Employee, firm up to 10",816,3
+Finance and investment analysts,09015,Ciudad de México,Government employee,2582,9
+Finance and investment analysts,09015,Ciudad de México,Other or unknown,2057,9
+Finance and investment analysts,09015,Ciudad de México,Self-employed or employer,3030,6
+Finance and investment analysts,04003,Ciudad del Carmen,"Employee, firm 11-250",19,3
+Finance and investment analysts,04003,Ciudad del Carmen,"Employee, firm 251+",9,1
+Finance and investment analysts,04003,Ciudad del Carmen,"Employee, firm up to 10",8,1
+Finance and investment analysts,04003,Ciudad del Carmen,Government employee,18,2
+Finance and investment analysts,04003,Ciudad del Carmen,Other or unknown,10,1
+Finance and investment analysts,04003,Ciudad del Carmen,Self-employed or employer,17,2
+Finance and investment analysts,30039,Coatzacoalcos,"Employee, firm 11-250",29,2
+Finance and investment analysts,30039,Coatzacoalcos,"Employee, firm up to 10",52,4
+Finance and investment analysts,30039,Coatzacoalcos,Other or unknown,30,2
+Finance and investment analysts,06002,Colima,"Employee, firm 11-250",81,6
+Finance and investment analysts,06002,Colima,"Employee, firm 251+",34,3
+Finance and investment analysts,06002,Colima,"Employee, firm up to 10",18,1
+Finance and investment analysts,06002,Colima,Government employee,53,3
+Finance and investment analysts,06002,Colima,Other or unknown,40,3
+Finance and investment analysts,06002,Colima,Self-employed or employer,12,1
+Finance and investment analysts,17007,Cuernavaca,"Employee, firm 11-250",44,1
+Finance and investment analysts,17007,Cuernavaca,"Employee, firm up to 10",29,1
+Finance and investment analysts,17007,Cuernavaca,Other or unknown,237,4
+Finance and investment analysts,17007,Cuernavaca,Self-employed or employer,137,3
+Finance and investment analysts,25006,Culiacán,"Employee, firm 11-250",358,11
+Finance and investment analysts,25006,Culiacán,"Employee, firm 251+",69,2
+Finance and investment analysts,25006,Culiacán,"Employee, firm up to 10",52,2
+Finance and investment analysts,25006,Culiacán,Government employee,131,3
+Finance and investment analysts,25006,Culiacán,Other or unknown,197,4
+Finance and investment analysts,25006,Culiacán,Self-employed or employer,118,3
+Finance and investment analysts,10005,Durango,"Employee, firm 11-250",14,1
+Finance and investment analysts,10005,Durango,Government employee,29,1
+Finance and investment analysts,10005,Durango,Self-employed or employer,10,1
+Finance and investment analysts,14039,Guadalajara,"Employee, firm 11-250",2381,15
+Finance and investment analysts,14039,Guadalajara,"Employee, firm 251+",1494,8
+Finance and investment analysts,14039,Guadalajara,"Employee, firm up to 10",294,2
+Finance and investment analysts,14039,Guadalajara,Other or unknown,176,1
+Finance and investment analysts,14039,Guadalajara,Self-employed or employer,642,5
+Finance and investment analysts,26030,Hermosillo,"Employee, firm 11-250",251,6
+Finance and investment analysts,26030,Hermosillo,"Employee, firm 251+",66,2
+Finance and investment analysts,26030,Hermosillo,"Employee, firm up to 10",158,3
+Finance and investment analysts,26030,Hermosillo,Other or unknown,305,10
+Finance and investment analysts,26030,Hermosillo,Self-employed or employer,289,7
+Finance and investment analysts,03003,La Paz,"Employee, firm 11-250",23,2
+Finance and investment analysts,03003,La Paz,"Employee, firm up to 10",20,1
+Finance and investment analysts,03003,La Paz,Government employee,60,4
+Finance and investment analysts,03003,La Paz,Self-employed or employer,6,1
+Finance and investment analysts,11020,León,"Employee, firm 11-250",248,4
+Finance and investment analysts,11020,León,"Employee, firm 251+",191,3
+Finance and investment analysts,11020,León,"Employee, firm up to 10",30,1
+Finance and investment analysts,11020,León,Government employee,110,2
+Finance and investment analysts,11020,León,Other or unknown,181,4
+Finance and investment analysts,11020,León,Self-employed or employer,104,2
+Finance and investment analysts,02002,Mexicali,"Employee, firm 11-250",46,1
+Finance and investment analysts,02002,Mexicali,"Employee, firm 251+",55,1
+Finance and investment analysts,02002,Mexicali,"Employee, firm up to 10",20,1
+Finance and investment analysts,02002,Mexicali,Self-employed or employer,82,2
+Finance and investment analysts,19039,Monterrey,"Employee, firm 11-250",1128,10
+Finance and investment analysts,19039,Monterrey,"Employee, firm 251+",126,1
+Finance and investment analysts,19039,Monterrey,"Employee, firm up to 10",174,1
+Finance and investment analysts,19039,Monterrey,Other or unknown,572,4
+Finance and investment analysts,19039,Monterrey,Self-employed or employer,298,2
+Finance and investment analysts,16053,Morelia,"Employee, firm 11-250",274,7
+Finance and investment analysts,16053,Morelia,"Employee, firm 251+",43,1
+Finance and investment analysts,16053,Morelia,Government employee,139,4
+Finance and investment analysts,31050,Mérida,"Employee, firm 11-250",636,11
+Finance and investment analysts,31050,Mérida,"Employee, firm up to 10",202,2
+Finance and investment analysts,31050,Mérida,Government employee,58,1
+Finance and investment analysts,31050,Mérida,Other or unknown,12,1
+Finance and investment analysts,31050,Mérida,Self-employed or employer,82,1
+Finance and investment analysts,20067,Oaxaca,"Employee, firm 11-250",66,4
+Finance and investment analysts,20067,Oaxaca,Government employee,74,3
+Finance and investment analysts,20067,Oaxaca,Other or unknown,86,4
+Finance and investment analysts,20067,Oaxaca,Self-employed or employer,48,3
+Finance and investment analysts,13048,Pachuca,"Employee, firm 11-250",152,9
+Finance and investment analysts,13048,Pachuca,"Employee, firm 251+",23,1
+Finance and investment analysts,13048,Pachuca,"Employee, firm up to 10",53,2
+Finance and investment analysts,13048,Pachuca,Government employee,76,4
+Finance and investment analysts,13048,Pachuca,Other or unknown,24,1
+Finance and investment analysts,13048,Pachuca,Self-employed or employer,10,1
+Finance and investment analysts,21114,Puebla,"Employee, firm 11-250",1299,9
+Finance and investment analysts,21114,Puebla,"Employee, firm 251+",404,3
+Finance and investment analysts,21114,Puebla,Other or unknown,34,1
+Finance and investment analysts,21114,Puebla,Self-employed or employer,145,2
+Finance and investment analysts,22014,Querétaro,"Employee, firm 11-250",321,7
+Finance and investment analysts,22014,Querétaro,"Employee, firm 251+",64,1
+Finance and investment analysts,22014,Querétaro,Government employee,124,3
+Finance and investment analysts,22014,Querétaro,Other or unknown,193,3
+Finance and investment analysts,22014,Querétaro,Self-employed or employer,350,5
+Finance and investment analysts,28032,Reynosa,Other or unknown,29,1
+Finance and investment analysts,05030,Saltillo,"Employee, firm 11-250",33,1
+Finance and investment analysts,05030,Saltillo,"Employee, firm 251+",186,4
+Finance and investment analysts,05030,Saltillo,"Employee, firm up to 10",40,1
+Finance and investment analysts,05030,Saltillo,Other or unknown,36,1
+Finance and investment analysts,05030,Saltillo,Self-employed or employer,98,2
+Finance and investment analysts,24028,San Luis Potosí,"Employee, firm 11-250",312,3
+Finance and investment analysts,24028,San Luis Potosí,"Employee, firm 251+",120,2
+Finance and investment analysts,24028,San Luis Potosí,"Employee, firm up to 10",102,2
+Finance and investment analysts,24028,San Luis Potosí,Other or unknown,42,1
+Finance and investment analysts,24028,San Luis Potosí,Self-employed or employer,124,2
+Finance and investment analysts,28038,Tampico,"Employee, firm 11-250",192,5
+Finance and investment analysts,28038,Tampico,"Employee, firm 251+",48,1
+Finance and investment analysts,28038,Tampico,Other or unknown,50,1
+Finance and investment analysts,28038,Tampico,Self-employed or employer,57,1
+Finance and investment analysts,07089,Tapachula,"Employee, firm 11-250",15,2
+Finance and investment analysts,07089,Tapachula,Government employee,13,1
+Finance and investment analysts,07089,Tapachula,Other or unknown,4,1
+Finance and investment analysts,18017,Tepic,"Employee, firm 11-250",122,7
+Finance and investment analysts,18017,Tepic,"Employee, firm 251+",14,1
+Finance and investment analysts,18017,Tepic,Self-employed or employer,39,2
+Finance and investment analysts,02004,Tijuana,"Employee, firm 11-250",316,3
+Finance and investment analysts,02004,Tijuana,"Employee, firm 251+",96,1
+Finance and investment analysts,02004,Tijuana,"Employee, firm up to 10",74,1
+Finance and investment analysts,29033,Tlaxcala,"Employee, firm 11-250",135,3
+Finance and investment analysts,29033,Tlaxcala,"Employee, firm 251+",48,1
+Finance and investment analysts,29033,Tlaxcala,Government employee,63,1
+Finance and investment analysts,29033,Tlaxcala,Other or unknown,67,3
+Finance and investment analysts,29033,Tlaxcala,Self-employed or employer,27,1
+Finance and investment analysts,15106,Toluca,"Employee, firm 11-250",520,7
+Finance and investment analysts,15106,Toluca,"Employee, firm 251+",481,6
+Finance and investment analysts,15106,Toluca,Self-employed or employer,185,2
+Finance and investment analysts,05035,Torreón,"Employee, firm 11-250",352,8
+Finance and investment analysts,05035,Torreón,"Employee, firm 251+",182,4
+Finance and investment analysts,05035,Torreón,"Employee, firm up to 10",69,2
+Finance and investment analysts,05035,Torreón,Other or unknown,24,1
+Finance and investment analysts,05035,Torreón,Self-employed or employer,106,2
+Finance and investment analysts,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",52,1
+Finance and investment analysts,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",37,2
+Finance and investment analysts,07101,Tuxtla Gutiérrez,Government employee,87,3
+Finance and investment analysts,07101,Tuxtla Gutiérrez,Self-employed or employer,60,2
+Finance and investment analysts,30193,Veracruz,"Employee, firm 11-250",71,2
+Finance and investment analysts,30193,Veracruz,"Employee, firm up to 10",83,2
+Finance and investment analysts,27004,Villahermosa,"Employee, firm 11-250",62,4
+Finance and investment analysts,27004,Villahermosa,"Employee, firm 251+",63,3
+Finance and investment analysts,27004,Villahermosa,"Employee, firm up to 10",24,2
+Finance and investment analysts,27004,Villahermosa,Government employee,27,1
+Finance and investment analysts,27004,Villahermosa,Other or unknown,24,1
+Finance and investment analysts,27004,Villahermosa,Self-employed or employer,66,3
+Finance and investment analysts,32056,Zacatecas,"Employee, firm 11-250",45,3
+Finance and investment analysts,32056,Zacatecas,"Employee, firm up to 10",32,2
+Finance and investment analysts,32056,Zacatecas,Government employee,57,4
+Finance and investment analysts,32056,Zacatecas,Self-employed or employer,15,1
+Finance and investment analysts,,Rest of the country,"Employee, firm 11-250",3622,27
+Finance and investment analysts,,Rest of the country,"Employee, firm 251+",1058,9
+Finance and investment analysts,,Rest of the country,"Employee, firm up to 10",1188,10
+Finance and investment analysts,,Rest of the country,Government employee,977,4
+Finance and investment analysts,,Rest of the country,Other or unknown,792,8
+Finance and investment analysts,,Rest of the country,Self-employed or employer,485,7
+"Data, statistics and research specialists",01001,Aguascalientes,Government employee,244,5
+"Data, statistics and research specialists",01001,Aguascalientes,Other or unknown,27,1
+"Data, statistics and research specialists",01001,Aguascalientes,Self-employed or employer,27,1
+"Data, statistics and research specialists",04002,Campeche,"Employee, firm 11-250",13,1
+"Data, statistics and research specialists",04002,Campeche,Other or unknown,14,1
+"Data, statistics and research specialists",08019,Chihuahua,"Employee, firm 11-250",25,1
+"Data, statistics and research specialists",08019,Chihuahua,"Employee, firm 251+",107,2
+"Data, statistics and research specialists",08019,Chihuahua,Government employee,74,2
+"Data, statistics and research specialists",08037,Ciudad Juárez,Government employee,154,2
+"Data, statistics and research specialists",08037,Ciudad Juárez,Self-employed or employer,78,1
+"Data, statistics and research specialists",09015,Ciudad de México,"Employee, firm 11-250",7302,17
+"Data, statistics and research specialists",09015,Ciudad de México,"Employee, firm 251+",6606,17
+"Data, statistics and research specialists",09015,Ciudad de México,"Employee, firm up to 10",445,1
+"Data, statistics and research specialists",09015,Ciudad de México,Government employee,4544,15
+"Data, statistics and research specialists",09015,Ciudad de México,Other or unknown,790,3
+"Data, statistics and research specialists",09015,Ciudad de México,Self-employed or employer,1762,2
+"Data, statistics and research specialists",04003,Ciudad del Carmen,Self-employed or employer,11,1
+"Data, statistics and research specialists",06002,Colima,Government employee,8,1
+"Data, statistics and research specialists",25006,Culiacán,"Employee, firm 11-250",44,1
+"Data, statistics and research specialists",25006,Culiacán,"Employee, firm 251+",44,1
+"Data, statistics and research specialists",25006,Culiacán,Government employee,163,1
+"Data, statistics and research specialists",10005,Durango,Government employee,33,1
+"Data, statistics and research specialists",14039,Guadalajara,"Employee, firm 11-250",57,1
+"Data, statistics and research specialists",14039,Guadalajara,Government employee,200,2
+"Data, statistics and research specialists",26030,Hermosillo,Government employee,100,3
+"Data, statistics and research specialists",26030,Hermosillo,Other or unknown,40,1
+"Data, statistics and research specialists",03003,La Paz,"Employee, firm 11-250",23,2
+"Data, statistics and research specialists",11020,León,"Employee, firm 11-250",37,1
+"Data, statistics and research specialists",11020,León,Self-employed or employer,56,1
+"Data, statistics and research specialists",02002,Mexicali,Government employee,63,2
+"Data, statistics and research specialists",19039,Monterrey,"Employee, firm 251+",138,1
+"Data, statistics and research specialists",16053,Morelia,"Employee, firm 251+",10,1
+"Data, statistics and research specialists",31050,Mérida,"Employee, firm 11-250",146,2
+"Data, statistics and research specialists",31050,Mérida,Self-employed or employer,74,1
+"Data, statistics and research specialists",20067,Oaxaca,"Employee, firm up to 10",21,1
+"Data, statistics and research specialists",20067,Oaxaca,Other or unknown,22,1
+"Data, statistics and research specialists",13048,Pachuca,"Employee, firm 11-250",16,1
+"Data, statistics and research specialists",13048,Pachuca,Government employee,19,1
+"Data, statistics and research specialists",21114,Puebla,"Employee, firm 11-250",236,4
+"Data, statistics and research specialists",21114,Puebla,"Employee, firm 251+",116,1
+"Data, statistics and research specialists",21114,Puebla,Government employee,290,3
+"Data, statistics and research specialists",22014,Querétaro,"Employee, firm 11-250",43,1
+"Data, statistics and research specialists",22014,Querétaro,"Employee, firm 251+",40,1
+"Data, statistics and research specialists",22014,Querétaro,Government employee,173,3
+"Data, statistics and research specialists",22014,Querétaro,Self-employed or employer,76,1
+"Data, statistics and research specialists",28032,Reynosa,"Employee, firm 11-250",24,1
+"Data, statistics and research specialists",05030,Saltillo,"Employee, firm 11-250",118,3
+"Data, statistics and research specialists",24028,San Luis Potosí,"Employee, firm 11-250",67,1
+"Data, statistics and research specialists",24028,San Luis Potosí,Government employee,88,2
+"Data, statistics and research specialists",28038,Tampico,Government employee,30,1
+"Data, statistics and research specialists",18017,Tepic,"Employee, firm 11-250",10,1
+"Data, statistics and research specialists",18017,Tepic,Government employee,15,1
+"Data, statistics and research specialists",15106,Toluca,"Employee, firm 251+",39,1
+"Data, statistics and research specialists",15106,Toluca,Self-employed or employer,89,1
+"Data, statistics and research specialists",05035,Torreón,Self-employed or employer,14,1
+"Data, statistics and research specialists",07101,Tuxtla Gutiérrez,Government employee,49,2
+"Data, statistics and research specialists",30193,Veracruz,"Employee, firm 11-250",36,1
+"Data, statistics and research specialists",30193,Veracruz,Other or unknown,38,1
+"Data, statistics and research specialists",27004,Villahermosa,"Employee, firm 251+",24,1
+"Data, statistics and research specialists",27004,Villahermosa,Government employee,29,1
+"Data, statistics and research specialists",32056,Zacatecas,"Employee, firm 11-250",27,2
+"Data, statistics and research specialists",32056,Zacatecas,Government employee,49,3
+"Data, statistics and research specialists",,Rest of the country,"Employee, firm 11-250",218,3
+"Data, statistics and research specialists",,Rest of the country,"Employee, firm up to 10",127,1
+"Data, statistics and research specialists",,Rest of the country,Government employee,965,11
+"Data, statistics and research specialists",,Rest of the country,Other or unknown,133,1
+"Data, statistics and research specialists",,Rest of the country,Self-employed or employer,160,1
+Marketing and advertising professionals,12001,Acapulco,"Employee, firm 11-250",113,3
+Marketing and advertising professionals,12001,Acapulco,Other or unknown,189,5
+Marketing and advertising professionals,12001,Acapulco,Self-employed or employer,128,4
+Marketing and advertising professionals,01001,Aguascalientes,"Employee, firm 11-250",108,3
+Marketing and advertising professionals,01001,Aguascalientes,"Employee, firm 251+",300,7
+Marketing and advertising professionals,01001,Aguascalientes,"Employee, firm up to 10",159,3
+Marketing and advertising professionals,01001,Aguascalientes,Government employee,86,2
+Marketing and advertising professionals,01001,Aguascalientes,Other or unknown,418,7
+Marketing and advertising professionals,01001,Aguascalientes,Self-employed or employer,174,6
+Marketing and advertising professionals,04002,Campeche,"Employee, firm 11-250",40,4
+Marketing and advertising professionals,04002,Campeche,"Employee, firm 251+",49,3
+Marketing and advertising professionals,04002,Campeche,"Employee, firm up to 10",52,6
+Marketing and advertising professionals,04002,Campeche,Government employee,13,1
+Marketing and advertising professionals,04002,Campeche,Other or unknown,21,2
+Marketing and advertising professionals,04002,Campeche,Self-employed or employer,25,2
+Marketing and advertising professionals,23005,Cancún,"Employee, firm 11-250",215,4
+Marketing and advertising professionals,23005,Cancún,"Employee, firm 251+",117,3
+Marketing and advertising professionals,23005,Cancún,"Employee, firm up to 10",47,1
+Marketing and advertising professionals,23005,Cancún,Other or unknown,132,3
+Marketing and advertising professionals,23005,Cancún,Self-employed or employer,57,2
+Marketing and advertising professionals,08019,Chihuahua,"Employee, firm 11-250",230,5
+Marketing and advertising professionals,08019,Chihuahua,"Employee, firm 251+",132,2
+Marketing and advertising professionals,08019,Chihuahua,"Employee, firm up to 10",166,4
+Marketing and advertising professionals,08019,Chihuahua,Other or unknown,17,1
+Marketing and advertising professionals,08019,Chihuahua,Self-employed or employer,361,9
+Marketing and advertising professionals,08037,Ciudad Juárez,"Employee, firm 11-250",141,3
+Marketing and advertising professionals,08037,Ciudad Juárez,"Employee, firm 251+",431,5
+Marketing and advertising professionals,08037,Ciudad Juárez,"Employee, firm up to 10",98,2
+Marketing and advertising professionals,08037,Ciudad Juárez,Government employee,710,2
+Marketing and advertising professionals,08037,Ciudad Juárez,Other or unknown,164,2
+Marketing and advertising professionals,08037,Ciudad Juárez,Self-employed or employer,113,2
+Marketing and advertising professionals,09015,Ciudad de México,"Employee, firm 11-250",19744,60
+Marketing and advertising professionals,09015,Ciudad de México,"Employee, firm 251+",13590,33
+Marketing and advertising professionals,09015,Ciudad de México,"Employee, firm up to 10",4090,11
+Marketing and advertising professionals,09015,Ciudad de México,Government employee,1604,6
+Marketing and advertising professionals,09015,Ciudad de México,Other or unknown,4285,15
+Marketing and advertising professionals,09015,Ciudad de México,Self-employed or employer,6490,25
+Marketing and advertising professionals,04003,Ciudad del Carmen,"Employee, firm 11-250",53,7
+Marketing and advertising professionals,04003,Ciudad del Carmen,"Employee, firm 251+",11,1
+Marketing and advertising professionals,04003,Ciudad del Carmen,"Employee, firm up to 10",39,6
+Marketing and advertising professionals,04003,Ciudad del Carmen,Other or unknown,18,2
+Marketing and advertising professionals,04003,Ciudad del Carmen,Self-employed or employer,46,4
+Marketing and advertising professionals,30039,Coatzacoalcos,"Employee, firm 11-250",133,8
+Marketing and advertising professionals,30039,Coatzacoalcos,"Employee, firm 251+",13,1
+Marketing and advertising professionals,30039,Coatzacoalcos,"Employee, firm up to 10",88,4
+Marketing and advertising professionals,30039,Coatzacoalcos,Government employee,32,3
+Marketing and advertising professionals,30039,Coatzacoalcos,Other or unknown,25,2
+Marketing and advertising professionals,30039,Coatzacoalcos,Self-employed or employer,20,1
+Marketing and advertising professionals,06002,Colima,"Employee, firm 11-250",91,8
+Marketing and advertising professionals,06002,Colima,"Employee, firm 251+",14,1
+Marketing and advertising professionals,06002,Colima,"Employee, firm up to 10",27,2
+Marketing and advertising professionals,06002,Colima,Other or unknown,7,1
+Marketing and advertising professionals,06002,Colima,Self-employed or employer,67,5
+Marketing and advertising professionals,17007,Cuernavaca,"Employee, firm 11-250",166,4
+Marketing and advertising professionals,17007,Cuernavaca,"Employee, firm up to 10",74,3
+Marketing and advertising professionals,17007,Cuernavaca,Government employee,32,1
+Marketing and advertising professionals,17007,Cuernavaca,Other or unknown,163,4
+Marketing and advertising professionals,17007,Cuernavaca,Self-employed or employer,205,7
+Marketing and advertising professionals,25006,Culiacán,"Employee, firm 11-250",420,12
+Marketing and advertising professionals,25006,Culiacán,"Employee, firm 251+",274,7
+Marketing and advertising professionals,25006,Culiacán,"Employee, firm up to 10",121,3
+Marketing and advertising professionals,25006,Culiacán,Other or unknown,61,2
+Marketing and advertising professionals,25006,Culiacán,Self-employed or employer,232,7
+Marketing and advertising professionals,10005,Durango,"Employee, firm 11-250",238,9
+Marketing and advertising professionals,10005,Durango,"Employee, firm 251+",100,4
+Marketing and advertising professionals,10005,Durango,"Employee, firm up to 10",80,3
+Marketing and advertising professionals,10005,Durango,Government employee,120,5
+Marketing and advertising professionals,10005,Durango,Other or unknown,32,1
+Marketing and advertising professionals,10005,Durango,Self-employed or employer,56,2
+Marketing and advertising professionals,14039,Guadalajara,"Employee, firm 11-250",4129,25
+Marketing and advertising professionals,14039,Guadalajara,"Employee, firm 251+",1213,7
+Marketing and advertising professionals,14039,Guadalajara,"Employee, firm up to 10",416,3
+Marketing and advertising professionals,14039,Guadalajara,Government employee,508,5
+Marketing and advertising professionals,14039,Guadalajara,Other or unknown,957,7
+Marketing and advertising professionals,14039,Guadalajara,Self-employed or employer,845,6
+Marketing and advertising professionals,26030,Hermosillo,"Employee, firm 11-250",358,11
+Marketing and advertising professionals,26030,Hermosillo,"Employee, firm 251+",22,1
+Marketing and advertising professionals,26030,Hermosillo,"Employee, firm up to 10",349,9
+Marketing and advertising professionals,26030,Hermosillo,Government employee,80,3
+Marketing and advertising professionals,26030,Hermosillo,Other or unknown,323,10
+Marketing and advertising professionals,26030,Hermosillo,Self-employed or employer,361,10
+Marketing and advertising professionals,03003,La Paz,"Employee, firm 11-250",28,2
+Marketing and advertising professionals,03003,La Paz,"Employee, firm up to 10",34,2
+Marketing and advertising professionals,03003,La Paz,Government employee,126,9
+Marketing and advertising professionals,03003,La Paz,Other or unknown,16,1
+Marketing and advertising professionals,03003,La Paz,Self-employed or employer,78,9
+Marketing and advertising professionals,11020,León,"Employee, firm 11-250",598,11
+Marketing and advertising professionals,11020,León,"Employee, firm 251+",78,1
+Marketing and advertising professionals,11020,León,"Employee, firm up to 10",121,3
+Marketing and advertising professionals,11020,León,Other or unknown,142,3
+Marketing and advertising professionals,11020,León,Self-employed or employer,529,9
+Marketing and advertising professionals,02002,Mexicali,"Employee, firm 11-250",379,8
+Marketing and advertising professionals,02002,Mexicali,"Employee, firm 251+",306,7
+Marketing and advertising professionals,02002,Mexicali,"Employee, firm up to 10",79,2
+Marketing and advertising professionals,02002,Mexicali,Government employee,80,2
+Marketing and advertising professionals,02002,Mexicali,Other or unknown,128,3
+Marketing and advertising professionals,02002,Mexicali,Self-employed or employer,212,4
+Marketing and advertising professionals,19039,Monterrey,"Employee, firm 11-250",1548,11
+Marketing and advertising professionals,19039,Monterrey,"Employee, firm 251+",992,7
+Marketing and advertising professionals,19039,Monterrey,"Employee, firm up to 10",1298,7
+Marketing and advertising professionals,19039,Monterrey,Government employee,90,1
+Marketing and advertising professionals,19039,Monterrey,Other or unknown,1178,6
+Marketing and advertising professionals,19039,Monterrey,Self-employed or employer,1002,9
+Marketing and advertising professionals,16053,Morelia,"Employee, firm 11-250",371,11
+Marketing and advertising professionals,16053,Morelia,"Employee, firm 251+",38,1
+Marketing and advertising professionals,16053,Morelia,"Employee, firm up to 10",74,2
+Marketing and advertising professionals,16053,Morelia,Government employee,141,3
+Marketing and advertising professionals,16053,Morelia,Other or unknown,45,1
+Marketing and advertising professionals,16053,Morelia,Self-employed or employer,169,4
+Marketing and advertising professionals,31050,Mérida,"Employee, firm 11-250",720,13
+Marketing and advertising professionals,31050,Mérida,"Employee, firm 251+",349,5
+Marketing and advertising professionals,31050,Mérida,"Employee, firm up to 10",354,5
+Marketing and advertising professionals,31050,Mérida,Other or unknown,330,6
+Marketing and advertising professionals,31050,Mérida,Self-employed or employer,440,8
+Marketing and advertising professionals,20067,Oaxaca,"Employee, firm 11-250",27,1
+Marketing and advertising professionals,20067,Oaxaca,"Employee, firm up to 10",84,2
+Marketing and advertising professionals,20067,Oaxaca,Government employee,42,2
+Marketing and advertising professionals,20067,Oaxaca,Other or unknown,20,1
+Marketing and advertising professionals,20067,Oaxaca,Self-employed or employer,109,5
+Marketing and advertising professionals,13048,Pachuca,"Employee, firm 11-250",139,6
+Marketing and advertising professionals,13048,Pachuca,"Employee, firm up to 10",21,1
+Marketing and advertising professionals,13048,Pachuca,Government employee,110,5
+Marketing and advertising professionals,13048,Pachuca,Other or unknown,58,3
+Marketing and advertising professionals,13048,Pachuca,Self-employed or employer,105,4
+Marketing and advertising professionals,21114,Puebla,"Employee, firm 11-250",2102,24
+Marketing and advertising professionals,21114,Puebla,"Employee, firm 251+",173,3
+Marketing and advertising professionals,21114,Puebla,"Employee, firm up to 10",220,3
+Marketing and advertising professionals,21114,Puebla,Government employee,167,3
+Marketing and advertising professionals,21114,Puebla,Self-employed or employer,840,9
+Marketing and advertising professionals,22014,Querétaro,"Employee, firm 11-250",1005,22
+Marketing and advertising professionals,22014,Querétaro,"Employee, firm 251+",547,10
+Marketing and advertising professionals,22014,Querétaro,"Employee, firm up to 10",78,2
+Marketing and advertising professionals,22014,Querétaro,Government employee,127,2
+Marketing and advertising professionals,22014,Querétaro,Other or unknown,514,9
+Marketing and advertising professionals,22014,Querétaro,Self-employed or employer,702,11
+Marketing and advertising professionals,28032,Reynosa,"Employee, firm 11-250",73,3
+Marketing and advertising professionals,28032,Reynosa,Government employee,13,1
+Marketing and advertising professionals,28032,Reynosa,Other or unknown,92,2
+Marketing and advertising professionals,28032,Reynosa,Self-employed or employer,22,1
+Marketing and advertising professionals,05030,Saltillo,"Employee, firm 11-250",201,6
+Marketing and advertising professionals,05030,Saltillo,"Employee, firm 251+",153,3
+Marketing and advertising professionals,05030,Saltillo,"Employee, firm up to 10",25,1
+Marketing and advertising professionals,05030,Saltillo,Other or unknown,43,1
+Marketing and advertising professionals,05030,Saltillo,Self-employed or employer,42,1
+Marketing and advertising professionals,24028,San Luis Potosí,"Employee, firm 11-250",260,5
+Marketing and advertising professionals,24028,San Luis Potosí,"Employee, firm 251+",310,5
+Marketing and advertising professionals,24028,San Luis Potosí,Government employee,289,5
+Marketing and advertising professionals,24028,San Luis Potosí,Other or unknown,723,14
+Marketing and advertising professionals,24028,San Luis Potosí,Self-employed or employer,312,5
+Marketing and advertising professionals,28038,Tampico,"Employee, firm 11-250",294,6
+Marketing and advertising professionals,28038,Tampico,"Employee, firm 251+",158,4
+Marketing and advertising professionals,28038,Tampico,"Employee, firm up to 10",17,1
+Marketing and advertising professionals,28038,Tampico,Other or unknown,62,2
+Marketing and advertising professionals,28038,Tampico,Self-employed or employer,66,2
+Marketing and advertising professionals,07089,Tapachula,"Employee, firm 11-250",26,3
+Marketing and advertising professionals,07089,Tapachula,Other or unknown,28,3
+Marketing and advertising professionals,07089,Tapachula,Self-employed or employer,11,1
+Marketing and advertising professionals,18017,Tepic,"Employee, firm 11-250",75,4
+Marketing and advertising professionals,18017,Tepic,"Employee, firm up to 10",61,3
+Marketing and advertising professionals,18017,Tepic,Government employee,64,4
+Marketing and advertising professionals,18017,Tepic,Other or unknown,14,1
+Marketing and advertising professionals,18017,Tepic,Self-employed or employer,126,8
+Marketing and advertising professionals,02004,Tijuana,"Employee, firm 11-250",759,11
+Marketing and advertising professionals,02004,Tijuana,"Employee, firm up to 10",73,1
+Marketing and advertising professionals,02004,Tijuana,Other or unknown,525,7
+Marketing and advertising professionals,02004,Tijuana,Self-employed or employer,368,7
+Marketing and advertising professionals,29033,Tlaxcala,"Employee, firm 11-250",21,2
+Marketing and advertising professionals,29033,Tlaxcala,"Employee, firm up to 10",100,4
+Marketing and advertising professionals,29033,Tlaxcala,Government employee,26,1
+Marketing and advertising professionals,29033,Tlaxcala,Other or unknown,96,3
+Marketing and advertising professionals,29033,Tlaxcala,Self-employed or employer,152,4
+Marketing and advertising professionals,15106,Toluca,"Employee, firm 11-250",611,10
+Marketing and advertising professionals,15106,Toluca,"Employee, firm 251+",208,3
+Marketing and advertising professionals,15106,Toluca,Self-employed or employer,120,2
+Marketing and advertising professionals,05035,Torreón,"Employee, firm 11-250",608,16
+Marketing and advertising professionals,05035,Torreón,"Employee, firm 251+",66,2
+Marketing and advertising professionals,05035,Torreón,"Employee, firm up to 10",104,4
+Marketing and advertising professionals,05035,Torreón,Other or unknown,85,2
+Marketing and advertising professionals,05035,Torreón,Self-employed or employer,269,7
+Marketing and advertising professionals,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",436,14
+Marketing and advertising professionals,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",60,2
+Marketing and advertising professionals,07101,Tuxtla Gutiérrez,Government employee,90,3
+Marketing and advertising professionals,07101,Tuxtla Gutiérrez,Other or unknown,28,1
+Marketing and advertising professionals,30193,Veracruz,"Employee, firm 11-250",201,5
+Marketing and advertising professionals,30193,Veracruz,"Employee, firm 251+",105,2
+Marketing and advertising professionals,30193,Veracruz,"Employee, firm up to 10",136,4
+Marketing and advertising professionals,30193,Veracruz,Self-employed or employer,140,4
+Marketing and advertising professionals,27004,Villahermosa,"Employee, firm 11-250",184,6
+Marketing and advertising professionals,27004,Villahermosa,"Employee, firm up to 10",45,2
+Marketing and advertising professionals,27004,Villahermosa,Other or unknown,31,1
+Marketing and advertising professionals,27004,Villahermosa,Self-employed or employer,134,7
+Marketing and advertising professionals,32056,Zacatecas,"Employee, firm 11-250",88,6
+Marketing and advertising professionals,32056,Zacatecas,"Employee, firm 251+",26,2
+Marketing and advertising professionals,32056,Zacatecas,"Employee, firm up to 10",34,2
+Marketing and advertising professionals,32056,Zacatecas,Government employee,70,5
+Marketing and advertising professionals,32056,Zacatecas,Other or unknown,42,3
+Marketing and advertising professionals,32056,Zacatecas,Self-employed or employer,121,6
+Marketing and advertising professionals,,Rest of the country,"Employee, firm 11-250",6634,66
+Marketing and advertising professionals,,Rest of the country,"Employee, firm 251+",1452,15
+Marketing and advertising professionals,,Rest of the country,"Employee, firm up to 10",1430,7
+Marketing and advertising professionals,,Rest of the country,Government employee,224,3
+Marketing and advertising professionals,,Rest of the country,Other or unknown,2381,31
+Marketing and advertising professionals,,Rest of the country,Self-employed or employer,1980,19
+Engineers (non-ICT),12001,Acapulco,"Employee, firm 11-250",65,2
+Engineers (non-ICT),12001,Acapulco,"Employee, firm 251+",18,1
+Engineers (non-ICT),12001,Acapulco,Government employee,68,2
+Engineers (non-ICT),12001,Acapulco,Other or unknown,84,2
+Engineers (non-ICT),12001,Acapulco,Self-employed or employer,68,3
+Engineers (non-ICT),01001,Aguascalientes,"Employee, firm 11-250",428,8
+Engineers (non-ICT),01001,Aguascalientes,"Employee, firm 251+",2891,61
+Engineers (non-ICT),01001,Aguascalientes,"Employee, firm up to 10",260,6
+Engineers (non-ICT),01001,Aguascalientes,Government employee,118,4
+Engineers (non-ICT),01001,Aguascalientes,Other or unknown,1274,35
+Engineers (non-ICT),01001,Aguascalientes,Self-employed or employer,430,11
+Engineers (non-ICT),04002,Campeche,"Employee, firm 11-250",101,8
+Engineers (non-ICT),04002,Campeche,"Employee, firm 251+",12,1
+Engineers (non-ICT),04002,Campeche,Government employee,92,8
+Engineers (non-ICT),04002,Campeche,Other or unknown,14,1
+Engineers (non-ICT),04002,Campeche,Self-employed or employer,102,9
+Engineers (non-ICT),23005,Cancún,"Employee, firm 11-250",764,19
+Engineers (non-ICT),23005,Cancún,"Employee, firm 251+",163,4
+Engineers (non-ICT),23005,Cancún,"Employee, firm up to 10",20,1
+Engineers (non-ICT),23005,Cancún,Other or unknown,362,7
+Engineers (non-ICT),23005,Cancún,Self-employed or employer,650,10
+Engineers (non-ICT),08019,Chihuahua,"Employee, firm 11-250",1423,30
+Engineers (non-ICT),08019,Chihuahua,"Employee, firm 251+",3230,71
+Engineers (non-ICT),08019,Chihuahua,"Employee, firm up to 10",216,7
+Engineers (non-ICT),08019,Chihuahua,Government employee,73,2
+Engineers (non-ICT),08019,Chihuahua,Other or unknown,282,6
+Engineers (non-ICT),08019,Chihuahua,Self-employed or employer,589,10
+Engineers (non-ICT),08037,Ciudad Juárez,"Employee, firm 11-250",1186,20
+Engineers (non-ICT),08037,Ciudad Juárez,"Employee, firm 251+",7230,120
+Engineers (non-ICT),08037,Ciudad Juárez,"Employee, firm up to 10",98,2
+Engineers (non-ICT),08037,Ciudad Juárez,Other or unknown,472,8
+Engineers (non-ICT),08037,Ciudad Juárez,Self-employed or employer,70,1
+Engineers (non-ICT),09015,Ciudad de México,"Employee, firm 11-250",31888,92
+Engineers (non-ICT),09015,Ciudad de México,"Employee, firm 251+",15152,35
+Engineers (non-ICT),09015,Ciudad de México,"Employee, firm up to 10",1294,4
+Engineers (non-ICT),09015,Ciudad de México,Government employee,7691,22
+Engineers (non-ICT),09015,Ciudad de México,Other or unknown,10078,31
+Engineers (non-ICT),09015,Ciudad de México,Self-employed or employer,13186,34
+Engineers (non-ICT),04003,Ciudad del Carmen,"Employee, firm 11-250",452,62
+Engineers (non-ICT),04003,Ciudad del Carmen,"Employee, firm 251+",202,28
+Engineers (non-ICT),04003,Ciudad del Carmen,"Employee, firm up to 10",110,13
+Engineers (non-ICT),04003,Ciudad del Carmen,Government employee,355,44
+Engineers (non-ICT),04003,Ciudad del Carmen,Other or unknown,78,11
+Engineers (non-ICT),04003,Ciudad del Carmen,Self-employed or employer,93,12
+Engineers (non-ICT),30039,Coatzacoalcos,"Employee, firm 11-250",151,10
+Engineers (non-ICT),30039,Coatzacoalcos,"Employee, firm 251+",70,6
+Engineers (non-ICT),30039,Coatzacoalcos,"Employee, firm up to 10",78,6
+Engineers (non-ICT),30039,Coatzacoalcos,Government employee,292,19
+Engineers (non-ICT),30039,Coatzacoalcos,Other or unknown,163,14
+Engineers (non-ICT),30039,Coatzacoalcos,Self-employed or employer,96,6
+Engineers (non-ICT),06002,Colima,"Employee, firm 11-250",294,23
+Engineers (non-ICT),06002,Colima,"Employee, firm 251+",77,7
+Engineers (non-ICT),06002,Colima,"Employee, firm up to 10",165,12
+Engineers (non-ICT),06002,Colima,Government employee,68,5
+Engineers (non-ICT),06002,Colima,Other or unknown,146,12
+Engineers (non-ICT),06002,Colima,Self-employed or employer,236,18
+Engineers (non-ICT),17007,Cuernavaca,"Employee, firm 11-250",582,15
+Engineers (non-ICT),17007,Cuernavaca,"Employee, firm 251+",183,4
+Engineers (non-ICT),17007,Cuernavaca,"Employee, firm up to 10",36,1
+Engineers (non-ICT),17007,Cuernavaca,Government employee,308,8
+Engineers (non-ICT),17007,Cuernavaca,Other or unknown,268,8
+Engineers (non-ICT),17007,Cuernavaca,Self-employed or employer,256,7
+Engineers (non-ICT),25006,Culiacán,"Employee, firm 11-250",859,24
+Engineers (non-ICT),25006,Culiacán,"Employee, firm 251+",429,14
+Engineers (non-ICT),25006,Culiacán,"Employee, firm up to 10",178,5
+Engineers (non-ICT),25006,Culiacán,Government employee,108,3
+Engineers (non-ICT),25006,Culiacán,Other or unknown,388,9
+Engineers (non-ICT),25006,Culiacán,Self-employed or employer,244,7
+Engineers (non-ICT),10005,Durango,"Employee, firm 11-250",451,19
+Engineers (non-ICT),10005,Durango,"Employee, firm 251+",418,15
+Engineers (non-ICT),10005,Durango,"Employee, firm up to 10",30,3
+Engineers (non-ICT),10005,Durango,Government employee,276,12
+Engineers (non-ICT),10005,Durango,Other or unknown,166,6
+Engineers (non-ICT),10005,Durango,Self-employed or employer,323,13
+Engineers (non-ICT),14039,Guadalajara,"Employee, firm 11-250",8343,64
+Engineers (non-ICT),14039,Guadalajara,"Employee, firm 251+",6382,50
+Engineers (non-ICT),14039,Guadalajara,"Employee, firm up to 10",741,4
+Engineers (non-ICT),14039,Guadalajara,Government employee,355,3
+Engineers (non-ICT),14039,Guadalajara,Other or unknown,749,6
+Engineers (non-ICT),14039,Guadalajara,Self-employed or employer,3796,23
+Engineers (non-ICT),26030,Hermosillo,"Employee, firm 11-250",1182,27
+Engineers (non-ICT),26030,Hermosillo,"Employee, firm 251+",1623,43
+Engineers (non-ICT),26030,Hermosillo,"Employee, firm up to 10",252,8
+Engineers (non-ICT),26030,Hermosillo,Government employee,75,2
+Engineers (non-ICT),26030,Hermosillo,Other or unknown,1202,34
+Engineers (non-ICT),26030,Hermosillo,Self-employed or employer,771,18
+Engineers (non-ICT),03003,La Paz,"Employee, firm 11-250",209,14
+Engineers (non-ICT),03003,La Paz,"Employee, firm 251+",38,3
+Engineers (non-ICT),03003,La Paz,"Employee, firm up to 10",61,4
+Engineers (non-ICT),03003,La Paz,Government employee,208,13
+Engineers (non-ICT),03003,La Paz,Other or unknown,39,3
+Engineers (non-ICT),03003,La Paz,Self-employed or employer,144,11
+Engineers (non-ICT),11020,León,"Employee, firm 11-250",798,14
+Engineers (non-ICT),11020,León,"Employee, firm 251+",521,13
+Engineers (non-ICT),11020,León,"Employee, firm up to 10",160,4
+Engineers (non-ICT),11020,León,Government employee,722,10
+Engineers (non-ICT),11020,León,Other or unknown,419,9
+Engineers (non-ICT),11020,León,Self-employed or employer,607,12
+Engineers (non-ICT),02002,Mexicali,"Employee, firm 11-250",987,24
+Engineers (non-ICT),02002,Mexicali,"Employee, firm 251+",4804,117
+Engineers (non-ICT),02002,Mexicali,"Employee, firm up to 10",109,4
+Engineers (non-ICT),02002,Mexicali,Government employee,556,15
+Engineers (non-ICT),02002,Mexicali,Other or unknown,413,11
+Engineers (non-ICT),02002,Mexicali,Self-employed or employer,355,9
+Engineers (non-ICT),19039,Monterrey,"Employee, firm 11-250",13003,87
+Engineers (non-ICT),19039,Monterrey,"Employee, firm 251+",13566,89
+Engineers (non-ICT),19039,Monterrey,"Employee, firm up to 10",1158,9
+Engineers (non-ICT),19039,Monterrey,Other or unknown,5412,33
+Engineers (non-ICT),19039,Monterrey,Self-employed or employer,4236,26
+Engineers (non-ICT),16053,Morelia,"Employee, firm 11-250",1489,36
+Engineers (non-ICT),16053,Morelia,"Employee, firm 251+",289,7
+Engineers (non-ICT),16053,Morelia,"Employee, firm up to 10",74,3
+Engineers (non-ICT),16053,Morelia,Government employee,189,5
+Engineers (non-ICT),16053,Morelia,Other or unknown,109,4
+Engineers (non-ICT),16053,Morelia,Self-employed or employer,620,17
+Engineers (non-ICT),31050,Mérida,"Employee, firm 11-250",1130,23
+Engineers (non-ICT),31050,Mérida,"Employee, firm 251+",223,5
+Engineers (non-ICT),31050,Mérida,"Employee, firm up to 10",215,5
+Engineers (non-ICT),31050,Mérida,Government employee,257,7
+Engineers (non-ICT),31050,Mérida,Other or unknown,619,12
+Engineers (non-ICT),31050,Mérida,Self-employed or employer,1460,28
+Engineers (non-ICT),20067,Oaxaca,"Employee, firm 11-250",498,17
+Engineers (non-ICT),20067,Oaxaca,"Employee, firm up to 10",122,5
+Engineers (non-ICT),20067,Oaxaca,Government employee,410,15
+Engineers (non-ICT),20067,Oaxaca,Other or unknown,193,7
+Engineers (non-ICT),20067,Oaxaca,Self-employed or employer,559,21
+Engineers (non-ICT),13048,Pachuca,"Employee, firm 11-250",684,34
+Engineers (non-ICT),13048,Pachuca,"Employee, firm 251+",82,4
+Engineers (non-ICT),13048,Pachuca,"Employee, firm up to 10",180,7
+Engineers (non-ICT),13048,Pachuca,Government employee,183,8
+Engineers (non-ICT),13048,Pachuca,Other or unknown,320,14
+Engineers (non-ICT),13048,Pachuca,Self-employed or employer,600,23
+Engineers (non-ICT),21114,Puebla,"Employee, firm 11-250",4741,78
+Engineers (non-ICT),21114,Puebla,"Employee, firm 251+",4392,49
+Engineers (non-ICT),21114,Puebla,"Employee, firm up to 10",595,9
+Engineers (non-ICT),21114,Puebla,Government employee,100,2
+Engineers (non-ICT),21114,Puebla,Other or unknown,697,12
+Engineers (non-ICT),21114,Puebla,Self-employed or employer,3099,48
+Engineers (non-ICT),22014,Querétaro,"Employee, firm 11-250",2142,42
+Engineers (non-ICT),22014,Querétaro,"Employee, firm 251+",8710,158
+Engineers (non-ICT),22014,Querétaro,"Employee, firm up to 10",253,6
+Engineers (non-ICT),22014,Querétaro,Government employee,447,8
+Engineers (non-ICT),22014,Querétaro,Other or unknown,2635,45
+Engineers (non-ICT),22014,Querétaro,Self-employed or employer,807,22
+Engineers (non-ICT),28032,Reynosa,"Employee, firm 11-250",368,12
+Engineers (non-ICT),28032,Reynosa,"Employee, firm 251+",3280,98
+Engineers (non-ICT),28032,Reynosa,"Employee, firm up to 10",32,1
+Engineers (non-ICT),28032,Reynosa,Government employee,36,1
+Engineers (non-ICT),28032,Reynosa,Other or unknown,74,2
+Engineers (non-ICT),28032,Reynosa,Self-employed or employer,88,3
+Engineers (non-ICT),05030,Saltillo,"Employee, firm 11-250",1463,31
+Engineers (non-ICT),05030,Saltillo,"Employee, firm 251+",6662,147
+Engineers (non-ICT),05030,Saltillo,"Employee, firm up to 10",86,2
+Engineers (non-ICT),05030,Saltillo,Government employee,169,3
+Engineers (non-ICT),05030,Saltillo,Other or unknown,403,9
+Engineers (non-ICT),05030,Saltillo,Self-employed or employer,430,8
+Engineers (non-ICT),24028,San Luis Potosí,"Employee, firm 11-250",998,19
+Engineers (non-ICT),24028,San Luis Potosí,"Employee, firm 251+",3784,72
+Engineers (non-ICT),24028,San Luis Potosí,"Employee, firm up to 10",264,6
+Engineers (non-ICT),24028,San Luis Potosí,Government employee,128,2
+Engineers (non-ICT),24028,San Luis Potosí,Other or unknown,2067,41
+Engineers (non-ICT),24028,San Luis Potosí,Self-employed or employer,973,18
+Engineers (non-ICT),28038,Tampico,"Employee, firm 11-250",738,18
+Engineers (non-ICT),28038,Tampico,"Employee, firm 251+",594,14
+Engineers (non-ICT),28038,Tampico,"Employee, firm up to 10",128,4
+Engineers (non-ICT),28038,Tampico,Government employee,200,7
+Engineers (non-ICT),28038,Tampico,Other or unknown,641,16
+Engineers (non-ICT),28038,Tampico,Self-employed or employer,61,2
+Engineers (non-ICT),07089,Tapachula,"Employee, firm 11-250",45,4
+Engineers (non-ICT),07089,Tapachula,"Employee, firm up to 10",25,3
+Engineers (non-ICT),07089,Tapachula,Government employee,54,6
+Engineers (non-ICT),07089,Tapachula,Other or unknown,141,10
+Engineers (non-ICT),07089,Tapachula,Self-employed or employer,108,10
+Engineers (non-ICT),18017,Tepic,"Employee, firm 11-250",341,20
+Engineers (non-ICT),18017,Tepic,"Employee, firm 251+",194,11
+Engineers (non-ICT),18017,Tepic,"Employee, firm up to 10",60,3
+Engineers (non-ICT),18017,Tepic,Government employee,271,14
+Engineers (non-ICT),18017,Tepic,Other or unknown,50,3
+Engineers (non-ICT),18017,Tepic,Self-employed or employer,191,14
+Engineers (non-ICT),02004,Tijuana,"Employee, firm 11-250",1448,25
+Engineers (non-ICT),02004,Tijuana,"Employee, firm 251+",5381,64
+Engineers (non-ICT),02004,Tijuana,"Employee, firm up to 10",180,3
+Engineers (non-ICT),02004,Tijuana,Government employee,427,3
+Engineers (non-ICT),02004,Tijuana,Other or unknown,1226,18
+Engineers (non-ICT),02004,Tijuana,Self-employed or employer,1631,24
+Engineers (non-ICT),29033,Tlaxcala,"Employee, firm 11-250",565,17
+Engineers (non-ICT),29033,Tlaxcala,"Employee, firm 251+",665,22
+Engineers (non-ICT),29033,Tlaxcala,"Employee, firm up to 10",166,7
+Engineers (non-ICT),29033,Tlaxcala,Government employee,284,8
+Engineers (non-ICT),29033,Tlaxcala,Other or unknown,535,18
+Engineers (non-ICT),29033,Tlaxcala,Self-employed or employer,253,8
+Engineers (non-ICT),15106,Toluca,"Employee, firm 11-250",1444,23
+Engineers (non-ICT),15106,Toluca,"Employee, firm 251+",4246,67
+Engineers (non-ICT),15106,Toluca,"Employee, firm up to 10",58,1
+Engineers (non-ICT),15106,Toluca,Government employee,43,1
+Engineers (non-ICT),15106,Toluca,Other or unknown,40,1
+Engineers (non-ICT),15106,Toluca,Self-employed or employer,548,9
+Engineers (non-ICT),05035,Torreón,"Employee, firm 11-250",2264,58
+Engineers (non-ICT),05035,Torreón,"Employee, firm 251+",1612,42
+Engineers (non-ICT),05035,Torreón,"Employee, firm up to 10",198,6
+Engineers (non-ICT),05035,Torreón,Government employee,265,7
+Engineers (non-ICT),05035,Torreón,Other or unknown,152,5
+Engineers (non-ICT),05035,Torreón,Self-employed or employer,737,16
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,"Employee, firm 11-250",1042,37
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,"Employee, firm 251+",95,3
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,"Employee, firm up to 10",277,10
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,Government employee,389,17
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,Other or unknown,32,1
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,Self-employed or employer,764,26
+Engineers (non-ICT),30193,Veracruz,"Employee, firm 11-250",386,10
+Engineers (non-ICT),30193,Veracruz,"Employee, firm 251+",118,3
+Engineers (non-ICT),30193,Veracruz,"Employee, firm up to 10",44,2
+Engineers (non-ICT),30193,Veracruz,Government employee,273,7
+Engineers (non-ICT),30193,Veracruz,Other or unknown,791,18
+Engineers (non-ICT),30193,Veracruz,Self-employed or employer,193,3
+Engineers (non-ICT),27004,Villahermosa,"Employee, firm 11-250",534,26
+Engineers (non-ICT),27004,Villahermosa,"Employee, firm 251+",262,14
+Engineers (non-ICT),27004,Villahermosa,"Employee, firm up to 10",104,6
+Engineers (non-ICT),27004,Villahermosa,Government employee,461,21
+Engineers (non-ICT),27004,Villahermosa,Other or unknown,564,30
+Engineers (non-ICT),27004,Villahermosa,Self-employed or employer,350,18
+Engineers (non-ICT),32056,Zacatecas,"Employee, firm 11-250",212,15
+Engineers (non-ICT),32056,Zacatecas,"Employee, firm 251+",216,15
+Engineers (non-ICT),32056,Zacatecas,"Employee, firm up to 10",58,4
+Engineers (non-ICT),32056,Zacatecas,Government employee,163,11
+Engineers (non-ICT),32056,Zacatecas,Other or unknown,269,20
+Engineers (non-ICT),32056,Zacatecas,Self-employed or employer,154,10
+Engineers (non-ICT),,Rest of the country,"Employee, firm 11-250",18674,168
+Engineers (non-ICT),,Rest of the country,"Employee, firm 251+",22479,198
+Engineers (non-ICT),,Rest of the country,"Employee, firm up to 10",4292,33
+Engineers (non-ICT),,Rest of the country,Government employee,6550,74
+Engineers (non-ICT),,Rest of the country,Other or unknown,11329,129
+Engineers (non-ICT),,Rest of the country,Self-employed or employer,11953,107
+Business and operations managers,12001,Acapulco,"Employee, firm 11-250",623,21
+Business and operations managers,12001,Acapulco,"Employee, firm 251+",30,1
+Business and operations managers,12001,Acapulco,"Employee, firm up to 10",270,10
+Business and operations managers,12001,Acapulco,Government employee,1156,33
+Business and operations managers,12001,Acapulco,Other or unknown,319,13
+Business and operations managers,12001,Acapulco,Self-employed or employer,346,11
+Business and operations managers,01001,Aguascalientes,"Employee, firm 11-250",3088,75
+Business and operations managers,01001,Aguascalientes,"Employee, firm 251+",3124,70
+Business and operations managers,01001,Aguascalientes,"Employee, firm up to 10",540,16
+Business and operations managers,01001,Aguascalientes,Government employee,3522,78
+Business and operations managers,01001,Aguascalientes,Other or unknown,2746,65
+Business and operations managers,01001,Aguascalientes,Self-employed or employer,1061,28
+Business and operations managers,04002,Campeche,"Employee, firm 11-250",998,88
+Business and operations managers,04002,Campeche,"Employee, firm 251+",214,21
+Business and operations managers,04002,Campeche,"Employee, firm up to 10",224,19
+Business and operations managers,04002,Campeche,Government employee,1992,172
+Business and operations managers,04002,Campeche,Other or unknown,43,4
+Business and operations managers,04002,Campeche,Self-employed or employer,300,27
+Business and operations managers,23005,Cancún,"Employee, firm 11-250",2679,66
+Business and operations managers,23005,Cancún,"Employee, firm 251+",1113,27
+Business and operations managers,23005,Cancún,"Employee, firm up to 10",612,13
+Business and operations managers,23005,Cancún,Government employee,1238,26
+Business and operations managers,23005,Cancún,Other or unknown,363,9
+Business and operations managers,23005,Cancún,Self-employed or employer,1536,28
+Business and operations managers,08019,Chihuahua,"Employee, firm 11-250",4995,117
+Business and operations managers,08019,Chihuahua,"Employee, firm 251+",8138,170
+Business and operations managers,08019,Chihuahua,"Employee, firm up to 10",710,18
+Business and operations managers,08019,Chihuahua,Government employee,2984,66
+Business and operations managers,08019,Chihuahua,Other or unknown,518,11
+Business and operations managers,08019,Chihuahua,Self-employed or employer,1508,38
+Business and operations managers,08037,Ciudad Juárez,"Employee, firm 11-250",4770,75
+Business and operations managers,08037,Ciudad Juárez,"Employee, firm 251+",20320,340
+Business and operations managers,08037,Ciudad Juárez,"Employee, firm up to 10",1252,21
+Business and operations managers,08037,Ciudad Juárez,Government employee,2005,33
+Business and operations managers,08037,Ciudad Juárez,Other or unknown,1563,27
+Business and operations managers,08037,Ciudad Juárez,Self-employed or employer,2291,33
+Business and operations managers,09015,Ciudad de México,"Employee, firm 11-250",154772,385
+Business and operations managers,09015,Ciudad de México,"Employee, firm 251+",78131,184
+Business and operations managers,09015,Ciudad de México,"Employee, firm up to 10",14773,50
+Business and operations managers,09015,Ciudad de México,Government employee,70152,192
+Business and operations managers,09015,Ciudad de México,Other or unknown,16554,58
+Business and operations managers,09015,Ciudad de México,Self-employed or employer,49340,108
+Business and operations managers,04003,Ciudad del Carmen,"Employee, firm 11-250",1277,162
+Business and operations managers,04003,Ciudad del Carmen,"Employee, firm 251+",453,55
+Business and operations managers,04003,Ciudad del Carmen,"Employee, firm up to 10",359,49
+Business and operations managers,04003,Ciudad del Carmen,Government employee,672,87
+Business and operations managers,04003,Ciudad del Carmen,Other or unknown,151,17
+Business and operations managers,04003,Ciudad del Carmen,Self-employed or employer,212,26
+Business and operations managers,30039,Coatzacoalcos,"Employee, firm 11-250",875,59
+Business and operations managers,30039,Coatzacoalcos,"Employee, firm 251+",180,11
+Business and operations managers,30039,Coatzacoalcos,"Employee, firm up to 10",429,35
+Business and operations managers,30039,Coatzacoalcos,Government employee,568,38
+Business and operations managers,30039,Coatzacoalcos,Other or unknown,374,29
+Business and operations managers,30039,Coatzacoalcos,Self-employed or employer,273,20
+Business and operations managers,06002,Colima,"Employee, firm 11-250",1195,91
+Business and operations managers,06002,Colima,"Employee, firm 251+",258,20
+Business and operations managers,06002,Colima,"Employee, firm up to 10",394,31
+Business and operations managers,06002,Colima,Government employee,1690,122
+Business and operations managers,06002,Colima,Other or unknown,312,24
+Business and operations managers,06002,Colima,Self-employed or employer,369,27
+Business and operations managers,17007,Cuernavaca,"Employee, firm 11-250",1404,35
+Business and operations managers,17007,Cuernavaca,"Employee, firm 251+",230,7
+Business and operations managers,17007,Cuernavaca,"Employee, firm up to 10",505,16
+Business and operations managers,17007,Cuernavaca,Government employee,1911,47
+Business and operations managers,17007,Cuernavaca,Other or unknown,1190,32
+Business and operations managers,17007,Cuernavaca,Self-employed or employer,620,16
+Business and operations managers,25006,Culiacán,"Employee, firm 11-250",4109,113
+Business and operations managers,25006,Culiacán,"Employee, firm 251+",1946,50
+Business and operations managers,25006,Culiacán,"Employee, firm up to 10",670,20
+Business and operations managers,25006,Culiacán,Government employee,2382,70
+Business and operations managers,25006,Culiacán,Other or unknown,764,20
+Business and operations managers,25006,Culiacán,Self-employed or employer,650,18
+Business and operations managers,10005,Durango,"Employee, firm 11-250",2044,81
+Business and operations managers,10005,Durango,"Employee, firm 251+",1110,47
+Business and operations managers,10005,Durango,"Employee, firm up to 10",636,26
+Business and operations managers,10005,Durango,Government employee,2618,99
+Business and operations managers,10005,Durango,Other or unknown,401,15
+Business and operations managers,10005,Durango,Self-employed or employer,809,33
+Business and operations managers,14039,Guadalajara,"Employee, firm 11-250",25866,195
+Business and operations managers,14039,Guadalajara,"Employee, firm 251+",13583,99
+Business and operations managers,14039,Guadalajara,"Employee, firm up to 10",2364,19
+Business and operations managers,14039,Guadalajara,Government employee,6448,42
+Business and operations managers,14039,Guadalajara,Other or unknown,3594,28
+Business and operations managers,14039,Guadalajara,Self-employed or employer,7952,52
+Business and operations managers,26030,Hermosillo,"Employee, firm 11-250",3173,81
+Business and operations managers,26030,Hermosillo,"Employee, firm 251+",2337,58
+Business and operations managers,26030,Hermosillo,"Employee, firm up to 10",1200,33
+Business and operations managers,26030,Hermosillo,Government employee,3569,92
+Business and operations managers,26030,Hermosillo,Other or unknown,2262,57
+Business and operations managers,26030,Hermosillo,Self-employed or employer,1660,44
+Business and operations managers,03003,La Paz,"Employee, firm 11-250",1271,82
+Business and operations managers,03003,La Paz,"Employee, firm 251+",143,10
+Business and operations managers,03003,La Paz,"Employee, firm up to 10",394,28
+Business and operations managers,03003,La Paz,Government employee,1627,104
+Business and operations managers,03003,La Paz,Other or unknown,231,17
+Business and operations managers,03003,La Paz,Self-employed or employer,536,39
+Business and operations managers,11020,León,"Employee, firm 11-250",6397,116
+Business and operations managers,11020,León,"Employee, firm 251+",3116,61
+Business and operations managers,11020,León,"Employee, firm up to 10",1478,31
+Business and operations managers,11020,León,Government employee,2323,34
+Business and operations managers,11020,León,Other or unknown,3338,56
+Business and operations managers,11020,León,Self-employed or employer,3431,66
+Business and operations managers,02002,Mexicali,"Employee, firm 11-250",2964,72
+Business and operations managers,02002,Mexicali,"Employee, firm 251+",3166,74
+Business and operations managers,02002,Mexicali,"Employee, firm up to 10",610,15
+Business and operations managers,02002,Mexicali,Government employee,1701,43
+Business and operations managers,02002,Mexicali,Other or unknown,653,15
+Business and operations managers,02002,Mexicali,Self-employed or employer,1391,35
+Business and operations managers,19039,Monterrey,"Employee, firm 11-250",35398,253
+Business and operations managers,19039,Monterrey,"Employee, firm 251+",26892,198
+Business and operations managers,19039,Monterrey,"Employee, firm up to 10",6136,41
+Business and operations managers,19039,Monterrey,Government employee,7660,59
+Business and operations managers,19039,Monterrey,Other or unknown,8561,64
+Business and operations managers,19039,Monterrey,Self-employed or employer,10970,80
+Business and operations managers,16053,Morelia,"Employee, firm 11-250",2884,74
+Business and operations managers,16053,Morelia,"Employee, firm 251+",473,13
+Business and operations managers,16053,Morelia,"Employee, firm up to 10",968,21
+Business and operations managers,16053,Morelia,Government employee,2796,71
+Business and operations managers,16053,Morelia,Other or unknown,526,12
+Business and operations managers,16053,Morelia,Self-employed or employer,982,22
+Business and operations managers,31050,Mérida,"Employee, firm 11-250",8249,144
+Business and operations managers,31050,Mérida,"Employee, firm 251+",2206,37
+Business and operations managers,31050,Mérida,"Employee, firm up to 10",2832,47
+Business and operations managers,31050,Mérida,Government employee,4732,95
+Business and operations managers,31050,Mérida,Other or unknown,2660,51
+Business and operations managers,31050,Mérida,Self-employed or employer,3723,68
+Business and operations managers,20067,Oaxaca,"Employee, firm 11-250",1363,51
+Business and operations managers,20067,Oaxaca,"Employee, firm 251+",126,4
+Business and operations managers,20067,Oaxaca,"Employee, firm up to 10",543,19
+Business and operations managers,20067,Oaxaca,Government employee,2484,87
+Business and operations managers,20067,Oaxaca,Other or unknown,617,22
+Business and operations managers,20067,Oaxaca,Self-employed or employer,898,31
+Business and operations managers,13048,Pachuca,"Employee, firm 11-250",2005,86
+Business and operations managers,13048,Pachuca,"Employee, firm 251+",524,22
+Business and operations managers,13048,Pachuca,"Employee, firm up to 10",564,24
+Business and operations managers,13048,Pachuca,Government employee,2466,100
+Business and operations managers,13048,Pachuca,Other or unknown,497,24
+Business and operations managers,13048,Pachuca,Self-employed or employer,733,35
+Business and operations managers,21114,Puebla,"Employee, firm 11-250",11082,153
+Business and operations managers,21114,Puebla,"Employee, firm 251+",4164,55
+Business and operations managers,21114,Puebla,"Employee, firm up to 10",2315,31
+Business and operations managers,21114,Puebla,Government employee,3690,56
+Business and operations managers,21114,Puebla,Other or unknown,766,10
+Business and operations managers,21114,Puebla,Self-employed or employer,3798,41
+Business and operations managers,22014,Querétaro,"Employee, firm 11-250",6094,130
+Business and operations managers,22014,Querétaro,"Employee, firm 251+",6106,123
+Business and operations managers,22014,Querétaro,"Employee, firm up to 10",1284,27
+Business and operations managers,22014,Querétaro,Government employee,1882,42
+Business and operations managers,22014,Querétaro,Other or unknown,3190,68
+Business and operations managers,22014,Querétaro,Self-employed or employer,3698,70
+Business and operations managers,28032,Reynosa,"Employee, firm 11-250",1880,58
+Business and operations managers,28032,Reynosa,"Employee, firm 251+",7722,256
+Business and operations managers,28032,Reynosa,"Employee, firm up to 10",266,8
+Business and operations managers,28032,Reynosa,Government employee,568,18
+Business and operations managers,28032,Reynosa,Other or unknown,66,3
+Business and operations managers,28032,Reynosa,Self-employed or employer,504,13
+Business and operations managers,05030,Saltillo,"Employee, firm 11-250",4816,113
+Business and operations managers,05030,Saltillo,"Employee, firm 251+",9748,218
+Business and operations managers,05030,Saltillo,"Employee, firm up to 10",671,17
+Business and operations managers,05030,Saltillo,Government employee,2388,59
+Business and operations managers,05030,Saltillo,Other or unknown,218,6
+Business and operations managers,05030,Saltillo,Self-employed or employer,2488,49
+Business and operations managers,24028,San Luis Potosí,"Employee, firm 11-250",4257,83
+Business and operations managers,24028,San Luis Potosí,"Employee, firm 251+",4738,96
+Business and operations managers,24028,San Luis Potosí,"Employee, firm up to 10",834,17
+Business and operations managers,24028,San Luis Potosí,Government employee,2696,55
+Business and operations managers,24028,San Luis Potosí,Other or unknown,2341,48
+Business and operations managers,24028,San Luis Potosí,Self-employed or employer,1424,25
+Business and operations managers,28038,Tampico,"Employee, firm 11-250",3338,82
+Business and operations managers,28038,Tampico,"Employee, firm 251+",1022,25
+Business and operations managers,28038,Tampico,"Employee, firm up to 10",502,13
+Business and operations managers,28038,Tampico,Government employee,1502,40
+Business and operations managers,28038,Tampico,Other or unknown,1167,26
+Business and operations managers,28038,Tampico,Self-employed or employer,1516,34
+Business and operations managers,07089,Tapachula,"Employee, firm 11-250",599,55
+Business and operations managers,07089,Tapachula,"Employee, firm 251+",22,3
+Business and operations managers,07089,Tapachula,"Employee, firm up to 10",130,12
+Business and operations managers,07089,Tapachula,Government employee,798,67
+Business and operations managers,07089,Tapachula,Other or unknown,226,20
+Business and operations managers,07089,Tapachula,Self-employed or employer,246,23
+Business and operations managers,18017,Tepic,"Employee, firm 11-250",1420,85
+Business and operations managers,18017,Tepic,"Employee, firm 251+",433,27
+Business and operations managers,18017,Tepic,"Employee, firm up to 10",620,34
+Business and operations managers,18017,Tepic,Government employee,2364,140
+Business and operations managers,18017,Tepic,Other or unknown,62,4
+Business and operations managers,18017,Tepic,Self-employed or employer,651,35
+Business and operations managers,02004,Tijuana,"Employee, firm 11-250",7493,105
+Business and operations managers,02004,Tijuana,"Employee, firm 251+",7938,107
+Business and operations managers,02004,Tijuana,"Employee, firm up to 10",1031,17
+Business and operations managers,02004,Tijuana,Government employee,1507,20
+Business and operations managers,02004,Tijuana,Other or unknown,2180,26
+Business and operations managers,02004,Tijuana,Self-employed or employer,844,10
+Business and operations managers,29033,Tlaxcala,"Employee, firm 11-250",1271,43
+Business and operations managers,29033,Tlaxcala,"Employee, firm 251+",995,32
+Business and operations managers,29033,Tlaxcala,"Employee, firm up to 10",690,22
+Business and operations managers,29033,Tlaxcala,Government employee,2212,69
+Business and operations managers,29033,Tlaxcala,Other or unknown,626,18
+Business and operations managers,29033,Tlaxcala,Self-employed or employer,687,17
+Business and operations managers,15106,Toluca,"Employee, firm 11-250",3903,61
+Business and operations managers,15106,Toluca,"Employee, firm 251+",5251,82
+Business and operations managers,15106,Toluca,"Employee, firm up to 10",628,9
+Business and operations managers,15106,Toluca,Government employee,3585,52
+Business and operations managers,15106,Toluca,Other or unknown,32,1
+Business and operations managers,15106,Toluca,Self-employed or employer,688,14
+Business and operations managers,05035,Torreón,"Employee, firm 11-250",6665,177
+Business and operations managers,05035,Torreón,"Employee, firm 251+",3780,99
+Business and operations managers,05035,Torreón,"Employee, firm up to 10",1248,35
+Business and operations managers,05035,Torreón,Government employee,3152,82
+Business and operations managers,05035,Torreón,Other or unknown,438,12
+Business and operations managers,05035,Torreón,Self-employed or employer,2050,56
+Business and operations managers,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",1974,75
+Business and operations managers,07101,Tuxtla Gutiérrez,"Employee, firm 251+",187,6
+Business and operations managers,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",617,24
+Business and operations managers,07101,Tuxtla Gutiérrez,Government employee,2866,105
+Business and operations managers,07101,Tuxtla Gutiérrez,Other or unknown,178,6
+Business and operations managers,07101,Tuxtla Gutiérrez,Self-employed or employer,934,29
+Business and operations managers,30193,Veracruz,"Employee, firm 11-250",1646,42
+Business and operations managers,30193,Veracruz,"Employee, firm 251+",373,9
+Business and operations managers,30193,Veracruz,"Employee, firm up to 10",570,15
+Business and operations managers,30193,Veracruz,Government employee,1058,30
+Business and operations managers,30193,Veracruz,Other or unknown,1211,31
+Business and operations managers,30193,Veracruz,Self-employed or employer,900,17
+Business and operations managers,27004,Villahermosa,"Employee, firm 11-250",1723,78
+Business and operations managers,27004,Villahermosa,"Employee, firm 251+",595,27
+Business and operations managers,27004,Villahermosa,"Employee, firm up to 10",278,16
+Business and operations managers,27004,Villahermosa,Government employee,1644,82
+Business and operations managers,27004,Villahermosa,Other or unknown,595,28
+Business and operations managers,27004,Villahermosa,Self-employed or employer,1122,62
+Business and operations managers,32056,Zacatecas,"Employee, firm 11-250",809,55
+Business and operations managers,32056,Zacatecas,"Employee, firm 251+",352,26
+Business and operations managers,32056,Zacatecas,"Employee, firm up to 10",209,16
+Business and operations managers,32056,Zacatecas,Government employee,1719,121
+Business and operations managers,32056,Zacatecas,Other or unknown,164,12
+Business and operations managers,32056,Zacatecas,Self-employed or employer,420,30
+Business and operations managers,,Rest of the country,"Employee, firm 11-250",77650,716
+Business and operations managers,,Rest of the country,"Employee, firm 251+",47823,435
+Business and operations managers,,Rest of the country,"Employee, firm up to 10",23729,236
+Business and operations managers,,Rest of the country,Government employee,80239,865
+Business and operations managers,,Rest of the country,Other or unknown,22482,207
+Business and operations managers,,Rest of the country,Self-employed or employer,46124,446
+Higher-education and IT educators,12001,Acapulco,"Employee, firm 11-250",512,14
+Higher-education and IT educators,12001,Acapulco,"Employee, firm 251+",44,1
+Higher-education and IT educators,12001,Acapulco,"Employee, firm up to 10",24,1
+Higher-education and IT educators,12001,Acapulco,Government employee,468,13
+Higher-education and IT educators,12001,Acapulco,Other or unknown,132,5
+Higher-education and IT educators,12001,Acapulco,Self-employed or employer,32,1
+Higher-education and IT educators,01001,Aguascalientes,"Employee, firm 11-250",503,11
+Higher-education and IT educators,01001,Aguascalientes,"Employee, firm 251+",750,18
+Higher-education and IT educators,01001,Aguascalientes,Government employee,1088,28
+Higher-education and IT educators,01001,Aguascalientes,Other or unknown,238,4
+Higher-education and IT educators,04002,Campeche,"Employee, firm 11-250",380,34
+Higher-education and IT educators,04002,Campeche,"Employee, firm 251+",131,11
+Higher-education and IT educators,04002,Campeche,Government employee,390,29
+Higher-education and IT educators,04002,Campeche,Other or unknown,80,8
+Higher-education and IT educators,23005,Cancún,"Employee, firm 11-250",495,9
+Higher-education and IT educators,23005,Cancún,"Employee, firm 251+",176,3
+Higher-education and IT educators,23005,Cancún,Government employee,560,14
+Higher-education and IT educators,08019,Chihuahua,"Employee, firm 11-250",926,21
+Higher-education and IT educators,08019,Chihuahua,"Employee, firm 251+",578,13
+Higher-education and IT educators,08019,Chihuahua,"Employee, firm up to 10",52,1
+Higher-education and IT educators,08019,Chihuahua,Government employee,556,20
+Higher-education and IT educators,08019,Chihuahua,Other or unknown,256,5
+Higher-education and IT educators,08019,Chihuahua,Self-employed or employer,34,1
+Higher-education and IT educators,08037,Ciudad Juárez,"Employee, firm 11-250",698,10
+Higher-education and IT educators,08037,Ciudad Juárez,"Employee, firm 251+",1731,22
+Higher-education and IT educators,08037,Ciudad Juárez,Government employee,493,9
+Higher-education and IT educators,08037,Ciudad Juárez,Other or unknown,326,5
+Higher-education and IT educators,09015,Ciudad de México,"Employee, firm 11-250",17955,41
+Higher-education and IT educators,09015,Ciudad de México,"Employee, firm 251+",22771,63
+Higher-education and IT educators,09015,Ciudad de México,Government employee,28009,61
+Higher-education and IT educators,09015,Ciudad de México,Other or unknown,2932,10
+Higher-education and IT educators,09015,Ciudad de México,Self-employed or employer,490,2
+Higher-education and IT educators,04003,Ciudad del Carmen,"Employee, firm 11-250",169,22
+Higher-education and IT educators,04003,Ciudad del Carmen,"Employee, firm 251+",202,23
+Higher-education and IT educators,04003,Ciudad del Carmen,"Employee, firm up to 10",6,1
+Higher-education and IT educators,04003,Ciudad del Carmen,Government employee,101,14
+Higher-education and IT educators,04003,Ciudad del Carmen,Other or unknown,15,2
+Higher-education and IT educators,04003,Ciudad del Carmen,Self-employed or employer,5,1
+Higher-education and IT educators,30039,Coatzacoalcos,"Employee, firm 11-250",190,11
+Higher-education and IT educators,30039,Coatzacoalcos,"Employee, firm 251+",30,2
+Higher-education and IT educators,30039,Coatzacoalcos,"Employee, firm up to 10",6,1
+Higher-education and IT educators,30039,Coatzacoalcos,Government employee,154,10
+Higher-education and IT educators,30039,Coatzacoalcos,Other or unknown,121,8
+Higher-education and IT educators,06002,Colima,"Employee, firm 11-250",356,24
+Higher-education and IT educators,06002,Colima,"Employee, firm 251+",219,17
+Higher-education and IT educators,06002,Colima,Government employee,258,15
+Higher-education and IT educators,06002,Colima,Other or unknown,50,4
+Higher-education and IT educators,17007,Cuernavaca,"Employee, firm 11-250",908,23
+Higher-education and IT educators,17007,Cuernavaca,"Employee, firm 251+",286,7
+Higher-education and IT educators,17007,Cuernavaca,"Employee, firm up to 10",36,1
+Higher-education and IT educators,17007,Cuernavaca,Government employee,384,10
+Higher-education and IT educators,17007,Cuernavaca,Other or unknown,828,20
+Higher-education and IT educators,25006,Culiacán,"Employee, firm 11-250",1295,40
+Higher-education and IT educators,25006,Culiacán,"Employee, firm 251+",695,18
+Higher-education and IT educators,25006,Culiacán,"Employee, firm up to 10",42,1
+Higher-education and IT educators,25006,Culiacán,Government employee,1288,32
+Higher-education and IT educators,25006,Culiacán,Other or unknown,310,11
+Higher-education and IT educators,10005,Durango,"Employee, firm 11-250",626,26
+Higher-education and IT educators,10005,Durango,"Employee, firm 251+",430,18
+Higher-education and IT educators,10005,Durango,Government employee,1264,45
+Higher-education and IT educators,10005,Durango,Other or unknown,19,1
+Higher-education and IT educators,14039,Guadalajara,"Employee, firm 11-250",5004,34
+Higher-education and IT educators,14039,Guadalajara,"Employee, firm 251+",3123,20
+Higher-education and IT educators,14039,Guadalajara,Government employee,1012,10
+Higher-education and IT educators,14039,Guadalajara,Other or unknown,208,3
+Higher-education and IT educators,26030,Hermosillo,"Employee, firm 11-250",156,5
+Higher-education and IT educators,26030,Hermosillo,"Employee, firm 251+",1028,28
+Higher-education and IT educators,26030,Hermosillo,Government employee,1086,28
+Higher-education and IT educators,26030,Hermosillo,Other or unknown,350,10
+Higher-education and IT educators,03003,La Paz,"Employee, firm 11-250",189,14
+Higher-education and IT educators,03003,La Paz,"Employee, firm 251+",179,14
+Higher-education and IT educators,03003,La Paz,Government employee,390,28
+Higher-education and IT educators,03003,La Paz,Other or unknown,29,2
+Higher-education and IT educators,11020,León,"Employee, firm 11-250",556,10
+Higher-education and IT educators,11020,León,"Employee, firm 251+",222,5
+Higher-education and IT educators,11020,León,Government employee,797,13
+Higher-education and IT educators,11020,León,Other or unknown,235,6
+Higher-education and IT educators,02002,Mexicali,"Employee, firm 11-250",490,13
+Higher-education and IT educators,02002,Mexicali,"Employee, firm 251+",428,11
+Higher-education and IT educators,02002,Mexicali,Government employee,222,5
+Higher-education and IT educators,02002,Mexicali,Other or unknown,82,3
+Higher-education and IT educators,19039,Monterrey,"Employee, firm 11-250",2583,22
+Higher-education and IT educators,19039,Monterrey,"Employee, firm 251+",2751,19
+Higher-education and IT educators,19039,Monterrey,"Employee, firm up to 10",390,3
+Higher-education and IT educators,19039,Monterrey,Government employee,785,5
+Higher-education and IT educators,19039,Monterrey,Other or unknown,906,7
+Higher-education and IT educators,16053,Morelia,"Employee, firm 11-250",1171,31
+Higher-education and IT educators,16053,Morelia,"Employee, firm 251+",2657,71
+Higher-education and IT educators,16053,Morelia,Government employee,832,22
+Higher-education and IT educators,16053,Morelia,Other or unknown,7,1
+Higher-education and IT educators,31050,Mérida,"Employee, firm 11-250",1486,27
+Higher-education and IT educators,31050,Mérida,"Employee, firm 251+",596,11
+Higher-education and IT educators,31050,Mérida,Government employee,1346,30
+Higher-education and IT educators,31050,Mérida,Other or unknown,1014,17
+Higher-education and IT educators,20067,Oaxaca,"Employee, firm 11-250",489,18
+Higher-education and IT educators,20067,Oaxaca,"Employee, firm 251+",258,9
+Higher-education and IT educators,20067,Oaxaca,Government employee,722,25
+Higher-education and IT educators,20067,Oaxaca,Other or unknown,383,12
+Higher-education and IT educators,13048,Pachuca,"Employee, firm 11-250",1238,49
+Higher-education and IT educators,13048,Pachuca,"Employee, firm 251+",1174,52
+Higher-education and IT educators,13048,Pachuca,Government employee,845,36
+Higher-education and IT educators,13048,Pachuca,Other or unknown,327,14
+Higher-education and IT educators,21114,Puebla,"Employee, firm 11-250",3119,50
+Higher-education and IT educators,21114,Puebla,"Employee, firm 251+",3248,46
+Higher-education and IT educators,21114,Puebla,Government employee,2500,35
+Higher-education and IT educators,21114,Puebla,Other or unknown,213,3
+Higher-education and IT educators,22014,Querétaro,"Employee, firm 11-250",1816,37
+Higher-education and IT educators,22014,Querétaro,"Employee, firm 251+",2562,45
+Higher-education and IT educators,22014,Querétaro,Government employee,1246,27
+Higher-education and IT educators,22014,Querétaro,Other or unknown,473,11
+Higher-education and IT educators,22014,Querétaro,Self-employed or employer,24,1
+Higher-education and IT educators,28032,Reynosa,"Employee, firm 11-250",504,15
+Higher-education and IT educators,28032,Reynosa,Government employee,322,8
+Higher-education and IT educators,28032,Reynosa,Other or unknown,28,1
+Higher-education and IT educators,05030,Saltillo,"Employee, firm 11-250",1217,30
+Higher-education and IT educators,05030,Saltillo,"Employee, firm 251+",822,19
+Higher-education and IT educators,05030,Saltillo,Government employee,1002,24
+Higher-education and IT educators,05030,Saltillo,Other or unknown,45,1
+Higher-education and IT educators,24028,San Luis Potosí,"Employee, firm 11-250",567,14
+Higher-education and IT educators,24028,San Luis Potosí,"Employee, firm 251+",1514,30
+Higher-education and IT educators,24028,San Luis Potosí,Government employee,502,11
+Higher-education and IT educators,24028,San Luis Potosí,Other or unknown,858,14
+Higher-education and IT educators,28038,Tampico,"Employee, firm 11-250",451,14
+Higher-education and IT educators,28038,Tampico,"Employee, firm 251+",547,14
+Higher-education and IT educators,28038,Tampico,"Employee, firm up to 10",95,2
+Higher-education and IT educators,28038,Tampico,Government employee,598,12
+Higher-education and IT educators,28038,Tampico,Other or unknown,100,3
+Higher-education and IT educators,07089,Tapachula,"Employee, firm 11-250",288,22
+Higher-education and IT educators,07089,Tapachula,Government employee,289,22
+Higher-education and IT educators,07089,Tapachula,Other or unknown,218,14
+Higher-education and IT educators,18017,Tepic,"Employee, firm 11-250",274,16
+Higher-education and IT educators,18017,Tepic,"Employee, firm 251+",619,38
+Higher-education and IT educators,18017,Tepic,"Employee, firm up to 10",66,2
+Higher-education and IT educators,18017,Tepic,Government employee,846,49
+Higher-education and IT educators,18017,Tepic,Other or unknown,102,5
+Higher-education and IT educators,18017,Tepic,Self-employed or employer,7,1
+Higher-education and IT educators,02004,Tijuana,"Employee, firm 11-250",1493,20
+Higher-education and IT educators,02004,Tijuana,"Employee, firm 251+",75,1
+Higher-education and IT educators,02004,Tijuana,Government employee,628,11
+Higher-education and IT educators,02004,Tijuana,Other or unknown,305,6
+Higher-education and IT educators,29033,Tlaxcala,"Employee, firm 11-250",998,34
+Higher-education and IT educators,29033,Tlaxcala,"Employee, firm 251+",315,8
+Higher-education and IT educators,29033,Tlaxcala,Government employee,491,15
+Higher-education and IT educators,29033,Tlaxcala,Other or unknown,98,4
+Higher-education and IT educators,29033,Tlaxcala,Self-employed or employer,17,1
+Higher-education and IT educators,15106,Toluca,"Employee, firm 11-250",3889,56
+Higher-education and IT educators,15106,Toluca,"Employee, firm 251+",459,7
+Higher-education and IT educators,15106,Toluca,Government employee,728,13
+Higher-education and IT educators,15106,Toluca,Self-employed or employer,83,1
+Higher-education and IT educators,05035,Torreón,"Employee, firm 11-250",1414,40
+Higher-education and IT educators,05035,Torreón,"Employee, firm 251+",282,7
+Higher-education and IT educators,05035,Torreón,Government employee,1544,32
+Higher-education and IT educators,05035,Torreón,Other or unknown,112,5
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,"Employee, firm 11-250",1354,50
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,"Employee, firm 251+",594,19
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,"Employee, firm up to 10",30,1
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,Government employee,763,24
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,Other or unknown,50,2
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,Self-employed or employer,46,2
+Higher-education and IT educators,30193,Veracruz,"Employee, firm 11-250",630,15
+Higher-education and IT educators,30193,Veracruz,"Employee, firm 251+",126,2
+Higher-education and IT educators,30193,Veracruz,"Employee, firm up to 10",45,1
+Higher-education and IT educators,30193,Veracruz,Government employee,511,10
+Higher-education and IT educators,30193,Veracruz,Other or unknown,400,8
+Higher-education and IT educators,27004,Villahermosa,"Employee, firm 11-250",460,24
+Higher-education and IT educators,27004,Villahermosa,"Employee, firm 251+",783,41
+Higher-education and IT educators,27004,Villahermosa,Government employee,680,29
+Higher-education and IT educators,27004,Villahermosa,Other or unknown,83,4
+Higher-education and IT educators,32056,Zacatecas,"Employee, firm 11-250",868,63
+Higher-education and IT educators,32056,Zacatecas,"Employee, firm 251+",997,70
+Higher-education and IT educators,32056,Zacatecas,"Employee, firm up to 10",13,1
+Higher-education and IT educators,32056,Zacatecas,Government employee,648,41
+Higher-education and IT educators,32056,Zacatecas,Other or unknown,245,19
+Higher-education and IT educators,,Rest of the country,"Employee, firm 11-250",21128,175
+Higher-education and IT educators,,Rest of the country,"Employee, firm 251+",5520,52
+Higher-education and IT educators,,Rest of the country,"Employee, firm up to 10",508,4
+Higher-education and IT educators,,Rest of the country,Government employee,29964,266
+Higher-education and IT educators,,Rest of the country,Other or unknown,7544,55

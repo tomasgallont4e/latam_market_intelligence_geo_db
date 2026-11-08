@@ -1,0 +1,264 @@
+{
+  "country": "MX",
+  "layer": "K",
+  "source_id": "SEP_911_2024_2025",
+  "period": "school cycle 2024-2025",
+  "sources": [
+    {
+      "file": "educacion_basica_2024_2025.csv",
+      "sha256": "af8ce2c3a49eba24e74c20d9febbe7075dbe7f408f2b0a891099072cbf742c6f"
+    },
+    {
+      "file": "educacion_media_superior_2024_2025.csv",
+      "sha256": "5ce996750663d7ec8a11b983f6f14d0b02cfd1d9a9102f2da0031241bed810c6"
+    }
+  ],
+  "target_grades": "3º de secundaria + 1º, 2º and 3º de media superior",
+  "indicators": {
+    "K1_schools_cct": 58471,
+    "K1_by_level": {
+      "secundaria": 39632,
+      "media_superior": 18839
+    },
+    "K1_campuses": 57570,
+    "K2_students_by_grade": {
+      "sec3": 2002642,
+      "ms1": 2171705,
+      "ms2": 1687592,
+      "ms3": 1469632
+    },
+    "K2_students_target": 7331571,
+    "K3_public_schools": 47015,
+    "K3_public_students_pct": 86.1,
+    "K4_women_pct": 51.6,
+    "K4_rural_pct": 13.1,
+    "K4_technical_track_students": 1908282,
+    "K4_technical_track_note": "Media superior grades 1-3 in Bachillerato Tecnológico, Profesional Técnico Bachiller and Profesional Técnico (incl. CONALEP).",
+    "K4_under_18_pct": null,
+    "K5_schools_by_size": {
+      "1-49": 34617,
+      "50-99": 9303,
+      "100-199": 6515,
+      "200-499": 5316,
+      "500+": 2720
+    },
+    "K5_median_students_per_school": 35,
+    "K6_reach_cap100": 2742061,
+    "K6_reach_cap100_media_superior_only": 1351032,
+    "K7_by_state": {
+      "01": {
+        "students": 81374,
+        "schools": 583
+      },
+      "02": {
+        "students": 214686,
+        "schools": 908
+      },
+      "03": {
+        "students": 50622,
+        "schools": 327
+      },
+      "04": {
+        "students": 50997,
+        "schools": 476
+      },
+      "05": {
+        "students": 170253,
+        "schools": 1183
+      },
+      "06": {
+        "students": 41223,
+        "schools": 365
+      },
+      "07": {
+        "students": 300010,
+        "schools": 3754
+      },
+      "08": {
+        "students": 205287,
+        "schools": 1507
+      },
+      "09": {
+        "students": 721361,
+        "schools": 1698
+      },
+      "10": {
+        "students": 110260,
+        "schools": 1383
+      },
+      "11": {
+        "students": 339615,
+        "schools": 2878
+      },
+      "12": {
+        "students": 197162,
+        "schools": 2764
+      },
+      "13": {
+        "students": 198550,
+        "schools": 1795
+      },
+      "14": {
+        "students": 468020,
+        "schools": 2783
+      },
+      "15": {
+        "students": 951790,
+        "schools": 5845
+      },
+      "16": {
+        "students": 243384,
+        "schools": 2561
+      },
+      "17": {
+        "students": 111743,
+        "schools": 815
+      },
+      "18": {
+        "students": 74972,
+        "schools": 887
+      },
+      "19": {
+        "students": 354656,
+        "schools": 1574
+      },
+      "20": {
+        "students": 217624,
+        "schools": 3404
+      },
+      "21": {
+        "students": 392009,
+        "schools": 4184
+      },
+      "22": {
+        "students": 137291,
+        "schools": 854
+      },
+      "23": {
+        "students": 104040,
+        "schools": 692
+      },
+      "24": {
+        "students": 145974,
+        "schools": 2100
+      },
+      "25": {
+        "students": 195094,
+        "schools": 1498
+      },
+      "26": {
+        "students": 166836,
+        "schools": 989
+      },
+      "27": {
+        "students": 158708,
+        "schools": 1108
+      },
+      "28": {
+        "students": 196196,
+        "schools": 1163
+      },
+      "29": {
+        "students": 84393,
+        "schools": 553
+      },
+      "30": {
+        "students": 425426,
+        "schools": 5311
+      },
+      "31": {
+        "students": 130006,
+        "schools": 1105
+      },
+      "32": {
+        "students": 92009,
+        "schools": 1424
+      }
+    },
+    "K7_top_municipalities": [
+      {
+        "municipality_code": "09010",
+        "students": 196388,
+        "schools": 136
+      },
+      {
+        "municipality_code": "19039",
+        "students": 152413,
+        "schools": 352
+      },
+      {
+        "municipality_code": "02004",
+        "students": 106555,
+        "schools": 396
+      },
+      {
+        "municipality_code": "21114",
+        "students": 103596,
+        "schools": 620
+      },
+      {
+        "municipality_code": "09005",
+        "students": 97953,
+        "schools": 238
+      },
+      {
+        "municipality_code": "11020",
+        "students": 91272,
+        "schools": 486
+      },
+      {
+        "municipality_code": "14039",
+        "students": 91042,
+        "schools": 298
+      },
+      {
+        "municipality_code": "09007",
+        "students": 89913,
+        "schools": 236
+      },
+      {
+        "municipality_code": "08037",
+        "students": 83640,
+        "schools": 261
+      },
+      {
+        "municipality_code": "14120",
+        "students": 78065,
+        "schools": 291
+      }
+    ]
+  },
+  "checks": {
+    "enrolment_vs_principales_cifras": {
+      "secundaria": {
+        "file_total": 6293530,
+        "published": 6293530,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "media_superior": {
+        "file_total": 5492491,
+        "published": 5492491,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "students_with_locality_not_in_catalogue": 19460,
+    "subnivel_target_students": {
+      "Telesecundaria (secundaria 3º)": 423381,
+      "Secundaria Conafe (secundaria 3º)": 17608,
+      "Secundaria Tecnica (secundaria 3º)": 526789,
+      "Secundaria General (secundaria 3º)": 1034864,
+      "Bachillerato General (media superior 1-3)": 3420647,
+      "Bachillerato Tecnológico (media superior 1-3)": 1541506,
+      "Profesional Técnico Bachiller (media superior 1-3)": 324374,
+      "Profesional Técnico (media superior 1-3)": 42402
+    }
+  },
+  "notes": {
+    "K4_under_18_pct": "Not available: the 911 school files give enrolment by grade and sex, not by age.",
+    "K6": "Sum over CCT of min(target-grade students, 100); the second figure starts at the first grade of media superior.",
+    "school_unit": "School = CCT code (D-MX-12). A site offering secundaria and media superior has two CCTs; campuses (planteles) are given in K1_campuses.",
+    "rural": "Locality AMBITO = R in the INEGI Catálogo Único (2026-10); students whose locality is not found are counted as not rural."
+  }
+}

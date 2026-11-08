@@ -1,0 +1,15 @@
+sinco2019_code,persona_id,action,status,decision_id,note
+2321,P13,include,approved,D-MX-08,Profesores universitarios y de enseñanza superior; without it P13 has no code
+1329,P04,include,approved,D-MX-08,New SINCO 2019 group: otros directores y gerentes en informática y telecomunicaciones
+1319,P12,include,approved,D-MX-08,New SINCO 2019 group: otros directores y gerentes de área en producción
+1711,P12,include,approved,D-MX-08,Coordinadores y jefes de área de ventas y comercialización (CIUO 1221-1222)
+2111,P06,include,approved,D-MX-08,Administradores y profesionistas en recursos humanos (CIUO 2421-2424)
+2131,P08,exclude,approved,D-MX-09,Anthropologists and historians
+2132,P08,exclude,approved,D-MX-09,Sociology researchers
+2611,P08,exclude,approved,D-MX-09,"Physics, astronomy and mathematics technicians"
+2262,P11,exclude,approved,D-MX-09,"Topography, hydrology and geology engineers"
+1224,P12,exclude,approved,D-MX-09,Judges and legal-services directors
+1524,P12,exclude,approved,D-MX-09,Legal-services area heads
+1422,P12,exclude,approved,D-MX-09,Museum and cinema managers
+1423,P12,exclude,approved,D-MX-09,Funeral-services managers
+2713,P13,exclude,approved,D-MX-09,Commercial training instructors

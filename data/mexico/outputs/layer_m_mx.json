@@ -1,0 +1,161 @@
+{
+  "country": "MX",
+  "source_id": "INEGI_ENOE_2025",
+  "period": "2025 (Q1-Q4 average)",
+  "sources": [
+    {
+      "zip": "enoe_2025_trim1_csv.zip",
+      "sha256": "dddbb698e7f18f63bc256ece61ac0038a5ad062d42aca13390d88828fb27796e"
+    },
+    {
+      "zip": "enoe_2025_trim2_csv.zip",
+      "sha256": "291db61afcc472a0933d2bebf46720cfd024df8912dc899d541d8109bd406722"
+    },
+    {
+      "zip": "enoe_2025_trim3_csv.zip",
+      "sha256": "d2817a14201694e119a3fd6fcb8b8ed7619ea7e26cf8b353761a1ac1f23d6022"
+    },
+    {
+      "zip": "enoe_2025_trim4_csv.zip",
+      "sha256": "e675b41bde4fb3c183a0abd067738109c6aaf30ed314bc9fc548669fb8a1565d"
+    }
+  ],
+  "universe": "r_def = 00, c_res 1 or 3, age 15-98, employed (clase2 = 1); annual = sum of fac_tri over 4 quarters / 4",
+  "layer": "M",
+  "M1_micro_businesses": 15752397,
+  "definition": "Own-account workers and employers (pos_ocu 2-3) whose workplace has up to 10 people (p3q 01-03), the template fallback; ENAMIN was discontinued after 2012.",
+  "M1_by_position": {
+    "own_account": 12869904,
+    "employers": 2882493
+  },
+  "check_position_totals_vs_bulletins": {
+    "Q1": {
+      "employers_vs_bulletin": {
+        "microdata": 3043023,
+        "published": 3043023,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 13023470,
+        "published": 13023470,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "Q2": {
+      "employers_vs_bulletin": {
+        "microdata": 3541449,
+        "published": 3541449,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 12860970,
+        "published": 12860970,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "Q3": {
+      "employers_vs_bulletin": {
+        "microdata": 3675572,
+        "published": 3675572,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 12950556,
+        "published": 12950556,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    },
+    "Q4": {
+      "employers_vs_bulletin": {
+        "microdata": 3572775,
+        "published": 3572775,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      },
+      "own_account_vs_bulletin": {
+        "microdata": 12980516,
+        "published": 12980516,
+        "difference_pct": 0.0,
+        "within_1pct": true
+      }
+    }
+  },
+  "check_note": "No micro-business total is published. All-size employers and own-account workers in the microdata are checked against the quarterly bulletins (within 1%); M1 is the subset in units of up to 10 people.",
+  "M4_digital": {
+    "micro_units_total": 5214497,
+    "indicators": {
+      "computer_or_tablet": {
+        "units": 1167527,
+        "pct": 22.4
+      },
+      "internet": {
+        "units": 1230187,
+        "pct": 23.6
+      },
+      "mobile_phone": {
+        "units": 1796177,
+        "pct": 34.4
+      },
+      "email": {
+        "units": 622361,
+        "pct": 11.9
+      },
+      "social_media_promotion": {
+        "units": 638820,
+        "pct": 12.3
+      },
+      "website": {
+        "units": 204579,
+        "pct": 3.9
+      },
+      "any_digital_technology": {
+        "units": 1063805,
+        "pct": 20.4
+      },
+      "internet_banking": {
+        "units": 743372,
+        "pct": 14.3
+      },
+      "cloud_services": {
+        "units": 250450,
+        "pct": 4.8
+      },
+      "artificial_intelligence": {
+        "units": 6749,
+        "pct": 0.1
+      },
+      "online_sales": {
+        "units": 231418,
+        "pct": 4.4
+      },
+      "online_sales_social_media": {
+        "units": 60187,
+        "pct": 1.2
+      },
+      "online_purchases": {
+        "units": 264292,
+        "pct": 5.1
+      }
+    },
+    "period": "2023",
+    "universe": "fixed economic units with 0 to 10 people (census)",
+    "source_id": "INEGI_CE_2024",
+    "edition": "Censos Económicos 2024 (reference year 2023), open data 2025-09-25 and tabulation CE_TEMACE_1",
+    "sha256": {
+      "conjunto_de_datos_ce_nac_2024_csv.zip": "f38b2b476b6157c8c53991e04684be870d0ac8d50c2d34d61e43cb663f892aae",
+      "CE_TEMACE_1_tema_entidad_estrato_2023.xlsx": "471c3bd14b9aa16cad0148acfa5fc2b469b916c952547d7870aa95c178fc559d"
+    }
+  },
+  "M6_median_monthly_owner_income_mxn": 6450.0,
+  "notes": {
+    "M4_digital": "Censos Económicos 2024, reference year 2023 (D-MX-15). Universe: fixed economic units with 0-10 people (5.2 million); M1 (ENOE 2025, 15.8 million) also counts street and home-based businesses, so these shares are not applied to M1.",
+    "M6": "Not sales: ENOE has no business sales question; this is the owner's labour income, labelled as such.",
+    "size_limit": "Up to 10 people: ENOE p3q bands give 1, 2-5, 6-10, so the template limit of 9 cannot be applied."
+  }
+}

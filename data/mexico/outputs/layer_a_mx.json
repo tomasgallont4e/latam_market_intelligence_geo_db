@@ -1,0 +1,181 @@
+{
+  "country": "MX",
+  "layer": "A",
+  "source_id": "SRC_GH_IG",
+  "period": "2026Q1",
+  "comparison_period": "2025Q1",
+  "source": {
+    "repository": "https://github.com/github/innovationgraph",
+    "commit": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+    "release": "1.0.10",
+    "file_sha256": {
+      "developers.csv": "4d66d50024066cbb85fec990f75bdb9a736e89dc998af8fbca6e946c14e56fd1",
+      "economy_collaborators.csv": "50444902242f1a0e23a188942746707f3c749eee4308c4a8da37d485b1579e12",
+      "git_pushes.csv": "8d8525632080b21e1b39cfd2fbd0abdb898461ec9ee7e59da61977749a296d3a",
+      "languages.csv": "795f7b9da010161544ed50359e2bce9a9c8757831c25f4cb939dbf0569215dc2",
+      "licenses.csv": "280750b798750c398869c7d68da1fa5ca5058cc2f5c605b4cc2a9501f75414f0",
+      "organizations.csv": "756ca03e5b6edcc81eafffa66f6d3a95f95d80e1fdad89f2f3ae8e7e5e8a88d6",
+      "repositories.csv": "ccff96ee8774b9a3369ab552cb2b568b135b8bd5b818e2678071731ec34b8613",
+      "topics.csv": "cb9602d0a63a1fa9bc0b54cf6b605fbf670dd181eee4e0b3480f7bae6552e3cd"
+    }
+  },
+  "engine": {
+    "script": "data/peru/think4ever_peru_day1_FINAL/layerA/think4ever_peru_day1_layerA_FINAL/scripts/layer_a_country.py",
+    "sha256": "16082616257e8135737289e6b5978173da6683a1f9a13b84bc8e12f5d3d1611a"
+  },
+  "indicators": {
+    "A1_developer_accounts": 2865151.0,
+    "A1_developer_accounts_prev_year": 2121070.0,
+    "A1_developer_accounts_2024q1": 1785060.0,
+    "A1_developer_accounts_yoy": 0.35080454676177597,
+    "A2_organizations": 92440.0,
+    "A2_organizations_yoy": 0.17082314794877962,
+    "A2_developers_per_organization": 30.99471008221549,
+    "A3_git_pushes": 3192114.0,
+    "A3_git_pushes_yoy": 1.0037411876513187,
+    "A3_pushes_per_developer_account": 1.1141171966154664,
+    "A4_growth_threshold": 5544.436444108159,
+    "A4_fastest_growing_01": 1.0819272917029048,
+    "A4_fastest_growing_02": 0.9147297117811131,
+    "A4_fastest_growing_03": 0.9065447685386736,
+    "A4_fastest_growing_04": 0.6620738207784371,
+    "A4_fastest_growing_05": 0.470167707185702,
+    "A4_fastest_growing_06": 0.27813927730859755,
+    "A4_alt1000_fastest_growing_01": 1.4214723926380368,
+    "A4_alt1000_fastest_growing_02": 1.0819272917029048,
+    "A4_alt1000_fastest_growing_03": 0.9147297117811131,
+    "A4_alt1000_fastest_growing_04": 0.9065447685386736,
+    "A4_alt1000_fastest_growing_05": 0.7844905320108206,
+    "A4_alt1000_fastest_growing_06": 0.6620738207784371,
+    "A5_enterprise_share_template_basket": 0.05820367351054124,
+    "A5_enterprise_share_earlier_method": 0.05820367351054124
+  },
+  "top_languages_2026Q1": [
+    {
+      "rank": 1,
+      "language": "HTML",
+      "pushers": 75017
+    },
+    {
+      "rank": 2,
+      "language": "JavaScript",
+      "pushers": 60049
+    },
+    {
+      "rank": 3,
+      "language": "CSS",
+      "pushers": 58863
+    },
+    {
+      "rank": 4,
+      "language": "Python",
+      "pushers": 33052
+    },
+    {
+      "rank": 5,
+      "language": "TypeScript",
+      "pushers": 26276
+    },
+    {
+      "rank": 6,
+      "language": "Shell",
+      "pushers": 14416
+    },
+    {
+      "rank": 7,
+      "language": "Dockerfile",
+      "pushers": 11969
+    },
+    {
+      "rank": 8,
+      "language": "Java",
+      "pushers": 10456
+    },
+    {
+      "rank": 9,
+      "language": "PHP",
+      "pushers": 9232
+    },
+    {
+      "rank": 10,
+      "language": "Jupyter Notebook",
+      "pushers": 7523
+    }
+  ],
+  "engine_meta": {
+    "basket_present": [
+      "Java",
+      "C#",
+      "Visual Basic .NET",
+      "TSQL",
+      "Groovy",
+      "Scala",
+      "Kotlin"
+    ],
+    "basket_absent": [
+      "COBOL",
+      "PLSQL",
+      "ABAP",
+      "Apex"
+    ],
+    "total_memberships_latest": 406641,
+    "total_memberships_prev": 272590,
+    "co_total_memberships_prev": 245823,
+    "latest_quarter_available": "2026Q1"
+  },
+  "checks": {
+    "peru_reproduction": {
+      "rows": 25,
+      "all_equal": true
+    },
+    "benchmark_fact_developers_country": [
+      {
+        "field": "developers",
+        "fact_developers_country": 2865151.0,
+        "engine": 2865151.0,
+        "ok": true
+      },
+      {
+        "field": "developers_yoy_pct",
+        "fact_developers_country": 35.1,
+        "engine": 35.1,
+        "ok": true
+      },
+      {
+        "field": "organizations",
+        "fact_developers_country": 92440.0,
+        "engine": 92440.0,
+        "ok": true
+      },
+      {
+        "field": "organizations_yoy_pct",
+        "fact_developers_country": 17.1,
+        "engine": 17.1,
+        "ok": true
+      },
+      {
+        "field": "pushes_per_dev",
+        "fact_developers_country": 1.11,
+        "engine": 1.11,
+        "ok": true
+      },
+      {
+        "field": "enterprise_lang_share_pct",
+        "fact_developers_country": 5.82,
+        "engine": 5.82,
+        "ok": true
+      }
+    ],
+    "benchmark_18_countries": {
+      "countries": 18,
+      "fields_matching": 108,
+      "fields": 108,
+      "differences": []
+    }
+  },
+  "notes": {
+    "period": "Q1 2026 vs Q1 2025, the same quarters and Innovation Graph release as Colombia and Peru. Q2 2026 was published upstream on 2026-10-27 and is not used, to keep the three countries comparable.",
+    "A4_A5": "Fastest-growing threshold and enterprise basket inherit the Chile/Peru precedents, still pending methodological validation (decisions D-03, D-04 of the Day 1 packages)."
+  },
+  "limitations": "Developer accounts are located by the most frequent daily IP and include inactive accounts; organisations are GitHub workspaces, not legal companies."
+}

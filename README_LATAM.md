@@ -1,4 +1,4 @@
-# LATAM Market Intelligence — Colombia y Perú
+# LATAM Market Intelligence — Colombia, Perú y México
 
 ## Uso
 
@@ -7,6 +7,15 @@ Ejecute `npm install` y defina las mismas variables de base de datos requeridas 
 ## Colombia: capas nacionales de ecosistema
 
 Los tres indicadores nacionales se organizan dentro del selector de indicadores de **Departamentos**, bajo el grupo “Ecosistema nacional (sin geolocalización)”: **GitHub organizaciones** (68.919, Q1 2026, cuentas organizacionales del ecosistema), **RUES empresas software/TI** (50.566, 2026-09, registro mercantil) y **Fedesoft empresas activas** (~7.200, 2026, protocolo propio de ventas, huella digital y crecimiento). La ficha conserva fuente, periodo, alcance nacional y la condición aproximada de Fedesoft. La oscuridad de cada capa expresa únicamente su intensidad relativa frente a esos tres totales nacionales: no representa concentración departamental ni permite comparar sus universos como si fueran equivalentes.
+
+## México en el mapa
+
+México se carga desde archivos, como Perú (`lib/mexicoData.js`, rutas `/api/mexico/*`), a partir de las tablas con forma de Colombia en `data/mexico/geodb/csv/`. Los datos, scripts, decisiones (`data/mexico/decisions_log.csv`) y fuentes (`data/mexico/sources_register.csv`) están en `data/mexico/`; `node scripts/check-mexico.js` ejecuta las comprobaciones.
+
+- **Estados de México**: 32 polígonos INEGI con personas de la ENOE 2025 (estimación observada por estado, con número de entrevistas), establecimientos DENUE 05/2026, escuelas y alumnos en grados objetivo (SEP 911 2024-2025), educación superior y estudiantes TIC (911 y ANUIES 2024-2025), población CONAPO 2024 y micronegocios. El filtro por persona funciona solo en esta capa.
+- **Municipios de México**: 2.478 polígonos INEGI con DENUE, escuelas, educación superior y población. Se cargan por área visible (hasta 600) y la capa abre centrada en Ciudad de México; con más municipios en pantalla se muestra una muestra y se pide acercar. Las personas de la ENOE nunca se reparten por municipio.
+- **Ciudad de México, Estado de México, Monterrey y Guadalajara** (capa J): empresas privadas por alcaldía de Ciudad de México y por municipio metropolitano según *Metrópolis de México 2020*: los 45 municipios del Estado de México en la Zona Metropolitana de la Ciudad de México, y las zonas metropolitanas de Monterrey (16) y Guadalajara (7). Cada ciudad es un botón propio con su escala de color.
+- **Indicadores nacionales** (A, B, I, O, P): se dibujan sobre el contorno del país y nunca se reparten por territorio. Los datos sin fuente entregada quedan vacíos, no en cero.
 
 ## Perú en el mapa
 
@@ -39,7 +48,7 @@ Los tres indicadores nacionales se organizan dentro del selector de indicadores 
 | 4 | `data/peru/day4_dj_ruc/` | RUC TIC SUNAT por departamento y distrito fiscal. |
 | 5 | `data/peru/day5_oq/` | Contexto ERESTEL/OSIPTEL y auditoría de llaves IGN. |
 
-`scripts/audit-peru-template.js` verifica la presencia de los paquetes y deja el resultado en `thinkdocuments/peru_template_audit_2026-10-14.json`.
+`scripts/audit-peru-template.js` verifica la presencia de los paquetes y deja el resultado en `thinkdocuments/peru/peru_template_audit_2026-10-14.json`.
 
 ## Datos que aún faltan en Perú
 

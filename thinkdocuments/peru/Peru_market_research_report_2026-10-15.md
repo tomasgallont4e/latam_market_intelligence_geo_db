@@ -73,7 +73,7 @@ incompatibles requiere una matriz aprobada por negocio.
 
 | Entregable de plantilla | Estado |
 |---|---|
-| Workbook Indicators y Sources register | Publicado en `thinkdocuments/think4ever-peru-country-template.xlsx` |
+| Workbook Indicators y Sources register | Publicado en `thinkdocuments/peru/think4ever-peru-country-template.xlsx` |
 | JSON agregados y scripts reproducibles | Publicados en `data/peru/`, `data/peru-map/` y `scripts/` |
 | Auditoría técnica | 19 checks aprobados; pendientes explícitos en `peru_template_audit_2026-10-14.json` |
 | Mapa interactivo | Departamentos, distritos, puntos escolares y métricas nacionales |

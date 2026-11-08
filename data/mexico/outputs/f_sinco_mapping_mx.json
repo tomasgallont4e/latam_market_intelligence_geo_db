@@ -1,0 +1,379 @@
+{
+  "country": "MX",
+  "layer": "F",
+  "purpose": "Occupation mapping for ENOE 2025 (SINCO 2019) to the 13 template personas (CIUO-08). Pending approval.",
+  "sources": {
+    "sinco2011_ciuo08": {
+      "file": "sinco_tablas_comparativas.xlsx",
+      "sheet": "SINCO-CIUO",
+      "sha256": "fe4efbd605269ca1f746172f7924c28ba0318293f1871a30ee06dbc89d0b5cab",
+      "pairs": 592
+    },
+    "sinco2019_2011": {
+      "file": "sinco_2019_702825198411.pdf",
+      "pdf_pages": "357-392",
+      "sha256": "6a8a80d6e193ecb466d2b3d85478b62c310476dc84d6b6a15b1af2530176f5f6",
+      "paired_2019_codes": 472
+    }
+  },
+  "rule": "exact_within_persona: every linked CIUO-08 code belongs to the persona (Peru Day 1 FINAL rule); excluded_ambiguous otherwise.",
+  "counts_by_status": {
+    "outside_personas": 341,
+    "no_ciuo_link": 74,
+    "exact_within_persona": 45,
+    "excluded_ambiguous": 12,
+    "new_in_2019_review": 18
+  },
+  "overrides_applied": [
+    {
+      "sinco2019_code": "2321",
+      "persona_id": "P13",
+      "action": "include",
+      "status": "approved",
+      "decision_id": "D-MX-08",
+      "note": "Profesores universitarios y de enseñanza superior; without it P13 has no code"
+    },
+    {
+      "sinco2019_code": "1329",
+      "persona_id": "P04",
+      "action": "include",
+      "status": "approved",
+      "decision_id": "D-MX-08",
+      "note": "New SINCO 2019 group: otros directores y gerentes en informática y telecomunicaciones"
+    },
+    {
+      "sinco2019_code": "1319",
+      "persona_id": "P12",
+      "action": "include",
+      "status": "approved",
+      "decision_id": "D-MX-08",
+      "note": "New SINCO 2019 group: otros directores y gerentes de área en producción"
+    },
+    {
+      "sinco2019_code": "1711",
+      "persona_id": "P12",
+      "action": "include",
+      "status": "approved",
+      "decision_id": "D-MX-08",
+      "note": "Coordinadores y jefes de área de ventas y comercialización (CIUO 1221-1222)"
+    },
+    {
+      "sinco2019_code": "2111",
+      "persona_id": "P06",
+      "action": "include",
+      "status": "approved",
+      "decision_id": "D-MX-08",
+      "note": "Administradores y profesionistas en recursos humanos (CIUO 2421-2424)"
+    },
+    {
+      "sinco2019_code": "2131",
+      "persona_id": "P08",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Anthropologists and historians"
+    },
+    {
+      "sinco2019_code": "2132",
+      "persona_id": "P08",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Sociology researchers"
+    },
+    {
+      "sinco2019_code": "2611",
+      "persona_id": "P08",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Physics, astronomy and mathematics technicians"
+    },
+    {
+      "sinco2019_code": "2262",
+      "persona_id": "P11",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Topography, hydrology and geology engineers"
+    },
+    {
+      "sinco2019_code": "1224",
+      "persona_id": "P12",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Judges and legal-services directors"
+    },
+    {
+      "sinco2019_code": "1524",
+      "persona_id": "P12",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Legal-services area heads"
+    },
+    {
+      "sinco2019_code": "1422",
+      "persona_id": "P12",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Museum and cinema managers"
+    },
+    {
+      "sinco2019_code": "1423",
+      "persona_id": "P12",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Funeral-services managers"
+    },
+    {
+      "sinco2019_code": "2713",
+      "persona_id": "P13",
+      "action": "exclude",
+      "status": "approved",
+      "decision_id": "D-MX-09",
+      "note": "Commercial training instructors"
+    }
+  ],
+  "review_pending": 0,
+  "new_2019_groups_without_2011_equivalent": [
+    {
+      "sinco2019": "1319",
+      "title": "Otros directores y gerentes de área en produc-",
+      "page": 358
+    },
+    {
+      "sinco2019": "1329",
+      "title": "Otros directores y gerentes en informática, teleco-",
+      "page": 359
+    },
+    {
+      "sinco2019": "2422",
+      "title": "Cirujanos",
+      "page": 364
+    },
+    {
+      "sinco2019": "2423",
+      "title": "Ginecólogos y obstetras",
+      "page": 364
+    },
+    {
+      "sinco2019": "2424",
+      "title": "Médicos internos",
+      "page": 364
+    },
+    {
+      "sinco2019": "2425",
+      "title": "Patólogos",
+      "page": 364
+    },
+    {
+      "sinco2019": "2426",
+      "title": "Pediatras",
+      "page": 364
+    },
+    {
+      "sinco2019": "2428",
+      "title": "Radiólogos",
+      "page": 364
+    },
+    {
+      "sinco2019": "5119",
+      "title": "Otros trabajadores en la preparación y servicio de",
+      "page": 374
+    },
+    {
+      "sinco2019": "5299",
+      "title": "Otros  trabajadores  en  servicios  personales  no",
+      "page": 375
+    },
+    {
+      "sinco2019": "5319",
+      "title": "Otros  trabajadores  en  servicios  de  protección",
+      "page": 375
+    },
+    {
+      "sinco2019": "5419",
+      "title": "Otros trabajadores de la Armada, Ejército y Fuer-",
+      "page": 376
+    },
+    {
+      "sinco2019": "7199",
+      "title": "Otros trabajadores relacionados con la extracción",
+      "page": 379
+    },
+    {
+      "sinco2019": "7299",
+      "title": "Otros trabajadores relacionados con el tratamien-",
+      "page": 380
+    },
+    {
+      "sinco2019": "7399",
+      "title": "Otros trabajadores relacionados con la elabora-",
+      "page": 382
+    },
+    {
+      "sinco2019": "7599",
+      "title": "Otros trabajadores relacionados con la elaboración",
+      "page": 383
+    },
+    {
+      "sinco2019": "9213",
+      "title": "Ayudantes de dinamiteros y de buzos en perfora-",
+      "page": 389
+    },
+    {
+      "sinco2019": "9599",
+      "title": "Otros vendedores ambulantes no clasificados an-",
+      "page": 390
+    }
+  ],
+  "persona_summary": [
+    {
+      "persona_id": "P01",
+      "persona": "Software developers and analysts",
+      "ring": "core",
+      "isco08_template_codes": "2511;2512;2513;2514;2519",
+      "sinco2019_codes_primary": "2271",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2511;2512;2513;2514;2519",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P02",
+      "persona": "Database, systems and network professionals",
+      "ring": "core",
+      "isco08_template_codes": "2521;2522;2523;2529",
+      "sinco2019_codes_primary": "2272",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2521;2522;2523;2529",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P03",
+      "persona": "ICT technicians and user support",
+      "ring": "core",
+      "isco08_template_codes": "3511;3512;3513;3514;3521;3522",
+      "sinco2019_codes_primary": "2651;2652;2653",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "3511;3512;3513;3514;3521;3522",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P04",
+      "persona": "ICT managers",
+      "ring": "core",
+      "isco08_template_codes": "1330",
+      "sinco2019_codes_primary": "1321;1621;1622;1329",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "1330",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P05",
+      "persona": "Designers (graphic, multimedia, product)",
+      "ring": "adjacent",
+      "isco08_template_codes": "2163;2166",
+      "sinco2019_codes_primary": "2541;2543",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2163;2166",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P06",
+      "persona": "Business and management analysts",
+      "ring": "adjacent",
+      "isco08_template_codes": "2421;2422",
+      "sinco2019_codes_primary": "2111;2113",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2421;2422",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P10",
+      "persona": "Accountants and auditors",
+      "ring": "extended",
+      "isco08_template_codes": "2411",
+      "sinco2019_codes_primary": "2121",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2411",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P07",
+      "persona": "Finance and investment analysts",
+      "ring": "adjacent",
+      "isco08_template_codes": "2412;2413",
+      "sinco2019_codes_primary": "2122",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2412;2413",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P08",
+      "persona": "Data, statistics and research specialists",
+      "ring": "adjacent",
+      "isco08_template_codes": "2120;2631;2632;3314",
+      "sinco2019_codes_primary": "2134;2136;2212",
+      "sinco2019_codes_excluded": "2131;2132;2611",
+      "isco08_codes_reached": "2120;2631;2632",
+      "isco08_codes_not_reached": "3314",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P09",
+      "persona": "Marketing and advertising professionals",
+      "ring": "adjacent",
+      "isco08_template_codes": "2431;2432",
+      "sinco2019_codes_primary": "2112",
+      "sinco2019_codes_excluded": "",
+      "isco08_codes_reached": "2431;2432",
+      "isco08_codes_not_reached": "",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P11",
+      "persona": "Engineers (non-ICT)",
+      "ring": "extended",
+      "isco08_template_codes": "2141;2142;2143;2144;2145;2146;2149;2151;2152;2153",
+      "sinco2019_codes_primary": "2241;2242;2251;2252;2253;2254;2261;2281",
+      "sinco2019_codes_excluded": "2262",
+      "isco08_codes_reached": "2141;2142;2144;2145;2146;2151;2152;2153",
+      "isco08_codes_not_reached": "2143;2149",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P12",
+      "persona": "Business and operations managers",
+      "ring": "extended",
+      "isco08_template_codes": "1211;1212;1213;1219;1221;1222;1223;1321;1322;1323;1324;1341;1342;1343;1344;1345;1346;1349",
+      "sinco2019_codes_primary": "1211;1212;1221;1222;1223;1312;1314;1315;1323;1324;1511;1512;1521;1522;1523;1612;1614;1615;1623;1624;1711;1319",
+      "sinco2019_codes_excluded": "1224;1422;1423;1524",
+      "isco08_codes_reached": "1211;1212;1213;1219;1221;1222;1223;1321;1322;1323;1324;1342;1343;1344;1345;1346;1349",
+      "isco08_codes_not_reached": "1341",
+      "review_status": "pending_approval"
+    },
+    {
+      "persona_id": "P13",
+      "persona": "Higher-education and IT educators",
+      "ring": "extended",
+      "isco08_template_codes": "2310;2356",
+      "sinco2019_codes_primary": "2321",
+      "sinco2019_codes_excluded": "2713",
+      "isco08_codes_reached": "2310",
+      "isco08_codes_not_reached": "2356",
+      "review_status": "pending_approval"
+    }
+  ]
+}

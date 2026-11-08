@@ -1,0 +1,173 @@
+{
+  "country": "MX",
+  "source_id": "SEP_911_2024_2025",
+  "period": "school cycle 2024-2025 (start of cycle)",
+  "sources": [
+    {
+      "file": "educacion_superior_escolarizada_2024_2025.csv",
+      "sha256": "04846f3111148dfa48e4276361952205f84b9085c395952e8b9f90c912069005"
+    },
+    {
+      "file": "educacion_superior_no_escolarizada_2024_2025.csv",
+      "sha256": "c4bb87331801f648101145d2f22edf5c09543eec2f0d7c068cf6dfbef2973a98"
+    },
+    {
+      "file": "base_anuario_2024-2025_2026-11-07.xlsx",
+      "sha256": "969d463ca74842c8b891473ef4c346710d701a49268cda4a3d14f1df6a455fdf"
+    }
+  ],
+  "check_total_vs_principales_cifras": {
+    "file_total": 5519791,
+    "published": 5519791,
+    "difference_pct": 0.0
+  },
+  "layer": "C",
+  "indicators": {
+    "C1_ict_students": 330358,
+    "C1_ict_students_on_campus": 245244,
+    "C1_ict_by_detailed_field": {
+      "DESARROLLO DE SOFTWARE": 195744,
+      "INFORMÁTICA": 59595,
+      "PLANES MULTIDISCIPLINARIOS O GENERALES DEL CAMPO DE INNOVACIÓN EN TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN": 34429,
+      "TELECOMUNICACIONES": 26848,
+      "CIENCIAS COMPUTACIONALES": 9592,
+      "SOPORTE Y SERVICIOS DE MANTENIMIENTO A LAS TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN": 2362,
+      "PLANES MULTIDISCIPLINARIOS O GENERALES DEL CAMPO DE IMPLEMENTACIÓN DE LAS TECNOLOGÍAS  DE LA INFORMACIÓN Y LA COMUNICACIÓN": 1670,
+      "DESARROLLO DE HARDWARE": 118
+    },
+    "C1_ict_by_level": {
+      "LICENCIATURA UNIVERSITARIA Y TECNOLÓGICA": 295658,
+      "TÉCNICO SUPERIOR": 23354,
+      "MAESTRÍA": 9633,
+      "DOCTORADO": 1291,
+      "ESPECIALIDAD": 422
+    },
+    "C1_ict_public_pct": 79.1,
+    "C1_ict_women_pct": 24.4,
+    "C1_ict_distance_pct": 25.8,
+    "C1_systems_programmes_outside_ict_field": 3175,
+    "C2_ict_on_campus_top_municipalities": [
+      {
+        "municipality_code": "09005",
+        "students": 11434,
+        "share_pct": 4.7
+      },
+      {
+        "municipality_code": "19046",
+        "students": 8453,
+        "share_pct": 3.4
+      },
+      {
+        "municipality_code": "09003",
+        "students": 8026,
+        "share_pct": 3.3
+      },
+      {
+        "municipality_code": "14039",
+        "students": 7326,
+        "share_pct": 3.0
+      },
+      {
+        "municipality_code": "21114",
+        "students": 6987,
+        "share_pct": 2.8
+      },
+      {
+        "municipality_code": "09007",
+        "students": 4428,
+        "share_pct": 1.8
+      },
+      {
+        "municipality_code": "09006",
+        "students": 3851,
+        "share_pct": 1.6
+      },
+      {
+        "municipality_code": "02004",
+        "students": 3651,
+        "share_pct": 1.5
+      },
+      {
+        "municipality_code": "22014",
+        "students": 3644,
+        "share_pct": 1.5
+      },
+      {
+        "municipality_code": "15058",
+        "students": 3607,
+        "share_pct": 1.5
+      }
+    ],
+    "C2_on_campus_students": 4059754,
+    "C2_top_municipalities": [
+      {
+        "municipality_code": "21114",
+        "students_on_campus": 160608,
+        "share_pct": 4.0
+      },
+      {
+        "municipality_code": "09003",
+        "students_on_campus": 160450,
+        "share_pct": 4.0
+      },
+      {
+        "municipality_code": "19039",
+        "students_on_campus": 91665,
+        "share_pct": 2.3
+      },
+      {
+        "municipality_code": "14039",
+        "students_on_campus": 81865,
+        "share_pct": 2.0
+      },
+      {
+        "municipality_code": "19046",
+        "students_on_campus": 77019,
+        "share_pct": 1.9
+      },
+      {
+        "municipality_code": "14120",
+        "students_on_campus": 76984,
+        "share_pct": 1.9
+      },
+      {
+        "municipality_code": "09005",
+        "students_on_campus": 73767,
+        "share_pct": 1.8
+      },
+      {
+        "municipality_code": "16053",
+        "students_on_campus": 69539,
+        "share_pct": 1.7
+      },
+      {
+        "municipality_code": "25006",
+        "students_on_campus": 65256,
+        "share_pct": 1.6
+      },
+      {
+        "municipality_code": "02004",
+        "students_on_campus": 64094,
+        "share_pct": 1.6
+      }
+    ],
+    "C3_municipalities_to_reach": {
+      "50pct": 35,
+      "75pct": 92,
+      "90pct": 214
+    },
+    "C4_level_pct": {
+      "licenciatura": 85.5,
+      "posgrado": 8.7,
+      "tecnico_superior": 3.5,
+      "normal": 2.3
+    },
+    "C4_public_pct": 61.9,
+    "C4_distance_pct": 26.5,
+    "C4_women_pct": 54.1
+  },
+  "notes": {
+    "C1_ict_students": "ANUIES yearbook 2024-2025 (programme-level 911 data; totals equal SEP exactly; D-MX-14): broad field \"Tecnologías de la Información y la Comunicación\", the ISCED-F 06 equivalent, all levels and modalities. Systems/computing programmes classified in other broad fields are reported apart (C1_systems_programmes_outside_ict_field), as Colombia shows systems and ICT field separately.",
+    "C2": "On campus = escolarizada; distance programmes are registered at the school seat, so cities use on-campus figures only (template rule)."
+  }
+}

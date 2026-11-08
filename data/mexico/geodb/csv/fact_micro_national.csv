@@ -1,0 +1,47 @@
+dimension,category,micro_businesses,pct
+total,micro_businesses,15752397,100.0
+activity,Retail commerce,4265502,27.1
+activity,Agriculture,2664813,16.9
+activity,Other services,1620417,10.3
+activity,Manufacturing,1592928,10.1
+activity,Food and lodging,1591866,10.1
+activity,Construction,1405531,8.9
+activity,Transport,792674,5.0
+activity,Professional and scientific services,586373,3.7
+activity,Health,334674,2.1
+activity,Administrative services,279434,1.8
+activity,Wholesale commerce,175336,1.1
+activity,Arts and recreation,156091,1.0
+activity,Education,109329,0.7
+activity,Real estate,104254,0.7
+activity,Finance and insurance,29348,0.2
+activity,Information (SCIAN 51),21062,0.1
+activity,Not specified,12304,0.1
+activity,Mining,7293,0.0
+activity,Utilities,2848,0.0
+activity,Public administration and defence,319,0.0
+position,Own-account worker,12869904,81.7
+position,Employer,2882493,18.3
+owner_sex,Men,9651488,61.3
+owner_sex,Women,6100909,38.7
+owner_age,45-59,5410468,34.3
+owner_age,30-44,4975097,31.6
+owner_age,60+,3560135,22.6
+owner_age,15-29,1806697,11.5
+informal_sector,Informal sector,10370758,65.8
+informal_sector,Outside the informal sector,5381639,34.2
+accounts,Other,7734871,49.1
+accounts,Not asked or not specified,2915732,18.5
+accounts,Personal notebook,2676356,17.0
+accounts,Accountant,1801716,11.4
+accounts,No records,623723,4.0
+premises,No premises,8771500,55.7
+premises,Premises only,3969531,25.2
+premises,Not asked or not specified,2603708,16.5
+premises,Office only,301050,1.9
+premises,Establishment and office,106608,0.7
+site_without_premises,Not specified,8612356,98.2
+site_without_premises,Other place,88618,1.0
+site_without_premises,Fixed stall,70526,0.8
+zone,Rural,9051841,57.5
+zone,Urban,6700556,42.5

@@ -1,0 +1,506 @@
+persona,municipality_code,metro_area,employed,interviews
+Software developers and analysts,12001,Acapulco,1282,46
+Software developers and analysts,01001,Aguascalientes,4882,124
+Software developers and analysts,04002,Campeche,446,40
+Software developers and analysts,23005,Cancún,2624,63
+Software developers and analysts,08019,Chihuahua,4838,120
+Software developers and analysts,08037,Ciudad Juárez,5094,89
+Software developers and analysts,09015,Ciudad de México,141843,389
+Software developers and analysts,04003,Ciudad del Carmen,360,46
+Software developers and analysts,30039,Coatzacoalcos,717,38
+Software developers and analysts,06002,Colima,1958,143
+Software developers and analysts,17007,Cuernavaca,3806,104
+Software developers and analysts,25006,Culiacán,4448,132
+Software developers and analysts,10005,Durango,1582,64
+Software developers and analysts,14039,Guadalajara,26359,188
+Software developers and analysts,26030,Hermosillo,2326,63
+Software developers and analysts,03003,La Paz,974,67
+Software developers and analysts,11020,León,5572,103
+Software developers and analysts,02002,Mexicali,3245,85
+Software developers and analysts,19039,Monterrey,34551,233
+Software developers and analysts,16053,Morelia,3205,80
+Software developers and analysts,31050,Mérida,6650,117
+Software developers and analysts,20067,Oaxaca,1967,78
+Software developers and analysts,13048,Pachuca,1932,89
+Software developers and analysts,21114,Puebla,9328,125
+Software developers and analysts,22014,Querétaro,11624,240
+Software developers and analysts,28032,Reynosa,1178,39
+Software developers and analysts,05030,Saltillo,3320,83
+Software developers and analysts,24028,San Luis Potosí,3318,65
+Software developers and analysts,28038,Tampico,1596,36
+Software developers and analysts,07089,Tapachula,429,44
+Software developers and analysts,18017,Tepic,1128,68
+Software developers and analysts,02004,Tijuana,3642,58
+Software developers and analysts,29033,Tlaxcala,1701,55
+Software developers and analysts,15106,Toluca,7072,114
+Software developers and analysts,05035,Torreón,3404,90
+Software developers and analysts,07101,Tuxtla Gutiérrez,1773,65
+Software developers and analysts,30193,Veracruz,2278,53
+Software developers and analysts,27004,Villahermosa,1646,85
+Software developers and analysts,32056,Zacatecas,639,49
+Software developers and analysts,,Rest of the country,54908,506
+"Database, systems and network professionals",12001,Acapulco,76,2
+"Database, systems and network professionals",01001,Aguascalientes,114,3
+"Database, systems and network professionals",04002,Campeche,43,5
+"Database, systems and network professionals",08019,Chihuahua,89,2
+"Database, systems and network professionals",09015,Ciudad de México,4220,11
+"Database, systems and network professionals",04003,Ciudad del Carmen,44,6
+"Database, systems and network professionals",30039,Coatzacoalcos,15,1
+"Database, systems and network professionals",06002,Colima,12,1
+"Database, systems and network professionals",17007,Cuernavaca,150,4
+"Database, systems and network professionals",25006,Culiacán,390,10
+"Database, systems and network professionals",10005,Durango,94,4
+"Database, systems and network professionals",14039,Guadalajara,1003,8
+"Database, systems and network professionals",26030,Hermosillo,226,6
+"Database, systems and network professionals",03003,La Paz,12,1
+"Database, systems and network professionals",11020,León,272,6
+"Database, systems and network professionals",02002,Mexicali,39,1
+"Database, systems and network professionals",19039,Monterrey,296,3
+"Database, systems and network professionals",16053,Morelia,60,1
+"Database, systems and network professionals",31050,Mérida,170,3
+"Database, systems and network professionals",20067,Oaxaca,33,1
+"Database, systems and network professionals",13048,Pachuca,51,2
+"Database, systems and network professionals",21114,Puebla,306,4
+"Database, systems and network professionals",22014,Querétaro,231,6
+"Database, systems and network professionals",05030,Saltillo,18,1
+"Database, systems and network professionals",24028,San Luis Potosí,110,2
+"Database, systems and network professionals",28038,Tampico,132,3
+"Database, systems and network professionals",07089,Tapachula,5,1
+"Database, systems and network professionals",18017,Tepic,67,5
+"Database, systems and network professionals",02004,Tijuana,118,1
+"Database, systems and network professionals",15106,Toluca,194,2
+"Database, systems and network professionals",05035,Torreón,485,13
+"Database, systems and network professionals",07101,Tuxtla Gutiérrez,75,3
+"Database, systems and network professionals",30193,Veracruz,164,4
+"Database, systems and network professionals",27004,Villahermosa,68,4
+"Database, systems and network professionals",32056,Zacatecas,32,2
+"Database, systems and network professionals",,Rest of the country,2103,18
+ICT technicians and user support,12001,Acapulco,627,24
+ICT technicians and user support,01001,Aguascalientes,2850,62
+ICT technicians and user support,04002,Campeche,559,46
+ICT technicians and user support,23005,Cancún,1579,37
+ICT technicians and user support,08019,Chihuahua,2005,45
+ICT technicians and user support,08037,Ciudad Juárez,2552,43
+ICT technicians and user support,09015,Ciudad de México,65108,197
+ICT technicians and user support,04003,Ciudad del Carmen,268,34
+ICT technicians and user support,30039,Coatzacoalcos,227,19
+ICT technicians and user support,06002,Colima,566,40
+ICT technicians and user support,17007,Cuernavaca,1123,35
+ICT technicians and user support,25006,Culiacán,2121,57
+ICT technicians and user support,10005,Durango,1201,52
+ICT technicians and user support,14039,Guadalajara,11571,84
+ICT technicians and user support,26030,Hermosillo,1560,40
+ICT technicians and user support,03003,La Paz,555,39
+ICT technicians and user support,11020,León,3114,58
+ICT technicians and user support,02002,Mexicali,1504,40
+ICT technicians and user support,19039,Monterrey,16892,120
+ICT technicians and user support,16053,Morelia,1891,49
+ICT technicians and user support,31050,Mérida,1750,30
+ICT technicians and user support,20067,Oaxaca,823,32
+ICT technicians and user support,13048,Pachuca,1127,51
+ICT technicians and user support,21114,Puebla,5232,78
+ICT technicians and user support,22014,Querétaro,3014,57
+ICT technicians and user support,28032,Reynosa,809,24
+ICT technicians and user support,05030,Saltillo,1798,47
+ICT technicians and user support,24028,San Luis Potosí,1446,33
+ICT technicians and user support,28038,Tampico,897,20
+ICT technicians and user support,07089,Tapachula,358,35
+ICT technicians and user support,18017,Tepic,589,39
+ICT technicians and user support,02004,Tijuana,2338,36
+ICT technicians and user support,29033,Tlaxcala,778,23
+ICT technicians and user support,15106,Toluca,1988,24
+ICT technicians and user support,05035,Torreón,1559,42
+ICT technicians and user support,07101,Tuxtla Gutiérrez,887,32
+ICT technicians and user support,30193,Veracruz,838,22
+ICT technicians and user support,27004,Villahermosa,1195,48
+ICT technicians and user support,32056,Zacatecas,309,23
+ICT technicians and user support,,Rest of the country,43734,350
+ICT managers,01001,Aguascalientes,1169,23
+ICT managers,04002,Campeche,134,11
+ICT managers,23005,Cancún,278,6
+ICT managers,08019,Chihuahua,710,16
+ICT managers,08037,Ciudad Juárez,379,6
+ICT managers,09015,Ciudad de México,23710,68
+ICT managers,04003,Ciudad del Carmen,116,15
+ICT managers,06002,Colima,164,14
+ICT managers,17007,Cuernavaca,61,2
+ICT managers,25006,Culiacán,625,19
+ICT managers,10005,Durango,114,5
+ICT managers,14039,Guadalajara,2996,20
+ICT managers,26030,Hermosillo,550,16
+ICT managers,03003,La Paz,84,6
+ICT managers,11020,León,529,13
+ICT managers,02002,Mexicali,89,3
+ICT managers,19039,Monterrey,2745,20
+ICT managers,16053,Morelia,502,12
+ICT managers,31050,Mérida,1378,29
+ICT managers,20067,Oaxaca,208,7
+ICT managers,13048,Pachuca,166,5
+ICT managers,21114,Puebla,565,9
+ICT managers,22014,Querétaro,1199,23
+ICT managers,05030,Saltillo,376,7
+ICT managers,24028,San Luis Potosí,134,3
+ICT managers,28038,Tampico,184,5
+ICT managers,07089,Tapachula,9,1
+ICT managers,18017,Tepic,164,11
+ICT managers,02004,Tijuana,116,1
+ICT managers,29033,Tlaxcala,161,4
+ICT managers,15106,Toluca,540,8
+ICT managers,05035,Torreón,388,10
+ICT managers,07101,Tuxtla Gutiérrez,258,8
+ICT managers,30193,Veracruz,112,4
+ICT managers,27004,Villahermosa,78,3
+ICT managers,32056,Zacatecas,173,13
+ICT managers,,Rest of the country,5726,58
+"Designers (graphic, multimedia, product)",12001,Acapulco,55,1
+"Designers (graphic, multimedia, product)",01001,Aguascalientes,964,24
+"Designers (graphic, multimedia, product)",04002,Campeche,116,11
+"Designers (graphic, multimedia, product)",23005,Cancún,843,21
+"Designers (graphic, multimedia, product)",08019,Chihuahua,598,14
+"Designers (graphic, multimedia, product)",08037,Ciudad Juárez,676,12
+"Designers (graphic, multimedia, product)",09015,Ciudad de México,30329,95
+"Designers (graphic, multimedia, product)",04003,Ciudad del Carmen,105,12
+"Designers (graphic, multimedia, product)",30039,Coatzacoalcos,110,8
+"Designers (graphic, multimedia, product)",06002,Colima,224,19
+"Designers (graphic, multimedia, product)",17007,Cuernavaca,432,11
+"Designers (graphic, multimedia, product)",25006,Culiacán,832,24
+"Designers (graphic, multimedia, product)",10005,Durango,412,15
+"Designers (graphic, multimedia, product)",14039,Guadalajara,3848,30
+"Designers (graphic, multimedia, product)",26030,Hermosillo,626,19
+"Designers (graphic, multimedia, product)",03003,La Paz,109,8
+"Designers (graphic, multimedia, product)",11020,León,2990,55
+"Designers (graphic, multimedia, product)",02002,Mexicali,1046,26
+"Designers (graphic, multimedia, product)",19039,Monterrey,4248,33
+"Designers (graphic, multimedia, product)",16053,Morelia,692,16
+"Designers (graphic, multimedia, product)",31050,Mérida,1598,28
+"Designers (graphic, multimedia, product)",20067,Oaxaca,460,15
+"Designers (graphic, multimedia, product)",13048,Pachuca,584,25
+"Designers (graphic, multimedia, product)",21114,Puebla,3013,44
+"Designers (graphic, multimedia, product)",22014,Querétaro,1468,27
+"Designers (graphic, multimedia, product)",28032,Reynosa,239,9
+"Designers (graphic, multimedia, product)",05030,Saltillo,668,17
+"Designers (graphic, multimedia, product)",24028,San Luis Potosí,781,17
+"Designers (graphic, multimedia, product)",28038,Tampico,386,7
+"Designers (graphic, multimedia, product)",07089,Tapachula,68,7
+"Designers (graphic, multimedia, product)",18017,Tepic,532,30
+"Designers (graphic, multimedia, product)",02004,Tijuana,2000,25
+"Designers (graphic, multimedia, product)",29033,Tlaxcala,324,14
+"Designers (graphic, multimedia, product)",15106,Toluca,706,11
+"Designers (graphic, multimedia, product)",05035,Torreón,984,26
+"Designers (graphic, multimedia, product)",07101,Tuxtla Gutiérrez,539,19
+"Designers (graphic, multimedia, product)",30193,Veracruz,466,11
+"Designers (graphic, multimedia, product)",27004,Villahermosa,261,14
+"Designers (graphic, multimedia, product)",32056,Zacatecas,392,26
+"Designers (graphic, multimedia, product)",,Rest of the country,16355,125
+Business and management analysts,01001,Aguascalientes,2051,51
+Business and management analysts,04002,Campeche,175,15
+Business and management analysts,23005,Cancún,1513,33
+Business and management analysts,08019,Chihuahua,2629,59
+Business and management analysts,08037,Ciudad Juárez,4042,63
+Business and management analysts,09015,Ciudad de México,69755,187
+Business and management analysts,04003,Ciudad del Carmen,731,90
+Business and management analysts,30039,Coatzacoalcos,233,17
+Business and management analysts,06002,Colima,354,27
+Business and management analysts,17007,Cuernavaca,502,16
+Business and management analysts,25006,Culiacán,1276,37
+Business and management analysts,10005,Durango,677,26
+Business and management analysts,14039,Guadalajara,8262,58
+Business and management analysts,26030,Hermosillo,1894,50
+Business and management analysts,03003,La Paz,202,17
+Business and management analysts,11020,León,2426,44
+Business and management analysts,02002,Mexicali,1781,44
+Business and management analysts,19039,Monterrey,16194,113
+Business and management analysts,16053,Morelia,757,17
+Business and management analysts,31050,Mérida,2354,43
+Business and management analysts,20067,Oaxaca,314,12
+Business and management analysts,13048,Pachuca,848,38
+Business and management analysts,21114,Puebla,4338,59
+Business and management analysts,22014,Querétaro,5306,100
+Business and management analysts,28032,Reynosa,1291,40
+Business and management analysts,05030,Saltillo,3556,86
+Business and management analysts,24028,San Luis Potosí,2920,48
+Business and management analysts,28038,Tampico,572,16
+Business and management analysts,07089,Tapachula,68,6
+Business and management analysts,18017,Tepic,306,19
+Business and management analysts,02004,Tijuana,1959,25
+Business and management analysts,29033,Tlaxcala,716,21
+Business and management analysts,15106,Toluca,3415,45
+Business and management analysts,05035,Torreón,2976,73
+Business and management analysts,07101,Tuxtla Gutiérrez,419,14
+Business and management analysts,30193,Veracruz,537,14
+Business and management analysts,27004,Villahermosa,345,21
+Business and management analysts,32056,Zacatecas,361,25
+Business and management analysts,,Rest of the country,26058,235
+Accountants and auditors,12001,Acapulco,2294,83
+Accountants and auditors,01001,Aguascalientes,5741,145
+Accountants and auditors,04002,Campeche,1488,130
+Accountants and auditors,23005,Cancún,4685,103
+Accountants and auditors,08019,Chihuahua,4600,105
+Accountants and auditors,08037,Ciudad Juárez,4713,67
+Accountants and auditors,09015,Ciudad de México,128988,385
+Accountants and auditors,04003,Ciudad del Carmen,931,124
+Accountants and auditors,30039,Coatzacoalcos,1195,87
+Accountants and auditors,06002,Colima,1981,145
+Accountants and auditors,17007,Cuernavaca,4812,126
+Accountants and auditors,25006,Culiacán,6250,176
+Accountants and auditors,10005,Durango,3831,137
+Accountants and auditors,14039,Guadalajara,28416,206
+Accountants and auditors,26030,Hermosillo,5890,160
+Accountants and auditors,03003,La Paz,1878,137
+Accountants and auditors,11020,León,8311,160
+Accountants and auditors,02002,Mexicali,4638,117
+Accountants and auditors,19039,Monterrey,26951,205
+Accountants and auditors,16053,Morelia,5873,153
+Accountants and auditors,31050,Mérida,8651,159
+Accountants and auditors,20067,Oaxaca,4137,171
+Accountants and auditors,13048,Pachuca,2272,110
+Accountants and auditors,21114,Puebla,15138,209
+Accountants and auditors,22014,Querétaro,8420,169
+Accountants and auditors,28032,Reynosa,1058,32
+Accountants and auditors,05030,Saltillo,4778,97
+Accountants and auditors,24028,San Luis Potosí,3859,79
+Accountants and auditors,28038,Tampico,5513,144
+Accountants and auditors,07089,Tapachula,917,82
+Accountants and auditors,18017,Tepic,2822,174
+Accountants and auditors,02004,Tijuana,8374,129
+Accountants and auditors,29033,Tlaxcala,2340,85
+Accountants and auditors,15106,Toluca,8138,116
+Accountants and auditors,05035,Torreón,7978,212
+Accountants and auditors,07101,Tuxtla Gutiérrez,3506,125
+Accountants and auditors,30193,Veracruz,2978,76
+Accountants and auditors,27004,Villahermosa,2834,133
+Accountants and auditors,32056,Zacatecas,2358,162
+Accountants and auditors,,Rest of the country,104615,897
+Finance and investment analysts,12001,Acapulco,138,6
+Finance and investment analysts,01001,Aguascalientes,504,12
+Finance and investment analysts,04002,Campeche,98,7
+Finance and investment analysts,23005,Cancún,290,7
+Finance and investment analysts,08019,Chihuahua,152,2
+Finance and investment analysts,08037,Ciudad Juárez,420,7
+Finance and investment analysts,09015,Ciudad de México,32100,80
+Finance and investment analysts,04003,Ciudad del Carmen,80,10
+Finance and investment analysts,30039,Coatzacoalcos,112,8
+Finance and investment analysts,06002,Colima,237,17
+Finance and investment analysts,17007,Cuernavaca,448,9
+Finance and investment analysts,25006,Culiacán,925,25
+Finance and investment analysts,10005,Durango,53,3
+Finance and investment analysts,14039,Guadalajara,4986,31
+Finance and investment analysts,26030,Hermosillo,1069,28
+Finance and investment analysts,03003,La Paz,110,8
+Finance and investment analysts,11020,León,863,16
+Finance and investment analysts,02002,Mexicali,204,5
+Finance and investment analysts,19039,Monterrey,2297,18
+Finance and investment analysts,16053,Morelia,457,12
+Finance and investment analysts,31050,Mérida,991,16
+Finance and investment analysts,20067,Oaxaca,274,14
+Finance and investment analysts,13048,Pachuca,338,18
+Finance and investment analysts,21114,Puebla,1882,15
+Finance and investment analysts,22014,Querétaro,1052,19
+Finance and investment analysts,28032,Reynosa,29,1
+Finance and investment analysts,05030,Saltillo,393,9
+Finance and investment analysts,24028,San Luis Potosí,700,10
+Finance and investment analysts,28038,Tampico,347,8
+Finance and investment analysts,07089,Tapachula,32,4
+Finance and investment analysts,18017,Tepic,175,10
+Finance and investment analysts,02004,Tijuana,486,5
+Finance and investment analysts,29033,Tlaxcala,340,9
+Finance and investment analysts,15106,Toluca,1186,15
+Finance and investment analysts,05035,Torreón,732,17
+Finance and investment analysts,07101,Tuxtla Gutiérrez,236,8
+Finance and investment analysts,30193,Veracruz,154,4
+Finance and investment analysts,27004,Villahermosa,267,14
+Finance and investment analysts,32056,Zacatecas,149,10
+Finance and investment analysts,,Rest of the country,8120,65
+"Data, statistics and research specialists",01001,Aguascalientes,298,7
+"Data, statistics and research specialists",04002,Campeche,27,2
+"Data, statistics and research specialists",08019,Chihuahua,205,5
+"Data, statistics and research specialists",08037,Ciudad Juárez,232,3
+"Data, statistics and research specialists",09015,Ciudad de México,21450,55
+"Data, statistics and research specialists",04003,Ciudad del Carmen,11,1
+"Data, statistics and research specialists",06002,Colima,8,1
+"Data, statistics and research specialists",25006,Culiacán,252,3
+"Data, statistics and research specialists",10005,Durango,33,1
+"Data, statistics and research specialists",14039,Guadalajara,257,3
+"Data, statistics and research specialists",26030,Hermosillo,140,4
+"Data, statistics and research specialists",03003,La Paz,23,2
+"Data, statistics and research specialists",11020,León,93,2
+"Data, statistics and research specialists",02002,Mexicali,63,2
+"Data, statistics and research specialists",19039,Monterrey,138,1
+"Data, statistics and research specialists",16053,Morelia,10,1
+"Data, statistics and research specialists",31050,Mérida,220,3
+"Data, statistics and research specialists",20067,Oaxaca,43,2
+"Data, statistics and research specialists",13048,Pachuca,35,2
+"Data, statistics and research specialists",21114,Puebla,643,8
+"Data, statistics and research specialists",22014,Querétaro,332,6
+"Data, statistics and research specialists",28032,Reynosa,24,1
+"Data, statistics and research specialists",05030,Saltillo,118,3
+"Data, statistics and research specialists",24028,San Luis Potosí,156,3
+"Data, statistics and research specialists",28038,Tampico,30,1
+"Data, statistics and research specialists",18017,Tepic,24,2
+"Data, statistics and research specialists",15106,Toluca,128,2
+"Data, statistics and research specialists",05035,Torreón,14,1
+"Data, statistics and research specialists",07101,Tuxtla Gutiérrez,49,2
+"Data, statistics and research specialists",30193,Veracruz,73,2
+"Data, statistics and research specialists",27004,Villahermosa,52,2
+"Data, statistics and research specialists",32056,Zacatecas,76,5
+"Data, statistics and research specialists",,Rest of the country,1602,17
+Marketing and advertising professionals,12001,Acapulco,430,12
+Marketing and advertising professionals,01001,Aguascalientes,1245,28
+Marketing and advertising professionals,04002,Campeche,200,18
+Marketing and advertising professionals,23005,Cancún,567,13
+Marketing and advertising professionals,08019,Chihuahua,904,21
+Marketing and advertising professionals,08037,Ciudad Juárez,1658,16
+Marketing and advertising professionals,09015,Ciudad de México,49801,150
+Marketing and advertising professionals,04003,Ciudad del Carmen,165,20
+Marketing and advertising professionals,30039,Coatzacoalcos,311,19
+Marketing and advertising professionals,06002,Colima,207,17
+Marketing and advertising professionals,17007,Cuernavaca,639,19
+Marketing and advertising professionals,25006,Culiacán,1109,31
+Marketing and advertising professionals,10005,Durango,626,24
+Marketing and advertising professionals,14039,Guadalajara,8068,53
+Marketing and advertising professionals,26030,Hermosillo,1492,44
+Marketing and advertising professionals,03003,La Paz,282,23
+Marketing and advertising professionals,11020,León,1469,27
+Marketing and advertising professionals,02002,Mexicali,1184,26
+Marketing and advertising professionals,19039,Monterrey,6109,41
+Marketing and advertising professionals,16053,Morelia,837,22
+Marketing and advertising professionals,31050,Mérida,2193,37
+Marketing and advertising professionals,20067,Oaxaca,282,11
+Marketing and advertising professionals,13048,Pachuca,432,19
+Marketing and advertising professionals,21114,Puebla,3502,42
+Marketing and advertising professionals,22014,Querétaro,2972,56
+Marketing and advertising professionals,28032,Reynosa,201,7
+Marketing and advertising professionals,05030,Saltillo,464,12
+Marketing and advertising professionals,24028,San Luis Potosí,1895,34
+Marketing and advertising professionals,28038,Tampico,597,15
+Marketing and advertising professionals,07089,Tapachula,65,7
+Marketing and advertising professionals,18017,Tepic,340,20
+Marketing and advertising professionals,02004,Tijuana,1725,26
+Marketing and advertising professionals,29033,Tlaxcala,395,14
+Marketing and advertising professionals,15106,Toluca,939,15
+Marketing and advertising professionals,05035,Torreón,1134,31
+Marketing and advertising professionals,07101,Tuxtla Gutiérrez,615,20
+Marketing and advertising professionals,30193,Veracruz,582,15
+Marketing and advertising professionals,27004,Villahermosa,394,16
+Marketing and advertising professionals,32056,Zacatecas,382,24
+Marketing and advertising professionals,,Rest of the country,14101,141
+Engineers (non-ICT),12001,Acapulco,302,10
+Engineers (non-ICT),01001,Aguascalientes,5402,125
+Engineers (non-ICT),04002,Campeche,321,27
+Engineers (non-ICT),23005,Cancún,1959,41
+Engineers (non-ICT),08019,Chihuahua,5814,126
+Engineers (non-ICT),08037,Ciudad Juárez,9055,151
+Engineers (non-ICT),09015,Ciudad de México,79289,218
+Engineers (non-ICT),04003,Ciudad del Carmen,1291,170
+Engineers (non-ICT),30039,Coatzacoalcos,850,61
+Engineers (non-ICT),06002,Colima,987,77
+Engineers (non-ICT),17007,Cuernavaca,1633,43
+Engineers (non-ICT),25006,Culiacán,2206,62
+Engineers (non-ICT),10005,Durango,1663,68
+Engineers (non-ICT),14039,Guadalajara,20365,150
+Engineers (non-ICT),26030,Hermosillo,5106,132
+Engineers (non-ICT),03003,La Paz,699,48
+Engineers (non-ICT),11020,León,3227,62
+Engineers (non-ICT),02002,Mexicali,7224,180
+Engineers (non-ICT),19039,Monterrey,37376,244
+Engineers (non-ICT),16053,Morelia,2770,72
+Engineers (non-ICT),31050,Mérida,3904,80
+Engineers (non-ICT),20067,Oaxaca,1782,65
+Engineers (non-ICT),13048,Pachuca,2048,90
+Engineers (non-ICT),21114,Puebla,13624,198
+Engineers (non-ICT),22014,Querétaro,14993,281
+Engineers (non-ICT),28032,Reynosa,3878,117
+Engineers (non-ICT),05030,Saltillo,9213,200
+Engineers (non-ICT),24028,San Luis Potosí,8213,158
+Engineers (non-ICT),28038,Tampico,2364,61
+Engineers (non-ICT),07089,Tapachula,374,33
+Engineers (non-ICT),18017,Tepic,1107,65
+Engineers (non-ICT),02004,Tijuana,10292,137
+Engineers (non-ICT),29033,Tlaxcala,2468,80
+Engineers (non-ICT),15106,Toluca,6378,102
+Engineers (non-ICT),05035,Torreón,5228,134
+Engineers (non-ICT),07101,Tuxtla Gutiérrez,2600,94
+Engineers (non-ICT),30193,Veracruz,1804,43
+Engineers (non-ICT),27004,Villahermosa,2274,115
+Engineers (non-ICT),32056,Zacatecas,1072,75
+Engineers (non-ICT),,Rest of the country,75277,709
+Business and operations managers,12001,Acapulco,2745,89
+Business and operations managers,01001,Aguascalientes,14082,332
+Business and operations managers,04002,Campeche,3771,331
+Business and operations managers,23005,Cancún,7540,169
+Business and operations managers,08019,Chihuahua,18854,420
+Business and operations managers,08037,Ciudad Juárez,32200,529
+Business and operations managers,09015,Ciudad de México,383724,977
+Business and operations managers,04003,Ciudad del Carmen,3124,396
+Business and operations managers,30039,Coatzacoalcos,2699,192
+Business and operations managers,06002,Colima,4219,315
+Business and operations managers,17007,Cuernavaca,5860,153
+Business and operations managers,25006,Culiacán,10520,291
+Business and operations managers,10005,Durango,7618,301
+Business and operations managers,14039,Guadalajara,59807,435
+Business and operations managers,26030,Hermosillo,14202,365
+Business and operations managers,03003,La Paz,4202,280
+Business and operations managers,11020,León,20084,364
+Business and operations managers,02002,Mexicali,10486,254
+Business and operations managers,19039,Monterrey,95618,695
+Business and operations managers,16053,Morelia,8628,213
+Business and operations managers,31050,Mérida,24402,442
+Business and operations managers,20067,Oaxaca,6030,214
+Business and operations managers,13048,Pachuca,6788,291
+Business and operations managers,21114,Puebla,25814,346
+Business and operations managers,22014,Querétaro,22254,460
+Business and operations managers,28032,Reynosa,11005,356
+Business and operations managers,05030,Saltillo,20331,462
+Business and operations managers,24028,San Luis Potosí,16290,324
+Business and operations managers,28038,Tampico,9047,220
+Business and operations managers,07089,Tapachula,2022,180
+Business and operations managers,18017,Tepic,5550,325
+Business and operations managers,02004,Tijuana,20992,285
+Business and operations managers,29033,Tlaxcala,6481,201
+Business and operations managers,15106,Toluca,14086,219
+Business and operations managers,05035,Torreón,17333,461
+Business and operations managers,07101,Tuxtla Gutiérrez,6757,245
+Business and operations managers,30193,Veracruz,5758,144
+Business and operations managers,27004,Villahermosa,5957,293
+Business and operations managers,32056,Zacatecas,3672,260
+Business and operations managers,,Rest of the country,298049,2905
+Higher-education and IT educators,12001,Acapulco,1212,35
+Higher-education and IT educators,01001,Aguascalientes,2578,61
+Higher-education and IT educators,04002,Campeche,982,82
+Higher-education and IT educators,23005,Cancún,1231,26
+Higher-education and IT educators,08019,Chihuahua,2401,61
+Higher-education and IT educators,08037,Ciudad Juárez,3247,46
+Higher-education and IT educators,09015,Ciudad de México,72157,177
+Higher-education and IT educators,04003,Ciudad del Carmen,498,63
+Higher-education and IT educators,30039,Coatzacoalcos,501,32
+Higher-education and IT educators,06002,Colima,883,60
+Higher-education and IT educators,17007,Cuernavaca,2440,61
+Higher-education and IT educators,25006,Culiacán,3629,102
+Higher-education and IT educators,10005,Durango,2340,90
+Higher-education and IT educators,14039,Guadalajara,9348,67
+Higher-education and IT educators,26030,Hermosillo,2620,71
+Higher-education and IT educators,03003,La Paz,786,58
+Higher-education and IT educators,11020,León,1808,34
+Higher-education and IT educators,02002,Mexicali,1220,32
+Higher-education and IT educators,19039,Monterrey,7416,56
+Higher-education and IT educators,16053,Morelia,4666,125
+Higher-education and IT educators,31050,Mérida,4442,85
+Higher-education and IT educators,20067,Oaxaca,1852,64
+Higher-education and IT educators,13048,Pachuca,3584,151
+Higher-education and IT educators,21114,Puebla,9079,134
+Higher-education and IT educators,22014,Querétaro,6121,121
+Higher-education and IT educators,28032,Reynosa,854,24
+Higher-education and IT educators,05030,Saltillo,3086,74
+Higher-education and IT educators,24028,San Luis Potosí,3441,69
+Higher-education and IT educators,28038,Tampico,1790,45
+Higher-education and IT educators,07089,Tapachula,795,58
+Higher-education and IT educators,18017,Tepic,1914,111
+Higher-education and IT educators,02004,Tijuana,2502,38
+Higher-education and IT educators,29033,Tlaxcala,1920,62
+Higher-education and IT educators,15106,Toluca,5160,77
+Higher-education and IT educators,05035,Torreón,3352,84
+Higher-education and IT educators,07101,Tuxtla Gutiérrez,2838,98
+Higher-education and IT educators,30193,Veracruz,1712,36
+Higher-education and IT educators,27004,Villahermosa,2006,98
+Higher-education and IT educators,32056,Zacatecas,2772,194
+Higher-education and IT educators,,Rest of the country,64663,552

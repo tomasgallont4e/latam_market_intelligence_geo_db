@@ -1,0 +1,9 @@
+focus_country_code,group_type,group_code,survey_segment,group_definition,group_label,countries_included,respondents,template_confidence,source_id
+MX,country,MX,all_respondents,"Respondents with Country = ""Mexico""",Mexico,,286,LOW (<300),SRC_SO_2025
+MX,country,MX,professional_developers,"Respondents with Country = ""Mexico"" and MainBranch = ""I am a developer by profession""",Mexico - professional developers,,217,LOW (<300),SRC_SO_2025
+MX,region,LATAM_EX_MX,all_respondents,"Respondents in 18 Latin American countries, Mexico EXCLUDED",LATAM excl. Mexico (18 countries),"Argentina;Bolivia;Brazil;Chile;Colombia;Costa Rica;Cuba;Dominican Republic;Ecuador;El Salvador;Guatemala;Honduras;Nicaragua;Panama;Paraguay;Peru;Uruguay;Venezuela, Bolivarian Republic of...",1743,>=300,SRC_SO_2025
+MX,global,GLOBAL,all_respondents,"All 49,191 respondents in the public CSV, including 13,754 with no country",Global,,49191,>=300,SRC_SO_2025
+MX,country,BR,all_respondents,"Country = ""Brazil""",Brazil,,825,>=300,SRC_SO_2025
+MX,country,AR,all_respondents,"Country = ""Argentina""",Argentina,,222,LOW (<300),SRC_SO_2025
+MX,country,CO,all_respondents,"Country = ""Colombia""",Colombia,,202,LOW (<300),SRC_SO_2025
+MX,country,CL,all_respondents,"Country = ""Chile""",Chile,,131,LOW (<300),SRC_SO_2025

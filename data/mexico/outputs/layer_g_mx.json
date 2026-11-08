@@ -1,0 +1,117 @@
+{
+  "country": "MX",
+  "source_id": "INEGI_ENOE_2025",
+  "period": "2025 (Q1-Q4 average)",
+  "sources": [
+    {
+      "zip": "enoe_2025_trim1_csv.zip",
+      "sha256": "dddbb698e7f18f63bc256ece61ac0038a5ad062d42aca13390d88828fb27796e"
+    },
+    {
+      "zip": "enoe_2025_trim2_csv.zip",
+      "sha256": "291db61afcc472a0933d2bebf46720cfd024df8912dc899d541d8109bd406722"
+    },
+    {
+      "zip": "enoe_2025_trim3_csv.zip",
+      "sha256": "d2817a14201694e119a3fd6fcb8b8ed7619ea7e26cf8b353761a1ac1f23d6022"
+    },
+    {
+      "zip": "enoe_2025_trim4_csv.zip",
+      "sha256": "e675b41bde4fb3c183a0abd067738109c6aaf30ed314bc9fc548669fb8a1565d"
+    }
+  ],
+  "universe": "r_def = 00, c_res 1 or 3, age 15-98, employed (clase2 = 1); annual = sum of fac_tri over 4 quarters / 4",
+  "layer": "G",
+  "sector_variable": {
+    "source": "COE1 p4a, 2-digit SCIAN sector (D-MX-17)",
+    "pct_employed_same_as_inegi_derived_scian": 99.27
+  },
+  "G1_it_staff_total": 617393,
+  "G1_outside_tech_pct": 92.2,
+  "G1_outside_tech_pct_sensitivity_incl_5411": 60.6,
+  "G1_core_in_5411_professional_services_pct": 31.6,
+  "G1_check_equals_sum_of_core_personas": true,
+  "G2_outside_tech_by_size": {
+    "alone": 50736,
+    "2-10": 70413,
+    "11-50": 102894,
+    "51-250": 99488,
+    "251+": 169231
+  },
+  "G2_outside_tech_size_unknown": 72496,
+  "G3_government_it_staff": 47720,
+  "G3_government_by_sector": {
+    "Administrative services": 319,
+    "Arts and recreation": 32,
+    "Corporate management": 189,
+    "Education": 4746,
+    "Finance and insurance": 110,
+    "Health": 2542,
+    "Information (tech sector: SCIAN 51)": 611,
+    "Manufacturing": 1216,
+    "Mining": 476,
+    "Not specified": 66,
+    "Other services": 8,
+    "Professional and scientific services": 1127,
+    "Public administration and defence": 31898,
+    "Real estate": 37,
+    "Retail commerce": 79,
+    "Transport": 467,
+    "Utilities": 3596,
+    "Wholesale commerce": 201
+  },
+  "G4_public_share_by_persona": {
+    "Software developers and analysts": {
+      "government_employee_pct": 6.6,
+      "public_administration_sector_pct": 4.4
+    },
+    "Database, systems and network professionals": {
+      "government_employee_pct": 8.2,
+      "public_administration_sector_pct": 3.1
+    },
+    "ICT technicians and user support": {
+      "government_employee_pct": 7.3,
+      "public_administration_sector_pct": 5.4
+    },
+    "ICT managers": {
+      "government_employee_pct": 17.9,
+      "public_administration_sector_pct": 15.1
+    },
+    "Designers (graphic, multimedia, product)": {
+      "government_employee_pct": 1.9,
+      "public_administration_sector_pct": 1.6
+    },
+    "Business and management analysts": {
+      "government_employee_pct": 9.2,
+      "public_administration_sector_pct": 6.8
+    },
+    "Finance and investment analysts": {
+      "government_employee_pct": 7.5,
+      "public_administration_sector_pct": 5.9
+    },
+    "Data, statistics and research specialists": {
+      "government_employee_pct": 27.1,
+      "public_administration_sector_pct": 20.7
+    },
+    "Marketing and advertising professionals": {
+      "government_employee_pct": 4.4,
+      "public_administration_sector_pct": 4.7
+    },
+    "Accountants and auditors": {
+      "government_employee_pct": 8.5,
+      "public_administration_sector_pct": 6.9
+    },
+    "Engineers (non-ICT)": {
+      "government_employee_pct": 6.4,
+      "public_administration_sector_pct": 3.1
+    },
+    "Business and operations managers": {
+      "government_employee_pct": 19.6,
+      "public_administration_sector_pct": 8.8
+    },
+    "Higher-education and IT educators": {
+      "government_employee_pct": 35.1,
+      "public_administration_sector_pct": 1.0
+    }
+  }
+}

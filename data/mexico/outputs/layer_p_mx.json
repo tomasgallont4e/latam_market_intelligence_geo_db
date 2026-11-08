@@ -1,0 +1,97 @@
+{
+  "country": "MX",
+  "layer": "P",
+  "inputs": {
+    "K1": 58471,
+    "K5_median": 35,
+    "K6_reach": 2742061,
+    "N1": 5798408,
+    "fix_2025": 19.1996
+  },
+  "facts": [
+    {
+      "metric_id": "P1_schools",
+      "indicator": "Escuelas con alumnos en los grados objetivo (CCT)",
+      "value": 58471,
+      "unit": "escuelas",
+      "status": "verified",
+      "source_id": "SEP_911_2024_2025",
+      "limitations": "Capa K1 (D-MX-12)."
+    },
+    {
+      "metric_id": "P1_median_students_per_school",
+      "indicator": "Mediana de alumnos en grados objetivo por escuela",
+      "value": 35,
+      "unit": "alumnos",
+      "status": "verified",
+      "source_id": "SEP_911_2024_2025",
+      "limitations": "Capa K5."
+    },
+    {
+      "metric_id": "P1_students_reached_cap100",
+      "indicator": "Alumnos alcanzables con un tope de 100 por escuela",
+      "value": 2742061,
+      "unit": "alumnos",
+      "status": "verified",
+      "source_id": "SEP_911_2024_2025",
+      "limitations": "Capa K6."
+    },
+    {
+      "metric_id": "P1_paid_users_at_10pct",
+      "indicator": "Usuarios de pago con la conversión supuesta",
+      "value": 274206,
+      "unit": "usuarios",
+      "status": "assumption",
+      "source_id": "SEP_911_2024_2025",
+      "limitations": "La conversión del 10 % es un supuesto de la plantilla, no una tasa medida."
+    },
+    {
+      "metric_id": "P2_sponsored_team_plans_usd",
+      "indicator": "Planes de equipo patrocinados al año (escuelas × USD 250)",
+      "value": 14617750,
+      "unit": "USD",
+      "status": "scenario",
+      "source_id": "SEP_911_2024_2025",
+      "limitations": "USD 250 por escuela es un escenario de precio no aprobado."
+    },
+    {
+      "metric_id": "P2_sponsored_team_plans_mxn",
+      "indicator": "Planes de equipo patrocinados al año, en pesos",
+      "value": 280654953,
+      "unit": "MXN",
+      "status": "scenario",
+      "source_id": "BANXICO_FIX_2025",
+      "limitations": "Al tipo de cambio FIX promedio de 2025, 19,20 MXN por USD."
+    },
+    {
+      "metric_id": "P3_businesses_per_school",
+      "indicator": "Negocios privados formales por escuela",
+      "value": 99.2,
+      "unit": "negocios por escuela",
+      "status": "verified",
+      "source_id": "INEGI_DENUE_202605",
+      "limitations": "N1 (DENUE 05/2026, universo privado) ÷ K1 (911 2024-2025); periodos distintos, como indica la plantilla."
+    },
+    {
+      "metric_id": "P4_donation_incentive",
+      "indicator": "Incentivo fiscal a donativos para educación",
+      "value": 7,
+      "unit": "porcentaje de la utilidad fiscal (tope)",
+      "status": "to_confirm_with_legal",
+      "source_id": "LISR_DOF_20240401",
+      "limitations": "Ley del ISR art. 27 fr. I: los donativos a donatarias autorizadas son deducibles, con tope del 7 % de la utilidad fiscal del ejercicio anterior. Confirmar el artículo y el tope con el área legal."
+    },
+    {
+      "metric_id": "P5_minors_data",
+      "indicator": "Reglas para datos de menores",
+      "value": "",
+      "unit": "",
+      "status": "verified",
+      "source_id": "LFPDPPP_DOF_20251114",
+      "limitations": "LFPDPPP art. 7: todo tratamiento requiere consentimiento (expreso o tácito); excepciones en el art. 9. La ley no tiene un artículo específico sobre menores; su consentimiento sigue las reglas generales (confirmar con el área legal)."
+    }
+  ],
+  "notes": {
+    "conversion": "The 10% conversion is stated as an assumption on every slide, never as a measured rate."
+  }
+}
