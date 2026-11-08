@@ -302,6 +302,9 @@ select,.form-select,.form-control{
 .place-table th{font:600 10.5px var(--font-body);text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-secondary);border-bottom:1px solid var(--brand-line)}
 .place-table td{border-bottom:1px solid var(--brand-line)}
 .place-table td.num{text-align:right;font-variant-numeric:tabular-nums}
+/* National indicator cards: fixed columns so long values, units and status codes wrap inside the card. */
+.place-table-national{table-layout:fixed;width:100%}.place-table-national th{width:34%}
+.place-table-national td{overflow-wrap:anywhere}
 
 /* raw names (tables/columns/codes are never translated) */
 .raw-name{font-family:var(--font-mono);font-size:.86em;color:var(--color-text-muted);overflow-wrap:anywhere}
