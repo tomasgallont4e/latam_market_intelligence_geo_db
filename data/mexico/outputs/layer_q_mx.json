@@ -128,9 +128,21 @@
     },
     "output_crs": "WGS 84 (EPSG:4326), lon/lat; ITRF2008 treated as WGS84",
     "simplification": {
-      "method": "Douglas–Peucker per ring",
+      "method": "Douglas–Peucker per shared arc (topology-preserving: neighbours keep identical borders)",
       "tolerance_degrees": 0.003,
-      "decimals": 5
+      "decimals": 5,
+      "arcs": {
+        "states": {
+          "simplified": 910,
+          "reused_by_a_neighbour": 155,
+          "rings_without_junction": 369
+        },
+        "municipalities": {
+          "simplified": 10603,
+          "reused_by_a_neighbour": 6710,
+          "rings_without_junction": 452
+        }
+      }
     },
     "counts": {
       "states": 32,
@@ -145,11 +157,12 @@
       "municipalities": 0
     },
     "reference_points_outside_own_polygon": [
-      "20062",
+      "21096",
       "21113",
+      "21133",
       "31028"
     ],
     "name_differences_with_catalogue": [],
-    "limitations": "Web-display boundaries: simplified ring by ring, so neighbouring borders can show small gaps or overlaps. Islets narrower than the tolerance are dropped. Not for area or distance measurement."
+    "limitations": "Web-display boundaries, simplified with shared borders kept identical between neighbours. Islets narrower than the tolerance are dropped. Not for area or distance measurement."
   }
 }

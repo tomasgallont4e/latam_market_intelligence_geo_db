@@ -19,14 +19,14 @@ Municipios con punto de referencia: coordenadas de la localidad cabecera (`CVE_C
 | municipality_code | department_code | name | lat | lon | wkt |
 
 ## geo_department_shape
-Polígonos estatales (MultiPolygon WGS84 lon/lat, 5 decimales). Fuente: INEGI Marco Geoestadístico, `00ent`, reproyectado desde Mexico ITRF2008 LCC y simplificado para web (Douglas–Peucker 0,003°). Capa Q. Filas: 32.
+Polígonos estatales (MultiPolygon WGS84 lon/lat, 5 decimales). Fuente: INEGI Marco Geoestadístico, `00ent`, reproyectado desde Mexico ITRF2008 LCC y simplificado para web (Douglas–Peucker 0,003° por tramo de borde compartido). Capa Q. Filas: 32.
 | department_code | name | geojson |
 
 ## geo_municipality_shape — añadida para México
 Polígonos municipales, mismo tratamiento que los estatales. Fuente: INEGI Marco Geoestadístico, `00mun`. Capa Q. Filas: 2.478.
 | municipality_code | department_code | name | geojson |
 
-Solo para visualización: cada anillo se simplifica por separado, así que los bordes vecinos pueden mostrar pequeños huecos o traslapes, y se omiten islotes más estrechos que la tolerancia.
+Solo para visualización. La simplificación conserva la topología: cada tramo de borde entre dos vecinos se simplifica una sola vez y ambos usan la misma línea, así que no quedan huecos ni traslapes donde INEGI comparte los vértices (quedan diferencias mínimas donde la fuente no los comparte). Se omiten islotes más estrechos que la tolerancia.
 
 ## geo_zone
 Zonas de las ciudades mayores (`decisions_log.csv`, D-MX-05 y D-MX-16): las 16 alcaldías de Ciudad de México (`CMX-<cve_mun>`, `zone_type` = `alcaldia`) y, según *Metrópolis de México 2020* (`zone_type` = `municipio_metropolitano`), los 16 municipios de la Zona Metropolitana de Monterrey (`MTY-`), los 7 de la Zona Metropolitana de Guadalajara (`GDL-`) y los 45 municipios del Estado de México que forman parte de la Zona Metropolitana de la Ciudad de México (`EDM-`; los 2 de Hidalgo quedan fuera). Cada zona es un municipio completo: `municipality_code` es el propio municipio, `geojson` su polígono y `lat`/`lon`/`wkt` su punto de referencia. Capa J. Filas: 84.

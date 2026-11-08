@@ -2,7 +2,8 @@
 // Layer Q (Mexico): state and municipal boundaries from INEGI Marco Geoestadístico (00ent / 00mun).
 // The source is projected (Mexico ITRF2008 LCC, metres); this converts it to WGS84 lon/lat with the
 // inverse Lambert Conformal Conic (2SP) read from the .prj, simplifies each ring like the Peru IGN
-// boundaries (Douglas–Peucker, scripts/convert-peru-departments.js) and writes the Colombia-shaped
+// boundaries (Douglas–Peucker, scripts/convert-peru-departments.js) without breaking shared borders
+// (topology-preserving: each border between neighbours is simplified once) and writes the Colombia-shaped
 // geo_department_shape / geo_municipality_shape tables. ITRF2008 is treated as WGS84 (sub-metre
 // difference, below the simplification tolerance).
 // Usage: node scripts/build-mexico-q-marco.js <raw_dir> [tolerance_degrees=0.003]
@@ -141,17 +142,90 @@ function simplifyRing(ring, tolerance) {
   return result;
 }
 
+// Douglas–Peucker on an open line: both ends are kept (they are junctions shared with other rings).
+function simplifyLine(points, tolerance) {
+  if (points.length <= 2) return points;
+  const sqTolerance = tolerance * tolerance;
+  const keep = new Uint8Array(points.length);
+  keep[0] = 1; keep[points.length - 1] = 1;
+  const stack = [[0, points.length - 1]];
+  while (stack.length) {
+    const [first, last] = stack.pop();
+    let maxDistance = sqTolerance; let index = -1;
+    for (let i = first + 1; i < last; i += 1) {
+      const distance = squaredSegmentDistance(points[i], points[first], points[last]);
+      if (distance > maxDistance) { index = i; maxDistance = distance; }
+    }
+    if (index !== -1) { keep[index] = 1; stack.push([first, index], [index, last]); }
+  }
+  return points.filter((_, i) => keep[i]);
+}
+
+// Topology-preserving simplification of every ring of one layer. INEGI neighbours share their border
+// vertices exactly, so each ring is cut at junctions (a vertex whose neighbours differ between the rings
+// that use it: triple points and the ends of shared borders) and every arc is simplified once, in a
+// canonical direction, then reused by both neighbours. Shared borders therefore stay identical: no gaps
+// or overlaps between neighbours. Rings without junctions (islands) are simplified as closed rings.
+function simplifyTopology(layerRings, tolerance, stats) {
+  const key = (p) => `${p[0]},${p[1]}`;
+  const uses = new Map(); // vertex key → Set of unordered neighbour pairs
+  for (const rings of layerRings) for (const ring of rings) {
+    const n = ring.length - 1; // closed: last == first
+    for (let i = 0; i < n; i += 1) {
+      const a = key(ring[(i - 1 + n) % n]); const b = key(ring[(i + 1) % n]);
+      const k = key(ring[i]);
+      if (!uses.has(k)) uses.set(k, { count: 0, pairs: new Set() });
+      const u = uses.get(k); u.count += 1; u.pairs.add(a < b ? `${a}|${b}` : `${b}|${a}`);
+    }
+  }
+  const isJunction = (p) => { const u = uses.get(key(p)); return u.count > 1 && u.pairs.size > 1; };
+  const cache = new Map();
+  const arcKey = (pts) => `${key(pts[0])}>${key(pts[1])}>${key(pts[pts.length - 1])}#${pts.length}`;
+  const simplifyArc = (arc) => {
+    const forward = arcKey(arc); const reversed = arcKey(arc.slice().reverse());
+    const canonicalForward = forward <= reversed;
+    const k = canonicalForward ? forward : reversed;
+    if (!cache.has(k)) { cache.set(k, simplifyLine(canonicalForward ? arc : arc.slice().reverse(), tolerance)); stats.arcs += 1; } else stats.shared_arcs += 1;
+    const s = cache.get(k);
+    return canonicalForward ? s : s.slice().reverse();
+  };
+  return layerRings.map((rings) => rings.map((ring) => {
+    const n = ring.length - 1;
+    const cuts = [];
+    for (let i = 0; i < n; i += 1) if (isJunction(ring[i])) cuts.push(i);
+    if (!cuts.length) {
+      stats.rings_without_junction += 1;
+      if (uses.get(key(ring[0])).count < 2) return simplifyRing(ring, tolerance); // island: not shared
+      // Enclave: the whole ring is shared with a neighbour's hole. Cut both at the same (smallest) vertex.
+      let first = 0;
+      for (let i = 1; i < n; i += 1) if (key(ring[i]) < key(ring[first])) first = i;
+      cuts.push(first);
+    }
+    // Rotate the ring to start at a junction, then simplify each junction-to-junction arc.
+    const start = cuts[0];
+    const rotated = ring.slice(start, n).concat(ring.slice(0, start)); rotated.push(rotated[0]);
+    const cutSet = new Set(cuts.map((c) => (c - start + n) % n)); cutSet.add(n);
+    const out = [rotated[0]];
+    let from = 0;
+    for (let i = 1; i <= n; i += 1) {
+      if (!cutSet.has(i)) continue;
+      out.push(...simplifyArc(rotated.slice(from, i + 1)).slice(1));
+      from = i;
+    }
+    return out;
+  }));
+}
+
 const round = (p) => [Number(p[0].toFixed(DECIMALS)), Number(p[1].toFixed(DECIMALS))];
 
 // Shapefile outer rings are clockwise, holes counter-clockwise. GeoJSON (RFC 7946): outer CCW, holes CW.
 // Rings that collapse below 4 positions after simplification (islets narrower than the tolerance) are
 // dropped; if every ring of a feature would vanish, its largest ring is kept unsimplified.
-function toMultiPolygon(projectedRings, proj, stats) {
-  const lonlat = projectedRings.map((ring) => ring.map(proj.inverse));
+function toMultiPolygon(lonlat, simplified, stats) {
   const polygons = [];
   let outer = null;
-  lonlat.forEach((raw) => {
-    const ring = simplifyRing(raw, TOLERANCE).map(round);
+  lonlat.forEach((raw, r) => {
+    const ring = simplified[r].map(round);
     const clockwise = signedArea(raw) < 0;
     if (ring.length < 4 || signedArea(ring) === 0) { stats.dropped_rings += 1; if (clockwise) outer = null; return; }
     if (clockwise || !outer) {
@@ -201,11 +275,11 @@ function build(base, codeField, expected) {
   const rows = readDbf(path.join(rawDir, `${base}.dbf`));
   const shapes = readShpRings(path.join(rawDir, `${base}.shp`));
   if (rows.length !== shapes.length) throw new Error(`${base}: DBF/SHP mismatch ${rows.length}/${shapes.length}`);
-  const stats = { dropped_rings: 0, kept_unsimplified: 0 };
-  const features = rows.map((row, i) => {
-    if (!shapes[i]) throw new Error(`${base}: record ${i} (${row[codeField]}) is not a polygon`);
-    return { code: row[codeField], row, geometry: toMultiPolygon(shapes[i], proj, stats) };
-  });
+  const stats = { dropped_rings: 0, kept_unsimplified: 0, arcs: 0, shared_arcs: 0, rings_without_junction: 0 };
+  rows.forEach((row, i) => { if (!shapes[i]) throw new Error(`${base}: record ${i} (${row[codeField]}) is not a polygon`); });
+  const lonlat = shapes.map((rings) => rings.map((ring) => ring.map(proj.inverse)));
+  const simplified = simplifyTopology(lonlat, TOLERANCE, stats);
+  const features = rows.map((row, i) => ({ code: row[codeField], row, geometry: toMultiPolygon(lonlat[i], simplified[i], stats) }));
   const errors = [];
   const codes = new Set(features.map((f) => f.code));
   if (features.length !== expected.size || codes.size !== features.length) errors.push(`${base}: ${features.length} features, ${codes.size} unique codes, catalogue has ${expected.size}`);
@@ -251,13 +325,15 @@ layer.boundaries = {
   source_id: 'INEGI_MARCO_GEOESTADISTICO',
   sources: { states: states.source, municipalities: munis.source },
   output_crs: 'WGS 84 (EPSG:4326), lon/lat; ITRF2008 treated as WGS84',
-  simplification: { method: 'Douglas–Peucker per ring', tolerance_degrees: TOLERANCE, decimals: DECIMALS },
+  simplification: { method: 'Douglas–Peucker per shared arc (topology-preserving: neighbours keep identical borders)', tolerance_degrees: TOLERANCE, decimals: DECIMALS,
+    arcs: { states: { simplified: states.stats.arcs, reused_by_a_neighbour: states.stats.shared_arcs, rings_without_junction: states.stats.rings_without_junction },
+      municipalities: { simplified: munis.stats.arcs, reused_by_a_neighbour: munis.stats.shared_arcs, rings_without_junction: munis.stats.rings_without_junction } } },
   counts: { states: states.features.length, municipalities: munis.features.length },
   dropped_rings: { states: states.stats.dropped_rings, municipalities: munis.stats.dropped_rings },
   kept_unsimplified: { states: states.stats.kept_unsimplified, municipalities: munis.stats.kept_unsimplified },
   reference_points_outside_own_polygon: outside,
   name_differences_with_catalogue: nameDiffs,
-  limitations: 'Web-display boundaries: simplified ring by ring, so neighbouring borders can show small gaps or overlaps. Islets narrower than the tolerance are dropped. Not for area or distance measurement.',
+  limitations: 'Web-display boundaries, simplified with shared borders kept identical between neighbours. Islets narrower than the tolerance are dropped. Not for area or distance measurement.',
 };
 fs.writeFileSync(layerFile, `${JSON.stringify(layer, null, 2)}\n`);
 console.log(JSON.stringify({ tolerance: TOLERANCE, states: states.features.length, municipalities: munis.features.length,
