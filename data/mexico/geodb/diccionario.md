@@ -61,7 +61,7 @@ Persona × ciudad × tipo de comprador (cruce directo, nunca producto de porcent
 | persona | municipality_code | city | buyer_type | employed | interviews |
 
 ## fact_ict_by_sector
-Personal TI (4 personas núcleo) por sector SCIAN del empleador; sector tecnológico = SCIAN 51 (ver la nota de `pct_outside_tech_sector`). Capa G. Suma = total de las 4 personas núcleo.
+Personal TI (4 personas núcleo) por sector SCIAN del empleador. El sector sale del código de actividad P4A (SCIAN a 2 dígitos) para todos los sectores, como Colombia usa una sola variable CIIU (D-MX-17); coincide con el sector derivado de INEGI en el 99,27 % de los ocupados. Sector tecnológico = SCIAN 51 (ver la nota de `pct_outside_tech_sector`). Capa G. Suma = total de las 4 personas núcleo.
 | sector | employed | share_pct |
 
 ## fact_schools_municipality
@@ -103,7 +103,7 @@ Población a mitad de año 2024 por municipio (hombres + mujeres), para el ciclo
 | municipality_code | department_code | year | population |
 
 ## fact_developers_country
-GitHub Innovation Graph, Q1 2026: la fila `MX` de `data/geodb-v2/csv/fact_developers_country.csv`, comprobada campo por campo contra el motor de la capa A (`scripts/build-mexico-a-github.py`). Capa A. Filas: 1.
+GitHub Innovation Graph, Q1 2026: las mismas 18 economías de América Latina que la tabla de Colombia, cada una calculada con el motor de la capa A sobre el mismo archivo y comprobada campo por campo contra `data/geodb-v2/csv/fact_developers_country.csv` (108 de 108 campos iguales; `scripts/build-mexico-a-github.py`). Capa A. Filas: 18.
 | iso2 | country | developers | developers_yoy_pct | organizations | organizations_yoy_pct | pushes_per_dev | enterprise_lang_share_pct |
 
 ## fact_map_indicator — formato de Perú

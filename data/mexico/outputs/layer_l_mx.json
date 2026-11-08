@@ -33,12 +33,12 @@
       "normal": 127938
     },
     "L2_by_subcontrol": {
-      "Federal Transferido": 103437,
+      "Privado": 2101023,
+      "Autónomo": 1691089,
       "Estatal": 879551,
       "Federal": 743883,
-      "Subsidio": 808,
-      "Autónomo": 1691089,
-      "Privado": 2101023
+      "Federal Transferido": 103437,
+      "Subsidio": 808
     },
     "L2_by_modality": {
       "escolarizada": 4059754,

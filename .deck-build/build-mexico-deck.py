@@ -65,7 +65,7 @@ page('México: cobertura de datos', 'RESUMEN',
      '16 de 16 totales publicados conciliados, 31 de 31 fuentes completas y 76 de 76 comprobaciones técnicas.')
 page('Desarrolladores y uso de IA', 'CAPAS A Y B',
      'GitHub: 2.865.151 cuentas de desarrolladores en el primer trimestre de 2026 (+35,1 % interanual) y 92.440 organizaciones (+17,1 %).\n\n'
-     'Stack Overflow 2025: el 82,1 % de los 268 encuestados de México usa herramientas de IA; el 47,0 % las usa a diario.')
+     'Stack Overflow 2025: el 82,1 % de los 268 encuestados de México que respondieron sobre IA (de 286) usa estas herramientas; el 47,0 % las usa a diario.')
 page('Educación superior y talento', 'CAPAS C Y L',
      '5.519.791 estudiantes de educación superior (SEP 911 2024-2025, igual a la cifra publicada).\n\n'
      '330.358 en el campo TIC (6,0 %): 245.244 presenciales, 82.345 de primer ingreso y 48.678 egresados (ANUIES).\n\n'

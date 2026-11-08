@@ -50,13 +50,17 @@ CITIES = {
     '44': ('Mexicali', '02002', 'Mexicali'), '46': ('Reynosa', '28032', 'Reynosa'), '52': ('Tapachula', '07089', 'Tapachula'),
 }
 REST = 'Rest of the country'
-# SDEM 'scian' sector codes; the tech sector is SCIAN 51 plus 5415 (closest to ISIC section J), from COE1 p4a.
+# Sector codes (the SDEM 'scian' numbering) assigned from the activity code COE1 p4a, one variable for every sector as
+# Colombia uses one ISIC variable (D-MX-17); the tech sector is SCIAN 51 (p4a 51xx). INEGI's derived 'scian' is only compared.
 SECTORS = {'1': 'Agriculture', '2': 'Mining', '3': 'Utilities', '4': 'Construction', '5': 'Manufacturing', '6': 'Wholesale commerce',
            '7': 'Retail commerce', '8': 'Transport', '9': 'Information (SCIAN 51)', '10': 'Finance and insurance', '11': 'Real estate',
            '12': 'Professional and scientific services', '13': 'Corporate management', '14': 'Administrative services', '15': 'Education',
            '16': 'Health', '17': 'Arts and recreation', '18': 'Food and lodging', '19': 'Other services',
            '20': 'Public administration and defence', '21': 'Not specified'}
 TECH_LABEL = 'Information (tech sector: SCIAN 51)'
+P4A_SECTOR = {'11': '1', '21': '2', '22': '3', '23': '4', '31': '5', '32': '5', '33': '5', '43': '6', '46': '7', '48': '8', '49': '8',
+              '51': '9', '52': '10', '53': '11', '54': '12', '55': '13', '56': '14', '61': '15', '62': '16', '71': '17', '72': '18',
+              '81': '19', '93': '20'}  # 2-digit SCIAN sector of p4a → sector code; anything else is '21' (not specified)
 SIZE_BANDS = {'01': 'alone', '02': '2-10', '03': '2-10', '04': '11-50', '05': '11-50', '06': '11-50', '07': '11-50',
               '08': '51-250', '09': '51-250', '10': '251+', '11': '251+'}  # ENOE p3q bands; template uses 201+, ENOE splits at 250
 
@@ -144,6 +148,7 @@ if errors:
 # ───────────── Read the four quarters ─────────────
 recs = []  # one tuple per employed person-quarter
 checks, sources = {}, []
+sector_agreement = Counter()  # weight where the p4a sector equals / differs from INEGI's derived scian
 for q in QUARTERS:
     path = os.path.join(micro, f'enoe_2025_trim{q}_csv.zip')
     sources.append({'zip': os.path.basename(path), 'sha256': sha256(path)})
@@ -170,8 +175,10 @@ for q in QUARTERS:
             p3, p3q, p4a, p4e, p4f, p4g = occ
             p3 = p3.zfill(4) if p3.isdigit() else p3
             tech = p4a.startswith('51')  # SCIAN hogares: IT services sit inside 5411 with all professional services
+            sector = P4A_SECTOR.get(p4a[:2], '21')
+            sector_agreement['same' if sector == r['scian'] else 'different'] += w
             recs.append((q, w, persona_of_sinco.get(p3), p3, r['ent'].zfill(2), r['cd_a'].zfill(2), r['pos_ocu'], r['tue3'], p3q,
-                         r['scian'], tech, r['sex'], int(r['eda']), r['cs_p13_1'].zfill(2) if r['cs_p13_1'] else '',
+                         sector, tech, r['sex'], int(r['eda']), r['cs_p13_1'].zfill(2) if r['cs_p13_1'] else '',
                          float(r['ingocup']) if r['ingocup'] not in ('', '0') else None, r['est'][:1], r['ur'], r['tue_ppal'], p4e, p4f, p4g,
                          p4a == '5411'))
     published = PUBLISHED_EMPLOYED_M[q] * 1e6
@@ -270,6 +277,8 @@ ict_by_sector = sorted(({'sector': s, 'employed': round(annual(rs)), 'share_pct'
 outside = [r for r in core if not r[TECH] and known_sector(r)]
 gov = [r for r in core if r[POS] == '1' and r[TUE3] == '1']
 layer_g = {
+    'sector_variable': {'source': 'COE1 p4a, 2-digit SCIAN sector (D-MX-17)',
+                        'pct_employed_same_as_inegi_derived_scian': round(100 * sector_agreement['same'] / sum(sector_agreement.values()), 2)},
     'G1_it_staff_total': round(core_total), 'G1_outside_tech_pct': share(core, lambda r: not r[TECH], known_sector),
     'G1_outside_tech_pct_sensitivity_incl_5411': share(core, lambda r: not (r[TECH] or r[PROF5411]), known_sector),
     'G1_core_in_5411_professional_services_pct': share(core, lambda r: r[PROF5411], known_sector),

@@ -38,7 +38,7 @@ organizaciones (+17,1 %). Los git pushes se duplicaron (+100,4 %). Se usa el
 mismo motor que en Perú, sin cambios.
 
 En la encuesta de Stack Overflow 2025, el 82,1 % de los 268 encuestados de
-México usa herramientas de IA y el 47,0 % las usa a diario. Las celdas con
+México que respondieron la pregunta (de 286) usa herramientas de IA y el 47,0 % las usa a diario. Las celdas con
 pocos encuestados quedan suprimidas, nunca en cero.
 
 ## Dónde se forman y emplean las personas
@@ -153,7 +153,7 @@ técnicas. Como en Perú, R no es una aprobación de negocio.
 |---|---|
 | Workbook Indicators y Sources register | Publicado en `thinkdocuments/mexico/think4ever-mexico-country-template.xlsx` |
 | Tablas agregadas y scripts reproducibles | Publicados en `data/mexico/` y `scripts/build-mexico-*` |
-| Decisiones de método | D-MX-01 a D-MX-16 en `data/mexico/decisions_log.csv` |
+| Decisiones de método | D-MX-01 a D-MX-17 en `data/mexico/decisions_log.csv` |
 | Auditoría técnica | 76 checks aprobados (`node scripts/check-mexico.js`); resumen en `data/mexico/validation/r_checks_mx.json` |
 | Mapa interactivo | Estados, municipios, zonas de cuatro ciudades e indicadores nacionales |
 | Deck de país | Publicado en `thinkdocuments/mexico/deck-output/` |

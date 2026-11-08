@@ -1,24 +1,25 @@
 dimension,category,micro_businesses,pct
 total,micro_businesses,15752397,100.0
-activity,Retail commerce,4268452,27.1
-activity,Agriculture,2666644,16.9
-activity,Other services,1619176,10.3
-activity,Manufacturing,1593417,10.1
-activity,Food and lodging,1591436,10.1
-activity,Construction,1403072,8.9
-activity,Transport,793602,5.0
-activity,Professional and scientific services,587217,3.7
-activity,Health,334393,2.1
-activity,Administrative services,279208,1.8
-activity,Wholesale commerce,174294,1.1
-activity,Arts and recreation,156226,1.0
-activity,Education,108803,0.7
-activity,Real estate,103592,0.7
-activity,Finance and insurance,29491,0.2
-activity,Information (SCIAN 51),21031,0.1
-activity,Not specified,12225,0.1
-activity,Mining,7269,0.0
+activity,Retail commerce,4265502,27.1
+activity,Agriculture,2664813,16.9
+activity,Other services,1620417,10.3
+activity,Manufacturing,1592928,10.1
+activity,Food and lodging,1591866,10.1
+activity,Construction,1405531,8.9
+activity,Transport,792674,5.0
+activity,Professional and scientific services,586373,3.7
+activity,Health,334674,2.1
+activity,Administrative services,279434,1.8
+activity,Wholesale commerce,175336,1.1
+activity,Arts and recreation,156091,1.0
+activity,Education,109329,0.7
+activity,Real estate,104254,0.7
+activity,Finance and insurance,29348,0.2
+activity,Information (SCIAN 51),21062,0.1
+activity,Not specified,12304,0.1
+activity,Mining,7293,0.0
 activity,Utilities,2848,0.0
+activity,Public administration and defence,319,0.0
 position,Own-account worker,12869904,81.7
 position,Employer,2882493,18.3
 owner_sex,Men,9651488,61.3

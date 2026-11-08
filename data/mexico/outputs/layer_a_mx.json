@@ -165,7 +165,13 @@
         "engine": 5.82,
         "ok": true
       }
-    ]
+    ],
+    "benchmark_18_countries": {
+      "countries": 18,
+      "fields_matching": 108,
+      "fields": 108,
+      "differences": []
+    }
   },
   "notes": {
     "period": "Q1 2026 vs Q1 2025, the same quarters and Innovation Graph release as Colombia and Peru. Q2 2026 was published upstream on 2026-10-27 and is not used, to keep the three countries comparable.",

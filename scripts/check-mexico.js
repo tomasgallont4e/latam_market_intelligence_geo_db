@@ -113,6 +113,7 @@ if (data.fact_map_indicator) {
     const dev = data.fact_developers_country.rows.find((r) => r.iso2 === 'MX');
     const a1 = a.find((r) => r.metric_id === 'A1_developer_accounts');
     check('layer_a_benchmark', 'A1 = developers de fact_developers_country (MX)', dev && Number(dev.developers), a1 && Number(a1.value));
+    check('developers_18', 'fact_developers_country: las 18 economías de la tabla de Colombia', 18, new Set(data.fact_developers_country.rows.map((r) => r.iso2)).size);
   }
   const proportionsOk = b.filter((r) => r.value === '' || (Number(r.value) >= 0 && Number(r.value) <= 1)).length;
   check('layer_b_proportions', 'Capa B: proporciones entre 0 y 1 o vacías (suprimidas)', b.length, proportionsOk, b.length > 0 && proportionsOk === b.length);
@@ -239,6 +240,22 @@ if (data.fact_population_municipality) {
   check('e_rows', 'Población 2024: filas únicas con valor positivo', rows.length,
     new Set(rows.filter((r) => Number(r.population) > 0 && r.year === '2024').map((r) => r.municipality_code)).size);
   check('e_coverage', 'Población 2024: municipios del catálogo con proyección (faltan solo los 3 más nuevos)', muni.length - 3, rows.length);
+}
+
+// Layer M (Colombia's 'micro' check): states and every national breakdown add up to M1, within rounding (one unit per row).
+const mFile = path.join(__dirname, '..', 'data', 'mexico', 'outputs', 'layer_m_mx.json');
+if (data.fact_micro_department && data.fact_micro_national && fs.existsSync(mFile)) {
+  const m1 = JSON.parse(fs.readFileSync(mFile, 'utf8')).M1_micro_businesses;
+  const states = data.fact_micro_department.rows;
+  const sumStates = states.reduce((s, r) => s + Number(r.micro_businesses), 0);
+  check('micro', 'Micronegocios por estado = M1 (redondeo)', m1, sumStates, states.length === 32 && Math.abs(sumStates - m1) <= states.length);
+  const dims = new Map();
+  for (const r of data.fact_micro_national.rows) dims.set(r.dimension, (dims.get(r.dimension) || []).concat(r));
+  // site_without_premises breaks down only the businesses without premises, so it adds up to that row instead of M1.
+  const noPremises = Number((data.fact_micro_national.rows.find((r) => r.dimension === 'premises' && r.category === 'No premises') || {}).micro_businesses);
+  const target = (dim) => (dim === 'site_without_premises' ? noPremises : m1);
+  const okDims = [...dims].filter(([dim, rs]) => Math.abs(rs.reduce((s, r) => s + Number(r.micro_businesses), 0) - target(dim)) <= rs.length).length;
+  check('micro_dimensions', 'fact_micro_national: cada dimensión suma M1 (sitio sin local: suma los negocios sin local)', dims.size, okDims);
 }
 
 // Layer D3 (Censos Económicos 2024, reference year 2023): SCIAN 5415 strata add up to the total (D-MX-15).

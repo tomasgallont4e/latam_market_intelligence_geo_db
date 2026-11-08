@@ -310,5 +310,5 @@
       "limitations": "One line per factor, written in the deck from O1-O6."
     }
   ],
-  "evidence_rule": "Every verified fact was matched against its quoted phrase in the source PDF at build time."
+  "evidence_rule": "Every quoted fact was matched against its phrase in the source PDF or page at build time; data-file facts (IMF, Banxico, StatCounter) are read from the supplied files."
 }

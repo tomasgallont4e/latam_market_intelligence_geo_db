@@ -1,6 +1,6 @@
 # México: datos del estudio de país
 
-Estructura para incorporar los datos de México siguiendo la plantilla de investigación por países (capas A–R). Las tablas de salida conservan la forma de Colombia (`data/geodb-v2/csv/`, `diccionario.md`) para que el país pueda cargarse en la misma base y compararse con Colombia y Perú.
+Estructura para incorporar los datos de México siguiendo la plantilla de investigación por países (capas A–R). Las tablas de salida conservan la forma de Colombia (`data/geodb-v2/csv/`, `diccionario.md`) para compararse con Colombia y Perú. La aplicación lee México desde estos archivos (D-MX-01); el cargador y el esquema de `data/geodb-v2` son solo de Colombia, y algunas columnas cambian por país (por ejemplo `median_income_mxn` en lugar de `median_income_cop`).
 
 ## Carpetas
 
@@ -8,7 +8,7 @@ Estructura para incorporar los datos de México siguiendo la plantilla de invest
 |---|---|---|
 | `raw/` | Archivos oficiales descargados una sola vez, sin modificar. Ver `raw/README.md`. | No (solo su README) |
 | `outputs/` | Un JSON por capa (`layer_<x>_mx.json`), producido por los scripts; cada fila lleva su clave geográfica. | Sí |
-| `geodb/csv/` | Tablas con la forma de Colombia (`geo_department`, `geo_municipality`, `fact_persona_profile`, …), más `diccionario.md`, `meta_sources.csv` y `manifest.csv`. | Sí |
+| `geodb/csv/` | Tablas con la forma de Colombia (`geo_department`, `geo_municipality`, `fact_persona_profile`, …) y `meta_sources.csv`. El contrato de cada tabla está en `geodb/diccionario.md`. | Sí |
 | `validation/` | Resultados de las comprobaciones de la capa R (totales publicados, uniones de códigos, sumas). | Sí |
 | `sources_register.csv` | Registro de fuentes (R2): fuente, URL, periodo, archivo, SHA-256, licencia y script de cada cifra. | Sí |
 | `decisions_log.csv` | Decisiones metodológicas y desviaciones de la plantilla. | Sí |
@@ -26,16 +26,16 @@ Los scripts van en `scripts/` con el prefijo `build-mexico-<capa>` y reciben la 
 
 ## Periodos de referencia
 
-Según el registro de fuentes de México (28-oct-2026):
+Periodo previsto según el registro de fuentes de México (28-oct-2026) y periodo usado en los datos publicados:
 
-| Capas | Periodo |
-|---|---|
-| A | GitHub Innovation Graph 2026 Q1 |
-| B | Stack Overflow Developer Survey, última edición |
-| C, K, L | Ciclo escolar 2025-2026 (respaldo conjunto: 2024-2025) |
-| D, J, N | DENUE 05/2026 (pasan juntas a 11/2026 si se procesan después del 25-nov-2026) |
-| E | Población CONAPO 2025 (2024 si C usa 2024-2025) |
-| F, G, H, M | ENOE 2025, promedio de los trimestres 1 a 4 |
-| I, O | 2025 (excepción: ENIF 2024); leyes vigentes en octubre de 2026 |
-| P | Ciclo 2025-2026 + DENUE 05/2026 |
-| Q | Catálogo Único, octubre de 2026 |
+| Capas | Periodo previsto | Periodo usado |
+|---|---|---|
+| A | GitHub Innovation Graph 2026 Q1 | 2026 Q1 frente a 2025 Q1 |
+| B | Stack Overflow Developer Survey, última edición | Encuesta 2025 |
+| C, K, L | Ciclo escolar 2025-2026 (respaldo conjunto: 2024-2025) | Ciclo 2024-2025, el respaldo (D-MX-11) |
+| D, J, N | DENUE 05/2026 (pasan juntas a 11/2026 si se procesan después del 25-nov-2026) | DENUE 05/2026; D3 usa los Censos Económicos 2024, referencia 2023 (D-MX-15) |
+| E | Población CONAPO 2025 (2024 si C usa 2024-2025) | 2024 |
+| F, G, H, M | ENOE 2025, promedio de los trimestres 1 a 4 | ENOE 2025, trimestres 1 a 4; M4 usa los Censos Económicos 2024, referencia 2023 (D-MX-15) |
+| I, O | 2025 (excepción: ENIF 2024); leyes vigentes en octubre de 2026 | 2025 (ENIF 2024); leyes vigentes en 2026 |
+| P | Ciclo 2025-2026 + DENUE 05/2026 | Ciclo 2024-2025 + DENUE 05/2026 |
+| Q | Catálogo Único, octubre de 2026 | Catálogo Único con cortes de 2025-12 a 2026-10 y Marco Geoestadístico |

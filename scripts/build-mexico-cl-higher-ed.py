@@ -261,7 +261,7 @@ layer_c = {**common, 'layer': 'C', 'indicators': {
 layer_l = {**common, 'layer': 'L', 'indicators': {
     'L1_students': total, 'L1_institutions': len(institutions), 'L1_schools': len({x['school'] for x in records if x['students'] > 0}),
     'L2_by_level': dict(level_totals),
-    'L2_by_subcontrol': dict(Counter({k: sum(x['students'] for x in records if x['subcontrol'] == k) for k in {x['subcontrol'] for x in records}})),
+    'L2_by_subcontrol': dict(Counter({k: sum(x['students'] for x in records if x['subcontrol'] == k) for k in {x['subcontrol'] for x in records}}).most_common()),
     'L2_by_modality': {'escolarizada': sum(x['students'] for x in records if x['mode'] == 'esc'), 'no_escolarizada': sum(x['students'] for x in records if x['mode'] == 'no_esc')},
     'L3_ict_share': ict['L3_ict_share_pct'] if ict else None,
     **({k: v for k, v in ict.items() if k.startswith(('L3_by', 'L4_ict', 'ict_', 'L5_tecnm'))} if ict else {}),

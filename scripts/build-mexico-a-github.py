@@ -1,9 +1,9 @@
 """Layer A (Mexico): GitHub Innovation Graph, 2026Q1 vs 2025Q1.
 Runs the Peru Day 1 FINAL engine unchanged (layer_a_country.py, release 1.0.10, commit 078fb62) for MX,
-re-runs it for PE as a reproduction check against Peru's published map rows, and cross-checks MX
-against the Think4ever LATAM breakdown already in data/geodb-v2/csv/fact_developers_country.csv.
-Writes the Peru-format files (a_github_*_mx.csv), the layer JSON, the MX rows of
-fact_developers_country and the layer A rows of fact_map_indicator.
+re-runs it for PE as a reproduction check against Peru's published map rows, and runs it for the 18 LATAM economies
+of Colombia's data/geodb-v2/csv/fact_developers_country.csv, cross-checking every field against that table.
+Writes the Peru-format files (a_github_*_mx.csv), the layer JSON, fact_developers_country (the same 18 economies
+as Colombia's) and the layer A rows of fact_map_indicator.
 
 Usage: python -I scripts/build-mexico-a-github.py <innovationgraph_repo_dir> [repo_dir]
 """
@@ -69,26 +69,39 @@ for r in pe:
 if not all(x['ok'] for x in reproduction):
     errors.append('Peru reproduction failed: ' + ', '.join(x['indicator_id'] for x in reproduction if not x['ok']))
 
-# Cross-check with the Think4ever LATAM breakdown already loaded for Colombia (fact_developers_country).
+# fact_developers_country: the same 18 LATAM economies as Colombia's table, each computed by the engine from the same
+# Innovation Graph checkout and cross-checked field by field against Colombia's row (decision of 2026-11-07).
+co_rows = read_csv(CO_DEVS)
+TOL = {'developers': 0, 'developers_yoy_pct': 0.05, 'organizations': 0, 'organizations_yoy_pct': 0.05, 'pushes_per_dev': 0.005,
+       'enterprise_lang_share_pct': 0.005}
+
+
+def dev_row(ind, iso, name):
+    v = {r['indicator_id']: float(r['value']) for r in ind}
+    return {'iso2': iso, 'country': name, 'developers': int(v['A1_developer_accounts']),
+            'developers_yoy_pct': round(100 * v['A1_developer_accounts_yoy'], 1), 'organizations': int(v['A2_organizations']),
+            'organizations_yoy_pct': round(100 * v['A2_organizations_yoy'], 1), 'pushes_per_dev': round(v['A3_pushes_per_developer_account'], 2),
+            'enterprise_lang_share_pct': round(100 * v['A5_enterprise_share_earlier_method'], 2)}
+
+
 by_id = {r['indicator_id']: float(r['value']) for r in mx}
-co_row = next(r for r in read_csv(CO_DEVS) if r['iso2'] == 'MX')
-benchmark = [
-    ('developers', float(co_row['developers']), by_id['A1_developer_accounts'], 0),
-    ('developers_yoy_pct', float(co_row['developers_yoy_pct']), round(100 * by_id['A1_developer_accounts_yoy'], 1), 0.05),
-    ('organizations', float(co_row['organizations']), by_id['A2_organizations'], 0),
-    ('organizations_yoy_pct', float(co_row['organizations_yoy_pct']), round(100 * by_id['A2_organizations_yoy'], 1), 0.05),
-    ('pushes_per_dev', float(co_row['pushes_per_dev']), round(by_id['A3_pushes_per_developer_account'], 2), 0.005),
-    ('enterprise_lang_share_pct', float(co_row['enterprise_lang_share_pct']), round(100 * by_id['A5_enterprise_share_earlier_method'], 2), 0.005),
-]
-benchmark = [{'field': f, 'fact_developers_country': b, 'engine': e, 'ok': abs(b - e) <= tol + 1e-9} for f, b, e, tol in benchmark]
+dev_rows, benchmark_all = [], []
+with tempfile.TemporaryDirectory() as tmp:
+    for co in co_rows:
+        ind = mx if co['iso2'] == 'MX' else run_engine(co['iso2'], os.path.join(tmp, co['iso2']))
+        row = dev_row(ind, co['iso2'], co['country'])
+        dev_rows.append(row)
+        for field, tol in TOL.items():
+            b, e = float(co[field]), float(row[field])
+            benchmark_all.append({'iso2': co['iso2'], 'field': field, 'fact_developers_country': b, 'engine': e, 'ok': abs(b - e) <= tol + 1e-9})
+benchmark = [{k: v for k, v in x.items() if k != 'iso2'} for x in benchmark_all if x['iso2'] == 'MX']
 if errors:
     sys.exit('Layer A checks failed:\n' + '\n'.join(errors))
 
-# fact_developers_country: the Colombia table's MX row, verified above against the engine.
 with open(os.path.join(CSV_DIR, 'fact_developers_country.csv'), 'w', encoding='utf-8', newline='') as f:
-    w = csv.DictWriter(f, fieldnames=list(co_row), lineterminator='\n')
+    w = csv.DictWriter(f, fieldnames=list(co_rows[0]), lineterminator='\n')
     w.writeheader()
-    w.writerow(co_row)
+    w.writerows(dev_rows)
 
 benchmark_note = ('Matches the Think4ever LATAM breakdown (data/geodb-v2/csv/fact_developers_country.csv, MX row).'
                   if all(b['ok'] for b in benchmark) else 'Differs from the Think4ever LATAM breakdown; see layer_a_mx.json benchmark.')
@@ -115,7 +128,9 @@ layer = {
     'top_languages_2026Q1': [{'rank': int(l['rank_in_period']), 'language': l['language'], 'pushers': int(l['num_pushers'])} for l in top_now],
     'engine_meta': meta,
     'checks': {'peru_reproduction': {'rows': len(reproduction), 'all_equal': True},
-               'benchmark_fact_developers_country': benchmark},
+               'benchmark_fact_developers_country': benchmark,
+               'benchmark_18_countries': {'countries': len(dev_rows), 'fields_matching': sum(x['ok'] for x in benchmark_all),
+                                          'fields': len(benchmark_all), 'differences': [x for x in benchmark_all if not x['ok']]}},
     'notes': {
         'period': 'Q1 2026 vs Q1 2025, the same quarters and Innovation Graph release as Colombia and Peru. Q2 2026 was published upstream on 2026-10-27 and is not used, to keep the three countries comparable.',
         'A4_A5': 'Fastest-growing threshold and enterprise basket inherit the Chile/Peru precedents, still pending methodological validation (decisions D-03, D-04 of the Day 1 packages).',
