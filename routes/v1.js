@@ -7,6 +7,7 @@
 //   POST /v1/load            → reloads the 27 CSVs (lib/loader.js), then validates
 //   GET  /v1/tables          → every table: COUNT(*), meta_sources source/year, has_geo
 //   GET  /v1/tables/:table/rows?page=&q= → 25-row pages (whitelisted table names only)
+const crypto = require('crypto');
 const express = require('express');
 const pool = require('../db/pool');
 const { computeAcceptance } = require('../lib/acceptance');
@@ -26,6 +27,20 @@ const wrap = (fn) => async (req, res) => {
     res.status(e.status || 500).json({ error: e.message });
   }
 };
+
+// Write endpoints (validate / load) are closed unless ADMIN_API_TOKEN is set in the
+// service env and the caller sends the same value in the x-admin-token header.
+// Without the variable they answer 403; loads then run only from scripts/load.js.
+function requireAdmin(req, res, next) {
+  const token = process.env.ADMIN_API_TOKEN;
+  if (!token) return res.status(403).json({ error: 'Operación deshabilitada en este entorno' });
+  const sent = Buffer.from(String(req.get('x-admin-token') || ''));
+  const expected = Buffer.from(token);
+  if (sent.length !== expected.length || !crypto.timingSafeEqual(sent, expected)) {
+    return res.status(401).json({ error: 'No autorizado' });
+  }
+  next();
+}
 
 function httpError(status, message) {
   const e = new Error(message);
@@ -73,7 +88,7 @@ router.get('/v1/acceptance', wrap(async () => {
   };
 }));
 
-router.post('/v1/validate', wrap(async (req) => {
+router.post('/v1/validate', requireAdmin, wrap(async (req) => {
   if (busy) throw httpError(409, `Operación en curso: ${busy}`);
   busy = 'validate';
   try {
@@ -128,7 +143,7 @@ router.get('/v1/tables', wrap(async () => listTables()));
 router.get('/v1/tables/:table/rows', wrap(async (req) =>
   tableRows(req.params.table, req.query.page, req.query.q)));
 
-router.post('/v1/load', wrap(async () => {
+router.post('/v1/load', requireAdmin, wrap(async () => {
   if (busy) throw httpError(409, `Operación en curso: ${busy}`);
   busy = 'load';
   try {
